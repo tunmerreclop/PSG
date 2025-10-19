@@ -82,7 +82,6 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇵🇱 PL | 🔒 VLESS | @config_proxy [58]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
@@ -111,7 +110,6 @@
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
-                "🇮🇹 IT | 🔒 VLESS | @free4allvpn [18]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
@@ -154,7 +152,6 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇵🇱 PL | 🔒 VLESS | @config_proxy [58]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
@@ -183,7 +180,6 @@
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
-                "🇮🇹 IT | 🔒 VLESS | @free4allvpn [18]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
@@ -351,29 +347,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇵🇱 PL | 🔒 VLESS | @config_proxy [58]",
-            "type": "vless",
-            "server": "poland.aliusvpn.ru",
-            "server_port": 8443,
-            "uuid": "80db8cee-bd3d-4dde-a3b2-02b6cdb70d99",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg",
-                    "short_id": "44103f58@V2rayNGVPN <= کانفیگ رایگان"
-                }
             }
         },
         {
@@ -1049,29 +1022,6 @@
                     "enabled": true,
                     "public_key": "PTlW40u-tHGDlObhSKFN4tntrfHLgNPlHqg1oYqyY1o",
                     "short_id": "b5ecd44d"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇹 IT | 🔒 VLESS | @free4allvpn [18]",
-            "type": "vless",
-            "server": "147.45.51.160",
-            "server_port": 443,
-            "uuid": "3e7f67de-648e-4871-b51a-a225214d41ee",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "api.company-target.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw",
-                    "short_id": ""
                 }
             }
         },
