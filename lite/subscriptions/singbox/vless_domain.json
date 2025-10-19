@@ -223,6 +223,7 @@
                 "🚩 CF | 🔓 VLESS | @proxycrone [5]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
+                "🚩 CF | 🔒 VLESS | @prrofile_purple [151]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
                 "❔ XX | 🔓 VLESS | @pusyvpn [9]",
@@ -254,6 +255,7 @@
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
                 "❔ XX | 🔓 VLESS | @v2ray_iran88 [8]",
                 "❔ XX | 🔓 VLESS | @v2ray_iran88 [9]",
+                "🇨🇭 CH | 🔒 VLESS | @v2ray_sub [32]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -431,6 +433,7 @@
                 "🚩 CF | 🔓 VLESS | @proxycrone [5]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
+                "🚩 CF | 🔒 VLESS | @prrofile_purple [151]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
                 "❔ XX | 🔓 VLESS | @pusyvpn [9]",
@@ -462,6 +465,7 @@
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
                 "❔ XX | 🔓 VLESS | @v2ray_iran88 [8]",
                 "❔ XX | 🔓 VLESS | @v2ray_iran88 [9]",
+                "🇨🇭 CH | 🔒 VLESS | @v2ray_sub [32]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -2856,6 +2860,31 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔒 VLESS | @prrofile_purple [151]",
+            "type": "vless",
+            "server": "asl-uwiisjjsjdjd-7665.pages.dev",
+            "server_port": 443,
+            "uuid": "0481141b-2807-48f9-8ebc-0b405d2f7d00",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "asl-uwiisjjsjdjd-7665.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/evcszpmoerkdnesg?ed=2560fp=chrome",
+                "headers": {
+                    "Host": "asl-uwiisjjsjdjd-7665.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔒 VLESS | @public504 [10]",
             "type": "vless",
             "server": "cloud.ns.g01e.nochofscu.sbs",
@@ -3378,6 +3407,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇭 CH | 🔒 VLESS | @v2ray_sub [32]",
+            "type": "vless",
+            "server": "che-0001-xr.packet-drop-society.net",
+            "server_port": 443,
+            "uuid": "701c0432-aecc-4aa6-b461-20d3db19bdf3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws",
+                    "short_id": "e499f276e7bd6420"
                 }
             }
         },
