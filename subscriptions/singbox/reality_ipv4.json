@@ -94,7 +94,7 @@
                 "KingRezaPahlavi",
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
-                "🇬🇧 GB | 🔒 VLESS | @config_proxy [58]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [51]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -175,7 +175,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2logy [5]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇳🇱 NL | 🔒 VLESS | @v2raych [7]",
+                "🇬🇧 GB | 🔒 VLESS | @v2raych [10]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -217,7 +217,7 @@
                 "KingRezaPahlavi",
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
-                "🇬🇧 GB | 🔒 VLESS | @config_proxy [58]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [51]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -298,7 +298,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2logy [5]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇳🇱 NL | 🔒 VLESS | @v2raych [7]",
+                "🇬🇧 GB | 🔒 VLESS | @v2raych [10]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -460,25 +460,25 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [58]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [51]",
             "type": "vless",
-            "server": "212.134.84.110",
-            "server_port": 443,
-            "uuid": "f4578658-5536-409b-a916-c28cd7039eba",
+            "server": "216.133.149.220",
+            "server_port": 38578,
+            "uuid": "7739bcdc-8475-4fd8-b1d3-97e6de23f2ca",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "pcmag.com",
+                "server_name": "aws.amazon.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "KrybS-rh1L3Edjk3MqOxN23oSzCrcOSG75QTM41YURY",
-                    "short_id": "7650f522feeb047d"
+                    "public_key": "aYIEObwd0Wjdav5sgume_twOXwyARa_iXm-SwsAfyGs",
+                    "short_id": ""
                 }
             }
         },
@@ -2394,30 +2394,26 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @v2raych [7]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @v2raych [10]",
             "type": "vless",
-            "server": "45.89.110.227",
+            "server": "212.134.84.110",
             "server_port": 443,
-            "uuid": "839fde0d-552c-46da-929c-60511e6bca76",
+            "uuid": "f4578658-5536-409b-a916-c28cd7039eba",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.google.com",
+                "server_name": "pcmag.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "safari"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "EULIFV6_Z6idSQUsWx3UcG8iKBuA-HvLqyur8SlRmVQ",
-                    "short_id": "2f8c5445d1a6b661"
+                    "public_key": "KrybS-rh1L3Edjk3MqOxN23oSzCrcOSG75QTM41YURY",
+                    "short_id": "7650f522feeb047d"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "4b6188799397e396e0ddf397"
             }
         },
         {

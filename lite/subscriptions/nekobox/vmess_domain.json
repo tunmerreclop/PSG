@@ -124,7 +124,8 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🇫🇷 FR | 🔒 VMESS | @mowjproxy [4]",
+                "🚩 CF | 🔒 VMESS | @mowjproxy [1]",
+                "🇫🇷 FR | 🔒 VMESS | @mowjproxy [3]",
                 "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🇭🇰 HK | 🔓 VMESS | @netfreedom0 [20]",
@@ -228,7 +229,8 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🇫🇷 FR | 🔒 VMESS | @mowjproxy [4]",
+                "🚩 CF | 🔒 VMESS | @mowjproxy [1]",
+                "🇫🇷 FR | 🔒 VMESS | @mowjproxy [3]",
                 "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🇭🇰 HK | 🔓 VMESS | @netfreedom0 [20]",
@@ -1059,7 +1061,32 @@
             "alter_id": 0
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VMESS | @mowjproxy [4]",
+            "tag": "🚩 CF | 🔒 VMESS | @mowjproxy [1]",
+            "type": "vmess",
+            "server": "104.17.148.22",
+            "server_port": 2083,
+            "uuid": "8ae65664-84e8-40e1-9708-9236f0808dfd",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "api3.waltonweb.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/panel?ed=2560",
+                "headers": {
+                    "Host": "api3.waltonweb.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 VMESS | @mowjproxy [3]",
             "type": "vmess",
             "server": "91.134.8.100",
             "server_port": 443,
