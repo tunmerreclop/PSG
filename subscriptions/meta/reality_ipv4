@@ -24,6 +24,10 @@ dns:
 
 proxies: 
   - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]","type":"vless","server":"157.245.24.38","port":2087,"uuid":"f475c570-eba2-4a74-9948-d22ce8492aff","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"ame.spsvps.com","reality-opts":{"public-key":"HQdpA2sAkxUHghPtT8EUA1zPqkq_tz8ncwQM2zNkCS4","short-id":"b359bc5c70c21d55"}}
+  - {"name":"🇬🇧 GB | 🔒 VLESS | @config_proxy [36]","type":"vless","server":"212.134.84.112","port":443,"uuid":"6fbb83fa-2457-4ea8-8302-b2d603f66682","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"www.cdn77.com","reality-opts":{"public-key":"D-c_-GNBPK7GOl4mR8I6ODJ_Po3fog8AMkiWO7IJFRA","short-id":"da7c33beb3c1b0"}}
+  - {"name":"🇬🇧 GB | 🔒 VLESS | @config_proxy [39]","type":"vless","server":"212.134.84.112","port":443,"uuid":"6fbb83fa-2457-4ea8-8302-b2d603f66682","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"www.cdn77.com","reality-opts":{"public-key":"D-c_-GNBPK7GOl4mR8I6ODJ_Po3fog8AMkiWO7IJFRA","short-id":"da7c33beb3c1b0"}}
+  - {"name":"🇺🇸 US | 🔒 VLESS | @config_proxy [44]","type":"vless","server":"15.204.158.132","port":2083,"uuid":"db691578-580d-416c-8e95-97a5e92ecaff","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"servername":"tgju.org","reality-opts":{"public-key":"b14Nibi1pMPwFPqgiyZRS3a6-Y-Q8EsE5urKnA-RkAc","short-id":"adf8a1f5689177a2"}}
+  - {"name":"🇳🇱 NL | 🔒 VLESS | @config_proxy [46]","type":"vless","server":"109.120.150.205","port":443,"uuid":"0ba6ab83-ed33-4544-98b0-dcacb52799cd","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"ad.mail.ru","flow":"xtls-rprx-vision","reality-opts":{"public-key":"GofDu1_VYmj-QvNZZShKrPEw5_rAVDpxohAwZwJ8cjw","short-id":"a60d"}}
   - {"name":"🇩🇪 DE | 🔒 VLESS | @configasli [1]","type":"vless","server":"5.75.188.7","port":34912,"uuid":"f37a3f7d-4fe9-4ff5-837d-f83bbe858dfa","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"grpc-opts":{"grpc-service-name":"Telegram"},"reality-opts":{"public-key":"75RdXuyHgMsLX1ltbK-mz77sL6KjI8eREmMJ-Z6s9Es"}}
   - {"name":"🇩🇪 DE | 🔒 VLESS | @configasli [2]","type":"vless","server":"5.75.188.7","port":27166,"uuid":"b57a412b-ea74-4fe6-a5ed-1722b4067531","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"grpc-opts":{"grpc-service-name":"Channel"},"reality-opts":{"public-key":"DE1wFv0DWjtMlfx0Bg72g8LYBO4uZmNQ3qykWZZhW20"}}
   - {"name":"🇩🇪 DE | 🔒 VLESS | @configasli [3]","type":"vless","server":"5.75.188.7","port":30379,"uuid":"461165b6-cb6d-474e-9581-49c4f04851bb","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"grpc-opts":{"grpc-service-name":"Telegram"},"reality-opts":{"public-key":"vjqGSWcZcVvR-bcNDzBap4B4AcupRQn-7W9KCZTCOAM"}}
@@ -126,6 +130,10 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]'
+      - '🇬🇧 GB | 🔒 VLESS | @config_proxy [36]'
+      - '🇬🇧 GB | 🔒 VLESS | @config_proxy [39]'
+      - '🇺🇸 US | 🔒 VLESS | @config_proxy [44]'
+      - '🇳🇱 NL | 🔒 VLESS | @config_proxy [46]'
       - '🇩🇪 DE | 🔒 VLESS | @configasli [1]'
       - '🇩🇪 DE | 🔒 VLESS | @configasli [2]'
       - '🇩🇪 DE | 🔒 VLESS | @configasli [3]'
