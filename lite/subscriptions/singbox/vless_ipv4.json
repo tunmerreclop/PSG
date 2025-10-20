@@ -96,8 +96,7 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇵🇱 PL | 🔓 VLESS | @config_proxy [49]",
-                "🇫🇷 FR | 🔒 VLESS | @config_proxy [50]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [40]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -142,8 +141,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "❔ XX | 🔒 VLESS | @hope_net [18]",
-                "🇩🇪 DE | 🔓 VLESS | @hope_net [20]",
+                "🇩🇪 DE | 🔓 VLESS | @hope_net [18]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -278,8 +276,7 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇵🇱 PL | 🔓 VLESS | @config_proxy [49]",
-                "🇫🇷 FR | 🔒 VLESS | @config_proxy [50]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [40]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -324,8 +321,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "❔ XX | 🔒 VLESS | @hope_net [18]",
-                "🇩🇪 DE | 🔓 VLESS | @hope_net [20]",
+                "🇩🇪 DE | 🔓 VLESS | @hope_net [18]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -614,32 +610,16 @@
             }
         },
         {
-            "tag": "🇵🇱 PL | 🔓 VLESS | @config_proxy [49]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [40]",
             "type": "vless",
-            "server": "57.128.198.226",
-            "server_port": 80,
-            "uuid": "5402dc3b-206e-4ae8-a58d-4fd27a59e142",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/vless/",
-                "headers": {
-                    "Host": "57.128.198.226"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @config_proxy [50]",
-            "type": "vless",
-            "server": "195.42.233.158",
+            "server": "172.66.47.23",
             "server_port": 443,
-            "uuid": "2ac027da-fede-4873-bd0c-80b1167654eb",
+            "uuid": "38720105-063f-40f5-a5eb-f3198b9b617d",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "195.42.233.158",
+                "server_name": "aksnmaioas.pages.dev",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -648,9 +628,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/dcgfdfws",
+                "path": "/Telegram@V2ray_Alpha/?ed=2048",
                 "headers": {
-                    "Host": "195.42.233.158"
+                    "Host": "aksnmaioas.pages.dev"
                 }
             }
         },
@@ -1413,25 +1393,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @hope_net [18]",
-            "type": "vless",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "bbaaacc-acba-cbaa-bcad-cbcaccbaaabb",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "127.0.0.1",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @hope_net [20]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @hope_net [18]",
             "type": "vless",
             "server": "49.13.174.247",
             "server_port": 30533,
