@@ -101,8 +101,8 @@
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🚩 CF | 🔓 VMESS | @config_proxy [30]",
-                "🚩 CF | 🔓 VMESS | @config_proxy [31]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [35]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [36]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
@@ -213,9 +213,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🚩 CF | 🔓 VMESS | @hope_net [18]",
+                "🇺🇸 US | 🔓 VMESS | @hope_net [18]",
                 "🇺🇸 US | 🔒 SS | @hope_net [19]",
-                "🇺🇸 US | 🔓 VMESS | @hope_net [20]",
+                "🇺🇸 US | 🔒 VLESS | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -365,8 +365,7 @@
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "❔ XX | 🔒 VLESS | @netazadchannel [4]",
                 "🇺🇸 US | 🔒 SS | @netfreedom0 [18]",
-                "🇺🇸 US | 🔒 SS | @netfreedom0 [19]",
-                "🇭🇰 HK | 🔓 VMESS | @netfreedom0 [20]",
+                "🇭🇰 HK | 🔓 VMESS | @netfreedom0 [19]",
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [14]",
                 "🇬🇧 GB | 🔓 VLESS | @netmellianti [15]",
                 "🇦🇪 AE | 🔓 VLESS | @netmellianti [16]",
@@ -646,8 +645,8 @@
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🚩 CF | 🔓 VMESS | @config_proxy [30]",
-                "🚩 CF | 🔓 VMESS | @config_proxy [31]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [35]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [36]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
@@ -758,9 +757,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🚩 CF | 🔓 VMESS | @hope_net [18]",
+                "🇺🇸 US | 🔓 VMESS | @hope_net [18]",
                 "🇺🇸 US | 🔒 SS | @hope_net [19]",
-                "🇺🇸 US | 🔓 VMESS | @hope_net [20]",
+                "🇺🇸 US | 🔒 VLESS | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -910,8 +909,7 @@
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "❔ XX | 🔒 VLESS | @netazadchannel [4]",
                 "🇺🇸 US | 🔒 SS | @netfreedom0 [18]",
-                "🇺🇸 US | 🔒 SS | @netfreedom0 [19]",
-                "🇭🇰 HK | 🔓 VMESS | @netfreedom0 [20]",
+                "🇭🇰 HK | 🔓 VMESS | @netfreedom0 [19]",
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [14]",
                 "🇬🇧 GB | 🔓 VLESS | @netmellianti [15]",
                 "🇦🇪 AE | 🔓 VLESS | @netmellianti [16]",
@@ -1596,34 +1594,52 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @config_proxy [30]",
-            "type": "vmess",
-            "server": "104.26.7.132",
-            "server_port": 2095,
-            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
-            "security": "auto",
-            "alter_id": 0,
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [35]",
+            "type": "vless",
+            "server": "bitpay.com",
+            "server_port": 443,
+            "uuid": "568db765-6970-40c8-8087-83ea9ba2429e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "rAyAn-007.pArAsToO.DpDnS.OrG",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/github.com/Alvin9999",
+                "path": "/?ed=2560",
                 "headers": {
-                    "Host": ""
+                    "Host": "rAyAn-007.pArAsToO.DpDnS.OrG"
                 }
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @config_proxy [31]",
-            "type": "vmess",
-            "server": "172.64.166.32",
-            "server_port": 2095,
-            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
-            "security": "auto",
-            "alter_id": 0,
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [36]",
+            "type": "vless",
+            "server": "45.131.7.195",
+            "server_port": 2053,
+            "uuid": "08cb0591-5193-4a0c-9105-ceb09fba67fe",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "AeEye-52235.zephorium.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/github.com/Alvin9999",
+                "path": "/",
                 "headers": {
-                    "Host": ""
+                    "Host": "AeEye-52235.zephorium.uk"
                 }
             }
         },
@@ -3380,31 +3396,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @hope_net [18]",
-            "type": "vmess",
-            "server": "172.64.175.213",
-            "server_port": 2095,
-            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/github.com/Alvin9999",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 SS | @hope_net [19]",
-            "type": "shadowsocks",
-            "server": "15.204.87.217",
-            "server_port": 6379,
-            "method": "aes-256-gcm",
-            "password": "zDNVedRFPQexG9v"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VMESS | @hope_net [20]",
+            "tag": "🇺🇸 US | 🔓 VMESS | @hope_net [18]",
             "type": "vmess",
             "server": "b.besar.homes",
             "server_port": 443,
@@ -3425,6 +3417,39 @@
                 "path": "/linkvws",
                 "headers": {
                     "Host": "b.besar.homes"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 SS | @hope_net [19]",
+            "type": "shadowsocks",
+            "server": "15.204.87.217",
+            "server_port": 5499,
+            "method": "aes-256-gcm",
+            "password": "lGqs95QkFHo2NV"
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @hope_net [20]",
+            "type": "vless",
+            "server": "151.101.2.133",
+            "server_port": 443,
+            "uuid": "ca30e3f6-7487-4f3e-9f6f-5c2430ee2a6d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "live.wkrq.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "live.wkrq.com"
                 }
             }
         },
@@ -5798,21 +5823,13 @@
         {
             "tag": "🇺🇸 US | 🔒 SS | @netfreedom0 [18]",
             "type": "shadowsocks",
-            "server": "45.87.175.178",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "4a2rfixophdjffa8KVA4Aa"
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 SS | @netfreedom0 [19]",
-            "type": "shadowsocks",
             "server": "45.87.175.158",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "k1dBOmOB4oqi7Ump37a1bQ"
         },
         {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @netfreedom0 [20]",
+            "tag": "🇭🇰 HK | 🔓 VMESS | @netfreedom0 [19]",
             "type": "vmess",
             "server": "8.218.175.64",
             "server_port": 9754,
