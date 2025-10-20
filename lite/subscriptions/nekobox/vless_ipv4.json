@@ -85,7 +85,6 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇫🇷 FR | 🔒 VLESS | @config_proxy [42]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -129,7 +128,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇺🇸 US | 🔓 VLESS | @hope_net [18]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -149,7 +147,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @kopltall_vpn [7]",
                 "🇮🇷 IR | 🔓 VLESS | @lakvpn1 [7]",
                 "🇮🇷 IR | 🔓 VLESS | @loatvpn [6]",
-                "🚩 CF | 🔓 VLESS | @lranonline_new [5]",
+                "🚩 CF | 🔓 VLESS | @lranonline_new [3]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [65]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇸🇪 SE | 🔓 VLESS | @meli_v2rayng [24]",
@@ -266,7 +264,6 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇫🇷 FR | 🔒 VLESS | @config_proxy [42]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -310,7 +307,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇺🇸 US | 🔓 VLESS | @hope_net [18]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -330,7 +326,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @kopltall_vpn [7]",
                 "🇮🇷 IR | 🔓 VLESS | @lakvpn1 [7]",
                 "🇮🇷 IR | 🔓 VLESS | @loatvpn [6]",
-                "🚩 CF | 🔓 VLESS | @lranonline_new [5]",
+                "🚩 CF | 🔓 VLESS | @lranonline_new [3]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [65]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇸🇪 SE | 🔓 VLESS | @meli_v2rayng [24]",
@@ -616,31 +612,6 @@
                 "path": "/veNbt06rF0tTFtp6/MTcyLjY0LjEzNC41OA==?ed=2560",
                 "headers": {
                     "Host": "SpEedteST.NET"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @config_proxy [42]",
-            "type": "vless",
-            "server": "13.37.92.123",
-            "server_port": 22222,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "telegram-channel-vlessconfig.sohala.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/telegram-channel-vlessconfig-ws",
-                "headers": {
-                    "Host": "telegram-channel-vlessconfig.sohala.uk"
                 }
             }
         },
@@ -1373,22 +1344,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @hope_net [18]",
-            "type": "vless",
-            "server": "151.101.192.155",
-            "server_port": 80,
-            "uuid": "bb181744-7a03-4ac2-8a9d-cbd88aefdfc8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/Channel,SPDNET,SPDNET?ed=443",
-                "headers": {
-                    "Host": "151.101.192.155"
-                }
-            }
-        },
-        {
             "tag": "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
             "type": "vless",
             "server": "92.114.24.92",
@@ -1705,7 +1660,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @lranonline_new [5]",
+            "tag": "🚩 CF | 🔓 VLESS | @lranonline_new [3]",
             "type": "vless",
             "server": "172.66.156.81",
             "server_port": 80,

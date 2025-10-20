@@ -83,7 +83,7 @@
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [4]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [31]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [37]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -92,11 +92,13 @@
                 "🇺🇸 US | 🔓 VLESS | @megavpn_link [1]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [19]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
+                "🚩 CF | 🔓 VLESS | @v2raych [14]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [1]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [6]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [10]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [3]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [16]",
@@ -172,7 +174,7 @@
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [4]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [31]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [37]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -181,11 +183,13 @@
                 "🇺🇸 US | 🔓 VLESS | @megavpn_link [1]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [19]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
+                "🚩 CF | 🔓 VLESS | @v2raych [14]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [1]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [6]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [10]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [3]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [16]",
@@ -365,11 +369,11 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [31]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [37]",
             "type": "vless",
-            "server": "alo007.sernett.ir",
+            "server": "Speedtest.net",
             "server_port": 80,
-            "uuid": "SERVERNETT-SERVERNETT1",
+            "uuid": "c349a35c-2a04-4ab3-a84e-0d3fa49c4186",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -446,6 +450,15 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🚩 CF | 🔓 VLESS | @v2raych [14]",
+            "type": "vless",
+            "server": "alo007.sernett.ir",
+            "server_port": 80,
+            "uuid": "SERVERNETT-SERVERNETT1",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "❔ XX | 🔓 VLESS | @vmesskhodam [1]",
             "type": "vless",
             "server": "sss46544.tas-bazi.com",
@@ -516,6 +529,29 @@
             "uuid": "7619bae4-4256-440a-a599-0814ad47b8c9",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
+            "type": "vless",
+            "server": "91.98.95.106",
+            "server_port": 443,
+            "uuid": "2c519fe6-bc8c-45ea-975a-3daa490e53df",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "pALBOb42lFneGFIOXJsaUoOXaTYycke6lWZR2a3LEh4",
+                    "short_id": ""
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [3]",

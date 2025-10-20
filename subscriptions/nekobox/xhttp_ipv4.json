@@ -81,6 +81,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [3]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [16]",
@@ -154,6 +155,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [3]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [16]",
@@ -313,6 +315,29 @@
             "uuid": "7619bae4-4256-440a-a599-0814ad47b8c9",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
+            "type": "vless",
+            "server": "91.98.95.106",
+            "server_port": 443,
+            "uuid": "2c519fe6-bc8c-45ea-975a-3daa490e53df",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "pALBOb42lFneGFIOXJsaUoOXaTYycke6lWZR2a3LEh4",
+                    "short_id": ""
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [3]",

@@ -92,7 +92,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [43]",
+                "🇫🇮 FI | 🔓 VLESS | @config_proxy [47]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -160,7 +160,6 @@
                 "🚩 CF | 🔓 VLESS | @lockey_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [14]",
-                "🇩🇪 DE | 🔓 VLESS | @lranonline_new [4]",
                 "🇩🇪 DE | 🔓 VLESS | @luckyvpn [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [2]",
@@ -196,7 +195,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [19]",
                 "🚩 CF | 🔓 VLESS | @novinology [16]",
-                "🇺🇸 US | 🔒 VLESS | @orange_vpns [16]",
+                "🚩 CF | 🔒 VLESS | @orange_vpns [16]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "🚩 CF | 🔒 VLESS | @proxy48 [13]",
                 "❔ XX | 🔓 VLESS | @proxy48 [15]",
@@ -303,7 +302,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [43]",
+                "🇫🇮 FI | 🔓 VLESS | @config_proxy [47]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -371,7 +370,6 @@
                 "🚩 CF | 🔓 VLESS | @lockey_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [14]",
-                "🇩🇪 DE | 🔓 VLESS | @lranonline_new [4]",
                 "🇩🇪 DE | 🔓 VLESS | @luckyvpn [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [2]",
@@ -407,7 +405,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [19]",
                 "🚩 CF | 🔓 VLESS | @novinology [16]",
-                "🇺🇸 US | 🔒 VLESS | @orange_vpns [16]",
+                "🚩 CF | 🔒 VLESS | @orange_vpns [16]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "🚩 CF | 🔒 VLESS | @proxy48 [13]",
                 "❔ XX | 🔓 VLESS | @proxy48 [15]",
@@ -791,13 +789,29 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [43]",
+            "tag": "🇫🇮 FI | 🔓 VLESS | @config_proxy [47]",
             "type": "vless",
-            "server": "alo007.sernett.ir",
-            "server_port": 80,
-            "uuid": "SERVERNETT-SERVERNETT1",
+            "server": "mci.itbookshop.dpdns.org",
+            "server_port": 443,
+            "uuid": "d03f15dc-a623-4c48-945c-473aec192a1a",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "mci.itbookshop.dpdns.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "mci.itbookshop.dpdns.org"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -1972,22 +1986,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @lranonline_new [4]",
-            "type": "vless",
-            "server": "fs2.greenetplus.ir",
-            "server_port": 36158,
-            "uuid": "06b13d5c-d8d0-4385-b321-17986328a79d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "fs2.greenetplus.ir"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @luckyvpn [1]",
             "type": "vless",
             "server": "paris.get.raskolnikov.ir",
@@ -2557,7 +2555,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @orange_vpns [16]",
+            "tag": "🚩 CF | 🔒 VLESS | @orange_vpns [16]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 443,
