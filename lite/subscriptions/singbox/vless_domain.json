@@ -105,6 +105,7 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇸🇮 SI | 🔒 VLESS | @config_proxy [47]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -210,7 +211,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [19]",
                 "🚩 CF | 🔓 VLESS | @novinology [16]",
-                "🇺🇸 US | 🔒 VLESS | @orange_vpns [15]",
+                "🚩 CF | 🔒 VLESS | @orange_vpns [15]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "🚩 CF | 🔒 VLESS | @proxy48 [13]",
                 "❔ XX | 🔓 VLESS | @proxy48 [15]",
@@ -279,7 +280,6 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🚩 CF | 🔓 VLESS | @vmesc [17]",
                 "🇹🇷 TR | 🔓 VLESS | @vmesskhodam [13]",
                 "🇦🇺 AU | 🔓 VLESS | @vmessorg [2]",
                 "🇫🇷 FR | 🔓 VLESS | @vmessorg [3]",
@@ -319,6 +319,7 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇸🇮 SI | 🔒 VLESS | @config_proxy [47]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -424,7 +425,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [19]",
                 "🚩 CF | 🔓 VLESS | @novinology [16]",
-                "🇺🇸 US | 🔒 VLESS | @orange_vpns [15]",
+                "🚩 CF | 🔒 VLESS | @orange_vpns [15]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "🚩 CF | 🔒 VLESS | @proxy48 [13]",
                 "❔ XX | 🔓 VLESS | @proxy48 [15]",
@@ -493,7 +494,6 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🚩 CF | 🔓 VLESS | @vmesc [17]",
                 "🇹🇷 TR | 🔓 VLESS | @vmesskhodam [13]",
                 "🇦🇺 AU | 🔓 VLESS | @vmessorg [2]",
                 "🇫🇷 FR | 🔓 VLESS | @vmessorg [3]",
@@ -825,6 +825,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇸🇮 SI | 🔒 VLESS | @config_proxy [47]",
+            "type": "vless",
+            "server": "tunnyl.ru",
+            "server_port": 8443,
+            "uuid": "fcfa7f51-154d-48f4-857f-0e3c5edaed0a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "M_vyGgaMp6Unz28r-3jFP-VwRoY39Edhn_0bQPknqmc",
+                    "short_id": "08f6093b944bd385"
+                }
             }
         },
         {
@@ -2601,7 +2624,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @orange_vpns [15]",
+            "tag": "🚩 CF | 🔒 VLESS | @orange_vpns [15]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 443,
@@ -3835,15 +3858,6 @@
                 "type": "grpc",
                 "service_name": "okala.com"
             }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @vmesc [17]",
-            "type": "vless",
-            "server": "alo007.sernett.ir",
-            "server_port": 80,
-            "uuid": "SERVERNETT-SERVERNETT1",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇹🇷 TR | 🔓 VLESS | @vmesskhodam [13]",
