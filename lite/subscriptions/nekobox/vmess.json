@@ -86,8 +86,7 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🚩 CF | 🔒 VMESS | @config_proxy [44]",
-                "🚩 CF | 🔒 VMESS | @config_proxy [45]",
+                "🇸🇪 SE | 🔓 VMESS | @config_proxy [44]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇳🇱 NL | 🔓 VMESS | @custom_14 [6]",
@@ -193,8 +192,7 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🚩 CF | 🔒 VMESS | @config_proxy [44]",
-                "🚩 CF | 🔒 VMESS | @config_proxy [45]",
+                "🇸🇪 SE | 🔓 VMESS | @config_proxy [44]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇳🇱 NL | 🔓 VMESS | @custom_14 [6]",
@@ -474,45 +472,18 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VMESS | @config_proxy [44]",
+            "tag": "🇸🇪 SE | 🔓 VMESS | @config_proxy [44]",
             "type": "vmess",
-            "server": "office.andishehnegariran.ir",
-            "server_port": 2096,
-            "uuid": "2f5b5307-19a5-44ff-915e-0c8eeee5a424",
+            "server": "185.146.173.25",
+            "server_port": 80,
+            "uuid": "ae29b062-a871-42d8-8407-8000a7270897",
             "security": "auto",
             "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "office.andishehnegariran.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VMESS | @config_proxy [45]",
-            "type": "vmess",
-            "server": "info.andishehnegariran.ir",
-            "server_port": 8443,
-            "uuid": "b651fb80-79ea-48e5-b9f2-54ff0a8f3207",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "info.andishehnegariran.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/🆔@M3HDIO1",
+                "path": "/",
                 "headers": {
-                    "Host": "info.andishehnegariran.ir"
+                    "Host": ""
                 }
             }
         },

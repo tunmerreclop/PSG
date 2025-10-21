@@ -96,7 +96,8 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇨🇿 CZ | 🔒 VLESS | @config_proxy [43]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [43]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [45]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -141,7 +142,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🚩 CF | 🔒 VLESS | @hope_net [18]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -190,6 +190,7 @@
                 "🚩 CF | 🔒 VLESS | @new_proxy_channel [9]",
                 "🚩 CF | 🔒 VLESS | @novinology [15]",
                 "🇨🇭 CH | 🔓 VLESS | @oonfig [2]",
+                "🇨🇭 CH | 🔓 VLESS | @oonfig [3]",
                 "🚩 CF | 🔒 VLESS | @orange_vpns [16]",
                 "🚩 CF | 🔒 VLESS | @orange_vpns [17]",
                 "🇫🇮 FI | 🔓 VLESS | @outline_ir [15]",
@@ -276,7 +277,8 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇨🇿 CZ | 🔒 VLESS | @config_proxy [43]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [43]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [45]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -321,7 +323,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🚩 CF | 🔒 VLESS | @hope_net [18]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -370,6 +371,7 @@
                 "🚩 CF | 🔒 VLESS | @new_proxy_channel [9]",
                 "🚩 CF | 🔒 VLESS | @novinology [15]",
                 "🇨🇭 CH | 🔓 VLESS | @oonfig [2]",
+                "🇨🇭 CH | 🔓 VLESS | @oonfig [3]",
                 "🚩 CF | 🔒 VLESS | @orange_vpns [16]",
                 "🚩 CF | 🔒 VLESS | @orange_vpns [17]",
                 "🇫🇮 FI | 🔓 VLESS | @outline_ir [15]",
@@ -610,30 +612,53 @@
             }
         },
         {
-            "tag": "🇨🇿 CZ | 🔒 VLESS | @config_proxy [43]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [43]",
             "type": "vless",
-            "server": "194.182.79.252",
-            "server_port": 37814,
-            "uuid": "d5f63b9e-780a-472a-9d1b-e2088087a037",
-            "flow": "xtls-rprx-vision",
+            "server": "91.99.177.36",
+            "server_port": 443,
+            "uuid": "77dacbb9-eb50-487e-adc7-f1f2cb4cb19c",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
+                "server_name": "91.99.177.36",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "rk5UKshtrRPf3achXqaxQgA-7EryZABGx6fSXv35D14",
-                    "short_id": "10a5"
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "t.me/entryNET"
+                "type": "ws",
+                "path": "/linkws?ed",
+                "headers": {
+                    "Host": "91.99.177.36"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [45]",
+            "type": "vless",
+            "server": "45.80.111.26",
+            "server_port": 2053,
+            "uuid": "08cb0591-5193-4a0c-9105-ceb09fba67fe",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "iYjnx-71195.zephorium.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "iYjnx-71195.zephorium.uk"
+                }
             }
         },
         {
@@ -1391,31 +1416,6 @@
                 "path": "/ViraV2ray/?ed=2560",
                 "headers": {
                     "Host": "199.232.193.57"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @hope_net [18]",
-            "type": "vless",
-            "server": "188.114.98.61",
-            "server_port": 443,
-            "uuid": "48198295-b7ba-4b5c-8d85-085d55a6c869",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ax.ylks.xyz",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2048",
-                "headers": {
-                    "Host": "ax.ylks.xyz"
                 }
             }
         },
@@ -2237,6 +2237,15 @@
             "server": "141.11.164.233",
             "server_port": 11366,
             "uuid": "feae6dd7-8adc-423b-eda7-7eb4a5289b54",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇨🇭 CH | 🔓 VLESS | @oonfig [3]",
+            "type": "vless",
+            "server": "141.11.164.233",
+            "server_port": 11366,
+            "uuid": "dce1e7b5-60ab-4446-bb95-97e1234df5d6",
             "flow": "",
             "packet_encoding": "xudp"
         },

@@ -83,7 +83,7 @@
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [4]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [9]",
-                "❔ XX | 🔓 VLESS | @config_proxy [41]",
+                "❔ XX | 🔓 VLESS | @config_proxy [33]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -98,6 +98,8 @@
                 "❔ XX | 🔓 VLESS | @vmesskhodam [11]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [5]",
+                "🇫🇮 FI | 🔓 VLESS | @config_proxy [38]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [6]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [12]",
@@ -174,7 +176,7 @@
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [4]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [9]",
-                "❔ XX | 🔓 VLESS | @config_proxy [41]",
+                "❔ XX | 🔓 VLESS | @config_proxy [33]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -189,6 +191,8 @@
                 "❔ XX | 🔓 VLESS | @vmesskhodam [11]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [5]",
+                "🇫🇮 FI | 🔓 VLESS | @config_proxy [38]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [6]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [12]",
@@ -369,7 +373,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @config_proxy [41]",
+            "tag": "❔ XX | 🔓 VLESS | @config_proxy [33]",
             "type": "vless",
             "server": "speedy.mooo.info",
             "server_port": 80,
@@ -529,6 +533,47 @@
             "uuid": "7619bae4-4256-440a-a599-0814ad47b8c9",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇫🇮 FI | 🔓 VLESS | @config_proxy [38]",
+            "type": "vless",
+            "server": "95.217.7.102",
+            "server_port": 443,
+            "uuid": "079f2974-e5b6-4528-9ae4-2b311db5bfff",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
+            "type": "vless",
+            "server": "188.245.193.183",
+            "server_port": 443,
+            "uuid": "Warpi-Free-Vpn-In-GooglePlay",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "HTmgtYAdc4266sqGG1zMSYcsMPJfWJfxgaJEKCMiFww",
+                    "short_id": "f8f87a"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [6]",
