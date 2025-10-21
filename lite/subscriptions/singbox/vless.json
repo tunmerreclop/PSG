@@ -102,11 +102,11 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [18]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
-                "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
+                "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [45]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [44]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
@@ -295,6 +295,7 @@
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [45]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -494,11 +495,11 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [18]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
-                "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
+                "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [45]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [44]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
@@ -687,6 +688,7 @@
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [45]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -1125,7 +1127,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
+            "tag": "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
             "type": "vless",
             "server": "www.wappalyzer.com",
             "server_port": 2095,
@@ -1141,7 +1143,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
+            "tag": "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2095,
@@ -1157,7 +1159,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
+            "tag": "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
             "type": "vless",
             "server": "www.wappalyzer.com",
             "server_port": 2095,
@@ -1200,20 +1202,27 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [45]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [44]",
             "type": "vless",
-            "server": "cdn.chandplus.com",
-            "server_port": 443,
-            "uuid": "14e4cf26-44e1-4888-ba87-e5e6ba3a6b0f",
+            "server": "www.visa.com.sg",
+            "server_port": 8443,
+            "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "cdn.chandplus.com",
+                "server_name": "azadnet-dbi.pages.dev",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "azadnet-dbi.pages.dev"
                 }
             }
         },
@@ -4419,6 +4428,31 @@
                 "path": "/veNbt06rF0tTFtp6/MTcyLjY0LjEzNC41OA==?ed=2560",
                 "headers": {
                     "Host": "SpEedteST.NET"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [45]",
+            "type": "vless",
+            "server": "104.17.147.22",
+            "server_port": 443,
+            "uuid": "17e9f875-ded1-4d30-946d-f17a8b98c8a3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "q.dioxv002.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "q.dioxv002.workers.dev"
                 }
             }
         },
