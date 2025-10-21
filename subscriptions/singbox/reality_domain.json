@@ -144,6 +144,9 @@
                 "🇨🇭 CH | 🔒 VLESS | @v2ray_sub [32]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇦🇹 AT | 🔒 VLESS | @v2raych [9]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raych [10]",
+                "🇨🇭 CH | 🔒 VLESS | @v2raych [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [9]",
@@ -249,6 +252,9 @@
                 "🇨🇭 CH | 🔒 VLESS | @v2ray_sub [32]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇦🇹 AT | 🔒 VLESS | @v2raych [9]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raych [10]",
+                "🇨🇭 CH | 🔒 VLESS | @v2raych [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [9]",
@@ -1669,6 +1675,75 @@
                     "enabled": true,
                     "public_key": "2dIWbgD8nbCd1YBs-IiQ6vgA7mse9PA9DWqaIMFsTmc",
                     "short_id": "cb333964"
+                }
+            }
+        },
+        {
+            "tag": "🇦🇹 AT | 🔒 VLESS | @v2raych [9]",
+            "type": "vless",
+            "server": "aut-0001-xr.packet-drop-society.net",
+            "server_port": 443,
+            "uuid": "701c0432-aecc-4aa6-b461-20d3db19bdf3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws",
+                    "short_id": "31"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @v2raych [10]",
+            "type": "vless",
+            "server": "nld-0001-xr.packet-drop-society.net",
+            "server_port": 443,
+            "uuid": "701c0432-aecc-4aa6-b461-20d3db19bdf3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws",
+                    "short_id": "d3b13f31"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇭 CH | 🔒 VLESS | @v2raych [14]",
+            "type": "vless",
+            "server": "che-0001-xr.packet-drop-society.net",
+            "server_port": 443,
+            "uuid": "701c0432-aecc-4aa6-b461-20d3db19bdf3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws",
+                    "short_id": "e499f276e7bd6420"
                 }
             }
         },
