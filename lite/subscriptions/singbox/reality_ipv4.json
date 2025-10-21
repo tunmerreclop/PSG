@@ -92,6 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇬🇧 GB | 🔒 VLESS | @evay_vpn [21]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -131,6 +132,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇬🇧 GB | 🔒 VLESS | @evay_vpn [21]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -242,6 +244,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
+            "type": "vless",
+            "server": "188.245.193.183",
+            "server_port": 443,
+            "uuid": "Warpi-Free-Vpn-In-GooglePlay",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "HTmgtYAdc4266sqGG1zMSYcsMPJfWJfxgaJEKCMiFww",
+                    "short_id": "f8f87a"
                 }
             }
         },
