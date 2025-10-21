@@ -94,7 +94,7 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇵🇱 PL | 🔒 VLESS | @config_proxy [44]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [44]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
@@ -211,7 +211,7 @@
                 "🚩 CF | 🔓 VLESS | @proxycrone [5]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🚩 CF | 🔒 VLESS | @prrofile_purple [151]",
+                "🚩 CF | 🔒 VLESS | @prrofile_purple [144]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
                 "❔ XX | 🔓 VLESS | @pusyvpn [9]",
@@ -306,7 +306,7 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇵🇱 PL | 🔒 VLESS | @config_proxy [44]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [44]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
@@ -423,7 +423,7 @@
                 "🚩 CF | 🔓 VLESS | @proxycrone [5]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🚩 CF | 🔒 VLESS | @prrofile_purple [151]",
+                "🚩 CF | 🔒 VLESS | @prrofile_purple [144]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
                 "❔ XX | 🔓 VLESS | @pusyvpn [9]",
@@ -832,25 +832,27 @@
             }
         },
         {
-            "tag": "🇵🇱 PL | 🔒 VLESS | @config_proxy [44]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [44]",
             "type": "vless",
-            "server": "poland20.clearorbitllc.com",
-            "server_port": 443,
-            "uuid": "e3847ec6-b2fc-4eb2-b919-174d986f882c",
-            "flow": "xtls-rprx-vision",
+            "server": "zula.ir",
+            "server_port": 2096,
+            "uuid": "97909ffd-6da0-4893-9d63-00e72ad55256",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "poland20.clearorbitllc.com",
+                "server_name": "frAgteSt.JaHANGiRKh.eU.orG",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "oNYCpjXjcYAV9qSWBt95N9dDUPhc_QnauJZ3kSJVeSQ",
-                    "short_id": "2a22"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "frAgteSt.JaHANGiRKh.eU.orG"
                 }
             }
         },
@@ -2841,7 +2843,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @prrofile_purple [151]",
+            "tag": "🚩 CF | 🔒 VLESS | @prrofile_purple [144]",
             "type": "vless",
             "server": "asl-uwiisjjsjdjd-7665.pages.dev",
             "server_port": 443,

@@ -92,6 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [45]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇬🇧 GB | 🔒 VLESS | @evay_vpn [21]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -120,7 +121,8 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]"
+                "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -131,6 +133,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [45]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇬🇧 GB | 🔒 VLESS | @evay_vpn [21]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -159,7 +162,8 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]"
+                "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -242,6 +246,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [45]",
+            "type": "vless",
+            "server": "167.172.185.117",
+            "server_port": 443,
+            "uuid": "e4a4438f-585b-4555-b8e3-f032def5819c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "PxUNgm0eZte9F8f8ntMTADWX-37SzRBvlLGLvlOH9lo",
+                    "short_id": ""
                 }
             }
         },
@@ -925,6 +952,29 @@
                     "enabled": true,
                     "public_key": "RELg-Z1AXhG9945I_8hN884Z5Txd9ZxI92sl4jHzXWU",
                     "short_id": "ec01ceda"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [15]",
+            "type": "vless",
+            "server": "5.75.200.229",
+            "server_port": 2819,
+            "uuid": "6370988e-c35a-4aa8-91ef-a844ad6807b4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Bww66JbVQTVqtOQANUB83ahLBd-x_Z1oGfaukps0ylU",
+                    "short_id": "be61b9c3e7482053"
                 }
             }
         }

@@ -94,7 +94,6 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇵🇱 PL | 🔒 VLESS | @config_proxy [44]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
@@ -123,6 +122,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [45]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇬🇧 GB | 🔒 VLESS | @evay_vpn [21]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -152,9 +152,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [15]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
-                "❔ XX | 🔒 VLESS | @kesslervpn [2]",
-                "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [12]"
+                "❔ XX | 🔒 VLESS | @kesslervpn [2]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -167,7 +167,6 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇵🇱 PL | 🔒 VLESS | @config_proxy [44]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
@@ -196,6 +195,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [45]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇬🇧 GB | 🔒 VLESS | @evay_vpn [21]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -225,9 +225,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [15]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
-                "❔ XX | 🔒 VLESS | @kesslervpn [2]",
-                "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [12]"
+                "❔ XX | 🔒 VLESS | @kesslervpn [2]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -361,29 +361,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇵🇱 PL | 🔒 VLESS | @config_proxy [44]",
-            "type": "vless",
-            "server": "poland20.clearorbitllc.com",
-            "server_port": 443,
-            "uuid": "e3847ec6-b2fc-4eb2-b919-174d986f882c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "poland20.clearorbitllc.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "oNYCpjXjcYAV9qSWBt95N9dDUPhc_QnauJZ3kSJVeSQ",
-                    "short_id": "2a22"
-                }
             }
         },
         {
@@ -1059,6 +1036,29 @@
                     "enabled": true,
                     "public_key": "277HDYaNIvLYS9CMSr1CbkcTaahPEUCymW_0Ad17p2M",
                     "short_id": "f2"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [45]",
+            "type": "vless",
+            "server": "167.172.185.117",
+            "server_port": 443,
+            "uuid": "e4a4438f-585b-4555-b8e3-f032def5819c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "PxUNgm0eZte9F8f8ntMTADWX-37SzRBvlLGLvlOH9lo",
+                    "short_id": ""
                 }
             }
         },
@@ -1746,6 +1746,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [15]",
+            "type": "vless",
+            "server": "5.75.200.229",
+            "server_port": 2819,
+            "uuid": "6370988e-c35a-4aa8-91ef-a844ad6807b4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Bww66JbVQTVqtOQANUB83ahLBd-x_Z1oGfaukps0ylU",
+                    "short_id": "be61b9c3e7482053"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔒 VLESS | @deli_servers [2]",
             "type": "vless",
             "server": "[2a01:4f8:c012:81c0::1]",
@@ -1792,29 +1815,6 @@
                     "enabled": true,
                     "public_key": "WeBcvXnjj4LbVsAT2lTbZ3JbvoqE4S_rON9h-7DjrHo",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [12]",
-            "type": "vless",
-            "server": "2604:2dc0:105:4f00::fbeb:6038",
-            "server_port": 443,
-            "uuid": "f031aaf9-2fa4-4e47-b6b6-b31515778a94",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "MvHAa605zfOrBe-SDP6_ytTmotBw39f6OefvXn2DZhk",
-                    "short_id": "98990f747a"
                 }
             }
         }
