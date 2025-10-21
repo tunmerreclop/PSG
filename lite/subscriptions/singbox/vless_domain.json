@@ -106,7 +106,7 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [53]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
@@ -316,7 +316,7 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [53]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
@@ -836,13 +836,22 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [53]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [45]",
             "type": "vless",
-            "server": "a-lf-0.okamii.ir",
-            "server_port": 2095,
-            "uuid": "19b7d4d8-de95-41cf-b270-a310cc21f151",
+            "server": "cdn.chandplus.com",
+            "server_port": 443,
+            "uuid": "14e4cf26-44e1-4888-ba87-e5e6ba3a6b0f",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.chandplus.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",

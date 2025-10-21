@@ -86,7 +86,7 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🇺🇸 US | 🔓 VMESS | @config_proxy [52]",
+                "🇨🇳 CN | 🔓 VMESS | @config_proxy [46]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇳🇱 NL | 🔓 VMESS | @custom_14 [6]",
@@ -104,7 +104,8 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [4]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🚩 CF | 🔓 VMESS | @hope_net [18]",
+                "🚩 CF | 🔓 VMESS | @hope_net [19]",
+                "🚩 CF | 🔓 VMESS | @hope_net [20]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -114,7 +115,7 @@
                 "❔ XX | 🔓 VMESS | @khoneproxy [14]",
                 "🇬🇧 GB | 🔓 VMESS | @khoneproxy [15]",
                 "🇮🇷 IR | 🔓 VMESS | @komail315 [4]",
-                "🇬🇧 GB | 🔒 VMESS | @kurdistan_vpn_perfectt [10]",
+                "🇨🇦 CA | 🔒 VMESS | @kurdistan_vpn_perfectt [10]",
                 "🇩🇪 DE | 🔓 VMESS | @magickey_shop [2]",
                 "❔ XX | 🔓 VMESS | @mahsaproxy [2]",
                 "❔ XX | 🔓 VMESS | @mahsaproxy [3]",
@@ -192,7 +193,7 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🇺🇸 US | 🔓 VMESS | @config_proxy [52]",
+                "🇨🇳 CN | 🔓 VMESS | @config_proxy [46]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇳🇱 NL | 🔓 VMESS | @custom_14 [6]",
@@ -210,7 +211,8 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [4]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🚩 CF | 🔓 VMESS | @hope_net [18]",
+                "🚩 CF | 🔓 VMESS | @hope_net [19]",
+                "🚩 CF | 🔓 VMESS | @hope_net [20]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -220,7 +222,7 @@
                 "❔ XX | 🔓 VMESS | @khoneproxy [14]",
                 "🇬🇧 GB | 🔓 VMESS | @khoneproxy [15]",
                 "🇮🇷 IR | 🔓 VMESS | @komail315 [4]",
-                "🇬🇧 GB | 🔒 VMESS | @kurdistan_vpn_perfectt [10]",
+                "🇨🇦 CA | 🔒 VMESS | @kurdistan_vpn_perfectt [10]",
                 "🇩🇪 DE | 🔓 VMESS | @magickey_shop [2]",
                 "❔ XX | 🔓 VMESS | @mahsaproxy [2]",
                 "❔ XX | 🔓 VMESS | @mahsaproxy [3]",
@@ -472,29 +474,13 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @config_proxy [52]",
+            "tag": "🇨🇳 CN | 🔓 VMESS | @config_proxy [46]",
             "type": "vmess",
-            "server": "e.darat.homes",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "112.132.215.12",
+            "server_port": 50002,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
-            "alter_id": 1,
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkvws",
-                "headers": {
-                    "Host": ""
-                }
-            }
+            "alter_id": 0
         },
         {
             "tag": "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -774,16 +760,50 @@
             "alter_id": 0
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @hope_net [18]",
+            "tag": "🚩 CF | 🔓 VMESS | @hope_net [19]",
             "type": "vmess",
-            "server": "104.18.24.92",
-            "server_port": 2052,
+            "server": "188.114.97.8",
+            "server_port": 443,
             "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
             "security": "auto",
             "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/afrhms16v.bestxray.buzz/linkws",
+                "path": "/linkws",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VMESS | @hope_net [20]",
+            "type": "vmess",
+            "server": "104.18.206.97",
+            "server_port": 443,
+            "uuid": "a1655f51-1e20-4a92-8a11-b7ca30a7a353",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/afrhms07.xfixedfloat.cfd/linkws",
                 "headers": {
                     "Host": ""
                 }
@@ -901,7 +921,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VMESS | @kurdistan_vpn_perfectt [10]",
+            "tag": "🇨🇦 CA | 🔒 VMESS | @kurdistan_vpn_perfectt [10]",
             "type": "vmess",
             "server": "putihb.org",
             "server_port": 443,

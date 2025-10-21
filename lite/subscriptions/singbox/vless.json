@@ -106,7 +106,7 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [53]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
@@ -295,7 +295,6 @@
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [54]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -452,9 +451,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇺🇸 US | 🔒 VLESS | @vipv2rey [38]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇩🇪 DE | 🔒 VLESS | @vlessconfig [12]",
-                "🇫🇷 FR | 🔒 VLESS | @vlessconfig [13]",
+                "🇩🇪 DE | 🔒 VLESS | @vlessconfig [13]",
                 "🇫🇷 FR | 🔒 VLESS | @vlessconfig [14]",
+                "🇫🇷 FR | 🔒 VLESS | @vlessconfig [15]",
                 "🇳🇱 NL | 🔒 VLESS | @vmesc [18]",
                 "🚩 CF | 🔒 VLESS | @vmesc [19]",
                 "🚩 CF | 🔒 VLESS | @vmessorg [4]",
@@ -499,7 +498,7 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [53]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
@@ -688,7 +687,6 @@
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [54]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -845,9 +843,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇺🇸 US | 🔒 VLESS | @vipv2rey [38]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇩🇪 DE | 🔒 VLESS | @vlessconfig [12]",
-                "🇫🇷 FR | 🔒 VLESS | @vlessconfig [13]",
+                "🇩🇪 DE | 🔒 VLESS | @vlessconfig [13]",
                 "🇫🇷 FR | 🔒 VLESS | @vlessconfig [14]",
+                "🇫🇷 FR | 🔒 VLESS | @vlessconfig [15]",
                 "🇳🇱 NL | 🔒 VLESS | @vmesc [18]",
                 "🚩 CF | 🔒 VLESS | @vmesc [19]",
                 "🚩 CF | 🔒 VLESS | @vmessorg [4]",
@@ -1202,13 +1200,22 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [53]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [45]",
             "type": "vless",
-            "server": "a-lf-0.okamii.ir",
-            "server_port": 2095,
-            "uuid": "19b7d4d8-de95-41cf-b270-a310cc21f151",
+            "server": "cdn.chandplus.com",
+            "server_port": 443,
+            "uuid": "14e4cf26-44e1-4888-ba87-e5e6ba3a6b0f",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.chandplus.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -4416,15 +4423,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [54]",
-            "type": "vless",
-            "server": "151.101.70.85",
-            "server_port": 80,
-            "uuid": "5adf89c6-19f1-42d4-8011-b89051aa7d65",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -7152,7 +7150,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vlessconfig [12]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vlessconfig [13]",
             "type": "vless",
             "server": "63.180.173.173",
             "server_port": 22224,
@@ -7177,7 +7175,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @vlessconfig [13]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @vlessconfig [14]",
             "type": "vless",
             "server": "13.36.60.157",
             "server_port": 22224,
@@ -7202,7 +7200,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @vlessconfig [14]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @vlessconfig [15]",
             "type": "vless",
             "server": "15.237.200.91",
             "server_port": 22224,
