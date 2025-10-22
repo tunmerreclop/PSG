@@ -80,8 +80,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇨🇭 CH | 🔒 VLESS | @config_proxy [61]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [62]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇬🇧 GB | 🔒 VLESS | @evay_vpn [20]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [8]",
@@ -103,6 +101,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [11]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
+                "🇨🇭 CH | 🔒 VLESS | @prrofile_purple [149]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -123,8 +122,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇨🇭 CH | 🔒 VLESS | @config_proxy [61]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [62]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇬🇧 GB | 🔒 VLESS | @evay_vpn [20]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [8]",
@@ -146,6 +143,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [11]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
+                "🇨🇭 CH | 🔒 VLESS | @prrofile_purple [149]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -242,52 +240,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇭 CH | 🔒 VLESS | @config_proxy [61]",
-            "type": "vless",
-            "server": "83.228.208.219",
-            "server_port": 8443,
-            "uuid": "5c44b52f-361e-45c5-bd12-dc72f28397ce",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "auto.quattro-tech.ru",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc",
-                    "short_id": "43dcff53849b81e6"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [62]",
-            "type": "vless",
-            "server": "90.156.228.109",
-            "server_port": 8443,
-            "uuid": "3a4524bb-5d17-4c09-b523-6ab1e1a41d81",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.ya.ru",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "blSlAMMTv5UdIZiQd6VtBlS7kfZJ9xpw9H95Ouohbxs",
-                    "short_id": "4bb9dbdad476124c"
                 }
             }
         },
@@ -787,6 +739,29 @@
                     "enabled": true,
                     "public_key": "z--KbBlQtkBgTcrtdBJeGeCymIrLdaUDwkb44pAp6nY",
                     "short_id": "4c"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇭 CH | 🔒 VLESS | @prrofile_purple [149]",
+            "type": "vless",
+            "server": "83.228.208.219",
+            "server_port": 8443,
+            "uuid": "5c44b52f-361e-45c5-bd12-dc72f28397ce",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "auto.quattro-tech.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc",
+                    "short_id": "43dcff53849b81e6"
                 }
             }
         },
