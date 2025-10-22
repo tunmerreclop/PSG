@@ -94,7 +94,7 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇮🇷 IR | 🔓 VLESS | @config_proxy [42]",
+                "🇦🇲 AM | 🔒 VLESS | @config_proxy [44]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
@@ -253,6 +253,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [11]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raying [9]",
                 "🚩 CF | 🔓 VLESS | @v2rayngalpha [7]",
+                "🚩 CF | 🔒 VLESS | @v2rayopen [15]",
                 "❔ XX | 🔓 VLESS | @v2rayturbo [9]",
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [12]",
@@ -306,7 +307,7 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇮🇷 IR | 🔓 VLESS | @config_proxy [42]",
+                "🇦🇲 AM | 🔒 VLESS | @config_proxy [44]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
@@ -465,6 +466,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [11]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raying [9]",
                 "🚩 CF | 🔓 VLESS | @v2rayngalpha [7]",
+                "🚩 CF | 🔒 VLESS | @v2rayopen [15]",
                 "❔ XX | 🔓 VLESS | @v2rayturbo [9]",
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [12]",
@@ -832,13 +834,27 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @config_proxy [42]",
+            "tag": "🇦🇲 AM | 🔒 VLESS | @config_proxy [44]",
             "type": "vless",
-            "server": "shat.karunwebco.com",
-            "server_port": 1050,
-            "uuid": "13d49636-f14e-4a76-8610-7182421fa420",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "armenia.marzxo.biz",
+            "server_port": 8087,
+            "uuid": "58fcbac0-03b7-cd14-2f70-61636e195c6e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Ro8OYB3Jq6hTWw95trCnKzQPvWaN2ShcbeLg7dTv8UU",
+                    "short_id": "828348fc6d8e49cf"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -3534,6 +3550,31 @@
                 "path": "/?ed=2560",
                 "headers": {
                     "Host": "tgju.org"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @v2rayopen [15]",
+            "type": "vless",
+            "server": "best.cdniran.info",
+            "server_port": 443,
+            "uuid": "e999db7a-1b17-4da6-bc37-c9fa24af2e93",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "smart.trevanda.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "smart.trevanda.info"
                 }
             }
         },
