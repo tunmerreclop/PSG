@@ -81,10 +81,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🇸🇪 SE | 🔒 TROJAN | @hope_net [7]",
-                "🇩🇪 DE | 🔒 TROJAN | @hope_net [16]",
-                "🇨🇦 CA | 🔒 TROJAN | @hope_net [18]",
-                "🇺🇸 US | 🔒 TROJAN | @hope_net [19]",
+                "🇩🇪 DE | 🔒 TROJAN | @hope_net [14]",
+                "🇨🇦 CA | 🔒 TROJAN | @hope_net [16]",
+                "🇺🇸 US | 🔒 TROJAN | @hope_net [17]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
                 "🇭🇰 HK | 🔒 TROJAN | @msv2flyng [5]",
@@ -111,6 +110,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [16]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -142,10 +142,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🇸🇪 SE | 🔒 TROJAN | @hope_net [7]",
-                "🇩🇪 DE | 🔒 TROJAN | @hope_net [16]",
-                "🇨🇦 CA | 🔒 TROJAN | @hope_net [18]",
-                "🇺🇸 US | 🔒 TROJAN | @hope_net [19]",
+                "🇩🇪 DE | 🔒 TROJAN | @hope_net [14]",
+                "🇨🇦 CA | 🔒 TROJAN | @hope_net [16]",
+                "🇺🇸 US | 🔒 TROJAN | @hope_net [17]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
                 "🇭🇰 HK | 🔒 TROJAN | @msv2flyng [5]",
@@ -172,6 +171,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [16]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -289,23 +289,7 @@
             "password": "ziIjOlyGbM"
         },
         {
-            "tag": "🇸🇪 SE | 🔒 TROJAN | @hope_net [7]",
-            "type": "trojan",
-            "server": "13.48.229.163",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 TROJAN | @hope_net [16]",
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @hope_net [14]",
             "type": "trojan",
             "server": "3.72.132.185",
             "server_port": 22222,
@@ -321,7 +305,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔒 TROJAN | @hope_net [18]",
+            "tag": "🇨🇦 CA | 🔒 TROJAN | @hope_net [16]",
             "type": "trojan",
             "server": "15.157.221.180",
             "server_port": 22222,
@@ -337,7 +321,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 TROJAN | @hope_net [19]",
+            "tag": "🇺🇸 US | 🔒 TROJAN | @hope_net [17]",
             "type": "trojan",
             "server": "3.138.59.242",
             "server_port": 22222,
@@ -776,6 +760,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [16]",
+            "type": "trojan",
+            "server": "162.159.152.143",
+            "server_port": 443,
+            "password": "tg-dns68",
+            "tls": {
+                "enabled": true,
+                "server_name": "vip.putata.eu.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "vip.putata.eu.org"
                 }
             }
         },
