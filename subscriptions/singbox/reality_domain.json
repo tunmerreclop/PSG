@@ -144,6 +144,7 @@
                 "🇨🇭 CH | 🔒 VLESS | @v2ray_sub [32]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇷🇺 RU | 🔒 VLESS | @v2raych [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [9]",
@@ -151,8 +152,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2raying [6]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "❔ XX | 🔒 VLESS | @v2rayngseven [1]",
-                "❔ XX | 🔒 VLESS | @v2rayopen [2]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [8]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [7]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [1]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [5]",
                 "❔ XX | 🔒 VLESS | @v2rayy_vpn13 [9]",
@@ -163,7 +163,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayza [14]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "🇫🇮 FI | 🔒 VLESS | @v2trayproxy [22]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [15]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [14]",
                 "❔ XX | 🔒 VLESS | @vpnowl [5]",
                 "❔ XX | 🔒 VLESS | @vpnowl [6]",
                 "❔ XX | 🔒 VLESS | @vpnowl [7]",
@@ -248,6 +248,7 @@
                 "🇨🇭 CH | 🔒 VLESS | @v2ray_sub [32]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇷🇺 RU | 🔒 VLESS | @v2raych [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [9]",
@@ -255,8 +256,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2raying [6]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "❔ XX | 🔒 VLESS | @v2rayngseven [1]",
-                "❔ XX | 🔒 VLESS | @v2rayopen [2]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [8]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [7]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [1]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [5]",
                 "❔ XX | 🔒 VLESS | @v2rayy_vpn13 [9]",
@@ -267,7 +267,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayza [14]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "🇫🇮 FI | 🔒 VLESS | @v2trayproxy [22]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [15]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [14]",
                 "❔ XX | 🔒 VLESS | @vpnowl [5]",
                 "❔ XX | 🔒 VLESS | @vpnowl [6]",
                 "❔ XX | 🔒 VLESS | @vpnowl [7]",
@@ -1667,6 +1667,33 @@
             }
         },
         {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @v2raych [13]",
+            "type": "vless",
+            "server": "mtmvpn1.mtmvpn.shop",
+            "server_port": 2053,
+            "uuid": "4e91031a-515b-4728-801f-e9cbab336c8c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "gdYd0xGNqG_Ms0ejqROgvndr4cNgUEQoTQfuNQ4oKwk",
+                    "short_id": "75bc98c9e7964d22"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Tel:@VPN_KING_V2RAY"
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [5]",
             "type": "vless",
             "server": "fast7.hvitrin.ir",
@@ -1828,30 +1855,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @v2rayopen [2]",
-            "type": "vless",
-            "server": "DEADSEECtelegram.slimyoutaavers.ir",
-            "server_port": 443,
-            "uuid": "099a60f0-644a-4bdc-ac5e-d228ebc81a36",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "U593zOEZ2sAAD_NXXxAwj9Ez-eIzfXbZPZglX1K6PzM",
-                    "short_id": "8be6aa26"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayopen [8]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayopen [7]",
             "type": "vless",
             "server": "de.pickvpn.live",
             "server_port": 443,
@@ -2108,7 +2112,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [15]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [14]",
             "type": "vless",
             "server": "de.nitroo-tech.ru",
             "server_port": 443,
