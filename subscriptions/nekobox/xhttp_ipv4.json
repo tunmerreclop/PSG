@@ -81,8 +81,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [2]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [31]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [39]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [29]",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [39]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -154,8 +154,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [2]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [31]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [39]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [29]",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [39]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -315,16 +315,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [31]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "caa50ea0-496d-49c7-9d42-a5ac248a2baa",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [39]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [29]",
             "type": "vless",
             "server": "104.21.62.144",
             "server_port": 443,
@@ -338,6 +329,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪 SE | 🔒 VLESS | @config_proxy [39]",
+            "type": "vless",
+            "server": "62.60.231.215",
+            "server_port": 8880,
+            "uuid": "808b0873-2ef7-42b1-a583-050e5a1df8a9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "gTzHMDNdl149mB6DKGPnbiVFID8x_7X5THJIXlpNWFc",
+                    "short_id": "50d72d59cbec63"
                 }
             }
         },
