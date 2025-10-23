@@ -92,8 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @bored_vpn [2]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [46]",
+                "🇺🇸 US | 🔓 VLESS | @bored_vpn [1]",
+                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [13]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -164,8 +164,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @bored_vpn [2]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [46]",
+                "🇺🇸 US | 🔓 VLESS | @bored_vpn [1]",
+                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [13]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -312,7 +312,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @bored_vpn [2]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @bored_vpn [1]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
@@ -321,13 +321,27 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [46]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [13]",
             "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "HqV2rayBot",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "157.180.81.19",
+            "server_port": 1530,
+            "uuid": "75ed210a-10f2-4819-ac89-e0ff93b52ec7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",

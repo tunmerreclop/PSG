@@ -94,10 +94,11 @@
                 "KingRezaPahlavi",
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [4]",
-                "🚩 CF | 🔓 VLESS | @bored_vpn [6]",
+                "🚩 CF | 🔓 VLESS | @bored_vpn [5]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
+                "🇬🇧 GB | 🔒 VLESS | @evay_vpn [12]",
                 "🚩 CF | 🔓 VLESS | @kafing_2 [4]",
                 "🇺🇸 US | 🔓 VLESS | @megavpn_link [1]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [15]",
@@ -120,10 +121,11 @@
                 "KingRezaPahlavi",
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [4]",
-                "🚩 CF | 🔓 VLESS | @bored_vpn [6]",
+                "🚩 CF | 🔓 VLESS | @bored_vpn [5]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
+                "🇬🇧 GB | 🔒 VLESS | @evay_vpn [12]",
                 "🚩 CF | 🔓 VLESS | @kafing_2 [4]",
                 "🇺🇸 US | 🔓 VLESS | @megavpn_link [1]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [15]",
@@ -238,7 +240,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @bored_vpn [6]",
+            "tag": "🚩 CF | 🔓 VLESS | @bored_vpn [5]",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2082,
@@ -272,6 +274,29 @@
             "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @evay_vpn [12]",
+            "type": "vless",
+            "server": "Evay_vpn.heloisfood.ir",
+            "server_port": 1530,
+            "uuid": "fde77d6c-eb2a-4488-ab34-a9a2633b01ec",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @kafing_2 [4]",
