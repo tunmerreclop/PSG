@@ -98,6 +98,7 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
+                "🚩 CF | 🔓 VMESS | @config_proxy [47]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇳🇱 NL | 🔓 VMESS | @custom_14 [6]",
@@ -105,7 +106,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @dailyv2ray [30]",
                 "❔ XX | 🔓 VMESS | @dailyv2ray [31]",
                 "🇺🇸 US | 🔓 VMESS | @diamondproxytm [3]",
-                "🇫🇷 FR | 🔒 VMESS | @free1_vpn [7]",
+                "🇫🇷 FR | 🔒 VMESS | @free1_vpn [8]",
                 "🇨🇭 CH | 🔓 VMESS | @freeshadowsock [3]",
                 "🇳🇱 NL | 🔓 VMESS | @freeshadowsock [4]",
                 "🇫🇮 FI | 🔓 VMESS | @freeshadowsock [5]",
@@ -143,6 +144,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @prooxyk [3]",
                 "❔ XX | 🔓 VMESS | @prooxyk [4]",
                 "❔ XX | 🔒 VMESS | @prooxyk [5]",
+                "🇳🇱 NL | 🔓 VMESS | @prrofile_purple [144]",
                 "🇮🇷 IR | 🔒 VMESS | @public504 [11]",
                 "❔ XX | 🔓 VMESS | @pydriclub [4]",
                 "🚩 CF | 🔒 VMESS | @qeshmserver [11]",
@@ -196,6 +198,7 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
+                "🚩 CF | 🔓 VMESS | @config_proxy [47]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇳🇱 NL | 🔓 VMESS | @custom_14 [6]",
@@ -203,7 +206,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @dailyv2ray [30]",
                 "❔ XX | 🔓 VMESS | @dailyv2ray [31]",
                 "🇺🇸 US | 🔓 VMESS | @diamondproxytm [3]",
-                "🇫🇷 FR | 🔒 VMESS | @free1_vpn [7]",
+                "🇫🇷 FR | 🔒 VMESS | @free1_vpn [8]",
                 "🇨🇭 CH | 🔓 VMESS | @freeshadowsock [3]",
                 "🇳🇱 NL | 🔓 VMESS | @freeshadowsock [4]",
                 "🇫🇮 FI | 🔓 VMESS | @freeshadowsock [5]",
@@ -241,6 +244,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @prooxyk [3]",
                 "❔ XX | 🔓 VMESS | @prooxyk [4]",
                 "❔ XX | 🔒 VMESS | @prooxyk [5]",
+                "🇳🇱 NL | 🔓 VMESS | @prrofile_purple [144]",
                 "🇮🇷 IR | 🔒 VMESS | @public504 [11]",
                 "❔ XX | 🔓 VMESS | @pydriclub [4]",
                 "🚩 CF | 🔒 VMESS | @qeshmserver [11]",
@@ -464,6 +468,31 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔓 VMESS | @config_proxy [47]",
+            "type": "vmess",
+            "server": "104.21.26.129",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 1,
+            "tls": {
+                "enabled": true,
+                "server_name": "d.usaha.homes",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": "d.usaha.homes"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
             "type": "vmess",
             "server": "join.melodyfreenet2.shop",
@@ -575,7 +604,7 @@
             "alter_id": 64
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VMESS | @free1_vpn [7]",
+            "tag": "🇫🇷 FR | 🔒 VMESS | @free1_vpn [8]",
             "type": "vmess",
             "server": "141.94.155.224",
             "server_port": 443,
@@ -1174,6 +1203,22 @@
                 "path": "/20334",
                 "headers": {
                     "Host": "join.v1-amironetwork.site"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔓 VMESS | @prrofile_purple [144]",
+            "type": "vmess",
+            "server": "2001:bc8:32d7:302::10",
+            "server_port": 44579,
+            "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
