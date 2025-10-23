@@ -144,6 +144,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [3]",
                 "🇨🇭 CH | 🔒 VLESS | @orange_vpns [19]",
                 "🇳🇱 NL | 🔒 VLESS | @orange_vpns [20]",
+                "🇫🇷 FR | 🔒 VLESS | @outline_ir [19]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [2]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [3]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [5]",
@@ -168,7 +169,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2logy [5]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇫🇮 FI | 🔒 VLESS | @v2raych [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -191,9 +191,9 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇳🇱 NL | 🔒 VLESS | @vmesc [5]",
-                "🇬🇧 GB | 🔒 VLESS | @vmesc [9]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [15]",
+                "🇳🇱 NL | 🔒 VLESS | @vmesc [4]",
+                "🇬🇧 GB | 🔒 VLESS | @vmesc [8]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [14]",
                 "🇸🇪 SE | 🔒 VLESS | @vmessiranproxy [8]",
                 "🇩🇪 DE | 🔒 VLESS | @vmessiranproxy [9]",
                 "🇩🇪 DE | 🔒 VLESS | @vmessiranproxy [11]",
@@ -274,6 +274,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [3]",
                 "🇨🇭 CH | 🔒 VLESS | @orange_vpns [19]",
                 "🇳🇱 NL | 🔒 VLESS | @orange_vpns [20]",
+                "🇫🇷 FR | 🔒 VLESS | @outline_ir [19]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [2]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [3]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [5]",
@@ -298,7 +299,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2logy [5]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇫🇮 FI | 🔒 VLESS | @v2raych [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -321,9 +321,9 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇳🇱 NL | 🔒 VLESS | @vmesc [5]",
-                "🇬🇧 GB | 🔒 VLESS | @vmesc [9]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [15]",
+                "🇳🇱 NL | 🔒 VLESS | @vmesc [4]",
+                "🇬🇧 GB | 🔒 VLESS | @vmesc [8]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [14]",
                 "🇸🇪 SE | 🔒 VLESS | @vmessiranproxy [8]",
                 "🇩🇪 DE | 🔒 VLESS | @vmessiranproxy [9]",
                 "🇩🇪 DE | 🔒 VLESS | @vmessiranproxy [11]",
@@ -1959,6 +1959,29 @@
             }
         },
         {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @outline_ir [19]",
+            "type": "vless",
+            "server": "94.232.247.168",
+            "server_port": 41360,
+            "uuid": "e16a35ea-6715-4e75-9845-d20358bd0876",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "TY6w1zP-qUFKVCAQdQT2ZEJsZBrPO4hZjZYBSS6h6DU",
+                    "short_id": "1aab45"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [2]",
             "type": "vless",
             "server": "116.203.201.167",
@@ -2515,29 +2538,6 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @v2raych [18]",
-            "type": "vless",
-            "server": "45.12.135.7",
-            "server_port": 8443,
-            "uuid": "3a4524bb-5d17-4c09-b523-6ab1e1a41d81",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ya.ru",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "blSlAMMTv5UdIZiQd6VtBlS7kfZJ9xpw9H95Ouohbxs",
-                    "short_id": "4bb9dbdad476124c"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
             "type": "vless",
             "server": "136.244.84.58",
@@ -3066,7 +3066,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @vmesc [5]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @vmesc [4]",
             "type": "vless",
             "server": "45.89.110.227",
             "server_port": 8443,
@@ -3089,7 +3089,7 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @vmesc [9]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @vmesc [8]",
             "type": "vless",
             "server": "212.134.84.115",
             "server_port": 597,
@@ -3112,7 +3112,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [15]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [14]",
             "type": "vless",
             "server": "91.99.179.233",
             "server_port": 443,
