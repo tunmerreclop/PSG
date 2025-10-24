@@ -86,6 +86,8 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
+                "🚩 CF | 🔒 VMESS | @config_proxy [53]",
+                "🇨🇦 CA | 🔒 VMESS | @config_proxy [55]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇳🇱 NL | 🔓 VMESS | @custom_14 [6]",
@@ -102,8 +104,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [4]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🇨🇳 CN | 🔓 VMESS | @hope_net [18]",
-                "🇨🇳 CN | 🔓 VMESS | @hope_net [19]",
+                "🇺🇸 US | 🔓 VMESS | @hope_net [19]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -186,6 +187,8 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
+                "🚩 CF | 🔒 VMESS | @config_proxy [53]",
+                "🇨🇦 CA | 🔒 VMESS | @config_proxy [55]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇳🇱 NL | 🔓 VMESS | @custom_14 [6]",
@@ -202,8 +205,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [4]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🇨🇳 CN | 🔓 VMESS | @hope_net [18]",
-                "🇨🇳 CN | 🔓 VMESS | @hope_net [19]",
+                "🇺🇸 US | 🔓 VMESS | @hope_net [19]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -456,6 +458,56 @@
                 "path": "/ad80f8ec-4861-11f0-a948-6a75f667b472?ed=2048",
                 "headers": {
                     "Host": "ad80f8ec-4861-11f0-a948-6a75f667b472.ShomaParvazRoYadetonNist-BypassIsHere.lat"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VMESS | @config_proxy [53]",
+            "type": "vmess",
+            "server": "info.andishehnegariran.ir",
+            "server_port": 8443,
+            "uuid": "1f9a2d17-61ce-4187-aabe-d5ae8098a48b",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "info.andishehnegariran.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/🆔@M3HDIO1",
+                "headers": {
+                    "Host": "info.andishehnegariran.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦 CA | 🔒 VMESS | @config_proxy [55]",
+            "type": "vmess",
+            "server": "15.235.50.172",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "baradiha.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": "baradiha.com"
                 }
             }
         },
@@ -721,34 +773,27 @@
             "alter_id": 0
         },
         {
-            "tag": "🇨🇳 CN | 🔓 VMESS | @hope_net [18]",
+            "tag": "🇺🇸 US | 🔓 VMESS | @hope_net [19]",
             "type": "vmess",
-            "server": "112.5.37.116",
-            "server_port": 43563,
-            "uuid": "a4a981bb-b3b1-4cd3-a502-4772462945d9",
+            "server": "jpcft01.xqc.best",
+            "server_port": 443,
+            "uuid": "57491970-c0b7-4f85-b576-86cc861eb64e",
             "security": "auto",
             "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "112.5.37.116"
+            "tls": {
+                "enabled": true,
+                "server_name": "jpcft01.xqc.best",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "🇨🇳 CN | 🔓 VMESS | @hope_net [19]",
-            "type": "vmess",
-            "server": "36.133.9.177",
-            "server_port": 23567,
-            "uuid": "a4a981bb-b3b1-4cd3-a502-4772462945d9",
-            "security": "auto",
-            "alter_id": 0,
+            },
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "36.133.9.177"
+                    "Host": "jpcft01.xqc.best"
                 }
             }
         },
