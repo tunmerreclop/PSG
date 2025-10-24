@@ -101,7 +101,7 @@
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇬🇧 GB | 🔒 VLESS | @evay_vpn [12]",
                 "🚩 CF | 🔓 VLESS | @kafing_2 [4]",
-                "🇺🇸 US | 🔓 VLESS | @megavpn_link [1]",
+                "❔ XX | 🔓 VLESS | @megavpn_link [1]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [13]",
                 "🇺🇸 US | 🔓 VLESS | @prrofile_purple [138]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
@@ -110,6 +110,8 @@
                 "❔ XX | 🔓 VLESS | @vmesskhodam [11]",
                 "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [42]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [13]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
@@ -190,7 +192,7 @@
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇬🇧 GB | 🔒 VLESS | @evay_vpn [12]",
                 "🚩 CF | 🔓 VLESS | @kafing_2 [4]",
-                "🇺🇸 US | 🔓 VLESS | @megavpn_link [1]",
+                "❔ XX | 🔓 VLESS | @megavpn_link [1]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [13]",
                 "🇺🇸 US | 🔓 VLESS | @prrofile_purple [138]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
@@ -199,6 +201,8 @@
                 "❔ XX | 🔓 VLESS | @vmesskhodam [11]",
                 "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [42]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [13]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
@@ -441,7 +445,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @megavpn_link [1]",
+            "tag": "❔ XX | 🔓 VLESS | @megavpn_link [1]",
             "type": "vless",
             "server": "fast.peace.lemoex.blog",
             "server_port": 80,
@@ -547,6 +551,52 @@
             "uuid": "34a4cfb4-8b42-42ba-b087-6a338c2b3b4a",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [42]",
+            "type": "vless",
+            "server": "91.98.81.150",
+            "server_port": 443,
+            "uuid": "60f5612f-4861-4162-eaba-fd1c178437e0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "NRYJKm0tRL9L2JLo070iTZg-SU6DT318gVLsm5tJUWw",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
+            "type": "vless",
+            "server": "91.99.112.241",
+            "server_port": 443,
+            "uuid": "Warpi-Free-Vpn-In-GooglePlay",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "HTmgtYAdc4266sqGG1zMSYcsMPJfWJfxgaJEKCMiFww",
+                    "short_id": "f8f87a"
+                }
+            }
         },
         {
             "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [13]",

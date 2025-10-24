@@ -96,9 +96,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇸🇮 SI | 🔒 VLESS | @config_proxy [38]",
-                "🇱🇹 LT | 🔒 VLESS | @config_proxy [39]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [40]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -133,7 +130,7 @@
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "🇦🇹 AT | 🔒 VLESS | @prrofile_purple [139]",
-                "🇸🇪 SE | 🔒 VLESS | @prrofile_purple [150]",
+                "🇬🇧 GB | 🔒 VLESS | @prrofile_purple [150]",
                 "🇱🇹 LT | 🔒 VLESS | @public504 [2]",
                 "🇨🇦 CA | 🔒 VLESS | @public504 [3]",
                 "❔ XX | 🔒 VLESS | @public504 [5]",
@@ -153,7 +150,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [11]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raying [6]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [5]",
+                "🇺🇸 US | 🔒 VLESS | @v2rayopen [5]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [1]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [5]",
                 "❔ XX | 🔒 VLESS | @v2rayy_vpn13 [9]",
@@ -201,9 +198,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇸🇮 SI | 🔒 VLESS | @config_proxy [38]",
-                "🇱🇹 LT | 🔒 VLESS | @config_proxy [39]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [40]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -238,7 +232,7 @@
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "🇦🇹 AT | 🔒 VLESS | @prrofile_purple [139]",
-                "🇸🇪 SE | 🔒 VLESS | @prrofile_purple [150]",
+                "🇬🇧 GB | 🔒 VLESS | @prrofile_purple [150]",
                 "🇱🇹 LT | 🔒 VLESS | @public504 [2]",
                 "🇨🇦 CA | 🔒 VLESS | @public504 [3]",
                 "❔ XX | 🔒 VLESS | @public504 [5]",
@@ -258,7 +252,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [11]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raying [6]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [5]",
+                "🇺🇸 US | 🔒 VLESS | @v2rayopen [5]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [1]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [5]",
                 "❔ XX | 🔒 VLESS | @v2rayy_vpn13 [9]",
@@ -475,75 +469,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇸🇮 SI | 🔒 VLESS | @config_proxy [38]",
-            "type": "vless",
-            "server": "tunnyl.ru",
-            "server_port": 443,
-            "uuid": "239200f3-4403-43d8-8903-1a40d8f40d78",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "playcaliber.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "iQ4ObeGOrzKEWuAVIRSP4PlXd4Sc5nodMH_UM-ZQ6xA",
-                    "short_id": "4dbe9199"
-                }
-            }
-        },
-        {
-            "tag": "🇱🇹 LT | 🔒 VLESS | @config_proxy [39]",
-            "type": "vless",
-            "server": "hield.ru",
-            "server_port": 5432,
-            "uuid": "3b2503c4-2b85-4637-a6e4-01c06636dc84",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "netcraze.ru",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "ios"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "PXl7mdlTaC8edL3uD5leT5lNz8TKuMoh2Cb1EOoEzyo",
-                    "short_id": "3c376b96"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [40]",
-            "type": "vless",
-            "server": "world-of.ru",
-            "server_port": 443,
-            "uuid": "ffac89e3-cbfc-47d2-bfa8-ae51c32c3c62",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "rustore.ru",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "edge"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ZZfMI4jrkTuV493O5aN3zxzGYuWDDZONqV4-2fyPU3o",
-                    "short_id": "7f09835400"
-                }
             }
         },
         {
@@ -1408,7 +1333,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @prrofile_purple [150]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @prrofile_purple [150]",
             "type": "vless",
             "server": "auto.quattro-tech.ru",
             "server_port": 8443,
@@ -1876,7 +1801,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayopen [5]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @v2rayopen [5]",
             "type": "vless",
             "server": "de.pickvpn.live",
             "server_port": 443,
