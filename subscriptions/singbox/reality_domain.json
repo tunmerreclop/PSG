@@ -96,8 +96,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [50]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [52]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [53]",
+                "🇹🇷 TR | 🔒 VLESS | @config_proxy [58]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -131,8 +131,7 @@
                 "❔ XX | 🔒 VLESS | @proxycrone [3]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🇦🇹 AT | 🔒 VLESS | @prrofile_purple [131]",
-                "🇷🇺 RU | 🔒 VLESS | @prrofile_purple [142]",
+                "🇷🇺 RU | 🔒 VLESS | @prrofile_purple [134]",
                 "🇱🇹 LT | 🔒 VLESS | @public504 [2]",
                 "🇨🇦 CA | 🔒 VLESS | @public504 [3]",
                 "❔ XX | 🔒 VLESS | @public504 [5]",
@@ -200,8 +199,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [50]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [52]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [53]",
+                "🇹🇷 TR | 🔒 VLESS | @config_proxy [58]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -235,8 +234,7 @@
                 "❔ XX | 🔒 VLESS | @proxycrone [3]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🇦🇹 AT | 🔒 VLESS | @prrofile_purple [131]",
-                "🇷🇺 RU | 🔒 VLESS | @prrofile_purple [142]",
+                "🇷🇺 RU | 🔒 VLESS | @prrofile_purple [134]",
                 "🇱🇹 LT | 🔒 VLESS | @public504 [2]",
                 "🇨🇦 CA | 🔒 VLESS | @public504 [3]",
                 "❔ XX | 🔒 VLESS | @public504 [5]",
@@ -476,34 +474,11 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [50]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [53]",
             "type": "vless",
-            "server": "auto.quattro-tech.ru",
-            "server_port": 8443,
-            "uuid": "5c44b52f-361e-45c5-bd12-dc72f28397ce",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "auto.quattro-tech.ru",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc",
-                    "short_id": "43dcff53849b81e6"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [52]",
-            "type": "vless",
-            "server": "russia.marzxo.biz",
-            "server_port": 8086,
-            "uuid": "9884b77c-ba62-2334-01d7-439c7ad79ae1",
+            "server": "de.pg.gozarino.com",
+            "server_port": 11000,
+            "uuid": "326ee258-7381-43c9-bd5c-4e1edf6b2470",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -512,12 +487,35 @@
                 "insecure": true,
                 "utls": {
                     "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷 TR | 🔒 VLESS | @config_proxy [58]",
+            "type": "vless",
+            "server": "tru-server1-panyous.tap30.sbs",
+            "server_port": 2560,
+            "uuid": "7da05388-1749-417d-90f3-e7d980565471",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
                     "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "Ro8OYB3Jq6hTWw95trCnKzQPvWaN2ShcbeLg7dTv8UU",
-                    "short_id": "828348fc6d8e49cf"
+                    "public_key": "2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U",
+                    "short_id": "e41865e506628f44"
                 }
             }
         },
@@ -1360,30 +1358,7 @@
             }
         },
         {
-            "tag": "🇦🇹 AT | 🔒 VLESS | @prrofile_purple [131]",
-            "type": "vless",
-            "server": "aut-0001-xr.packet-drop-society.net",
-            "server_port": 443,
-            "uuid": "e71e700c-3751-4362-92a0-817ae5ec7fa4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "hls-svod.itunes.apple.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws",
-                    "short_id": "31"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @prrofile_purple [142]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @prrofile_purple [134]",
             "type": "vless",
             "server": "auto.quattro-tech.ru",
             "server_port": 8443,
