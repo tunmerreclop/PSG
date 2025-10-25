@@ -81,7 +81,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
-                "❔ XX | 🔒 VLESS | @kesslervpn [2]"
+                "❔ XX | 🔒 VLESS | @kesslervpn [2]",
+                "❔ XX | 🔒 VLESS | @v2raych [7]",
+                "❔ XX | 🔒 VLESS | @v2raych [8]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -93,7 +95,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
-                "❔ XX | 🔒 VLESS | @kesslervpn [2]"
+                "❔ XX | 🔒 VLESS | @kesslervpn [2]",
+                "❔ XX | 🔒 VLESS | @v2raych [7]",
+                "❔ XX | 🔒 VLESS | @v2raych [8]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -230,6 +234,52 @@
                     "enabled": true,
                     "public_key": "WeBcvXnjj4LbVsAT2lTbZ3JbvoqE4S_rON9h-7DjrHo",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @v2raych [7]",
+            "type": "vless",
+            "server": "[2603:c024:c011:fb00::5]",
+            "server_port": 25002,
+            "uuid": "302b7370-f6c0-408a-a59c-b56f6cb4a5a0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.mcdaniel.edu",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "safari"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "a0HEEeIONIfjdqcJ9oPceRxVXeT8XFeC3rXYKbhBt0A",
+                    "short_id": "b767bef3"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @v2raych [8]",
+            "type": "vless",
+            "server": "[2607:f130:0:193:216:3cff:fe59:bb6]",
+            "server_port": 25002,
+            "uuid": "302b7370-f6c0-408a-a59c-b56f6cb4a5a0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.mcdaniel.edu",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "safari"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "fYga_gQCON949xOaJBhadH9rh-sMk6wNB67INnQMvHE",
+                    "short_id": "d11ca90a"
                 }
             }
         }
