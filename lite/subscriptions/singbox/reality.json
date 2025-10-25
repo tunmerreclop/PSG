@@ -92,7 +92,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇸🇪 SE | 🔒 VLESS | @config_proxy [50]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇬🇧 GB | 🔒 VLESS | @evay_vpn [23]",
                 "🇩🇪 DE | 🔒 VLESS | @free4allvpn [18]",
@@ -110,6 +109,7 @@
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [14]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [11]",
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [14]",
+                "🇵🇱 PL | 🔒 VLESS | @orange_vpns [20]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [11]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
@@ -143,7 +143,7 @@
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🇬🇧 GB | 🔒 VLESS | @prrofile_purple [142]",
+                "🇮🇹 IT | 🔒 VLESS | @prrofile_purple [150]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
@@ -168,7 +168,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇸🇪 SE | 🔒 VLESS | @config_proxy [50]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇬🇧 GB | 🔒 VLESS | @evay_vpn [23]",
                 "🇩🇪 DE | 🔒 VLESS | @free4allvpn [18]",
@@ -186,6 +185,7 @@
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [14]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [11]",
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [14]",
+                "🇵🇱 PL | 🔒 VLESS | @orange_vpns [20]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [11]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
@@ -219,7 +219,7 @@
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🇬🇧 GB | 🔒 VLESS | @prrofile_purple [142]",
+                "🇮🇹 IT | 🔒 VLESS | @prrofile_purple [150]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
@@ -316,29 +316,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @config_proxy [50]",
-            "type": "vless",
-            "server": "62.60.231.215",
-            "server_port": 8880,
-            "uuid": "a83ca095-3f5b-4c75-be9b-71b660a8b952",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zhaket.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "gTzHMDNdl149mB6DKGPnbiVFID8x_7X5THJIXlpNWFc",
-                    "short_id": "50d72d59cbec63"
                 }
             }
         },
@@ -747,6 +724,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "7034vless"
+            }
+        },
+        {
+            "tag": "🇵🇱 PL | 🔒 VLESS | @orange_vpns [20]",
+            "type": "vless",
+            "server": "77.83.246.235",
+            "server_port": 443,
+            "uuid": "b7437f7a-783f-4e6f-a555-a2a589f42b5a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "8B1aKLm3jBQ_yf3aUvdagWwxkXHrlRyrzdQVoq17yXI",
+                    "short_id": "8e844109efac63"
+                }
             }
         },
         {
@@ -1541,7 +1541,7 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @prrofile_purple [142]",
+            "tag": "🇮🇹 IT | 🔒 VLESS | @prrofile_purple [150]",
             "type": "vless",
             "server": "auto.quattro-tech.ru",
             "server_port": 8443,
