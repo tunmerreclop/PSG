@@ -80,9 +80,11 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇫🇷 FR | 🔒 VLESS | @config_proxy [48]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇬🇧 GB | 🔒 VLESS | @evay_vpn [23]",
-                "🇩🇪 DE | 🔒 VLESS | @free4allvpn [17]",
+                "🇺🇸 US | 🔒 VLESS | @free4allvpn [19]",
+                "🇳🇱 NL | 🔒 VLESS | @free4allvpn [20]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
@@ -123,9 +125,11 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇫🇷 FR | 🔒 VLESS | @config_proxy [48]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇬🇧 GB | 🔒 VLESS | @evay_vpn [23]",
-                "🇩🇪 DE | 🔒 VLESS | @free4allvpn [17]",
+                "🇺🇸 US | 🔒 VLESS | @free4allvpn [19]",
+                "🇳🇱 NL | 🔒 VLESS | @free4allvpn [20]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
@@ -246,6 +250,29 @@
             }
         },
         {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @config_proxy [48]",
+            "type": "vless",
+            "server": "103.249.133.69",
+            "server_port": 443,
+            "uuid": "b7437f7a-783f-4e6f-a555-a2a589f42b5a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "eAKw1k-H2cuw0AsjNH-3RG2RBHOZCPz8qQp-i5W-Zkk",
+                    "short_id": "61"
+                }
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -292,16 +319,39 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @free4allvpn [17]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @free4allvpn [19]",
             "type": "vless",
-            "server": "91.98.87.4",
+            "server": "15.204.12.101",
             "server_port": 443,
-            "uuid": "0c0b6d4a-0811-460f-d4b0-dd982a911240",
+            "uuid": "a54cc2cf-c22f-4739-9adc-4ed5a7b08841",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "store.steampowered.com",
+                "server_name": "yandex.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "safari"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "KDmv-AW9OoLSB4iA22vKDKOFf6O7BTMuQvETDI9aTBQ",
+                    "short_id": "4d"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @free4allvpn [20]",
+            "type": "vless",
+            "server": "45.128.232.102",
+            "server_port": 16798,
+            "uuid": "3691b39b-4aa7-4f68-8304-902e4734e2f4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -309,8 +359,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "zW8LR-lHS_PXDyY8Q8bE_zvKdhY5MAmnsd8miBulx2U",
-                    "short_id": ""
+                    "public_key": "UGm82qoVVxxTkwGLniA8C004EYPW52VG7GmdgHzwSXU",
+                    "short_id": "229b2a94"
                 }
             }
         },
