@@ -103,8 +103,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [36]",
-                "🇮🇷 IR | 🔓 VLESS | @config_proxy [37]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
@@ -287,7 +285,6 @@
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [5]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [6]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfree85 [1]",
-                "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [16]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
@@ -315,8 +312,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [36]",
-                "🇮🇷 IR | 🔓 VLESS | @config_proxy [37]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
@@ -499,7 +494,6 @@
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [5]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [6]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfree85 [1]",
-                "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [16]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
@@ -783,40 +777,6 @@
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
             }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [36]",
-            "type": "vless",
-            "server": "ai.baharbeauti.ir",
-            "server_port": 2083,
-            "uuid": "ce5b023b-a71a-4fb8-8708-f65621fd5627",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "mk.baharbeauti.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/portal.baharbeauti.ir/ai.baharbeauti.ir?ed=2083",
-                "headers": {
-                    "Host": "mk.baharbeauti.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @config_proxy [37]",
-            "type": "vless",
-            "server": "vip.ezrael.shop",
-            "server_port": 2089,
-            "uuid": "cbaf781f-4cb0-4a5d-b708-8761974ee7da",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -3918,31 +3878,6 @@
             "uuid": "cde6146f-514f-403f-b36d-7f71514c0890",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [16]",
-            "type": "vless",
-            "server": "best.cdniran.info",
-            "server_port": 443,
-            "uuid": "128d1209-9e9f-4952-9faf-df47ae3648d2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "smart.taron01.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
-                "headers": {
-                    "Host": "smart.taron01.info"
-                }
-            }
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @wbrovers [1]",
