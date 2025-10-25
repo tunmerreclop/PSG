@@ -100,9 +100,9 @@
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🇫🇷 FR | 🔓 VLESS | @config_proxy [62]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [63]",
-                "🇩🇪 DE | 🔒 VMESS | @config_proxy [64]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [69]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [70]",
+                "🇧🇷 BR | 🔓 VLESS | @config_proxy [71]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
@@ -209,9 +209,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [18]",
-                "🚩 CF | 🔓 VMESS | @hope_net [19]",
-                "🇩🇪 DE | 🔒 TROJAN | @hope_net [20]",
+                "🇩🇪 DE | 🔒 TROJAN | @hope_net [18]",
+                "🇺🇸 US | 🔒 SS | @hope_net [19]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -627,9 +627,9 @@
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🇫🇷 FR | 🔓 VLESS | @config_proxy [62]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [63]",
-                "🇩🇪 DE | 🔒 VMESS | @config_proxy [64]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [69]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [70]",
+                "🇧🇷 BR | 🔓 VLESS | @config_proxy [71]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
@@ -736,9 +736,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [18]",
-                "🚩 CF | 🔓 VMESS | @hope_net [19]",
-                "🇩🇪 DE | 🔒 TROJAN | @hope_net [20]",
+                "🇩🇪 DE | 🔒 TROJAN | @hope_net [18]",
+                "🇺🇸 US | 🔒 SS | @hope_net [19]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -1530,52 +1530,36 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔓 VLESS | @config_proxy [62]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [69]",
             "type": "vless",
-            "server": "188.92.28.55",
-            "server_port": 2052,
-            "uuid": "87c43657-e206-52ca-b284-e1677655e57a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/vless#@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL",
-                "headers": {
-                    "Host": "188.92.28.55"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [63]",
-            "type": "vless",
-            "server": "test.fast.hosting-ip.com",
+            "server": "151.101.3.8",
             "server_port": 80,
-            "uuid": "TELEGRAM-CONFiGLiNE-2",
+            "uuid": "ca91480e-1d96-4b2b-8519-706a181c74af",
             "flow": "",
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @config_proxy [64]",
-            "type": "vmess",
-            "server": "57.129.25.22",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [70]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "47030b39-b697-43a5-8430-f07574cac125",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇧🇷 BR | 🔓 VLESS | @config_proxy [71]",
+            "type": "vless",
+            "server": "45.82.245.173",
+            "server_port": 80,
+            "uuid": "1dbfb57c-164e-47c5-9355-8e0c429e7b99",
+            "flow": "",
+            "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/linkvws",
+                "path": "/vless/",
                 "headers": {
-                    "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
+                    "Host": "45.82.245.173"
                 }
             }
         },
@@ -3328,34 +3312,42 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [18]",
-            "type": "trojan",
-            "server": "172.66.47.117",
-            "server_port": 8443,
-            "password": "bpb-trojan"
-        },
-        {
-            "tag": "🚩 CF | 🔓 VMESS | @hope_net [19]",
-            "type": "vmess",
-            "server": "104.26.12.140",
-            "server_port": 2095,
-            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/github.com/Alvin9999",
-                "headers": {
-                    "Host": "104.26.12.140"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 TROJAN | @hope_net [20]",
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @hope_net [18]",
             "type": "trojan",
             "server": "188.245.154.141",
             "server_port": 8443,
             "password": "telegram-Afv2Ray"
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 SS | @hope_net [19]",
+            "type": "shadowsocks",
+            "server": "38.114.114.46",
+            "server_port": 5500,
+            "method": "aes-256-gcm",
+            "password": "KixLvKzwjekG00rm"
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "104.18.38.122",
+            "server_port": 8443,
+            "password": "Watashi_VPN",
+            "tls": {
+                "enabled": true,
+                "server_name": "t-watashi-r-jacket-o-people-jan.watashi-java.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "t-watashi-r-jacket-o-people-jan.watashi-java.ir"
+                }
+            }
         },
         {
             "tag": "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
