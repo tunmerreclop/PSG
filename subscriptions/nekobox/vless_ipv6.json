@@ -80,7 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔒 VLESS | @config_proxy [47]",
+                "❔ XX | 🔓 VLESS | @config_proxy [45]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔓 VLESS | @father_vpn [4]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
@@ -104,7 +104,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔒 VLESS | @config_proxy [47]",
+                "❔ XX | 🔓 VLESS | @config_proxy [45]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔓 VLESS | @father_vpn [4]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
@@ -208,26 +208,25 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @config_proxy [47]",
+            "tag": "❔ XX | 🔓 VLESS | @config_proxy [45]",
             "type": "vless",
-            "server": "[2603:c02b:304:5200::6]",
-            "server_port": 25002,
-            "uuid": "302b7370-f6c0-408a-a59c-b56f6cb4a5a0",
-            "flow": "xtls-rprx-vision",
+            "server": "[2001:41d0:701:1000::5505]",
+            "server_port": 443,
+            "uuid": "7deecc7a-95e2-46ae-a29e-2bebd211a6e5",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.mcdaniel.edu",
+                "server_name": "[2001:41d0:701:1000::5505]",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "07Z1Yid72dHTfz9HYkijyx5XPNJ2uzZ2VR58lAlytWA",
-                    "short_id": "65b71872"
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
             }
         },
         {
