@@ -91,8 +91,11 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [54]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [55]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
+                "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇩🇪 DE | 🔓 VLESS | @configv2rayforfree [4]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [14]",
@@ -297,8 +300,11 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [54]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [55]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
+                "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇩🇪 DE | 🔓 VLESS | @configv2rayforfree [4]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [14]",
@@ -765,6 +771,47 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [54]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2052,
+            "uuid": "06a69ade-0ebf-44dc-8f06-69dda39be844",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg?ed=2480",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [55]",
+            "type": "vless",
+            "server": "npmjs.com",
+            "server_port": 443,
+            "uuid": "0c07016f-6238-4a17-a414-ab0ecd8a8b5e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "soft-wave-5d2a.kyng-ayaan.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "soft-wave-5d2a.kyng-ayaan.workers.dev"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -800,6 +847,31 @@
                 "path": "/",
                 "headers": {
                     "Host": "cdn.melodyshopone2.ir"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
+            "type": "vless",
+            "server": "ipe3.alighan.ir",
+            "server_port": 8443,
+            "uuid": "cddf1c0b-a78b-4d83-b2fb-38b6b72e5e6b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ipe4.alighan.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2048",
+                "headers": {
+                    "Host": "ipe4.alighan.ir"
                 }
             }
         },
