@@ -97,7 +97,6 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [53]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -142,6 +141,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
+                "❔ XX | 🔒 VLESS | @hope_net [19]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -277,7 +277,6 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [53]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -322,6 +321,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
+                "❔ XX | 🔒 VLESS | @hope_net [19]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -610,15 +610,6 @@
                     "Host": "SpEedteST.NET"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [53]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "0309039a-a9a3-49eb-cbed-f386b85213b0",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
@@ -1409,6 +1400,24 @@
                 "path": "/ViraV2ray/?ed=2560",
                 "headers": {
                     "Host": "199.232.193.57"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @hope_net [19]",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 1080,
+            "uuid": "cacbbaa-cbaa-aabc-cdab-acacbabccbab",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },

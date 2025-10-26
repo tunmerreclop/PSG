@@ -91,8 +91,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [54]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [55]",
+                "🇮🇷 IR | 🔓 VLESS | @config_proxy [66]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -284,7 +283,6 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [53]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -329,6 +327,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
+                "❔ XX | 🔒 VLESS | @hope_net [19]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -479,8 +478,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [54]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [55]",
+                "🇮🇷 IR | 🔓 VLESS | @config_proxy [66]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -672,7 +670,6 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [53]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -717,6 +714,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
+                "❔ XX | 🔒 VLESS | @hope_net [19]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -1129,45 +1127,13 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [54]",
+            "tag": "🇮🇷 IR | 🔓 VLESS | @config_proxy [66]",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2052,
-            "uuid": "06a69ade-0ebf-44dc-8f06-69dda39be844",
+            "server": "a.aa.jigar1.xyz",
+            "server_port": 49006,
+            "uuid": "dc2e0e72-e942-49e1-b2e3-f8f70d3164df",
             "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg?ed=2480",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [55]",
-            "type": "vless",
-            "server": "npmjs.com",
-            "server_port": 443,
-            "uuid": "0c07016f-6238-4a17-a414-ab0ecd8a8b5e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "soft-wave-5d2a.kyng-ayaan.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2560",
-                "headers": {
-                    "Host": "soft-wave-5d2a.kyng-ayaan.workers.dev"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -4432,15 +4398,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [53]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "0309039a-a9a3-49eb-cbed-f386b85213b0",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -5229,6 +5186,24 @@
                 "path": "/ViraV2ray/?ed=2560",
                 "headers": {
                     "Host": "199.232.193.57"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @hope_net [19]",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 1080,
+            "uuid": "cacbbaa-cbaa-aabc-cdab-acacbabccbab",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },

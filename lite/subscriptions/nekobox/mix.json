@@ -100,9 +100,7 @@
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [53]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [54]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [55]",
+                "🇮🇷 IR | 🔓 VLESS | @config_proxy [66]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
@@ -210,9 +208,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [18]",
-                "❔ XX | 🔓 VMESS | @hope_net [19]",
-                "🇺🇸 US | 🔒 SS | @hope_net [20]",
+                "🇺🇸 US | 🔒 SS | @hope_net [18]",
+                "❔ XX | 🔒 VLESS | @hope_net [19]",
+                "🚩 CF | 🔓 VMESS | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -628,9 +626,7 @@
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [53]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [54]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [55]",
+                "🇮🇷 IR | 🔓 VLESS | @config_proxy [66]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
@@ -738,9 +734,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [18]",
-                "❔ XX | 🔓 VMESS | @hope_net [19]",
-                "🇺🇸 US | 🔒 SS | @hope_net [20]",
+                "🇺🇸 US | 🔒 SS | @hope_net [18]",
+                "❔ XX | 🔒 VLESS | @hope_net [19]",
+                "🚩 CF | 🔓 VMESS | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -1532,54 +1528,13 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [53]",
+            "tag": "🇮🇷 IR | 🔓 VLESS | @config_proxy [66]",
             "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "0309039a-a9a3-49eb-cbed-f386b85213b0",
+            "server": "a.aa.jigar1.xyz",
+            "server_port": 49006,
+            "uuid": "dc2e0e72-e942-49e1-b2e3-f8f70d3164df",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [54]",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2052,
-            "uuid": "06a69ade-0ebf-44dc-8f06-69dda39be844",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg?ed=2480",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [55]",
-            "type": "vless",
-            "server": "npmjs.com",
-            "server_port": 443,
-            "uuid": "0c07016f-6238-4a17-a414-ab0ecd8a8b5e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "soft-wave-5d2a.kyng-ayaan.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2560",
-                "headers": {
-                    "Host": "soft-wave-5d2a.kyng-ayaan.workers.dev"
-                }
-            }
         },
         {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
@@ -3355,44 +3310,46 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [18]",
-            "type": "trojan",
-            "server": "104.18.38.122",
-            "server_port": 8443,
-            "password": "Watashi_VPN",
-            "tls": {
-                "enabled": true,
-                "server_name": "t-watashi-r-jacket-o-people-jan.watashi-java.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "t-watashi-r-jacket-o-people-jan.watashi-java.ir"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔓 VMESS | @hope_net [19]",
-            "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "cacbaba-acba-caba-cadb-babcbccacbaa",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 SS | @hope_net [20]",
+            "tag": "🇺🇸 US | 🔒 SS | @hope_net [18]",
             "type": "shadowsocks",
             "server": "142.202.49.84",
             "server_port": 8008,
             "method": "aes-256-gcm",
             "password": "XKFKl2rULjIp74"
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @hope_net [19]",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 1080,
+            "uuid": "cacbbaa-cbaa-aabc-cdab-acacbabccbab",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VMESS | @hope_net [20]",
+            "type": "vmess",
+            "server": "172.64.167.22",
+            "server_port": 2095,
+            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/github.com/Alvin9999",
+                "headers": {
+                    "Host": "172.64.167.22"
+                }
+            }
         },
         {
             "tag": "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
