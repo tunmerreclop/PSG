@@ -84,6 +84,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇨🇿 CZ | 🔒 VLESS | @config_proxy [57]",
+                "🇮🇹 IT | 🔒 VLESS | @config_proxy [58]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -118,7 +120,7 @@
                 "❔ XX | 🔒 VLESS | @proxycrone [3]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🇫🇮 FI | 🔒 VLESS | @prrofile_purple [149]",
+                "🇫🇮 FI | 🔒 VLESS | @prrofile_purple [141]",
                 "🇱🇹 LT | 🔒 VLESS | @public504 [2]",
                 "🇨🇦 CA | 🔒 VLESS | @public504 [3]",
                 "❔ XX | 🔒 VLESS | @public504 [5]",
@@ -184,6 +186,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇨🇿 CZ | 🔒 VLESS | @config_proxy [57]",
+                "🇮🇹 IT | 🔒 VLESS | @config_proxy [58]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -218,7 +222,7 @@
                 "❔ XX | 🔒 VLESS | @proxycrone [3]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🇫🇮 FI | 🔒 VLESS | @prrofile_purple [149]",
+                "🇫🇮 FI | 🔒 VLESS | @prrofile_purple [141]",
                 "🇱🇹 LT | 🔒 VLESS | @public504 [2]",
                 "🇨🇦 CA | 🔒 VLESS | @public504 [3]",
                 "❔ XX | 🔒 VLESS | @public504 [5]",
@@ -457,6 +461,52 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇨🇿 CZ | 🔒 VLESS | @config_proxy [57]",
+            "type": "vless",
+            "server": "czech.marzxo.biz",
+            "server_port": 8094,
+            "uuid": "31689d7b-8c34-343f-84e3-77164962f822",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Ro8OYB3Jq6hTWw95trCnKzQPvWaN2ShcbeLg7dTv8UU",
+                    "short_id": "828348fc6d8e49cf"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇹 IT | 🔒 VLESS | @config_proxy [58]",
+            "type": "vless",
+            "server": "italy.marzxo.biz",
+            "server_port": 8093,
+            "uuid": "31689d7b-8c34-343f-84e3-77164962f822",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Ro8OYB3Jq6hTWw95trCnKzQPvWaN2ShcbeLg7dTv8UU",
+                    "short_id": "828348fc6d8e49cf"
+                }
             }
         },
         {
@@ -1321,7 +1371,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @prrofile_purple [149]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @prrofile_purple [141]",
             "type": "vless",
             "server": "hield.ru",
             "server_port": 3389,
