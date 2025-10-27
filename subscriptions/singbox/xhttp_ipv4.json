@@ -96,7 +96,7 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [10]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [11]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [12]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [63]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [63]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
@@ -145,6 +145,7 @@
                 "🇺🇸 US | 🔓 VLESS | @prrofile_purple [145]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
+                "🇺🇸 US | 🔒 VLESS | @v2raych [17]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -168,7 +169,7 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [10]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [11]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [12]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [63]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [63]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
@@ -217,6 +218,7 @@
                 "🇺🇸 US | 🔓 VLESS | @prrofile_purple [145]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
+                "🇺🇸 US | 🔒 VLESS | @v2raych [17]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -348,16 +350,16 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [63]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [63]",
             "type": "vless",
-            "server": "91.98.79.239",
+            "server": "91.98.35.142",
             "server_port": 443,
-            "uuid": "f599eb06-508a-4e24-9d59-4c50bf0332b7",
+            "uuid": "c99f45df-5daf-4610-81ea-b9b4ea7258f4",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "plaza.ir",
+                "server_name": "91.98.35.142",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1191,6 +1193,24 @@
                     "enabled": true,
                     "public_key": "XvE4spgyHFlKdak6PAN23URn4I-vfIBtuylpc1U5pWM",
                     "short_id": "5426024033df45"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @v2raych [17]",
+            "type": "vless",
+            "server": "151.101.195.6",
+            "server_port": 443,
+            "uuid": "34200db5-84a7-4738-819a-4e72338b9113",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cybervpns.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
