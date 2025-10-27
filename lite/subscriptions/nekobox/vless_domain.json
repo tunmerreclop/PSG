@@ -90,7 +90,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇮🇷 IR | 🔓 VLESS | @config_proxy [64]",
+                "🇫🇷 FR | 🔒 VLESS | @config_proxy [57]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -230,8 +230,8 @@
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
                 "❔ XX | 🔓 VLESS | @shopingv2ray [1]",
                 "❔ XX | 🔓 VLESS | @sobi_vpn [9]",
-                "🚩 CF | 🔓 VLESS | @spikevpn [13]",
                 "🚩 CF | 🔓 VLESS | @spikevpn [14]",
+                "🚩 CF | 🔓 VLESS | @spikevpn [15]",
                 "❔ XX | 🔓 VLESS | @teamvpnpro [5]",
                 "🇮🇷 IR | 🔓 VLESS | @tobevasl [16]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
@@ -300,7 +300,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇮🇷 IR | 🔓 VLESS | @config_proxy [64]",
+                "🇫🇷 FR | 🔒 VLESS | @config_proxy [57]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -440,8 +440,8 @@
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
                 "❔ XX | 🔓 VLESS | @shopingv2ray [1]",
                 "❔ XX | 🔓 VLESS | @sobi_vpn [9]",
-                "🚩 CF | 🔓 VLESS | @spikevpn [13]",
                 "🚩 CF | 🔓 VLESS | @spikevpn [14]",
+                "🚩 CF | 🔓 VLESS | @spikevpn [15]",
                 "❔ XX | 🔓 VLESS | @teamvpnpro [5]",
                 "🇮🇷 IR | 🔓 VLESS | @tobevasl [16]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
@@ -764,13 +764,27 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @config_proxy [64]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @config_proxy [57]",
             "type": "vless",
-            "server": "sv1.zapserver.top",
-            "server_port": 45877,
-            "uuid": "2de7e00b-8b9b-4c7c-9901-2c27b37ad600",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "realdom-fr.panelfreedom.com",
+            "server_port": 20810,
+            "uuid": "1c4193bb-5130-46b3-9e78-3a2703979c4e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo",
+                    "short_id": ""
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -3194,20 +3208,20 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @spikevpn [13]",
+            "tag": "🚩 CF | 🔓 VLESS | @spikevpn [14]",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2086,
-            "uuid": "ed32247a-4147-4b2d-93e0-683b090736e9",
+            "uuid": "b257dc0c-f893-4817-c07c-f9e7c134093c",
             "flow": "",
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @spikevpn [14]",
+            "tag": "🚩 CF | 🔓 VLESS | @spikevpn [15]",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2082,
-            "uuid": "406d98de-daf4-4318-cf72-68b2c157ae38",
+            "uuid": "1816bed5-27c0-42b4-9ae2-18f80054d440",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
