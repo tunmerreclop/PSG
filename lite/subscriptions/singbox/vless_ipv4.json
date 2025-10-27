@@ -98,10 +98,10 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [44]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [47]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [5]",
-                "🇸🇬 SG | 🔓 VLESS | @connectshu [13]",
+                "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [28]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
@@ -141,7 +141,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🚩 CF | 🔓 VLESS | @hope_net [20]",
+                "🚩 CF | 🔓 VLESS | @hope_net [18]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -247,7 +247,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vlessconfig [16]",
                 "🇫🇷 FR | 🔒 VLESS | @vlessconfig [17]",
                 "🇫🇷 FR | 🔒 VLESS | @vlessconfig [18]",
-                "🇳🇱 NL | 🔒 VLESS | @vmesc [19]",
+                "🇳🇱 NL | 🔒 VLESS | @vmesc [18]",
                 "🚩 CF | 🔒 VLESS | @vmessorg [2]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🚩 CF | 🔒 VLESS | @vpn_ocean [2]",
@@ -275,10 +275,10 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [44]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [47]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [5]",
-                "🇸🇬 SG | 🔓 VLESS | @connectshu [13]",
+                "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [28]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
@@ -318,7 +318,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🚩 CF | 🔓 VLESS | @hope_net [20]",
+                "🚩 CF | 🔓 VLESS | @hope_net [18]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -424,7 +424,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vlessconfig [16]",
                 "🇫🇷 FR | 🔒 VLESS | @vlessconfig [17]",
                 "🇫🇷 FR | 🔒 VLESS | @vlessconfig [18]",
-                "🇳🇱 NL | 🔒 VLESS | @vmesc [19]",
+                "🇳🇱 NL | 🔒 VLESS | @vmesc [18]",
                 "🚩 CF | 🔒 VLESS | @vmessorg [2]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🚩 CF | 🔒 VLESS | @vpn_ocean [2]",
@@ -615,13 +615,29 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [44]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [47]",
             "type": "vless",
-            "server": "88.198.160.200",
-            "server_port": 42671,
-            "uuid": "55fcbc64-7e4e-49fa-95f1-bb44a1efcbbf",
+            "server": "188.166.160.221",
+            "server_port": 443,
+            "uuid": "bfb93671-2909-4b2a-8587-ff470a9fb974",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "188.166.160.221",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "188.166.160.221"
+                }
+            }
         },
         {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
@@ -670,7 +686,7 @@
             }
         },
         {
-            "tag": "🇸🇬 SG | 🔓 VLESS | @connectshu [13]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
             "type": "vless",
             "server": "199.232.13.32",
             "server_port": 80,
@@ -1377,7 +1393,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @hope_net [20]",
+            "tag": "🚩 CF | 🔓 VLESS | @hope_net [18]",
             "type": "vless",
             "server": "104.17.147.22",
             "server_port": 8880,
@@ -3260,7 +3276,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @vmesc [19]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @vmesc [18]",
             "type": "vless",
             "server": "193.233.19.242",
             "server_port": 6060,
