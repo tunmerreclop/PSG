@@ -96,17 +96,17 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [4]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [8]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [58]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [55]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [59]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [23]",
                 "🇺🇸 US | 🔓 VLESS | @free1_vpn [8]",
-                "🚩 CF | 🔓 VLESS | @kafing_2 [2]",
+                "🚩 CF | 🔓 VLESS | @kafing_2 [1]",
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [11]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
-                "🚩 CF | 🔓 VLESS | @v2raych [13]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [2]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [7]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [11]",
@@ -125,17 +125,17 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [4]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [8]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [58]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [55]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [59]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [23]",
                 "🇺🇸 US | 🔓 VLESS | @free1_vpn [8]",
-                "🚩 CF | 🔓 VLESS | @kafing_2 [2]",
+                "🚩 CF | 🔓 VLESS | @kafing_2 [1]",
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [11]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
-                "🚩 CF | 🔓 VLESS | @v2raych [13]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [2]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [7]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [11]",
@@ -262,27 +262,22 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [58]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [55]",
             "type": "vless",
-            "server": "america.marzxox.shop",
-            "server_port": 210,
-            "uuid": "953d84ee-2985-44b9-8a69-b4d31bceab32",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.jsdelivr.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "g23nq_R9TIMbMIGQHB6gjDNewFzrHXPcj72bTS-RtX8",
-                    "short_id": ""
-                }
-            }
+            "server": "speedtest.net",
+            "server_port": 80,
+            "uuid": "c349a35c-2a04-4ab3-a84e-0d3fa49c4186",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [59]",
+            "type": "vless",
+            "server": "am288.amin-1.ir",
+            "server_port": 2082,
+            "uuid": "dc906401-d9d9-4f4e-8607-9cc30731f623",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
@@ -344,7 +339,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @kafing_2 [2]",
+            "tag": "🚩 CF | 🔓 VLESS | @kafing_2 [1]",
             "type": "vless",
             "server": "alo09.sernett.ir",
             "server_port": 80,
@@ -376,15 +371,6 @@
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @v2raych [13]",
-            "type": "vless",
-            "server": "serv.sernett.ir",
-            "server_port": 80,
-            "uuid": "SERVERNETT-SERVERNETT1",
             "flow": "",
             "packet_encoding": "xudp"
         },

@@ -98,8 +98,7 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🇷🇺 RU | 🔒 VMESS | @config_proxy [62]",
-                "🇵🇰 PK | 🔓 VMESS | @config_proxy [64]",
+                "🚩 CF | 🔓 VMESS | @config_proxy [58]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇳🇱 NL | 🔓 VMESS | @custom_14 [6]",
@@ -116,7 +115,6 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [4]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇩🇪 DE | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🇩🇪 DE | 🔒 VMESS | @hope_net [18]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -199,8 +197,7 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🇷🇺 RU | 🔒 VMESS | @config_proxy [62]",
-                "🇵🇰 PK | 🔓 VMESS | @config_proxy [64]",
+                "🚩 CF | 🔓 VMESS | @config_proxy [58]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇳🇱 NL | 🔓 VMESS | @custom_14 [6]",
@@ -217,7 +214,6 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [4]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇩🇪 DE | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🇩🇪 DE | 🔒 VMESS | @hope_net [18]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -470,16 +466,16 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VMESS | @config_proxy [62]",
+            "tag": "🚩 CF | 🔓 VMESS | @config_proxy [58]",
             "type": "vmess",
-            "server": "185.148.105.52",
+            "server": "172.67.128.179",
             "server_port": 443,
-            "uuid": "3ed9ac53-ce00-4aa5-9f7a-a2e6fab0e14a",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 1,
             "tls": {
                 "enabled": true,
-                "server_name": "Rockp.Blanku.Me",
+                "server_name": "b.jannah.homes",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -488,27 +484,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/wss49406",
+                "path": "/linkvws",
                 "headers": {
-                    "Host": "Rockp.Blanku.Me"
-                }
-            }
-        },
-        {
-            "tag": "🇵🇰 PK | 🔓 VMESS | @config_proxy [64]",
-            "type": "vmess",
-            "server": "38.60.217.146",
-            "server_port": 443,
-            "uuid": "9ea037cb-c7df-4282-ab10-7d6df9d146a3",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+                    "Host": "b.jannah.homes"
                 }
             }
         },
@@ -772,31 +750,6 @@
             "uuid": "f29ea77c-6842-4ee0-9fc1-9c7a871566b2",
             "security": "auto",
             "alter_id": 0
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @hope_net [18]",
-            "type": "vmess",
-            "server": "mail.applezone.ir",
-            "server_port": 443,
-            "uuid": "3ed9ac53-ce00-4aa5-9f7a-a2e6fab0e14a",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "Rockp.Blanku.Me",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/wss49406",
-                "headers": {
-                    "Host": "Rockp.Blanku.Me"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
