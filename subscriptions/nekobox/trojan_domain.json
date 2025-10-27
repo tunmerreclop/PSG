@@ -87,6 +87,7 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
+                "❔ XX | 🔒 TROJAN | @hope_net [17]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [1]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [4]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
@@ -110,7 +111,8 @@
                 "❔ XX | 🔒 TROJAN | @xrayzxn [1]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [2]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
-                "❔ XX | 🔓 TROJAN | @zerobaipiao [9]"
+                "❔ XX | 🔓 TROJAN | @zerobaipiao [8]",
+                "🇨🇳 CN | 🔓 TROJAN | @zerobaipiao [15]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -128,6 +130,7 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
+                "❔ XX | 🔒 TROJAN | @hope_net [17]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [1]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [4]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
@@ -151,7 +154,8 @@
                 "❔ XX | 🔒 TROJAN | @xrayzxn [1]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [2]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
-                "❔ XX | 🔓 TROJAN | @zerobaipiao [9]"
+                "❔ XX | 🔓 TROJAN | @zerobaipiao [8]",
+                "🇨🇳 CN | 🔓 TROJAN | @zerobaipiao [15]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -356,6 +360,22 @@
             "tls": {
                 "enabled": true,
                 "server_name": "206.237.5.220",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 TROJAN | @hope_net [17]",
+            "type": "trojan",
+            "server": "training.freetrade.link",
+            "server_port": 18333,
+            "password": "Y4O3x7D8RSepyNXDA8ZOZEaKB3F9Y35Ca3TpuxlR6aCAeygSDl0IwcjCz2nSqF",
+            "tls": {
+                "enabled": true,
+                "server_name": "training.freetrade.link",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -801,11 +821,18 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 TROJAN | @zerobaipiao [9]",
+            "tag": "❔ XX | 🔓 TROJAN | @zerobaipiao [8]",
             "type": "trojan",
             "server": "LW%w_%",
             "server_port": 0,
             "password": "T@_WvT8Ho"
+        },
+        {
+            "tag": "🇨🇳 CN | 🔓 TROJAN | @zerobaipiao [15]",
+            "type": "trojan",
+            "server": "oss-cn-shanghai.letssepub.com",
+            "server_port": 20021,
+            "password": "adbac894-90b9-4913-b77e-a715a8d4ebc8"
         }
     ],
     "route": {
