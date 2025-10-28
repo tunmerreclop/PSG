@@ -112,8 +112,9 @@
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [42]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [43]",
+                "🇬🇧 GB | 🔓 VLESS | @config_proxy [41]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [42]",
+                "🇭🇰 HK | 🔓 VMESS | @config_proxy [43]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
@@ -221,9 +222,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇭🇰 HK | 🔒 SS | @hope_net [18]",
-                "🚩 CF | 🔓 VMESS | @hope_net [19]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [18]",
+                "🇺🇸 US | 🔓 VMESS | @hope_net [19]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -646,8 +646,9 @@
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [42]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [43]",
+                "🇬🇧 GB | 🔓 VLESS | @config_proxy [41]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [42]",
+                "🇭🇰 HK | 🔓 VMESS | @config_proxy [43]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
@@ -755,9 +756,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇭🇰 HK | 🔒 SS | @hope_net [18]",
-                "🚩 CF | 🔓 VMESS | @hope_net [19]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [18]",
+                "🇺🇸 US | 🔓 VMESS | @hope_net [19]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -1552,16 +1552,52 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [42]",
+            "tag": "🇬🇧 GB | 🔓 VLESS | @config_proxy [41]",
             "type": "vless",
-            "server": "104.17.147.22",
-            "server_port": 443,
-            "uuid": "8c77668c-7b44-4595-b683-522fdcd3481b",
+            "server": "m46a.vip784.com",
+            "server_port": 33801,
+            "uuid": "66cb0bf2-1413-4dcb-9cbb-d94e4df45f72",
             "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [42]",
+            "type": "vless",
+            "server": "138.124.89.174",
+            "server_port": 8443,
+            "uuid": "be7d287c-98d0-4454-9dd5-d7242d7c440b",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "q.qdio006.workers.dev",
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "NrxszzWlNtoTPJZZACCnRUD9Mq4UWmfPI9gtGGlqUB0",
+                    "short_id": "2e7bc12762"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs?ed=2056"
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔓 VMESS | @config_proxy [43]",
+            "type": "vmess",
+            "server": "27.124.10.146",
+            "server_port": 30000,
+            "uuid": "2525f395-86fc-4090-b203-d9e6db481101",
+            "security": "auto",
+            "alter_id": 64,
+            "tls": {
+                "enabled": true,
+                "server_name": "www.60443882.xyz",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1570,32 +1606,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/?ed=2560",
+                "path": "/path/011410073331",
                 "headers": {
-                    "Host": "q.qdio006.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [43]",
-            "type": "vless",
-            "server": "secure.soratpardaz.ir",
-            "server_port": 20697,
-            "uuid": "724df1d7-73cc-4a6a-8140-445458c52eba",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "preview.redd.it",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "hROcC4fh41OfLrxpvgsvpWXKPaK5FJaoL01TkSNXMSI",
-                    "short_id": "e24f1d72d00da7ÃÂÃÂ¬e=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---"
+                    "Host": "www.60443882.xyz"
                 }
             }
         },
@@ -3329,31 +3342,7 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔒 SS | @hope_net [18]",
-            "type": "shadowsocks",
-            "server": "141.98.234.93",
-            "server_port": 20012,
-            "method": "chacha20-ietf-poly1305",
-            "password": "WfmxKX2FBJRU0Ie9VLIYDL"
-        },
-        {
-            "tag": "🚩 CF | 🔓 VMESS | @hope_net [19]",
-            "type": "vmess",
-            "server": "172.64.175.88",
-            "server_port": 2095,
-            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/github.com/Alvin9999",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [18]",
             "type": "trojan",
             "server": "162.159.128.233",
             "server_port": 8443,
@@ -3372,6 +3361,31 @@
                 "path": "/Telegram-@V2ray_Alpha/?ed=2048",
                 "headers": {
                     "Host": "e9464f45.trauma-2r4.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @hope_net [19]",
+            "type": "vmess",
+            "server": "38.75.137.121",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 1,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": ""
                 }
             }
         },

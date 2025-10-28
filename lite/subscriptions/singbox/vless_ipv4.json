@@ -98,7 +98,7 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [42]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [42]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
@@ -273,7 +273,7 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [42]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [42]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
@@ -611,28 +611,30 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [42]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [42]",
             "type": "vless",
-            "server": "104.17.147.22",
-            "server_port": 443,
-            "uuid": "8c77668c-7b44-4595-b683-522fdcd3481b",
-            "flow": "",
+            "server": "138.124.89.174",
+            "server_port": 8443,
+            "uuid": "be7d287c-98d0-4454-9dd5-d7242d7c440b",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "q.qdio006.workers.dev",
+                "server_name": "tgju.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "NrxszzWlNtoTPJZZACCnRUD9Mq4UWmfPI9gtGGlqUB0",
+                    "short_id": "2e7bc12762"
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "/?ed=2560",
-                "headers": {
-                    "Host": "q.qdio006.workers.dev"
-                }
+                "type": "grpc",
+                "service_name": "@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs?ed=2056"
             }
         },
         {
