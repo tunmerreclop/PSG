@@ -84,8 +84,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [51]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -133,7 +131,6 @@
                 "🇨🇭 CH | 🔒 VLESS | @v2ray_sub [21]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇳🇱 NL | 🔒 VLESS | @v2raych [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [9]",
@@ -186,8 +183,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [51]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -235,7 +230,6 @@
                 "🇨🇭 CH | 🔒 VLESS | @v2ray_sub [21]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇳🇱 NL | 🔒 VLESS | @v2raych [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [9]",
@@ -461,52 +455,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
-            "type": "vless",
-            "server": "gerpanel7.hipay.su",
-            "server_port": 443,
-            "uuid": "fa856c4c-b4c3-46e5-93ad-7b1bcf205fa3",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ger7.hipay.su",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "BkLraNl-jKNmC6kV302GBsr81RB4vP_ZKoAlFpqYTys",
-                    "short_id": "8eb16bc6b2f0589c"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [51]",
-            "type": "vless",
-            "server": "de.vip-get.ru",
-            "server_port": 443,
-            "uuid": "89bf7903-b90d-4c8a-aad7-bea7a276654c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "d4nrz5jZn6OcMGmRr4H-2v6hKexlwe4hKaDMgMqSV3A",
-                    "short_id": "305b25f707eb"
-                }
             }
         },
         {
@@ -1674,29 +1622,6 @@
                     "enabled": true,
                     "public_key": "2dIWbgD8nbCd1YBs-IiQ6vgA7mse9PA9DWqaIMFsTmc",
                     "short_id": "cb333964"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @v2raych [12]",
-            "type": "vless",
-            "server": "n3.robotklass.space",
-            "server_port": 8443,
-            "uuid": "b50a9c58-b42d-40b1-93ec-bc6f34fcb5d8",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "pUD3mOlIKBEtDyFWK0LsGkY7j__7vblFPXnEVoY9oVQ",
-                    "short_id": ""
                 }
             }
         },

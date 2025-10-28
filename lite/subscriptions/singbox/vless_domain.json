@@ -172,6 +172,7 @@
                 "🚩 CF | 🔓 VLESS | @lockey_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [14]",
+                "🚩 CF | 🔓 VLESS | @lranonline_new [7]",
                 "🇩🇪 DE | 🔓 VLESS | @luckyvpn [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [2]",
@@ -205,7 +206,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🚩 CF | 🔓 VLESS | @novinology [16]",
-                "🚩 CF | 🔒 VLESS | @orange_vpns [19]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "🚩 CF | 🔒 VLESS | @proxy48 [13]",
                 "❔ XX | 🔓 VLESS | @proxy48 [15]",
@@ -278,6 +278,7 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
+                "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&host=nodegcf.azurka.org&fp=chrome&type=ws&sni=nodegcf.azurka.org#🚩 CF | 🔒 VLESS | @vmesc [20]",
                 "🇹🇷 TR | 🔓 VLESS | @vmesskhodam [13]",
                 "🇫🇷 FR | 🔓 VLESS | @vmessorg [1]",
                 "❔ XX | 🔒 VLESS | @vpncostume [9]",
@@ -381,6 +382,7 @@
                 "🚩 CF | 🔓 VLESS | @lockey_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [14]",
+                "🚩 CF | 🔓 VLESS | @lranonline_new [7]",
                 "🇩🇪 DE | 🔓 VLESS | @luckyvpn [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [2]",
@@ -414,7 +416,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🚩 CF | 🔓 VLESS | @novinology [16]",
-                "🚩 CF | 🔒 VLESS | @orange_vpns [19]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "🚩 CF | 🔒 VLESS | @proxy48 [13]",
                 "❔ XX | 🔓 VLESS | @proxy48 [15]",
@@ -487,6 +488,7 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
+                "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&host=nodegcf.azurka.org&fp=chrome&type=ws&sni=nodegcf.azurka.org#🚩 CF | 🔒 VLESS | @vmesc [20]",
                 "🇹🇷 TR | 🔓 VLESS | @vmesskhodam [13]",
                 "🇫🇷 FR | 🔓 VLESS | @vmessorg [1]",
                 "❔ XX | 🔒 VLESS | @vpncostume [9]",
@@ -1983,6 +1985,22 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔓 VLESS | @lranonline_new [7]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "1c7dd901-c84b-45a3-ba61-2823d6336fc7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @luckyvpn [1]",
             "type": "vless",
             "server": "paris.get.raskolnikov.ir",
@@ -2523,31 +2541,6 @@
                 "path": "/?ed=2048",
                 "headers": {
                     "Host": "upload.ir"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @orange_vpns [19]",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "256b56b5-9079-4266-8777-c39fdcd87cd9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "amIR-ebR.pAGeS.Dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/2IBbZjAugSH41qc5?ed",
-                "headers": {
-                    "Host": "amIR-ebR.pAGeS.Dev"
                 }
             }
         },
@@ -3853,6 +3846,24 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "okala.com"
+            }
+        },
+        {
+            "tag": "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&host=nodegcf.azurka.org&fp=chrome&type=ws&sni=nodegcf.azurka.org#🚩 CF | 🔒 VLESS | @vmesc [20]",
+            "type": "vless",
+            "server": "nodegcf.azurka.org",
+            "server_port": 443,
+            "uuid": "ff84dbed-bbfb-42d8-b397-b0ec025fb570",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "nodegcf.azurka.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         },
         {
