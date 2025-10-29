@@ -95,6 +95,7 @@
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [4]",
+                "🇦🇲 AM | 🔒 VLESS | @config_proxy [52]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -105,6 +106,7 @@
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [9]",
                 "🇺🇸 US | 🔓 VLESS | @prrofile_purple [137]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [15]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [2]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [7]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [11]",
@@ -192,6 +194,7 @@
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [4]",
+                "🇦🇲 AM | 🔒 VLESS | @config_proxy [52]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -202,6 +205,7 @@
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [9]",
                 "🇺🇸 US | 🔓 VLESS | @prrofile_purple [137]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [15]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [2]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [7]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [11]",
@@ -389,6 +393,29 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇦🇲 AM | 🔒 VLESS | @config_proxy [52]",
+            "type": "vless",
+            "server": "or1.pmme.top",
+            "server_port": 443,
+            "uuid": "35ebf266-908d-4f1e-abea-fbc69816a46f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.parspack.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xfzizKASi1RDkMp0lU9CKVNbcKCL5KzdgIzZjF1d_AI",
+                    "short_id": "6b"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
             "type": "vless",
             "server": "holkanas.atroart.ir",
@@ -489,6 +516,15 @@
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [15]",
+            "type": "vless",
+            "server": "pscresearch.faculty.ucdavis.edu",
+            "server_port": 80,
+            "uuid": "451f803a-9844-46bc-9f79-7bbbfd416819",
             "flow": "",
             "packet_encoding": "xudp"
         },
