@@ -90,7 +90,8 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇸🇬 SG | 🔒 VLESS | @config_proxy [56]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [55]",
+                "🇯🇵 JP | 🔒 VLESS | @config_proxy [56]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
@@ -160,7 +161,7 @@
                 "🚩 CF | 🔓 VLESS | @lockey_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [14]",
-                "🚩 CF | 🔓 VLESS | @lranonline_new [4]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [7]",
                 "🇩🇪 DE | 🔓 VLESS | @luckyvpn [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [2]",
@@ -271,7 +272,6 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🇺🇸 US | 🔓 VLESS | @vmesc [18]",
                 "🇹🇷 TR | 🔓 VLESS | @vmesskhodam [13]",
                 "🇫🇷 FR | 🔓 VLESS | @vmessorg [1]",
                 "❔ XX | 🔒 VLESS | @vpncostume [9]",
@@ -306,7 +306,8 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇸🇬 SG | 🔒 VLESS | @config_proxy [56]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [55]",
+                "🇯🇵 JP | 🔒 VLESS | @config_proxy [56]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
@@ -376,7 +377,7 @@
                 "🚩 CF | 🔓 VLESS | @lockey_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [14]",
-                "🚩 CF | 🔓 VLESS | @lranonline_new [4]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [7]",
                 "🇩🇪 DE | 🔓 VLESS | @luckyvpn [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [2]",
@@ -487,7 +488,6 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🇺🇸 US | 🔓 VLESS | @vmesc [18]",
                 "🇹🇷 TR | 🔓 VLESS | @vmesskhodam [13]",
                 "🇫🇷 FR | 🔓 VLESS | @vmessorg [1]",
                 "❔ XX | 🔒 VLESS | @vpncostume [9]",
@@ -776,16 +776,39 @@
             }
         },
         {
-            "tag": "🇸🇬 SG | 🔒 VLESS | @config_proxy [56]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [55]",
             "type": "vless",
-            "server": "singapour-01.ptu.ink",
-            "server_port": 443,
-            "uuid": "2324beaa-2d88-40a6-8f42-b6e648f2219a",
+            "server": "germany.marzxo.biz",
+            "server_port": 8080,
+            "uuid": "e409c7f4-f875-ac64-a26d-88265879eb19",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.microsoft.com",
+                "server_name": "cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Ro8OYB3Jq6hTWw95trCnKzQPvWaN2ShcbeLg7dTv8UU",
+                    "short_id": "828348fc6d8e49cf"
+                }
+            }
+        },
+        {
+            "tag": "🇯🇵 JP | 🔒 VLESS | @config_proxy [56]",
+            "type": "vless",
+            "server": "softbank88.xzcloudnode.sbs",
+            "server_port": 51623,
+            "uuid": "8129a335-37d4-4932-8dca-ac4358ce60b7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "itunes.apple.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -793,8 +816,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "K11XBiYEwMIZ4lr1NlcRL_le4_aIJDNs1flCh0QfnXI",
-                    "short_id": "418b3ff02c4da8b6"
+                    "public_key": "ln4RiHk9_Ea_EyeI2GpZfzilPyrqKYDBqis09esVECo",
+                    "short_id": "6ba85179e30d4fc2"
                 }
             }
         },
@@ -2003,20 +2026,13 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @lranonline_new [4]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @lranonline_new [7]",
             "type": "vless",
-            "server": "www.speedtest.net",
+            "server": "test.fast.hosting-ip.com",
             "server_port": 80,
-            "uuid": "0e2ad060-bf4e-4570-ae87-a19e8dae2e7b",
+            "uuid": "TELEGRAM-CONFiGLiNE-8",
             "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @luckyvpn [1]",
@@ -3956,15 +3972,6 @@
                 "type": "grpc",
                 "service_name": "okala.com"
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [18]",
-            "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 80,
-            "uuid": "c349a35c-2a04-4ab3-a84e-0d3fa49c4186",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇹🇷 TR | 🔓 VLESS | @vmesskhodam [13]",

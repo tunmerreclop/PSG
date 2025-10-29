@@ -98,7 +98,7 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🇮🇷 IR | 🔓 VMESS | @config_proxy [54]",
+                "🚩 CF | 🔒 VMESS | @config_proxy [57]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇳🇱 NL | 🔓 VMESS | @custom_14 [6]",
@@ -116,7 +116,6 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [3]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇩🇪 DE | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🇺🇸 US | 🔒 VMESS | @hope_net [18]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -127,6 +126,7 @@
                 "🇬🇧 GB | 🔓 VMESS | @khoneproxy [15]",
                 "🇮🇷 IR | 🔓 VMESS | @komail315 [4]",
                 "🇬🇧 GB | 🔓 VMESS | @kurdistan_vpn_perfectt [10]",
+                "🇭🇰 HK | 🔓 VMESS | @lranonline_new [6]",
                 "🇩🇪 DE | 🔓 VMESS | @magickey_shop [2]",
                 "❔ XX | 🔓 VMESS | @mahsaproxy [2]",
                 "❔ XX | 🔓 VMESS | @mahsaproxy [3]",
@@ -200,7 +200,7 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🇮🇷 IR | 🔓 VMESS | @config_proxy [54]",
+                "🚩 CF | 🔒 VMESS | @config_proxy [57]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇳🇱 NL | 🔓 VMESS | @custom_14 [6]",
@@ -218,7 +218,6 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [3]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇩🇪 DE | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🇺🇸 US | 🔒 VMESS | @hope_net [18]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -229,6 +228,7 @@
                 "🇬🇧 GB | 🔓 VMESS | @khoneproxy [15]",
                 "🇮🇷 IR | 🔓 VMESS | @komail315 [4]",
                 "🇬🇧 GB | 🔓 VMESS | @kurdistan_vpn_perfectt [10]",
+                "🇭🇰 HK | 🔓 VMESS | @lranonline_new [6]",
                 "🇩🇪 DE | 🔓 VMESS | @magickey_shop [2]",
                 "❔ XX | 🔓 VMESS | @mahsaproxy [2]",
                 "❔ XX | 🔓 VMESS | @mahsaproxy [3]",
@@ -472,13 +472,29 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VMESS | @config_proxy [54]",
+            "tag": "🚩 CF | 🔒 VMESS | @config_proxy [57]",
             "type": "vmess",
-            "server": "88.218.19.72",
-            "server_port": 16410,
-            "uuid": "20ded573-2ecb-441e-862a-8951c642a893",
+            "server": "cdns.doon.eu.org",
+            "server_port": 443,
+            "uuid": "270eac45-11c4-426d-af58-52e2043ceb51",
             "security": "auto",
-            "alter_id": 0
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "proportion-recovery-motels-jones.trycloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/vmess-argo?ed=2560",
+                "headers": {
+                    "Host": "proportion-recovery-motels-jones.trycloudflare.com"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -767,31 +783,6 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🔒 VMESS | @hope_net [18]",
-            "type": "vmess",
-            "server": "ds.fapeng.org",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 1,
-            "tls": {
-                "enabled": true,
-                "server_name": "ds.fapeng.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkvws",
-                "headers": {
-                    "Host": "ds.fapeng.org"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
             "type": "vmess",
             "server": "142.4.125.84",
@@ -910,6 +901,22 @@
             "uuid": "89de8c17-9b41-4632-9a0b-440f850548fd",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🇭🇰 HK | 🔓 VMESS | @lranonline_new [6]",
+            "type": "vmess",
+            "server": "8.210.212.196",
+            "server_port": 43149,
+            "uuid": "bdb46289-9b42-447a-b5db-1453324dc40b",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/arki?ed=2048",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VMESS | @magickey_shop [2]",
