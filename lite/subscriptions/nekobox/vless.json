@@ -90,6 +90,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "❔ XX | 🔓 VLESS | @config_proxy [59]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -277,8 +278,8 @@
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [5]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfree85 [1]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
-                "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
-                "❔ XX | 🔓 VLESS | @womanlifefreedomvpn [17]",
+                "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
+                "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
@@ -288,8 +289,8 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [57]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [58]",
+                "🇹🇷 TR | 🔓 VLESS | @config_proxy [57]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [58]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
@@ -472,6 +473,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "❔ XX | 🔓 VLESS | @config_proxy [59]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -659,8 +661,8 @@
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [5]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfree85 [1]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
-                "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
-                "❔ XX | 🔓 VLESS | @womanlifefreedomvpn [17]",
+                "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
+                "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
@@ -670,8 +672,8 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [57]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [58]",
+                "🇹🇷 TR | 🔓 VLESS | @config_proxy [57]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [58]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
@@ -1105,6 +1107,22 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @config_proxy [59]",
+            "type": "vless",
+            "server": "hOPeFUL-APpOintmEnT.SeoTOoLsfoRYOu.Co.uk",
+            "server_port": 80,
+            "uuid": "491e4f76-42f0-43a7-a987-25072a68d5e4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "hOPeFUL-APpOintmEnT.SeoTOoLsfoRYOu.Co.uk"
+                }
             }
         },
         {
@@ -4359,7 +4377,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
+            "tag": "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
             "type": "vless",
             "server": "icloud.wlftest.xyz",
             "server_port": 443,
@@ -4382,7 +4400,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @womanlifefreedomvpn [17]",
+            "tag": "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
             "type": "vless",
             "server": "google.wlftest.xyz",
             "server_port": 80,
@@ -4545,16 +4563,29 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [57]",
+            "tag": "🇹🇷 TR | 🔓 VLESS | @config_proxy [57]",
             "type": "vless",
-            "server": "172.66.146.26",
-            "server_port": 443,
-            "uuid": "0fbf4f81-2598-4b6a-a623-0ead4cb9efa8",
+            "server": "95.134.130.138",
+            "server_port": 5437,
+            "uuid": "b5539d12-f76d-4b52-a7f1-6838d3ebe35d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "grpc",
+                "service_name": "----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vp"
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [58]",
+            "type": "vless",
+            "server": "104.21.16.1",
+            "server_port": 2087,
+            "uuid": "bb7bbd46-6570-483a-8932-df3d893d4e0c",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "privasi.turah.my.id",
+                "server_name": "57140d1D.HYuiThOhkK2RW2BANp075lN4Bx8P8Xs9.pAgeS.DEv",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -4563,20 +4594,11 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/Free-CF-Proxy-AD192.3.113.4-19318?ed=2048@v2ray_configs_pools",
+                "path": "/AHUqk6L2hMDLGdif?ed=2560",
                 "headers": {
-                    "Host": "privasi.turah.my.id"
+                    "Host": "57140d1D.HYuiThOhkK2RW2BANp075lN4Bx8P8Xs9.pAgeS.DEv"
                 }
             }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [58]",
-            "type": "vless",
-            "server": "172.66.156.81",
-            "server_port": 80,
-            "uuid": "0f02ba17-0125-4356-98a8-710d9be08bce",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",

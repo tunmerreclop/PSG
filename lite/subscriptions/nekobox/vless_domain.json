@@ -90,6 +90,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "❔ XX | 🔓 VLESS | @config_proxy [59]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -277,8 +278,8 @@
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [5]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfree85 [1]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
-                "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
-                "❔ XX | 🔓 VLESS | @womanlifefreedomvpn [17]",
+                "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
+                "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
@@ -302,6 +303,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "❔ XX | 🔓 VLESS | @config_proxy [59]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -489,8 +491,8 @@
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [5]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfree85 [1]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
-                "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
-                "❔ XX | 🔓 VLESS | @womanlifefreedomvpn [17]",
+                "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
+                "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
@@ -765,6 +767,22 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @config_proxy [59]",
+            "type": "vless",
+            "server": "hOPeFUL-APpOintmEnT.SeoTOoLsfoRYOu.Co.uk",
+            "server_port": 80,
+            "uuid": "491e4f76-42f0-43a7-a987-25072a68d5e4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "hOPeFUL-APpOintmEnT.SeoTOoLsfoRYOu.Co.uk"
+                }
             }
         },
         {
@@ -4019,7 +4037,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
+            "tag": "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
             "type": "vless",
             "server": "icloud.wlftest.xyz",
             "server_port": 443,
@@ -4042,7 +4060,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @womanlifefreedomvpn [17]",
+            "tag": "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
             "type": "vless",
             "server": "google.wlftest.xyz",
             "server_port": 80,
