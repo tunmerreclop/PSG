@@ -80,7 +80,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [59]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [5]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [4]",
@@ -113,6 +112,7 @@
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [56]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
@@ -154,7 +154,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [59]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [5]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [4]",
@@ -187,6 +186,7 @@
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [56]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
@@ -304,29 +304,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [59]",
-            "type": "vless",
-            "server": "80.242.56.200",
-            "server_port": 8444,
-            "uuid": "02334dc7-5535-4909-a972-07d1d937ea3f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "o2jxNDCcRkxW9uur_7MAcnr2umdiRUBfNEKu1bONcnk",
-                    "short_id": "6ba85179e30d4fc2"
                 }
             }
         },
@@ -1084,6 +1061,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇸🇬 SG | 🔒 VLESS | @config_proxy [56]",
+            "type": "vless",
+            "server": "singapour-01.ptu.ink",
+            "server_port": 443,
+            "uuid": "2324beaa-2d88-40a6-8f42-b6e648f2219a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.microsoft.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "K11XBiYEwMIZ4lr1NlcRL_le4_aIJDNs1flCh0QfnXI",
+                    "short_id": "418b3ff02c4da8b6"
+                }
             }
         },
         {
