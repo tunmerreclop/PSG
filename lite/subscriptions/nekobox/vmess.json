@@ -103,9 +103,9 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [3]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇩🇪 DE | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🇪🇸 ES | 🔒 VMESS | @hope_net [18]",
-                "🇺🇸 US | 🔒 VMESS | @hope_net [19]",
-                "🇨🇭 CH | 🔒 VMESS | @hope_net [20]",
+                "🇨🇭 CH | 🔒 VMESS | @hope_net [18]",
+                "🚩 CF | 🔒 VMESS | @hope_net [19]",
+                "🚩 CF | 🔒 VMESS | @hope_net [20]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -206,9 +206,9 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [3]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇩🇪 DE | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🇪🇸 ES | 🔒 VMESS | @hope_net [18]",
-                "🇺🇸 US | 🔒 VMESS | @hope_net [19]",
-                "🇨🇭 CH | 🔒 VMESS | @hope_net [20]",
+                "🇨🇭 CH | 🔒 VMESS | @hope_net [18]",
+                "🚩 CF | 🔒 VMESS | @hope_net [19]",
+                "🚩 CF | 🔒 VMESS | @hope_net [20]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -752,57 +752,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇪🇸 ES | 🔒 VMESS | @hope_net [18]",
-            "type": "vmess",
-            "server": "67.220.66.194",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 1,
-            "tls": {
-                "enabled": true,
-                "server_name": "67.220.66.194",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkvws",
-                "headers": {
-                    "Host": "67.220.66.194"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VMESS | @hope_net [19]",
-            "type": "vmess",
-            "server": "e.ritchier.info",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 1,
-            "tls": {
-                "enabled": true,
-                "server_name": "e.ritchier.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkvws",
-                "headers": {
-                    "Host": "e.ritchier.info"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇭 CH | 🔒 VMESS | @hope_net [20]",
+            "tag": "🇨🇭 CH | 🔒 VMESS | @hope_net [18]",
             "type": "vmess",
             "server": "186.190.215.32",
             "server_port": 443,
@@ -823,6 +773,56 @@
                 "path": "/linkvws",
                 "headers": {
                     "Host": "186.190.215.32"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VMESS | @hope_net [19]",
+            "type": "vmess",
+            "server": "104.16.6.65",
+            "server_port": 443,
+            "uuid": "3ed9ac53-ce00-4aa5-9f7a-a2e6fab0e14a",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "Rockp.Blanku.Me",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/wss49406",
+                "headers": {
+                    "Host": "Rockp.Blanku.Me"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VMESS | @hope_net [20]",
+            "type": "vmess",
+            "server": "104.19.255.51",
+            "server_port": 443,
+            "uuid": "3ed9ac53-ce00-4aa5-9f7a-a2e6fab0e14a",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "Rockp.Blanku.Me",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/wss49406",
+                "headers": {
+                    "Host": "Rockp.Blanku.Me"
                 }
             }
         },

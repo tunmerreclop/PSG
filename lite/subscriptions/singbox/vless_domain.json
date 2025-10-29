@@ -102,7 +102,8 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇮🇹 IT | 🔓 VLESS | @config_proxy [54]",
+                "🇵🇱 PL | 🔒 VLESS | @config_proxy [49]",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [50]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
@@ -281,6 +282,7 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
+                "🇺🇸 US | 🔓 VLESS | @vmesc [20]",
                 "🇹🇷 TR | 🔓 VLESS | @vmesskhodam [13]",
                 "🇫🇷 FR | 🔓 VLESS | @vmessorg [1]",
                 "❔ XX | 🔒 VLESS | @vpncostume [9]",
@@ -290,8 +292,8 @@
                 "🇮🇷 IR | 🔓 VLESS | @vpnfree85 [1]",
                 "🚩 CF | 🔓 VLESS | @vpnplusee_free [14]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
-                "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
-                "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
+                "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
+                "❔ XX | 🔓 VLESS | @womanlifefreedomvpn [17]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
@@ -315,7 +317,8 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇮🇹 IT | 🔓 VLESS | @config_proxy [54]",
+                "🇵🇱 PL | 🔒 VLESS | @config_proxy [49]",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [50]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
@@ -494,6 +497,7 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
+                "🇺🇸 US | 🔓 VLESS | @vmesc [20]",
                 "🇹🇷 TR | 🔓 VLESS | @vmesskhodam [13]",
                 "🇫🇷 FR | 🔓 VLESS | @vmessorg [1]",
                 "❔ XX | 🔒 VLESS | @vpncostume [9]",
@@ -503,8 +507,8 @@
                 "🇮🇷 IR | 🔓 VLESS | @vpnfree85 [1]",
                 "🚩 CF | 🔓 VLESS | @vpnplusee_free [14]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
-                "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
-                "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
+                "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
+                "❔ XX | 🔓 VLESS | @womanlifefreedomvpn [17]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
@@ -778,13 +782,50 @@
             }
         },
         {
-            "tag": "🇮🇹 IT | 🔓 VLESS | @config_proxy [54]",
+            "tag": "🇵🇱 PL | 🔒 VLESS | @config_proxy [49]",
             "type": "vless",
-            "server": "sv1.tsteamu1.top",
-            "server_port": 40001,
-            "uuid": "6c0732a0-593a-4a84-91cc-439bdc808529",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "poland25.clearorbitllc.com",
+            "server_port": 443,
+            "uuid": "1091ab59-e8b5-4fca-bdd5-58fcff4fed1f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "poland25.clearorbitllc.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-QlxjsQ9QuUaQmCG6D4pPTaLhHKbgYUCJs9rdfS5hzc",
+                    "short_id": "ad76d8e3"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪 SE | 🔒 VLESS | @config_proxy [50]",
+            "type": "vless",
+            "server": "sweden11.clearorbitllc.com",
+            "server_port": 443,
+            "uuid": "26c99015-b58e-47d2-a4ce-4f4b05b70400",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sweden11.clearorbitllc.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "6i0TALpH7qy8-xzwJkI13mRsgi2e7lHqKQyAcDSg8Uc",
+                    "short_id": "4af2"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -3912,6 +3953,15 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [20]",
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 80,
+            "uuid": "c349a35c-2a04-4ab3-a84e-0d3fa49c4186",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇹🇷 TR | 🔓 VLESS | @vmesskhodam [13]",
             "type": "vless",
             "server": "ardagulerturk.vtuix.online",
@@ -4029,7 +4079,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
+            "tag": "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
             "type": "vless",
             "server": "icloud.wlftest.xyz",
             "server_port": 443,
@@ -4052,7 +4102,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
+            "tag": "❔ XX | 🔓 VLESS | @womanlifefreedomvpn [17]",
             "type": "vless",
             "server": "google.wlftest.xyz",
             "server_port": 80,
