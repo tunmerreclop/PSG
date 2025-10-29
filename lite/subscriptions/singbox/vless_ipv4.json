@@ -98,6 +98,8 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [59]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [60]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [5]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
@@ -184,7 +186,7 @@
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [19]",
                 "🚩 CF | 🔒 VLESS | @novinology [15]",
                 "🇨🇭 CH | 🔓 VLESS | @oonfig [3]",
-                "🇫🇷 FR | 🔒 VLESS | @outline_ir [18]",
+                "🇫🇷 FR | 🔒 VLESS | @outline_ir [17]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [13]",
                 "🇸🇪 SE | 🔓 VLESS | @parsashonam [14]",
                 "🚩 CF | 🔒 VLESS | @pro_chaneel [1]",
@@ -266,6 +268,8 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [59]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [60]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [5]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
@@ -352,7 +356,7 @@
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [19]",
                 "🚩 CF | 🔒 VLESS | @novinology [15]",
                 "🇨🇭 CH | 🔓 VLESS | @oonfig [3]",
-                "🇫🇷 FR | 🔒 VLESS | @outline_ir [18]",
+                "🇫🇷 FR | 🔒 VLESS | @outline_ir [17]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [13]",
                 "🇸🇪 SE | 🔓 VLESS | @parsashonam [14]",
                 "🚩 CF | 🔒 VLESS | @pro_chaneel [1]",
@@ -600,6 +604,54 @@
                 "path": "/veNbt06rF0tTFtp6/MTcyLjY0LjEzNC41OA==?ed=2560",
                 "headers": {
                     "Host": "SpEedteST.NET"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [59]",
+            "type": "vless",
+            "server": "80.242.56.200",
+            "server_port": 8444,
+            "uuid": "02334dc7-5535-4909-a972-07d1d937ea3f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "o2jxNDCcRkxW9uur_7MAcnr2umdiRUBfNEKu1bONcnk",
+                    "short_id": "6ba85179e30d4fc2"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [60]",
+            "type": "vless",
+            "server": "198.41.214.179",
+            "server_port": 443,
+            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "lv.kpcloud.eu.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2048",
+                "headers": {
+                    "Host": "lv.kpcloud.eu.org"
                 }
             }
         },
@@ -2100,7 +2152,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @outline_ir [18]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @outline_ir [17]",
             "type": "vless",
             "server": "151.80.254.250",
             "server_port": 16361,
