@@ -99,7 +99,6 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [9]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [43]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
@@ -153,13 +152,13 @@
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [23]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [20]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [6]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [11]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [10]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raytg [56]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [1]",
                 "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [7]"
@@ -180,7 +179,6 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [9]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [43]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
@@ -234,13 +232,13 @@
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [23]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [20]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [6]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [11]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [10]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raytg [56]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [1]",
                 "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [7]"
@@ -389,15 +387,6 @@
             "server": "188.114.97.3",
             "server_port": 2082,
             "uuid": "935eec34-739f-44a1-b299-8af2989d13d9",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [43]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "8c594d26-1da7-495a-86ca-d35d780378ba",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -1290,13 +1279,27 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [20]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [6]",
             "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "8c594d26-1da7-495a-86ca-d35d780378ba",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "91.98.35.135",
+            "server_port": 443,
+            "uuid": "56dc390e-bfac-4642-9300-b3deb4c4644a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "87I7aEBv0W9xl5LoEkJpd_wi6zBbVDUNDA-zZruC53g",
+                    "short_id": ""
+                }
+            }
         },
         {
             "tag": "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
@@ -1414,7 +1417,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [11]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [10]",
             "type": "vless",
             "server": "91.99.16.244",
             "server_port": 443,
