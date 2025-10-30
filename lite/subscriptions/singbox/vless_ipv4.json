@@ -138,7 +138,7 @@
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
                 "🚩 CF | 🔒 VLESS | @hope_net [18]",
-                "❔ XX | 🔒 VLESS | @hope_net [19]",
+                "🇺🇸 US | 🔒 VLESS | @hope_net [19]",
                 "🇭🇰 HK | 🔒 VLESS | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
@@ -307,7 +307,7 @@
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
                 "🚩 CF | 🔒 VLESS | @hope_net [18]",
-                "❔ XX | 🔒 VLESS | @hope_net [19]",
+                "🇺🇸 US | 🔒 VLESS | @hope_net [19]",
                 "🇭🇰 HK | 🔒 VLESS | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
@@ -1313,7 +1313,7 @@
         {
             "tag": "🚩 CF | 🔒 VLESS | @hope_net [18]",
             "type": "vless",
-            "server": "198.41.220.45",
+            "server": "190.93.244.181",
             "server_port": 443,
             "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
             "flow": "",
@@ -1336,20 +1336,27 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @hope_net [19]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @hope_net [19]",
             "type": "vless",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "ababcac-bcaa-caba-cbda-acababbaccbc",
+            "server": "174.136.205.29",
+            "server_port": 29149,
+            "uuid": "84b65da3-0542-44ce-9058-f208b5ca8300",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "127.0.0.1",
+                "server_name": "c543a30d-e872-49ad-8be6-2836890f3d20.b9caf607-1ef7-4fd2-be07-224869a92bdf.accesscam.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/cassiusvpn.pages.dev/?ed=2560",
+                "headers": {
+                    "Host": "c543a30d-e872-49ad-8be6-2836890f3d20.b9caf607-1ef7-4fd2-be07-224869a92bdf.accesscam.org"
                 }
             }
         },
@@ -1357,7 +1364,7 @@
             "tag": "🇭🇰 HK | 🔒 VLESS | @hope_net [20]",
             "type": "vless",
             "server": "154.3.37.101",
-            "server_port": 44422,
+            "server_port": 44410,
             "uuid": "f2b3219c-215f-4b7e-96d8-25b751d79988",
             "flow": "",
             "packet_encoding": "xudp",
