@@ -80,6 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [59]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [5]",
                 "🇫🇮 FI | 🔒 VLESS | @free4allvpn [20]",
@@ -110,6 +111,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [20]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]"
             ],
             "tag": "proxy",
@@ -121,6 +123,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [59]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [5]",
                 "🇫🇮 FI | 🔒 VLESS | @free4allvpn [20]",
@@ -151,6 +154,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [20]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]"
             ],
             "tag": "auto",
@@ -239,6 +243,36 @@
                 "headers": {
                     "Host": "127.0.0.1"
                 }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [59]",
+            "type": "vless",
+            "server": "46.8.69.44",
+            "server_port": 443,
+            "uuid": "f5df5660-45cc-4c4f-8e38-ea986deb0b6c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cli.speedtest.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "DM6_sC4JU-QnocjIrjwp-4V_BCsDVq26BClfZdmg-gE",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "cli.speedtest.net"
+                ],
+                "path": "/@FalconargoVPN2-@FalconargoVPN2-@FalconargoVPN2-@FalconargoVPN2-@FalconargoVPN2-@FalconargoVPN2-@FalconargoVPN2-@FalconargoVPN2-@FalconargoVPN2-@FalconargoVPN2-@FalconargoVPN2-@FalconargoVPN2-@FalconargoVPN2-@FalconargoVPN2"
             }
         },
         {
@@ -944,6 +978,29 @@
                     "enabled": true,
                     "public_key": "Qdg7LVP5VmLr7xzv556ry5RNc3QaeAj4TwOUxndA23M",
                     "short_id": "e3f89b63"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [20]",
+            "type": "vless",
+            "server": "81.19.141.190",
+            "server_port": 55885,
+            "uuid": "dd050eb9-bcf8-4e8e-b30e-3bb94e0c46cb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yandex.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Y-XS7D8QuxFKaaOmJHjAmMEhSTSDbKeZxbJBXU0MqUQ",
+                    "short_id": "3fac56aa61181168"
                 }
             }
         },
