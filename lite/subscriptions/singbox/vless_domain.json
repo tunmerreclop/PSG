@@ -104,6 +104,7 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [13]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "❔ XX | 🔓 VLESS | @config_proxy [49]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -294,7 +295,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [4]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [5]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfree85 [1]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [17]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
@@ -323,6 +324,7 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [13]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "❔ XX | 🔓 VLESS | @config_proxy [49]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -513,7 +515,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [4]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [5]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfree85 [1]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [17]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
@@ -805,6 +807,24 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @config_proxy [49]",
+            "type": "vless",
+            "server": "sss29026.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss29026.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         },
         {
@@ -4125,7 +4145,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [17]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
             "type": "vless",
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
