@@ -92,8 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇹🇷 TR | 🔒 VLESS | @config_proxy [65]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
-                "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [5]",
+                "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇸🇪 SE | 🔒 VLESS | @evay_vpn [24]",
                 "🇮🇸 IS | 🔒 VLESS | @evay_vpn [25]",
                 "🇫🇷 FR | 🔒 VLESS | @free1_vpn [6]",
@@ -115,6 +116,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [13]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
+                "🇺🇸 US | 🔒 VLESS | @prrofile_purple [149]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -137,8 +139,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇹🇷 TR | 🔒 VLESS | @config_proxy [65]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
-                "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [5]",
+                "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇸🇪 SE | 🔒 VLESS | @evay_vpn [24]",
                 "🇮🇸 IS | 🔒 VLESS | @evay_vpn [25]",
                 "🇫🇷 FR | 🔒 VLESS | @free1_vpn [6]",
@@ -160,6 +163,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [13]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
+                "🇺🇸 US | 🔒 VLESS | @prrofile_purple [149]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -258,6 +262,29 @@
             }
         },
         {
+            "tag": "🇹🇷 TR | 🔒 VLESS | @config_proxy [65]",
+            "type": "vless",
+            "server": "45.89.52.98",
+            "server_port": 443,
+            "uuid": "041b0e57-d4f6-4332-8296-a06a046241fc",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp.debian.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "OBKACuWea1rLl-_caAlsIu_V40AGwisGpq84qQwWRks",
+                    "short_id": "a26808"
+                }
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -281,7 +308,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [5]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
             "type": "vless",
             "server": "91.98.164.168",
             "server_port": 45107,
@@ -799,6 +826,29 @@
                     "enabled": true,
                     "public_key": "z--KbBlQtkBgTcrtdBJeGeCymIrLdaUDwkb44pAp6nY",
                     "short_id": "4c"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @prrofile_purple [149]",
+            "type": "vless",
+            "server": "103.35.191.221",
+            "server_port": 443,
+            "uuid": "677615f7-87d5-5019-a44d-4fc3ff8d59d7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vk.cc",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xZ0pVv73Je0cD-3zCB5ABlRROIbWqTLt5YSE3FlA7GI",
+                    "short_id": "efe06ff4"
                 }
             }
         },
