@@ -109,11 +109,12 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [9]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [11]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [31]",
                 "🇺🇸 US | 🔓 VLESS | @config_proxy [35]",
                 "🇺🇸 US | 🔓 VLESS | @config_proxy [36]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [38]",
-                "❔ XX | 🔓 VLESS | @config_proxy [42]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [38]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [41]",
+                "🇨🇦 CA | 🔒 VLESS | @config_proxy [43]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [52]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -687,11 +688,12 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [9]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [11]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [31]",
                 "🇺🇸 US | 🔓 VLESS | @config_proxy [35]",
                 "🇺🇸 US | 🔓 VLESS | @config_proxy [36]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [38]",
-                "❔ XX | 🔓 VLESS | @config_proxy [42]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [38]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [41]",
+                "🇨🇦 CA | 🔒 VLESS | @config_proxy [43]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [52]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -1845,49 +1847,110 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [31]",
-            "type": "vless",
-            "server": "speedtestcustom.com",
-            "server_port": 80,
-            "uuid": "c95e1271-871f-44ad-bbe9-e05d028d3d40",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [35]",
             "type": "vless",
-            "server": "speedtestcustom.com",
+            "server": "pscresearch.faculty.ucdavis.edu",
             "server_port": 80,
-            "uuid": "18a056b9-6591-45b4-bace-52667b18f8c1",
+            "uuid": "431213f3-cd59-4136-b1a7-75f758150279",
             "flow": "",
             "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [36]",
             "type": "vless",
-            "server": "mci.dl101movis.ir",
+            "server": "pscresearch.faculty.ucdavis.edu",
             "server_port": 80,
-            "uuid": "18a056b9-6591-45b4-bace-52667b18f8c1",
+            "uuid": "431213f3-cd59-4136-b1a7-75f758150279",
             "flow": "",
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [38]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [38]",
             "type": "vless",
-            "server": "bwdraper.faculty.ucdavis.edu",
-            "server_port": 80,
-            "uuid": "c995a9c1-f941-4b14-9df2-03a588592f28",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "c997eaff-4bab-4fff-92e5-8e14dc248dc4",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "maxnetvip-clgervip146.maxnetcloudservice.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkws?ed",
+                "headers": {
+                    "Host": "maxnetvip-clgervip146.maxnetcloudservice.com"
+                }
+            }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @config_proxy [42]",
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [41]",
             "type": "vless",
-            "server": "pqh38v4.avoipok.shop",
-            "server_port": 8880,
-            "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
+            "server": "npmjs.com",
+            "server_port": 80,
+            "uuid": "82de262c-cd5e-402f-a709-f6979fc7c93e",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2048",
+                "headers": {
+                    "Host": "fragrant-star-ebf2.daheg47484.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦 CA | 🔒 VLESS | @config_proxy [43]",
+            "type": "vless",
+            "server": "axe.soyet2j.ir",
+            "server_port": 2087,
+            "uuid": "4565ab88-265b-40dd-84e2-ddda5344d247",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "latte.gejeh683bm.ir.",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/index.html?ed=2560",
+                "headers": {
+                    "Host": "latte.gejeh683bm.ir."
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [52]",
+            "type": "vless",
+            "server": "us1.projecthope.ir",
+            "server_port": 2053,
+            "uuid": "b52df04c-493a-4faa-9a2c-db46860ee2df",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "us1.projecthope.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven"
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
