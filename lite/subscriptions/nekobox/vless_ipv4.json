@@ -85,7 +85,6 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇭🇰 HK | 🔓 VLESS | @config_proxy [49]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [5]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
@@ -126,6 +125,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
+                "🇺🇸 US | 🔒 VLESS | @hope_net [19]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -209,8 +209,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🚩 CF | 🔒 VLESS | @v2raymelliii [5]",
                 "🚩 CF | 🔒 VLESS | @v2raymelliii [6]",
-                "🇨🇭 CH | 🔓 VLESS | @v2rayng3 [8]",
-                "🇨🇭 CH | 🔓 VLESS | @v2rayng3 [9]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [10]",
@@ -253,7 +251,6 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇭🇰 HK | 🔓 VLESS | @config_proxy [49]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [5]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
@@ -294,6 +291,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
+                "🇺🇸 US | 🔒 VLESS | @hope_net [19]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -377,8 +375,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🚩 CF | 🔒 VLESS | @v2raymelliii [5]",
                 "🚩 CF | 🔒 VLESS | @v2raymelliii [6]",
-                "🇨🇭 CH | 🔓 VLESS | @v2rayng3 [8]",
-                "🇨🇭 CH | 🔓 VLESS | @v2rayng3 [9]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [10]",
@@ -576,22 +572,6 @@
                 "path": "/veNbt06rF0tTFtp6/MTcyLjY0LjEzNC41OA==?ed=2560",
                 "headers": {
                     "Host": "SpEedteST.NET"
-                }
-            }
-        },
-        {
-            "tag": "🇭🇰 HK | 🔓 VLESS | @config_proxy [49]",
-            "type": "vless",
-            "server": "156.238.18.106",
-            "server_port": 8880,
-            "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/telegram🇨🇳 @mxlshare @wangcai2 /?ed=2560fp=chrome",
-                "headers": {
-                    "Host": "156.238.18.106"
                 }
             }
         },
@@ -1306,6 +1286,31 @@
                 "path": "/ViraV2ray/?ed=2560",
                 "headers": {
                     "Host": "199.232.193.57"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @hope_net [19]",
+            "type": "vless",
+            "server": "198.62.62.28",
+            "server_port": 443,
+            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "lr.ylks.us.kg",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "lr.ylks.us.kg"
                 }
             }
         },
@@ -2720,38 +2725,6 @@
                 "path": "/vpghRaDdORhcsIFV/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE=?ed=2560",
                 "headers": {
                     "Host": "FqJEDazA7b2VofJ9iHeMX319rmO41l7b.paGEs.DeV"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇭 CH | 🔓 VLESS | @v2rayng3 [8]",
-            "type": "vless",
-            "server": "83.228.225.98",
-            "server_port": 24467,
-            "uuid": "14ba01de-0de4-48b4-9327-d6a2f7797764",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "83.228.225.98"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇭 CH | 🔓 VLESS | @v2rayng3 [9]",
-            "type": "vless",
-            "server": "83.228.225.98",
-            "server_port": 24467,
-            "uuid": "14ba01de-0de4-48b4-9327-d6a2f7797764",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "83.228.225.98"
                 }
             }
         },
