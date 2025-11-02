@@ -94,8 +94,9 @@
                 "KingRezaPahlavi",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [5]",
-                "🇸🇪 SE | 🔒 VLESS | @evay_vpn [24]",
-                "🇮🇸 IS | 🔒 VLESS | @evay_vpn [25]",
+                "🇸🇪 SE | 🔒 VLESS | @evay_vpn [22]",
+                "🇮🇸 IS | 🔒 VLESS | @evay_vpn [23]",
+                "🇮🇹 IT | 🔒 VLESS | @evay_vpn [24]",
                 "🇫🇷 FR | 🔒 VLESS | @free1_vpn [4]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [4]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
@@ -126,7 +127,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇺🇸 US | 🔒 VLESS | @vmesc [15]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [11]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -171,8 +171,9 @@
                 "KingRezaPahlavi",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [5]",
-                "🇸🇪 SE | 🔒 VLESS | @evay_vpn [24]",
-                "🇮🇸 IS | 🔒 VLESS | @evay_vpn [25]",
+                "🇸🇪 SE | 🔒 VLESS | @evay_vpn [22]",
+                "🇮🇸 IS | 🔒 VLESS | @evay_vpn [23]",
+                "🇮🇹 IT | 🔒 VLESS | @evay_vpn [24]",
                 "🇫🇷 FR | 🔒 VLESS | @free1_vpn [4]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [4]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
@@ -203,7 +204,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇺🇸 US | 🔒 VLESS | @vmesc [15]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [11]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -368,7 +368,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @evay_vpn [24]",
+            "tag": "🇸🇪 SE | 🔒 VLESS | @evay_vpn [22]",
             "type": "vless",
             "server": "185.174.133.23",
             "server_port": 443,
@@ -391,7 +391,7 @@
             }
         },
         {
-            "tag": "🇮🇸 IS | 🔒 VLESS | @evay_vpn [25]",
+            "tag": "🇮🇸 IS | 🔒 VLESS | @evay_vpn [23]",
             "type": "vless",
             "server": "212.192.214.167",
             "server_port": 443,
@@ -410,6 +410,29 @@
                     "enabled": true,
                     "public_key": "bDDaSDMsFiIxf5on0yovlJB3h7fPpS40DJRPiE2tJRw",
                     "short_id": "846349c8"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇹 IT | 🔒 VLESS | @evay_vpn [24]",
+            "type": "vless",
+            "server": "95.141.37.73",
+            "server_port": 443,
+            "uuid": "1820765e-c193-4ae1-a96c-f2c476becb4b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "aws.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw",
+                    "short_id": ""
                 }
             }
         },
@@ -1116,29 +1139,6 @@
                     "enabled": true,
                     "public_key": "RELg-Z1AXhG9945I_8hN884Z5Txd9ZxI92sl4jHzXWU",
                     "short_id": "ec01ceda"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [11]",
-            "type": "vless",
-            "server": "64.188.70.0",
-            "server_port": 443,
-            "uuid": "cd79807f-bcef-46b8-93b6-229676a0c1a0",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "y_AlGiUJiCRWCT8FyrfUm-Cmpm0bl0cSUMRP3VZ9X0I",
-                    "short_id": "89dbda1a1c9369"
                 }
             }
         },
