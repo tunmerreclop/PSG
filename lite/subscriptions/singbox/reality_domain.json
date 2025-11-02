@@ -118,8 +118,9 @@
                 "🇫🇮 FI | 🔒 VLESS | @selinc [5]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raying [3]",
+                "🇷🇺 RU | 🔒 VLESS | @v2rayopen [17]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
+                "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
             "tag": "proxy",
@@ -157,8 +158,9 @@
                 "🇫🇮 FI | 🔒 VLESS | @selinc [5]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raying [3]",
+                "🇷🇺 RU | 🔒 VLESS | @v2rayopen [17]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
+                "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
             "tag": "auto",
@@ -880,6 +882,29 @@
             }
         },
         {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @v2rayopen [17]",
+            "type": "vless",
+            "server": "kolhozkey1.com",
+            "server_port": 6033,
+            "uuid": "94b249c1-5fa5-4c38-bd27-13df65a61318",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "amazon.it",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mDXYds1gITU7tWHpZPZ8-ufrqTV1TU7-c-hXtpLNaDo",
+                    "short_id": "59c1a41ef8721307"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔒 VLESS | @v2rayza [19]",
             "type": "vless",
             "server": "ec20.kiava.fun",
@@ -903,7 +928,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
+            "tag": "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
             "type": "vless",
             "server": "icloud.wlftest.xyz",
             "server_port": 443,
