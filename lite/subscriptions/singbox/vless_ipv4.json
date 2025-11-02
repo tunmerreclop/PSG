@@ -141,8 +141,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇺🇸 US | 🔒 VLESS | @hope_net [19]",
-                "🇺🇸 US | 🔒 VLESS | @hope_net [20]",
+                "🇺🇸 US | 🔒 VLESS | @hope_net [18]",
+                "🚩 CF | 🔓 VLESS | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -313,8 +313,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇺🇸 US | 🔒 VLESS | @hope_net [19]",
-                "🇺🇸 US | 🔒 VLESS | @hope_net [20]",
+                "🇺🇸 US | 🔒 VLESS | @hope_net [18]",
+                "🚩 CF | 🔓 VLESS | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -1397,32 +1397,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @hope_net [19]",
-            "type": "vless",
-            "server": "151.101.130.133",
-            "server_port": 443,
-            "uuid": "0e1327b3-27ba-477f-ab1f-7732dd082a73",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "live.989bull.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/CHANNEL---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---ws/?ed=2048",
-                "headers": {
-                    "Host": "live.989bull.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @hope_net [20]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @hope_net [18]",
             "type": "vless",
             "server": "69.84.182.212",
             "server_port": 443,
@@ -1443,6 +1418,22 @@
                 "path": "/?proxyip=proxyip.us.fxxo.dedyo.io",
                 "headers": {
                     "Host": "do.ylks.xyz"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @hope_net [20]",
+            "type": "vless",
+            "server": "104.17.148.22",
+            "server_port": 8880,
+            "uuid": "0d1aba60-3b6b-422a-fd9c-69f0a7a5c897",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "104.17.148.22"
                 }
             }
         },
