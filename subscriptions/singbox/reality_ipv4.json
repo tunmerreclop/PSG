@@ -94,7 +94,8 @@
                 "KingRezaPahlavi",
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
-                "🇸🇬 SG | 🔒 VLESS | @config_proxy [60]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [57]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [61]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -225,7 +226,8 @@
                 "KingRezaPahlavi",
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
-                "🇸🇬 SG | 🔒 VLESS | @config_proxy [60]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [57]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [61]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -476,30 +478,49 @@
             }
         },
         {
-            "tag": "🇸🇬 SG | 🔒 VLESS | @config_proxy [60]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [57]",
             "type": "vless",
-            "server": "154.26.134.144",
+            "server": "89.185.80.207",
             "server_port": 443,
-            "uuid": "67f40d78-c540-4dc0-b7d9-8b907324d2ce",
+            "uuid": "677615f7-87d5-5019-a44d-4fc3ff8d59d7",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.microsoft.com",
+                "server_name": "vk.cc",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "safari"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "atPL-m7C30_g_EL_oUB38QUuzE1AYWKOa8cNVwB71j8",
-                    "short_id": "ff470ad2482bf560"
+                    "public_key": "OckqA_hf9xp6RUADMaRpkBM6b_qlYeoIVZakJVKXXRA",
+                    "short_id": "239efe76"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "277569eeb9325eb45507aa90"
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [61]",
+            "type": "vless",
+            "server": "45.140.167.141",
+            "server_port": 443,
+            "uuid": "677615f7-87d5-5019-a44d-4fc3ff8d59d7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vk.cc",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "949Ia0TFSkuqkvI5ooc8bBWKztkG82oni4f_GRDbakg",
+                    "short_id": "0fbaa2b7"
+                }
             }
         },
         {

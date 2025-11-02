@@ -84,7 +84,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [55]",
+                "🇮🇳 IN | 🔒 VLESS | @config_proxy [50]",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [56]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -134,7 +135,7 @@
                 "🇨🇭 CH | 🔒 VLESS | @v2ray_sub [21]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [17]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [3]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [5]",
@@ -180,7 +181,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [55]",
+                "🇮🇳 IN | 🔒 VLESS | @config_proxy [50]",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [56]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -230,7 +232,7 @@
                 "🇨🇭 CH | 🔒 VLESS | @v2ray_sub [21]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [17]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [3]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [5]",
@@ -452,16 +454,16 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [55]",
+            "tag": "🇮🇳 IN | 🔒 VLESS | @config_proxy [50]",
             "type": "vless",
-            "server": "rayphoriahub.iranfastshop.ir",
-            "server_port": 7401,
-            "uuid": "d699dcc8-ac9b-46dd-89c8-10e4adb5f3dd",
+            "server": "india2.clearorbitllc.com",
+            "server_port": 443,
+            "uuid": "b41b3c10-91f1-42ed-b597-2ebdaddb9a96",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "preview.redd.it",
+                "server_name": "india2.clearorbitllc.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -469,8 +471,31 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "mNJNJwzm8sozJ7cXa62Fu3cHYUb0efZs4ue-ZHCIN2o",
-                    "short_id": "8de0d97b17"
+                    "public_key": "x4izG3bGdBtEw3bArBaEI4ItTLfKgnEcTct4GjvTUUQ",
+                    "short_id": "157c0871"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪 SE | 🔒 VLESS | @config_proxy [56]",
+            "type": "vless",
+            "server": "sweden11.clearorbitllc.com",
+            "server_port": 443,
+            "uuid": "26c99015-b58e-47d2-a4ce-4f4b05b70400",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sweden11.clearorbitllc.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "6i0TALpH7qy8-xzwJkI13mRsgi2e7lHqKQyAcDSg8Uc",
+                    "short_id": "4af2"
                 }
             }
         },
@@ -1689,7 +1714,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [17]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [9]",
             "type": "vless",
             "server": "de.nitroo-tech.ru",
             "server_port": 443,
