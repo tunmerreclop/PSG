@@ -97,8 +97,6 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [8]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [32]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [35]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -119,9 +117,7 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [9]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [11]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [12]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [30]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [34]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
@@ -195,8 +191,6 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [8]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [32]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [35]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -217,9 +211,7 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [9]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [11]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [12]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [30]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [34]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
@@ -405,24 +397,6 @@
             "server": "am288.amin-1.ir",
             "server_port": 2082,
             "uuid": "3b0c38e2-0bfd-44ce-9e91-89d996202d5d",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [32]",
-            "type": "vless",
-            "server": "pscresearch.faculty.ucdavis.edu",
-            "server_port": 80,
-            "uuid": "7641f76f-96ee-42a4-8b72-67dc52c60d43",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [35]",
-            "type": "vless",
-            "server": "mastr.fastly80.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "9fbfeb23-9b2e-4891-b609-857c1d082ccd",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -648,45 +622,13 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [30]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [45]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "5b20601e-f2a4-494c-a029-a12e9c081a82",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [34]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "5b20601e-f2a4-494c-a029-a12e9c081a82",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
-            "type": "vless",
-            "server": "91.98.80.222",
-            "server_port": 443,
-            "uuid": "ba4c59a5-2e7d-4dc4-c115-27615c978e66",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "store.steampowered.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "IbRZfIHJGx6UojlE1uoHJ-eBAXF92z5ST0DrQA7-mDw",
-                    "short_id": ""
-                }
-            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
