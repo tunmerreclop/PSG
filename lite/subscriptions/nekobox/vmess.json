@@ -147,8 +147,8 @@
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇨🇳 CN | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [20]",
@@ -161,9 +161,7 @@
                 "🇩🇪 DE | 🔒 VMESS | @v2rayngchannelll [6]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayturbo [7]",
-                "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [18]",
-                "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [19]",
-                "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [20]",
+                "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [19]",
                 "❔ XX | 🔒 VMESS | @vpngate_config [17]",
                 "🇺🇸 US | 🔓 VMESS | @vpngate_config [19]",
                 "🇩🇪 DE | 🔓 VMESS | @vpnv2raytop [1]",
@@ -245,8 +243,8 @@
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇨🇳 CN | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [20]",
@@ -259,9 +257,7 @@
                 "🇩🇪 DE | 🔒 VMESS | @v2rayngchannelll [6]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayturbo [7]",
-                "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [18]",
-                "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [19]",
-                "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [20]",
+                "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [19]",
                 "❔ XX | 🔒 VMESS | @vpngate_config [17]",
                 "🇺🇸 US | 🔓 VMESS | @vpngate_config [19]",
                 "🇩🇪 DE | 🔓 VMESS | @vpnv2raytop [1]",
@@ -1390,43 +1386,27 @@
             "alter_id": 0
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
+            "tag": "🇨🇳 CN | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
-            "server": "104.17.223.175",
-            "server_port": 8080,
-            "uuid": "6cbc9c78-1cb1-57d4-a999-e2f4e34c1e03",
+            "server": "36.133.73.36",
+            "server_port": 11819,
+            "uuid": "de32752c-0661-467e-82d3-35bc740a787f",
             "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/nasnet/cdn",
-                "headers": {
-                    "Host": "104.17.223.175"
-                }
-            }
+            "alter_id": 0
         },
         {
-            "tag": "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [19]",
+            "tag": "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
-            "server": "195.133.52.234",
-            "server_port": 35751,
-            "uuid": "c50f9480-2e1d-40db-9458-630e79636663",
+            "server": "82.29.132.9",
+            "server_port": 20086,
+            "uuid": "b2c61f53-a359-429c-900e-255f02def6be",
             "security": "auto",
             "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "imafake.locker",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/speedtest",
+                "path": "/",
                 "headers": {
-                    "Host": "imafake.locker"
+                    "Host": ""
                 }
             }
         },
@@ -1638,11 +1618,11 @@
             "alter_id": 0
         },
         {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [18]",
+            "tag": "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [19]",
             "type": "vmess",
-            "server": "47.243.172.177",
-            "server_port": 35642,
-            "uuid": "534f6704-e467-40da-9c77-19b5007ba594",
+            "server": "8.218.26.234",
+            "server_port": 15233,
+            "uuid": "8a638047-8de4-4034-9b24-d8bf9fb18fa4",
             "security": "auto",
             "alter_id": 0,
             "transport": {
@@ -1650,56 +1630,6 @@
                 "path": "/arki?ed=2048",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [19]",
-            "type": "vmess",
-            "server": "57.129.64.238",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "kapelleng.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkvws",
-                "headers": {
-                    "Host": "kapelleng.com"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [20]",
-            "type": "vmess",
-            "server": "57.129.24.124",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkvws",
-                "headers": {
-                    "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
                 }
             }
         },
