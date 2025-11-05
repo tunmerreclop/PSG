@@ -85,6 +85,8 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [1]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [55]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [57]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -114,6 +116,8 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [1]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [55]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [57]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -261,6 +265,33 @@
             "uuid": "ceec287b-5bd4-4225-b511-9f2b256208e4",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [55]",
+            "type": "vless",
+            "server": "am8.amin-1.ir",
+            "server_port": 2082,
+            "uuid": "b5f2464c-6146-4574-93c2-31664c5de5da",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [57]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "26f356ce-ce6e-456a-e18b-d405eb716533",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "config5.arxcloud-host.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
