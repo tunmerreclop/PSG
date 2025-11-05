@@ -96,7 +96,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [60]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -148,6 +147,7 @@
                 "🇨🇭 CH | 🔒 VLESS | @v2ray_sub [21]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇮🇱 IL | 🔒 VLESS | @v2raych [16]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [3]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [5]",
@@ -197,7 +197,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [60]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -249,6 +248,7 @@
                 "🇨🇭 CH | 🔒 VLESS | @v2ray_sub [21]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇮🇱 IL | 🔒 VLESS | @v2raych [16]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [3]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [5]",
@@ -467,29 +467,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [60]",
-            "type": "vless",
-            "server": "greenwolf.fonixapp.org",
-            "server_port": 12901,
-            "uuid": "d2bcb15b-8cf0-402c-af32-6b04615144c9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "canva.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "UIgzNUpO2PvGIgjtIK1GEikBFRVvfA1jm7bfor0HlAM",
-                    "short_id": "b538b3"
-                }
             }
         },
         {
@@ -1749,6 +1726,29 @@
                     "enabled": true,
                     "public_key": "2dIWbgD8nbCd1YBs-IiQ6vgA7mse9PA9DWqaIMFsTmc",
                     "short_id": "cb333964"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇱 IL | 🔒 VLESS | @v2raych [16]",
+            "type": "vless",
+            "server": "ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz",
+            "server_port": 443,
+            "uuid": "0e8a6896-ad90-4a3b-89a3-77d64aa409e2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "i2pd.website",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE",
+                    "short_id": "55e6af1a35e64a98"
                 }
             }
         },
