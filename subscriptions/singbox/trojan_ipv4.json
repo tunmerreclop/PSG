@@ -95,7 +95,7 @@
                 "🇳🇱 NL | 🔒 TROJAN | @free4allvpn [15]",
                 "🇬🇧 GB | 🔒 TROJAN | @free4allvpn [16]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🇯🇵 JP | 🔓 TROJAN | @hope_net [16]",
+                "🇯🇵 JP | 🔓 TROJAN | @hope_net [12]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
                 "🇭🇰 HK | 🔒 TROJAN | @msv2flyng [5]",
@@ -121,6 +121,9 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
+                "🇬🇧 GB | 🔓 TROJAN | @v2raych [4]",
+                "🇺🇸 US | 🔓 TROJAN | @v2raych [5]",
+                "🇳🇱 NL | 🔒 TROJAN | @v2raych [19]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -155,7 +158,7 @@
                 "🇳🇱 NL | 🔒 TROJAN | @free4allvpn [15]",
                 "🇬🇧 GB | 🔒 TROJAN | @free4allvpn [16]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🇯🇵 JP | 🔓 TROJAN | @hope_net [16]",
+                "🇯🇵 JP | 🔓 TROJAN | @hope_net [12]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
                 "🇭🇰 HK | 🔒 TROJAN | @msv2flyng [5]",
@@ -181,6 +184,9 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
+                "🇬🇧 GB | 🔓 TROJAN | @v2raych [4]",
+                "🇺🇸 US | 🔓 TROJAN | @v2raych [5]",
+                "🇳🇱 NL | 🔒 TROJAN | @v2raych [19]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -327,7 +333,7 @@
             "password": "ziIjOlyGbM"
         },
         {
-            "tag": "🇯🇵 JP | 🔓 TROJAN | @hope_net [16]",
+            "tag": "🇯🇵 JP | 🔓 TROJAN | @hope_net [12]",
             "type": "trojan",
             "server": "141.147.191.85",
             "server_port": 28443,
@@ -741,6 +747,52 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔓 TROJAN | @v2raych [4]",
+            "type": "trojan",
+            "server": "132.145.51.172",
+            "server_port": 443,
+            "password": "02e653c9-7c93-46a9-999d-11834bd0c577",
+            "tls": {
+                "enabled": true,
+                "server_name": "132.145.51.172",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 TROJAN | @v2raych [5]",
+            "type": "trojan",
+            "server": "23.247.137.70",
+            "server_port": 3389,
+            "password": "d4e41ff772c7fd45"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 TROJAN | @v2raych [19]",
+            "type": "trojan",
+            "server": "178.208.77.191",
+            "server_port": 443,
+            "password": "6f061e76-3e76-4be3-8241-d773031c7109",
+            "tls": {
+                "enabled": true,
+                "server_name": "joss.krekkrek.web.id",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Free-VPN-CF-Geo-Project/178.208.77.191=443",
+                "headers": {
+                    "Host": "joss.krekkrek.web.id"
                 }
             }
         },

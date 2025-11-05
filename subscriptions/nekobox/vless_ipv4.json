@@ -106,9 +106,8 @@
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [2]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [57]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [58]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [64]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [59]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [60]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -536,7 +535,7 @@
                 "🇧🇬 BG | 🔓 VLESS | @v2ray_youtube [2]",
                 "🇳🇱 NL | 🔒 VLESS | @v2ray_youtube [4]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [18]",
+                "🇮🇳 IN | 🔓 VLESS | @v2raych [2]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -692,9 +691,8 @@
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [2]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [57]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [58]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [64]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [59]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [60]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -1122,7 +1120,7 @@
                 "🇧🇬 BG | 🔓 VLESS | @v2ray_youtube [2]",
                 "🇳🇱 NL | 🔒 VLESS | @v2ray_youtube [4]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [18]",
+                "🇮🇳 IN | 🔓 VLESS | @v2raych [2]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -1709,68 +1707,48 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [57]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [59]",
             "type": "vless",
-            "server": "104.17.147.22",
-            "server_port": 8080,
-            "uuid": "Parsashonam-Bot-35",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056",
-                "headers": {
-                    "Host": "104.17.147.22"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [58]",
-            "type": "vless",
-            "server": "104.18.26.90",
-            "server_port": 2053,
-            "uuid": "1fcb692d-d35f-4295-bbc5-0512f51a3c41",
-            "flow": "",
+            "server": "193.31.127.10",
+            "server_port": 443,
+            "uuid": "40730d97-ffa7-1108-2c53-761516eb5fda",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "om3.omidsuccess.uk",
+                "server_name": "speed.cloudflare.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/containers/de",
-                "headers": {
-                    "Host": "om3.omidsuccess.uk"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ehRbIcN9HhqjhReY1pjqIBGqHCbdY26Kq70_w7k4jgY",
+                    "short_id": ""
                 }
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [64]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [60]",
             "type": "vless",
-            "server": "104.17.25.173",
-            "server_port": 2096,
-            "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26",
-            "flow": "",
+            "server": "155.212.110.3",
+            "server_port": 993,
+            "uuid": "40730d97-ffa7-1108-2c53-761516eb5fda",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "gaosir.unfeeling.sbs",
+                "server_name": "speed.cloudflare.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Telegram🇨🇳@WangCai2/?ed=2560",
-                "headers": {
-                    "Host": "gaosir.unfeeling.sbs"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "DnnQOtWhilZ3rqlSip0spBkluYlPeydouSR3iklbPTs",
+                    "short_id": ""
                 }
             }
         },
@@ -9537,11 +9515,11 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [18]",
+            "tag": "🇮🇳 IN | 🔓 VLESS | @v2raych [2]",
             "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "6a31cf5d-0709-49a6-894b-65e91bb7c1be",
+            "server": "45.88.183.156",
+            "server_port": 12794,
+            "uuid": "08704c01-7edb-454a-98a2-328ccb9936fa",
             "flow": "",
             "packet_encoding": "xudp"
         },
