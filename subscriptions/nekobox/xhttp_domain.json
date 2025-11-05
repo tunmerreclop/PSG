@@ -84,6 +84,9 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [4]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [70]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [71]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [72]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -91,9 +94,8 @@
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
                 "🚩 CF | 🔓 VLESS | @mehrosaboran [8]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [6]",
-                "🚩 CF | 🔓 VLESS | @prrofile_purple [148]",
+                "🚩 CF | 🔓 VLESS | @prrofile_purple [141]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
-                "🚩 CF | 🔓 VLESS | @v2raych [13]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [2]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [7]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [11]",
@@ -113,6 +115,9 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [4]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [70]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [71]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [72]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -120,9 +125,8 @@
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
                 "🚩 CF | 🔓 VLESS | @mehrosaboran [8]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [6]",
-                "🚩 CF | 🔓 VLESS | @prrofile_purple [148]",
+                "🚩 CF | 🔓 VLESS | @prrofile_purple [141]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
-                "🚩 CF | 🔓 VLESS | @v2raych [13]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [2]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [7]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [11]",
@@ -254,6 +258,75 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [70]",
+            "type": "vless",
+            "server": "younghazard.techforgesec.ir",
+            "server_port": 8569,
+            "uuid": "63c44b90-2250-4ab0-bf63-8f31dff4891b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "docker.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "oMYcLicYy824IM6JDKOQ1lhB_9WpQ1R26HIKM5qOVH4",
+                    "short_id": "45c6fb"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [71]",
+            "type": "vless",
+            "server": "theyareyourfrinedshazard.techforgesec.ir",
+            "server_port": 8569,
+            "uuid": "63c44b90-2250-4ab0-bf63-8f31dff4891b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "docker.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "oMYcLicYy824IM6JDKOQ1lhB_9WpQ1R26HIKM5qOVH4",
+                    "short_id": "45c6fb"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [72]",
+            "type": "vless",
+            "server": "crazyhazard.techforgesec.ir",
+            "server_port": 8569,
+            "uuid": "63c44b90-2250-4ab0-bf63-8f31dff4891b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "docker.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "oMYcLicYy824IM6JDKOQ1lhB_9WpQ1R26HIKM5qOVH4",
+                    "short_id": "45c6fb"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
             "type": "vless",
             "server": "holkanas.atroart.ir",
@@ -331,7 +404,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @prrofile_purple [148]",
+            "tag": "🚩 CF | 🔓 VLESS | @prrofile_purple [141]",
             "type": "vless",
             "server": "tyiu.sernett.ir",
             "server_port": 80,
@@ -345,15 +418,6 @@
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @v2raych [13]",
-            "type": "vless",
-            "server": "am255.amin5646.ir",
-            "server_port": 2082,
-            "uuid": "597dd2e0-5182-4af1-ab12-7b5da8bc19ea",
             "flow": "",
             "packet_encoding": "xudp"
         },
