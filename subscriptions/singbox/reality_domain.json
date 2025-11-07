@@ -96,6 +96,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [49]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -142,12 +143,12 @@
                 "❔ XX | 🔒 VLESS | @selinc [2]",
                 "🇨🇭 CH | 🔒 VLESS | @server_nekobox [1]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
-                "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [13]",
+                "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [12]",
                 "🇨🇭 CH | 🔒 VLESS | @v2ray_sub [21]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [16]",
-                "🇫🇮 FI | 🔒 VLESS | @v2raych [17]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [5]",
+                "🇫🇮 FI | 🔒 VLESS | @v2raych [6]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [2]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [6]",
@@ -179,7 +180,7 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [13]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [14]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [15]",
-                "🇸🇬 SG | 🔒 VLESS | @vpnplusee_free [9]",
+                "🇸🇬 SG | 🔒 VLESS | @vpnplusee_free [6]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
             "tag": "proxy",
@@ -195,6 +196,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [49]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -241,12 +243,12 @@
                 "❔ XX | 🔒 VLESS | @selinc [2]",
                 "🇨🇭 CH | 🔒 VLESS | @server_nekobox [1]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
-                "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [13]",
+                "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [12]",
                 "🇨🇭 CH | 🔒 VLESS | @v2ray_sub [21]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [16]",
-                "🇫🇮 FI | 🔒 VLESS | @v2raych [17]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [5]",
+                "🇫🇮 FI | 🔒 VLESS | @v2raych [6]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [2]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [6]",
@@ -278,7 +280,7 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [13]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [14]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [15]",
-                "🇸🇬 SG | 🔒 VLESS | @vpnplusee_free [9]",
+                "🇸🇬 SG | 🔒 VLESS | @vpnplusee_free [6]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
             "tag": "auto",
@@ -463,6 +465,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [49]",
+            "type": "vless",
+            "server": "now.officedrbest.com",
+            "server_port": 8443,
+            "uuid": "46bfcd53-cde8-4fea-9409-6ab2923b1ce5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lZrWXYyXQZMkRvegqyOBxslKaB3bOt4F4D_xRURuaz4",
+                    "short_id": "64d1dca8560d94f1"
+                }
             }
         },
         {
@@ -1611,7 +1636,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [13]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [12]",
             "type": "vless",
             "server": "de.nitroo-tech.ru",
             "server_port": 443,
@@ -1703,7 +1728,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [16]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [5]",
             "type": "vless",
             "server": "auto.lonup.org",
             "server_port": 55600,
@@ -1726,7 +1751,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @v2raych [17]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @v2raych [6]",
             "type": "vless",
             "server": "fin.anonnexuse.com",
             "server_port": 1002,
@@ -2514,7 +2539,7 @@
             }
         },
         {
-            "tag": "🇸🇬 SG | 🔒 VLESS | @vpnplusee_free [9]",
+            "tag": "🇸🇬 SG | 🔒 VLESS | @vpnplusee_free [6]",
             "type": "vless",
             "server": "aws-linksg64.eovay.com",
             "server_port": 31064,

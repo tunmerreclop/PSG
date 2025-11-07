@@ -114,7 +114,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [3]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "❔ XX | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🇷🇺 RU | 🔓 VMESS | @hope_net [18]",
+                "🇺🇸 US | 🔓 VMESS | @hope_net [19]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -157,8 +157,7 @@
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [20]",
@@ -213,7 +212,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [3]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "❔ XX | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🇷🇺 RU | 🔓 VMESS | @hope_net [18]",
+                "🇺🇸 US | 🔓 VMESS | @hope_net [19]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -256,8 +255,7 @@
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [20]",
@@ -727,18 +725,27 @@
             "alter_id": 0
         },
         {
-            "tag": "🇷🇺 RU | 🔓 VMESS | @hope_net [18]",
+            "tag": "🇺🇸 US | 🔓 VMESS | @hope_net [19]",
             "type": "vmess",
-            "server": "45.136.244.181",
-            "server_port": 80,
-            "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
+            "server": "cacerts.digicert.com",
+            "server_port": 443,
+            "uuid": "4612618c-24cd-4379-9924-cfdf3d61fa5a",
             "security": "auto",
             "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "cacerts.digicert.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "45.136.244.181"
+                    "Host": "cacerts.digicert.com"
                 }
             }
         },
@@ -1382,16 +1389,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [18]",
-            "type": "vmess",
-            "server": "65.109.8.76",
-            "server_port": 38000,
-            "uuid": "105b7158-2977-4b5c-93ea-1fcf33c72c56",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
+            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
             "server": "radhan.configraybot.sbs",
             "server_port": 11559,
@@ -1650,22 +1648,6 @@
         {
             "tag": "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [18]",
             "type": "vmess",
-            "server": "47.244.120.197",
-            "server_port": 36703,
-            "uuid": "45b83519-9c4f-4052-a11b-02e017b636d4",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/arki?ed=2048",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [19]",
-            "type": "vmess",
             "server": "47.239.102.115",
             "server_port": 56675,
             "uuid": "36303fd3-e1e3-4159-81cb-92a7580db3b8",
@@ -1680,7 +1662,7 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [20]",
+            "tag": "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [19]",
             "type": "vmess",
             "server": "8.218.175.64",
             "server_port": 51377,
@@ -1690,6 +1672,22 @@
             "transport": {
                 "type": "ws",
                 "path": "/arki?ed=2048",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [20]",
+            "type": "vmess",
+            "server": "8.217.92.110",
+            "server_port": 20522,
+            "uuid": "31e1f90f-0218-4097-91f9-a42df9b3334a",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/telegram_@sswia",
                 "headers": {
                     "Host": ""
                 }
