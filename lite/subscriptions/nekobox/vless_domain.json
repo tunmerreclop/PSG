@@ -194,7 +194,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🚩 CF | 🔓 VLESS | @novinology [16]",
-                "🇺🇸 US | 🔓 VLESS | @orange_vpns [18]",
+                "🚩 CF | 🔒 VLESS | @orange_vpns [19]",
                 "🇮🇱 IL | 🔒 VLESS | @outline_ir [18]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "🚩 CF | 🔒 VLESS | @proxy48 [13]",
@@ -247,8 +247,8 @@
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🚩 CF | 🔒 VLESS | @v2raying [4]",
-                "🇺🇸 US | 🔒 VLESS | @v2raying [6]",
+                "🚩 CF | 🔒 VLESS | @v2raying [3]",
+                "🇺🇸 US | 🔒 VLESS | @v2raying [5]",
                 "🚩 CF | 🔓 VLESS | @v2rayngalpha [7]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [62]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [63]",
@@ -275,7 +275,7 @@
                 "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [13]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
-                "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
+                "❔ XX | 🔓 VLESS | @womanlifefreedomvpn [17]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
@@ -403,7 +403,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🚩 CF | 🔓 VLESS | @novinology [16]",
-                "🇺🇸 US | 🔓 VLESS | @orange_vpns [18]",
+                "🚩 CF | 🔒 VLESS | @orange_vpns [19]",
                 "🇮🇱 IL | 🔒 VLESS | @outline_ir [18]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "🚩 CF | 🔒 VLESS | @proxy48 [13]",
@@ -456,8 +456,8 @@
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🚩 CF | 🔒 VLESS | @v2raying [4]",
-                "🇺🇸 US | 🔒 VLESS | @v2raying [6]",
+                "🚩 CF | 🔒 VLESS | @v2raying [3]",
+                "🇺🇸 US | 🔒 VLESS | @v2raying [5]",
                 "🚩 CF | 🔓 VLESS | @v2rayngalpha [7]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [62]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [63]",
@@ -484,7 +484,7 @@
                 "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [13]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
-                "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
+                "❔ XX | 🔓 VLESS | @womanlifefreedomvpn [17]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
@@ -2545,13 +2545,29 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @orange_vpns [18]",
+            "tag": "🚩 CF | 🔒 VLESS | @orange_vpns [19]",
             "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 80,
-            "uuid": "5a1497bc-f028-4a4a-a713-a0ee1e49d34a",
+            "server": "www.speedtest.net",
+            "server_port": 2083,
+            "uuid": "1d4808c2-ef3b-4057-ec6b-92fcea20bdfe",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "codfa.yas-nowin.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config?ed=2048",
+                "headers": {
+                    "Host": "codfa.yas-nowin.ir"
+                }
+            }
         },
         {
             "tag": "🇮🇱 IL | 🔒 VLESS | @outline_ir [18]",
@@ -3473,7 +3489,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @v2raying [4]",
+            "tag": "🚩 CF | 🔒 VLESS | @v2raying [3]",
             "type": "vless",
             "server": "nodegcf.azurka.org",
             "server_port": 443,
@@ -3498,7 +3514,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @v2raying [6]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @v2raying [5]",
             "type": "vless",
             "server": "us.nitroo-tech.ru",
             "server_port": 443,
@@ -3950,7 +3966,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
+            "tag": "❔ XX | 🔓 VLESS | @womanlifefreedomvpn [17]",
             "type": "vless",
             "server": "google.wlftest.xyz",
             "server_port": 80,
