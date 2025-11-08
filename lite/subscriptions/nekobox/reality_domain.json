@@ -93,8 +93,6 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [29]",
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
-                "🇩🇪 DE | 🔒 VLESS | @lranonline_new [1]",
-                "🇦🇪 AE | 🔒 VLESS | @lranonline_new [2]",
                 "🇩🇪 DE | 🔒 VLESS | @lranonline_new [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
@@ -109,6 +107,7 @@
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
+                "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [11]",
                 "🇺🇸 US | 🔒 VLESS | @v2raying [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [18]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
@@ -137,8 +136,6 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [29]",
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
-                "🇩🇪 DE | 🔒 VLESS | @lranonline_new [1]",
-                "🇦🇪 AE | 🔒 VLESS | @lranonline_new [2]",
                 "🇩🇪 DE | 🔒 VLESS | @lranonline_new [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
@@ -153,6 +150,7 @@
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
+                "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [11]",
                 "🇺🇸 US | 🔒 VLESS | @v2raying [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [18]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
@@ -567,52 +565,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @lranonline_new [1]",
-            "type": "vless",
-            "server": "de.nitroo-tech.ru",
-            "server_port": 443,
-            "uuid": "cd79807f-bcef-46b8-93b6-229676a0c1a0",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "y_AlGiUJiCRWCT8FyrfUm-Cmpm0bl0cSUMRP3VZ9X0I",
-                    "short_id": "89dbda1a1c9369"
-                }
-            }
-        },
-        {
-            "tag": "🇦🇪 AE | 🔒 VLESS | @lranonline_new [2]",
-            "type": "vless",
-            "server": "dubai.fonixapp.org",
-            "server_port": 53654,
-            "uuid": "cef4ee17-07fd-492f-921e-ddaa6294ba51",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "lzLim-E_IwmH9H5RvncDdOG4hUe7yy6_bxh2wusbryk",
-                    "short_id": "f7"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @lranonline_new [3]",
             "type": "vless",
             "server": "darkterror.fonixapp.org",
@@ -947,6 +899,29 @@
                     "enabled": true,
                     "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
                     "short_id": "ea1058117be12087"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [11]",
+            "type": "vless",
+            "server": "de.nitroo-tech.ru",
+            "server_port": 443,
+            "uuid": "cd79807f-bcef-46b8-93b6-229676a0c1a0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "y_AlGiUJiCRWCT8FyrfUm-Cmpm0bl0cSUMRP3VZ9X0I",
+                    "short_id": "89dbda1a1c9369"
                 }
             }
         },
