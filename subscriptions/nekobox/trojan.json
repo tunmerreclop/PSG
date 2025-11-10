@@ -112,9 +112,10 @@
                 "🇳🇱 NL | 🔒 TROJAN | @free4allvpn [15]",
                 "🇬🇧 GB | 🔒 TROJAN | @free4allvpn [16]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "❔ XX | 🔒 TROJAN | @hope_net [10]",
-                "🇸🇪 SE | 🔒 TROJAN | @hope_net [13]",
-                "🇸🇪 SE | 🔒 TROJAN | @hope_net [15]",
+                "❔ XX | 🔒 TROJAN | @hope_net [6]",
+                "🇸🇪 SE | 🔒 TROJAN | @hope_net [9]",
+                "🇸🇪 SE | 🔒 TROJAN | @hope_net [11]",
+                "❔ XX | 🔒 TROJAN | @hope_net [14]",
                 "❔ XX | 🔒 TROJAN | @hope_net [18]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
@@ -141,7 +142,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
-                "🇧🇬 BG | 🔓 TROJAN | @v2raych [15]",
+                "❔ XX | 🔒 TROJAN | @v2raych [8]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -205,9 +206,10 @@
                 "🇳🇱 NL | 🔒 TROJAN | @free4allvpn [15]",
                 "🇬🇧 GB | 🔒 TROJAN | @free4allvpn [16]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "❔ XX | 🔒 TROJAN | @hope_net [10]",
-                "🇸🇪 SE | 🔒 TROJAN | @hope_net [13]",
-                "🇸🇪 SE | 🔒 TROJAN | @hope_net [15]",
+                "❔ XX | 🔒 TROJAN | @hope_net [6]",
+                "🇸🇪 SE | 🔒 TROJAN | @hope_net [9]",
+                "🇸🇪 SE | 🔒 TROJAN | @hope_net [11]",
+                "❔ XX | 🔒 TROJAN | @hope_net [14]",
                 "❔ XX | 🔒 TROJAN | @hope_net [18]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
@@ -234,7 +236,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
-                "🇧🇬 BG | 🔓 TROJAN | @v2raych [15]",
+                "❔ XX | 🔒 TROJAN | @v2raych [8]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -921,7 +923,7 @@
             "password": "ziIjOlyGbM"
         },
         {
-            "tag": "❔ XX | 🔒 TROJAN | @hope_net [10]",
+            "tag": "❔ XX | 🔒 TROJAN | @hope_net [6]",
             "type": "trojan",
             "server": "127.0.0.1",
             "server_port": 1080,
@@ -937,7 +939,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 TROJAN | @hope_net [13]",
+            "tag": "🇸🇪 SE | 🔒 TROJAN | @hope_net [9]",
             "type": "trojan",
             "server": "16.170.174.167",
             "server_port": 22222,
@@ -953,7 +955,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 TROJAN | @hope_net [15]",
+            "tag": "🇸🇪 SE | 🔒 TROJAN | @hope_net [11]",
             "type": "trojan",
             "server": "13.60.100.236",
             "server_port": 22222,
@@ -969,11 +971,27 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 TROJAN | @hope_net [18]",
+            "tag": "❔ XX | 🔒 TROJAN | @hope_net [14]",
             "type": "trojan",
             "server": "127.0.0.1",
             "server_port": 8080,
             "password": "baaaccb-acba-caba-abdc-bbabcaaacbcc",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 TROJAN | @hope_net [18]",
+            "type": "trojan",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "password": "cabcbaa-bcaa-baac-adbc-acbbaccbcbaa",
             "tls": {
                 "enabled": true,
                 "server_name": "127.0.0.1",
@@ -1396,11 +1414,20 @@
             }
         },
         {
-            "tag": "🇧🇬 BG | 🔓 TROJAN | @v2raych [15]",
+            "tag": "❔ XX | 🔒 TROJAN | @v2raych [8]",
             "type": "trojan",
-            "server": "45.142.120.4",
-            "server_port": 2096,
-            "password": "bpb-trojan"
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "password": "caaabcb-caab-abac-cbda-ccbbbacabaac",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
