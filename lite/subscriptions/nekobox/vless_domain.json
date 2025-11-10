@@ -163,8 +163,8 @@
                 "🚩 CF | 🔓 VLESS | @lockey_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [14]",
-                "🚩 CF | 🔓 VLESS | @lranonline_new [5]",
-                "🚩 CF | 🔒 VLESS | @lranonline_new [7]",
+                "🚩 CF | 🔒 VLESS | @lranonline_new [6]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [7]",
                 "🇩🇪 DE | 🔓 VLESS | @luckyvpn [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [2]",
@@ -273,7 +273,6 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🇫🇮 FI | 🔒 VLESS | @vmesc [16]",
                 "❔ XX | 🔒 VLESS | @vpncostume [9]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [3]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [4]",
@@ -378,8 +377,8 @@
                 "🚩 CF | 🔓 VLESS | @lockey_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [14]",
-                "🚩 CF | 🔓 VLESS | @lranonline_new [5]",
-                "🚩 CF | 🔒 VLESS | @lranonline_new [7]",
+                "🚩 CF | 🔒 VLESS | @lranonline_new [6]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [7]",
                 "🇩🇪 DE | 🔓 VLESS | @luckyvpn [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [2]",
@@ -488,7 +487,6 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🇫🇮 FI | 🔒 VLESS | @vmesc [16]",
                 "❔ XX | 🔒 VLESS | @vpncostume [9]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [3]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [4]",
@@ -2033,23 +2031,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @lranonline_new [5]",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "734ee0de-2827-4f6f-9ad1-dd64b56ae8ab",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @lranonline_new [7]",
+            "tag": "🚩 CF | 🔒 VLESS | @lranonline_new [6]",
             "type": "vless",
             "server": "norman.ns.cloudflare.com",
             "server_port": 443,
@@ -2072,6 +2054,15 @@
                     "Host": "638981351826446112.insight-amshd.com"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @lranonline_new [7]",
+            "type": "vless",
+            "server": "test.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "TELEGRAM-CONFiGLiNE-30",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @luckyvpn [1]",
@@ -3932,29 +3923,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "okala.com"
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @vmesc [16]",
-            "type": "vless",
-            "server": "helsinki.fonixapp.org",
-            "server_port": 23747,
-            "uuid": "38ced162-2eb3-4aee-998f-747961f02c01",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "lowes.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "u7gBBaokHefxp8JS3G_Nu1X5y6Rh5SsRBrVC1L-4ySY",
-                    "short_id": "b7"
-                }
             }
         },
         {
