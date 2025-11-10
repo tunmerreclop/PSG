@@ -80,8 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
+                "🚩 CF | 🔓 VLESS | @bored_vpn [9]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
+                "🇺🇸 US | 🔒 VLESS | @orange_vpns [19]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
@@ -95,8 +96,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
+                "🚩 CF | 🔓 VLESS | @bored_vpn [9]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
+                "🇺🇸 US | 🔒 VLESS | @orange_vpns [19]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
@@ -190,7 +192,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
+            "tag": "🚩 CF | 🔓 VLESS | @bored_vpn [9]",
             "type": "vless",
             "server": "am288.amin-1.ir",
             "server_port": 2082,
@@ -206,6 +208,29 @@
             "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @orange_vpns [19]",
+            "type": "vless",
+            "server": "v2shop-usa1-emr.bing-net.com",
+            "server_port": 7032,
+            "uuid": "33f2c6ae-7790-4e37-8965-30780b718760",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "mdundo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "g23nq_R9TIMbMIGQHB6gjDNewFzrHXPcj72bTS-RtX8",
+                    "short_id": ""
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
