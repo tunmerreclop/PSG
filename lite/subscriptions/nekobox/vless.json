@@ -329,8 +329,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🚩 CF | 🔓 VLESS | @hope_net [18]",
-                "🇺🇸 US | 🔓 VLESS | @hope_net [19]",
+                "🇦🇺 AU | 🔒 VLESS | @hope_net [19]",
+                "🚩 CF | 🔒 VLESS | @hope_net [20]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
                 "🚩 CF | 🔒 VLESS | @iran_access [13]",
@@ -715,8 +715,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🚩 CF | 🔓 VLESS | @hope_net [18]",
-                "🇺🇸 US | 🔓 VLESS | @hope_net [19]",
+                "🇦🇺 AU | 🔒 VLESS | @hope_net [19]",
+                "🚩 CF | 🔒 VLESS | @hope_net [20]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
                 "🚩 CF | 🔒 VLESS | @iran_access [13]",
@@ -5284,34 +5284,49 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @hope_net [18]",
+            "tag": "🇦🇺 AU | 🔒 VLESS | @hope_net [19]",
             "type": "vless",
-            "server": "104.17.148.22",
-            "server_port": 80,
-            "uuid": "7d2dfb7a-2ecc-4448-bcbe-245a2092fe85",
+            "server": "192.65.217.53",
+            "server_port": 443,
+            "uuid": "45d6db68-8895-468a-80f7-de24553e5b2f",
             "flow": "",
             "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/Telegram-Xv2ry2?ed=512",
-                "headers": {
-                    "Host": "104.17.148.22"
+            "tls": {
+                "enabled": true,
+                "server_name": "adsl.felafel.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ConfigTell"
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @hope_net [19]",
+            "tag": "🚩 CF | 🔒 VLESS | @hope_net [20]",
             "type": "vless",
-            "server": "151.101.66.228",
-            "server_port": 80,
-            "uuid": "5951f0b3-ee56-4776-a2ab-27edaf865183",
+            "server": "172.67.188.9",
+            "server_port": 443,
+            "uuid": "10b3cbba-e6ac-485a-8381-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "EsETSEcurityLICensE.siqiLwDQ.WOrKeRS.DEv",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "151.101.66.228"
+                    "Host": "EsETSEcurityLICensE.siqiLwDQ.WOrKeRS.DEv"
                 }
             }
         },

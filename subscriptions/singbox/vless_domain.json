@@ -123,9 +123,10 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [35]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [36]",
-                "🇮🇷 IR | 🔓 VLESS | @config_proxy [41]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [33]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [36]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [39]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -551,8 +552,7 @@
                 "🚩 CF | 🔒 VLESS | @v2raybe [1]",
                 "🚩 CF | 🔒 VLESS | @v2raybe [3]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🚩 CF | 🔓 VLESS | @v2raych [6]",
-                "🇷🇺 RU | 🔒 VLESS | @v2raych [8]",
+                "🚩 CF | 🔒 VLESS | @v2raych [16]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [3]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [5]",
@@ -702,9 +702,10 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [35]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [36]",
-                "🇮🇷 IR | 🔓 VLESS | @config_proxy [41]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [33]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [36]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [39]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -1130,8 +1131,7 @@
                 "🚩 CF | 🔒 VLESS | @v2raybe [1]",
                 "🚩 CF | 🔒 VLESS | @v2raybe [3]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🚩 CF | 🔓 VLESS | @v2raych [6]",
-                "🇷🇺 RU | 🔒 VLESS | @v2raych [8]",
+                "🚩 CF | 🔒 VLESS | @v2raych [16]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [3]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [5]",
@@ -1880,31 +1880,86 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [35]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [33]",
             "type": "vless",
-            "server": "Vcheat.sbs",
-            "server_port": 10808,
-            "uuid": "fb68260c-b900-42ac-88ff-d4138a1d6a93",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "de.gpairnetwork369.de",
+            "server_port": 3020,
+            "uuid": "f6b74f9a-0ac7-43f0-a4cc-5cee6f1eaf7f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "NVjEaDFrdzaFQHvMt8BPORsLFR3iD8NA31Dpn-1HRFk",
+                    "short_id": "ecd8d10c1518fb7b"
+                }
+            }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [36]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [36]",
             "type": "vless",
-            "server": "Vcheat.sbs",
-            "server_port": 80,
-            "uuid": "fb68260c-b900-42ac-88ff-d4138a1d6a93",
+            "server": "vandiet.ir",
+            "server_port": 443,
+            "uuid": "7d18fc67-1994-4f7e-8ff8-c024223f33bb",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "revcloud.migacpi.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/cbde4058-6b81-432b-8689-dd7ce10e479c",
+                "headers": {
+                    "Host": "revcloud.migacpi.org"
+                }
+            }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @config_proxy [41]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
             "type": "vless",
-            "server": "s7.nimhub.ir",
-            "server_port": 24443,
-            "uuid": "1a5f369a-6ade-4809-b35a-75847938b537",
+            "server": "statue.lnmarketplace.net",
+            "server_port": 443,
+            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "statue.lnmarketplace.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [39]",
+            "type": "vless",
+            "server": "www.visa.com",
+            "server_port": 8080,
+            "uuid": "13ed4a8b-6049-4f26-8cb3-9870df4fda4c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "www.visa.com"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -9281,34 +9336,27 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @v2raych [6]",
+            "tag": "🚩 CF | 🔒 VLESS | @v2raych [16]",
             "type": "vless",
-            "server": "am8.amin-1.ir",
-            "server_port": 2082,
-            "uuid": "efe83bb7-b26f-4c58-cf70-e13eaca9ae17",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @v2raych [8]",
-            "type": "vless",
-            "server": "ru01-vlr01.tcp-reset-club.net",
+            "server": "usa.visa.com",
             "server_port": 443,
-            "uuid": "ea58dac7-6ca9-448a-aeff-af1ac5070acf",
-            "flow": "xtls-rprx-vision",
+            "uuid": "a114d067-b900-4f60-87a5-50d4d63972b8",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "hls-svod.itunes.apple.com",
+                "server_name": "PaRiSA-CC5Zk0.paRISa-44c.woRKeRs.dev",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
-                    "short_id": "8453e5fd9af927"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "PaRiSA-CC5Zk0.paRISa-44c.woRKeRs.dev"
                 }
             }
         },

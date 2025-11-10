@@ -84,6 +84,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [4]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -93,7 +94,6 @@
                 "🇺🇸 US | 🔓 VLESS | @prrofile_purple [144]",
                 "🇺🇸 US | 🔓 VLESS | @prrofile_purple [145]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
-                "🚩 CF | 🔓 VLESS | @v2raych [6]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [1]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [5]",
                 "🚩 CF | 🔓 VLESS | @vpnplusee_free [7]",
@@ -112,6 +112,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [4]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -121,7 +122,6 @@
                 "🇺🇸 US | 🔓 VLESS | @prrofile_purple [144]",
                 "🇺🇸 US | 🔓 VLESS | @prrofile_purple [145]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
-                "🚩 CF | 🔓 VLESS | @v2raych [6]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [1]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [5]",
                 "🚩 CF | 🔓 VLESS | @vpnplusee_free [7]",
@@ -252,6 +252,24 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
+            "type": "vless",
+            "server": "statue.lnmarketplace.net",
+            "server_port": 443,
+            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "statue.lnmarketplace.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
             "type": "vless",
             "server": "holkanas.atroart.ir",
@@ -343,15 +361,6 @@
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @v2raych [6]",
-            "type": "vless",
-            "server": "am8.amin-1.ir",
-            "server_port": 2082,
-            "uuid": "efe83bb7-b26f-4c58-cf70-e13eaca9ae17",
             "flow": "",
             "packet_encoding": "xudp"
         },

@@ -159,8 +159,8 @@
                 "🇸🇪 SE | 🔓 VMESS | @v2rayprotocol [6]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayturbo [7]",
                 "🇫🇷 FR | 🔓 VMESS | @vpn_ioss [18]",
-                "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [19]",
-                "🇵🇱 PL | 🔒 VMESS | @vpnfail_v2ray [20]",
+                "🇬🇧 GB | 🔒 VMESS | @vpnfail_v2ray [19]",
+                "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [20]",
                 "❔ XX | 🔒 VMESS | @vpngate_config [17]",
                 "🇺🇸 US | 🔓 VMESS | @vpngate_config [19]",
                 "🇩🇪 DE | 🔓 VMESS | @vpnv2raytop [1]",
@@ -254,8 +254,8 @@
                 "🇸🇪 SE | 🔓 VMESS | @v2rayprotocol [6]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayturbo [7]",
                 "🇫🇷 FR | 🔓 VMESS | @vpn_ioss [18]",
-                "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [19]",
-                "🇵🇱 PL | 🔒 VMESS | @vpnfail_v2ray [20]",
+                "🇬🇧 GB | 🔒 VMESS | @vpnfail_v2ray [19]",
+                "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [20]",
                 "❔ XX | 🔒 VMESS | @vpngate_config [17]",
                 "🇺🇸 US | 🔓 VMESS | @vpngate_config [19]",
                 "🇩🇪 DE | 🔓 VMESS | @vpnv2raytop [1]",
@@ -1598,16 +1598,16 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [19]",
+            "tag": "🇬🇧 GB | 🔒 VMESS | @vpnfail_v2ray [19]",
             "type": "vmess",
-            "server": "57.129.59.195",
+            "server": "57.128.189.253",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "kampong.org",
+                "server_name": "kapelleng.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1618,32 +1618,23 @@
                 "type": "ws",
                 "path": "/linkvws",
                 "headers": {
-                    "Host": "kampong.org"
+                    "Host": "kapelleng.com"
                 }
             }
         },
         {
-            "tag": "🇵🇱 PL | 🔒 VMESS | @vpnfail_v2ray [20]",
+            "tag": "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [20]",
             "type": "vmess",
-            "server": "146.59.70.146",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "47.243.172.177",
+            "server_port": 17527,
+            "uuid": "499ee2c5-30a7-4939-8b3c-781b07486d4c",
             "security": "auto",
             "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "yichueng.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/linkvws",
+                "path": "/arki?ed=2048",
                 "headers": {
-                    "Host": "yichueng.org"
+                    "Host": ""
                 }
             }
         },
