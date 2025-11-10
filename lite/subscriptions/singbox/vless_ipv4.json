@@ -136,7 +136,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🚩 CF | 🔓 VLESS | @hope_net [20]",
+                "🚩 CF | 🔓 VLESS | @hope_net [18]",
+                "🇺🇸 US | 🔒 VLESS | @hope_net [20]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
                 "🚩 CF | 🔒 VLESS | @iran_access [13]",
@@ -239,10 +240,10 @@
                 "🇺🇸 US | 🔒 VLESS | @vipv2rey [38]",
                 "🇮🇷 IR | 🔓 VLESS | @vipv2rey [39]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇩🇪 DE | 🔒 VLESS | @vlessconfig [13]",
                 "🇫🇷 FR | 🔒 VLESS | @vlessconfig [14]",
                 "🇫🇷 FR | 🔒 VLESS | @vlessconfig [15]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesc [17]",
+                "🇩🇪 DE | 🔒 VLESS | @vlessconfig [16]",
+                "🇩🇪 DE | 🔓 VLESS | @vmesc [16]",
                 "🚩 CF | 🔓 VLESS | @vmesskhodam [10]",
                 "🇺🇸 US | 🔒 VLESS | @vmesskhodam [12]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
@@ -309,7 +310,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🚩 CF | 🔓 VLESS | @hope_net [20]",
+                "🚩 CF | 🔓 VLESS | @hope_net [18]",
+                "🇺🇸 US | 🔒 VLESS | @hope_net [20]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
                 "🚩 CF | 🔒 VLESS | @iran_access [13]",
@@ -412,10 +414,10 @@
                 "🇺🇸 US | 🔒 VLESS | @vipv2rey [38]",
                 "🇮🇷 IR | 🔓 VLESS | @vipv2rey [39]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇩🇪 DE | 🔒 VLESS | @vlessconfig [13]",
                 "🇫🇷 FR | 🔒 VLESS | @vlessconfig [14]",
                 "🇫🇷 FR | 🔒 VLESS | @vlessconfig [15]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesc [17]",
+                "🇩🇪 DE | 🔒 VLESS | @vlessconfig [16]",
+                "🇩🇪 DE | 🔓 VLESS | @vmesc [16]",
                 "🚩 CF | 🔓 VLESS | @vmesskhodam [10]",
                 "🇺🇸 US | 🔒 VLESS | @vmesskhodam [12]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
@@ -1326,7 +1328,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @hope_net [20]",
+            "tag": "🚩 CF | 🔓 VLESS | @hope_net [18]",
             "type": "vless",
             "server": "104.17.148.22",
             "server_port": 8880,
@@ -1338,6 +1340,31 @@
                 "path": "/",
                 "headers": {
                     "Host": "104.17.148.22"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @hope_net [20]",
+            "type": "vless",
+            "server": "151.101.66.228",
+            "server_port": 443,
+            "uuid": "eac098ad-1d8e-43a9-a048-c06aaa8b175a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hajlab.ucdavis.edu",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048",
+                "headers": {
+                    "Host": "hajlab.ucdavis.edu"
                 }
             }
         },
@@ -3123,31 +3150,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vlessconfig [13]",
-            "type": "vless",
-            "server": "3.65.217.252",
-            "server_port": 22224,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/telegram-channel-vlessconfig",
-                "headers": {
-                    "Host": "trojan.burgerip.co.uk"
-                }
-            }
-        },
-        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @vlessconfig [14]",
             "type": "vless",
             "server": "51.44.34.109",
@@ -3198,7 +3200,32 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vmesc [17]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vlessconfig [16]",
+            "type": "vless",
+            "server": "63.178.130.192",
+            "server_port": 22224,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/telegram-channel-vlessconfig",
+                "headers": {
+                    "Host": "trojan.burgerip.co.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vmesc [16]",
             "type": "vless",
             "server": "198.186.131.216",
             "server_port": 47387,
