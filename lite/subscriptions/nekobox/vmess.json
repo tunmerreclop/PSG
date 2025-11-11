@@ -132,7 +132,6 @@
                 "🇩🇪 DE | 🔓 VMESS | @prooxyk [3]",
                 "❔ XX | 🔓 VMESS | @prooxyk [4]",
                 "❔ XX | 🔒 VMESS | @prooxyk [5]",
-                "🇲🇾 MY | 🔓 VMESS | @prrofile_purple [142]",
                 "🇮🇷 IR | 🔒 VMESS | @public504 [11]",
                 "❔ XX | 🔓 VMESS | @pydriclub [4]",
                 "🚩 CF | 🔒 VMESS | @qeshmserver [11]",
@@ -162,9 +161,8 @@
                 "🇸🇪 SE | 🔓 VMESS | @v2rayprotocol [6]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayturbo [7]",
                 "🇫🇷 FR | 🔓 VMESS | @vpn_ioss [18]",
-                "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [18]",
-                "🇺🇸 US | 🔓 VMESS | @vpnfail_v2ray [19]",
-                "🚩 CF | 🔒 VMESS | @vpnfail_v2ray [20]",
+                "🚩 CF | 🔒 VMESS | @vpnfail_v2ray [18]",
+                "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [20]",
                 "❔ XX | 🔒 VMESS | @vpngate_config [17]",
                 "🇺🇸 US | 🔓 VMESS | @vpngate_config [19]",
                 "🇩🇪 DE | 🔓 VMESS | @vpnv2raytop [1]",
@@ -231,7 +229,6 @@
                 "🇩🇪 DE | 🔓 VMESS | @prooxyk [3]",
                 "❔ XX | 🔓 VMESS | @prooxyk [4]",
                 "❔ XX | 🔒 VMESS | @prooxyk [5]",
-                "🇲🇾 MY | 🔓 VMESS | @prrofile_purple [142]",
                 "🇮🇷 IR | 🔒 VMESS | @public504 [11]",
                 "❔ XX | 🔓 VMESS | @pydriclub [4]",
                 "🚩 CF | 🔒 VMESS | @qeshmserver [11]",
@@ -261,9 +258,8 @@
                 "🇸🇪 SE | 🔓 VMESS | @v2rayprotocol [6]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayturbo [7]",
                 "🇫🇷 FR | 🔓 VMESS | @vpn_ioss [18]",
-                "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [18]",
-                "🇺🇸 US | 🔓 VMESS | @vpnfail_v2ray [19]",
-                "🚩 CF | 🔒 VMESS | @vpnfail_v2ray [20]",
+                "🚩 CF | 🔒 VMESS | @vpnfail_v2ray [18]",
+                "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [20]",
                 "❔ XX | 🔒 VMESS | @vpngate_config [17]",
                 "🇺🇸 US | 🔓 VMESS | @vpngate_config [19]",
                 "🇩🇪 DE | 🔓 VMESS | @vpnv2raytop [1]",
@@ -1165,22 +1161,6 @@
             }
         },
         {
-            "tag": "🇲🇾 MY | 🔓 VMESS | @prrofile_purple [142]",
-            "type": "vmess",
-            "server": "85.211.181.47",
-            "server_port": 16618,
-            "uuid": "af750f3b-bb81-4bac-ad3c-e117753a389d",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "🇮🇷 IR | 🔒 VMESS | @public504 [11]",
             "type": "vmess",
             "server": "94.182.136.40",
@@ -1663,57 +1643,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [18]",
-            "type": "vmess",
-            "server": "2001:41d0:70e:c100::",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "serkat.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkvws",
-                "headers": {
-                    "Host": "serkat.org"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VMESS | @vpnfail_v2ray [19]",
-            "type": "vmess",
-            "server": "148.135.33.226",
-            "server_port": 443,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-            "security": "auto",
-            "alter_id": 64,
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/path/1710685091418",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VMESS | @vpnfail_v2ray [20]",
+            "tag": "🚩 CF | 🔒 VMESS | @vpnfail_v2ray [18]",
             "type": "vmess",
             "server": "cf.090227.xyz",
             "server_port": 443,
@@ -1734,6 +1664,22 @@
                 "path": "/",
                 "headers": {
                     "Host": "sgal.dagrate.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [20]",
+            "type": "vmess",
+            "server": "8.218.152.97",
+            "server_port": 15815,
+            "uuid": "ece5c3d7-9c77-407a-9f89-993159f76ea5",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/arki?ed=2048",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
