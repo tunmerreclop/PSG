@@ -96,7 +96,7 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [2]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [3]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [5]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [71]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [60]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🚩 CF | 🔒 VLESS | @flyv2ray [13]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
@@ -148,7 +148,8 @@
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇺🇸 US | 🔒 VLESS | @v2aryng_vpn [8]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇫🇮 FI | 🔓 VLESS | @v2raych [11]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [4]",
+                "🚩 CF | 🔓 VLESS | @v2raych [19]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -174,7 +175,7 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [2]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [3]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [5]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [71]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [60]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🚩 CF | 🔒 VLESS | @flyv2ray [13]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
@@ -226,7 +227,8 @@
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇺🇸 US | 🔒 VLESS | @v2aryng_vpn [8]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇫🇮 FI | 🔓 VLESS | @v2raych [11]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [4]",
+                "🚩 CF | 🔓 VLESS | @v2raych [19]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -360,13 +362,22 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [71]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [60]",
             "type": "vless",
-            "server": "188.114.96.3",
-            "server_port": 80,
-            "uuid": "6a3818bf-a4d3-680f-d560-cd93abd623a1",
+            "server": "104.17.148.22",
+            "server_port": 8443,
+            "uuid": "655a6041-0ab8-4a92-ad79-f0dba34f5ace",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "uk-09.allhubb.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
@@ -1262,22 +1273,36 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔓 VLESS | @v2raych [11]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [4]",
             "type": "vless",
-            "server": "157.180.46.151",
-            "server_port": 443,
-            "uuid": "20786437-af77-4a16-b15d-c91531aadc53",
-            "flow": "",
+            "server": "91.98.232.154",
+            "server_port": 7046,
+            "uuid": "baae22ed-00c9-4908-a586-15240df8a76b",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "zula.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Fbo-QrU48LDB8vjk_7vPxQmQiHG9nbGrbv83k2oeAUQ",
+                    "short_id": "76430985¬e=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---"
                 }
             }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @v2raych [19]",
+            "type": "vless",
+            "server": "188.114.96.3",
+            "server_port": 80,
+            "uuid": "6a3818bf-a4d3-680f-d560-cd93abd623a1",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",

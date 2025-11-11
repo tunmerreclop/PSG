@@ -122,10 +122,10 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [6]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [7]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇦🇪 AE | 🔓 VLESS | @config_proxy [64]",
-                "🇨🇦 CA | 🔒 VLESS | @config_proxy [66]",
-                "🇳🇱 NL | 🔓 VLESS | @config_proxy [70]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [72]",
+                "🇨🇦 CA | 🔒 VLESS | @config_proxy [61]",
+                "🇮🇷 IR | 🔓 VLESS | @config_proxy [64]",
+                "🇪🇸 ES | 🔒 VLESS | @config_proxy [71]",
+                "🇮🇷 IR | 🔓 VLESS | @config_proxy [73]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -705,10 +705,10 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [6]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [7]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇦🇪 AE | 🔓 VLESS | @config_proxy [64]",
-                "🇨🇦 CA | 🔒 VLESS | @config_proxy [66]",
-                "🇳🇱 NL | 🔓 VLESS | @config_proxy [70]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [72]",
+                "🇨🇦 CA | 🔒 VLESS | @config_proxy [61]",
+                "🇮🇷 IR | 🔓 VLESS | @config_proxy [64]",
+                "🇪🇸 ES | 🔒 VLESS | @config_proxy [71]",
+                "🇮🇷 IR | 🔓 VLESS | @config_proxy [73]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -1879,25 +1879,16 @@
             }
         },
         {
-            "tag": "🇦🇪 AE | 🔓 VLESS | @config_proxy [64]",
-            "type": "vless",
-            "server": "uae1.mongral.ir",
-            "server_port": 7936,
-            "uuid": "6a87fe75-186e-434d-992b-4c96e72c1a57",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇨🇦 CA | 🔒 VLESS | @config_proxy [66]",
+            "tag": "🇨🇦 CA | 🔒 VLESS | @config_proxy [61]",
             "type": "vless",
             "server": "axe.soyet2j.ir",
-            "server_port": 443,
-            "uuid": "27302851-3ad9-4efa-8fe8-191dde731218",
+            "server_port": 2087,
+            "uuid": "74143b59-28b0-489a-aa60-4b3c0e8f56af",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "menu.gejeh683bm.ir",
+                "server_name": "latte.gejeh683bm.ir.",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1906,45 +1897,59 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/77d76f3d-5da8-4198-b5d2-9634d3059ad0",
+                "path": "/index.html?ed=2560",
                 "headers": {
-                    "Host": "menu.gejeh683bm.ir"
+                    "Host": "latte.gejeh683bm.ir."
                 }
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @config_proxy [70]",
+            "tag": "🇮🇷 IR | 🔓 VLESS | @config_proxy [64]",
             "type": "vless",
-            "server": "netherbobi.vtuix.ir",
-            "server_port": 7035,
-            "uuid": "6270eaeb-2f67-4fb5-9d58-662c52d67b3c",
+            "server": "zarin8i.alireza031.pw",
+            "server_port": 26734,
+            "uuid": "c9032a96-614a-4e8c-bc01-c96aa2ef749c",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "netherbobi.vtuix.ir"
+                    "Host": "zarin8i.alireza031.pw"
                 }
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [72]",
+            "tag": "🇪🇸 ES | 🔒 VLESS | @config_proxy [71]",
             "type": "vless",
-            "server": "wangcai190.000444.cn",
-            "server_port": 443,
-            "uuid": "9d847ad3-1896-48f9-b89c-13fe345e2bff",
-            "flow": "",
+            "server": "bountyhunter.fonixapp.org",
+            "server_port": 34270,
+            "uuid": "820bc646-6b81-471a-8c6b-f7a6f750c62d",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "cho.chonon.sbs",
+                "server_name": "stackoverflow.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "foleRktxkiFhRpzlI9JQtPnnUn6uC_69MQOZIedPIRo",
+                    "short_id": "b0f3c87d8b"
                 }
             }
+        },
+        {
+            "tag": "🇮🇷 IR | 🔓 VLESS | @config_proxy [73]",
+            "type": "vless",
+            "server": "mci.vipconfig.ir",
+            "server_port": 1717,
+            "uuid": "b27be65d-6c42-4fb9-c3a7-2447a629bb3b",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
