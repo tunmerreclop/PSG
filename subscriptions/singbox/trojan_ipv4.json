@@ -117,6 +117,9 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
+                "🇺🇸 US | 🔒 TROJAN | @v2raych [5]",
+                "🇺🇸 US | 🔒 TROJAN | @v2raych [6]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [15]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -173,6 +176,9 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
+                "🇺🇸 US | 🔒 TROJAN | @v2raych [5]",
+                "🇺🇸 US | 🔒 TROJAN | @v2raych [6]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [15]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -678,6 +684,61 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 TROJAN | @v2raych [5]",
+            "type": "trojan",
+            "server": "45.76.234.159",
+            "server_port": 443,
+            "password": "d30ab83dbde4480082048fb315bedebd",
+            "tls": {
+                "enabled": true,
+                "server_name": "45.76.234.159",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 TROJAN | @v2raych [6]",
+            "type": "trojan",
+            "server": "208.83.232.190",
+            "server_port": 443,
+            "password": "d30ab83dbde4480082048fb315bedebd",
+            "tls": {
+                "enabled": true,
+                "server_name": "208.83.232.190",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [15]",
+            "type": "trojan",
+            "server": "104.16.159.7",
+            "server_port": 443,
+            "password": "4732adfa16c6450bbef87264e41332db",
+            "tls": {
+                "enabled": true,
+                "server_name": "bangladeshipatri.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/6b777a91",
+                "headers": {
+                    "Host": "bangladeshipatri.com"
                 }
             }
         },
