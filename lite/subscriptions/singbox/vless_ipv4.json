@@ -137,6 +137,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
+                "🚩 CF | 🔒 VLESS | @hope_net [18]",
+                "V2ray_Alpha/=?ed=2560&fp=android&alpn=h3,h2,http/1.1#🚩 CF | 🔒 VLESS | @hope_net [19]",
+                "🇷🇺 RU | 🔒 VLESS | @hope_net [20]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
                 "🚩 CF | 🔒 VLESS | @iran_access [13]",
@@ -315,6 +318,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
+                "🚩 CF | 🔒 VLESS | @hope_net [18]",
+                "V2ray_Alpha/=?ed=2560&fp=android&alpn=h3,h2,http/1.1#🚩 CF | 🔒 VLESS | @hope_net [19]",
+                "🇷🇺 RU | 🔒 VLESS | @hope_net [20]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
                 "🚩 CF | 🔒 VLESS | @iran_access [13]",
@@ -1345,6 +1351,81 @@
                 "path": "/ViraV2ray/?ed=2560",
                 "headers": {
                     "Host": "199.232.193.57"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @hope_net [18]",
+            "type": "vless",
+            "server": "104.21.11.99",
+            "server_port": 443,
+            "uuid": "b882be34-d731-421f-8c8f-f818d475075c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "white.bitiboot.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/white",
+                "headers": {
+                    "Host": "white.bitiboot.com"
+                }
+            }
+        },
+        {
+            "tag": "V2ray_Alpha/=?ed=2560&fp=android&alpn=h3,h2,http/1.1#🚩 CF | 🔒 VLESS | @hope_net [19]",
+            "type": "vless",
+            "server": "104.21.46.85",
+            "server_port": 443,
+            "uuid": "9a4bc15d-a7d4-4181-9485-405629c36894",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "king-ae1.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Telegram",
+                "headers": {
+                    "Host": "king-ae1.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @hope_net [20]",
+            "type": "vless",
+            "server": "45.67.215.70",
+            "server_port": 443,
+            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ld.ylks01.eu.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/blue",
+                "headers": {
+                    "Host": "ld.ylks01.eu.org"
                 }
             }
         },
