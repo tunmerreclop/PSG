@@ -94,7 +94,9 @@
                 "KingRezaPahlavi",
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [39]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [40]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [41]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -236,7 +238,9 @@
                 "KingRezaPahlavi",
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [39]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [40]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [41]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -498,11 +502,11 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [39]",
             "type": "vless",
-            "server": "91.98.151.30",
+            "server": "91.98.89.62",
             "server_port": 443,
-            "uuid": "ac638e13-c96d-484d-8aa8-55da290db25a",
+            "uuid": "60f5612f-4861-4162-eaba-fd1c178437e0",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -515,8 +519,54 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "SyXSKLmY8-JBRFJTRIDx1OcBUJ89XBu8ZHCF_dOS3kw",
+                    "public_key": "NRYJKm0tRL9L2JLo070iTZg-SU6DT318gVLsm5tJUWw",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [40]",
+            "type": "vless",
+            "server": "65.109.217.125",
+            "server_port": 7601,
+            "uuid": "65552811-b845-476a-aa1f-8bc52115e8fe",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "d0MTB2pELj6kUMwYkDZCyf65mA9TbEa45bNJIqgRHTU",
+                    "short_id": "9f54d072d0c27dc6"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [41]",
+            "type": "vless",
+            "server": "138.197.13.193",
+            "server_port": 443,
+            "uuid": "979e4105-7b3a-4ce9-9fdf-992687869d1e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zula.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xxBt4wWYurbjkEOZ1N4T1lOH9enyJ1GHdAynjdsw0hQ",
+                    "short_id": "7d5b4f2ce8bbef8b"
                 }
             }
         },
