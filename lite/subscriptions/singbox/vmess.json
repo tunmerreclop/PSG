@@ -159,7 +159,8 @@
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [18]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [20]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [20]",
@@ -174,8 +175,8 @@
                 "🇸🇪 SE | 🔓 VMESS | @v2rayprotocol [6]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayturbo [7]",
                 "🇫🇷 FR | 🔓 VMESS | @vpn_ioss [18]",
-                "🇩🇪 DE | 🔓 VMESS | @vpnfail_v2ray [18]",
-                "🇨🇦 CA | 🔒 VMESS | @vpnfail_v2ray [19]",
+                "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [18]",
+                "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [19]",
                 "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [20]",
                 "❔ XX | 🔒 VMESS | @vpngate_config [17]",
                 "🇺🇸 US | 🔓 VMESS | @vpngate_config [19]",
@@ -258,7 +259,8 @@
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [18]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [20]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [20]",
@@ -273,8 +275,8 @@
                 "🇸🇪 SE | 🔓 VMESS | @v2rayprotocol [6]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayturbo [7]",
                 "🇫🇷 FR | 🔓 VMESS | @vpn_ioss [18]",
-                "🇩🇪 DE | 🔓 VMESS | @vpnfail_v2ray [18]",
-                "🇨🇦 CA | 🔒 VMESS | @vpnfail_v2ray [19]",
+                "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [18]",
+                "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [19]",
                 "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [20]",
                 "❔ XX | 🔒 VMESS | @vpngate_config [17]",
                 "🇺🇸 US | 🔓 VMESS | @vpngate_config [19]",
@@ -1400,7 +1402,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [19]",
+            "tag": "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
             "server": "pelang.org",
             "server_port": 443,
@@ -1421,6 +1423,31 @@
                 "path": "/linkvws",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "1762659141.bilibiliapp.cn",
+            "server_port": 443,
+            "uuid": "f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "5buz4d9u7.speed.jpsacibnb.cccp.useraaca.pp.ua",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "5buz4d9u7.speed.jpsacibnb.cccp.useraaca.pp.ua"
                 }
             }
         },
@@ -1664,41 +1691,32 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @vpnfail_v2ray [18]",
+            "tag": "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [18]",
             "type": "vmess",
-            "server": "57.129.24.125",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "8.218.113.19",
+            "server_port": 54100,
+            "uuid": "9b401fe8-7a80-4c9d-8126-e29407a6032c",
             "security": "auto",
             "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "57.129.24.125",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/linkvws",
+                "path": "/arki?ed=2048",
                 "headers": {
-                    "Host": "57.129.24.125"
+                    "Host": ""
                 }
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔒 VMESS | @vpnfail_v2ray [19]",
+            "tag": "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [19]",
             "type": "vmess",
-            "server": "148.113.176.192",
+            "server": "57.129.25.22",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "fapeng.org",
+                "server_name": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1709,16 +1727,16 @@
                 "type": "ws",
                 "path": "/linkvws",
                 "headers": {
-                    "Host": "fapeng.org"
+                    "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
                 }
             }
         },
         {
             "tag": "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [20]",
             "type": "vmess",
-            "server": "8.218.113.19",
-            "server_port": 54100,
-            "uuid": "9b401fe8-7a80-4c9d-8126-e29407a6032c",
+            "server": "8.218.71.140",
+            "server_port": 63704,
+            "uuid": "097c2696-113a-4b7c-9ca2-f37f4d86dbc4",
             "security": "auto",
             "alter_id": 0,
             "transport": {
