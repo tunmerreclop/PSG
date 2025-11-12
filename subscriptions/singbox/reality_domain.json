@@ -96,11 +96,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇬🇧 GB | 🔒 VLESS | @config_proxy [44]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [45]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [46]",
-                "🇹🇷 TR | 🔒 VLESS | @config_proxy [47]",
-                "🇮🇳 IN | 🔒 VLESS | @config_proxy [50]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -200,11 +195,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇬🇧 GB | 🔒 VLESS | @config_proxy [44]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [45]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [46]",
-                "🇹🇷 TR | 🔒 VLESS | @config_proxy [47]",
-                "🇮🇳 IN | 🔒 VLESS | @config_proxy [50]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -473,121 +463,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [44]",
-            "type": "vless",
-            "server": "london.fonixapp.org",
-            "server_port": 32876,
-            "uuid": "867b5935-5109-4bae-aa38-52d02323f1a8",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "smallpdf.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ZSkoegcoGFKmN5VZBRTMDRfN9IZQs4xotcqNNhYCzRc",
-                    "short_id": "864f"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [45]",
-            "type": "vless",
-            "server": "helsinki.fonixapp.org",
-            "server_port": 54978,
-            "uuid": "a79d31ed-99d6-4116-8f50-fa46957ac6a0",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "study.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "clfoV7PyfUylden53xvv2FuAoSYFBeZ2JdP0ZzC2ISo",
-                    "short_id": "cc58ae21d5"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [46]",
-            "type": "vless",
-            "server": "amsterdam.fonixapp.org",
-            "server_port": 29300,
-            "uuid": "7843d0a1-be6f-4b7f-92e2-8040711b434c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "canva.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "kJzMBU-gwtqNcJx_igad-d891SBXixmCh78WTIRTIQk",
-                    "short_id": "5a"
-                }
-            }
-        },
-        {
-            "tag": "🇹🇷 TR | 🔒 VLESS | @config_proxy [47]",
-            "type": "vless",
-            "server": "istanbul.fonixapp.org",
-            "server_port": 28689,
-            "uuid": "f7a204a7-e3f8-4349-a12d-7e6868a3b84e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "smallpdf.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "8UJHCuXan_An_xsXNPCN7h_0Yj4EwRtTATjrPiqcC3M",
-                    "short_id": "687dcc8146"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇳 IN | 🔒 VLESS | @config_proxy [50]",
-            "type": "vless",
-            "server": "ind01-vlr01.tcp-reset-club.net",
-            "server_port": 443,
-            "uuid": "4a640781-f5c8-4d17-80db-a6b0a091ba05",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "hls-svod.itunes.apple.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
-                    "short_id": "48720c"
-                }
             }
         },
         {
