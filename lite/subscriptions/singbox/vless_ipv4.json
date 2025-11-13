@@ -139,9 +139,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇺🇸 US | 🔓 VLESS | @hope_net [18]",
-                "🇺🇸 US | 🔒 VLESS | @hope_net [19]",
-                "🚩 CF | 🔓 VLESS | @hope_net [20]",
+                "🚩 CF | 🔓 VLESS | @hope_net [18]",
+                "🇺🇸 US | 🔓 VLESS | @hope_net [19]",
+                "🚩 CF | 🔒 VLESS | @hope_net [20]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
                 "🚩 CF | 🔒 VLESS | @iran_access [13]",
@@ -326,9 +326,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇺🇸 US | 🔓 VLESS | @hope_net [18]",
-                "🇺🇸 US | 🔒 VLESS | @hope_net [19]",
-                "🚩 CF | 🔓 VLESS | @hope_net [20]",
+                "🚩 CF | 🔓 VLESS | @hope_net [18]",
+                "🇺🇸 US | 🔓 VLESS | @hope_net [19]",
+                "🚩 CF | 🔒 VLESS | @hope_net [20]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
                 "🚩 CF | 🔒 VLESS | @iran_access [13]",
@@ -1408,41 +1408,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @hope_net [18]",
-            "type": "vless",
-            "server": "141.193.213.10",
-            "server_port": 2052,
-            "uuid": "92ef5409-0ec3-47b7-8dd9-a0d1f490ac7d",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @hope_net [19]",
-            "type": "vless",
-            "server": "69.84.182.196",
-            "server_port": 443,
-            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "lh.ylks01.eu.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/blue",
-                "headers": {
-                    "Host": "lh.ylks01.eu.org"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @hope_net [20]",
+            "tag": "🚩 CF | 🔓 VLESS | @hope_net [18]",
             "type": "vless",
             "server": "172.67.71.142",
             "server_port": 2095,
@@ -1454,6 +1420,47 @@
                 "path": "/c4iRINukgftb1QoO/c29mdDk4Lmly?ed=2560",
                 "headers": {
                     "Host": "172.67.71.142"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @hope_net [19]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "e43e06ff-6a94-4383-adb8-ff7116a9a518",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/AOagIIfbJJ0hbXIwCE6mq",
+                "headers": {
+                    "Host": "www.visualcapitalist.com"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @hope_net [20]",
+            "type": "vless",
+            "server": "104.17.234.114",
+            "server_port": 8443,
+            "uuid": "7daf6801-f3b9-4139-8394-2dd91723c26f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Join.VPNCUSTOMIZE.speedtest.net.Naziitness.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Telegram,VPNCUSTOMIZE?ed=8080",
+                "headers": {
+                    "Host": "Join.VPNCUSTOMIZE.speedtest.net.Naziitness.com"
                 }
             }
         },
