@@ -84,6 +84,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [39]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -142,7 +143,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [2]",
                 "🇺🇸 US | 🔒 VLESS | @v2raying [3]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
-                "🇮🇹 IT | 🔒 VLESS | @v2rayopen [3]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [6]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [10]",
                 "🇹🇷 TR | 🔒 VLESS | @v2rayopen [11]",
@@ -155,7 +155,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayza [10]",
                 "❔ XX | 🔒 VLESS | @v2rayza [14]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇫🇮 FI | 🔒 VLESS | @v2trayproxy [22]",
+                "🇷🇺 RU | 🔒 VLESS | @v2trayproxy [22]",
                 "🇷🇺 RU | 🔒 VLESS | @vpn_ioss [10]",
                 "🇷🇺 RU | 🔒 VLESS | @vpn_ioss [11]",
                 "❔ XX | 🔒 VLESS | @vpnowl [5]",
@@ -185,6 +185,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [39]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -243,7 +244,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [2]",
                 "🇺🇸 US | 🔒 VLESS | @v2raying [3]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
-                "🇮🇹 IT | 🔒 VLESS | @v2rayopen [3]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [6]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [10]",
                 "🇹🇷 TR | 🔒 VLESS | @v2rayopen [11]",
@@ -256,7 +256,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayza [10]",
                 "❔ XX | 🔒 VLESS | @v2rayza [14]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇫🇮 FI | 🔒 VLESS | @v2trayproxy [22]",
+                "🇷🇺 RU | 🔒 VLESS | @v2trayproxy [22]",
                 "🇷🇺 RU | 🔒 VLESS | @vpn_ioss [10]",
                 "🇷🇺 RU | 🔒 VLESS | @vpn_ioss [11]",
                 "❔ XX | 🔒 VLESS | @vpnowl [5]",
@@ -459,6 +459,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [39]",
+            "type": "vless",
+            "server": "ges.jykvpn.com",
+            "server_port": 443,
+            "uuid": "56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdnjs.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw",
+                    "short_id": "4c02bbbfa833b3b6"
+                }
             }
         },
         {
@@ -1883,29 +1906,6 @@
             }
         },
         {
-            "tag": "🇮🇹 IT | 🔒 VLESS | @v2rayopen [3]",
-            "type": "vless",
-            "server": "italy.marzxo.biz",
-            "server_port": 8093,
-            "uuid": "085ee3cf-9214-4ceb-ed0b-1f990fcc7e6b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Ro8OYB3Jq6hTWw95trCnKzQPvWaN2ShcbeLg7dTv8UU",
-                    "short_id": "828348fc6d8e49cf"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayopen [6]",
             "type": "vless",
             "server": "moonrider.fonixapp.org",
@@ -2186,7 +2186,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @v2trayproxy [22]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @v2trayproxy [22]",
             "type": "vless",
             "server": "fin01-vlr01.tcp-reset-club.net",
             "server_port": 443,
