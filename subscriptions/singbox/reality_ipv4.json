@@ -94,7 +94,8 @@
                 "KingRezaPahlavi",
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [53]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -238,7 +239,8 @@
                 "KingRezaPahlavi",
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [53]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -502,16 +504,43 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
             "type": "vless",
-            "server": "152.53.143.63",
-            "server_port": 54663,
-            "uuid": "c088d5a0-cdc3-4880-8bd7-44ecef474ba2",
+            "server": "91.99.95.76",
+            "server_port": 443,
+            "uuid": "TELEGRAM-CONFiGLiNE",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "stackoverflow.com",
+                "server_name": "ru.sfasti.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "E9Ve9pGVnR-PcLSdOI4onL0qPyvsVVVY44vhmZOTlhc",
+                    "short_id": "5e79a423a5"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE"
+            }
+        },
+        {
+            "tag": "🇸🇬 SG | 🔒 VLESS | @config_proxy [53]",
+            "type": "vless",
+            "server": "206.189.83.23",
+            "server_port": 25288,
+            "uuid": "34393e91-834d-4a3d-a901-bbfde643c4e0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "icloud.cdn-apple.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -519,8 +548,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "HqZHmZub8Q43m2n10fkdH133wVdYgnLEnIUGpypaQno",
-                    "short_id": "2eb3cddded"
+                    "public_key": "kGb4d8KXEtQ3ayLLBMs5N2dz5__9aH7wdk0QEwl6f2Q",
+                    "short_id": ""
                 }
             }
         },
