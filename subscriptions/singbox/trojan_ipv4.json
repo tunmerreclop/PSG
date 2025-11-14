@@ -95,6 +95,7 @@
                 "🇳🇱 NL | 🔒 TROJAN | @free4allvpn [9]",
                 "🇬🇧 GB | 🔒 TROJAN | @free4allvpn [10]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
+                "🇩🇪 DE | 🔒 TROJAN | @hope_net [22]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
                 "🇭🇰 HK | 🔒 TROJAN | @msv2flyng [3]",
@@ -116,7 +117,8 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
-                "🚩 CF | 🔒 TROJAN | @v2raych [15]",
+                "🇹🇷 TR | 🔒 TROJAN | @v2raych [10]",
+                "🇫🇮 FI | 🔒 TROJAN | @v2raych [15]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -151,6 +153,7 @@
                 "🇳🇱 NL | 🔒 TROJAN | @free4allvpn [9]",
                 "🇬🇧 GB | 🔒 TROJAN | @free4allvpn [10]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
+                "🇩🇪 DE | 🔒 TROJAN | @hope_net [22]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
                 "🇭🇰 HK | 🔒 TROJAN | @msv2flyng [3]",
@@ -172,7 +175,8 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
-                "🚩 CF | 🔒 TROJAN | @v2raych [15]",
+                "🇹🇷 TR | 🔒 TROJAN | @v2raych [10]",
+                "🇫🇮 FI | 🔒 TROJAN | @v2raych [15]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -317,6 +321,22 @@
             "server": "91.107.141.0",
             "server_port": 23825,
             "password": "ziIjOlyGbM"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @hope_net [22]",
+            "type": "trojan",
+            "server": "78.46.38.121",
+            "server_port": 110,
+            "password": "KbSAM9jgvo",
+            "tls": {
+                "enabled": true,
+                "server_name": "dk1.ftpcomand.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
@@ -666,14 +686,14 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [15]",
+            "tag": "🇹🇷 TR | 🔒 TROJAN | @v2raych [10]",
             "type": "trojan",
-            "server": "104.18.34.21",
-            "server_port": 2053,
-            "password": "bpb-trojan",
+            "server": "156.67.63.183",
+            "server_port": 11000,
+            "password": "-4146XJHYAzJ4K8Ov6_LBQ",
             "tls": {
                 "enabled": true,
-                "server_name": "bpB-worKER-paneL1-e4p.pAGes.dEV",
+                "server_name": "noproblemvpn.ru",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -682,9 +702,25 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/trEjWhhuRjwiMwSbDN/ZGUucmFkaWNhbGx5LnBybw==",
+                "path": "/tw",
                 "headers": {
-                    "Host": "bpB-worKER-paneL1-e4p.pAGes.dEV"
+                    "Host": "noproblemvpn.ru"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 TROJAN | @v2raych [15]",
+            "type": "trojan",
+            "server": "95.216.243.26",
+            "server_port": 110,
+            "password": "XslctYye3P",
+            "tls": {
+                "enabled": true,
+                "server_name": "flt1.ftpcomand.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },

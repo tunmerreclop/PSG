@@ -82,7 +82,8 @@
                 "KingRezaPahlavi",
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [42]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [39]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -106,7 +107,8 @@
                 "KingRezaPahlavi",
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [42]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [39]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -226,7 +228,30 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [42]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
+            "type": "vless",
+            "server": "vip1.proxystore11.news",
+            "server_port": 2052,
+            "uuid": "a3aef958-6961-464c-b1a9-b09b0f9cd1f7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vultr.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-4S95rjoZIG_AeUxIlwedx89e7C_X4jnePY3RsiF4io",
+                    "short_id": "f8fcb589"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [39]",
             "type": "vless",
             "server": "deadseectelegram.slimshopboyss.ir",
             "server_port": 8080,

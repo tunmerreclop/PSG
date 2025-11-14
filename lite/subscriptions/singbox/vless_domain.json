@@ -136,6 +136,8 @@
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [13]",
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [14]",
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [15]",
+                "🚩 CF | 🔓 VLESS | @hope_net [21]",
+                "❔ XX | 🔓 VLESS | @hope_net [23]",
                 "🚩 CF | 🔒 VLESS | @iran_access [12]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
@@ -345,6 +347,8 @@
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [13]",
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [14]",
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [15]",
+                "🚩 CF | 🔓 VLESS | @hope_net [21]",
+                "❔ XX | 🔓 VLESS | @hope_net [23]",
                 "🚩 CF | 🔒 VLESS | @iran_access [12]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
@@ -1307,6 +1311,31 @@
                     "Host": "s16.leader21.top"
                 }
             }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @hope_net [21]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "bce92a93-ffdc-4f44-8e3a-b17686b5a54e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/vless",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @hope_net [23]",
+            "type": "vless",
+            "server": "get-admin-upanel.poqpoq.cfd",
+            "server_port": 2053,
+            "uuid": "b715727e-0bbc-46cd-a7f0-6638eacb1a5f",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @iran_access [12]",
