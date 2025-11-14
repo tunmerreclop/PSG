@@ -139,9 +139,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇳🇱 NL | 🔒 VLESS | @hope_net [18]",
-                "🇨🇿 CZ | 🔒 VLESS | @hope_net [19]",
-                "🇮🇷 IR | 🔓 VLESS | @hope_net [20]",
+                "🚩 CF | 🔓 VLESS | @hope_net [18]",
+                "🇰🇷 KR | 🔒 VLESS | @hope_net [19]",
+                "🇿🇦 ZA | 🔒 VLESS | @hope_net [20]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
                 "🚩 CF | 🔒 VLESS | @iran_access [13]",
@@ -322,9 +322,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇳🇱 NL | 🔒 VLESS | @hope_net [18]",
-                "🇨🇿 CZ | 🔒 VLESS | @hope_net [19]",
-                "🇮🇷 IR | 🔓 VLESS | @hope_net [20]",
+                "🚩 CF | 🔓 VLESS | @hope_net [18]",
+                "🇰🇷 KR | 🔒 VLESS | @hope_net [19]",
+                "🇿🇦 ZA | 🔒 VLESS | @hope_net [20]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
                 "🚩 CF | 🔒 VLESS | @iran_access [13]",
@@ -1403,16 +1403,25 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @hope_net [18]",
+            "tag": "🚩 CF | 🔓 VLESS | @hope_net [18]",
             "type": "vless",
-            "server": "34.91.136.173",
+            "server": "172.67.73.163",
+            "server_port": 2082,
+            "uuid": "caa95b35-f001-47b0-aca9-838a74d32f3d",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇰🇷 KR | 🔒 VLESS | @hope_net [19]",
+            "type": "vless",
+            "server": "59.3.3.161",
             "server_port": 443,
             "uuid": "48198295-b7ba-4b5c-8d85-085d55a6c869",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "ag.ylks.xyz",
+                "server_name": "af.ylks.xyz",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1421,23 +1430,23 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/?ed",
+                "path": "/blue",
                 "headers": {
-                    "Host": "ag.ylks.xyz"
+                    "Host": "af.ylks.xyz"
                 }
             }
         },
         {
-            "tag": "🇨🇿 CZ | 🔒 VLESS | @hope_net [19]",
+            "tag": "🇿🇦 ZA | 🔒 VLESS | @hope_net [20]",
             "type": "vless",
-            "server": "195.85.23.21",
+            "server": "160.123.255.159",
             "server_port": 443,
-            "uuid": "1e9aadae-ca17-4f75-b0a0-7de5e3858cfb",
+            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "xn----PmCnAac0DKN0RB71NDA.paGES.dEv",
+                "server_name": "cg.ylks.xyz",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1446,20 +1455,11 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/ikQno2T1uirjB8H3?ed=2560",
+                "path": "/blue",
                 "headers": {
-                    "Host": "xn----PmCnAac0DKN0RB71NDA.paGES.dEv"
+                    "Host": "cg.ylks.xyz"
                 }
             }
-        },
-        {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @hope_net [20]",
-            "type": "vless",
-            "server": "94.182.222.16",
-            "server_port": 323,
-            "uuid": "a9675ecc-38cf-4de1-ac10-69cfd31fe608",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
