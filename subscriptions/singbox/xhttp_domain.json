@@ -93,21 +93,21 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
-                "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [61]",
+                "❔ XX | 🔓 VLESS | @arv2ray [3]",
+                "❔ XX | 🔒 VLESS | @config_proxy [46]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [50]",
+                "❔ XX | 🔓 VLESS | @config_proxy [55]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
-                "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
-                "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
-                "🇩🇪 DE | 🔒 VLESS | @evay_vpn [13]",
+                "❔ XX | 🔓 VLESS | @ehsawn8 [7]",
+                "❔ XX | 🔓 VLESS | @eliteproxyv2 [8]",
+                "❔ XX | 🔒 VLESS | @evay_vpn [13]",
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
                 "🚩 CF | 🔓 VLESS | @mehrosaboran [3]",
-                "🇺🇸 US | 🔓 VLESS | @orange_vpns [8]",
+                "❔ XX | 🔓 VLESS | @orange_vpns [7]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [13]",
-                "🚩 CF | 🔓 VLESS | @v2raych [15]",
-                "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
+                "❔ XX | 🔓 VLESS | @v2rayngconfiig [13]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [3]",
-                "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
+                "❔ XX | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -119,21 +119,21 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
-                "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [61]",
+                "❔ XX | 🔓 VLESS | @arv2ray [3]",
+                "❔ XX | 🔒 VLESS | @config_proxy [46]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [50]",
+                "❔ XX | 🔓 VLESS | @config_proxy [55]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
-                "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
-                "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
-                "🇩🇪 DE | 🔒 VLESS | @evay_vpn [13]",
+                "❔ XX | 🔓 VLESS | @ehsawn8 [7]",
+                "❔ XX | 🔓 VLESS | @eliteproxyv2 [8]",
+                "❔ XX | 🔒 VLESS | @evay_vpn [13]",
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
                 "🚩 CF | 🔓 VLESS | @mehrosaboran [3]",
-                "🇺🇸 US | 🔓 VLESS | @orange_vpns [8]",
+                "❔ XX | 🔓 VLESS | @orange_vpns [7]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [13]",
-                "🚩 CF | 🔓 VLESS | @v2raych [15]",
-                "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
+                "❔ XX | 🔓 VLESS | @v2rayngconfiig [13]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [3]",
-                "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
+                "❔ XX | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -229,7 +229,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
+            "tag": "❔ XX | 🔓 VLESS | @arv2ray [3]",
             "type": "vless",
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
@@ -238,11 +238,43 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [61]",
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [46]",
             "type": "vless",
-            "server": "www.speedtest.net",
+            "server": "free1.behnambani.blog",
+            "server_port": 2052,
+            "uuid": "04b9ba66-5801-4806-95b0-f72695d452d2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "miro.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Jv_lAnRvGjnDDJuIzkx53Wyb80ad9rY_17d3roafmX0",
+                    "short_id": "2db7"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [50]",
+            "type": "vless",
+            "server": "am288.amin-1.ir",
+            "server_port": 2082,
+            "uuid": "42b27646-2496-4e4c-ab8c-5b7b97266eb9",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @config_proxy [55]",
+            "type": "vless",
+            "server": "test.fast.hosting-ip.com",
             "server_port": 80,
-            "uuid": "64918ab0-1616-4557-a585-7ddb69cae49b",
+            "uuid": "TELEGRAM-CONFiGLiNE-40",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -256,7 +288,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
+            "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [7]",
             "type": "vless",
             "server": "vpconnect.ahadbala.ir",
             "server_port": 80,
@@ -265,7 +297,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
+            "tag": "❔ XX | 🔓 VLESS | @eliteproxyv2 [8]",
             "type": "vless",
             "server": "germany.fast.hosting-ip.com",
             "server_port": 80,
@@ -274,7 +306,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @evay_vpn [13]",
+            "tag": "❔ XX | 🔒 VLESS | @evay_vpn [13]",
             "type": "vless",
             "server": "gr.sashabike.ir",
             "server_port": 9621,
@@ -315,7 +347,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @orange_vpns [8]",
+            "tag": "❔ XX | 🔓 VLESS | @orange_vpns [7]",
             "type": "vless",
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
@@ -333,25 +365,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [13]",
-            "type": "vless",
-            "server": "test.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "TELEGRAM-CONFiGLiNE-40",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @v2raych [15]",
-            "type": "vless",
-            "server": "deadseectelegram.slimshopboyss.ir",
-            "server_port": 8080,
-            "uuid": "596fe237-8b06-40b3-c42c-8a65123a1400",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
+            "tag": "❔ XX | 🔓 VLESS | @v2rayngconfiig [13]",
             "type": "vless",
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
@@ -378,7 +392,7 @@
             }
         },
         {
-            "tag": "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
+            "tag": "❔ XX | 🔓 VLESS | @xsv2ray [5]",
             "type": "vless",
             "server": "fast-01.saitsazs.ir",
             "server_port": 80,
