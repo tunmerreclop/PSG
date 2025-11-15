@@ -96,8 +96,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [25]",
-                "🇪🇸 ES | 🔒 VLESS | @config_proxy [26]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [37]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -153,6 +152,7 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇭🇰 HK | 🔒 VLESS | @v2raych [20]",
                 "🇺🇸 US | 🔒 VLESS | @v2raying [2]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [5]",
@@ -196,8 +196,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [25]",
-                "🇪🇸 ES | 🔒 VLESS | @config_proxy [26]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [37]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -253,6 +252,7 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇭🇰 HK | 🔒 VLESS | @v2raych [20]",
                 "🇺🇸 US | 🔒 VLESS | @v2raying [2]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [5]",
@@ -468,49 +468,30 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [25]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [37]",
             "type": "vless",
-            "server": "world-of.ru",
+            "server": "bia-kanalemoon.vigilante.ir",
             "server_port": 443,
-            "uuid": "8ada1d03-ee5e-4323-a605-2240b3b25ae3",
+            "uuid": "a6472184-744e-413b-bb33-f393c3fa12eb",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "google.com",
+                "server_name": "tgju.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "random"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "6bdxTggpMa9veyosJjxCvB3UPZmj-OquWTqp1iXAP3Y",
-                    "short_id": "785be44fdf"
+                    "public_key": "0PUc6kHXBAUkpjN6Zm3KkdpnpMHDl45vl-yL_Oyg4wE",
+                    "short_id": ""
                 }
-            }
-        },
-        {
-            "tag": "🇪🇸 ES | 🔒 VLESS | @config_proxy [26]",
-            "type": "vless",
-            "server": "tunnyl.ru",
-            "server_port": 443,
-            "uuid": "d1aea791-0cf5-4941-87a2-05706db2a0e5",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "llUN5iiAQwwKwiAp7zCwfU8wNz7F4lg__e9Qdv_gkWs",
-                    "short_id": "0f1d6a"
-                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "/Daily-Configs-Daily-Configs-Daily-Configs-Daily-Configs-Daily-Configs-Daily-Configs-Daily-Configs-Daily-Configs-Daily-Configs-Daily-Configs?ed=2048"
             }
         },
         {
@@ -1862,6 +1843,29 @@
                     "enabled": true,
                     "public_key": "2dIWbgD8nbCd1YBs-IiQ6vgA7mse9PA9DWqaIMFsTmc",
                     "short_id": "cb333964"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔒 VLESS | @v2raych [20]",
+            "type": "vless",
+            "server": "xtt.re201.aawm.top",
+            "server_port": 41002,
+            "uuid": "add8ba5f-b43c-4fad-a5f8-9a52a7b1fcd0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "safari"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4ERsncs5ANG1abZKOax9sb-K_DWwuOORSkGiHZVsszQ",
+                    "short_id": "225f4b54"
                 }
             }
         },
