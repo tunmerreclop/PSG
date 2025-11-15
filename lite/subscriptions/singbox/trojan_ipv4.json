@@ -92,10 +92,11 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔒 TROJAN | @privatevpns [11]",
-                "❔ XX | 🔒 TROJAN | @privatevpns [12]",
-                "❔ XX | 🔒 TROJAN | @privatevpns [13]",
-                "❔ XX | 🔒 TROJAN | @vmesc [14]"
+                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [11]",
+                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [12]",
+                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [13]",
+                "🇳🇱 NL | 🔒 TROJAN | @vmesc [14]",
+                "🇳🇱 NL | 🔒 TROJAN | @vmesc [16]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -106,10 +107,11 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔒 TROJAN | @privatevpns [11]",
-                "❔ XX | 🔒 TROJAN | @privatevpns [12]",
-                "❔ XX | 🔒 TROJAN | @privatevpns [13]",
-                "❔ XX | 🔒 TROJAN | @vmesc [14]"
+                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [11]",
+                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [12]",
+                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [13]",
+                "🇳🇱 NL | 🔒 TROJAN | @vmesc [14]",
+                "🇳🇱 NL | 🔒 TROJAN | @vmesc [16]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -196,7 +198,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 TROJAN | @privatevpns [11]",
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @privatevpns [11]",
             "type": "trojan",
             "server": "18.192.40.130",
             "server_port": 22222,
@@ -212,7 +214,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 TROJAN | @privatevpns [12]",
+            "tag": "🇫🇷 FR | 🔒 TROJAN | @privatevpns [12]",
             "type": "trojan",
             "server": "15.236.44.29",
             "server_port": 22222,
@@ -228,7 +230,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 TROJAN | @privatevpns [13]",
+            "tag": "🇫🇷 FR | 🔒 TROJAN | @privatevpns [13]",
             "type": "trojan",
             "server": "13.39.172.220",
             "server_port": 22222,
@@ -244,7 +246,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 TROJAN | @vmesc [14]",
+            "tag": "🇳🇱 NL | 🔒 TROJAN | @vmesc [14]",
             "type": "trojan",
             "server": "147.45.180.5",
             "server_port": 11000,
@@ -263,6 +265,29 @@
                 "path": "/tw",
                 "headers": {
                     "Host": "a913a5b91ce37ed2.noproblemvpn.ru"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 TROJAN | @vmesc [16]",
+            "type": "trojan",
+            "server": "37.220.84.91",
+            "server_port": 11000,
+            "password": "-4146XJHYAzJ4K8Ov6_LBQ",
+            "tls": {
+                "enabled": true,
+                "server_name": "688ee466b9661097.noproblemvpn.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/tw",
+                "headers": {
+                    "Host": "688ee466b9661097.noproblemvpn.ru"
                 }
             }
         }

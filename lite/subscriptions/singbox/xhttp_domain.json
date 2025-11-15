@@ -92,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔓 VLESS | @v2ray_vmes [17]"
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [4]",
+                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔓 VLESS | @v2ray_vmes [17]"
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [4]",
+                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,7 +192,30 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @v2ray_vmes [17]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [4]",
+            "type": "vless",
+            "server": "V2ngnet.huqpmfood.ir",
+            "server_port": 4455,
+            "uuid": "b8faaa4d-e5bd-4421-89ce-69bd7b56d18c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
             "type": "vless",
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
