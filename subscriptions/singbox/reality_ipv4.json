@@ -94,7 +94,9 @@
                 "KingRezaPahlavi",
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
-                "🇭🇰 HK | 🔒 VLESS | @config_proxy [26]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
+                "🇯🇵 JP | 🔒 VLESS | @config_proxy [41]",
+                "🇫🇷 FR | 🔒 VLESS | @config_proxy [42]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -237,7 +239,9 @@
                 "KingRezaPahlavi",
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
-                "🇭🇰 HK | 🔒 VLESS | @config_proxy [26]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
+                "🇯🇵 JP | 🔒 VLESS | @config_proxy [41]",
+                "🇫🇷 FR | 🔒 VLESS | @config_proxy [42]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -500,16 +504,16 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔒 VLESS | @config_proxy [26]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
             "type": "vless",
-            "server": "38.54.23.58",
-            "server_port": 443,
-            "uuid": "6048472f-0993-4ae0-8203-960b9a0f4113",
+            "server": "77.81.138.195",
+            "server_port": 2055,
+            "uuid": "ba92f5c8-1735-493f-b253-c77949563eb4",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.amazon.com",
+                "server_name": "kifpool.me",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -517,8 +521,54 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "i7xxqA7h16NpQQAGiQJKxubs-_IRCUUlredSK7swTkw",
-                    "short_id": ""
+                    "public_key": "tv4idxKiDI8SkHFu0p6YL6VGHMAp2XWxYpXltkG1qx0",
+                    "short_id": "54994c92a0"
+                }
+            }
+        },
+        {
+            "tag": "🇯🇵 JP | 🔒 VLESS | @config_proxy [41]",
+            "type": "vless",
+            "server": "3.112.83.7",
+            "server_port": 443,
+            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "chatgpt.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
+                    "short_id": "f5"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @config_proxy [42]",
+            "type": "vless",
+            "server": "45.67.139.37",
+            "server_port": 443,
+            "uuid": "3557aa39-7564-4362-9713-8a2dd2a98830",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "speedsmart.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "k3h5nEAsMcyb9tVMeEepA4jd9JiPhcVCIVLPKWyao0E",
+                    "short_id": "ed464ab7d7a8"
                 }
             }
         },
