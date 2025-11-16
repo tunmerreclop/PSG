@@ -99,6 +99,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [65]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [13]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [17]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [3]",
                 "🚩 CF | 🔓 VLESS | @v2ray1_ng [4]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]"
@@ -119,6 +120,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [65]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [13]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [17]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [3]",
                 "🚩 CF | 🔓 VLESS | @v2ray1_ng [4]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]"
@@ -320,6 +322,29 @@
             "uuid": "qeshmserver",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [17]",
+            "type": "vless",
+            "server": "138.201.147.124",
+            "server_port": 1331,
+            "uuid": "ccaac3f0-b36e-4e2a-857f-365dddd42fcc",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [3]",

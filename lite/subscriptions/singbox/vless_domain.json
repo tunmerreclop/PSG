@@ -136,7 +136,7 @@
                 "❔ XX | 🔒 VLESS | @netazadchannel [4]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [17]",
+                "🚩 CF | 🔒 VLESS | @orange_vpns [19]",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
                 "🇮🇷 IR | 🔓 VLESS | @proxycrone [4]",
                 "🚩 CF | 🔓 VLESS | @proxycrone [5]",
@@ -171,7 +171,6 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [14]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]"
@@ -229,7 +228,7 @@
                 "❔ XX | 🔒 VLESS | @netazadchannel [4]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [17]",
+                "🚩 CF | 🔒 VLESS | @orange_vpns [19]",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
                 "🇮🇷 IR | 🔓 VLESS | @proxycrone [4]",
                 "🚩 CF | 🔓 VLESS | @proxycrone [5]",
@@ -264,7 +263,6 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [14]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]"
@@ -1137,20 +1135,27 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @orange_vpns [17]",
+            "tag": "🚩 CF | 🔒 VLESS | @orange_vpns [19]",
             "type": "vless",
-            "server": "vp5.myphotomoments.ir",
+            "server": "betty.ns.cloudflare.com",
             "server_port": 443,
-            "uuid": "Warpi-Free-Vpn-In-GooglePlay",
+            "uuid": "6a5a20c8-ada7-4a58-ad0e-709f80df29ef",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "vp5.myphotomoments.ir",
+                "server_name": "638988574284907836.prius-amshw.info",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/mihjxdws",
+                "headers": {
+                    "Host": "638988574284907836.prius-amshw.info"
                 }
             }
         },
@@ -1690,29 +1695,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "okala.com"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [14]",
-            "type": "vless",
-            "server": "fuck.s8nt.ir",
-            "server_port": 443,
-            "uuid": "17571679-9586-4625-a6e5-be73e28dd2ff",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "heise.de",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
-                    "short_id": ""
-                }
             }
         },
         {
