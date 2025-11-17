@@ -96,8 +96,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [43]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [51]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [30]",
+                "❔ XX | 🔒 VLESS | @config_proxy [33]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -165,7 +165,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayza [10]",
                 "❔ XX | 🔒 VLESS | @v2rayza [14]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇷🇺 RU | 🔒 VLESS | @v2trayproxy [22]",
+                "🇫🇮 FI | 🔒 VLESS | @v2trayproxy [22]",
                 "🇷🇺 RU | 🔒 VLESS | @vpn_ioss [10]",
                 "🇷🇺 RU | 🔒 VLESS | @vpn_ioss [11]",
                 "❔ XX | 🔒 VLESS | @vpnowl [5]",
@@ -194,8 +194,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [43]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [51]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [30]",
+                "❔ XX | 🔒 VLESS | @config_proxy [33]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -263,7 +263,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayza [10]",
                 "❔ XX | 🔒 VLESS | @v2rayza [14]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇷🇺 RU | 🔒 VLESS | @v2trayproxy [22]",
+                "🇫🇮 FI | 🔒 VLESS | @v2trayproxy [22]",
                 "🇷🇺 RU | 🔒 VLESS | @vpn_ioss [10]",
                 "🇷🇺 RU | 🔒 VLESS | @vpn_ioss [11]",
                 "❔ XX | 🔒 VLESS | @vpnowl [5]",
@@ -464,34 +464,11 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [43]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [30]",
             "type": "vless",
-            "server": "usa56.openbypass.org",
-            "server_port": 443,
-            "uuid": "f8392c48-d43f-4364-85e5-d35c7f654b73",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.utexas.edu",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [51]",
-            "type": "vless",
-            "server": "traxex.fonixapp.org",
-            "server_port": 30295,
-            "uuid": "06a0f312-d5a1-4a47-baef-91f367eefc8b",
+            "server": "shadowshaman.fonixapp.org",
+            "server_port": 26861,
+            "uuid": "04db6938-72dc-42b4-a096-cc6a5e8316d2",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -504,8 +481,31 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "ytFEE1Ae7cboXEsIhJt5ry8qv2hGZ41jAWyGhHjZXVo",
-                    "short_id": "9d6aa524"
+                    "public_key": "IIdE2p3vqHDjHfLrvJXkrLoYpYMJH0R1tacCkHiDtAA",
+                    "short_id": "ecc1c4"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [33]",
+            "type": "vless",
+            "server": "panel-nl2.turkcloud.ir",
+            "server_port": 2095,
+            "uuid": "6b3a7034-39ec-f057-377d-cf6af57b4db4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "QGtWzQHzzUzyVlYDTNZx3Wp9QsjvvtkvDVrI0Ku5Pn4",
+                    "short_id": "feaeaa58cc710b02"
                 }
             }
         },
@@ -2142,7 +2142,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @v2trayproxy [22]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @v2trayproxy [22]",
             "type": "vless",
             "server": "fin01-vlr01.tcp-reset-club.net",
             "server_port": 443,

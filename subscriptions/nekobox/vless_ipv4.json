@@ -107,13 +107,9 @@
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [2]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇰🇿 KZ | 🔒 VLESS | @config_proxy [42]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [44]",
-                "🇨🇦 CA | 🔓 VLESS | @config_proxy [45]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [46]",
-                "🇸🇬 SG | 🔓 VLESS | @config_proxy [50]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [53]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [19]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [20]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [32]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -549,7 +545,7 @@
                 "🇧🇬 BG | 🔓 VLESS | @v2ray_youtube [2]",
                 "🇳🇱 NL | 🔒 VLESS | @v2ray_youtube [4]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [9]",
+                "🚩 CF | 🔓 VLESS | @v2raych [16]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -727,13 +723,9 @@
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [2]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇰🇿 KZ | 🔒 VLESS | @config_proxy [42]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [44]",
-                "🇨🇦 CA | 🔓 VLESS | @config_proxy [45]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [46]",
-                "🇸🇬 SG | 🔓 VLESS | @config_proxy [50]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [53]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [19]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [20]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [32]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -1169,7 +1161,7 @@
                 "🇧🇬 BG | 🔓 VLESS | @v2ray_youtube [2]",
                 "🇳🇱 NL | 🔒 VLESS | @v2ray_youtube [4]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [9]",
+                "🚩 CF | 🔓 VLESS | @v2raych [16]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -1837,16 +1829,50 @@
             }
         },
         {
-            "tag": "🇰🇿 KZ | 🔒 VLESS | @config_proxy [42]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [19]",
             "type": "vless",
-            "server": "77.73.232.61",
-            "server_port": 19747,
-            "uuid": "2a9ed01e-5455-44b4-a66a-76ee8165f0ac",
+            "server": "172.66.40.99",
+            "server_port": 443,
+            "uuid": "telegram-id-Arfilter",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "rSa.2SeDkFjEuIxIjD0Ew9DvKcxoisiEk61.BlOg",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048",
+                "headers": {
+                    "Host": "rSa.2SeDkFjEuIxIjD0Ew9DvKcxoisiEk61.BlOg"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [20]",
+            "type": "vless",
+            "server": "172.66.156.81",
+            "server_port": 80,
+            "uuid": "659b70d6-efbe-47ce-a596-5b173943f077",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [32]",
+            "type": "vless",
+            "server": "128.140.51.22",
+            "server_port": 1001,
+            "uuid": "2d2cf1dc-292c-4674-8011-63b7dc0101df",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "yahoo.com",
+                "server_name": "ea.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1854,142 +1880,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "ZO9dTeg1slvTXgVsBsaJ1BDvz_YUImTLJjbHs-GdVyM",
-                    "short_id": "2001"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [44]",
-            "type": "vless",
-            "server": "172.64.67.69",
-            "server_port": 443,
-            "uuid": "3c36eadb-747a-4166-8db0-23fec9883ea2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "HarmonY-448.pages.DEV",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/assets?ed=2560",
-                "headers": {
-                    "Host": "HarmonY-448.pages.DEV"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦 CA | 🔓 VLESS | @config_proxy [45]",
-            "type": "vless",
-            "server": "51.79.103.117",
-            "server_port": 443,
-            "uuid": "2e6037b9-87b2-4442-91f9-71c41a586a55",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "51.79.103.117",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkws?ed=2560",
-                "headers": {
-                    "Host": "51.79.103.117"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [46]",
-            "type": "vless",
-            "server": "104.21.42.33",
-            "server_port": 443,
-            "uuid": "6405f134-503f-40b3-aea9-cc92fa77b5ac",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ger.americanexpressbanks.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/xYzAbc123",
-                "headers": {
-                    "Host": "ger.americanexpressbanks.com"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬 SG | 🔓 VLESS | @config_proxy [50]",
-            "type": "vless",
-            "server": "5.223.59.7",
-            "server_port": 16953,
-            "uuid": "517734fb-c870-4fed-966d-7af19827509d",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
-            "type": "vless",
-            "server": "3.124.235.183",
-            "server_port": 22224,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/telegram-channel-vlessconfig",
-                "headers": {
-                    "Host": "trojan.burgerip.co.uk"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [53]",
-            "type": "vless",
-            "server": "190.93.247.244",
-            "server_port": 443,
-            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "lg.ylks01.eu.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/blue",
-                "headers": {
-                    "Host": "lg.ylks01.eu.org"
+                    "public_key": "2EZXYUFvq9YgSuJ_OFyrHw-8DcVhQQLPNazcF2be60Y",
+                    "short_id": "89d5cda1"
                 }
             }
         },
@@ -10050,18 +9942,18 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [9]",
+            "tag": "🚩 CF | 🔓 VLESS | @v2raych [16]",
             "type": "vless",
-            "server": "45.8.146.207",
-            "server_port": 80,
-            "uuid": "b186e4de-9f54-426e-9a8d-fbd8927ae5ac",
+            "server": "104.17.147.22",
+            "server_port": 8080,
+            "uuid": "Parsashonam-Bot-37",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/vless/",
+                "path": "/Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056",
                 "headers": {
-                    "Host": "45.8.146.207"
+                    "Host": "104.17.147.22"
                 }
             }
         },
