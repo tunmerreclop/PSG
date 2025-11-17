@@ -97,9 +97,10 @@
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
                 "🇯🇵 JP | 🔒 TROJAN | @netfreedom0 [20]",
-                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [12]",
+                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [12]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [13]",
-                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]"
+                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
+                "🇭🇰 HK | 🔒 TROJAN | @v2ray1_ng [8]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -115,9 +116,10 @@
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
                 "🇯🇵 JP | 🔒 TROJAN | @netfreedom0 [20]",
-                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [12]",
+                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [12]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [13]",
-                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]"
+                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
+                "🇭🇰 HK | 🔒 TROJAN | @v2ray1_ng [8]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -309,23 +311,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 TROJAN | @privatevpns [12]",
-            "type": "trojan",
-            "server": "13.39.43.248",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 TROJAN | @privatevpns [13]",
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @privatevpns [12]",
             "type": "trojan",
             "server": "3.69.107.66",
             "server_port": 22222,
@@ -341,7 +327,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]",
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @privatevpns [13]",
             "type": "trojan",
             "server": "63.179.161.201",
             "server_port": 22222,
@@ -349,6 +335,38 @@
             "tls": {
                 "enabled": true,
                 "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
+            "type": "trojan",
+            "server": "51.44.199.57",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔒 TROJAN | @v2ray1_ng [8]",
+            "type": "trojan",
+            "server": "58.152.110.216",
+            "server_port": 443,
+            "password": "2274c52572e721086f8bd8f88984643c",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.nintendogames.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

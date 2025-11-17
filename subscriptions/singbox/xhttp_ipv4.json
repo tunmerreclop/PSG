@@ -94,6 +94,7 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [38]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
@@ -140,7 +141,6 @@
                 "🇺🇸 US | 🔓 VLESS | @prrofile_purple [143]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [6]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -151,7 +151,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [7]",
                 "🚩 CF | 🔓 VLESS | @v2rayopen [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raytg [55]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [6]",
                 "🚩 CF | 🔓 VLESS | @vmesskhodam [7]"
             ],
             "tag": "proxy",
@@ -165,6 +164,7 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [38]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
@@ -211,7 +211,6 @@
                 "🇺🇸 US | 🔓 VLESS | @prrofile_purple [143]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [6]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -222,7 +221,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [7]",
                 "🚩 CF | 🔓 VLESS | @v2rayopen [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raytg [55]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [6]",
                 "🚩 CF | 🔓 VLESS | @vmesskhodam [7]"
             ],
             "tag": "auto",
@@ -326,6 +324,24 @@
             "uuid": "5d1d5947-72de-4bca-844d-af55ed0e4691",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [38]",
+            "type": "vless",
+            "server": "104.18.0.0",
+            "server_port": 443,
+            "uuid": "b91f41b0-240f-4672-8408-1de00281630c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "baznet.mmdmrx23.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
@@ -1125,15 +1141,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [6]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "3a86fa27-38fd-4286-91f0-5f7d78fb0fb7",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
             "type": "vless",
             "server": "217.71.204.148",
@@ -1318,29 +1325,6 @@
                     "enabled": true,
                     "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
                     "short_id": "61e683d41fdb"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [6]",
-            "type": "vless",
-            "server": "138.201.147.124",
-            "server_port": 1331,
-            "uuid": "ccaac3f0-b36e-4e2a-857f-365dddd42fcc",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
-                    "short_id": "077dc29a23d311f2"
                 }
             }
         },
