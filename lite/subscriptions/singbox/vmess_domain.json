@@ -120,9 +120,11 @@
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇸🇪 SE | 🔓 VMESS | @v2ray1_ng [7]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
+                "🇫🇮 FI | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
+                "🚩 CF | 🔓 VMESS | @vmesc [18]",
                 "🇫🇷 FR | 🔓 VMESS | @vpn_ioss [18]",
                 "❔ XX | 🔓 VMESS | @xrayzxn [6]"
             ],
@@ -163,9 +165,11 @@
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇸🇪 SE | 🔓 VMESS | @v2ray1_ng [7]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
+                "🇫🇮 FI | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
+                "🚩 CF | 🔓 VMESS | @vmesc [18]",
                 "🇫🇷 FR | 🔓 VMESS | @vpn_ioss [18]",
                 "❔ XX | 🔓 VMESS | @xrayzxn [6]"
             ],
@@ -630,6 +634,31 @@
             "alter_id": 0
         },
         {
+            "tag": "🇫🇮 FI | 🔒 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "46.62.214.228",
+            "server_port": 443,
+            "uuid": "a854a2dc-19eb-4d85-ad6a-05d1019974af",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "cyrus.v2bazzar.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "cyrus.v2bazzar.ir"
+                }
+            }
+        },
+        {
             "tag": "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
             "type": "vmess",
             "server": "172.67.81.238",
@@ -687,6 +716,22 @@
             "uuid": "84e92b93-93d0-40e4-8b2b-123801eeda44",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🚩 CF | 🔓 VMESS | @vmesc [18]",
+            "type": "vmess",
+            "server": "141.101.121.26",
+            "server_port": 80,
+            "uuid": "d967ffca-de90-4daa-bd00-d527e5bae11f",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "🇫🇷 FR | 🔓 VMESS | @vpn_ioss [18]",

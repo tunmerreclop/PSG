@@ -130,9 +130,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayvpn2 [3]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🚩 CF | 🔒 VLESS | @vmesc [17]",
-                "🇺🇸 US | 🔒 VLESS | @vmesc [18]",
-                "🇭🇰 HK | 🔒 VLESS | @vmesc [19]",
+                "🇭🇰 HK | 🔒 VLESS | @vmesc [17]",
+                "🚩 CF | 🔒 VLESS | @vmesc [19]",
                 "❔ XX | 🔓 VLESS | @armod_iran [1]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [15]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
@@ -273,9 +272,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayvpn2 [3]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🚩 CF | 🔒 VLESS | @vmesc [17]",
-                "🇺🇸 US | 🔒 VLESS | @vmesc [18]",
-                "🇭🇰 HK | 🔒 VLESS | @vmesc [19]",
+                "🇭🇰 HK | 🔒 VLESS | @vmesc [17]",
+                "🚩 CF | 🔒 VLESS | @vmesc [19]",
                 "❔ XX | 🔓 VLESS | @armod_iran [1]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [15]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
@@ -1274,57 +1272,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vmesc [17]",
-            "type": "vless",
-            "server": "173.245.58.113",
-            "server_port": 443,
-            "uuid": "f64bdc57-0f54-4705-bf75-cfd646d98c06",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "snippets.nneko.netlib.re",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2048Join---A",
-                "headers": {
-                    "Host": "snippets.nneko.netlib.re"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @vmesc [18]",
-            "type": "vless",
-            "server": "8.39.125.194",
-            "server_port": 443,
-            "uuid": "f64bdc57-0f54-4705-bf75-cfd646d98c06",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "snippets.nneko.netlib.re",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2048J_T",
-                "headers": {
-                    "Host": "snippets.nneko.netlib.re"
-                }
-            }
-        },
-        {
-            "tag": "🇭🇰 HK | 🔒 VLESS | @vmesc [19]",
+            "tag": "🇭🇰 HK | 🔒 VLESS | @vmesc [17]",
             "type": "vless",
             "server": "27.50.48.8",
             "server_port": 443,
@@ -1343,6 +1291,31 @@
             "transport": {
                 "type": "ws",
                 "path": "/",
+                "headers": {
+                    "Host": "vless.hubp.de"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @vmesc [19]",
+            "type": "vless",
+            "server": "104.18.82.55",
+            "server_port": 443,
+            "uuid": "29187857-4a1f-4d1e-88eb-0016771e0dbb",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vless.hubp.de",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=Join---_---T?ed=512",
                 "headers": {
                     "Host": "vless.hubp.de"
                 }
