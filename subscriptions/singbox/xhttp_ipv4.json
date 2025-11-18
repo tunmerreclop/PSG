@@ -94,7 +94,9 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [8]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [47]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [48]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [51]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [57]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
@@ -163,7 +165,9 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [8]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [47]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [48]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [51]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [57]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
@@ -324,22 +328,40 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [47]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [48]",
             "type": "vless",
-            "server": "91.99.217.44",
+            "server": "91.107.149.210",
             "server_port": 443,
-            "uuid": "c99f45df-5daf-4610-81ea-b9b4ea7258f4",
+            "uuid": "d77422dd-b205-4578-a548-29ba1247eb93",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "91.99.217.44",
+                "server_name": "",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [51]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "0cd3e7bb-b9c7-43d3-fc96-10cff3cbc12b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [57]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "f60586b4-c907-4b18-ae0a-e013d297043e",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",

@@ -232,8 +232,9 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [20]",
-                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [21]",
+                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇩🇪 DE | 🔒 SS | @v2ray_free_conf [20]",
+                "🇫🇮 FI | 🔒 SS | @v2ray_free_conf [21]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -431,8 +432,9 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [20]",
-                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [21]",
+                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇩🇪 DE | 🔒 SS | @v2ray_free_conf [20]",
+                "🇫🇮 FI | 🔒 SS | @v2ray_free_conf [21]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -2871,16 +2873,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [20]",
-            "type": "vmess",
-            "server": "arda101.ardaserver.site",
-            "server_port": 34167,
-            "uuid": "571cd4a3-e2af-4bab-a6f5-3b5906afc111",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [21]",
+            "tag": "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
             "server": "57.129.28.69",
             "server_port": 443,
@@ -2903,6 +2896,22 @@
                     "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
                 }
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 SS | @v2ray_free_conf [20]",
+            "type": "shadowsocks",
+            "server": "89.106.69.99",
+            "server_port": 1080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "gSv17uv1fOG1IkoBd17PJm316qWgYR5Y"
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 SS | @v2ray_free_conf [21]",
+            "type": "shadowsocks",
+            "server": "65.21.243.22",
+            "server_port": 31348,
+            "method": "chacha20-ietf-poly1305",
+            "password": "mZGUFWMAlfWqI4vP58zw9DAHxR8TZLndKkvRgHHFa9eqWdnx"
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
