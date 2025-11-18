@@ -82,6 +82,7 @@
                 "KingRezaPahlavi",
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [60]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -100,7 +101,6 @@
                 "🚩 CF | 🔒 VLESS | @v2ray_sub [24]",
                 "🚩 CF | 🔒 VLESS | @v2ray_sub [25]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇩🇪 DE | 🔓 VLESS | @v2raych [8]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
                 "🚩 CF | 🔓 VLESS | @v2rayopen [17]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [3]",
@@ -118,6 +118,7 @@
                 "KingRezaPahlavi",
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [60]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -136,7 +137,6 @@
                 "🚩 CF | 🔒 VLESS | @v2ray_sub [24]",
                 "🚩 CF | 🔒 VLESS | @v2ray_sub [25]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇩🇪 DE | 🔓 VLESS | @v2raych [8]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
                 "🚩 CF | 🔓 VLESS | @v2rayopen [17]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [3]",
@@ -246,6 +246,15 @@
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [60]",
+            "type": "vless",
+            "server": "test.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "287c86b0-600f-4bcd-83b0-04f988de89fd",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -492,24 +501,6 @@
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @v2raych [8]",
-            "type": "vless",
-            "server": "free.tasisatliqcloud.ir",
-            "server_port": 443,
-            "uuid": "427aea2a-e24b-428e-99f4-7e12e6ad067b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "free.tasisatliqcloud.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
