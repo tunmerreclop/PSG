@@ -94,6 +94,7 @@
                 "KingRezaPahlavi",
                 "🇨🇿 CZ | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
+                "🚩 CF | 🔓 VLESS | @bored_vpn [14]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
                 "🚩 CF | 🔓 VLESS | @diamondproxytm [2]",
@@ -111,7 +112,6 @@
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇮🇷 IR | 🔓 VLESS | @lakvpn1 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [65]",
-                "🚩 CF | 🔓 VLESS | @mehrosaboran [7]",
                 "🇸🇪 SE | 🔓 VLESS | @meli_v2rayng [24]",
                 "🇸🇪 SE | 🔓 VLESS | @meli_v2rayng [25]",
                 "🇸🇪 SE | 🔓 VLESS | @meli_v2rayng [26]",
@@ -142,8 +142,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayvpn2 [3]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🚩 CF | 🔒 VLESS | @vmesc [14]",
-                "🚩 CF | 🔒 VLESS | @vmesc [16]"
+                "🚩 CF | 🔒 VLESS | @vmesc [15]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [16]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -156,6 +156,7 @@
                 "KingRezaPahlavi",
                 "🇨🇿 CZ | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
+                "🚩 CF | 🔓 VLESS | @bored_vpn [14]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
                 "🚩 CF | 🔓 VLESS | @diamondproxytm [2]",
@@ -173,7 +174,6 @@
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇮🇷 IR | 🔓 VLESS | @lakvpn1 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [65]",
-                "🚩 CF | 🔓 VLESS | @mehrosaboran [7]",
                 "🇸🇪 SE | 🔓 VLESS | @meli_v2rayng [24]",
                 "🇸🇪 SE | 🔓 VLESS | @meli_v2rayng [25]",
                 "🇸🇪 SE | 🔓 VLESS | @meli_v2rayng [26]",
@@ -204,8 +204,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayvpn2 [3]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🚩 CF | 🔒 VLESS | @vmesc [14]",
-                "🚩 CF | 🔒 VLESS | @vmesc [16]"
+                "🚩 CF | 🔒 VLESS | @vmesc [15]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [16]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -310,6 +310,22 @@
             "server": "172.67.146.171",
             "server_port": 2095,
             "uuid": "d80a536a-3924-41f8-87e7-8986c7ab5886",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048@XpnTeam?ed=2048@XpnTeam?ed=2048",
+                "headers": {
+                    "Host": "172.67.146.171"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @bored_vpn [14]",
+            "type": "vless",
+            "server": "172.67.146.171",
+            "server_port": 2095,
+            "uuid": "3b457cc0-b45b-4361-de1f-01675c11a38f",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
@@ -620,15 +636,6 @@
                     "fingerprint": "chrome"
                 }
             }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @mehrosaboran [7]",
-            "type": "vless",
-            "server": "172.67.168.34",
-            "server_port": 2082,
-            "uuid": "5d1d5947-72de-4bca-844d-af55ed0e4691",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇸🇪 SE | 🔓 VLESS | @meli_v2rayng [24]",
@@ -1095,32 +1102,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vmesc [14]",
-            "type": "vless",
-            "server": "104.18.82.55",
-            "server_port": 443,
-            "uuid": "29187857-4a1f-4d1e-88eb-0016771e0dbb",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vless.hubp.de",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Join------Join------Join---_T",
-                "headers": {
-                    "Host": "vless.hubp.de"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @vmesc [16]",
+            "tag": "🚩 CF | 🔒 VLESS | @vmesc [15]",
             "type": "vless",
             "server": "104.26.6.89",
             "server_port": 443,
@@ -1141,6 +1123,29 @@
                 "path": "/api/v1",
                 "headers": {
                     "Host": "gb-8981.shenzogmbh.com"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [16]",
+            "type": "vless",
+            "server": "193.46.81.151",
+            "server_port": 50853,
+            "uuid": "d988a5dc-35a4-44e6-8a78-a56659eee68c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "miro.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "XT7qcjwBZkCQPQVgzP_afaX76GUbHIysmOhJ1gWsLjs",
+                    "short_id": "69"
                 }
             }
         }
