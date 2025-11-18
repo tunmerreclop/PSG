@@ -143,7 +143,6 @@
                 "🚩 CF | 🔓 VLESS | @v2logy [9]",
                 "🚩 CF | 🔓 VLESS | @v2logy [10]",
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
-                "🇳🇱 NL | 🔒 VLESS | @v2ray1_ng [3]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -159,7 +158,8 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🚩 CF | 🔒 VLESS | @vmesc [16]",
+                "🚩 CF | 🔒 VLESS | @vmesc [15]",
+                "❔ XX | 🔓 VLESS | @vmesc [17]",
                 "🚩 CF | 🔒 VLESS | @vpn_ioss [15]",
                 "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [16]",
                 "🚩 CF | 🔒 VLESS | @vpn_ioss [17]",
@@ -239,7 +239,6 @@
                 "🚩 CF | 🔓 VLESS | @v2logy [9]",
                 "🚩 CF | 🔓 VLESS | @v2logy [10]",
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
-                "🇳🇱 NL | 🔒 VLESS | @v2ray1_ng [3]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -255,7 +254,8 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🚩 CF | 🔒 VLESS | @vmesc [16]",
+                "🚩 CF | 🔒 VLESS | @vmesc [15]",
+                "❔ XX | 🔓 VLESS | @vmesc [17]",
                 "🚩 CF | 🔒 VLESS | @vpn_ioss [15]",
                 "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [16]",
                 "🚩 CF | 🔒 VLESS | @vpn_ioss [17]",
@@ -1422,29 +1422,6 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @v2ray1_ng [3]",
-            "type": "vless",
-            "server": "usa82.freednet.org",
-            "server_port": 443,
-            "uuid": "4e5a0939-483c-4571-a1b1-fccbfe053923",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.utexas.edu",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
-                    "short_id": ""
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
             "type": "vless",
             "server": "gr.liteingshop.com",
@@ -1712,7 +1689,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vmesc [16]",
+            "tag": "🚩 CF | 🔒 VLESS | @vmesc [15]",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
@@ -1733,6 +1710,24 @@
                 "path": "/",
                 "headers": {
                     "Host": "holo.mrconfigur.site"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @vmesc [17]",
+            "type": "vless",
+            "server": "vp8.myphotomoments.ir",
+            "server_port": 443,
+            "uuid": "Warpi-Free-Vpn-In-GooglePlay",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vp8.myphotomoments.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },

@@ -80,7 +80,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔒 VLESS | @config_proxy [51]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔓 VLESS | @father_vpn [2]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
@@ -88,11 +87,12 @@
                 "❔ XX | 🔓 VLESS | @freevv2rayng [7]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [10]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [11]",
+                "❔ XX | 🔒 VLESS | @hope_net [19]",
                 "❔ XX | 🔓 VLESS | @internet_nor [1]",
                 "❔ XX | 🔓 VLESS | @internet_nor [2]",
                 "❔ XX | 🔓 VLESS | @internet_nor [3]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
-                "❔ XX | 🔒 VLESS | @kurdistan_vpn_perfectt [12]",
+                "❔ XX | 🔒 VLESS | @kurdistan_vpn_perfectt [11]",
                 "❔ XX | 🔓 VLESS | @proxycrone [2]",
                 "❔ XX | 🔓 VLESS | @prrofile_purple [138]",
                 "❔ XX | 🔓 VLESS | @v2raytg [57]"
@@ -106,7 +106,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔒 VLESS | @config_proxy [51]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔓 VLESS | @father_vpn [2]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
@@ -114,11 +113,12 @@
                 "❔ XX | 🔓 VLESS | @freevv2rayng [7]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [10]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [11]",
+                "❔ XX | 🔒 VLESS | @hope_net [19]",
                 "❔ XX | 🔓 VLESS | @internet_nor [1]",
                 "❔ XX | 🔓 VLESS | @internet_nor [2]",
                 "❔ XX | 🔓 VLESS | @internet_nor [3]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
-                "❔ XX | 🔒 VLESS | @kurdistan_vpn_perfectt [12]",
+                "❔ XX | 🔒 VLESS | @kurdistan_vpn_perfectt [11]",
                 "❔ XX | 🔓 VLESS | @proxycrone [2]",
                 "❔ XX | 🔓 VLESS | @prrofile_purple [138]",
                 "❔ XX | 🔓 VLESS | @v2raytg [57]"
@@ -208,31 +208,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @config_proxy [51]",
-            "type": "vless",
-            "server": "[2a04:4e42:30a6:fcad:f55e:606b:2f5a:169]",
-            "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "en.mfa.gov.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/H?ed=2560",
-                "headers": {
-                    "Host": "en.mfa.gov.ir"
                 }
             }
         },
@@ -361,6 +336,31 @@
             }
         },
         {
+            "tag": "❔ XX | 🔒 VLESS | @hope_net [19]",
+            "type": "vless",
+            "server": "[2a04:4e42:3552:e7ce:2adb:a039:2074:9e46]",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "en.mfa.gov.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/H?ed=2560",
+                "headers": {
+                    "Host": "en.mfa.gov.ir"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔓 VLESS | @internet_nor [1]",
             "type": "vless",
             "server": "[2a01:4f9:c010:1ac8::1]",
@@ -427,7 +427,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @kurdistan_vpn_perfectt [12]",
+            "tag": "❔ XX | 🔒 VLESS | @kurdistan_vpn_perfectt [11]",
             "type": "vless",
             "server": "[2a0b:4140:3342::2]",
             "server_port": 21748,
