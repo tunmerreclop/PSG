@@ -140,13 +140,13 @@
                 "🚩 CF | 🔒 VLESS | @v2rayvpn2 [5]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇭🇰 HK | 🔒 VLESS | @vmesc [18]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesc [19]",
+                "🇩🇪 DE | 🔓 VLESS | @vmesc [18]",
+                "🇺🇸 US | 🔓 VLESS | @vmesc [20]",
                 "❔ XX | 🔓 VLESS | @armod_iran [1]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [15]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
-                "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [14]",
+                "🚩 CF | 🔓 VLESS | @bored_vpn [16]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [2]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [3]",
@@ -205,7 +205,7 @@
                 "🚩 CF | 🔓 VLESS | @v2logy [9]",
                 "🚩 CF | 🔓 VLESS | @v2logy [10]",
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
-                "🇳🇱 NL | 🔒 VLESS | @v2ray1_ng [7]",
+                "🇳🇱 NL | 🔒 VLESS | @v2ray1_ng [6]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -282,13 +282,13 @@
                 "🚩 CF | 🔒 VLESS | @v2rayvpn2 [5]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇭🇰 HK | 🔒 VLESS | @vmesc [18]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesc [19]",
+                "🇩🇪 DE | 🔓 VLESS | @vmesc [18]",
+                "🇺🇸 US | 🔓 VLESS | @vmesc [20]",
                 "❔ XX | 🔓 VLESS | @armod_iran [1]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [15]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
-                "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [14]",
+                "🚩 CF | 🔓 VLESS | @bored_vpn [16]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [2]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [3]",
@@ -347,7 +347,7 @@
                 "🚩 CF | 🔓 VLESS | @v2logy [9]",
                 "🚩 CF | 🔓 VLESS | @v2logy [10]",
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
-                "🇳🇱 NL | 🔒 VLESS | @v2ray1_ng [7]",
+                "🇳🇱 NL | 🔒 VLESS | @v2ray1_ng [6]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -1228,36 +1228,20 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔒 VLESS | @vmesc [18]",
-            "type": "vless",
-            "server": "36.50.90.241",
-            "server_port": 35951,
-            "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "gaosir.unfeeling.sbs",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/X@节点狂魔/?ed=2560",
-                "headers": {
-                    "Host": "gaosir.unfeeling.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vmesc [19]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vmesc [18]",
             "type": "vless",
             "server": "5.75.207.116",
             "server_port": 8880,
             "uuid": "083d7685-f2c1-4577-8d4c-e273f6518fb4",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [20]",
+            "type": "vless",
+            "server": "107.174.20.100",
+            "server_port": 55703,
+            "uuid": "7e41b486-1783-446c-b0d0-4fe1389cae84",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -1321,11 +1305,20 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
+            "tag": "🚩 CF | 🔓 VLESS | @bored_vpn [14]",
+            "type": "vless",
+            "server": "am288.amin-1.ir",
+            "server_port": 2082,
+            "uuid": "01277c01-9d3f-4460-fe04-8107f81d1e22",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @bored_vpn [16]",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
-            "uuid": "fd132585-957d-4fac-c8c0-96cf7af3f25d",
+            "uuid": "82e77741-f27e-476d-8467-c054752f0673",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
@@ -1335,15 +1328,6 @@
                     "Host": "www.speedtest.net"
                 }
             }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @bored_vpn [14]",
-            "type": "vless",
-            "server": "am288.amin-1.ir",
-            "server_port": 2082,
-            "uuid": "01277c01-9d3f-4460-fe04-8107f81d1e22",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -2323,7 +2307,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @v2ray1_ng [7]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @v2ray1_ng [6]",
             "type": "vless",
             "server": "usa82.freednet.org",
             "server_port": 443,

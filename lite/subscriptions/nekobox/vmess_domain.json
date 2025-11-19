@@ -105,10 +105,10 @@
                 "🚩 CF | 🔓 VMESS | @red2ray [12]",
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
-                "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [5]",
+                "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [4]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇬🇧 GB | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -148,10 +148,10 @@
                 "🚩 CF | 🔓 VMESS | @red2ray [12]",
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
-                "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [5]",
+                "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [4]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇬🇧 GB | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -581,7 +581,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [5]",
+            "tag": "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [4]",
             "type": "vmess",
             "server": "57.129.28.212",
             "server_port": 443,
@@ -615,29 +615,38 @@
             "alter_id": 0
         },
         {
-            "tag": "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [18]",
-            "type": "vmess",
-            "server": "2001:bc8:1203:209::50",
-            "server_port": 23008,
-            "uuid": "e994b804-345c-4e8b-a827-7e005694d146",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/github.com/Alvin9999",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [20]",
+            "tag": "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
             "server": "51.255.173.12",
             "server_port": 550,
             "uuid": "f608615c-03fe-472c-9aee-97391946095b",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "45.85.118.48",
+            "server_port": 2096,
+            "uuid": "37e7fca4-8510-40ab-8d22-138a2a3658af",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "webshecanir2.symodi.ml",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/JSsiadsEscSA",
+                "headers": {
+                    "Host": "webshecanir2.symodi.ml"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",

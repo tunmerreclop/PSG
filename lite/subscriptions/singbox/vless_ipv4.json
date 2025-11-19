@@ -140,8 +140,8 @@
                 "🚩 CF | 🔒 VLESS | @v2rayvpn2 [5]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇭🇰 HK | 🔒 VLESS | @vmesc [18]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesc [19]"
+                "🇩🇪 DE | 🔓 VLESS | @vmesc [18]",
+                "🇺🇸 US | 🔓 VLESS | @vmesc [20]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -200,8 +200,8 @@
                 "🚩 CF | 🔒 VLESS | @v2rayvpn2 [5]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇭🇰 HK | 🔒 VLESS | @vmesc [18]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesc [19]"
+                "🇩🇪 DE | 🔓 VLESS | @vmesc [18]",
+                "🇺🇸 US | 🔓 VLESS | @vmesc [20]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -1064,36 +1064,20 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔒 VLESS | @vmesc [18]",
-            "type": "vless",
-            "server": "36.50.90.241",
-            "server_port": 35951,
-            "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "gaosir.unfeeling.sbs",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/X@节点狂魔/?ed=2560",
-                "headers": {
-                    "Host": "gaosir.unfeeling.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vmesc [19]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vmesc [18]",
             "type": "vless",
             "server": "5.75.207.116",
             "server_port": 8880,
             "uuid": "083d7685-f2c1-4577-8d4c-e273f6518fb4",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [20]",
+            "type": "vless",
+            "server": "107.174.20.100",
+            "server_port": 55703,
+            "uuid": "7e41b486-1783-446c-b0d0-4fe1389cae84",
             "flow": "",
             "packet_encoding": "xudp"
         }
