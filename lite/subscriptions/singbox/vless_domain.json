@@ -171,9 +171,6 @@
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
                 "🚩 CF | 🔒 VLESS | @vmesc [16]",
                 "🇹🇷 TR | 🔒 VLESS | @vmesc [17]",
-                "🚩 CF | 🔒 VLESS | @vpn_ioss [15]",
-                "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [16]",
-                "🚩 CF | 🔒 VLESS | @vpn_ioss [17]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]"
@@ -266,9 +263,6 @@
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
                 "🚩 CF | 🔒 VLESS | @vmesc [16]",
                 "🇹🇷 TR | 🔒 VLESS | @vmesc [17]",
-                "🚩 CF | 🔒 VLESS | @vpn_ioss [15]",
-                "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [16]",
-                "🚩 CF | 🔒 VLESS | @vpn_ioss [17]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]"
@@ -1714,79 +1708,6 @@
                     "enabled": true,
                     "public_key": "-rqtKEhyEldsxEbNVfdTr9kjVH507vQnDXpHLcgpYQE",
                     "short_id": "27"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @vpn_ioss [15]",
-            "type": "vless",
-            "server": "brenna.ns.cloudflare.com",
-            "server_port": 443,
-            "uuid": "53f0bca8-f170-4ef7-8031-c7d441189dbf",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "638989641566694428.tucson-amshx.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/cahttingws",
-                "headers": {
-                    "Host": "638989641566694428.tucson-amshx.info"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [16]",
-            "type": "vless",
-            "server": "greenwolf.fonixapp.org",
-            "server_port": 30268,
-            "uuid": "f99cc0f1-d1a3-45f9-a13b-b33c8d3e0f10",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "indeed.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "GyvksSpuOucs7XsCfiq2yRn3cxVN_Y8b3Zippb_mYCM",
-                    "short_id": "50bcccfb"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @vpn_ioss [17]",
-            "type": "vless",
-            "server": "delilah.ns.cloudflare.com",
-            "server_port": 443,
-            "uuid": "53f0bca8-f170-4ef7-8031-c7d441189dbf",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "638987378208894304.sentra-amshr.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/cahttingws",
-                "headers": {
-                    "Host": "638987378208894304.sentra-amshr.info"
                 }
             }
         },
