@@ -243,7 +243,7 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇨🇦 CA | 🔒 SS | @v2ray_free_conf [19]",
+                "❔ XX | 🔒 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -269,8 +269,8 @@
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🚩 CF | 🔒 VLESS | @vmesc [16]",
-                "🇹🇷 TR | 🔒 VLESS | @vmesc [17]",
+                "🇫🇷 FR | 🔒 VLESS | @vmesc [18]",
+                "🇯🇵 JP | 🔒 VLESS | @vmesc [19]",
                 "🇺🇸 US | 🔒 SS | @vmessiranproxy [18]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
@@ -438,7 +438,7 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇨🇦 CA | 🔒 SS | @v2ray_free_conf [19]",
+                "❔ XX | 🔒 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -464,8 +464,8 @@
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🚩 CF | 🔒 VLESS | @vmesc [16]",
-                "🇹🇷 TR | 🔒 VLESS | @vmesc [17]",
+                "🇫🇷 FR | 🔒 VLESS | @vmesc [18]",
+                "🇯🇵 JP | 🔒 VLESS | @vmesc [19]",
                 "🇺🇸 US | 🔒 SS | @vmessiranproxy [18]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
@@ -2867,12 +2867,20 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔒 SS | @v2ray_free_conf [19]",
-            "type": "shadowsocks",
-            "server": "ca225.vpnbook.com",
-            "server_port": 80,
-            "method": "chacha20-ietf-poly1305",
-            "password": "JIhN6rBKkaEboLNXVSv5rq"
+            "tag": "❔ XX | 🔒 VMESS | @v2ray_free_conf [19]",
+            "type": "vmess",
+            "server": "baxamdyfa.76898102.xyz",
+            "server_port": 2052,
+            "uuid": "5f9c7bda-33f9-3dd0-bcf5-aca324418e31",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/bxzmiao",
+                "headers": {
+                    "Host": "baxamdyfa.76898102.xyz"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
@@ -3319,36 +3327,11 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vmesc [16]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @vmesc [18]",
             "type": "vless",
-            "server": "www.speedtest.net",
+            "server": "fr.soreanapanel.com",
             "server_port": 443,
-            "uuid": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "jnir-cdn.javidnaman.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/@JavidnamanIran/Javid-SHAH-KingRezaPahlavi/?ed=2560",
-                "headers": {
-                    "Host": "jnir-cdn.javidnaman.com"
-                }
-            }
-        },
-        {
-            "tag": "🇹🇷 TR | 🔒 VLESS | @vmesc [17]",
-            "type": "vless",
-            "server": "tu.soreanapanel.com",
-            "server_port": 31724,
-            "uuid": "a308ddf6-cf9a-49ac-b128-27cf52052853",
+            "uuid": "d2cec382-c701-4d66-8891-5945ad87d8a1",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -3361,8 +3344,33 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "-rqtKEhyEldsxEbNVfdTr9kjVH507vQnDXpHLcgpYQE",
-                    "short_id": "27"
+                    "public_key": "liR-hmXj77ENkmMXhMnIZ1VLK9Gszaob1l_3U3O7Axs",
+                    "short_id": "33d92e960cb19e71"
+                }
+            }
+        },
+        {
+            "tag": "🇯🇵 JP | 🔒 VLESS | @vmesc [19]",
+            "type": "vless",
+            "server": "153.121.45.101",
+            "server_port": 443,
+            "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "gaosir.unfeeling.sbs",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Telegram🇨🇳@WangCai2/?ed=2560",
+                "headers": {
+                    "Host": "gaosir.unfeeling.sbs"
                 }
             }
         },
