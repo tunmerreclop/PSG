@@ -128,7 +128,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @v2rayngseven [7]",
                 "🚩 CF | 🔒 VLESS | @v2rayvpn2 [5]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
-                "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]"
+                "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
+                "🇭🇰 HK | 🔒 VLESS | @vmesc [20]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -187,7 +188,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @v2rayngseven [7]",
                 "🚩 CF | 🔒 VLESS | @v2rayvpn2 [5]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
-                "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]"
+                "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
+                "🇭🇰 HK | 🔒 VLESS | @vmesc [20]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -1082,6 +1084,31 @@
                     "enabled": true,
                     "public_key": "03oIukhEmNzMAGZWqcNLAHHjcVX0jLqRSa3ocMuskQY",
                     "short_id": "88417bc4"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔒 VLESS | @vmesc [20]",
+            "type": "vless",
+            "server": "36.50.90.241",
+            "server_port": 35951,
+            "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "gaosir.unfeeling.sbs",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/X@节点狂魔/?ed=2560",
+                "headers": {
+                    "Host": "gaosir.unfeeling.sbs"
                 }
             }
         }

@@ -129,6 +129,7 @@
                 "🚩 CF | 🔒 VLESS | @v2rayvpn2 [5]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
+                "🇭🇰 HK | 🔒 VLESS | @vmesc [20]",
                 "❔ XX | 🔓 VLESS | @armod_iran [1]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [15]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
@@ -207,9 +208,8 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🇳🇱 NL | 🔒 VLESS | @vmesc [18]",
-                "🚩 CF | 🔓 VLESS | @vmesc [19]",
-                "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
+                "🚩 CF | 🔓 VLESS | @vmesc [18]",
+                "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]"
             ],
@@ -271,6 +271,7 @@
                 "🚩 CF | 🔒 VLESS | @v2rayvpn2 [5]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
+                "🇭🇰 HK | 🔒 VLESS | @vmesc [20]",
                 "❔ XX | 🔓 VLESS | @armod_iran [1]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [15]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
@@ -349,9 +350,8 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🇳🇱 NL | 🔒 VLESS | @vmesc [18]",
-                "🚩 CF | 🔓 VLESS | @vmesc [19]",
-                "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
+                "🚩 CF | 🔓 VLESS | @vmesc [18]",
+                "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]"
             ],
@@ -1248,6 +1248,31 @@
                     "enabled": true,
                     "public_key": "03oIukhEmNzMAGZWqcNLAHHjcVX0jLqRSa3ocMuskQY",
                     "short_id": "88417bc4"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔒 VLESS | @vmesc [20]",
+            "type": "vless",
+            "server": "36.50.90.241",
+            "server_port": 35951,
+            "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "gaosir.unfeeling.sbs",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/X@节点狂魔/?ed=2560",
+                "headers": {
+                    "Host": "gaosir.unfeeling.sbs"
                 }
             }
         },
@@ -2580,30 +2605,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @vmesc [18]",
-            "type": "vless",
-            "server": "usa82.freednet.org",
-            "server_port": 443,
-            "uuid": "4e5a0939-483c-4571-a1b1-fccbfe053923",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.utexas.edu",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @vmesc [19]",
+            "tag": "🚩 CF | 🔓 VLESS | @vmesc [18]",
             "type": "vless",
             "server": "rhdheysy-463252636-fryhuhhd.poshakhowdy.ir",
             "server_port": 2095,
@@ -2619,7 +2621,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
+            "tag": "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
             "type": "vless",
             "server": "icloud.wlftest.xyz",
             "server_port": 443,
