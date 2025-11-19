@@ -83,15 +83,13 @@
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
-                "🇩🇪 DE | 🔒 VLESS | @kafing_2 [9]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [11]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇹🇷 TR | 🔒 VLESS | @v2rayngseven [7]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayvpn2 [3]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [20]"
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [19]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,15 +103,13 @@
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
-                "🇩🇪 DE | 🔒 VLESS | @kafing_2 [9]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [11]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇹🇷 TR | 🔒 VLESS | @v2rayngseven [7]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayvpn2 [3]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [20]"
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [19]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -273,29 +269,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @kafing_2 [9]",
-            "type": "vless",
-            "server": "64.188.70.0",
-            "server_port": 443,
-            "uuid": "cd79807f-bcef-46b8-93b6-229676a0c1a0",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "y_AlGiUJiCRWCT8FyrfUm-Cmpm0bl0cSUMRP3VZ9X0I",
-                    "short_id": "89dbda1a1c9369"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
             "type": "vless",
             "server": "188.245.61.146",
@@ -388,29 +361,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayvpn2 [3]",
-            "type": "vless",
-            "server": "193.46.81.151",
-            "server_port": 50853,
-            "uuid": "0c7bd9e3-7310-4add-95a6-70d3c4ebe235",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "miro.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "XT7qcjwBZkCQPQVgzP_afaX76GUbHIysmOhJ1gWsLjs",
-                    "short_id": "69"
-                }
-            }
-        },
-        {
             "tag": "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
             "type": "vless",
             "server": "194.113.106.139",
@@ -457,7 +407,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [20]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [19]",
             "type": "vless",
             "server": "91.107.131.50",
             "server_port": 2053,
