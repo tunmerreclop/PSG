@@ -95,6 +95,9 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [41]",
+                "🇫🇷 FR | 🔒 VLESS | @config_proxy [42]",
+                "🇫🇷 FR | 🔒 VLESS | @config_proxy [49]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -150,7 +153,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [10]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇨🇭 CH | 🔒 VLESS | @v2raych [6]",
                 "🇺🇸 US | 🔒 VLESS | @v2raying [1]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇫🇮 FI | 🔒 VLESS | @v2rayngconfiig [14]",
@@ -166,8 +168,8 @@
                 "❔ XX | 🔒 VLESS | @v2rayza [14]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "🇫🇮 FI | 🔒 VLESS | @v2trayproxy [20]",
-                "🇹🇷 TR | 🔒 VLESS | @vmesc [15]",
-                "🇫🇷 FR | 🔒 VLESS | @vmesc [17]",
+                "🇹🇷 TR | 🔒 VLESS | @vmesc [14]",
+                "🇫🇷 FR | 🔒 VLESS | @vmesc [16]",
                 "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [5]",
                 "❔ XX | 🔒 VLESS | @vpnowl [5]",
                 "❔ XX | 🔒 VLESS | @vpnowl [6]",
@@ -194,6 +196,9 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [41]",
+                "🇫🇷 FR | 🔒 VLESS | @config_proxy [42]",
+                "🇫🇷 FR | 🔒 VLESS | @config_proxy [49]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -249,7 +254,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [10]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇨🇭 CH | 🔒 VLESS | @v2raych [6]",
                 "🇺🇸 US | 🔒 VLESS | @v2raying [1]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇫🇮 FI | 🔒 VLESS | @v2rayngconfiig [14]",
@@ -265,8 +269,8 @@
                 "❔ XX | 🔒 VLESS | @v2rayza [14]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "🇫🇮 FI | 🔒 VLESS | @v2trayproxy [20]",
-                "🇹🇷 TR | 🔒 VLESS | @vmesc [15]",
-                "🇫🇷 FR | 🔒 VLESS | @vmesc [17]",
+                "🇹🇷 TR | 🔒 VLESS | @vmesc [14]",
+                "🇫🇷 FR | 🔒 VLESS | @vmesc [16]",
                 "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [5]",
                 "❔ XX | 🔒 VLESS | @vpnowl [5]",
                 "❔ XX | 🔒 VLESS | @vpnowl [6]",
@@ -440,6 +444,75 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [41]",
+            "type": "vless",
+            "server": "England.phantompanel.shop",
+            "server_port": 3681,
+            "uuid": "69d3a1cb-34a0-457f-89d4-28672c7aeabb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "iEgw42MO585IunvN6WGEO6XlG7l0U3qmawuOBeXrMiM",
+                    "short_id": "6fe14a1f66f4bb82"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @config_proxy [42]",
+            "type": "vless",
+            "server": "fr.nextseesion.ir",
+            "server_port": 26646,
+            "uuid": "b094ba8c-f0e6-4b5d-bd05-26caf274d2e0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomizednoalpn"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Y4Aj40Jm_OL8oKPaO90-MSIS4vJHFL7CoB9rYcfVBDQ",
+                    "short_id": "efa97efd541e"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @config_proxy [49]",
+            "type": "vless",
+            "server": "fr.nextseesion.ir",
+            "server_port": 26646,
+            "uuid": "b094ba8c-f0e6-4b5d-bd05-26caf274d2e0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomizednoalpn"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Y4Aj40Jm_OL8oKPaO90-MSIS4vJHFL7CoB9rYcfVBDQ",
+                    "short_id": "efa97efd541e"
+                }
             }
         },
         {
@@ -1795,29 +1868,6 @@
             }
         },
         {
-            "tag": "🇨🇭 CH | 🔒 VLESS | @v2raych [6]",
-            "type": "vless",
-            "server": "che-0001-xr.packet-drop-society.net",
-            "server_port": 443,
-            "uuid": "6b4e49c6-c772-4ffe-83f1-9b4280a8bc46",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "hls-svod.itunes.apple.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws",
-                    "short_id": "e499f276e7bd6420"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔒 VLESS | @v2raying [1]",
             "type": "vless",
             "server": "us.nitroo-tech.ru",
@@ -2167,7 +2217,7 @@
             }
         },
         {
-            "tag": "🇹🇷 TR | 🔒 VLESS | @vmesc [15]",
+            "tag": "🇹🇷 TR | 🔒 VLESS | @vmesc [14]",
             "type": "vless",
             "server": "tu.soreanapanel.com",
             "server_port": 31724,
@@ -2190,7 +2240,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @vmesc [17]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @vmesc [16]",
             "type": "vless",
             "server": "fr.soreanapanel.com",
             "server_port": 443,

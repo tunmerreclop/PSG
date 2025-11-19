@@ -141,9 +141,8 @@
                 "🚩 CF | 🔒 VLESS | @v2rayvpn2 [5]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇯🇵 JP | 🔒 VLESS | @vmesc [18]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [19]",
-                "🇨🇼 CW | 🔒 VLESS | @vmesc [20]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [18]",
+                "🇨🇼 CW | 🔒 VLESS | @vmesc [19]",
                 "❔ XX | 🔓 VLESS | @armod_iran [1]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [15]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
@@ -222,6 +221,7 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
+                "🇳🇱 NL | 🔒 VLESS | @vmesc [20]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]"
@@ -284,9 +284,8 @@
                 "🚩 CF | 🔒 VLESS | @v2rayvpn2 [5]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇯🇵 JP | 🔒 VLESS | @vmesc [18]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [19]",
-                "🇨🇼 CW | 🔒 VLESS | @vmesc [20]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [18]",
+                "🇨🇼 CW | 🔒 VLESS | @vmesc [19]",
                 "❔ XX | 🔓 VLESS | @armod_iran [1]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [15]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
@@ -365,6 +364,7 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
+                "🇳🇱 NL | 🔒 VLESS | @vmesc [20]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]"
@@ -1264,32 +1264,7 @@
             }
         },
         {
-            "tag": "🇯🇵 JP | 🔒 VLESS | @vmesc [18]",
-            "type": "vless",
-            "server": "153.121.45.101",
-            "server_port": 443,
-            "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "gaosir.unfeeling.sbs",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Telegram🇨🇳@WangCai2/?ed=2560",
-                "headers": {
-                    "Host": "gaosir.unfeeling.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [19]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [18]",
             "type": "vless",
             "server": "91.107.131.50",
             "server_port": 2053,
@@ -1316,7 +1291,7 @@
             }
         },
         {
-            "tag": "🇨🇼 CW | 🔒 VLESS | @vmesc [20]",
+            "tag": "🇨🇼 CW | 🔒 VLESS | @vmesc [19]",
             "type": "vless",
             "server": "45.146.201.30",
             "server_port": 2096,
@@ -2666,6 +2641,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "okala.com"
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @vmesc [20]",
+            "type": "vless",
+            "server": "usa82.freednet.org",
+            "server_port": 443,
+            "uuid": "4e5a0939-483c-4571-a1b1-fccbfe053923",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.utexas.edu",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
+                    "short_id": ""
+                }
             }
         },
         {
