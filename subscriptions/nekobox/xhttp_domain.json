@@ -82,14 +82,14 @@
                 "KingRezaPahlavi",
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [43]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [64]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [13]",
                 "🇺🇸 US | 🔓 VLESS | @kurdistan_vpn_perfectt [12]",
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
-                "🇺🇸 US | 🔓 VLESS | @prrofile_purple [146]",
+                "🇺🇸 US | 🔓 VLESS | @prrofile_purple [138]",
                 "🚩 CF | 🔒 VLESS | @v2ray_sub [15]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [16]",
                 "🚩 CF | 🔒 VLESS | @v2ray_sub [19]",
@@ -99,6 +99,7 @@
                 "🚩 CF | 🔒 VLESS | @v2ray_sub [24]",
                 "🚩 CF | 🔒 VLESS | @v2ray_sub [25]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [9]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
                 "🚩 CF | 🔓 VLESS | @v2rayopen [12]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayopen [13]",
@@ -116,14 +117,14 @@
                 "KingRezaPahlavi",
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [43]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [64]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [13]",
                 "🇺🇸 US | 🔓 VLESS | @kurdistan_vpn_perfectt [12]",
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
-                "🇺🇸 US | 🔓 VLESS | @prrofile_purple [146]",
+                "🇺🇸 US | 🔓 VLESS | @prrofile_purple [138]",
                 "🚩 CF | 🔒 VLESS | @v2ray_sub [15]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [16]",
                 "🚩 CF | 🔒 VLESS | @v2ray_sub [19]",
@@ -133,6 +134,7 @@
                 "🚩 CF | 🔒 VLESS | @v2ray_sub [24]",
                 "🚩 CF | 🔒 VLESS | @v2ray_sub [25]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [9]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
                 "🚩 CF | 🔓 VLESS | @v2rayopen [12]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayopen [13]",
@@ -246,13 +248,22 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [43]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [64]",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "e929da69-5916-4614-a2f9-62f94c3cdb93",
+            "server": "mn.co",
+            "server_port": 443,
+            "uuid": "f2df8c51-766f-4c54-9d36-647f66d5d001",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "bot.serverpr1o.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
@@ -323,7 +334,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @prrofile_purple [146]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @prrofile_purple [138]",
             "type": "vless",
             "server": "JOKERRVPN.fast.hosting-ip.com",
             "server_port": 80,
@@ -463,6 +474,15 @@
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [9]",
+            "type": "vless",
+            "server": "wedrdeersed.hulkirani.shop",
+            "server_port": 80,
+            "uuid": "371ce535-9527-4ebf-b373-dd44cadf163e",
             "flow": "",
             "packet_encoding": "xudp"
         },
