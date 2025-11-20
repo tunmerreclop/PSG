@@ -130,8 +130,8 @@
                 "🚩 CF | 🔒 VLESS | @v2rayvpn2 [4]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇺🇸 US | 🔓 VLESS | @vmesc [19]",
-                "🇺🇸 US | 🔓 VLESS | @vmesc [20]",
+                "🇺🇸 US | 🔓 VLESS | @vmesc [18]",
+                "🇩🇪 DE | 🔓 VLESS | @vmesc [20]",
                 "❔ XX | 🔓 VLESS | @armod_iran [1]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [15]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
@@ -209,9 +209,8 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🚩 CF | 🔒 VLESS | @vmesc [18]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
-                "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
+                "❔ XX | 🔓 VLESS | @womanlifefreedomvpn [17]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]"
             ],
             "tag": "proxy",
@@ -273,8 +272,8 @@
                 "🚩 CF | 🔒 VLESS | @v2rayvpn2 [4]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇺🇸 US | 🔓 VLESS | @vmesc [19]",
-                "🇺🇸 US | 🔓 VLESS | @vmesc [20]",
+                "🇺🇸 US | 🔓 VLESS | @vmesc [18]",
+                "🇩🇪 DE | 🔓 VLESS | @vmesc [20]",
                 "❔ XX | 🔓 VLESS | @armod_iran [1]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [15]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
@@ -352,9 +351,8 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🚩 CF | 🔒 VLESS | @vmesc [18]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
-                "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
+                "❔ XX | 🔓 VLESS | @womanlifefreedomvpn [17]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]"
             ],
             "tag": "auto",
@@ -1265,22 +1263,29 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [19]",
-            "type": "vless",
-            "server": "151.101.67.8",
-            "server_port": 80,
-            "uuid": "TELEGRAM-CONFiGLiNE-49",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [20]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [18]",
             "type": "vless",
             "server": "151.101.67.8",
             "server_port": 80,
             "uuid": "TELEGRAM-CONFiGLiNE-52",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vmesc [20]",
+            "type": "vless",
+            "server": "92.118.232.161",
+            "server_port": 8080,
+            "uuid": "9dc11620-987c-4344-9088-f46fdfae4054",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/?ed",
+                "headers": {
+                    "Host": "92.118.232.161"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @armod_iran [1]",
@@ -2588,31 +2593,6 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vmesc [18]",
-            "type": "vless",
-            "server": "norman.ns.cloudflare.com",
-            "server_port": 443,
-            "uuid": "0a079dd2-86dc-4209-b2b2-0069c5d6f1de",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "638990351278603478.civic-amshz.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/kbsozzws",
-                "headers": {
-                    "Host": "638990351278603478.civic-amshz.info"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
             "type": "vless",
             "server": "icloud.wlftest.xyz",
@@ -2636,7 +2616,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
+            "tag": "❔ XX | 🔓 VLESS | @womanlifefreedomvpn [17]",
             "type": "vless",
             "server": "google.wlftest.xyz",
             "server_port": 80,

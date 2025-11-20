@@ -130,8 +130,8 @@
                 "🚩 CF | 🔒 VLESS | @v2rayvpn2 [4]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇺🇸 US | 🔓 VLESS | @vmesc [19]",
-                "🇺🇸 US | 🔓 VLESS | @vmesc [20]"
+                "🇺🇸 US | 🔓 VLESS | @vmesc [18]",
+                "🇩🇪 DE | 🔓 VLESS | @vmesc [20]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -192,8 +192,8 @@
                 "🚩 CF | 🔒 VLESS | @v2rayvpn2 [4]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇺🇸 US | 🔓 VLESS | @vmesc [19]",
-                "🇺🇸 US | 🔓 VLESS | @vmesc [20]"
+                "🇺🇸 US | 🔓 VLESS | @vmesc [18]",
+                "🇩🇪 DE | 🔓 VLESS | @vmesc [20]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -1103,22 +1103,29 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [19]",
-            "type": "vless",
-            "server": "151.101.67.8",
-            "server_port": 80,
-            "uuid": "TELEGRAM-CONFiGLiNE-49",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [20]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [18]",
             "type": "vless",
             "server": "151.101.67.8",
             "server_port": 80,
             "uuid": "TELEGRAM-CONFiGLiNE-52",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vmesc [20]",
+            "type": "vless",
+            "server": "92.118.232.161",
+            "server_port": 8080,
+            "uuid": "9dc11620-987c-4344-9088-f46fdfae4054",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/?ed",
+                "headers": {
+                    "Host": "92.118.232.161"
+                }
+            }
         }
     ],
     "route": {
