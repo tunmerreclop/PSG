@@ -240,8 +240,9 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇲🇽 MX | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇲🇽 MX | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -271,7 +272,7 @@
                 "🇮🇱 IL | 🔒 SS | @vmesc [19]",
                 "🇺🇸 US | 🔒 SS | @vmessiranproxy [18]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
-                "❔ XX | 🔓 VLESS | @womanlifefreedomvpn [17]",
+                "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
                 "❔ XX | 🔓 VMESS | @xrayzxn [6]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]"
@@ -433,8 +434,9 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇲🇽 MX | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇲🇽 MX | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -464,7 +466,7 @@
                 "🇮🇱 IL | 🔒 SS | @vmesc [19]",
                 "🇺🇸 US | 🔒 SS | @vmessiranproxy [18]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
-                "❔ XX | 🔓 VLESS | @womanlifefreedomvpn [17]",
+                "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
                 "❔ XX | 🔓 VMESS | @xrayzxn [6]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]"
@@ -2791,7 +2793,7 @@
             }
         },
         {
-            "tag": "🇲🇽 MX | 🔓 VMESS | @v2ray_free_conf [19]",
+            "tag": "🇲🇽 MX | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
             "server": "79.127.229.54",
             "server_port": 18000,
@@ -2800,13 +2802,29 @@
             "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [20]",
+            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
             "server": "91.107.180.24",
             "server_port": 12991,
             "uuid": "ecc81ca4-7cba-46dd-940c-d08c0171334f",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "51.79.102.253",
+            "server_port": 80,
+            "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/IOebhLMhl1CTbFHbL95myfRX2",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
@@ -3317,7 +3335,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @womanlifefreedomvpn [17]",
+            "tag": "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
             "type": "vless",
             "server": "google.wlftest.xyz",
             "server_port": 80,
