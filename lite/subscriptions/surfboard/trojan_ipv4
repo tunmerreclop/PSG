@@ -9,15 +9,15 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇩🇪 DE | 🔒 TROJAN | @privatevpns [16] = trojan, 63.180.84.118, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
-🇩🇪 DE | 🔒 TROJAN | @privatevpns [17] = trojan, 3.76.172.58, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
-🇫🇷 FR | 🔒 TROJAN | @privatevpns [18] = trojan, 51.44.100.34, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
-🇩🇪 DE | 🔒 TROJAN | @v2ray1_ng [9] = trojan, 162.19.246.187, 2053, password = 83794b09-d50a-4e6e-9559-1372b6299e89, skip-cert-verify = false
+🇩🇪 DE | 🔒 TROJAN | @privatevpns [16] = trojan, 3.76.172.58, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
+🇫🇷 FR | 🔒 TROJAN | @privatevpns [17] = trojan, 51.44.100.34, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
+🇫🇷 FR | 🔒 TROJAN | @privatevpns [18] = trojan, 52.47.47.16, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
+🇩🇪 DE | 🔒 TROJAN | @v2ray1_ng [8] = trojan, 162.19.246.187, 2053, password = 83794b09-d50a-4e6e-9559-1372b6299e89, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔒 TROJAN | @privatevpns [16], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [17], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [18], 🇩🇪 DE | 🔒 TROJAN | @v2ray1_ng [9]
-PSG-AUTO = url-test, 🇩🇪 DE | 🔒 TROJAN | @privatevpns [16], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [17], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [18], 🇩🇪 DE | 🔒 TROJAN | @v2ray1_ng [9]
-PSG-FALLBACK = fallback, 🇩🇪 DE | 🔒 TROJAN | @privatevpns [16], 🇩🇪 DE | 🔒 TROJAN | @privatevpns [17], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [18], 🇩🇪 DE | 🔒 TROJAN | @v2ray1_ng [9]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔒 TROJAN | @privatevpns [16], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [17], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [18], 🇩🇪 DE | 🔒 TROJAN | @v2ray1_ng [8]
+PSG-AUTO = url-test, 🇩🇪 DE | 🔒 TROJAN | @privatevpns [16], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [17], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [18], 🇩🇪 DE | 🔒 TROJAN | @v2ray1_ng [8]
+PSG-FALLBACK = fallback, 🇩🇪 DE | 🔒 TROJAN | @privatevpns [16], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [17], 🇫🇷 FR | 🔒 TROJAN | @privatevpns [18], 🇩🇪 DE | 🔒 TROJAN | @v2ray1_ng [8]
 
 [Rule]
 GEOIP,IR,DIRECT
