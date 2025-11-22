@@ -84,10 +84,11 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [65]",
+                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [19]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [11]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇫🇷 FR | 🔒 VLESS | @v2rayvpn2 [5]",
-                "🚩 CF | 🔒 VLESS | @v2ray1_ng [4]",
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [9]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [17]"
             ],
@@ -104,10 +105,11 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [65]",
+                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [19]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [11]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇫🇷 FR | 🔒 VLESS | @v2rayvpn2 [5]",
-                "🚩 CF | 🔒 VLESS | @v2ray1_ng [4]",
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [9]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [17]"
             ],
@@ -273,6 +275,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @orange_vpns [19]",
+            "type": "vless",
+            "server": "168.119.48.122",
+            "server_port": 443,
+            "uuid": "Warpi-Free-Vpn-In-GooglePlay",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lAQlZopyI2jjxnDeQNGb8tFNTs-ZDcQketxGd72FQiQ",
+                    "short_id": "63a066"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [11]",
             "type": "vless",
             "server": "157.90.114.255",
@@ -323,7 +348,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @v2ray1_ng [4]",
+            "tag": "🚩 CF | 🔒 VLESS | @v2ray1_ng [9]",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2083,

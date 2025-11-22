@@ -96,6 +96,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
+                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [19]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [11]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇹🇷 TR | 🔒 VLESS | @v2rayngseven [3]",
@@ -109,8 +110,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇫🇮 FI | 🔒 VLESS | @vmesc [18]",
-                "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]"
+                "🇫🇮 FI | 🔒 VLESS | @vmesc [17]",
+                "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -125,6 +126,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
+                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [19]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [11]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇹🇷 TR | 🔒 VLESS | @v2rayngseven [3]",
@@ -138,8 +140,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇫🇮 FI | 🔒 VLESS | @vmesc [18]",
-                "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]"
+                "🇫🇮 FI | 🔒 VLESS | @vmesc [17]",
+                "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -314,6 +316,29 @@
                     "enabled": true,
                     "public_key": "W0BYEeLEqNRk8Bn2G27x5G9ALICJxePV6hxZG2A4Jmg",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @orange_vpns [19]",
+            "type": "vless",
+            "server": "168.119.48.122",
+            "server_port": 443,
+            "uuid": "Warpi-Free-Vpn-In-GooglePlay",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lAQlZopyI2jjxnDeQNGb8tFNTs-ZDcQketxGd72FQiQ",
+                    "short_id": "63a066"
                 }
             }
         },
@@ -633,7 +658,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @vmesc [18]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @vmesc [17]",
             "type": "vless",
             "server": "fl.mizbanandata.com",
             "server_port": 443,
@@ -656,7 +681,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
+            "tag": "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
             "type": "vless",
             "server": "icloud.wlftest.xyz",
             "server_port": 443,

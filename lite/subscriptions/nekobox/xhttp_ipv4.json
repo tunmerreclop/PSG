@@ -84,6 +84,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [65]",
+                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [19]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [11]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇫🇷 FR | 🔒 VLESS | @v2rayvpn2 [5]"
@@ -101,6 +102,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [65]",
+                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [19]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [11]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇫🇷 FR | 🔒 VLESS | @v2rayvpn2 [5]"
@@ -263,6 +265,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @orange_vpns [19]",
+            "type": "vless",
+            "server": "168.119.48.122",
+            "server_port": 443,
+            "uuid": "Warpi-Free-Vpn-In-GooglePlay",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lAQlZopyI2jjxnDeQNGb8tFNTs-ZDcQketxGd72FQiQ",
+                    "short_id": "63a066"
                 }
             }
         },
