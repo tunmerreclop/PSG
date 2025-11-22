@@ -97,9 +97,10 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [8]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [5]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇯🇵 JP | 🔒 VLESS | @vmesc [15]",
+                "🇯🇵 JP | 🔒 VLESS | @vmesc [14]",
+                "🇰🇷 KR | 🔒 VLESS | @vmesc [16]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]"
             ],
             "tag": "proxy",
@@ -128,9 +129,10 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [8]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [5]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇯🇵 JP | 🔒 VLESS | @vmesc [15]",
+                "🇯🇵 JP | 🔒 VLESS | @vmesc [14]",
+                "🇰🇷 KR | 🔒 VLESS | @vmesc [16]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]"
             ],
             "tag": "auto",
@@ -629,7 +631,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [8]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [5]",
             "type": "vless",
             "server": "necrolyte.fonixapp.org",
             "server_port": 25617,
@@ -675,7 +677,7 @@
             }
         },
         {
-            "tag": "🇯🇵 JP | 🔒 VLESS | @vmesc [15]",
+            "tag": "🇯🇵 JP | 🔒 VLESS | @vmesc [14]",
             "type": "vless",
             "server": "jp.nitroo-tech.ru",
             "server_port": 443,
@@ -694,6 +696,29 @@
                     "enabled": true,
                     "public_key": "N711dfbH6TZIRsy1f_oCEv2WRmmHs-bR_KIsQBXrI1Q",
                     "short_id": "63"
+                }
+            }
+        },
+        {
+            "tag": "🇰🇷 KR | 🔒 VLESS | @vmesc [16]",
+            "type": "vless",
+            "server": "hg.kunlun01.com",
+            "server_port": 18000,
+            "uuid": "00359224-815e-40dc-a4ad-a8642433f7f8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "s0.awsstatic.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "qq"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "hlRqquCI6AiCSbifwaNIlf_fVoHols95S2A1OG8xnVk",
+                    "short_id": ""
                 }
             }
         },
