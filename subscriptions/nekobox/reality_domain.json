@@ -83,7 +83,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -141,9 +140,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [7]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [6]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [7]",
-                "🇫🇷 FR | 🔒 VLESS | @v2raych [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇫🇮 FI | 🔒 VLESS | @v2rayngconfiig [14]",
                 "🇭🇰 HK | 🔒 VLESS | @v2rayopen [3]",
@@ -185,7 +181,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -243,9 +238,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [7]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [6]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [7]",
-                "🇫🇷 FR | 🔒 VLESS | @v2raych [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇫🇮 FI | 🔒 VLESS | @v2rayngconfiig [14]",
                 "🇭🇰 HK | 🔒 VLESS | @v2rayopen [3]",
@@ -438,29 +430,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
-            "type": "vless",
-            "server": "traxex.fonixapp.org",
-            "server_port": 39352,
-            "uuid": "84ac6559-30a8-4c3e-bbcb-894edd4de743",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "lowes.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "bqBZxwknIQGVNxvW6agjANLI6jdKG8jgIJ6cLKBbjns",
-                    "short_id": "8f"
-                }
             }
         },
         {
@@ -1858,75 +1827,6 @@
                     "enabled": true,
                     "public_key": "2dIWbgD8nbCd1YBs-IiQ6vgA7mse9PA9DWqaIMFsTmc",
                     "short_id": "cb333964"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [6]",
-            "type": "vless",
-            "server": "tuskar.fonixapp.org",
-            "server_port": 36276,
-            "uuid": "6181c423-65d5-4952-b6db-f373bc42b7f8",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "smallpdf.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "a3usSjtSaH2XGzG5oi3oqPYKlhsJOmmJYI4nitX1rn8",
-                    "short_id": "2b"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [7]",
-            "type": "vless",
-            "server": "greenwolf.fonixapp.org",
-            "server_port": 12489,
-            "uuid": "c99dcc63-70e3-423d-a853-e3749b2cf06f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "indeed.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "GyvksSpuOucs7XsCfiq2yRn3cxVN_Y8b3Zippb_mYCM",
-                    "short_id": "50bcccfb"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @v2raych [8]",
-            "type": "vless",
-            "server": "paris.fonixapp.org",
-            "server_port": 11102,
-            "uuid": "a8a62b59-1966-47d2-8c51-bed662821a9f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "expedia.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "fRZMLYqVbApbA09ZzsuErrLw_ED_HeegUtq7okVRvmY",
-                    "short_id": "78"
                 }
             }
         },
