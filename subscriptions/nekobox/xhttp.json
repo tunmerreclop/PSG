@@ -83,6 +83,7 @@
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [3]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [52]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -106,9 +107,9 @@
                 "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [4]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [4]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [55]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [64]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
-                "🇫🇷 FR | 🔒 VLESS | @free1_vpn [2]",
+                "🇫🇷 FR | 🔒 VLESS | @free1_vpn [1]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [1]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -191,6 +192,7 @@
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [3]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [52]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -214,9 +216,9 @@
                 "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [4]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [4]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [55]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [64]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
-                "🇫🇷 FR | 🔒 VLESS | @free1_vpn [2]",
+                "🇫🇷 FR | 🔒 VLESS | @free1_vpn [1]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [1]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -399,6 +401,15 @@
             "server": "am288.amin-1.ir",
             "server_port": 2082,
             "uuid": "01277c01-9d3f-4460-fe04-8107f81d1e22",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [52]",
+            "type": "vless",
+            "server": "DEADSEECtelegram.slimshopboyss.ir",
+            "server_port": 8080,
+            "uuid": "46d1223c-97a5-449c-c127-82f8cffbbb8c",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -698,20 +709,25 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [55]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [64]",
             "type": "vless",
-            "server": "45.79.223.65",
+            "server": "91.98.133.38",
             "server_port": 443,
-            "uuid": "47dc734a-15e8-4286-b09f-ad0404e85630",
-            "flow": "",
+            "uuid": "ba4c59a5-2e7d-4dc4-c115-27615c978e66",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "45.79.223.65",
+                "server_name": "store.steampowered.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IbRZfIHJGx6UojlE1uoHJ-eBAXF92z5ST0DrQA7-mDw",
+                    "short_id": ""
                 }
             }
         },
@@ -739,7 +755,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @free1_vpn [2]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @free1_vpn [1]",
             "type": "vless",
             "server": "45.154.96.164",
             "server_port": 443,
