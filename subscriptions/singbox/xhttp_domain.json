@@ -95,7 +95,6 @@
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [3]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [55]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -103,6 +102,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [19]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [20]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [21]",
+                "🇩🇪 DE | 🔒 VLESS | @evay_vpn [22]",
                 "🇺🇸 US | 🔓 VLESS | @kurdistan_vpn_perfectt [11]",
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
                 "🚩 CF | 🔒 VLESS | @prrofile_purple [147]",
@@ -130,7 +130,6 @@
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [3]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [55]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -138,6 +137,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [19]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [20]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [21]",
+                "🇩🇪 DE | 🔒 VLESS | @evay_vpn [22]",
                 "🇺🇸 US | 🔓 VLESS | @kurdistan_vpn_perfectt [11]",
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
                 "🚩 CF | 🔒 VLESS | @prrofile_purple [147]",
@@ -265,29 +265,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [55]",
-            "type": "vless",
-            "server": "Evay-vpn.octacityroleplay.ir",
-            "server_port": 1122,
-            "uuid": "822fe21f-3839-4736-9866-4cc8cbc98cce",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.slideshare.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "4iCkO1B_tdvJY7x_v9izvkoNDfdGIFiL2LQX2Nqv5RI",
-                    "short_id": "4c7b0ea36fc7f0c4"
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
             "type": "vless",
             "server": "holkanas.atroart.ir",
@@ -389,6 +366,29 @@
             "server": "Evay-vpn.octacityroleplay.ir",
             "server_port": 1122,
             "uuid": "32d9a448-fdfa-488f-90c2-7f383624ca12",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.slideshare.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4iCkO1B_tdvJY7x_v9izvkoNDfdGIFiL2LQX2Nqv5RI",
+                    "short_id": "4c7b0ea36fc7f0c4"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @evay_vpn [22]",
+            "type": "vless",
+            "server": "Evay-vpn.octacityroleplay.ir",
+            "server_port": 1122,
+            "uuid": "822fe21f-3839-4736-9866-4cc8cbc98cce",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
