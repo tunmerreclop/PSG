@@ -231,7 +231,7 @@
                 "❔ XX | 🔒 VMESS | @renetvpn [3]",
                 "🇩🇪 DE | 🔓 VMESS | @satellitenewspersian [22]",
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
-                "🇫🇷 FR | 🔓 VMESS | @selinc [3]",
+                "🇫🇷 FR | 🔓 VMESS | @selinc [2]",
                 "🚩 CF | 🔒 VMESS | @serverv2ray00 [6]",
                 "🚩 CF | 🔒 VMESS | @serverv2ray00 [10]",
                 "🚩 CF | 🔒 VMESS | @serverv2ray00 [12]",
@@ -270,6 +270,8 @@
                 "❔ XX | 🔓 VMESS | @v2ray_n [20]",
                 "🇸🇪 SE | 🔓 VMESS | @v2ray_sub [18]",
                 "🇵🇱 PL | 🔒 VMESS | @v2ray_youtube [2]",
+                "🇺🇸 US | 🔓 VMESS | @v2raych [8]",
+                "🇮🇷 IR | 🔓 VMESS | @v2raych [12]",
                 "🇫🇮 FI | 🔓 VMESS | @v2rayng3 [2]",
                 "❔ XX | 🔓 VMESS | @v2rayng3 [6]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [1]",
@@ -482,7 +484,7 @@
                 "❔ XX | 🔒 VMESS | @renetvpn [3]",
                 "🇩🇪 DE | 🔓 VMESS | @satellitenewspersian [22]",
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
-                "🇫🇷 FR | 🔓 VMESS | @selinc [3]",
+                "🇫🇷 FR | 🔓 VMESS | @selinc [2]",
                 "🚩 CF | 🔒 VMESS | @serverv2ray00 [6]",
                 "🚩 CF | 🔒 VMESS | @serverv2ray00 [10]",
                 "🚩 CF | 🔒 VMESS | @serverv2ray00 [12]",
@@ -521,6 +523,8 @@
                 "❔ XX | 🔓 VMESS | @v2ray_n [20]",
                 "🇸🇪 SE | 🔓 VMESS | @v2ray_sub [18]",
                 "🇵🇱 PL | 🔒 VMESS | @v2ray_youtube [2]",
+                "🇺🇸 US | 🔓 VMESS | @v2raych [8]",
+                "🇮🇷 IR | 🔓 VMESS | @v2raych [12]",
                 "🇫🇮 FI | 🔓 VMESS | @v2rayng3 [2]",
                 "❔ XX | 🔓 VMESS | @v2rayng3 [6]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [1]",
@@ -3178,7 +3182,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇫🇷 FR | 🔓 VMESS | @selinc [3]",
+            "tag": "🇫🇷 FR | 🔓 VMESS | @selinc [2]",
             "type": "vmess",
             "server": "2001:bc8:32d7:302::10",
             "server_port": 44579,
@@ -3888,6 +3892,40 @@
                     "Host": "yichueng.org"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @v2raych [8]",
+            "type": "vmess",
+            "server": "74.117.196.232",
+            "server_port": 37934,
+            "uuid": "f1a513d2-c32a-49dc-8e64-d4f8a2f1e001",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "74.117.196.232",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/speedtest",
+                "headers": {
+                    "Host": "74.117.196.232"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷 IR | 🔓 VMESS | @v2raych [12]",
+            "type": "vmess",
+            "server": "s2.cloudflare4wards.com",
+            "server_port": 2088,
+            "uuid": "24e7159f-c284-4c9e-a08c-2d65f8c8d9d4",
+            "security": "auto",
+            "alter_id": 0
         },
         {
             "tag": "🇫🇮 FI | 🔓 VMESS | @v2rayng3 [2]",
