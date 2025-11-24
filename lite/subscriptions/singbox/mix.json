@@ -241,8 +241,8 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [20]",
+                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [19]",
+                "❔ XX | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -436,8 +436,8 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [20]",
+                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [19]",
+                "❔ XX | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -2799,23 +2799,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
-            "type": "vmess",
-            "server": "104.16.67.38",
-            "server_port": 2086,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/linde06.indiavideo.sbs/linkws",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [20]",
+            "tag": "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
             "server": "57.129.59.202",
             "server_port": 443,
@@ -2837,6 +2821,19 @@
                 "headers": {
                     "Host": "fapeng.org"
                 }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "s1.ghostrkr.sbs",
+            "server_port": 8880,
+            "uuid": "2e4c17f6-d2f4-43be-b266-f76427865889",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Ghostray_NG"
             }
         },
         {
