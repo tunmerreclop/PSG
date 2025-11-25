@@ -229,8 +229,8 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🇵🇱 PL | 🔒 SS | @v2ray_free_conf [20]",
+                "🇵🇱 PL | 🔒 SS | @v2ray_free_conf [18]",
+                "❔ XX | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -424,8 +424,8 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🇵🇱 PL | 🔒 SS | @v2ray_free_conf [20]",
+                "🇵🇱 PL | 🔒 SS | @v2ray_free_conf [18]",
+                "❔ XX | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -2802,21 +2802,25 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
-            "type": "vmess",
-            "server": "43.199.24.247",
-            "server_port": 3000,
-            "uuid": "cc101ff1-3452-41c3-89fe-c2a5a20dc6dc",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇵🇱 PL | 🔒 SS | @v2ray_free_conf [20]",
+            "tag": "🇵🇱 PL | 🔒 SS | @v2ray_free_conf [18]",
             "type": "shadowsocks",
             "server": "77.83.246.74",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "wscAfIPuTNRmmsU1E2Ij8l"
+        },
+        {
+            "tag": "❔ XX | 🔒 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "s1.ghostrkr.sbs",
+            "server_port": 8880,
+            "uuid": "863b6395-3f7a-4e37-acb8-9da9cf57908d",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Ghostray_NG"
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",

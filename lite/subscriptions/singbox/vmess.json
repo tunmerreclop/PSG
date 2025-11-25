@@ -119,7 +119,7 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
+                "❔ XX | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -161,7 +161,7 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
+                "❔ XX | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -612,13 +612,17 @@
             "alter_id": 0
         },
         {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
+            "tag": "❔ XX | 🔒 VMESS | @v2ray_free_conf [20]",
             "type": "vmess",
-            "server": "43.199.24.247",
-            "server_port": 3000,
-            "uuid": "cc101ff1-3452-41c3-89fe-c2a5a20dc6dc",
+            "server": "s1.ghostrkr.sbs",
+            "server_port": 8880,
+            "uuid": "863b6395-3f7a-4e37-acb8-9da9cf57908d",
             "security": "auto",
-            "alter_id": 0
+            "alter_id": 0,
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Ghostray_NG"
+            }
         },
         {
             "tag": "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",

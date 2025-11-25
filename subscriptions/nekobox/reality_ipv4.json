@@ -82,6 +82,8 @@
                 "KingRezaPahlavi",
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [57]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -161,7 +163,11 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2logy [5]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇧🇬 BG | 🔒 VLESS | @v2raych [12]",
+                "🇹🇷 TR | 🔒 VLESS | @v2raych [8]",
+                "🇯🇵 JP | 🔒 VLESS | @v2raych [13]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raych [14]",
+                "🇹🇭 TH | 🔒 VLESS | @v2raych [16]",
+                "🇯🇵 JP | 🔒 VLESS | @v2raych [19]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -208,6 +214,8 @@
                 "KingRezaPahlavi",
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [57]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -287,7 +295,11 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2logy [5]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇧🇬 BG | 🔒 VLESS | @v2raych [12]",
+                "🇹🇷 TR | 🔒 VLESS | @v2raych [8]",
+                "🇯🇵 JP | 🔒 VLESS | @v2raych [13]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raych [14]",
+                "🇹🇭 TH | 🔒 VLESS | @v2raych [16]",
+                "🇯🇵 JP | 🔒 VLESS | @v2raych [19]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -454,6 +466,52 @@
                     "enabled": true,
                     "public_key": "HQdpA2sAkxUHghPtT8EUA1zPqkq_tz8ncwQM2zNkCS4",
                     "short_id": "b359bc5c70c21d55"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [57]",
+            "type": "vless",
+            "server": "212.113.109.220",
+            "server_port": 443,
+            "uuid": "dc987a94-c06c-4ab2-8fd6-7681ff514926",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Pmi83J_B4hDaLv35Au1WYYsxWzm8kyCkMEWN6a_ZCn0",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
+            "type": "vless",
+            "server": "94.141.123.233",
+            "server_port": 443,
+            "uuid": "f68c2019-91ee-43b0-803c-e66445f66eba",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdnjs.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "vfmqSXTEjdIOgz43eZTNzBRztAvd1U1dDkSz_mnaSk4",
+                    "short_id": "fc7a526a7e61ba3b"
                 }
             }
         },
@@ -2342,16 +2400,16 @@
             }
         },
         {
-            "tag": "🇧🇬 BG | 🔒 VLESS | @v2raych [12]",
+            "tag": "🇹🇷 TR | 🔒 VLESS | @v2raych [8]",
             "type": "vless",
-            "server": "148.253.214.5",
-            "server_port": 443,
-            "uuid": "da040e80-8704-4393-8720-5527637a8d6d",
+            "server": "94.141.98.26",
+            "server_port": 2053,
+            "uuid": "907bf3a4-caf2-4e85-9c40-78bba66fa52d",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "cdnjs.com",
+                "server_name": "www.speedtest.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -2359,8 +2417,104 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw",
-                    "short_id": "4c02bbbfa833b3b6"
+                    "public_key": "__WeFo6zXZVGXgsaInqzJrmI65v-LA9tzyqwcsRSsWU",
+                    "short_id": "2fb9d1b7"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Channel@antimeli"
+            }
+        },
+        {
+            "tag": "🇯🇵 JP | 🔒 VLESS | @v2raych [13]",
+            "type": "vless",
+            "server": "147.45.49.152",
+            "server_port": 443,
+            "uuid": "b127d2d2-277a-491e-bf80-2e8688fa85e2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ameba.jp",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xx7kFsgSVU_ovUPxmnKruzMKAs6oSUO8SvcvTRs6GnY",
+                    "short_id": "aea7080e57"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @v2raych [14]",
+            "type": "vless",
+            "server": "212.113.109.220",
+            "server_port": 443,
+            "uuid": "dc987a94-c06c-4ab2-8fd6-7681ff514926",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Pmi83J_B4hDaLv35Au1WYYsxWzm8kyCkMEWN6a_ZCn0",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇹🇭 TH | 🔒 VLESS | @v2raych [16]",
+            "type": "vless",
+            "server": "47.81.13.178",
+            "server_port": 443,
+            "uuid": "3e7f67de-648e-4871-b51a-a225214d41ee",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.primevideo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇯🇵 JP | 🔒 VLESS | @v2raych [19]",
+            "type": "vless",
+            "server": "147.45.49.152",
+            "server_port": 443,
+            "uuid": "b127d2d2-277a-491e-bf80-2e8688fa85e2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ameba.jp",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xx7kFsgSVU_ovUPxmnKruzMKAs6oSUO8SvcvTRs6GnY",
+                    "short_id": "aea7080e57"
                 }
             }
         },
