@@ -84,6 +84,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [14]",
+                "🇮🇷 IR | 🔒 VLESS | @config_proxy [61]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -93,17 +94,17 @@
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [20]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [21]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [22]",
-                "🇺🇸 US | 🔓 VLESS | @kurdistan_vpn_perfectt [11]",
+                "🇺🇸 US | 🔓 VLESS | @kurdistan_vpn_perfectt [10]",
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
                 "🚩 CF | 🔒 VLESS | @orange_vpns [20]",
                 "🚩 CF | 🔒 VLESS | @prrofile_purple [139]",
-                "🇺🇸 US | 🔓 VLESS | @prrofile_purple [148]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [22]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [23]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [30]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇮🇷 IR | 🔒 VLESS | @v2raych [10]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
-                "🚩 CF | 🔓 VLESS | @vmesc [4]",
+                "🚩 CF | 🔓 VLESS | @vmesc [2]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [1]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [11]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
@@ -121,6 +122,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [14]",
+                "🇮🇷 IR | 🔒 VLESS | @config_proxy [61]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -130,17 +132,17 @@
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [20]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [21]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [22]",
-                "🇺🇸 US | 🔓 VLESS | @kurdistan_vpn_perfectt [11]",
+                "🇺🇸 US | 🔓 VLESS | @kurdistan_vpn_perfectt [10]",
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
                 "🚩 CF | 🔒 VLESS | @orange_vpns [20]",
                 "🚩 CF | 🔒 VLESS | @prrofile_purple [139]",
-                "🇺🇸 US | 🔓 VLESS | @prrofile_purple [148]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [22]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [23]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [30]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇮🇷 IR | 🔒 VLESS | @v2raych [10]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
-                "🚩 CF | 🔓 VLESS | @vmesc [4]",
+                "🚩 CF | 🔓 VLESS | @vmesc [2]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [1]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [11]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
@@ -268,6 +270,29 @@
             "uuid": "f8c6860d-5b28-4e37-dead-a07ddd4647be",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇮🇷 IR | 🔒 VLESS | @config_proxy [61]",
+            "type": "vless",
+            "server": "iran.book-learn61.sbs",
+            "server_port": 54782,
+            "uuid": "2129f7d2-8abc-44c7-b032-ba18fbbedb40",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "zEdOxv5UToWEx3rWhmOJUEKf-pLxFzMsGpyX_YZid3A",
+                    "short_id": "a637d3cd6a0009c5"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
@@ -435,7 +460,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @kurdistan_vpn_perfectt [11]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @kurdistan_vpn_perfectt [10]",
             "type": "vless",
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
@@ -489,15 +514,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @prrofile_purple [148]",
-            "type": "vless",
-            "server": "Nordicsystemback.global.ssl.fastly.net",
-            "server_port": 80,
-            "uuid": "255f75a1-81db-c671-875e-08eb9b9d9d66",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🚩 CF | 🔓 VLESS | @v2ray_sub [22]",
             "type": "vless",
             "server": "sdct.sernett.ir",
@@ -534,6 +550,29 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇮🇷 IR | 🔒 VLESS | @v2raych [10]",
+            "type": "vless",
+            "server": "iran.book-learn61.sbs",
+            "server_port": 54782,
+            "uuid": "2129f7d2-8abc-44c7-b032-ba18fbbedb40",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "zEdOxv5UToWEx3rWhmOJUEKf-pLxFzMsGpyX_YZid3A",
+                    "short_id": "a637d3cd6a0009c5"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
             "type": "vless",
             "server": "test.fast.hosting-ip.com",
@@ -543,7 +582,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @vmesc [4]",
+            "tag": "🚩 CF | 🔓 VLESS | @vmesc [2]",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
