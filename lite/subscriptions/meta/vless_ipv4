@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇳🇱 NL | 🔓 VLESS | @bored_vpn [12]","type":"vless","server":"141.227.130.86","port":53024,"uuid":"2d25edaa-c0fc-4d84-bd60-60c4df335ab3","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true,"grpc-opts":{"grpc-service-name":"ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"}}
   - {"name":"🇩🇪 DE | 🔒 VLESS | @configasli [6]","type":"vless","server":"78.46.162.62","port":10878,"uuid":"8a5db114-7ad1-4922-aca4-b079a79f4f04","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"www.speedtest.net","reality-opts":{"public-key":"xQvsy1P86UklsO5dbNDjaaUiQK3A9PHpM6rirHWSSDw","short-id":"812db24b"}}
   - {"name":"🇫🇷 FR | 🔒 VLESS | @configasli [7]","type":"vless","server":"172.232.33.18","port":443,"uuid":"fe48773b-df06-409a-bc61-117cd8fb1eb7","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"ftp.debian.org","reality-opts":{"public-key":"PTlW40u-tHGDlObhSKFN4tntrfHLgNPlHqg1oYqyY1o","short-id":"b5ecd44d"}}
   - {"name":"🇺🇸 US | 🔓 VLESS | @dargiiriis [4]","type":"vless","server":"151.101.3.8","port":80,"uuid":"be05581d-a8f4-42f4-b8ab-7e8f438ec290","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/download?ed=2048","headers":{"Host":"oFnKGAC26JAs2SXa.xyz"}}}
@@ -68,8 +67,7 @@ proxies:
   - {"name":"🚩 CF | 🔒 VLESS | @v2rayvpn2 [4]","type":"vless","server":"172.67.166.211","port":443,"uuid":"c27bdfe9-929c-45cd-a917-aa47dae1cff7","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"soft98m.dPdNS.OrG","ws-opts":{"path":"/eyJqdW5rIjoiM0tYeXg5RVVNIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==","headers":{"Host":"soft98m.dpdns.org"}}}
   - {"name":"🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]","type":"vless","server":"194.113.106.139","port":24984,"uuid":"c9e4f683-ee36-47cf-9c30-f751f1c118b5","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"zula.ir","reality-opts":{"public-key":"bM_ol-LozWiGNhEGFm8xkaf4TiaOBzrG8R3kybOn2no","short-id":"5292cb10"}}
   - {"name":"🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]","type":"vless","server":"128.140.35.236","port":50713,"uuid":"dab8ab46-5071-4d95-ac9b-bb469d6599fc","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"nobitex.ir","reality-opts":{"public-key":"03oIukhEmNzMAGZWqcNLAHHjcVX0jLqRSa3ocMuskQY","short-id":"88417bc4"}}
-  - {"name":"🇳🇱 NL | 🔒 VLESS | @vmesc [14]","type":"vless","server":"46.8.231.189","port":80,"uuid":"779fb389-d65d-4f8b-887a-cc0b0581f34f","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"servername":"www.cloudflare.com","grpc-opts":{"grpc-service-name":"@ShikaVPN-@ShikaVPN-@ShikaVPN"},"reality-opts":{"public-key":"auO272-_OexAycHNbiFJCPjdAiujfj2XgjqyAvL5ewo","short-id":"7ace7f5f"}}
-  - {"name":"🇩🇪 DE | 🔓 VLESS | @vmesc [15]","type":"vless","server":"92.118.232.161","port":8080,"uuid":"9dc11620-987c-4344-9088-f46fdfae4054","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/?ed","headers":{"Host":"92.118.232.161"}}}
+  - {"name":"🇩🇪 DE | 🔓 VLESS | @vmesc [14]","type":"vless","server":"92.118.232.161","port":8080,"uuid":"9dc11620-987c-4344-9088-f46fdfae4054","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/?ed","headers":{"Host":"92.118.232.161"}}}
   - {"name":"🇩🇪 DE | 🔓 VLESS | @vpn_ioss [13]","type":"vless","server":"91.107.139.110","port":8880,"uuid":"cfe554a3-4cd5-4fe1-9951-e6b65fc52a74","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true}
 
 proxy-groups:
@@ -84,7 +82,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇳🇱 NL | 🔓 VLESS | @bored_vpn [12]'
       - '🇩🇪 DE | 🔒 VLESS | @configasli [6]'
       - '🇫🇷 FR | 🔒 VLESS | @configasli [7]'
       - '🇺🇸 US | 🔓 VLESS | @dargiiriis [4]'
@@ -129,8 +126,7 @@ proxy-groups:
       - '🚩 CF | 🔒 VLESS | @v2rayvpn2 [4]'
       - '🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]'
       - '🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]'
-      - '🇳🇱 NL | 🔒 VLESS | @vmesc [14]'
-      - '🇩🇪 DE | 🔓 VLESS | @vmesc [15]'
+      - '🇩🇪 DE | 🔓 VLESS | @vmesc [14]'
       - '🇩🇪 DE | 🔓 VLESS | @vpn_ioss [13]'
 
   - name: 🌍 Global Media
