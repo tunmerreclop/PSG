@@ -142,7 +142,8 @@
                 "🇫🇷 FR | 🔒 VLESS | @v2rayvpn2 [3]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇺🇸 US | 🔒 VLESS | @vmesc [15]"
+                "🇺🇸 US | 🔒 VLESS | @vmesc [14]",
+                "🇹🇷 TR | 🔒 VLESS | @vmesc [16]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -203,7 +204,8 @@
                 "🇫🇷 FR | 🔒 VLESS | @v2rayvpn2 [3]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇺🇸 US | 🔒 VLESS | @vmesc [15]"
+                "🇺🇸 US | 🔒 VLESS | @vmesc [14]",
+                "🇹🇷 TR | 🔒 VLESS | @vmesc [16]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -1111,7 +1113,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @vmesc [15]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @vmesc [14]",
             "type": "vless",
             "server": "166.62.104.253",
             "server_port": 2096,
@@ -1132,6 +1134,24 @@
                 "path": "/",
                 "headers": {
                     "Host": "vless.muzheng.top"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷 TR | 🔒 VLESS | @vmesc [16]",
+            "type": "vless",
+            "server": "45.136.5.90",
+            "server_port": 43390,
+            "uuid": "f656857f-a7be-4eaa-9027-bf958ba3aa8e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "dl.frnsoft.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         }
