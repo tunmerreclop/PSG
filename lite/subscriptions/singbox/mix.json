@@ -240,8 +240,8 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇸🇰 SK | 🔒 SS | @v2ray_free_conf [19]",
-                "🇰🇿 KZ | 🔒 SS | @v2ray_free_conf [20]",
+                "🇫🇷 FR | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -434,8 +434,8 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇸🇰 SK | 🔒 SS | @v2ray_free_conf [19]",
-                "🇰🇿 KZ | 🔒 SS | @v2ray_free_conf [20]",
+                "🇫🇷 FR | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -2796,20 +2796,45 @@
             }
         },
         {
-            "tag": "🇸🇰 SK | 🔒 SS | @v2ray_free_conf [19]",
-            "type": "shadowsocks",
-            "server": "193.37.255.38",
-            "server_port": 990,
-            "method": "chacha20-ietf-poly1305",
-            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+            "tag": "🇫🇷 FR | 🔒 VMESS | @v2ray_free_conf [19]",
+            "type": "vmess",
+            "server": "91.134.8.102",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "serkat.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": "serkat.org"
+                }
+            }
         },
         {
-            "tag": "🇰🇿 KZ | 🔒 SS | @v2ray_free_conf [20]",
-            "type": "shadowsocks",
-            "server": "45.159.250.190",
-            "server_port": 990,
-            "method": "chacha20-ietf-poly1305",
-            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "5.231.56.98",
+            "server_port": 3721,
+            "uuid": "5f2f0765-f331-4d1e-8560-d2fb533dd6fe",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
