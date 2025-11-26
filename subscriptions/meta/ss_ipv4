@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name":"🇳🇱 NL | 🔒 SS | @config_proxy [60]","type":"ss","server":"151.242.251.133","port":8080,"password":"k1dBOmOB4oqi7Ump37a1bQ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸 US | 🔒 SS | @custom_14 [3]","type":"ss","server":"167.160.91.118","port":10077,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
   - {"name":"🇩🇪 DE | 🔒 SS | @evay_vpn [12]","type":"ss","server":"109.122.197.192","port":443,"password":"JNK7CvuvWTpF2ZY3d9ygt1","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇳🇱 NL | 🔒 SS | @father_vpn [1]","type":"ss","server":"193.29.139.240","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
@@ -105,7 +106,6 @@ proxies:
   - {"name":"🇪🇸 ES | 🔒 SS | @v2ray_free_conf [8]","type":"ss","server":"45.154.206.192","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇧🇷 BR | 🔒 SS | @v2ray_free_conf [16]","type":"ss","server":"38.54.57.90","port":990,"password":"ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇪🇸 ES | 🔒 SS | @v2ray_free_conf [20]","type":"ss","server":"194.87.45.189","port":443,"password":"1SITPYc2k3dkXpCc1wMlsT","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🔒 SS | @v2raych [14]","type":"ss","server":"92.118.112.101","port":9483,"password":"rtITZA1ZNlJQUHjz3BoHdV","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇷🇺 RU | 🔒 SS | @v2raymelliii [1]","type":"ss","server":"95.163.221.233","port":41596,"password":"4ih2EKQS0iYNMwIVmq+LMl0jvX0HQ8ZfEKA7XcxyuJQ=","cipher":"aes-256-gcm"}
   - {"name":"🇺🇸 US | 🔒 SS | @v2rayng3 [1]","type":"ss","server":"45.87.175.22","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇷🇺 RU | 🔒 SS | @v2rayng3 [4]","type":"ss","server":"45.139.24.24","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
@@ -133,6 +133,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇳🇱 NL | 🔒 SS | @config_proxy [60]'
       - '🇺🇸 US | 🔒 SS | @custom_14 [3]'
       - '🇩🇪 DE | 🔒 SS | @evay_vpn [12]'
       - '🇳🇱 NL | 🔒 SS | @father_vpn [1]'
@@ -215,7 +216,6 @@ proxy-groups:
       - '🇪🇸 ES | 🔒 SS | @v2ray_free_conf [8]'
       - '🇧🇷 BR | 🔒 SS | @v2ray_free_conf [16]'
       - '🇪🇸 ES | 🔒 SS | @v2ray_free_conf [20]'
-      - '🇺🇸 US | 🔒 SS | @v2raych [14]'
       - '🇷🇺 RU | 🔒 SS | @v2raymelliii [1]'
       - '🇺🇸 US | 🔒 SS | @v2rayng3 [1]'
       - '🇷🇺 RU | 🔒 SS | @v2rayng3 [4]'

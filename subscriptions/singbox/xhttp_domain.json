@@ -96,9 +96,10 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [9]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [53]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [54]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [60]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [55]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [56]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [58]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [62]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -137,9 +138,10 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [9]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [53]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [54]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [60]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [55]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [56]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [58]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [62]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -286,29 +288,65 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [53]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [55]",
             "type": "vless",
-            "server": "sunstar.astracat.ru",
-            "server_port": 80,
-            "uuid": "abe17855-980d-4257-8699-0f0484fb18b8",
+            "server": "wangcai187.cloudflare.182682.xyz",
+            "server_port": 443,
+            "uuid": "9d847ad3-1896-48f9-b89c-13fe345e2bff",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cho.chonon.sbs",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [54]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [56]",
             "type": "vless",
-            "server": "stralife.astracat.ru",
-            "server_port": 80,
-            "uuid": "abe17855-980d-4257-8699-0f0484fb18b8",
+            "server": "wangcai170.000444.cn",
+            "server_port": 443,
+            "uuid": "9d847ad3-1896-48f9-b89c-13fe345e2bff",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cho.chonon.sbs",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [60]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [58]",
             "type": "vless",
-            "server": "www.speedtest.net",
+            "server": "wangcai72.000444.cn",
+            "server_port": 443,
+            "uuid": "9d847ad3-1896-48f9-b89c-13fe345e2bff",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cho.chonon.sbs",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [62]",
+            "type": "vless",
+            "server": "sdct.sernett.ir",
             "server_port": 80,
-            "uuid": "Warpi-Free-Vpn-In-GooglePlay",
+            "uuid": "SERVERNETT-SERVERNETT1",
             "flow": "",
             "packet_encoding": "xudp"
         },
