@@ -96,7 +96,8 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [61]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [63]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [64]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -110,13 +111,13 @@
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
                 "🚩 CF | 🔒 VLESS | @orange_vpns [17]",
                 "🚩 CF | 🔓 VLESS | @orange_vpns [20]",
-                "🚩 CF | 🔒 VLESS | @prrofile_purple [134]",
-                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [139]",
+                "🚩 CF | 🔒 VLESS | @prrofile_purple [139]",
+                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [144]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [22]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [23]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [30]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
-                "🚩 CF | 🔓 VLESS | @v2raych [8]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [20]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [11]",
                 "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [9]",
@@ -135,7 +136,8 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [61]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [63]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [64]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -149,13 +151,13 @@
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
                 "🚩 CF | 🔒 VLESS | @orange_vpns [17]",
                 "🚩 CF | 🔓 VLESS | @orange_vpns [20]",
-                "🚩 CF | 🔒 VLESS | @prrofile_purple [134]",
-                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [139]",
+                "🚩 CF | 🔒 VLESS | @prrofile_purple [139]",
+                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [144]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [22]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [23]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [30]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
-                "🚩 CF | 🔓 VLESS | @v2raych [8]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [20]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [11]",
                 "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [9]",
@@ -282,11 +284,34 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [61]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [63]",
             "type": "vless",
-            "server": "test.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "TELEGRAM-CONFiGLiNE-73",
+            "server": "Evay-vpn.octacityroleplay.ir",
+            "server_port": 1122,
+            "uuid": "dc6c4e19-8c44-4866-a02d-422cbb7441e1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.slideshare.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4iCkO1B_tdvJY7x_v9izvkoNDfdGIFiL2LQX2Nqv5RI",
+                    "short_id": "4c7b0ea36fc7f0c4"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [64]",
+            "type": "vless",
+            "server": "am288.amin-1.ir",
+            "server_port": 2082,
+            "uuid": "5deb851a-3771-4adc-e4e8-e33b5e4ae81f",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -501,7 +526,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @prrofile_purple [134]",
+            "tag": "🚩 CF | 🔒 VLESS | @prrofile_purple [139]",
             "type": "vless",
             "server": "peaceful-basilisk-itwasmmr-76b04cc8.koyeb.app",
             "server_port": 443,
@@ -519,7 +544,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [139]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [144]",
             "type": "vless",
             "server": "Evay-vpn.octacityroleplay.ir",
             "server_port": 1122,
@@ -578,11 +603,11 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @v2raych [8]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [20]",
             "type": "vless",
-            "server": "www.speedtest.net",
+            "server": "test.fast.hosting-ip.com",
             "server_port": 80,
-            "uuid": "Warpi-Free-Vpn-In-GooglePlay",
+            "uuid": "TELEGRAM-CONFiGLiNE-73",
             "flow": "",
             "packet_encoding": "xudp"
         },
