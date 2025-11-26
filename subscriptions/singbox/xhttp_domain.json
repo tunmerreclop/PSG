@@ -96,7 +96,9 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [9]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [69]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [53]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [54]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [60]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -119,6 +121,7 @@
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [14]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [11]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [17]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "proxy",
@@ -134,7 +137,9 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [9]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [69]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [53]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [54]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [60]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -157,6 +162,7 @@
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [14]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [11]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [17]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "auto",
@@ -280,27 +286,31 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [69]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [53]",
             "type": "vless",
-            "server": "Evay-vpn.octacityroleplay.ir",
-            "server_port": 1122,
-            "uuid": "2d4accbc-054e-4024-8f38-fef3f77274fe",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.slideshare.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "4iCkO1B_tdvJY7x_v9izvkoNDfdGIFiL2LQX2Nqv5RI",
-                    "short_id": "4c7b0ea36fc7f0c4"
-                }
-            }
+            "server": "sunstar.astracat.ru",
+            "server_port": 80,
+            "uuid": "abe17855-980d-4257-8699-0f0484fb18b8",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [54]",
+            "type": "vless",
+            "server": "stralife.astracat.ru",
+            "server_port": 80,
+            "uuid": "abe17855-980d-4257-8699-0f0484fb18b8",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [60]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "Warpi-Free-Vpn-In-GooglePlay",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
@@ -629,6 +639,29 @@
             "uuid": "5057639a-b876-400e-bc0e-bf5ed00a2413",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [17]",
+            "type": "vless",
+            "server": "Evay-vpn.octacityroleplay.ir",
+            "server_port": 1122,
+            "uuid": "2d4accbc-054e-4024-8f38-fef3f77274fe",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.slideshare.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4iCkO1B_tdvJY7x_v9izvkoNDfdGIFiL2LQX2Nqv5RI",
+                    "short_id": "4c7b0ea36fc7f0c4"
+                }
+            }
         },
         {
             "tag": "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
