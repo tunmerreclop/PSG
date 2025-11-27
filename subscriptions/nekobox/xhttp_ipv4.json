@@ -81,6 +81,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [51]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -130,7 +131,6 @@
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [25]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [27]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [8]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -159,6 +159,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [51]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -208,7 +209,6 @@
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [25]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [27]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [8]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -323,6 +323,29 @@
             "uuid": "5deb851a-3771-4adc-e4e8-e33b5e4ae81f",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [51]",
+            "type": "vless",
+            "server": "91.84.112.89",
+            "server_port": 443,
+            "uuid": "0a9bc93a-8d18-4fdd-807d-b93f266e36ca",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.microsoft.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "jSx3_X_tBAcNgp7SrKSfZnr5WN0cTN2ShEJv4rHceQU",
+                    "short_id": ""
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
@@ -1133,15 +1156,6 @@
                     "short_id": "5426024033df45"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [8]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "dd8eac42-15c9-48bb-944a-7046fe75eeec",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",

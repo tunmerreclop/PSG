@@ -84,6 +84,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [6]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [9]",
+                "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&security=none&encryption=none&host=shop.slimshopboyss.ir&type=xhttp#🚩 CF | 🔓 VLESS | @config_proxy [54]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [3]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -103,7 +104,7 @@
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [23]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [30]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [6]",
+                "🚩 CF | 🔒 VLESS | @v2raych [13]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [10]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [11]",
@@ -124,6 +125,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [6]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [9]",
+                "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&security=none&encryption=none&host=shop.slimshopboyss.ir&type=xhttp#🚩 CF | 🔓 VLESS | @config_proxy [54]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [3]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -143,7 +145,7 @@
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [23]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [30]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [6]",
+                "🚩 CF | 🔒 VLESS | @v2raych [13]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [10]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [11]",
@@ -272,6 +274,15 @@
             "server": "am288.amin-1.ir",
             "server_port": 2082,
             "uuid": "f8c6860d-5b28-4e37-dead-a07ddd4647be",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&security=none&encryption=none&host=shop.slimshopboyss.ir&type=xhttp#🚩 CF | 🔓 VLESS | @config_proxy [54]",
+            "type": "vless",
+            "server": "deadseectelegram.slimshopboyss.ir",
+            "server_port": 8080,
+            "uuid": "3d42bd31-5640-4e5e-a7e5-59e59a040341",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -554,13 +565,22 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [6]",
+            "tag": "🚩 CF | 🔒 VLESS | @v2raych [13]",
             "type": "vless",
-            "server": "HqV2Ray.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "c5f6bb6f-d451-447b-e9ce-6c3016deba77",
+            "server": "free-httpcustom7free-httpcustom-free-httpcustom-free-httpcustom.httpcustom.ir",
+            "server_port": 443,
+            "uuid": "Free_HTTPCustom",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "free-httpcustom-free-httpcustom7free-httpcustom-free-httpcustom.httpcustom.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",

@@ -95,7 +95,10 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇪🇸 ES | 🔒 VLESS | @config_proxy [74]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [52]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [56]",
+                "🇮🇹 IT | 🔒 VLESS | @config_proxy [60]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [61]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -126,7 +129,7 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @kurdistan_vpn_perfectt [1]",
-                "🇩🇪 DE | 🔒 VLESS | @kurdistan_vpn_perfectt [6]",
+                "🇮🇷 IR | 🔒 VLESS | @kurdistan_vpn_perfectt [6]",
                 "🇮🇱 IL | 🔒 VLESS | @kurdistan_vpn_perfectt [7]",
                 "🇷🇺 RU | 🔒 VLESS | @kurdistan_vpn_perfectt [9]",
                 "🇩🇪 DE | 🔒 VLESS | @megavpn_link [6]",
@@ -134,7 +137,6 @@
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [9]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "🇳🇱 NL | 🔒 VLESS | @outline_ir [12]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxycrone [3]",
@@ -195,7 +197,10 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇪🇸 ES | 🔒 VLESS | @config_proxy [74]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [52]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [56]",
+                "🇮🇹 IT | 🔒 VLESS | @config_proxy [60]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [61]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -226,7 +231,7 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @kurdistan_vpn_perfectt [1]",
-                "🇩🇪 DE | 🔒 VLESS | @kurdistan_vpn_perfectt [6]",
+                "🇮🇷 IR | 🔒 VLESS | @kurdistan_vpn_perfectt [6]",
                 "🇮🇱 IL | 🔒 VLESS | @kurdistan_vpn_perfectt [7]",
                 "🇷🇺 RU | 🔒 VLESS | @kurdistan_vpn_perfectt [9]",
                 "🇩🇪 DE | 🔒 VLESS | @megavpn_link [6]",
@@ -234,7 +239,6 @@
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [9]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "🇳🇱 NL | 🔒 VLESS | @outline_ir [12]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxycrone [3]",
@@ -445,16 +449,39 @@
             }
         },
         {
-            "tag": "🇪🇸 ES | 🔒 VLESS | @config_proxy [74]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [52]",
             "type": "vless",
-            "server": "tunnyl.ru",
-            "server_port": 8443,
-            "uuid": "d7e0ba9f-c7c3-4cab-bc2e-853a8b01396b",
+            "server": "nld26.luckernld.org",
+            "server_port": 443,
+            "uuid": "40d7798a-6c76-4298-a9d4-9e6181cd2dd7",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "google.com",
+                "server_name": "www.cybo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [56]",
+            "type": "vless",
+            "server": "nld26.luckernld.org",
+            "server_port": 443,
+            "uuid": "40d7798a-6c76-4298-a9d4-9e6181cd2dd7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cybo.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -462,9 +489,63 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "B7oEk3bsUoMrpkpIcTsCQnZour3qfbgUuhOk9aWWbFk",
-                    "short_id": "b88841a3"
+                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
+                    "short_id": ""
                 }
+            }
+        },
+        {
+            "tag": "🇮🇹 IT | 🔒 VLESS | @config_proxy [60]",
+            "type": "vless",
+            "server": "xtls.revolutiontime.vigilante.ir",
+            "server_port": 6236,
+            "uuid": "88c53048-0e65-403e-a27c-aac5f4c723ee",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "HqewcgI6nNnD9FW1LnPIKCyzmo0F_qjgxZ6fqZ1R3lE",
+                    "short_id": "f8707e72d194707a"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs?ed=2048"
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [61]",
+            "type": "vless",
+            "server": "xtlsresponse.revolutiontime.vigilante.ir",
+            "server_port": 6236,
+            "uuid": "88c53048-0e65-403e-a27c-aac5f4c723ee",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "safari"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "HqewcgI6nNnD9FW1LnPIKCyzmo0F_qjgxZ6fqZ1R3lE",
+                    "short_id": "f8707e72d194707a"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs?ed=2048"
             }
         },
         {
@@ -1217,7 +1298,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @kurdistan_vpn_perfectt [6]",
+            "tag": "🇮🇷 IR | 🔒 VLESS | @kurdistan_vpn_perfectt [6]",
             "type": "vless",
             "server": "dl.fi.afteam.ir",
             "server_port": 1503,
@@ -1414,29 +1495,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar"
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @outline_ir [12]",
-            "type": "vless",
-            "server": "nld26.luckernld.org",
-            "server_port": 443,
-            "uuid": "40d7798a-6c76-4298-a9d4-9e6181cd2dd7",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cybo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
-                    "short_id": ""
-                }
             }
         },
         {
