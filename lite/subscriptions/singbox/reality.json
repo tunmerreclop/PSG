@@ -102,6 +102,7 @@
                 "🇹🇷 TR | 🔒 VLESS | @v2rayngseven [2]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
+                "🇯🇵 JP | 🔒 VLESS | @vmesc [17]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
@@ -110,7 +111,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇳🇱 NL | 🔒 VLESS | @vmesc [15]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]"
             ],
             "tag": "proxy",
@@ -132,6 +132,7 @@
                 "🇹🇷 TR | 🔒 VLESS | @v2rayngseven [2]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
+                "🇯🇵 JP | 🔒 VLESS | @vmesc [17]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
@@ -140,7 +141,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇳🇱 NL | 🔒 VLESS | @vmesc [15]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]"
             ],
             "tag": "auto",
@@ -458,6 +458,29 @@
             }
         },
         {
+            "tag": "🇯🇵 JP | 🔒 VLESS | @vmesc [17]",
+            "type": "vless",
+            "server": "147.45.49.152",
+            "server_port": 443,
+            "uuid": "b127d2d2-277a-491e-bf80-2e8688fa85e2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ameba.jp",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xx7kFsgSVU_ovUPxmnKruzMKAs6oSUO8SvcvTRs6GnY",
+                    "short_id": "aea7080e57"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -654,29 +677,6 @@
                     "enabled": true,
                     "public_key": "COh8PaOebru8HlshEfNEN3_6pXREyUPQvyLWfX0zT3Y",
                     "short_id": "5e"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @vmesc [15]",
-            "type": "vless",
-            "server": "nld26.luckernld.org",
-            "server_port": 443,
-            "uuid": "40d7798a-6c76-4298-a9d4-9e6181cd2dd7",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cybo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
-                    "short_id": ""
                 }
             }
         },

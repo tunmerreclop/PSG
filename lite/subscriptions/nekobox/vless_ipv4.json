@@ -130,7 +130,8 @@
                 "🇫🇷 FR | 🔒 VLESS | @v2rayvpn2 [3]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇮🇷 IR | 🔓 VLESS | @vmesc [17]"
+                "🇮🇷 IR | 🔓 VLESS | @vmesc [16]",
+                "🇯🇵 JP | 🔒 VLESS | @vmesc [17]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -191,7 +192,8 @@
                 "🇫🇷 FR | 🔒 VLESS | @v2rayvpn2 [3]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇮🇷 IR | 🔓 VLESS | @vmesc [17]"
+                "🇮🇷 IR | 🔓 VLESS | @vmesc [16]",
+                "🇯🇵 JP | 🔒 VLESS | @vmesc [17]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -1096,13 +1098,36 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @vmesc [17]",
+            "tag": "🇮🇷 IR | 🔓 VLESS | @vmesc [16]",
             "type": "vless",
             "server": "94.182.137.12",
             "server_port": 20532,
             "uuid": "8496c102-4094-4dd3-ad63-7bb7a35cbaee",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇯🇵 JP | 🔒 VLESS | @vmesc [17]",
+            "type": "vless",
+            "server": "147.45.49.152",
+            "server_port": 443,
+            "uuid": "b127d2d2-277a-491e-bf80-2e8688fa85e2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ameba.jp",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xx7kFsgSVU_ovUPxmnKruzMKAs6oSUO8SvcvTRs6GnY",
+                    "short_id": "aea7080e57"
+                }
+            }
         }
     ],
     "route": {
