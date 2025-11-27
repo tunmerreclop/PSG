@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"❔ XX | 🔓 VLESS | @config_proxy [77]","type":"vless","server":"[2606:4700:20::ac43:42b1]","port":443,"uuid":"ebc207b1-3024-4484-b7f6-0d68a10ae8b1","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":""}}}
   - {"name":"❔ XX | 🔒 VLESS | @deli_servers [2]","type":"vless","server":"[2a01:4f8:c012:81c0::1]","port":1,"uuid":"d3927fcb-1dd4-4a84-af91-75196dcc0ee9","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"servername":"4dsply.com","grpc-opts":{"grpc-service-name":"/tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers"},"reality-opts":{"public-key":"L6AkyAVesPEg-yz5o4-2yeTCBYACZW5OWnPBVaS-OnQ","short-id":"bbcb1cf7"}}
   - {"name":"❔ XX | 🔓 VLESS | @freevv2rayng [2]","type":"vless","server":"[2a12:5940:1527::2]","port":443,"uuid":"bd4de7ea-d6cc-492c-88a6-f1278b9210c3","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"❔ XX | 🔓 VLESS | @freevv2rayng [5]","type":"vless","server":"[2a12:5940:1527::2]","port":443,"uuid":"0a29e0b5-c4ef-4992-ab0e-1d371dd8b3cd","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
@@ -37,6 +36,7 @@ proxies:
   - {"name":"❔ XX | 🔒 VLESS | @kurdistan_vpn_perfectt [6]","type":"vless","server":"[2a0b:4140:3342::2]","port":21748,"uuid":"2c3d6e6c-7302-4315-a12f-8376fd1fe674","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"tgju.org","reality-opts":{"public-key":"tHP6jGA_Z1beKT6lu8to_-lOt5n04FoMA67yTv1cziM","short-id":"96cb7bc96dfe6a"}}
   - {"name":"🇩🇪 DE | 🔓 VLESS | @mimitdl [2]","type":"vless","server":"2a01:4f8:1c17:d10d::1","port":8080,"uuid":"5b9fb1fe-f919-426b-863c-55a5d9139e0e","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true}
   - {"name":"❔ XX | 🔓 VLESS | @prrofile_purple [145]","type":"vless","server":"[2001:41d0:ab02::2:0:3b5]","port":53025,"uuid":"4ba7deb3-83a9-48d2-ad8a-e115183b1e6d","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true,"grpc-opts":{"grpc-service-name":"ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"}}
+  - {"name":"❔ XX | 🔒 VLESS | @v2raych [6]","type":"vless","server":"[::ffff:104.17.110.12]","port":443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"xxx.donated003.workers.dev","ws-opts":{"path":"/@V2VIPCHANNEL/?ed=2048","headers":{"Host":"xxx.donated003.workers.dev"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -50,7 +50,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '❔ XX | 🔓 VLESS | @config_proxy [77]'
       - '❔ XX | 🔒 VLESS | @deli_servers [2]'
       - '❔ XX | 🔓 VLESS | @freevv2rayng [2]'
       - '❔ XX | 🔓 VLESS | @freevv2rayng [5]'
@@ -64,6 +63,7 @@ proxy-groups:
       - '❔ XX | 🔒 VLESS | @kurdistan_vpn_perfectt [6]'
       - '🇩🇪 DE | 🔓 VLESS | @mimitdl [2]'
       - '❔ XX | 🔓 VLESS | @prrofile_purple [145]'
+      - '❔ XX | 🔒 VLESS | @v2raych [6]'
 
   - name: 🌍 Global Media
     type: select
