@@ -94,8 +94,6 @@
                 "KingRezaPahlavi",
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
-                "🇰🇷 KR | 🔒 VLESS | @config_proxy [52]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -217,6 +215,7 @@
                 "🇱🇻 LV | 🔒 VLESS | @vpnowl [19]",
                 "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [5]",
                 "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [14]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [18]",
                 "🇫🇷 FR | 🔒 VLESS | @xrayzxn [3]"
             ],
             "tag": "proxy",
@@ -230,8 +229,6 @@
                 "KingRezaPahlavi",
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
-                "🇰🇷 KR | 🔒 VLESS | @config_proxy [52]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -353,6 +350,7 @@
                 "🇱🇻 LV | 🔒 VLESS | @vpnowl [19]",
                 "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [5]",
                 "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [14]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [18]",
                 "🇫🇷 FR | 🔒 VLESS | @xrayzxn [3]"
             ],
             "tag": "auto",
@@ -482,52 +480,6 @@
                     "enabled": true,
                     "public_key": "HQdpA2sAkxUHghPtT8EUA1zPqkq_tz8ncwQM2zNkCS4",
                     "short_id": "b359bc5c70c21d55"
-                }
-            }
-        },
-        {
-            "tag": "🇰🇷 KR | 🔒 VLESS | @config_proxy [52]",
-            "type": "vless",
-            "server": "45.88.182.24",
-            "server_port": 25380,
-            "uuid": "237120d4-6f8e-47de-b50c-2c8218a720df",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "G7LvWyxJWO4f-YKZM-Nf7n3hd3AHfThLX3aOIC2qKXg",
-                    "short_id": "d6cd"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
-            "type": "vless",
-            "server": "91.107.246.94",
-            "server_port": 8443,
-            "uuid": "4d04c824-86db-4443-96e3-e24fd40ec743",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "YoLqPUw--15IaxEOIqT_bcdLBm95dtjx_HCKhsKGoGI",
-                    "short_id": ""
                 }
             }
         },
@@ -3401,6 +3353,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "/@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [18]",
+            "type": "vless",
+            "server": "91.107.246.94",
+            "server_port": 8443,
+            "uuid": "4d04c824-86db-4443-96e3-e24fd40ec743",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YoLqPUw--15IaxEOIqT_bcdLBm95dtjx_HCKhsKGoGI",
+                    "short_id": ""
+                }
             }
         },
         {
