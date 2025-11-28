@@ -81,6 +81,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [56]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -105,7 +106,7 @@
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [12]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [16]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [18]",
-                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [7]",
+                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [6]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [1]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [4]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [5]",
@@ -158,6 +159,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [56]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -182,7 +184,7 @@
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [12]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [16]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [18]",
-                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [7]",
+                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [6]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [1]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [4]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [5]",
@@ -321,6 +323,24 @@
             "uuid": "5deb851a-3771-4adc-e4e8-e33b5e4ae81f",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [56]",
+            "type": "vless",
+            "server": "185.40.155.13",
+            "server_port": 443,
+            "uuid": "d7d5a16a-fc3b-4673-9063-afb66af3939f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "api.speedload.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
@@ -697,7 +717,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @orange_vpns [7]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @orange_vpns [6]",
             "type": "vless",
             "server": "168.119.48.122",
             "server_port": 443,
