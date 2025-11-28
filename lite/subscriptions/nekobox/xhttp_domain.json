@@ -81,8 +81,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @orange_vpns [18]",
-                "❔ XX | 🔓 VLESS | @v2ray_vmes [17]",
-                "❔ XX | 🔓 VLESS | @v2rayvpn2 [6]"
+                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇺🇸 US | 🔓 VLESS | @v2rayvpn2 [6]",
+                "🇫🇷 FR | 🔒 VLESS | @vmesc [19]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -94,8 +95,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @orange_vpns [18]",
-                "❔ XX | 🔓 VLESS | @v2ray_vmes [17]",
-                "❔ XX | 🔓 VLESS | @v2rayvpn2 [6]"
+                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇺🇸 US | 🔓 VLESS | @v2rayvpn2 [6]",
+                "🇫🇷 FR | 🔒 VLESS | @vmesc [19]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -195,7 +197,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @v2ray_vmes [17]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
             "type": "vless",
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
@@ -204,13 +206,31 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @v2rayvpn2 [6]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2rayvpn2 [6]",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
             "uuid": "d7c0c88a-2826-4dc1-972b-d64155242925",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @vmesc [19]",
+            "type": "vless",
+            "server": "statue.lnmarketplace.net",
+            "server_port": 443,
+            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "statue.lnmarketplace.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {
