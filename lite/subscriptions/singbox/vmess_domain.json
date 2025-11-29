@@ -119,7 +119,8 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇱🇻 LV | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇱🇻 LV | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇵🇱 PL | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -161,7 +162,8 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇱🇻 LV | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇱🇻 LV | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇵🇱 PL | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -612,11 +614,36 @@
             "alter_id": 0
         },
         {
-            "tag": "🇱🇻 LV | 🔓 VMESS | @v2ray_free_conf [20]",
+            "tag": "🇱🇻 LV | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
             "server": "213.21.233.46",
             "server_port": 44749,
             "uuid": "e3cb685e-7840-45cb-9d64-b2028d9b635e",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "imafake.locker",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/speedtest",
+                "headers": {
+                    "Host": "imafake.locker"
+                }
+            }
+        },
+        {
+            "tag": "🇵🇱 PL | 🔓 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "45.66.11.50",
+            "server_port": 44749,
+            "uuid": "4f3cfda3-a255-40eb-8801-71f9fffb19d6",
             "security": "auto",
             "alter_id": 0,
             "tls": {
