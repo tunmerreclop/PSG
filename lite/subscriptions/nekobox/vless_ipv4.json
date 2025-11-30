@@ -125,9 +125,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇭🇰 HK | 🔒 VLESS | @vmesc [17]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [18]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesc [19]",
+                "🇷🇺 RU | 🔒 VLESS | @vmesc [18]",
+                "🇺🇸 US | 🔓 VLESS | @vmesc [19]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [12]"
             ],
             "tag": "proxy",
@@ -184,9 +183,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇭🇰 HK | 🔒 VLESS | @vmesc [17]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [18]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesc [19]",
+                "🇷🇺 RU | 🔒 VLESS | @vmesc [18]",
+                "🇺🇸 US | 🔓 VLESS | @vmesc [19]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [12]"
             ],
             "tag": "auto",
@@ -1001,41 +999,16 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔒 VLESS | @vmesc [17]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @vmesc [18]",
             "type": "vless",
-            "server": "27.50.48.8",
+            "server": "51.250.28.39",
             "server_port": 443,
-            "uuid": "602b380a-9fdf-4425-bc07-aae9a95cfc4b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vless.hubp.de",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/snippets/ip",
-                "headers": {
-                    "Host": "vless.hubp.de"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [18]",
-            "type": "vless",
-            "server": "162.19.175.55",
-            "server_port": 9954,
-            "uuid": "c2ec47f4-873f-573f-7d8d-d79d7ad452e6",
+            "uuid": "4a6de183-2ad3-456c-b420-feeac81f6257",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "store.steampowered.com",
+                "server_name": "cloudflare.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1043,26 +1016,23 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
-                    "short_id": ""
+                    "public_key": "FCg2XiFJrpH-2XlELSSSyEC7zkeW29HOgp4rfrqXEAI",
+                    "short_id": "123abc"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "xyz"
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vmesc [19]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [19]",
             "type": "vless",
-            "server": "37.120.186.241",
+            "server": "151.101.0.0",
             "server_port": 80,
-            "uuid": "53fff6cc-b4ec-43e8-ade5-e0c42972fc33",
+            "uuid": "TELEGRAM-CONFiGLiNE-75",
             "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/news",
-                "headers": {
-                    "Host": "37.120.186.241"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @vpn_ioss [12]",

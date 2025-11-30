@@ -100,7 +100,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [18]",
+                "🇷🇺 RU | 🔒 VLESS | @vmesc [18]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
@@ -128,7 +128,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [18]",
+                "🇷🇺 RU | 🔒 VLESS | @vmesc [18]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
@@ -408,16 +408,16 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [18]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @vmesc [18]",
             "type": "vless",
-            "server": "162.19.175.55",
-            "server_port": 9954,
-            "uuid": "c2ec47f4-873f-573f-7d8d-d79d7ad452e6",
+            "server": "51.250.28.39",
+            "server_port": 443,
+            "uuid": "4a6de183-2ad3-456c-b420-feeac81f6257",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "store.steampowered.com",
+                "server_name": "cloudflare.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -425,9 +425,13 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
-                    "short_id": ""
+                    "public_key": "FCg2XiFJrpH-2XlELSSSyEC7zkeW29HOgp4rfrqXEAI",
+                    "short_id": "123abc"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "xyz"
             }
         },
         {

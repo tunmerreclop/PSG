@@ -93,6 +93,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [5]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [56]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [60]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -155,9 +157,10 @@
                 "🇺🇸 US | 🔓 VLESS | @v2raying [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [12]",
-                "🇳🇱 NL | 🔒 VLESS | @v2rayopen [15]",
+                "🇳🇱 NL | 🔒 VLESS | @v2rayopen [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raytg [55]",
                 "🇫🇷 FR | 🔒 VLESS | @v2rayvpn2 [2]",
+                "🇺🇸 US | 🔓 VLESS | @vmesc [19]",
                 "🚩 CF | 🔓 VLESS | @vmesskhodam [2]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [9]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [12]",
@@ -173,6 +176,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [5]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [56]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [60]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -235,9 +240,10 @@
                 "🇺🇸 US | 🔓 VLESS | @v2raying [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [12]",
-                "🇳🇱 NL | 🔒 VLESS | @v2rayopen [15]",
+                "🇳🇱 NL | 🔒 VLESS | @v2rayopen [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raytg [55]",
                 "🇫🇷 FR | 🔒 VLESS | @v2rayvpn2 [2]",
+                "🇺🇸 US | 🔓 VLESS | @vmesc [19]",
                 "🚩 CF | 🔓 VLESS | @vmesskhodam [2]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [9]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [12]",
@@ -335,6 +341,38 @@
             "uuid": "5deb851a-3771-4adc-e4e8-e33b5e4ae81f",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [56]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "fe45b824-d149-44f6-95b9-96ba5f8a00d1",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [60]",
+            "type": "vless",
+            "server": "207.154.240.185",
+            "server_port": 443,
+            "uuid": "e4a4438f-585b-4555-b8e3-f032def5819c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "PxUNgm0eZte9F8f8ntMTADWX-37SzRBvlLGLvlOH9lo",
+                    "short_id": ""
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
@@ -1334,7 +1372,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @v2rayopen [15]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @v2rayopen [14]",
             "type": "vless",
             "server": "151.101.207.6",
             "server_port": 443,
@@ -1391,6 +1429,15 @@
                     "fingerprint": "chrome"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [19]",
+            "type": "vless",
+            "server": "151.101.0.0",
+            "server_port": 80,
+            "uuid": "TELEGRAM-CONFiGLiNE-75",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @vmesskhodam [2]",
