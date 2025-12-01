@@ -118,9 +118,9 @@
                 "🚩 CF | 🔓 VMESS | @red2ray [12]",
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
-                "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [5]",
+                "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [4]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "❔ XX | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -161,9 +161,9 @@
                 "🚩 CF | 🔓 VMESS | @red2ray [12]",
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
-                "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [5]",
+                "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [4]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "❔ XX | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -605,7 +605,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [5]",
+            "tag": "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [4]",
             "type": "vmess",
             "server": "57.129.28.212",
             "server_port": 443,
@@ -639,27 +639,18 @@
             "alter_id": 0
         },
         {
-            "tag": "❔ XX | 🔒 VMESS | @v2ray_free_conf [19]",
+            "tag": "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [20]",
             "type": "vmess",
-            "server": "cf-lt.sharecentre.online",
-            "server_port": 443,
-            "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
+            "server": "103.113.68.233",
+            "server_port": 80,
+            "uuid": "fddb3781-7e15-4731-a933-94db110b4bbc",
             "security": "auto",
             "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "us-dp2.sharecentre.online",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/shirker",
+                "path": "/vmess",
                 "headers": {
-                    "Host": "us-dp2.sharecentre.online"
+                    "Host": ""
                 }
             }
         },
