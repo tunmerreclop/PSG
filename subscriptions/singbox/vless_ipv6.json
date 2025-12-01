@@ -92,6 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔓 VLESS | @father_vpn [2]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
@@ -116,6 +117,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔓 VLESS | @father_vpn [2]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
@@ -212,6 +214,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
+            "type": "vless",
+            "server": "2a05:f480:1800:2187:5400:5ff:fecb:2261",
+            "server_port": 443,
+            "uuid": "e90f7fe0-1566-422d-a36a-1c59c0fa1272",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tHlo88-LL3c7V3eU49SBhwSVxVU1qMyZX7l9wxWZN1s",
+                    "short_id": "ec"
                 }
             }
         },
