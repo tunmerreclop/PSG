@@ -118,11 +118,9 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [11]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [13]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
-                "🚩 CF | 🔓 VLESS | @bored_vpn [7]",
+                "🚩 CF | 🔓 VLESS | @bored_vpn [6]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇸🇪 SE | 🔓 VLESS | @config_proxy [43]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [49]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [51]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [42]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -191,7 +189,7 @@
                 "🚩 CF | 🔓 VLESS | @flyv2ray [9]",
                 "🚩 CF | 🔒 VLESS | @flyv2ray [12]",
                 "🇳🇱 NL | 🔒 VLESS | @flyv2ray [16]",
-                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [2]",
+                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [1]",
                 "❔ XX | 🔓 VLESS | @freeconfigsplus [9]",
                 "❔ XX | 🔒 VLESS | @freev2flyng [4]",
                 "❔ XX | 🔒 VLESS | @freev2flyng [5]",
@@ -699,11 +697,9 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [11]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [13]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
-                "🚩 CF | 🔓 VLESS | @bored_vpn [7]",
+                "🚩 CF | 🔓 VLESS | @bored_vpn [6]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇸🇪 SE | 🔓 VLESS | @config_proxy [43]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [49]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [51]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [42]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -772,7 +768,7 @@
                 "🚩 CF | 🔓 VLESS | @flyv2ray [9]",
                 "🚩 CF | 🔒 VLESS | @flyv2ray [12]",
                 "🇳🇱 NL | 🔒 VLESS | @flyv2ray [16]",
-                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [2]",
+                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [1]",
                 "❔ XX | 🔓 VLESS | @freeconfigsplus [9]",
                 "❔ XX | 🔒 VLESS | @freev2flyng [4]",
                 "❔ XX | 🔒 VLESS | @freev2flyng [5]",
@@ -1800,7 +1796,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @bored_vpn [7]",
+            "tag": "🚩 CF | 🔓 VLESS | @bored_vpn [6]",
             "type": "vless",
             "server": "am288.amin-1.ir",
             "server_port": 2082,
@@ -1836,45 +1832,29 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔓 VLESS | @config_proxy [43]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [42]",
             "type": "vless",
-            "server": "happy-gamma-green-quantum-wild.dlcnamatike7.com",
-            "server_port": 45853,
-            "uuid": "14385f91-2785-4962-98ce-708da1484813",
+            "server": "speedtest.net",
+            "server_port": 443,
+            "uuid": "fb1a3126-251f-4e89-b94f-f2ef5621c4c0",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/admin",
                 "headers": {
-                    "Host": "happy-gamma-green-quantum-wild.dlcnamatike7.com"
+                    "Host": "speedtest.net"
                 }
             }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [49]",
-            "type": "vless",
-            "server": "test2.amin8263.ir",
-            "server_port": 2095,
-            "uuid": "a4cfd237-45de-4a29-9b35-39b4ccf9fb46",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam2F@XpnTeam/@XpnTeam?ed=2048@XpnTeam?ed=2048@XpnTeam?ed=2048",
-                "headers": {
-                    "Host": "test2.amin8263.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [51]",
-            "type": "vless",
-            "server": "zowe.ir",
-            "server_port": 10100,
-            "uuid": "a4192042-8787-44a2-a43f-a133e71bc1d3",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -3137,7 +3117,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @free1_vpn [2]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @free1_vpn [1]",
             "type": "vless",
             "server": "shadowshaman.fonixapp.org",
             "server_port": 39321,

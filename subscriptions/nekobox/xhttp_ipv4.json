@@ -80,10 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @bored_vpn [10]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [48]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [54]",
+                "🇺🇸 US | 🔓 VLESS | @bored_vpn [9]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [33]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [39]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -161,10 +160,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @bored_vpn [10]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [48]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [54]",
+                "🇺🇸 US | 🔓 VLESS | @bored_vpn [9]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [33]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [39]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -322,7 +320,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @bored_vpn [10]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @bored_vpn [9]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
@@ -331,45 +329,36 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [48]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "ae3c6fbc-7f93-4044-92f2-8fd106bf5c01",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
-            "type": "vless",
-            "server": "51.77.70.198",
-            "server_port": 1122,
-            "uuid": "c300682a-344d-4175-944b-8bfb0c504ce7",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.slideshare.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "4iCkO1B_tdvJY7x_v9izvkoNDfdGIFiL2LQX2Nqv5RI",
-                    "short_id": "4c7b0ea36fc7f0c4"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [54]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [33]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "9b4ad0fd-0b08-45de-d24d-57e76c1b1693",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [39]",
+            "type": "vless",
+            "server": "65.109.198.250",
+            "server_port": 455,
+            "uuid": "37222513-a689-4649-b7fb-671eee5fc629",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "zSmogGO_DvTO6yWUPQmcDvCmeQlMmUOShXlhgO2Y-x0",
+                    "short_id": "ba848d013f3aa0"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
