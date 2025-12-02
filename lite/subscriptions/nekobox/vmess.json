@@ -107,7 +107,8 @@
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇻🇳 VN | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇸🇪 SE | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -149,7 +150,8 @@
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇻🇳 VN | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇸🇪 SE | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -613,18 +615,34 @@
             "alter_id": 0
         },
         {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [20]",
+            "tag": "🇻🇳 VN | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
-            "server": "814047e3-sv2sg0-t09t13-z7a1.hk3.p5pv.com",
-            "server_port": 80,
-            "uuid": "3bd247a8-993e-11ec-a8bf-f23c91cfbbc9",
+            "server": "161.248.30.3",
+            "server_port": 20086,
+            "uuid": "1006a928-2021-4a3b-beb5-d5853c6281c5",
             "security": "auto",
-            "alter_id": 2,
+            "alter_id": 0,
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "814047e3-sv2sg0-t09t13-z7a1.hk3.p5pv.com"
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪 SE | 🔓 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "185.146.173.25",
+            "server_port": 80,
+            "uuid": "de579858-98f4-428f-859c-7eecd985b9de",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
