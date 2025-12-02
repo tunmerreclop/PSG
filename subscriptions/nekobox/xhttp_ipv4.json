@@ -81,6 +81,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [10]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [37]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -160,6 +162,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [10]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [37]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -323,6 +327,33 @@
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "de5e7c65-d314-4d8b-e036-6c88e75d2c01",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [37]",
+            "type": "vless",
+            "server": "46.151.26.197",
+            "server_port": 443,
+            "uuid": "53958b8e-8fa9-4566-a7d4-0f81611d7dbf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "newser3.ultimateserv.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [45]",
+            "type": "vless",
+            "server": "151.101.0.0",
+            "server_port": 80,
+            "uuid": "TELEGRAM-CONFiGLiNE-76",
             "flow": "",
             "packet_encoding": "xudp"
         },
