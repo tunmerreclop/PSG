@@ -104,8 +104,8 @@
                 "🚩 CF | 🔓 VMESS | @buffalo_vpn [4]",
                 "❔ XX | 🔓 VMESS | @buffalo_vpn [5]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🚩 CF | 🔓 VMESS | @config_proxy [42]",
-                "🇩🇪 DE | 🔓 VMESS | @config_proxy [48]",
+                "🇩🇪 DE | 🔓 VMESS | @config_proxy [36]",
+                "🇺🇸 US | 🔓 VMESS | @config_proxy [44]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [5]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -146,8 +146,8 @@
                 "🚩 CF | 🔓 VMESS | @freev2rays [20]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "❔ XX | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "❔ XX | 🔓 VMESS | @hope_net [13]",
-                "🚩 CF | 🔓 VMESS | @hope_net [15]",
+                "❔ XX | 🔓 VMESS | @hope_net [11]",
+                "🚩 CF | 🔓 VMESS | @hope_net [13]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [1]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [2]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [3]",
@@ -338,8 +338,8 @@
                 "🚩 CF | 🔓 VMESS | @buffalo_vpn [4]",
                 "❔ XX | 🔓 VMESS | @buffalo_vpn [5]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🚩 CF | 🔓 VMESS | @config_proxy [42]",
-                "🇩🇪 DE | 🔓 VMESS | @config_proxy [48]",
+                "🇩🇪 DE | 🔓 VMESS | @config_proxy [36]",
+                "🇺🇸 US | 🔓 VMESS | @config_proxy [44]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [5]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -380,8 +380,8 @@
                 "🚩 CF | 🔓 VMESS | @freev2rays [20]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "❔ XX | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "❔ XX | 🔓 VMESS | @hope_net [13]",
-                "🚩 CF | 🔓 VMESS | @hope_net [15]",
+                "❔ XX | 🔓 VMESS | @hope_net [11]",
+                "🚩 CF | 🔓 VMESS | @hope_net [13]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [1]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [2]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [3]",
@@ -829,27 +829,20 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @config_proxy [42]",
-            "type": "vmess",
-            "server": "172.67.75.194",
-            "server_port": 2086,
-            "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/github.com/Alvin9999",
-                "headers": {
-                    "Host": "172.67.75.194"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @config_proxy [48]",
+            "tag": "🇩🇪 DE | 🔓 VMESS | @config_proxy [36]",
             "type": "vmess",
             "server": "cpanel.navar1.ir",
             "server_port": 100,
             "uuid": "26402bc7-7895-4dd0-ae6e-151a00c71145",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @config_proxy [44]",
+            "type": "vmess",
+            "server": "216.167.49.157",
+            "server_port": 36108,
+            "uuid": "ac9340c1-61d7-47bd-c5a2-9b888857dec6",
             "security": "auto",
             "alter_id": 0
         },
@@ -1654,7 +1647,7 @@
             "alter_id": 0
         },
         {
-            "tag": "❔ XX | 🔓 VMESS | @hope_net [13]",
+            "tag": "❔ XX | 🔓 VMESS | @hope_net [11]",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 1080,
@@ -1663,7 +1656,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @hope_net [15]",
+            "tag": "🚩 CF | 🔓 VMESS | @hope_net [13]",
             "type": "vmess",
             "server": "104.16.68.38",
             "server_port": 2082,
