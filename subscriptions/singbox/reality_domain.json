@@ -95,7 +95,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [52]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [64]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -163,6 +163,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_youtube [5]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇷🇺 RU | 🔒 VLESS | @v2raych [9]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇫🇮 FI | 🔒 VLESS | @v2rayngconfiig [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [10]",
@@ -184,7 +185,6 @@
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [10]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [11]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [12]",
-                "🇺🇸 US | 🔒 VLESS | @vpnowl [13]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
             "tag": "proxy",
@@ -199,7 +199,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [52]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [64]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -267,6 +267,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_youtube [5]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇷🇺 RU | 🔒 VLESS | @v2raych [9]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇫🇮 FI | 🔒 VLESS | @v2rayngconfiig [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [10]",
@@ -288,7 +289,6 @@
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [10]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [11]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [12]",
-                "🇺🇸 US | 🔒 VLESS | @vpnowl [13]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
             "tag": "auto",
@@ -453,16 +453,16 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [52]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [64]",
             "type": "vless",
-            "server": "ru4.ultima.foundation",
-            "server_port": 8443,
-            "uuid": "2dfa740c-8069-4993-8b96-c3e5dc540593",
+            "server": "gozarfreebot.niniweblog.org",
+            "server_port": 1532,
+            "uuid": "970d1329-6a6f-4453-a5ca-a270c3fdac5d",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "sun6-21.userapi.com",
+                "server_name": "refersion.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -470,8 +470,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "FcZ6-LZS5HHqAJ8YwFV_Gu_WxrMuylqxYjBu-1CLVRI",
-                    "short_id": ""
+                    "public_key": "je4uYCrtNGS3LBJfenTpUCN0SZ6TVFfXLzvgzlf5SFw",
+                    "short_id": "c84890a0dbd04aa9"
                 }
             }
         },
@@ -2100,6 +2100,29 @@
             }
         },
         {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @v2raych [9]",
+            "type": "vless",
+            "server": "yt.connect-iskra.ru",
+            "server_port": 8443,
+            "uuid": "fdc3a9ca-1b77-4b06-869c-43982db07c9f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "shiftline.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "qq"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "QjcIcRxF6rLpMImGD9wUYmeftFwpkuwLKm9nChbD50A",
+                    "short_id": "60a0c1f0f4c9ca63"
+                }
+            }
+        },
+        {
             "tag": "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
             "type": "vless",
             "server": "nl01-vlr01.tcp-reset-club.net",
@@ -2405,33 +2428,6 @@
         {
             "tag": "🇺🇸 US | 🔒 VLESS | @vpnowl [5]",
             "type": "vless",
-            "server": "874125.3n95278zh9x6i4zi8r0r.curfuffled.com",
-            "server_port": 443,
-            "uuid": "1527f869-a6af-415c-a089-a2259030a20e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "cGsFvA6EJ_WutI3kRa5vdi0Qtgos6oa95lTn7oN7Pzw",
-                    "short_id": "519b033b94"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl"
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @vpnowl [6]",
-            "type": "vless",
             "server": "584151.h4pz24a4u060s4.curfuffled.com",
             "server_port": 443,
             "uuid": "f625a44b-0f71-4850-87c4-cef2da9d1a8b",
@@ -2457,7 +2453,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @vpnowl [7]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @vpnowl [6]",
             "type": "vless",
             "server": "874125.3n95278zh9x6i4zi8r0r.curfuffled.com",
             "server_port": 443,
@@ -2484,7 +2480,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @vpnowl [8]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @vpnowl [7]",
             "type": "vless",
             "server": "874125.3n95278zh9x6i4zi8r0r.curfuffled.com",
             "server_port": 443,
@@ -2511,7 +2507,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @vpnowl [9]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @vpnowl [8]",
             "type": "vless",
             "server": "wndisdkvwmqyod.curfuffled.com",
             "server_port": 443,
@@ -2538,7 +2534,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @vpnowl [10]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @vpnowl [9]",
             "type": "vless",
             "server": "wndisdkvwmqyod.curfuffled.com",
             "server_port": 443,
@@ -2565,7 +2561,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @vpnowl [11]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @vpnowl [10]",
             "type": "vless",
             "server": "wndisdkvwmqyod.curfuffled.com",
             "server_port": 443,
@@ -2592,7 +2588,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @vpnowl [12]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @vpnowl [11]",
             "type": "vless",
             "server": "wndisdkvwmqyod.curfuffled.com",
             "server_port": 443,
@@ -2619,7 +2615,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @vpnowl [13]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @vpnowl [12]",
             "type": "vless",
             "server": "wndisdkvwmqyod.curfuffled.com",
             "server_port": 443,

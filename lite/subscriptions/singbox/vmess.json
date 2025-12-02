@@ -110,7 +110,6 @@
                 "🇨🇳 CN | 🔓 VMESS | @mftizi [20]",
                 "🇸🇬 SG | 🔓 VMESS | @mt_proxy [6]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
-                "🇩🇪 DE | 🔓 VMESS | @netfreedom0 [18]",
                 "🚩 CF | 🔓 VMESS | @nn_vpn [2]",
                 "❔ XX | 🔓 VMESS | @pydriclub [4]",
                 "🚩 CF | 🔒 VMESS | @qeshmserver [11]",
@@ -121,8 +120,8 @@
                 "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🚩 CF | 🔒 VMESS | @v2ray_free_conf [18]",
-                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -155,7 +154,6 @@
                 "🇨🇳 CN | 🔓 VMESS | @mftizi [20]",
                 "🇸🇬 SG | 🔓 VMESS | @mt_proxy [6]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
-                "🇩🇪 DE | 🔓 VMESS | @netfreedom0 [18]",
                 "🚩 CF | 🔓 VMESS | @nn_vpn [2]",
                 "❔ XX | 🔓 VMESS | @pydriclub [4]",
                 "🚩 CF | 🔒 VMESS | @qeshmserver [11]",
@@ -166,8 +164,8 @@
                 "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🚩 CF | 🔒 VMESS | @v2ray_free_conf [18]",
-                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -502,22 +500,6 @@
             "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @netfreedom0 [18]",
-            "type": "vmess",
-            "server": "5.231.56.98",
-            "server_port": 3721,
-            "uuid": "5f2f0765-f331-4d1e-8560-d2fb533dd6fe",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "🚩 CF | 🔓 VMESS | @nn_vpn [2]",
             "type": "vmess",
             "server": "www.speedtest.net",
@@ -645,22 +627,6 @@
         {
             "tag": "🚩 CF | 🔒 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
-            "server": "547.rtxconfigz.shop",
-            "server_port": 8080,
-            "uuid": "44e57485-eccc-46ef-808f-cd17ac810018",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/@Malinda6104",
-                "headers": {
-                    "Host": "547.rtxconfigz.shop"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
-            "type": "vmess",
             "server": "speed.cloudflare.com",
             "server_port": 443,
             "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
@@ -684,7 +650,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [20]",
+            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
             "server": "91.107.185.224",
             "server_port": 443,
@@ -700,6 +666,15 @@
                     "fingerprint": "chrome"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "205.234.231.129",
+            "server_port": 13998,
+            "uuid": "caabc6c0-4e40-4b0e-c65d-28d34f8a9492",
+            "security": "auto",
+            "alter_id": 0
         },
         {
             "tag": "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
