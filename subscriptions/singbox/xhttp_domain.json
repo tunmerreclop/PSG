@@ -95,6 +95,7 @@
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [21]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [3]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -128,7 +129,7 @@
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayvpn2 [5]",
-                "🇫🇷 FR | 🔒 VLESS | @vmesc [13]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [13]",
                 "🚩 CF | 🔓 VLESS | @vmesc [20]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [1]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
@@ -145,6 +146,7 @@
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [21]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [3]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -178,7 +180,7 @@
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayvpn2 [5]",
-                "🇫🇷 FR | 🔒 VLESS | @vmesc [13]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [13]",
                 "🚩 CF | 🔓 VLESS | @vmesc [20]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [1]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
@@ -293,6 +295,24 @@
             "uuid": "2d1d0b90-0b2f-406c-bae1-70cee22d728d",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [21]",
+            "type": "vless",
+            "server": "gr-raiv2mmr-telegram.sliplane.app",
+            "server_port": 443,
+            "uuid": "5c9b6087-f955-4506-9c1d-67a5aae44bc9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "gr-raiv2mmr-telegram.mmrknight.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [3]",
@@ -820,7 +840,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @vmesc [13]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [13]",
             "type": "vless",
             "server": "statue.lnmarketplace.net",
             "server_port": 443,
