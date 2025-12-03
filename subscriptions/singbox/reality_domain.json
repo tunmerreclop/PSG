@@ -95,9 +95,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇪🇸 ES | 🔒 VLESS | @config_proxy [32]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [33]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [34]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [37]",
+                "🇮🇹 IT | 🔒 VLESS | @config_proxy [38]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -200,9 +199,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇪🇸 ES | 🔒 VLESS | @config_proxy [32]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [33]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [34]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [37]",
+                "🇮🇹 IT | 🔒 VLESS | @config_proxy [38]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -455,72 +453,57 @@
             }
         },
         {
-            "tag": "🇪🇸 ES | 🔒 VLESS | @config_proxy [32]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [37]",
             "type": "vless",
-            "server": "tunnyl.ru",
-            "server_port": 8443,
-            "uuid": "e6702dc3-ef74-458b-bd55-9dd7be2f3801",
+            "server": "xtlsresponse.revolutiontime.vigilante.ir",
+            "server_port": 6842,
+            "uuid": "80fff33c-9cda-488e-aba4-3b2657969847",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "google.com",
+                "server_name": "slack.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "B7oEk3bsUoMrpkpIcTsCQnZour3qfbgUuhOk9aWWbFk",
-                    "short_id": "b88841a3"
+                    "public_key": "VhtP5s6yTV3jLOC0i-W_mXT8-H-sJJyo9BmGo6F6dW4",
+                    "short_id": "934e93fea74aeefe"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs?ed=2048"
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [33]",
+            "tag": "🇮🇹 IT | 🔒 VLESS | @config_proxy [38]",
             "type": "vless",
-            "server": "hield.ru",
-            "server_port": 4425,
-            "uuid": "66ad8984-dcbd-4a30-ae65-a1c6009679b7",
+            "server": "xtls32backend.vigilante.ir",
+            "server_port": 6842,
+            "uuid": "80fff33c-9cda-488e-aba4-3b2657969847",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "google.com",
+                "server_name": "slack.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "I8C10gt92B_XeMMSsCIaePHYu2O1IE5hz0x2VKS7tzo",
-                    "short_id": "e8"
+                    "public_key": "VhtP5s6yTV3jLOC0i-W_mXT8-H-sJJyo9BmGo6F6dW4",
+                    "short_id": "934e93fea74aeefe"
                 }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [34]",
-            "type": "vless",
-            "server": "world-of.ru",
-            "server_port": 45006,
-            "uuid": "1858b02e-956c-49f0-819e-728d1ed43006",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "odeg3o6NSJbdTwtXqd6QZvbkiX5COv1Q41a7ciVELio",
-                    "short_id": "0f704e"
-                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs?ed=2048"
             }
         },
         {
