@@ -86,6 +86,7 @@
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
+                "🇳🇱 NL | 🔒 VLESS | @orange_vpns [17]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayvpn2 [8]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
@@ -106,6 +107,7 @@
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
+                "🇳🇱 NL | 🔒 VLESS | @orange_vpns [17]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayvpn2 [8]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
@@ -351,6 +353,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar"
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @orange_vpns [17]",
+            "type": "vless",
+            "server": "nl-3.atlanta-internet.ru",
+            "server_port": 8443,
+            "uuid": "669be00c-67b4-4b87-b08f-311c45abced2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "pingless.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "FscaEWx0paNBzL7GWHj4Fll7Xc-KxdhKgTthBAnByWI",
+                    "short_id": ""
+                }
             }
         },
         {
