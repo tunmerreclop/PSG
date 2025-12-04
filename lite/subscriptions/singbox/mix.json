@@ -189,8 +189,9 @@
                 "🇮🇷 IR | 🔓 VLESS | @narcod_ping [15]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "❔ XX | 🔒 VLESS | @netazadchannel [4]",
-                "🇳🇱 NL | 🔒 SS | @netfreedom0 [19]",
-                "🇺🇸 US | 🔒 SS | @netfreedom0 [20]",
+                "🇳🇱 NL | 🔒 SS | @netfreedom0 [18]",
+                "🇺🇸 US | 🔒 SS | @netfreedom0 [19]",
+                "🇦🇹 AT | 🔒 VLESS | @netfreedom0 [20]",
                 "🚩 CF | 🔓 VMESS | @nn_vpn [2]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
@@ -239,9 +240,8 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [18]",
-                "🇹🇷 TR | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇹🇷 TR | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
@@ -383,8 +383,9 @@
                 "🇮🇷 IR | 🔓 VLESS | @narcod_ping [15]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "❔ XX | 🔒 VLESS | @netazadchannel [4]",
-                "🇳🇱 NL | 🔒 SS | @netfreedom0 [19]",
-                "🇺🇸 US | 🔒 SS | @netfreedom0 [20]",
+                "🇳🇱 NL | 🔒 SS | @netfreedom0 [18]",
+                "🇺🇸 US | 🔒 SS | @netfreedom0 [19]",
+                "🇦🇹 AT | 🔒 VLESS | @netfreedom0 [20]",
                 "🚩 CF | 🔓 VMESS | @nn_vpn [2]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
@@ -433,9 +434,8 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [18]",
-                "🇹🇷 TR | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇹🇷 TR | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
@@ -2063,7 +2063,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 SS | @netfreedom0 [19]",
+            "tag": "🇳🇱 NL | 🔒 SS | @netfreedom0 [18]",
             "type": "shadowsocks",
             "server": "82.38.31.199",
             "server_port": 8080,
@@ -2071,12 +2071,35 @@
             "password": "k1dBOmOB4oqi7Ump37a1bQ"
         },
         {
-            "tag": "🇺🇸 US | 🔒 SS | @netfreedom0 [20]",
+            "tag": "🇺🇸 US | 🔒 SS | @netfreedom0 [19]",
             "type": "shadowsocks",
             "server": "45.87.175.158",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "k1dBOmOB4oqi7Ump37a1bQ"
+        },
+        {
+            "tag": "🇦🇹 AT | 🔒 VLESS | @netfreedom0 [20]",
+            "type": "vless",
+            "server": "5.181.21.72",
+            "server_port": 443,
+            "uuid": "e4b8df56-b680-4a34-ab47-5bf5738ed718",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "v9CxKfIPtkKH1cTGKEer-1i-3JL31vZPpPl2Ujnbjh8",
+                    "short_id": "85225c27630d023f"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔓 VMESS | @nn_vpn [2]",
@@ -2791,32 +2814,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VMESS | @v2ray_free_conf [18]",
-            "type": "vmess",
-            "server": "d7t3ny.keeoomboom.de",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "d7t3ny.keeoomboom.de",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/video/1jcyq.m3u8",
-                "headers": {
-                    "Host": "d7t3ny.keeoomboom.de"
-                }
-            }
-        },
-        {
-            "tag": "🇹🇷 TR | 🔓 VMESS | @v2ray_free_conf [19]",
+            "tag": "🇹🇷 TR | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
             "server": "46.31.77.4",
             "server_port": 49367,
@@ -2825,7 +2823,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [20]",
+            "tag": "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
             "server": "92.243.64.36",
             "server_port": 443,

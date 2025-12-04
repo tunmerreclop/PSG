@@ -120,6 +120,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @mtproxy22_v2ray [15]",
                 "🇮🇷 IR | 🔓 VLESS | @narcod_ping [14]",
                 "🇮🇷 IR | 🔓 VLESS | @narcod_ping [15]",
+                "🇦🇹 AT | 🔒 VLESS | @netfreedom0 [20]",
                 "🇮🇷 IR | 🔓 VLESS | @orange_vpns [14]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [11]",
                 "🇩🇪 DE | 🔓 VLESS | @proxycrone [6]",
@@ -262,6 +263,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @mtproxy22_v2ray [15]",
                 "🇮🇷 IR | 🔓 VLESS | @narcod_ping [14]",
                 "🇮🇷 IR | 🔓 VLESS | @narcod_ping [15]",
+                "🇦🇹 AT | 🔒 VLESS | @netfreedom0 [20]",
                 "🇮🇷 IR | 🔓 VLESS | @orange_vpns [14]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [11]",
                 "🇩🇪 DE | 🔓 VLESS | @proxycrone [6]",
@@ -921,6 +923,29 @@
             "uuid": "@narcod_ping",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇦🇹 AT | 🔒 VLESS | @netfreedom0 [20]",
+            "type": "vless",
+            "server": "5.181.21.72",
+            "server_port": 443,
+            "uuid": "e4b8df56-b680-4a34-ab47-5bf5738ed718",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "v9CxKfIPtkKH1cTGKEer-1i-3JL31vZPpPl2Ujnbjh8",
+                    "short_id": "85225c27630d023f"
+                }
+            }
         },
         {
             "tag": "🇮🇷 IR | 🔓 VLESS | @orange_vpns [14]",
