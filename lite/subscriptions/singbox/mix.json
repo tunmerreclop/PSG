@@ -199,9 +199,9 @@
                 "🚩 CF | 🔓 VLESS | @orange_vpns [16]",
                 "🇳🇱 NL | 🔒 SS | @outlinereleasedkey [15]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [11]",
+                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
+                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
-                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [17]",
-                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [18]",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
                 "🇮🇷 IR | 🔓 VLESS | @proxycrone [4]",
                 "🚩 CF | 🔓 VLESS | @proxycrone [5]",
@@ -238,7 +238,8 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [18]",
+                "❔ XX | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
@@ -250,7 +251,6 @@
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [61]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [62]",
-                "🇳🇱 NL | 🔒 SS | @v2rayvpn2 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayvpn2 [7]",
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [12]",
@@ -391,9 +391,9 @@
                 "🚩 CF | 🔓 VLESS | @orange_vpns [16]",
                 "🇳🇱 NL | 🔒 SS | @outlinereleasedkey [15]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [11]",
+                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
+                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
-                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [17]",
-                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [18]",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
                 "🇮🇷 IR | 🔓 VLESS | @proxycrone [4]",
                 "🚩 CF | 🔓 VLESS | @proxycrone [5]",
@@ -430,7 +430,8 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [18]",
+                "❔ XX | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
@@ -442,7 +443,6 @@
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [61]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [62]",
-                "🇳🇱 NL | 🔒 SS | @v2rayvpn2 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayvpn2 [7]",
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [12]",
@@ -2217,23 +2217,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
-            "type": "trojan",
-            "server": "63.180.93.12",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 TROJAN | @privatevpns [17]",
+            "tag": "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
             "type": "trojan",
             "server": "13.39.61.165",
             "server_port": 22222,
@@ -2249,9 +2233,25 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 TROJAN | @privatevpns [18]",
+            "tag": "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
             "type": "trojan",
             "server": "35.181.195.31",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
+            "type": "trojan",
+            "server": "35.156.80.43",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "tls": {
@@ -2762,7 +2762,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
+            "tag": "🚩 CF | 🔒 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
             "server": "dqhh36.teeoomboom.de",
             "server_port": 443,
@@ -2784,6 +2784,19 @@
                 "headers": {
                     "Host": "dqhh36.teeoomboom.de"
                 }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "s3.ghostrke.sbs",
+            "server_port": 8880,
+            "uuid": "b58837cc-795f-49f0-a971-ba76aad9f907",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Ghostray_NG"
             }
         },
         {
@@ -2952,14 +2965,6 @@
                     "Host": "tgju.org"
                 }
             }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 SS | @v2rayvpn2 [6]",
-            "type": "shadowsocks",
-            "server": "82.38.31.191",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "k1dBOmOB4oqi7Ump37a1bQ"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayvpn2 [7]",
