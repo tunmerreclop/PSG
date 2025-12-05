@@ -132,10 +132,9 @@
                 "🚩 CF | 🔓 VMESS | @freev2rays [20]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "❔ XX | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🇺🇸 US | 🔒 VMESS | @hope_net [6]",
-                "🚩 CF | 🔒 VMESS | @hope_net [10]",
-                "🚩 CF | 🔓 VMESS | @hope_net [12]",
-                "❔ XX | 🔓 VMESS | @hope_net [13]",
+                "🚩 CF | 🔒 VMESS | @hope_net [8]",
+                "🚩 CF | 🔓 VMESS | @hope_net [10]",
+                "❔ XX | 🔓 VMESS | @hope_net [11]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [1]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [2]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [3]",
@@ -268,6 +267,7 @@
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [20]",
                 "🇵🇱 PL | 🔒 VMESS | @v2ray_youtube [2]",
+                "🚩 CF | 🔒 VMESS | @v2raych [19]",
                 "🇫🇮 FI | 🔓 VMESS | @v2rayng3 [2]",
                 "❔ XX | 🔓 VMESS | @v2rayng3 [6]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [1]",
@@ -368,10 +368,9 @@
                 "🚩 CF | 🔓 VMESS | @freev2rays [20]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "❔ XX | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🇺🇸 US | 🔒 VMESS | @hope_net [6]",
-                "🚩 CF | 🔒 VMESS | @hope_net [10]",
-                "🚩 CF | 🔓 VMESS | @hope_net [12]",
-                "❔ XX | 🔓 VMESS | @hope_net [13]",
+                "🚩 CF | 🔒 VMESS | @hope_net [8]",
+                "🚩 CF | 🔓 VMESS | @hope_net [10]",
+                "❔ XX | 🔓 VMESS | @hope_net [11]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [1]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [2]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [3]",
@@ -504,6 +503,7 @@
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [20]",
                 "🇵🇱 PL | 🔒 VMESS | @v2ray_youtube [2]",
+                "🚩 CF | 🔒 VMESS | @v2raych [19]",
                 "🇫🇮 FI | 🔓 VMESS | @v2rayng3 [2]",
                 "❔ XX | 🔓 VMESS | @v2rayng3 [6]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [1]",
@@ -1609,32 +1609,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🔒 VMESS | @hope_net [6]",
-            "type": "vmess",
-            "server": "151.101.194.219",
-            "server_port": 443,
-            "uuid": "a679d158-21cc-4a88-b430-a0fa09c28dd1",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "speedtest.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/ws/?ed=2048",
-                "headers": {
-                    "Host": "speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VMESS | @hope_net [10]",
+            "tag": "🚩 CF | 🔒 VMESS | @hope_net [8]",
             "type": "vmess",
             "server": "172.64.103.211",
             "server_port": 443,
@@ -1659,7 +1634,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @hope_net [12]",
+            "tag": "🚩 CF | 🔓 VMESS | @hope_net [10]",
             "type": "vmess",
             "server": "104.16.68.38",
             "server_port": 2095,
@@ -1675,7 +1650,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VMESS | @hope_net [13]",
+            "tag": "❔ XX | 🔓 VMESS | @hope_net [11]",
             "type": "vmess",
             "server": "cfcdn1.sanfencdn9.com",
             "server_port": 8880,
@@ -3833,6 +3808,31 @@
                 "path": "/linkvws",
                 "headers": {
                     "Host": "yichueng.org"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VMESS | @v2raych [19]",
+            "type": "vmess",
+            "server": "104.21.24.170",
+            "server_port": 443,
+            "uuid": "b321fd5d-e6ec-4293-a644-164e3885f52e",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "adenc36v.xtooltech.cfd",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkws",
+                "headers": {
+                    "Host": "adenc36v.xtooltech.cfd"
                 }
             }
         },
