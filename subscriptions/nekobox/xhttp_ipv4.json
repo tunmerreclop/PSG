@@ -128,7 +128,7 @@
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [22]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [24]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [13]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [19]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [11]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -147,7 +147,8 @@
                 "🚩 CF | 🔓 VLESS | @vmesskhodam [2]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [9]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [12]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [7]"
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [6]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -206,7 +207,7 @@
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [22]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [24]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [13]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [19]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [11]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -225,7 +226,8 @@
                 "🚩 CF | 🔓 VLESS | @vmesskhodam [2]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [9]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [12]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [7]"
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [6]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -1103,11 +1105,11 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [19]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [11]",
             "type": "vless",
-            "server": "151.101.0.0",
+            "server": "151.101.3.8",
             "server_port": 80,
-            "uuid": "TELEGRAM-CONFiGLiNE-79",
+            "uuid": "b0c79269-ecef-409e-aafe-58ab4a063bdf",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -1367,11 +1369,20 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [7]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [6]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "cf041b8c-7ec6-43eb-cae4-e8e7b2520164",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
+            "type": "vless",
+            "server": "151.101.0.0",
+            "server_port": 80,
+            "uuid": "TELEGRAM-CONFiGLiNE-79",
             "flow": "",
             "packet_encoding": "xudp"
         }
