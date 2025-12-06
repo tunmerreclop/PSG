@@ -189,9 +189,9 @@
                 "🇺🇸 US | 🔓 VLESS | @orange_vpns [16]",
                 "🇳🇱 NL | 🔒 SS | @outlinereleasedkey [15]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [13]",
-                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]",
+                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
-                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [16]",
+                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
                 "🇮🇷 IR | 🔓 VLESS | @proxycrone [4]",
                 "🚩 CF | 🔓 VLESS | @proxycrone [5]",
@@ -230,8 +230,7 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [22]",
-                "🇧🇷 BR | 🔒 SS | @v2ray_free_conf [23]",
+                "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [22]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
@@ -386,9 +385,9 @@
                 "🇺🇸 US | 🔓 VLESS | @orange_vpns [16]",
                 "🇳🇱 NL | 🔒 SS | @outlinereleasedkey [15]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [13]",
-                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]",
+                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
-                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [16]",
+                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
                 "🇮🇷 IR | 🔓 VLESS | @proxycrone [4]",
                 "🚩 CF | 🔓 VLESS | @proxycrone [5]",
@@ -427,8 +426,7 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [22]",
-                "🇧🇷 BR | 🔒 SS | @v2ray_free_conf [23]",
+                "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [22]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
@@ -2254,23 +2252,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]",
-            "type": "trojan",
-            "server": "18.193.90.253",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
+            "tag": "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
             "type": "trojan",
             "server": "52.47.206.247",
             "server_port": 22222,
@@ -2286,9 +2268,25 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 TROJAN | @privatevpns [16]",
+            "tag": "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
             "type": "trojan",
             "server": "13.37.111.9",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
+            "type": "trojan",
+            "server": "63.181.113.103",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "tls": {
@@ -2821,28 +2819,29 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [22]",
+            "tag": "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [22]",
             "type": "vmess",
-            "server": "185.221.160.125",
-            "server_port": 2052,
-            "uuid": "6066abf1-cdb1-4818-d35a-7c8e0ee90320",
+            "server": "134.195.198.147",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/linkvws",
                 "headers": {
-                    "Host": "185.221.160.125"
+                    "Host": ""
                 }
             }
-        },
-        {
-            "tag": "🇧🇷 BR | 🔒 SS | @v2ray_free_conf [23]",
-            "type": "shadowsocks",
-            "server": "38.54.57.90",
-            "server_port": 990,
-            "method": "chacha20-ietf-poly1305",
-            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
