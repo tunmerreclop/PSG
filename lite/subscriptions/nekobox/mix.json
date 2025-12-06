@@ -186,7 +186,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇳🇱 NL | 🔒 VLESS | @orange_vpns [14]",
                 "🚩 CF | 🔓 VLESS | @orange_vpns [15]",
-                "🇨🇦 CA | 🔓 VLESS | @orange_vpns [16]",
+                "🇺🇸 US | 🔓 VLESS | @orange_vpns [16]",
                 "🇳🇱 NL | 🔒 SS | @outlinereleasedkey [15]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [13]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]",
@@ -230,9 +230,8 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇳🇱 NL | 🔓 VMESS | @v2ray_free_conf [22]",
-                "🇬🇧 GB | 🔓 VMESS | @v2ray_free_conf [23]",
-                "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [24]",
+                "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [22]",
+                "🇧🇷 BR | 🔒 SS | @v2ray_free_conf [23]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
@@ -384,7 +383,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇳🇱 NL | 🔒 VLESS | @orange_vpns [14]",
                 "🚩 CF | 🔓 VLESS | @orange_vpns [15]",
-                "🇨🇦 CA | 🔓 VLESS | @orange_vpns [16]",
+                "🇺🇸 US | 🔓 VLESS | @orange_vpns [16]",
                 "🇳🇱 NL | 🔒 SS | @outlinereleasedkey [15]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [13]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]",
@@ -428,9 +427,8 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇳🇱 NL | 🔓 VMESS | @v2ray_free_conf [22]",
-                "🇬🇧 GB | 🔓 VMESS | @v2ray_free_conf [23]",
-                "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [24]",
+                "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [22]",
+                "🇧🇷 BR | 🔒 SS | @v2ray_free_conf [23]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
@@ -2216,7 +2214,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇨🇦 CA | 🔓 VLESS | @orange_vpns [16]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @orange_vpns [16]",
             "type": "vless",
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
@@ -2823,39 +2821,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔓 VMESS | @v2ray_free_conf [22]",
-            "type": "vmess",
-            "server": "188.42.89.115",
-            "server_port": 2052,
-            "uuid": "6066abf1-cdb1-4818-d35a-7c8e0ee90320",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "188.42.89.115"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔓 VMESS | @v2ray_free_conf [23]",
-            "type": "vmess",
-            "server": "45.85.118.245",
-            "server_port": 2052,
-            "uuid": "6066abf1-cdb1-4818-d35a-7c8e0ee90320",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "45.85.118.245"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [24]",
+            "tag": "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [22]",
             "type": "vmess",
             "server": "185.221.160.125",
             "server_port": 2052,
@@ -2869,6 +2835,14 @@
                     "Host": "185.221.160.125"
                 }
             }
+        },
+        {
+            "tag": "🇧🇷 BR | 🔒 SS | @v2ray_free_conf [23]",
+            "type": "shadowsocks",
+            "server": "38.54.57.90",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
