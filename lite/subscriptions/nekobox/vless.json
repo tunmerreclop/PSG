@@ -128,7 +128,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇺🇸 US | 🔓 VLESS | @vmesc [17]",
                 "🇩🇪 DE | 🔒 VLESS | @vmesc [19]",
-                "🚩 CF | 🔓 VLESS | @vpn_ioss [12]",
                 "❔ XX | 🔓 VLESS | @armod_iran [1]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [15]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
@@ -197,7 +196,7 @@
                 "🚩 CF | 🔒 VLESS | @v2ray1_ng [4]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
-                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
+                "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [61]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [62]",
@@ -211,6 +210,7 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
                 "🚩 CF | 🔓 VLESS | @vmesc [18]",
+                "🚩 CF | 🔒 VLESS | @vpn_ioss [13]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]"
@@ -272,7 +272,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇺🇸 US | 🔓 VLESS | @vmesc [17]",
                 "🇩🇪 DE | 🔒 VLESS | @vmesc [19]",
-                "🚩 CF | 🔓 VLESS | @vpn_ioss [12]",
                 "❔ XX | 🔓 VLESS | @armod_iran [1]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [15]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
@@ -341,7 +340,7 @@
                 "🚩 CF | 🔒 VLESS | @v2ray1_ng [4]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
-                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
+                "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [61]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [62]",
@@ -355,6 +354,7 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
                 "🚩 CF | 🔓 VLESS | @vmesc [18]",
+                "🚩 CF | 🔒 VLESS | @vpn_ioss [13]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]"
@@ -1210,15 +1210,6 @@
                     "short_id": "0ff58d687a4c6c"
                 }
             }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @vpn_ioss [12]",
-            "type": "vless",
-            "server": "190.93.246.89",
-            "server_port": 80,
-            "uuid": "fad329ac-313b-471c-8d94-a6e8f598990e",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @armod_iran [1]",
@@ -2352,7 +2343,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
+            "tag": "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
             "type": "vless",
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
@@ -2601,6 +2592,31 @@
             "uuid": "0c9b80aa-9eb4-4608-da57-ffcef6f24afb",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @vpn_ioss [13]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "jnir-cdn.javidnaman.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/@JavidnamanIran/Javid-SHAH-KingRezaPahlavi/?ed=2560",
+                "headers": {
+                    "Host": "jnir-cdn.javidnaman.com"
+                }
+            }
         },
         {
             "tag": "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
