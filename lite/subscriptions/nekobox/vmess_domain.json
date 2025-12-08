@@ -106,7 +106,8 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "❔ XX | 🔒 VMESS | @v2ray_free_conf [20]",
+                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -148,7 +149,8 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "❔ XX | 🔒 VMESS | @v2ray_free_conf [20]",
+                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -588,18 +590,27 @@
             "alter_id": 0
         },
         {
-            "tag": "❔ XX | 🔒 VMESS | @v2ray_free_conf [20]",
+            "tag": "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
-            "server": "jpwadnca.114514782.xyz",
-            "server_port": 2052,
-            "uuid": "5f9c7bda-33f9-3dd0-bcf5-aca324418e31",
+            "server": "82.198.246.97",
+            "server_port": 180,
+            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 0
+        },
+        {
+            "tag": "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
+            "type": "vmess",
+            "server": "814047e3-sv2sg0-t09t13-z7a1.hk3.p5pv.com",
+            "server_port": 80,
+            "uuid": "3bd247a8-993e-11ec-a8bf-f23c91cfbbc9",
+            "security": "auto",
+            "alter_id": 2,
             "transport": {
                 "type": "ws",
-                "path": "/miaoshen",
+                "path": "/",
                 "headers": {
-                    "Host": "jpwadnca.114514782.xyz"
+                    "Host": "814047e3-sv2sg0-t09t13-z7a1.hk3.p5pv.com"
                 }
             }
         },
