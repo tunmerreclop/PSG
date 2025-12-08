@@ -239,11 +239,11 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇲🇾 MY | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇷🇺 RU | 🔒 SS | @v2ray_free_conf [20]",
+                "❔ XX | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇳🇱 NL | 🔒 SS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
-                "🇮🇪 IE | 🔓 VLESS | @v2ray_vmes [16]",
+                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🇬🇧 GB | 🔒 SS | @v2raybe [7]",
@@ -434,11 +434,11 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇲🇾 MY | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇷🇺 RU | 🔒 SS | @v2ray_free_conf [20]",
+                "❔ XX | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇳🇱 NL | 🔒 SS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
-                "🇮🇪 IE | 🔓 VLESS | @v2ray_vmes [16]",
+                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🇬🇧 GB | 🔒 SS | @v2raybe [7]",
@@ -2795,21 +2795,37 @@
             }
         },
         {
-            "tag": "🇲🇾 MY | 🔓 VMESS | @v2ray_free_conf [18]",
+            "tag": "❔ XX | 🔒 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
-            "server": "45.128.54.84",
-            "server_port": 37313,
-            "uuid": "72feb833-4196-4a70-a3f5-aeb011f7d534",
+            "server": "aq4714.keeoomboom.de",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 0
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "aq4714.keeoomboom.de",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/video/bkhlciz0.m3u8",
+                "headers": {
+                    "Host": "aq4714.keeoomboom.de"
+                }
+            }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 SS | @v2ray_free_conf [20]",
+            "tag": "🇳🇱 NL | 🔒 SS | @v2ray_free_conf [20]",
             "type": "shadowsocks",
-            "server": "5.129.201.43",
-            "server_port": 23256,
+            "server": "5.129.214.186",
+            "server_port": 6403,
             "method": "chacha20-ietf-poly1305",
-            "password": "yALtyAtHfbw1Vu4pqh6wUc"
+            "password": "HWNsKy61qPyoDtrEYEtZuk"
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
@@ -2837,7 +2853,7 @@
             }
         },
         {
-            "tag": "🇮🇪 IE | 🔓 VLESS | @v2ray_vmes [16]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
             "type": "vless",
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
