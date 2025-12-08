@@ -95,8 +95,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "❔ XX | 🔒 VLESS | @config_proxy [56]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -166,6 +164,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_youtube [5]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇬🇧 GB | 🔒 VLESS | @v2rayngconfiig [14]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [1]",
@@ -186,8 +185,8 @@
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [10]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [11]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [12]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [3]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [15]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [2]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [14]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
             "tag": "proxy",
@@ -202,8 +201,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "❔ XX | 🔒 VLESS | @config_proxy [56]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -273,6 +270,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_youtube [5]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇬🇧 GB | 🔒 VLESS | @v2rayngconfiig [14]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [1]",
@@ -293,8 +291,8 @@
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [10]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [11]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [12]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [3]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [15]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [2]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [14]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
             "tag": "auto",
@@ -456,52 +454,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @config_proxy [56]",
-            "type": "vless",
-            "server": "4rd1-do.infospeedtest.com",
-            "server_port": 18452,
-            "uuid": "07fffcbd-b461-4537-b044-5c6afe3a8ad7",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "KIl7gZ-GdUTCjJko2vu6z4ZbtGoYcNhkN0Z9qdJ5Zww",
-                    "short_id": "2fb5a96c35e6386d"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
-            "type": "vless",
-            "server": "Evay-vpn.octacityroleplay.ir",
-            "server_port": 1122,
-            "uuid": "02689662-674a-4bbc-afcf-a0e5d5a09f5c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.slideshare.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "4iCkO1B_tdvJY7x_v9izvkoNDfdGIFiL2LQX2Nqv5RI",
-                    "short_id": "4c7b0ea36fc7f0c4"
-                }
             }
         },
         {
@@ -2183,6 +2135,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [8]",
+            "type": "vless",
+            "server": "GERMANY.TORPROSPEED.IR",
+            "server_port": 223,
+            "uuid": "a51efd0b-58cb-457d-913c-85ec7bb96aa4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JOKX-kH_SOPrdPG26TdJzO6YSDItrRGXKhtv70Bn81o",
+                    "short_id": "c7f175a94bd79f8d"
+                }
+            }
+        },
+        {
             "tag": "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
             "type": "vless",
             "server": "nl01-vlr01.tcp-reset-club.net",
@@ -2679,7 +2654,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [3]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [2]",
             "type": "vless",
             "server": "masterserver1.huqpmfood.ir",
             "server_port": 1331,
@@ -2702,7 +2677,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [15]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [14]",
             "type": "vless",
             "server": "tuskar.fonixapp.org",
             "server_port": 443,
