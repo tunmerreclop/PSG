@@ -92,7 +92,7 @@
                 "🚩 CF | 🔓 VMESS | @buffalo_vpn [4]",
                 "❔ XX | 🔓 VMESS | @buffalo_vpn [5]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🇺🇸 US | 🔓 VMESS | @config_proxy [84]",
+                "🇭🇰 HK | 🔓 VMESS | @config_proxy [51]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [5]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -132,8 +132,9 @@
                 "🚩 CF | 🔓 VMESS | @freev2rays [20]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "❔ XX | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🚩 CF | 🔓 VMESS | @hope_net [15]",
-                "🇭🇰 HK | 🔓 VMESS | @hope_net [16]",
+                "🚩 CF | 🔓 VMESS | @hope_net [13]",
+                "🇭🇰 HK | 🔓 VMESS | @hope_net [14]",
+                "🇺🇸 US | 🔓 VMESS | @hope_net [18]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [1]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [2]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [3]",
@@ -324,7 +325,7 @@
                 "🚩 CF | 🔓 VMESS | @buffalo_vpn [4]",
                 "❔ XX | 🔓 VMESS | @buffalo_vpn [5]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🇺🇸 US | 🔓 VMESS | @config_proxy [84]",
+                "🇭🇰 HK | 🔓 VMESS | @config_proxy [51]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [5]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -364,8 +365,9 @@
                 "🚩 CF | 🔓 VMESS | @freev2rays [20]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "❔ XX | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🚩 CF | 🔓 VMESS | @hope_net [15]",
-                "🇭🇰 HK | 🔓 VMESS | @hope_net [16]",
+                "🚩 CF | 🔓 VMESS | @hope_net [13]",
+                "🇭🇰 HK | 🔓 VMESS | @hope_net [14]",
+                "🇺🇸 US | 🔓 VMESS | @hope_net [18]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [1]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [2]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [3]",
@@ -817,13 +819,20 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @config_proxy [84]",
+            "tag": "🇭🇰 HK | 🔓 VMESS | @config_proxy [51]",
             "type": "vmess",
-            "server": "142.0.134.243",
-            "server_port": 45017,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "8.210.134.183",
+            "server_port": 3721,
+            "uuid": "e72f5c6b-220f-40b3-a115-2d81473458cf",
             "security": "auto",
-            "alter_id": 64
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
@@ -1601,7 +1610,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @hope_net [15]",
+            "tag": "🚩 CF | 🔓 VMESS | @hope_net [13]",
             "type": "vmess",
             "server": "104.19.45.144",
             "server_port": 2095,
@@ -1617,7 +1626,7 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @hope_net [16]",
+            "tag": "🇭🇰 HK | 🔓 VMESS | @hope_net [14]",
             "type": "vmess",
             "server": "220.246.57.203",
             "server_port": 30068,
@@ -1631,6 +1640,15 @@
                     "Host": "220.246.57.203"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @hope_net [18]",
+            "type": "vmess",
+            "server": "142.0.134.243",
+            "server_port": 45017,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "security": "auto",
+            "alter_id": 64
         },
         {
             "tag": "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [1]",

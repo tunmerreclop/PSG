@@ -99,7 +99,7 @@
                 "🇨🇭 CH | 🔒 VLESS | @orange_vpns [14]",
                 "🇩🇪 DE | 🔒 VLESS | @orange_vpns [16]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [10]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]"
             ],
@@ -131,7 +131,7 @@
                 "🇨🇭 CH | 🔒 VLESS | @orange_vpns [14]",
                 "🇩🇪 DE | 🔒 VLESS | @orange_vpns [16]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [10]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]"
             ],
@@ -681,26 +681,30 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [10]",
             "type": "vless",
-            "server": "huskar.fonixapp.org",
-            "server_port": 443,
-            "uuid": "83787f92-2c0b-4217-9aea-bee4448331ec",
+            "server": "test-gr.aliyostd.com",
+            "server_port": 2689,
+            "uuid": "d8cfdae6-191d-4b5a-8a78-33bea25e0cb8",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "fonts.gstatic.com",
+                "server_name": "tgju.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "xoeuO8vB3K-bPdSqcjlGV7MNJqJZ1KlJYGQydLB9vnU",
-                    "short_id": "c560cdc5"
+                    "public_key": "L4WAAdlTv7i2tDZwPcvYrCfZg2IDCI_sp5LElu3u91U",
+                    "short_id": "b6c24852f86067a6"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "nama"
             }
         },
         {
