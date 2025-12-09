@@ -241,8 +241,8 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [17]",
-                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [17]",
+                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
@@ -272,7 +272,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @vmesc [18]",
                 "🇨🇿 CZ | 🔓 VLESS | @vmesc [19]",
                 "🇺🇸 US | 🔒 SS | @vmessiranproxy [18]",
-                "🇫🇷 FR | 🔓 VMESS | @vpn_ioss [17]",
                 "🚩 CF | 🔒 VLESS | @vpn_ioss [18]",
                 "🚩 CF | 🔒 VLESS | @vpn_ioss [19]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
@@ -439,8 +438,8 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [17]",
-                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [17]",
+                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
@@ -470,7 +469,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @vmesc [18]",
                 "🇨🇿 CZ | 🔓 VLESS | @vmesc [19]",
                 "🇺🇸 US | 🔒 SS | @vmessiranproxy [18]",
-                "🇫🇷 FR | 🔓 VMESS | @vpn_ioss [17]",
                 "🚩 CF | 🔒 VLESS | @vpn_ioss [18]",
                 "🚩 CF | 🔒 VLESS | @vpn_ioss [19]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
@@ -2830,11 +2828,11 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [17]",
+            "tag": "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [17]",
             "type": "vmess",
-            "server": "162.159.58.88",
-            "server_port": 80,
-            "uuid": "a406b612-26f7-4bf0-8652-816970a1c122",
+            "server": "2001:bc8:32d7:302::10",
+            "server_port": 44579,
+            "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84",
             "security": "auto",
             "alter_id": 0,
             "transport": {
@@ -2846,20 +2844,13 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [19]",
+            "tag": "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
-            "server": "154.201.76.172",
-            "server_port": 20521,
-            "uuid": "496cec71-a0fd-4f25-bba1-cba9e9d5a52f",
+            "server": "ye.fxlcn.com",
+            "server_port": 45277,
+            "uuid": "469e0b31-30c3-4dab-800d-711232634ce1",
             "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": ""
-                }
-            }
+            "alter_id": 0
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
@@ -3344,22 +3335,6 @@
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-        },
-        {
-            "tag": "🇫🇷 FR | 🔓 VMESS | @vpn_ioss [17]",
-            "type": "vmess",
-            "server": "2001:bc8:32d7:302::10",
-            "server_port": 44579,
-            "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": ""
-                }
-            }
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @vpn_ioss [18]",
