@@ -85,7 +85,9 @@
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [16]",
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [17]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [12]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [8]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [17]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [4]",
@@ -107,7 +109,8 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
-                "🇬🇧 GB | 🔒 TROJAN | @v2raych [19]",
+                "🇬🇧 GB | 🔒 TROJAN | @v2raych [12]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [17]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -142,7 +145,9 @@
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [16]",
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [17]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [12]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [8]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [17]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [4]",
@@ -164,7 +169,8 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
-                "🇬🇧 GB | 🔒 TROJAN | @v2raych [19]",
+                "🇬🇧 GB | 🔒 TROJAN | @v2raych [12]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [17]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -349,7 +355,7 @@
             "password": "ziIjOlyGbM"
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [12]",
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [8]",
             "type": "trojan",
             "server": "104.18.32.47",
             "server_port": 2096,
@@ -368,6 +374,52 @@
                 "path": "/trojan-ws/?ed=2048",
                 "headers": {
                     "Host": "www.uploadbots.WoRkerS.Dev"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [17]",
+            "type": "trojan",
+            "server": "188.114.99.81",
+            "server_port": 443,
+            "password": "auto",
+            "tls": {
+                "enabled": true,
+                "server_name": "mazq100za43.962dael.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "mazq100za43.962dael.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "162.159.152.169",
+            "server_port": 443,
+            "password": "tg-dns68",
+            "tls": {
+                "enabled": true,
+                "server_name": "vip.putata.eu.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "vip.putata.eu.org"
                 }
             }
         },
@@ -719,7 +771,7 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 TROJAN | @v2raych [19]",
+            "tag": "🇬🇧 GB | 🔒 TROJAN | @v2raych [12]",
             "type": "trojan",
             "server": "3.11.216.234",
             "server_port": 22222,
@@ -731,6 +783,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [17]",
+            "type": "trojan",
+            "server": "162.159.153.12",
+            "server_port": 443,
+            "password": "tg-dns68",
+            "tls": {
+                "enabled": true,
+                "server_name": "vip.putata.eu.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "vip.putata.eu.org"
                 }
             }
         },

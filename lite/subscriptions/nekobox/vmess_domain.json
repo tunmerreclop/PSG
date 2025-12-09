@@ -106,8 +106,8 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
+                "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [17]",
                 "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -149,8 +149,8 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
+                "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [17]",
                 "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -590,23 +590,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [18]",
-            "type": "vmess",
-            "server": "8.210.134.183",
-            "server_port": 3721,
-            "uuid": "e72f5c6b-220f-40b3-a115-2d81473458cf",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [19]",
+            "tag": "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [17]",
             "type": "vmess",
             "server": "185.248.33.173",
             "server_port": 16495,
@@ -627,6 +611,22 @@
                 "path": "/speedtest",
                 "headers": {
                     "Host": "imafake.locker"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [18]",
+            "type": "vmess",
+            "server": "6e1d5f2b-sv0xs0-tdh9w7-ahsb.hk3.p5pv.com",
+            "server_port": 80,
+            "uuid": "2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d",
+            "security": "auto",
+            "alter_id": 2,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "broadcastlv.chat.bilibili.com"
                 }
             }
         },
