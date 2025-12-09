@@ -229,10 +229,11 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇬🇧 GB | 🔒 VMESS | @v2ray_free_conf [18]",
+                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
-                "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
+                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🇬🇧 GB | 🔒 SS | @v2raybe [7]",
@@ -426,10 +427,11 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇬🇧 GB | 🔒 VMESS | @v2ray_free_conf [18]",
+                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
-                "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
+                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🇬🇧 GB | 🔒 SS | @v2raybe [7]",
@@ -1036,7 +1038,7 @@
             "type": "vless",
             "server": "172.66.156.81",
             "server_port": 80,
-            "uuid": "18ea2e4d-f5d3-4da9-8f49-eae26e011ce3",
+            "uuid": "03702488-a7b1-445e-98db-db2166e9a656",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
@@ -2834,27 +2836,34 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VMESS | @v2ray_free_conf [18]",
+            "tag": "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
-            "server": "www.sciencedirect.com",
-            "server_port": 443,
-            "uuid": "6f01cae8-c2c5-426d-87ef-a7929e9f1799",
+            "server": "0afadb4a-sv4n40-tc61cs-1tja8.hk3.p5pv.com",
+            "server_port": 80,
+            "uuid": "d2f0bee2-02f1-11f0-8eb0-f23c9164ca5d",
             "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "us-v.sshmax.xyz",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
+            "alter_id": 2,
             "transport": {
                 "type": "ws",
-                "path": "/vmess",
+                "path": "/",
                 "headers": {
-                    "Host": "us-v.sshmax.xyz"
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "04165a49-sv2sg0-t5cryd-4w8.hk3.p5pv.com",
+            "server_port": 80,
+            "uuid": "ba7a37e3-033a-e1ab-06f6-9027aa4630f5",
+            "security": "auto",
+            "alter_id": 2,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
@@ -2884,7 +2893,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
             "type": "vless",
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,

@@ -83,6 +83,9 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [40]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [41]",
+                "🇪🇸 ES | 🔒 VLESS | @config_proxy [42]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -192,6 +195,9 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [40]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [41]",
+                "🇪🇸 ES | 🔒 VLESS | @config_proxy [42]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -452,6 +458,75 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [40]",
+            "type": "vless",
+            "server": "hield.ru",
+            "server_port": 4425,
+            "uuid": "73cdf46e-6efd-4859-bf12-1251bfbcb791",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "I8C10gt92B_XeMMSsCIaePHYu2O1IE5hz0x2VKS7tzo",
+                    "short_id": "e8"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [41]",
+            "type": "vless",
+            "server": "world-of.ru",
+            "server_port": 45006,
+            "uuid": "7f844d6c-b18f-41d8-874a-3c51a49c42b7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "odeg3o6NSJbdTwtXqd6QZvbkiX5COv1Q41a7ciVELio",
+                    "short_id": "0f704e"
+                }
+            }
+        },
+        {
+            "tag": "🇪🇸 ES | 🔒 VLESS | @config_proxy [42]",
+            "type": "vless",
+            "server": "tunnyl.ru",
+            "server_port": 8443,
+            "uuid": "b51f8c90-604f-4dea-88e3-f5e107e5b255",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "B7oEk3bsUoMrpkpIcTsCQnZour3qfbgUuhOk9aWWbFk",
+                    "short_id": "b88841a3"
+                }
             }
         },
         {
