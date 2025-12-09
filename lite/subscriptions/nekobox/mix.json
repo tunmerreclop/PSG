@@ -186,7 +186,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🚩 CF | 🔓 VLESS | @orange_vpns [14]",
                 "🚩 CF | 🔒 VLESS | @orange_vpns [15]",
-                "🇸🇪 SE | 🔒 VLESS | @orange_vpns [16]",
+                "🇨🇭 CH | 🔒 VLESS | @orange_vpns [16]",
                 "🇳🇱 NL | 🔒 SS | @outlinereleasedkey [15]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [13]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [15]",
@@ -229,11 +229,11 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [17]",
-                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [17]",
+                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
-                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
+                "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🇬🇧 GB | 🔒 SS | @v2raybe [7]",
@@ -384,7 +384,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🚩 CF | 🔓 VLESS | @orange_vpns [14]",
                 "🚩 CF | 🔒 VLESS | @orange_vpns [15]",
-                "🇸🇪 SE | 🔒 VLESS | @orange_vpns [16]",
+                "🇨🇭 CH | 🔒 VLESS | @orange_vpns [16]",
                 "🇳🇱 NL | 🔒 SS | @outlinereleasedkey [15]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [13]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [15]",
@@ -427,11 +427,11 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [17]",
-                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [17]",
+                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
-                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
+                "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🇬🇧 GB | 🔒 SS | @v2raybe [7]",
@@ -2205,7 +2205,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @orange_vpns [16]",
+            "tag": "🇨🇭 CH | 🔒 VLESS | @orange_vpns [16]",
             "type": "vless",
             "server": "star-logic-epsilon-nova-zone.dlcnamatike7.com",
             "server_port": 7071,
@@ -2822,43 +2822,34 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [17]",
+            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [17]",
             "type": "vmess",
-            "server": "185.248.33.173",
-            "server_port": 16495,
-            "uuid": "4f3cfda3-a255-40eb-8801-71f9fffb19d6",
+            "server": "162.159.58.88",
+            "server_port": 80,
+            "uuid": "a406b612-26f7-4bf0-8652-816970a1c122",
             "security": "auto",
             "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "imafake.locker",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/speedtest",
-                "headers": {
-                    "Host": "imafake.locker"
-                }
-            }
-        },
-        {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [18]",
-            "type": "vmess",
-            "server": "6e1d5f2b-sv0xs0-tdh9w7-ahsb.hk3.p5pv.com",
-            "server_port": 80,
-            "uuid": "2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d",
-            "security": "auto",
-            "alter_id": 2,
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "broadcastlv.chat.bilibili.com"
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [19]",
+            "type": "vmess",
+            "server": "154.201.76.172",
+            "server_port": 20521,
+            "uuid": "496cec71-a0fd-4f25-bba1-cba9e9d5a52f",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
@@ -2888,7 +2879,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
+            "tag": "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
             "type": "vless",
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
