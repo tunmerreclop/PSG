@@ -83,10 +83,10 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [28]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [37]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [38]",
-                "🇪🇸 ES | 🔒 VLESS | @config_proxy [39]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [39]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [40]",
+                "🇪🇸 ES | 🔒 VLESS | @config_proxy [41]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -198,10 +198,10 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [28]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [37]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [38]",
-                "🇪🇸 ES | 🔒 VLESS | @config_proxy [39]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [39]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [40]",
+                "🇪🇸 ES | 🔒 VLESS | @config_proxy [41]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -467,30 +467,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [28]",
-            "type": "vless",
-            "server": "msk.stat-ozon.ru",
-            "server_port": 8443,
-            "uuid": "09a8d899-6f08-4379-8270-f3834d91e358",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.ozon.ru",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "CmG1fB3Ztbyt2-CpJkL1hQmPk9ywpMFnIVT5L08GOT4",
-                    "short_id": "6a3fcffa50bffa"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [37]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [39]",
             "type": "vless",
             "server": "hield.ru",
             "server_port": 4425,
@@ -513,7 +490,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [38]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [40]",
             "type": "vless",
             "server": "world-of.ru",
             "server_port": 45006,
@@ -536,7 +513,7 @@
             }
         },
         {
-            "tag": "🇪🇸 ES | 🔒 VLESS | @config_proxy [39]",
+            "tag": "🇪🇸 ES | 🔒 VLESS | @config_proxy [41]",
             "type": "vless",
             "server": "tunnyl.ru",
             "server_port": 8443,
@@ -555,6 +532,29 @@
                     "enabled": true,
                     "public_key": "B7oEk3bsUoMrpkpIcTsCQnZour3qfbgUuhOk9aWWbFk",
                     "short_id": "b88841a3"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
+            "type": "vless",
+            "server": "de.u-team.ir",
+            "server_port": 5674,
+            "uuid": "db54c2ca-abe2-19ae-9abf-46a4aa1598f8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mKzDPCMzVSSDRLoXQzPZ9bxWacxNKNj4UjRP1vXBCBA",
+                    "short_id": "d59f3cc6a68619e8"
                 }
             }
         },
