@@ -223,15 +223,15 @@
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ra_ng_iran [15]",
                 "🇮🇷 IR | 🔓 VLESS | @v2ra_ng_iran [17]",
-                "🇷🇴 RO | 🔒 VLESS | @v2ray1_ng [2]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray1_ng [3]",
-                "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [4]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray1_ng [2]",
+                "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [3]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [4]",
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
-                "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
+                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🇬🇧 GB | 🔒 SS | @v2raybe [7]",
@@ -419,15 +419,15 @@
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ra_ng_iran [15]",
                 "🇮🇷 IR | 🔓 VLESS | @v2ra_ng_iran [17]",
-                "🇷🇴 RO | 🔒 VLESS | @v2ray1_ng [2]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray1_ng [3]",
-                "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [4]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray1_ng [2]",
+                "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [3]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [4]",
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
-                "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
+                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🇬🇧 GB | 🔒 SS | @v2raybe [7]",
@@ -2745,25 +2745,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇷🇴 RO | 🔒 VLESS | @v2ray1_ng [2]",
-            "type": "vless",
-            "server": "jrghxqxyoy-518237151-direct.bahame.co",
-            "server_port": 443,
-            "uuid": "jrghxqxyoy",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "jrghxqxyoy-518237151-direct.bahame.co",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray1_ng [3]",
+            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray1_ng [2]",
             "type": "vmess",
             "server": "a.confignor.site",
             "server_port": 7443,
@@ -2772,7 +2754,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [4]",
+            "tag": "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [3]",
             "type": "vmess",
             "server": "57.129.28.212",
             "server_port": 443,
@@ -2793,6 +2775,29 @@
                 "path": "/linkvws",
                 "headers": {
                     "Host": "fapeng.org"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [4]",
+            "type": "vless",
+            "server": "93.152.217.31",
+            "server_port": 443,
+            "uuid": "da08440a-aa09-4a6f-a628-a490cd95922f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.t3n.de",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
+                    "short_id": ""
                 }
             }
         },
@@ -2863,7 +2868,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
             "type": "vless",
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
