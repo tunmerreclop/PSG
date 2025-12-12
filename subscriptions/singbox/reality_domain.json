@@ -95,6 +95,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [39]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -117,7 +119,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [16]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [17]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [18]",
-                "🇩🇪 DE | 🔒 VLESS | @evay_vpn [19]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [1]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [3]",
@@ -148,7 +149,7 @@
                 "❔ XX | 🔒 VLESS | @proxycrone [3]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [146]",
+                "🇵🇱 PL | 🔒 VLESS | @prrofile_purple [146]",
                 "🇹🇷 TR | 🔒 VLESS | @prrofile_purple [147]",
                 "❔ XX | 🔒 VLESS | @public504 [2]",
                 "🇨🇦 CA | 🔒 VLESS | @public504 [3]",
@@ -208,6 +209,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [39]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -230,7 +233,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [16]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [17]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [18]",
-                "🇩🇪 DE | 🔒 VLESS | @evay_vpn [19]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [1]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [3]",
@@ -261,7 +263,7 @@
                 "❔ XX | 🔒 VLESS | @proxycrone [3]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [146]",
+                "🇵🇱 PL | 🔒 VLESS | @prrofile_purple [146]",
                 "🇹🇷 TR | 🔒 VLESS | @prrofile_purple [147]",
                 "❔ XX | 🔒 VLESS | @public504 [2]",
                 "🇨🇦 CA | 🔒 VLESS | @public504 [3]",
@@ -468,6 +470,52 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [39]",
+            "type": "vless",
+            "server": "Evay-vpn.octacityroleplay.ir",
+            "server_port": 1122,
+            "uuid": "c6d231a8-e960-4468-b65e-c176855ce054",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4iCkO1B_tdvJY7x_v9izvkoNDfdGIFiL2LQX2Nqv5RI",
+                    "short_id": "4c7b0ea36fc7f0c4"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
+            "type": "vless",
+            "server": "de.intfreed.ru",
+            "server_port": 443,
+            "uuid": "bf92bdef-ab8d-4481-8798-2d39023357b2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "video.intfreed.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "qq"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw",
+                    "short_id": "7755e972daf8eec8"
+                }
             }
         },
         {
@@ -979,29 +1027,6 @@
             "server": "Evay-vpn.octacityroleplay.ir",
             "server_port": 1122,
             "uuid": "a38f5e9f-dcc7-4c65-942e-e4db36672e37",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.zhaket.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "4iCkO1B_tdvJY7x_v9izvkoNDfdGIFiL2LQX2Nqv5RI",
-                    "short_id": "4c7b0ea36fc7f0c4"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @evay_vpn [19]",
-            "type": "vless",
-            "server": "Evay-vpn.octacityroleplay.ir",
-            "server_port": 1122,
-            "uuid": "c6d231a8-e960-4468-b65e-c176855ce054",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -1769,7 +1794,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [146]",
+            "tag": "🇵🇱 PL | 🔒 VLESS | @prrofile_purple [146]",
             "type": "vless",
             "server": "test-pc.intfreed.ru",
             "server_port": 443,
