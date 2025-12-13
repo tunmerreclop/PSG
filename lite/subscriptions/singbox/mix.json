@@ -197,7 +197,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🚩 CF | 🔒 VLESS | @orange_vpns [16]",
-                "🇳🇱 NL | 🔒 VLESS | @orange_vpns [17]",
+                "🇵🇱 PL | 🔒 VLESS | @orange_vpns [17]",
                 "🇨🇭 CH | 🔒 VLESS | @orange_vpns [18]",
                 "🇳🇱 NL | 🔒 SS | @outlinereleasedkey [15]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [14]",
@@ -242,7 +242,7 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇻🇳 VN | 🔒 SS | @v2ray_free_conf [19]",
+                "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
@@ -395,7 +395,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🚩 CF | 🔒 VLESS | @orange_vpns [16]",
-                "🇳🇱 NL | 🔒 VLESS | @orange_vpns [17]",
+                "🇵🇱 PL | 🔒 VLESS | @orange_vpns [17]",
                 "🇨🇭 CH | 🔒 VLESS | @orange_vpns [18]",
                 "🇳🇱 NL | 🔒 SS | @outlinereleasedkey [15]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [14]",
@@ -440,7 +440,7 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇻🇳 VN | 🔒 SS | @v2ray_free_conf [19]",
+                "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
@@ -2204,7 +2204,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @orange_vpns [17]",
+            "tag": "🇵🇱 PL | 🔒 VLESS | @orange_vpns [17]",
             "type": "vless",
             "server": "test-pc.intfreed.ru",
             "server_port": 443,
@@ -2879,12 +2879,29 @@
             }
         },
         {
-            "tag": "🇻🇳 VN | 🔒 SS | @v2ray_free_conf [19]",
-            "type": "shadowsocks",
-            "server": "38.54.31.230",
-            "server_port": 990,
-            "method": "chacha20-ietf-poly1305",
-            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+            "tag": "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [19]",
+            "type": "vmess",
+            "server": "95.81.114.252",
+            "server_port": 44749,
+            "uuid": "f1a513d2-c32a-49dc-8e64-d4f8a2f1e001",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "imafake.locker",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/speedtest",
+                "headers": {
+                    "Host": "imafake.locker"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
