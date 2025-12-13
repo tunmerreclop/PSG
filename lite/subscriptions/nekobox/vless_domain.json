@@ -162,7 +162,7 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🇺🇸 US | 🔓 VLESS | @vmesc [16]",
+                "🚩 CF | 🔒 VLESS | @vmesc [18]",
                 "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [12]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
@@ -259,7 +259,7 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🇺🇸 US | 🔓 VLESS | @vmesc [16]",
+                "🚩 CF | 🔒 VLESS | @vmesc [18]",
                 "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [12]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
@@ -1777,13 +1777,29 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [16]",
+            "tag": "🚩 CF | 🔒 VLESS | @vmesc [18]",
             "type": "vless",
-            "server": "ip.fastlynew.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "TELEGRAM-CONFiGLiNE-87",
+            "server": "norman.ns.cloudflare.com",
+            "server_port": 443,
+            "uuid": "ee122f13-9b54-49b6-abc5-aa47b464fdb3",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "azizoarjmand.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/yhowcws",
+                "headers": {
+                    "Host": "azizoarjmand.info"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [12]",
