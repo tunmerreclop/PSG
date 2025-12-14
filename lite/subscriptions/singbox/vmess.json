@@ -119,7 +119,7 @@
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [1]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇬🇧 GB | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [18]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -162,7 +162,7 @@
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [1]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇬🇧 GB | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [18]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -623,16 +623,16 @@
             "alter_id": 0
         },
         {
-            "tag": "🇬🇧 GB | 🔓 VMESS | @v2ray_free_conf [19]",
+            "tag": "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
-            "server": "57.128.189.240",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "185.248.33.173",
+            "server_port": 16495,
+            "uuid": "4f3cfda3-a255-40eb-8801-71f9fffb19d6",
             "security": "auto",
             "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "imafake.locker",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -641,9 +641,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/linkvws",
+                "path": "/speedtest",
                 "headers": {
-                    "Host": ""
+                    "Host": "imafake.locker"
                 }
             }
         },
