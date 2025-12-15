@@ -83,7 +83,10 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
+                "❔ XX | 🔒 VLESS | @config_proxy [54]",
+                "🇦🇪 AE | 🔒 VLESS | @config_proxy [57]",
+                "🇹🇷 TR | 🔒 VLESS | @config_proxy [58]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -129,7 +132,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇨🇭 CH | 🔒 VLESS | @orange_vpns [6]",
                 "🇩🇪 DE | 🔒 VLESS | @orange_vpns [8]",
-                "🇳🇱 NL | 🔒 VLESS | @orange_vpns [14]",
+                "🇫🇮 FI | 🔒 VLESS | @orange_vpns [14]",
                 "🇨🇭 CH | 🔒 VLESS | @orange_vpns [15]",
                 "🇦🇪 AE | 🔒 VLESS | @orange_vpns [16]",
                 "🇦🇲 AM | 🔒 VLESS | @orange_vpns [17]",
@@ -156,6 +159,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_youtube [5]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [6]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raying [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raying [7]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
@@ -195,7 +199,10 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
+                "❔ XX | 🔒 VLESS | @config_proxy [54]",
+                "🇦🇪 AE | 🔒 VLESS | @config_proxy [57]",
+                "🇹🇷 TR | 🔒 VLESS | @config_proxy [58]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -241,7 +248,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇨🇭 CH | 🔒 VLESS | @orange_vpns [6]",
                 "🇩🇪 DE | 🔒 VLESS | @orange_vpns [8]",
-                "🇳🇱 NL | 🔒 VLESS | @orange_vpns [14]",
+                "🇫🇮 FI | 🔒 VLESS | @orange_vpns [14]",
                 "🇨🇭 CH | 🔒 VLESS | @orange_vpns [15]",
                 "🇦🇪 AE | 🔒 VLESS | @orange_vpns [16]",
                 "🇦🇲 AM | 🔒 VLESS | @orange_vpns [17]",
@@ -268,6 +275,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_youtube [5]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [6]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raying [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raying [7]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
@@ -461,16 +469,66 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
             "type": "vless",
-            "server": "Daily_Configs.revolution-time.sbs",
+            "server": "de.intfreed.ru",
             "server_port": 443,
-            "uuid": "--DailyConfigs--",
+            "uuid": "bf92bdef-ab8d-4481-8798-2d39023357b2",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "tgju.org",
+                "server_name": "video.intfreed.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "qq"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw",
+                    "short_id": "7755e972daf8eec8"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [54]",
+            "type": "vless",
+            "server": "book.srv2.quest",
+            "server_port": 28796,
+            "uuid": "260f4e3a-e436-47a0-86c8-4c2b60aa17f8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lvW1CMFXmIyUEtr16rnqqdliIINhh8loLoTcnQ_23Sc",
+                    "short_id": "2eb360"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
+            }
+        },
+        {
+            "tag": "🇦🇪 AE | 🔒 VLESS | @config_proxy [57]",
+            "type": "vless",
+            "server": "dubai.torprospeed.ir",
+            "server_port": 6630,
+            "uuid": "fb44bdb0-8f56-4b73-b268-6011070b4bfd",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.refersion.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -478,13 +536,32 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "H9tSRZqEMWhGFev5VkoJQ5a2EzbxtaX37ZjsZXDs3yY",
-                    "short_id": ""
+                    "public_key": "KO3CB84Ea9vNhaxlPjg0EKu_FMPeEH6Bgb_P43Fp_2o",
+                    "short_id": "e0c8f8e163c60a4f"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs"
+            }
+        },
+        {
+            "tag": "🇹🇷 TR | 🔒 VLESS | @config_proxy [58]",
+            "type": "vless",
+            "server": "turkiye.torprospeed.ir",
+            "server_port": 6630,
+            "uuid": "fb44bdb0-8f56-4b73-b268-6011070b4bfd",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "KO3CB84Ea9vNhaxlPjg0EKu_FMPeEH6Bgb_P43Fp_2o",
+                    "short_id": "e0c8f8e163c60a4f"
+                }
             }
         },
         {
@@ -1602,7 +1679,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @orange_vpns [14]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @orange_vpns [14]",
             "type": "vless",
             "server": "test-pc.intfreed.ru",
             "server_port": 443,
@@ -2236,6 +2313,33 @@
                     "public_key": "2dIWbgD8nbCd1YBs-IiQ6vgA7mse9PA9DWqaIMFsTmc",
                     "short_id": "cb333964"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [6]",
+            "type": "vless",
+            "server": "Daily_Configs.revolution-time.sbs",
+            "server_port": 443,
+            "uuid": "--DailyConfigs--",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "H9tSRZqEMWhGFev5VkoJQ5a2EzbxtaX37ZjsZXDs3yY",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me/entryNET"
             }
         },
         {
