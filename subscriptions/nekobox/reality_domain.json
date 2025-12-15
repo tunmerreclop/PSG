@@ -83,8 +83,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
-                "🇫🇷 FR | 🔒 VLESS | @config_proxy [58]",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [59]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -130,7 +129,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇨🇭 CH | 🔒 VLESS | @orange_vpns [5]",
                 "🇩🇪 DE | 🔒 VLESS | @orange_vpns [7]",
-                "🇫🇮 FI | 🔒 VLESS | @orange_vpns [13]",
+                "🇳🇱 NL | 🔒 VLESS | @orange_vpns [13]",
                 "🇨🇭 CH | 🔒 VLESS | @orange_vpns [14]",
                 "🇦🇪 AE | 🔒 VLESS | @orange_vpns [15]",
                 "🇦🇲 AM | 🔒 VLESS | @orange_vpns [16]",
@@ -182,6 +181,7 @@
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [8]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [9]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [10]",
+                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
             "tag": "proxy",
@@ -196,8 +196,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
-                "🇫🇷 FR | 🔒 VLESS | @config_proxy [58]",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [59]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -243,7 +242,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇨🇭 CH | 🔒 VLESS | @orange_vpns [5]",
                 "🇩🇪 DE | 🔒 VLESS | @orange_vpns [7]",
-                "🇫🇮 FI | 🔒 VLESS | @orange_vpns [13]",
+                "🇳🇱 NL | 🔒 VLESS | @orange_vpns [13]",
                 "🇨🇭 CH | 🔒 VLESS | @orange_vpns [14]",
                 "🇦🇪 AE | 🔒 VLESS | @orange_vpns [15]",
                 "🇦🇲 AM | 🔒 VLESS | @orange_vpns [16]",
@@ -295,6 +294,7 @@
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [8]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [9]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [10]",
+                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
             "tag": "auto",
@@ -463,16 +463,16 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
+            "tag": "🇸🇪 SE | 🔒 VLESS | @config_proxy [59]",
             "type": "vless",
-            "server": "GERmaN.SAVTeaM.SiTe",
-            "server_port": 14420,
-            "uuid": "059725f7-7766-4007-a3dd-6483e3a53e4a",
+            "server": "sweden11.clearorbitllc.com",
+            "server_port": 443,
+            "uuid": "26c99015-b58e-47d2-a4ce-4f4b05b70400",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "cdn-download1.refersion.com",
+                "server_name": "sweden11.clearorbitllc.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -480,31 +480,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "f2mZcxuMFBWHhxyy2MPA3E-aRh6pasVvZe_6OkF_Njc",
-                    "short_id": "fecc0d646553f4b4"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @config_proxy [58]",
-            "type": "vless",
-            "server": "www-fr.vipdatacloud.com",
-            "server_port": 8443,
-            "uuid": "23742298-a0f2-423e-99a1-b8d16b6ac51a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "JwfTPoCkiYvZkv5PQgmIS-FE8JiOtCVWNP5ee7YOlXg",
-                    "short_id": "314bd9f4a9c277be"
+                    "public_key": "6i0TALpH7qy8-xzwJkI13mRsgi2e7lHqKQyAcDSg8Uc",
+                    "short_id": "4af2"
                 }
             }
         },
@@ -1623,7 +1600,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @orange_vpns [13]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @orange_vpns [13]",
             "type": "vless",
             "server": "test-pc.intfreed.ru",
             "server_port": 443,
@@ -2864,6 +2841,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl"
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [15]",
+            "type": "vless",
+            "server": "www-fr.vipdatacloud.com",
+            "server_port": 8443,
+            "uuid": "23742298-a0f2-423e-99a1-b8d16b6ac51a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JwfTPoCkiYvZkv5PQgmIS-FE8JiOtCVWNP5ee7YOlXg",
+                    "short_id": "314bd9f4a9c277be"
+                }
             }
         },
         {
