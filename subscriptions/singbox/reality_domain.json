@@ -95,7 +95,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [49]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [40]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [41]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -120,6 +121,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [19]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [20]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [1]",
+                "🇳🇱 NL | 🔒 VLESS | @free1_vpn [2]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [3]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [4]",
@@ -139,7 +141,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇩🇪 DE | 🔒 VLESS | @orange_vpns [6]",
-                "🇳🇱 NL | 🔒 VLESS | @orange_vpns [12]",
+                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [12]",
                 "🇨🇭 CH | 🔒 VLESS | @orange_vpns [13]",
                 "🇦🇪 AE | 🔒 VLESS | @orange_vpns [14]",
                 "🇦🇲 AM | 🔒 VLESS | @orange_vpns [15]",
@@ -207,7 +209,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [49]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [40]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [41]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -232,6 +235,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [19]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [20]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [1]",
+                "🇳🇱 NL | 🔒 VLESS | @free1_vpn [2]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [3]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [4]",
@@ -251,7 +255,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇩🇪 DE | 🔒 VLESS | @orange_vpns [6]",
-                "🇳🇱 NL | 🔒 VLESS | @orange_vpns [12]",
+                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [12]",
                 "🇨🇭 CH | 🔒 VLESS | @orange_vpns [13]",
                 "🇦🇪 AE | 🔒 VLESS | @orange_vpns [14]",
                 "🇦🇲 AM | 🔒 VLESS | @orange_vpns [15]",
@@ -469,7 +473,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [49]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [40]",
             "type": "vless",
             "server": "a.confignor.site",
             "server_port": 35493,
@@ -493,6 +497,33 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "چنل سازنده اصلی کانفیگ @ConfigFree"
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [41]",
+            "type": "vless",
+            "server": "a.confignor.site",
+            "server_port": 35493,
+            "uuid": "dd07b1fe-63eb-4c54-bbe3-bbdc316b6450",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cdn77.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "qq"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "qeWt8jJZTwf6vmiTvDfaalPaSZDkX7a3XkKrBxf2YVA",
+                    "short_id": "9c24"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me/entryNET"
             }
         },
         {
@@ -1068,6 +1099,29 @@
             }
         },
         {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @free1_vpn [2]",
+            "type": "vless",
+            "server": "net2.intfreed.ru",
+            "server_port": 443,
+            "uuid": "bf92bdef-ab8d-4481-8798-2d39023357b2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "video.intfreed.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "qq"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw",
+                    "short_id": "7755e972daf8eec8"
+                }
+            }
+        },
+        {
             "tag": "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
             "type": "vless",
             "server": "uae.kitten-tube.com",
@@ -1560,7 +1614,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @orange_vpns [12]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @orange_vpns [12]",
             "type": "vless",
             "server": "test-pc.intfreed.ru",
             "server_port": 443,
