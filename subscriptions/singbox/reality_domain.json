@@ -95,6 +95,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "❔ XX | 🔒 VLESS | @config_proxy [33]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -138,7 +140,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇩🇪 DE | 🔒 VLESS | @orange_vpns [6]",
-                "🇫🇮 FI | 🔒 VLESS | @orange_vpns [12]",
+                "🇳🇱 NL | 🔒 VLESS | @orange_vpns [12]",
                 "🇨🇭 CH | 🔒 VLESS | @orange_vpns [13]",
                 "🇦🇪 AE | 🔒 VLESS | @orange_vpns [14]",
                 "🇦🇲 AM | 🔒 VLESS | @orange_vpns [15]",
@@ -206,6 +208,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "❔ XX | 🔒 VLESS | @config_proxy [33]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -249,7 +253,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇩🇪 DE | 🔒 VLESS | @orange_vpns [6]",
-                "🇫🇮 FI | 🔒 VLESS | @orange_vpns [12]",
+                "🇳🇱 NL | 🔒 VLESS | @orange_vpns [12]",
                 "🇨🇭 CH | 🔒 VLESS | @orange_vpns [13]",
                 "🇦🇪 AE | 🔒 VLESS | @orange_vpns [14]",
                 "🇦🇲 AM | 🔒 VLESS | @orange_vpns [15]",
@@ -464,6 +468,60 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [33]",
+            "type": "vless",
+            "server": "0wtadbshb4f3.zozodogg.com",
+            "server_port": 2053,
+            "uuid": "953d937c-3b44-4be4-91c3-6cc27de2dc89",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "_80k9z8fjFgVyF8jg79QuH6hc0gm0eztMq04rgBu8lw",
+                    "short_id": "e1be54"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Tel:@VPN_KING_V2RAY@VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
+            "type": "vless",
+            "server": "daily_configs.revolution-time.sbs",
+            "server_port": 443,
+            "uuid": "--DailyConfigs--",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "H9tSRZqEMWhGFev5VkoJQ5a2EzbxtaX37ZjsZXDs3yY",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs"
             }
         },
         {
@@ -1531,7 +1589,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @orange_vpns [12]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @orange_vpns [12]",
             "type": "vless",
             "server": "test-pc.intfreed.ru",
             "server_port": 443,
