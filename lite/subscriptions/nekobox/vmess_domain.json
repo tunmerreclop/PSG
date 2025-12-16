@@ -107,7 +107,8 @@
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [1]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [18]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
+                "❔ XX | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -150,7 +151,8 @@
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [1]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [18]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
+                "❔ XX | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -615,16 +617,25 @@
             "alter_id": 0
         },
         {
-            "tag": "🚩 CF | 🔒 VMESS | @v2ray_free_conf [18]",
+            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
-            "server": "ssssssssssssfffffffgh.2032.pp.ua",
+            "server": "mci.yektanet.info",
+            "server_port": 55555,
+            "uuid": "a4b41dc8-b684-49e4-b3db-ade382c113d3",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "❔ XX | 🔒 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "x3t82d.keeoomboom.de",
             "server_port": 443,
-            "uuid": "4174b95d-115e-4d39-add6-1f8db95bb860",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "ssssssssssssfffffffgh.2032.pp.ua",
+                "server_name": "x3t82d.keeoomboom.de",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -633,9 +644,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/6We3U9Df1WGxgFnoFPw1",
+                "path": "/video/nu7k9y29.m3u8",
                 "headers": {
-                    "Host": "ssssssssssssfffffffgh.2032.pp.ua"
+                    "Host": "x3t82d.keeoomboom.de"
                 }
             }
         },

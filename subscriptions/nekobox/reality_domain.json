@@ -83,6 +83,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [49]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -126,7 +127,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇩🇪 DE | 🔒 VLESS | @orange_vpns [6]",
-                "🇵🇱 PL | 🔒 VLESS | @orange_vpns [12]",
+                "🇳🇱 NL | 🔒 VLESS | @orange_vpns [12]",
                 "🇨🇭 CH | 🔒 VLESS | @orange_vpns [13]",
                 "🇦🇪 AE | 🔒 VLESS | @orange_vpns [14]",
                 "🇦🇲 AM | 🔒 VLESS | @orange_vpns [15]",
@@ -147,10 +148,10 @@
                 "❔ XX | 🔒 VLESS | @satellitenewspersian [17]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
+                "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [5]",
-                "🇳🇱 NL | 🔒 VLESS | @v2aryng_vpn [7]",
-                "🇸🇪 SE | 🔒 VLESS | @v2aryng_vpn [12]",
+                "🇳🇱 NL | 🔒 VLESS | @v2aryng_vpn [6]",
+                "🇸🇪 SE | 🔒 VLESS | @v2aryng_vpn [11]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_youtube [4]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
@@ -194,6 +195,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [49]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -237,7 +239,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇩🇪 DE | 🔒 VLESS | @orange_vpns [6]",
-                "🇵🇱 PL | 🔒 VLESS | @orange_vpns [12]",
+                "🇳🇱 NL | 🔒 VLESS | @orange_vpns [12]",
                 "🇨🇭 CH | 🔒 VLESS | @orange_vpns [13]",
                 "🇦🇪 AE | 🔒 VLESS | @orange_vpns [14]",
                 "🇦🇲 AM | 🔒 VLESS | @orange_vpns [15]",
@@ -258,10 +260,10 @@
                 "❔ XX | 🔒 VLESS | @satellitenewspersian [17]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
+                "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [5]",
-                "🇳🇱 NL | 🔒 VLESS | @v2aryng_vpn [7]",
-                "🇸🇪 SE | 🔒 VLESS | @v2aryng_vpn [12]",
+                "🇳🇱 NL | 🔒 VLESS | @v2aryng_vpn [6]",
+                "🇸🇪 SE | 🔒 VLESS | @v2aryng_vpn [11]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_youtube [4]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
@@ -456,6 +458,33 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [49]",
+            "type": "vless",
+            "server": "a.confignor.site",
+            "server_port": 35493,
+            "uuid": "dd07b1fe-63eb-4c54-bbe3-bbdc316b6450",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cdn77.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "qq"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "qeWt8jJZTwf6vmiTvDfaalPaSZDkX7a3XkKrBxf2YVA",
+                    "short_id": "9c24"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "چنل سازنده اصلی کانفیگ @ConfigFree"
             }
         },
         {
@@ -1523,7 +1552,7 @@
             }
         },
         {
-            "tag": "🇵🇱 PL | 🔒 VLESS | @orange_vpns [12]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @orange_vpns [12]",
             "type": "vless",
             "server": "test-pc.intfreed.ru",
             "server_port": 443,
@@ -2022,7 +2051,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [4]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [3]",
             "type": "vless",
             "server": "deu-0001-xr.packet-drop-society.net",
             "server_port": 443,
@@ -2045,7 +2074,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [5]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [4]",
             "type": "vless",
             "server": "invoker.fonixapp.org",
             "server_port": 443,
@@ -2068,7 +2097,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @v2aryng_vpn [7]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @v2aryng_vpn [6]",
             "type": "vless",
             "server": "v547154.hosted-by-vdsina.com",
             "server_port": 8443,
@@ -2091,7 +2120,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @v2aryng_vpn [12]",
+            "tag": "🇸🇪 SE | 🔒 VLESS | @v2aryng_vpn [11]",
             "type": "vless",
             "server": "sweden.netninja.ru",
             "server_port": 8989,
