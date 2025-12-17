@@ -222,9 +222,9 @@
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ra_ng_iran [15]",
                 "🇮🇷 IR | 🔓 VLESS | @v2ra_ng_iran [17]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray1_ng [1]",
                 "🚩 CF | 🔒 TROJAN | @v2ray1_ng [2]",
                 "🇳🇱 NL | 🔒 VLESS | @v2ray1_ng [3]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [4]",
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
@@ -417,9 +417,9 @@
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ra_ng_iran [15]",
                 "🇮🇷 IR | 🔓 VLESS | @v2ra_ng_iran [17]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray1_ng [1]",
                 "🚩 CF | 🔒 TROJAN | @v2ray1_ng [2]",
                 "🇳🇱 NL | 🔒 VLESS | @v2ray1_ng [3]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [4]",
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
@@ -2728,15 +2728,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray1_ng [1]",
-            "type": "vmess",
-            "server": "cpanel.navar1.ir",
-            "server_port": 100,
-            "uuid": "bbecd967-a6d2-4766-910e-fd84a8b71809",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
             "tag": "🚩 CF | 🔒 TROJAN | @v2ray1_ng [2]",
             "type": "trojan",
             "server": "172.67.134.185",
@@ -2781,6 +2772,31 @@
                 "path": "/qnegucws",
                 "headers": {
                     "Host": "ads.x5.ru"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [4]",
+            "type": "vless",
+            "server": "185.235.241.97",
+            "server_port": 443,
+            "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "github.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/hormoz",
+                "headers": {
+                    "Host": "github.com"
                 }
             }
         },
