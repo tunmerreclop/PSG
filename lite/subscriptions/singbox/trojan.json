@@ -98,7 +98,8 @@
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [10]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [11]",
-                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [12]"
+                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [12]",
+                "🚩 CF | 🔒 TROJAN | @v2ray1_ng [2]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -115,7 +116,8 @@
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [10]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [11]",
-                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [12]"
+                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [12]",
+                "🚩 CF | 🔒 TROJAN | @v2ray1_ng [2]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -335,6 +337,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @v2ray1_ng [2]",
+            "type": "trojan",
+            "server": "172.67.134.185",
+            "server_port": 443,
+            "password": "POORIARED",
+            "tls": {
+                "enabled": true,
+                "server_name": "reDfRee8.REDFree8.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiVUl6eXhLZkkwUTJ3ZzkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560",
+                "headers": {
+                    "Host": "reDfRee8.REDFree8.ir"
                 }
             }
         }

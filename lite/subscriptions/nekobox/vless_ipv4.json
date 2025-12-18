@@ -130,8 +130,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🇷🇺 RU | 🔒 VLESS | @v2rayvpn2 [5]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
-                "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇫🇮 FI | 🔒 VLESS | @vmesc [17]"
+                "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -192,8 +191,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🇷🇺 RU | 🔒 VLESS | @v2rayvpn2 [5]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
-                "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇫🇮 FI | 🔒 VLESS | @vmesc [17]"
+                "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -1115,31 +1113,6 @@
                     "enabled": true,
                     "public_key": "03oIukhEmNzMAGZWqcNLAHHjcVX0jLqRSa3ocMuskQY",
                     "short_id": "88417bc4"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @vmesc [17]",
-            "type": "vless",
-            "server": "94.131.100.173",
-            "server_port": 443,
-            "uuid": "0a0d846f-8f54-4db4-940b-b373b1b02e4c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.vk.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/coxzfsws",
-                "headers": {
-                    "Host": "www.vk.com"
                 }
             }
         }
