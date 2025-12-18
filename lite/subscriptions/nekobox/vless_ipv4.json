@@ -131,8 +131,9 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2rayvpn2 [5]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇺🇸 US | 🔒 VLESS | @vmesc [18]",
-                "🚩 CF | 🔒 VLESS | @vmesc [19]"
+                "🇺🇸 US | 🔒 VLESS | @vmesc [17]",
+                "🚩 CF | 🔒 VLESS | @vmesc [18]",
+                "🇫🇮 FI | 🔒 VLESS | @vmesc [19]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -194,8 +195,9 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2rayvpn2 [5]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇺🇸 US | 🔒 VLESS | @vmesc [18]",
-                "🚩 CF | 🔒 VLESS | @vmesc [19]"
+                "🇺🇸 US | 🔒 VLESS | @vmesc [17]",
+                "🚩 CF | 🔒 VLESS | @vmesc [18]",
+                "🇫🇮 FI | 🔒 VLESS | @vmesc [19]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -1131,7 +1133,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @vmesc [18]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @vmesc [17]",
             "type": "vless",
             "server": "208.103.161.33",
             "server_port": 2053,
@@ -1156,7 +1158,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vmesc [19]",
+            "tag": "🚩 CF | 🔒 VLESS | @vmesc [18]",
             "type": "vless",
             "server": "173.245.58.220",
             "server_port": 443,
@@ -1177,6 +1179,31 @@
                 "path": "/xxvclws",
                 "headers": {
                     "Host": "freudd.info"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @vmesc [19]",
+            "type": "vless",
+            "server": "94.131.100.173",
+            "server_port": 443,
+            "uuid": "0a0d846f-8f54-4db4-940b-b373b1b02e4c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.vk.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/coxzfsws",
+                "headers": {
+                    "Host": "www.vk.com"
                 }
             }
         }
