@@ -142,7 +142,8 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2rayvpn2 [4]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [17]"
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [16]",
+                "🇬🇧 GB | 🔒 VLESS | @vmesc [17]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -203,7 +204,8 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2rayvpn2 [4]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [17]"
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [16]",
+                "🇬🇧 GB | 🔒 VLESS | @vmesc [17]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -1084,7 +1086,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [17]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [16]",
             "type": "vless",
             "server": "49.13.203.113",
             "server_port": 2050,
@@ -1103,6 +1105,31 @@
                     "enabled": true,
                     "public_key": "Tua_E2HKPrVU1Xikr5b0v0uKKUjpAnG5w8UjqfoEnkI",
                     "short_id": "35d64c10241d8efc"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @vmesc [17]",
+            "type": "vless",
+            "server": "209.97.183.92",
+            "server_port": 443,
+            "uuid": "9e5646ba-c661-41cd-8321-a164139b12cf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "fuck.rkn",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/wwkmrkws",
+                "headers": {
+                    "Host": "fuck.rkn"
                 }
             }
         }
