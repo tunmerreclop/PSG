@@ -123,15 +123,16 @@
                 "🇮🇷 IR | 🔓 VLESS | @toucan_vpn [1]",
                 "Telegram-mtmvpn---Telegram-mtmvpn&security=none&encryption=none&host=sPeedtest2.sbs.br.vless.sitespeedtest.net&type=ws#🇩🇪 DE | 🔓 VLESS | @v2ra_ng_iran [15]",
                 "🇮🇷 IR | 🔓 VLESS | @v2ra_ng_iran [17]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [2]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [4]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [1]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [3]",
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🚩 CF | 🔒 VLESS | @v2raytg [41]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇺🇸 US | 🔒 VLESS | @vmesc [18]"
+                "🇺🇸 US | 🔒 VLESS | @vmesc [18]",
+                "🇺🇸 US | 🔒 VLESS | @vmesc [20]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -185,15 +186,16 @@
                 "🇮🇷 IR | 🔓 VLESS | @toucan_vpn [1]",
                 "Telegram-mtmvpn---Telegram-mtmvpn&security=none&encryption=none&host=sPeedtest2.sbs.br.vless.sitespeedtest.net&type=ws#🇩🇪 DE | 🔓 VLESS | @v2ra_ng_iran [15]",
                 "🇮🇷 IR | 🔓 VLESS | @v2ra_ng_iran [17]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [2]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [4]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [1]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [3]",
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🚩 CF | 🔒 VLESS | @v2raytg [41]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇺🇸 US | 🔒 VLESS | @vmesc [18]"
+                "🇺🇸 US | 🔒 VLESS | @vmesc [18]",
+                "🇺🇸 US | 🔒 VLESS | @vmesc [20]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -952,7 +954,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [2]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [1]",
             "type": "vless",
             "server": "185.235.241.97",
             "server_port": 443,
@@ -977,7 +979,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [4]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [3]",
             "type": "vless",
             "server": "185.235.241.53",
             "server_port": 443,
@@ -1117,6 +1119,29 @@
             "tag": "🇺🇸 US | 🔒 VLESS | @vmesc [18]",
             "type": "vless",
             "server": "15.204.97.149",
+            "server_port": 23576,
+            "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "fuck.rkn",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+                    "short_id": "01"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @vmesc [20]",
+            "type": "vless",
+            "server": "15.204.97.159",
             "server_port": 23576,
             "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
             "flow": "xtls-rprx-vision",

@@ -109,6 +109,10 @@
                 "🚩 CF | 🔒 TROJAN | @selinc [4]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [13]",
+                "🇳🇴 NO | 🔒 TROJAN | @v2raych [15]",
+                "🇳🇱 NL | 🔒 TROJAN | @v2raych [17]",
+                "🇳🇴 NO | 🔒 TROJAN | @v2raych [19]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [48]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [51]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [60]",
@@ -168,6 +172,10 @@
                 "🚩 CF | 🔒 TROJAN | @selinc [4]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [13]",
+                "🇳🇴 NO | 🔒 TROJAN | @v2raych [15]",
+                "🇳🇱 NL | 🔒 TROJAN | @v2raych [17]",
+                "🇳🇴 NO | 🔒 TROJAN | @v2raych [19]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [48]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [51]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [60]",
@@ -754,6 +762,77 @@
             "tls": {
                 "enabled": true,
                 "server_name": "xvqn.de",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [13]",
+            "type": "trojan",
+            "server": "162.159.153.197",
+            "server_port": 443,
+            "password": "tg-dns68",
+            "tls": {
+                "enabled": true,
+                "server_name": "vip.putata.eu.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "vip.putata.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇴 NO | 🔒 TROJAN | @v2raych [15]",
+            "type": "trojan",
+            "server": "80.173.230.196",
+            "server_port": 26279,
+            "password": "a5inYFE=JGV89+hjxIqgDp1tcWBd6",
+            "tls": {
+                "enabled": true,
+                "server_name": "io.ozone.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 TROJAN | @v2raych [17]",
+            "type": "trojan",
+            "server": "167.17.70.117",
+            "server_port": 27234,
+            "password": "kuGDUhAYqXnvIomV0Kdljfor",
+            "tls": {
+                "enabled": true,
+                "server_name": "167.17.70.117",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇴 NO | 🔒 TROJAN | @v2raych [19]",
+            "type": "trojan",
+            "server": "83.143.87.9",
+            "server_port": 18581,
+            "password": "RPyW62_b9aH.ztJKeArou",
+            "tls": {
+                "enabled": true,
+                "server_name": "83.143.87.9",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
