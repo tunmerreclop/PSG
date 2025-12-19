@@ -167,6 +167,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2logy [5]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [13]",
+                "🇷🇺 RU | 🔒 VLESS | @v2raych [20]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -191,7 +192,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2rayopen [6]",
                 "🇫🇮 FI | 🔒 VLESS | @v2rayopen [7]",
                 "🇺🇸 US | 🔒 VLESS | @v2rayprotocol [11]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raytg [43]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raytg [28]",
                 "🇷🇺 RU | 🔒 VLESS | @v2rayvpn2 [4]",
                 "🇩🇪 DE | 🔒 VLESS | @vip_vpn_2022 [2]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
@@ -204,8 +205,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @vpn_ioss [11]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🇱🇻 LV | 🔒 VLESS | @vpnowl [16]",
-                "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [3]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [4]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [3]",
                 "🇫🇷 FR | 🔒 VLESS | @xrayzxn [3]"
             ],
             "tag": "proxy",
@@ -304,6 +304,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2logy [5]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [13]",
+                "🇷🇺 RU | 🔒 VLESS | @v2raych [20]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -328,7 +329,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2rayopen [6]",
                 "🇫🇮 FI | 🔒 VLESS | @v2rayopen [7]",
                 "🇺🇸 US | 🔒 VLESS | @v2rayprotocol [11]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raytg [43]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raytg [28]",
                 "🇷🇺 RU | 🔒 VLESS | @v2rayvpn2 [4]",
                 "🇩🇪 DE | 🔒 VLESS | @vip_vpn_2022 [2]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
@@ -341,8 +342,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @vpn_ioss [11]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🇱🇻 LV | 🔒 VLESS | @vpnowl [16]",
-                "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [3]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [4]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [3]",
                 "🇫🇷 FR | 🔒 VLESS | @xrayzxn [3]"
             ],
             "tag": "auto",
@@ -2506,6 +2506,29 @@
             }
         },
         {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @v2raych [20]",
+            "type": "vless",
+            "server": "178.154.205.131",
+            "server_port": 443,
+            "uuid": "fd4b0117-d752-46fd-9a94-21a21e360fdb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ads.x5.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
+                    "short_id": "672ff0"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
             "type": "vless",
             "server": "136.244.84.58",
@@ -3076,7 +3099,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raytg [43]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raytg [28]",
             "type": "vless",
             "server": "91.99.16.244",
             "server_port": 443,
@@ -3375,30 +3398,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [3]",
-            "type": "vless",
-            "server": "104.145.210.155",
-            "server_port": 443,
-            "uuid": "a0e804c3-55e2-4d51-82c7-33976d6748cb",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "qFBIVGsvXTMeJcdJz6GiL7DG0XNhCg7rItza7t0qTgU",
-                    "short_id": "9eb31eb7572c0882"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [4]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [3]",
             "type": "vless",
             "server": "89.34.219.108",
             "server_port": 56948,
