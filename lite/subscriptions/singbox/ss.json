@@ -100,12 +100,12 @@
                 "🇺🇸 US | 🔒 SS | @mester_v2ray [19]",
                 "🇳🇱 NL | 🔒 SS | @netfreedom0 [23]",
                 "🇳🇱 NL | 🔒 SS | @outlinereleasedkey [15]",
+                "🇷🇺 RU | 🔒 SS | @v2ray_free_conf [17]",
                 "🇺🇸 US | 🔒 SS | @vmessiranproxy [18]",
                 "🇬🇧 GB | 🔒 SS | @manstervpn [64]",
                 "🇬🇧 GB | 🔒 SS | @manstervpn [66]",
                 "🇭🇰 HK | 🔒 SS | @mftizi [18]",
-                "🇬🇧 GB | 🔒 SS | @v2raybe [7]",
-                "❔ XX | 🔒 SS | @vpn_ioss [13]"
+                "🇬🇧 GB | 🔒 SS | @v2raybe [7]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -124,12 +124,12 @@
                 "🇺🇸 US | 🔒 SS | @mester_v2ray [19]",
                 "🇳🇱 NL | 🔒 SS | @netfreedom0 [23]",
                 "🇳🇱 NL | 🔒 SS | @outlinereleasedkey [15]",
+                "🇷🇺 RU | 🔒 SS | @v2ray_free_conf [17]",
                 "🇺🇸 US | 🔒 SS | @vmessiranproxy [18]",
                 "🇬🇧 GB | 🔒 SS | @manstervpn [64]",
                 "🇬🇧 GB | 🔒 SS | @manstervpn [66]",
                 "🇭🇰 HK | 🔒 SS | @mftizi [18]",
-                "🇬🇧 GB | 🔒 SS | @v2raybe [7]",
-                "❔ XX | 🔒 SS | @vpn_ioss [13]"
+                "🇬🇧 GB | 🔒 SS | @v2raybe [7]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -280,6 +280,14 @@
             "password": "oZIoA69Q8yhcQV8ka3Pa3A"
         },
         {
+            "tag": "🇷🇺 RU | 🔒 SS | @v2ray_free_conf [17]",
+            "type": "shadowsocks",
+            "server": "45.144.31.24",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "7HQ8w1YWMdNjq68bZt1tNfpDHLFA1BPA"
+        },
+        {
             "tag": "🇺🇸 US | 🔒 SS | @vmessiranproxy [18]",
             "type": "shadowsocks",
             "server": "45.87.175.10",
@@ -318,14 +326,6 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "u17T3BvpYaaiuW2c"
-        },
-        {
-            "tag": "❔ XX | 🔒 SS | @vpn_ioss [13]",
-            "type": "shadowsocks",
-            "server": "[2001:bc8:1203:106::300]",
-            "server_port": 33333,
-            "method": "aes-256-gcm",
-            "password": "dongtaiwang.com"
         }
     ],
     "route": {
