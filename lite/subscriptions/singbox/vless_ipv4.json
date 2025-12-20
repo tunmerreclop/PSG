@@ -141,8 +141,7 @@
                 "🚩 CF | 🔒 VLESS | @v2raytg [41]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇫🇮 FI | 🔒 VLESS | @vmesc [17]",
-                "🇺🇸 US | 🔓 VLESS | @vmesc [19]"
+                "🇺🇸 US | 🔓 VLESS | @vmesc [18]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -202,8 +201,7 @@
                 "🚩 CF | 🔒 VLESS | @v2raytg [41]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇫🇮 FI | 🔒 VLESS | @vmesc [17]",
-                "🇺🇸 US | 🔓 VLESS | @vmesc [19]"
+                "🇺🇸 US | 🔓 VLESS | @vmesc [18]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -1105,32 +1103,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @vmesc [17]",
-            "type": "vless",
-            "server": "141.98.169.96",
-            "server_port": 443,
-            "uuid": "bef46be4-a5f3-4e4c-b6fb-c4d38b3dba50",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "api.avito.ru",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/iixmriws",
-                "headers": {
-                    "Host": "api.avito.ru"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [19]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [18]",
             "type": "vless",
             "server": "151.101.25.242",
             "server_port": 80,
