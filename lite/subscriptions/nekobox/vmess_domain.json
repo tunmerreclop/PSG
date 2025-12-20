@@ -106,9 +106,8 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇨🇾 CY | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [17]",
+                "❔ XX | 🔒 VMESS | @v2ray_free_conf [19]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -150,9 +149,8 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇨🇾 CY | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [17]",
+                "❔ XX | 🔒 VMESS | @v2ray_free_conf [19]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -592,47 +590,38 @@
             "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
-            "type": "vmess",
-            "server": "78.47.131.39",
-            "server_port": 443,
-            "uuid": "6f514878-9513-4393-a68f-1225de4960a7",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇾 CY | 🔓 VMESS | @v2ray_free_conf [19]",
-            "type": "vmess",
-            "server": "77.37.33.77",
-            "server_port": 80,
-            "uuid": "d967ffca-de90-4daa-bd00-d527e5bae11f",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [20]",
+            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [17]",
             "type": "vmess",
             "server": "radhan.configraybot.sbs",
             "server_port": 11559,
             "uuid": "68d8d443-8d96-43bf-b99e-5a31d2d66d13",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "❔ XX | 🔒 VMESS | @v2ray_free_conf [19]",
+            "type": "vmess",
+            "server": "d7t3ny.keeoomboom.de",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "d7t3ny.keeoomboom.de",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/video/1jcyq.m3u8",
+                "headers": {
+                    "Host": "d7t3ny.keeoomboom.de"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",

@@ -83,16 +83,16 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [14]",
                 "🚩 CF | 🔓 VLESS | @orange_vpns [17]",
                 "🇺🇸 US | 🔓 VLESS | @orange_vpns [18]",
-                "🇮🇪 IE | 🔓 VLESS | @v2ray_vmes [16]",
-                "🇺🇸 US | 🔓 VLESS | @vmesc [18]",
-                "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [12]",
+                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
+                "🇺🇸 US | 🔓 VLESS | @vmesc [17]",
+                "🇮🇹 IT | 🔓 VLESS | @vmesc [19]",
+                "🇳🇱 NL | 🔒 VLESS | @vpn_ioss [12]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [65]",
-                "🇩🇪 DE | 🔒 VLESS | @parsashonam [12]",
-                "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
-                "🇺🇸 US | 🔓 VLESS | @vmesc [17]"
+                "🇩🇪 DE | 🔒 VLESS | @parsashonam [13]",
+                "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -106,16 +106,16 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [14]",
                 "🚩 CF | 🔓 VLESS | @orange_vpns [17]",
                 "🇺🇸 US | 🔓 VLESS | @orange_vpns [18]",
-                "🇮🇪 IE | 🔓 VLESS | @v2ray_vmes [16]",
-                "🇺🇸 US | 🔓 VLESS | @vmesc [18]",
-                "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [12]",
+                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
+                "🇺🇸 US | 🔓 VLESS | @vmesc [17]",
+                "🇮🇹 IT | 🔓 VLESS | @vmesc [19]",
+                "🇳🇱 NL | 🔒 VLESS | @vpn_ioss [12]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [65]",
-                "🇩🇪 DE | 🔒 VLESS | @parsashonam [12]",
-                "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
-                "🇺🇸 US | 🔓 VLESS | @vmesc [17]"
+                "🇩🇪 DE | 🔒 VLESS | @parsashonam [13]",
+                "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -233,7 +233,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇮🇪 IE | 🔓 VLESS | @v2ray_vmes [16]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
             "type": "vless",
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
@@ -242,7 +242,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [18]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [17]",
             "type": "vless",
             "server": "trt.fastlynew.hosting-ip.com",
             "server_port": 80,
@@ -251,7 +251,16 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [12]",
+            "tag": "🇮🇹 IT | 🔓 VLESS | @vmesc [19]",
+            "type": "vless",
+            "server": "de.fastlynew.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "TELEGRAM-CONFiGLiNE-99",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @vpn_ioss [12]",
             "type": "vless",
             "server": "deu711.deulucker.org",
             "server_port": 444,
@@ -347,11 +356,11 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [12]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [13]",
             "type": "vless",
-            "server": "91.98.130.176",
+            "server": "46.224.126.160",
             "server_port": 443,
-            "uuid": "Parsashonam-326",
+            "uuid": "Parsashonam-327",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -360,7 +369,7 @@
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
@@ -375,15 +384,6 @@
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "qeshmserver",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [17]",
-            "type": "vless",
-            "server": "151.101.25.242",
-            "server_port": 80,
-            "uuid": "fbbd87c3-170b-4249-8139-aa6b23ad5133",
             "flow": "",
             "packet_encoding": "xudp"
         }
