@@ -92,6 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🚩 CF | 🔓 VLESS | @config_proxy [69]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [2]",
                 "🇺🇸 US | 🔓 VLESS | @flyv2ray [3]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
@@ -153,8 +154,6 @@
                 "🇳🇱 NL | 🔓 VLESS | @v2aryng_vpn [11]",
                 "🇺🇸 US | 🔓 VLESS | @v2aryng_vpn [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [13]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [9]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [12]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -163,7 +162,7 @@
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [11]",
                 "🇺🇸 US | 🔓 VLESS | @vmesc [16]",
                 "🚩 CF | 🔓 VLESS | @vmesskhodam [1]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [8]"
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [7]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -174,6 +173,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🚩 CF | 🔓 VLESS | @config_proxy [69]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [2]",
                 "🇺🇸 US | 🔓 VLESS | @flyv2ray [3]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
@@ -235,8 +235,6 @@
                 "🇳🇱 NL | 🔓 VLESS | @v2aryng_vpn [11]",
                 "🇺🇸 US | 🔓 VLESS | @v2aryng_vpn [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [13]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [9]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [12]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -245,7 +243,7 @@
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [11]",
                 "🇺🇸 US | 🔓 VLESS | @vmesc [16]",
                 "🚩 CF | 🔓 VLESS | @vmesskhodam [1]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [8]"
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [7]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -330,6 +328,15 @@
                     "Host": "127.0.0.1"
                 }
             }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [69]",
+            "type": "vless",
+            "server": "104.16.1.106",
+            "server_port": 8080,
+            "uuid": "b6be0916-7e55-4e65-b5d0-132874f381a2",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [2]",
@@ -1319,24 +1326,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [9]",
-            "type": "vless",
-            "server": "151.101.25.242",
-            "server_port": 80,
-            "uuid": "fbbd87c3-170b-4249-8139-aa6b23ad5133",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [12]",
-            "type": "vless",
-            "server": "151.101.25.242",
-            "server_port": 80,
-            "uuid": "fbbd87c3-170b-4249-8139-aa6b23ad5133",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
             "type": "vless",
             "server": "217.71.204.148",
@@ -1479,7 +1468,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [8]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [7]",
             "type": "vless",
             "server": "151.101.25.242",
             "server_port": 80,

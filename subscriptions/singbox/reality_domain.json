@@ -95,7 +95,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [74]",
+                "🇵🇱 PL | 🔒 VLESS | @config_proxy [64]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [73]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -163,7 +164,6 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_youtube [4]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [17]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raying [3]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raying [5]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
@@ -204,7 +204,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [74]",
+                "🇵🇱 PL | 🔒 VLESS | @config_proxy [64]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [73]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -272,7 +273,6 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_youtube [4]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [17]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raying [3]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raying [5]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
@@ -463,16 +463,39 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [74]",
+            "tag": "🇵🇱 PL | 🔒 VLESS | @config_proxy [64]",
             "type": "vless",
-            "server": "b.confignor.site",
-            "server_port": 35493,
-            "uuid": "0e266513-0600-4741-b8f3-b7a5aa157684",
+            "server": "pl.jykvpn.com",
+            "server_port": 443,
+            "uuid": "56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.cdn77.com",
+                "server_name": "cdnjs.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw",
+                    "short_id": "4c02bbbfa833b3b6"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [73]",
+            "type": "vless",
+            "server": "meg3.horiono3.xyz",
+            "server_port": 443,
+            "uuid": "fd4b0117-d752-46fd-9a94-21a21e360fdb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "io.ozone.ru",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -480,13 +503,9 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "qeWt8jJZTwf6vmiTvDfaalPaSZDkX7a3XkKrBxf2YVA",
-                    "short_id": "9c24"
+                    "public_key": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
+                    "short_id": "cf4d"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "چنل سازنده اصلی کانفیگ @ConfigFree"
             }
         },
         {
@@ -2123,33 +2142,6 @@
                     "public_key": "2dIWbgD8nbCd1YBs-IiQ6vgA7mse9PA9DWqaIMFsTmc",
                     "short_id": "cb333964"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [17]",
-            "type": "vless",
-            "server": "a.confignor.site",
-            "server_port": 35493,
-            "uuid": "e5097617-273a-4d52-8110-c2f67cf80147",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cdn77.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "qq"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "qeWt8jJZTwf6vmiTvDfaalPaSZDkX7a3XkKrBxf2YVA",
-                    "short_id": "9c24"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "چنل سازنده اصلی کانفیگ @ConfigFree"
             }
         },
         {
