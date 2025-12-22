@@ -239,6 +239,7 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
+                "🇨🇦 CA | 🔒 SS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "🇮🇪 IE | 🔓 VLESS | @v2ray_vmes [16]",
@@ -262,9 +263,9 @@
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇦🇱 AL | 🔒 VLESS | @vmesc [18]",
-                "🇺🇸 US | 🔓 VLESS | @vmesc [19]",
-                "🇳🇱 NL | 🔒 SS | @vmesc [20]",
+                "🇺🇸 US | 🔓 VLESS | @vmesc [18]",
+                "🇳🇱 NL | 🔒 SS | @vmesc [19]",
+                "🚩 CF | 🔒 VLESS | @vmesc [20]",
                 "🇺🇸 US | 🔒 SS | @vmessiranproxy [18]",
                 "🇫🇷 FR | 🔓 VMESS | @vpn_ioss [14]",
                 "🚩 CF | 🔒 VLESS | @vpn_ioss [16]",
@@ -430,6 +431,7 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
+                "🇨🇦 CA | 🔒 SS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "🇮🇪 IE | 🔓 VLESS | @v2ray_vmes [16]",
@@ -453,9 +455,9 @@
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇦🇱 AL | 🔒 VLESS | @vmesc [18]",
-                "🇺🇸 US | 🔓 VLESS | @vmesc [19]",
-                "🇳🇱 NL | 🔒 SS | @vmesc [20]",
+                "🇺🇸 US | 🔓 VLESS | @vmesc [18]",
+                "🇳🇱 NL | 🔒 SS | @vmesc [19]",
+                "🚩 CF | 🔒 VLESS | @vmesc [20]",
                 "🇺🇸 US | 🔒 SS | @vmessiranproxy [18]",
                 "🇫🇷 FR | 🔓 VMESS | @vpn_ioss [14]",
                 "🚩 CF | 🔒 VLESS | @vpn_ioss [16]",
@@ -2769,6 +2771,14 @@
             }
         },
         {
+            "tag": "🇨🇦 CA | 🔒 SS | @v2ray_free_conf [20]",
+            "type": "shadowsocks",
+            "server": "23.95.76.59",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+        },
+        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
             "type": "vless",
             "server": "gr.liteingshop.com",
@@ -3167,30 +3177,7 @@
             }
         },
         {
-            "tag": "🇦🇱 AL | 🔒 VLESS | @vmesc [18]",
-            "type": "vless",
-            "server": "78.159.131.23",
-            "server_port": 443,
-            "uuid": "76f385df-bb5c-4e92-b60b-fce540b0a6a0",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "al.cdn.stun.su",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "qq"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "su3dq3BDLDkX-jIjq3GyVUXwqzD7CNVYzKtOcO4HQ24",
-                    "short_id": "3846b9259d66cc64"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [19]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [18]",
             "type": "vless",
             "server": "trt.fastlynew.hosting-ip.com",
             "server_port": 80,
@@ -3199,12 +3186,37 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🔒 SS | @vmesc [20]",
+            "tag": "🇳🇱 NL | 🔒 SS | @vmesc [19]",
             "type": "shadowsocks",
             "server": "82.38.31.208",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "k1dBOmOB4oqi7Ump37a1bQ"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @vmesc [20]",
+            "type": "vless",
+            "server": "172.64.33.91",
+            "server_port": 443,
+            "uuid": "02e46039-200d-4ae4-ac90-b0d619f72034",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "redlabell.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/aafeuws",
+                "headers": {
+                    "Host": "redlabell.info"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔒 SS | @vmessiranproxy [18]",

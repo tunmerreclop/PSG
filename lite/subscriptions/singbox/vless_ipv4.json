@@ -140,7 +140,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇦🇱 AL | 🔒 VLESS | @vmesc [18]"
+                "🚩 CF | 🔒 VLESS | @vmesc [20]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -199,7 +199,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇦🇱 AL | 🔒 VLESS | @vmesc [18]"
+                "🚩 CF | 🔒 VLESS | @vmesc [20]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -1068,25 +1068,27 @@
             }
         },
         {
-            "tag": "🇦🇱 AL | 🔒 VLESS | @vmesc [18]",
+            "tag": "🚩 CF | 🔒 VLESS | @vmesc [20]",
             "type": "vless",
-            "server": "78.159.131.23",
+            "server": "172.64.33.91",
             "server_port": 443,
-            "uuid": "76f385df-bb5c-4e92-b60b-fce540b0a6a0",
-            "flow": "xtls-rprx-vision",
+            "uuid": "02e46039-200d-4ae4-ac90-b0d619f72034",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "al.cdn.stun.su",
+                "server_name": "redlabell.info",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "qq"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "su3dq3BDLDkX-jIjq3GyVUXwqzD7CNVYzKtOcO4HQ24",
-                    "short_id": "3846b9259d66cc64"
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/aafeuws",
+                "headers": {
+                    "Host": "redlabell.info"
                 }
             }
         }
