@@ -100,10 +100,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [12]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayvpn2 [5]",
-                "🇮🇹 IT | 🔓 VLESS | @v2ray1_ng [1]",
-                "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
-                "🇮🇹 IT | 🔓 VLESS | @v2raytg [37]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [17]"
+                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
+                "🇺🇸 US | 🔓 VLESS | @v2raytg [37]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -122,10 +120,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [12]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayvpn2 [5]",
-                "🇮🇹 IT | 🔓 VLESS | @v2ray1_ng [1]",
-                "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
-                "🇮🇹 IT | 🔓 VLESS | @v2raytg [37]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [17]"
+                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
+                "🇺🇸 US | 🔓 VLESS | @v2raytg [37]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -335,16 +331,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇮🇹 IT | 🔓 VLESS | @v2ray1_ng [1]",
-            "type": "vless",
-            "server": "trt.fastlynew.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "29267952-e97b-4f23-9998-b084d934338d",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
             "type": "vless",
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
@@ -353,31 +340,13 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇮🇹 IT | 🔓 VLESS | @v2raytg [37]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2raytg [37]",
             "type": "vless",
             "server": "trt.fastlynew.hosting-ip.com",
             "server_port": 80,
             "uuid": "de8ebf94-883b-46e0-b276-2c3cd0c96e4e",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [17]",
-            "type": "vless",
-            "server": "statue.lnmarketplace.net",
-            "server_port": 443,
-            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "statue.lnmarketplace.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         }
     ],
     "route": {
