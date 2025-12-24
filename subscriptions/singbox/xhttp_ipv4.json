@@ -93,7 +93,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [11]",
-                "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [1]",
+                "🇳🇱 NL | 🔓 VLESS | @config_proxy [59]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [20]",
                 "🇲🇩 MD | 🔒 VLESS | @flyv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @free4allvpn [18]",
@@ -141,9 +141,6 @@
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
                 "🚩 CF | 🔒 VLESS | @proxie [19]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
-                "🇫🇮 FI | 🔒 VLESS | @prrofile_purple [132]",
-                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [133]",
-                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [135]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇳🇱 NL | 🔓 VLESS | @server_nekobox [3]",
                 "🇳🇱 NL | 🔓 VLESS | @server_nekobox [4]",
@@ -171,7 +168,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [11]",
-                "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [1]",
+                "🇳🇱 NL | 🔓 VLESS | @config_proxy [59]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [20]",
                 "🇲🇩 MD | 🔒 VLESS | @flyv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @free4allvpn [18]",
@@ -219,9 +216,6 @@
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
                 "🚩 CF | 🔒 VLESS | @proxie [19]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
-                "🇫🇮 FI | 🔒 VLESS | @prrofile_purple [132]",
-                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [133]",
-                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [135]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇳🇱 NL | 🔓 VLESS | @server_nekobox [3]",
                 "🇳🇱 NL | 🔓 VLESS | @server_nekobox [4]",
@@ -333,27 +327,13 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [1]",
+            "tag": "🇳🇱 NL | 🔓 VLESS | @config_proxy [59]",
             "type": "vless",
-            "server": "91.98.164.168",
-            "server_port": 45107,
-            "uuid": "c306bf29-80f1-4c4f-83b2-4a97fd28aba5",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "2DpFIQiJPwU4LZW69_MuOeDqTb8amojGsdM15Xahd0k",
-                    "short_id": "d4fa"
-                }
-            }
+            "server": "151.101.205.194",
+            "server_port": 80,
+            "uuid": "c24dcdbd-d828-45f8-888a-35737a8177c1",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @evay_vpn [20]",
@@ -1125,75 +1105,6 @@
                     "enabled": true,
                     "public_key": "z--KbBlQtkBgTcrtdBJeGeCymIrLdaUDwkb44pAp6nY",
                     "short_id": "4c"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @prrofile_purple [132]",
-            "type": "vless",
-            "server": "77.42.16.205",
-            "server_port": 443,
-            "uuid": "6a35ac5c-12cb-4719-86f8-3334cb5970e4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.wikipedia.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "as04WkYoj-P4vEjJFXB3LeA_Rkt7Ud4pV2oTZ3bZwQg",
-                    "short_id": "1c213fd68e13"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [133]",
-            "type": "vless",
-            "server": "91.107.129.163",
-            "server_port": 443,
-            "uuid": "25bdee71-5996-421b-80b2-bf256a7c8438",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.wikipedia.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "as04WkYoj-P4vEjJFXB3LeA_Rkt7Ud4pV2oTZ3bZwQg",
-                    "short_id": "1c213fd68e13"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [135]",
-            "type": "vless",
-            "server": "91.107.170.165",
-            "server_port": 443,
-            "uuid": "c7269205-fa36-448c-bb95-34f932f1c7bf",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.wikipedia.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "as04WkYoj-P4vEjJFXB3LeA_Rkt7Ud4pV2oTZ3bZwQg",
-                    "short_id": "1c213fd68e13"
                 }
             }
         },
