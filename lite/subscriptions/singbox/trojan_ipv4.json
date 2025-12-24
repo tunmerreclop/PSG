@@ -92,10 +92,11 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
-                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
-                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
-                "🚩 CF | 🔒 TROJAN | @v2rayvpn2 [2]"
+                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [12]",
+                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [13]",
+                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]",
+                "🚩 CF | 🔒 TROJAN | @v2rayvpn2 [2]",
+                "🚩 CF | 🔒 TROJAN | @vpn_ioss [13]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -106,10 +107,11 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
-                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
-                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
-                "🚩 CF | 🔒 TROJAN | @v2rayvpn2 [2]"
+                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [12]",
+                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [13]",
+                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]",
+                "🚩 CF | 🔒 TROJAN | @v2rayvpn2 [2]",
+                "🚩 CF | 🔒 TROJAN | @vpn_ioss [13]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -196,23 +198,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
-            "type": "trojan",
-            "server": "13.36.126.131",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
+            "tag": "🇫🇷 FR | 🔒 TROJAN | @privatevpns [12]",
             "type": "trojan",
             "server": "15.236.45.23",
             "server_port": 22222,
@@ -228,9 +214,25 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @privatevpns [13]",
             "type": "trojan",
             "server": "18.158.245.65",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]",
+            "type": "trojan",
+            "server": "35.156.118.52",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "tls": {
@@ -261,6 +263,29 @@
             "transport": {
                 "type": "ws",
                 "path": "/eyJqdW5rIjoiVUl6eXhLZkkwUTJ3ZzkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560",
+                "headers": {
+                    "Host": "reDfRee8.REDFree8.ir"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @vpn_ioss [13]",
+            "type": "trojan",
+            "server": "172.67.134.185",
+            "server_port": 443,
+            "password": "POORIARED",
+            "tls": {
+                "enabled": true,
+                "server_name": "reDfRee8.REDFree8.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiVUl6eXhLZkkwUTJ3ZzkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed",
                 "headers": {
                     "Host": "reDfRee8.REDFree8.ir"
                 }

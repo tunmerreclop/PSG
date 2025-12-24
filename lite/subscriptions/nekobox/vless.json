@@ -121,6 +121,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @toucan_vpn [1]",
                 "Telegram-mtmvpn---Telegram-mtmvpn&security=none&encryption=none&host=sPeedtest2.sbs.br.vless.sitespeedtest.net&type=ws#🇩🇪 DE | 🔓 VLESS | @v2ra_ng_iran [15]",
                 "🇮🇷 IR | 🔓 VLESS | @v2ra_ng_iran [17]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [1]",
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
@@ -187,7 +188,7 @@
                 "🚩 CF | 🔓 VLESS | @v2logy [9]",
                 "🚩 CF | 🔓 VLESS | @v2logy [10]",
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
-                "🚩 CF | 🔒 VLESS | @v2ray1_ng [1]",
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [2]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
@@ -202,8 +203,8 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🇳🇱 NL | 🔒 VLESS | @vmesc [17]",
-                "🚩 CF | 🔒 VLESS | @vpn_ioss [16]",
+                "🇺🇸 US | 🔒 VLESS | @vmesc [17]",
+                "🚩 CF | 🔒 VLESS | @vpn_ioss [12]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]"
@@ -258,6 +259,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @toucan_vpn [1]",
                 "Telegram-mtmvpn---Telegram-mtmvpn&security=none&encryption=none&host=sPeedtest2.sbs.br.vless.sitespeedtest.net&type=ws#🇩🇪 DE | 🔓 VLESS | @v2ra_ng_iran [15]",
                 "🇮🇷 IR | 🔓 VLESS | @v2ra_ng_iran [17]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [1]",
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
@@ -324,7 +326,7 @@
                 "🚩 CF | 🔓 VLESS | @v2logy [9]",
                 "🚩 CF | 🔓 VLESS | @v2logy [10]",
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
-                "🚩 CF | 🔒 VLESS | @v2ray1_ng [1]",
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [2]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
@@ -339,8 +341,8 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🇳🇱 NL | 🔒 VLESS | @vmesc [17]",
-                "🚩 CF | 🔒 VLESS | @vpn_ioss [16]",
+                "🇺🇸 US | 🔒 VLESS | @vmesc [17]",
+                "🚩 CF | 🔒 VLESS | @vpn_ioss [12]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
                 "❔ XX | 🔒 VLESS | @xrayzxn [7]"
@@ -1067,6 +1069,31 @@
             "uuid": "73e10f2a-bb9a-40c1-8e2c-ebfe0dac1dac",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [1]",
+            "type": "vless",
+            "server": "185.235.241.40",
+            "server_port": 443,
+            "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "185.235.241.40",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/hormoz",
+                "headers": {
+                    "Host": "185.235.241.40"
+                }
+            }
         },
         {
             "tag": "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
@@ -2162,7 +2189,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @v2ray1_ng [1]",
+            "tag": "🚩 CF | 🔒 VLESS | @v2ray1_ng [2]",
             "type": "vless",
             "server": "saas.sin.fan",
             "server_port": 443,
@@ -2431,7 +2458,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @vmesc [17]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @vmesc [17]",
             "type": "vless",
             "server": "ams1.fromblancwithlove.com",
             "server_port": 8443,
@@ -2449,7 +2476,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vpn_ioss [16]",
+            "tag": "🚩 CF | 🔒 VLESS | @vpn_ioss [12]",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
