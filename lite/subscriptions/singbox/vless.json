@@ -122,7 +122,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @mtproxy22_v2ray [14]",
                 "🇮🇷 IR | 🔓 VLESS | @narcod_ping [14]",
                 "🇮🇷 IR | 🔓 VLESS | @narcod_ping [15]",
-                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [15]",
+                "🇵🇱 PL | 🔓 VLESS | @orange_vpns [17]",
+                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [18]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [12]",
                 "🇩🇪 DE | 🔓 VLESS | @proxycrone [6]",
                 "🇹🇷 TR | 🔓 VLESS | @pusyvpn [8]",
@@ -205,8 +206,8 @@
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "🇮🇪 IE | 🔓 VLESS | @v2ray_vmes [16]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🇮🇹 IT | 🔓 VLESS | @v2raytg [37]",
-                "🇮🇹 IT | 🔓 VLESS | @v2raytg [39]",
+                "🇺🇸 US | 🔓 VLESS | @v2raytg [37]",
+                "🇺🇸 US | 🔓 VLESS | @v2raytg [39]",
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [12]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
@@ -261,7 +262,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @mtproxy22_v2ray [14]",
                 "🇮🇷 IR | 🔓 VLESS | @narcod_ping [14]",
                 "🇮🇷 IR | 🔓 VLESS | @narcod_ping [15]",
-                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [15]",
+                "🇵🇱 PL | 🔓 VLESS | @orange_vpns [17]",
+                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [18]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [12]",
                 "🇩🇪 DE | 🔓 VLESS | @proxycrone [6]",
                 "🇹🇷 TR | 🔓 VLESS | @pusyvpn [8]",
@@ -344,8 +346,8 @@
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "🇮🇪 IE | 🔓 VLESS | @v2ray_vmes [16]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🇮🇹 IT | 🔓 VLESS | @v2raytg [37]",
-                "🇮🇹 IT | 🔓 VLESS | @v2raytg [39]",
+                "🇺🇸 US | 🔓 VLESS | @v2raytg [37]",
+                "🇺🇸 US | 🔓 VLESS | @v2raytg [39]",
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [12]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
@@ -966,11 +968,36 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @orange_vpns [15]",
+            "tag": "🇵🇱 PL | 🔓 VLESS | @orange_vpns [17]",
             "type": "vless",
-            "server": "85.9.205.54",
-            "server_port": 4655,
-            "uuid": "2668fdee-331d-4770-8244-d2a4efbf6ef8",
+            "server": "144.31.5.179",
+            "server_port": 443,
+            "uuid": "98cb33a8-d6f7-41f0-8796-e4b471d65df8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "144.31.5.179",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "144.31.5.179"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @orange_vpns [18]",
+            "type": "vless",
+            "server": "91.99.73.21",
+            "server_port": 42952,
+            "uuid": "8ded38b7-f0d8-4ce8-8615-9d31db206732",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -2315,7 +2342,7 @@
             }
         },
         {
-            "tag": "🇮🇹 IT | 🔓 VLESS | @v2raytg [37]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2raytg [37]",
             "type": "vless",
             "server": "trt.fastlynew.hosting-ip.com",
             "server_port": 80,
@@ -2324,7 +2351,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇮🇹 IT | 🔓 VLESS | @v2raytg [39]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2raytg [39]",
             "type": "vless",
             "server": "trt.fastlynew.hosting-ip.com",
             "server_port": 80,
