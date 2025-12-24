@@ -110,6 +110,7 @@
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [2]",
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [6]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [49]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [50]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [52]",
@@ -150,6 +151,7 @@
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [2]",
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [6]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [49]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [50]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [52]",
@@ -589,6 +591,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [6]",
+            "type": "trojan",
+            "server": "bisque.qzz.io",
+            "server_port": 443,
+            "password": "e86364fb-a5e3-42c3-b7fa-6ce8097fe19f",
+            "tls": {
+                "enabled": true,
+                "server_name": "bisque.qzz.io",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/66.135.4.222:8443",
+                "headers": {
+                    "Host": "bisque.qzz.io"
                 }
             }
         },

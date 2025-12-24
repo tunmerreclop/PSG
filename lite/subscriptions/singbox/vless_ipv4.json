@@ -134,6 +134,7 @@
                 "Telegram-mtmvpn---Telegram-mtmvpn&security=none&encryption=none&host=sPeedtest2.sbs.br.vless.sitespeedtest.net&type=ws#🇩🇪 DE | 🔓 VLESS | @v2ra_ng_iran [15]",
                 "🇮🇷 IR | 🔓 VLESS | @v2ra_ng_iran [17]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [1]",
+                "🇳🇱 NL | 🔒 VLESS | @v2ray1_ng [3]",
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
@@ -193,6 +194,7 @@
                 "Telegram-mtmvpn---Telegram-mtmvpn&security=none&encryption=none&host=sPeedtest2.sbs.br.vless.sitespeedtest.net&type=ws#🇩🇪 DE | 🔓 VLESS | @v2ra_ng_iran [15]",
                 "🇮🇷 IR | 🔓 VLESS | @v2ra_ng_iran [17]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [1]",
+                "🇳🇱 NL | 🔒 VLESS | @v2ray1_ng [3]",
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
@@ -455,7 +457,7 @@
             "type": "vless",
             "server": "172.66.156.81",
             "server_port": 80,
-            "uuid": "efedc1df-739e-4869-b41c-558f3b9fc53f",
+            "uuid": "6973af07-0f40-4e7c-b923-8d917c04afb7",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
@@ -942,6 +944,29 @@
                 "path": "/hormoz",
                 "headers": {
                     "Host": "185.235.241.40"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @v2ray1_ng [3]",
+            "type": "vless",
+            "server": "45.8.144.198",
+            "server_port": 443,
+            "uuid": "1a539db6-d162-42f4-9b56-687bd57bfbc2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "mirror.yandex.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "KXA-hPtvy_hzNER1ZNtUxBv_VrGGKfmIyi4CQAyjGxs",
+                    "short_id": "d94e8f45"
                 }
             }
         },
