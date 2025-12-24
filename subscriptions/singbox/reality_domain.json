@@ -95,6 +95,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -132,7 +133,7 @@
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [8]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "🇫🇮 FI | 🔒 VLESS | @orange_vpns [6]",
+                "🇺🇸 US | 🔒 VLESS | @orange_vpns [6]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxycrone [3]",
@@ -171,8 +172,8 @@
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [5]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [6]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [7]",
-                "🇹🇷 TR | 🔒 VLESS | @vpnplusee_free [5]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [7]",
+                "🇹🇷 TR | 🔒 VLESS | @vpnplusee_free [4]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [6]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
             "tag": "proxy",
@@ -187,6 +188,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -224,7 +226,7 @@
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [8]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "🇫🇮 FI | 🔒 VLESS | @orange_vpns [6]",
+                "🇺🇸 US | 🔒 VLESS | @orange_vpns [6]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxycrone [3]",
@@ -263,8 +265,8 @@
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [5]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [6]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [7]",
-                "🇹🇷 TR | 🔒 VLESS | @vpnplusee_free [5]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [7]",
+                "🇹🇷 TR | 🔒 VLESS | @vpnplusee_free [4]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [6]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
             "tag": "auto",
@@ -426,6 +428,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
+            "type": "vless",
+            "server": "cute-kittens.store",
+            "server_port": 8443,
+            "uuid": "1110a364-4c94-42b7-84d9-085a34eabee4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tradingview.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mfBIs4jfBLzL_gqBO0QmbzwhSqamg2heEb_uNpGu3Rc",
+                    "short_id": "ffb82d9a35846463"
+                }
             }
         },
         {
@@ -1355,7 +1380,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @orange_vpns [6]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @orange_vpns [6]",
             "type": "vless",
             "server": "fi4.srv.oplcdn.link",
             "server_port": 7443,
@@ -2288,7 +2313,7 @@
             }
         },
         {
-            "tag": "🇹🇷 TR | 🔒 VLESS | @vpnplusee_free [5]",
+            "tag": "🇹🇷 TR | 🔒 VLESS | @vpnplusee_free [4]",
             "type": "vless",
             "server": "tr.gpairnetwork369.de",
             "server_port": 3060,
@@ -2311,7 +2336,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [7]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [6]",
             "type": "vless",
             "server": "pfwie.marfanet.com",
             "server_port": 2087,
