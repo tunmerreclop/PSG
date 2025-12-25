@@ -107,8 +107,7 @@
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇨🇦 CA | 🔒 VMESS | @v2ray1_ng [3]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [18]",
-                "❔ XX | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -151,8 +150,7 @@
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇨🇦 CA | 🔒 VMESS | @v2ray1_ng [3]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [18]",
-                "❔ XX | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -617,16 +615,16 @@
             "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [18]",
+            "tag": "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
-            "server": "57.129.64.163",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "95.81.114.252",
+            "server_port": 44749,
+            "uuid": "c09f13ce-2cca-49b6-ad1e-597566cc89c6",
             "security": "auto",
             "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "yichueng.org",
+                "server_name": "imafake.locker",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -635,27 +633,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/linkvws",
+                "path": "/speedtest",
                 "headers": {
-                    "Host": "yichueng.org"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VMESS | @v2ray_free_conf [19]",
-            "type": "vmess",
-            "server": "hg.connectedbyara6.xyz",
-            "server_port": 11017,
-            "uuid": "c712136d-14b1-4a3b-b086-dfbfe6192bcf",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+                    "Host": "imafake.locker"
                 }
             }
         },
