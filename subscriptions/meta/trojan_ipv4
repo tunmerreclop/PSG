@@ -23,8 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🚩 CF | 🔒 TROJAN | @config_proxy [59]","type":"trojan","server":"172.64.229.25","port":443,"password":"5a2c16f9","skip-cert-verify":true}
-  - {"name":"🚩 CF | 🔒 TROJAN | @config_proxy [61]","type":"trojan","server":"172.64.229.169","port":443,"password":"5a2c16f9","skip-cert-verify":true}
   - {"name":"🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]","type":"trojan","server":"91.107.141.0","port":23825,"password":"ziIjOlyGbM","skip-cert-verify":false}
   - {"name":"🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]","type":"trojan","server":"185.59.218.220","port":443,"password":"Maradona_vpn","skip-cert-verify":false}
   - {"name":"🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]","type":"trojan","server":"185.174.138.209","port":443,"password":"maradona_vpn","skip-cert-verify":false}
@@ -83,8 +81,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🚩 CF | 🔒 TROJAN | @config_proxy [59]'
-      - '🚩 CF | 🔒 TROJAN | @config_proxy [61]'
       - '🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]'
       - '🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]'
       - '🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]'
