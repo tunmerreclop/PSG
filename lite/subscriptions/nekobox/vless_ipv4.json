@@ -110,8 +110,9 @@
                 "🇩🇪 DE | 🔓 VLESS | @mtproxy22_v2ray [14]",
                 "🇮🇷 IR | 🔓 VLESS | @narcod_ping [14]",
                 "🇮🇷 IR | 🔓 VLESS | @narcod_ping [15]",
-                "🇵🇱 PL | 🔓 VLESS | @orange_vpns [17]",
-                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [18]",
+                "🇵🇱 PL | 🔓 VLESS | @orange_vpns [16]",
+                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [17]",
+                "🇬🇧 GB | 🔓 VLESS | @orange_vpns [18]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [12]",
                 "🇩🇪 DE | 🔓 VLESS | @proxycrone [6]",
                 "🇹🇷 TR | 🔓 VLESS | @pusyvpn [8]",
@@ -130,7 +131,8 @@
                 "🇺🇸 US | 🔓 VLESS | @v2rayvpn2 [4]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇺🇸 US | 🔒 VLESS | @vmesc [18]"
+                "🇺🇸 US | 🔒 VLESS | @vmesc [17]",
+                "🇷🇺 RU | 🔒 VLESS | @vmesc [18]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -171,8 +173,9 @@
                 "🇩🇪 DE | 🔓 VLESS | @mtproxy22_v2ray [14]",
                 "🇮🇷 IR | 🔓 VLESS | @narcod_ping [14]",
                 "🇮🇷 IR | 🔓 VLESS | @narcod_ping [15]",
-                "🇵🇱 PL | 🔓 VLESS | @orange_vpns [17]",
-                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [18]",
+                "🇵🇱 PL | 🔓 VLESS | @orange_vpns [16]",
+                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [17]",
+                "🇬🇧 GB | 🔓 VLESS | @orange_vpns [18]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [12]",
                 "🇩🇪 DE | 🔓 VLESS | @proxycrone [6]",
                 "🇹🇷 TR | 🔓 VLESS | @pusyvpn [8]",
@@ -191,7 +194,8 @@
                 "🇺🇸 US | 🔓 VLESS | @v2rayvpn2 [4]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇺🇸 US | 🔒 VLESS | @vmesc [18]"
+                "🇺🇸 US | 🔒 VLESS | @vmesc [17]",
+                "🇷🇺 RU | 🔒 VLESS | @vmesc [18]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -802,7 +806,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇵🇱 PL | 🔓 VLESS | @orange_vpns [17]",
+            "tag": "🇵🇱 PL | 🔓 VLESS | @orange_vpns [16]",
             "type": "vless",
             "server": "144.31.5.179",
             "server_port": 443,
@@ -827,13 +831,26 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @orange_vpns [18]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @orange_vpns [17]",
             "type": "vless",
             "server": "91.99.73.21",
             "server_port": 42952,
             "uuid": "8ded38b7-f0d8-4ce8-8615-9d31db206732",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇬🇧 GB | 🔓 VLESS | @orange_vpns [18]",
+            "type": "vless",
+            "server": "198.244.141.25",
+            "server_port": 25372,
+            "uuid": "4a19f1eb-a060-4f1f-b154-42197d1f55d6",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [12]",
@@ -1104,7 +1121,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @vmesc [18]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @vmesc [17]",
             "type": "vless",
             "server": "208.103.161.33",
             "server_port": 2053,
@@ -1125,6 +1142,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "sni.111000.dynv6.net"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @vmesc [18]",
+            "type": "vless",
+            "server": "90.156.150.229",
+            "server_port": 443,
+            "uuid": "4c186abf-c15f-4a73-af74-cdeb78d29d81",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tradingview.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg",
+                    "short_id": "48fccabc158a4c22"
                 }
             }
         }
