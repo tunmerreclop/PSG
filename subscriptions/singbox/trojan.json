@@ -98,7 +98,6 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [58]",
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
-                "🇭🇰 HK | 🔓 TROJAN | @config_proxy [56]",
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [6]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [1]",
@@ -123,6 +122,8 @@
                 "❔ XX | 🔒 TROJAN | @xrayzxn [1]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [2]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
+                "🚩 CF | 🔒 TROJAN | @config_proxy [59]",
+                "🚩 CF | 🔒 TROJAN | @config_proxy [61]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
@@ -184,7 +185,6 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [58]",
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
-                "🇭🇰 HK | 🔓 TROJAN | @config_proxy [56]",
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [6]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [1]",
@@ -209,6 +209,8 @@
                 "❔ XX | 🔒 TROJAN | @xrayzxn [1]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [2]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
+                "🚩 CF | 🔒 TROJAN | @config_proxy [59]",
+                "🚩 CF | 🔒 TROJAN | @config_proxy [61]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
@@ -444,13 +446,6 @@
                     "Host": "asia.artunnel57.host"
                 }
             }
-        },
-        {
-            "tag": "🇭🇰 HK | 🔓 TROJAN | @config_proxy [56]",
-            "type": "trojan",
-            "server": "c80c993c-e6d4-548c-88c0-c4893b3d3d4d.358.onl",
-            "server_port": 24103,
-            "password": "309a74a1-364f-4788-b44f-fb15013f69fb"
         },
         {
             "tag": "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [6]",
@@ -895,6 +890,52 @@
                 "path": "/6vuNVgOFnqUEvj0sNkGkxxW7",
                 "headers": {
                     "Host": "amin.karkas1.ir"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @config_proxy [59]",
+            "type": "trojan",
+            "server": "172.64.229.25",
+            "server_port": 443,
+            "password": "5a2c16f9",
+            "tls": {
+                "enabled": true,
+                "server_name": "snippets.kkii.eu.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "snippets.kkii.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @config_proxy [61]",
+            "type": "trojan",
+            "server": "172.64.229.169",
+            "server_port": 443,
+            "password": "5a2c16f9",
+            "tls": {
+                "enabled": true,
+                "server_name": "snippets.kkii.eu.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "snippets.kkii.eu.org"
                 }
             }
         },
