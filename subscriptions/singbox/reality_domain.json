@@ -92,6 +92,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇪🇸 ES | 🔒 VLESS | @config_proxy [67]",
+                "🇪🇸 ES | 🔒 VLESS | @config_proxy [68]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [69]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [70]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [7]",
                 "❔ XX | 🔒 VLESS | @ehsawn8 [8]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
@@ -102,7 +106,6 @@
                 "❔ XX | 🔒 VLESS | @public504 [12]",
                 "❔ XX | 🔒 VLESS | @satellitenewspersian [13]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
-                "🇳🇱 NL | 🔒 VLESS | @v2raych [17]",
                 "❔ XX | 🔒 VLESS | @v2rayy_vpn13 [9]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [3]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [4]",
@@ -119,6 +122,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇪🇸 ES | 🔒 VLESS | @config_proxy [67]",
+                "🇪🇸 ES | 🔒 VLESS | @config_proxy [68]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [69]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [70]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [7]",
                 "❔ XX | 🔒 VLESS | @ehsawn8 [8]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
@@ -129,7 +136,6 @@
                 "❔ XX | 🔒 VLESS | @public504 [12]",
                 "❔ XX | 🔒 VLESS | @satellitenewspersian [13]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
-                "🇳🇱 NL | 🔒 VLESS | @v2raych [17]",
                 "❔ XX | 🔒 VLESS | @v2rayy_vpn13 [9]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [3]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [4]",
@@ -218,6 +224,98 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇪🇸 ES | 🔒 VLESS | @config_proxy [67]",
+            "type": "vless",
+            "server": "tunnyl.ru",
+            "server_port": 54746,
+            "uuid": "dcdb3ff1-78cd-434d-9685-23e6fe302c34",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "safari"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "t9Eutf6lPyexq26i2xtD-SCkmnxo8kesCEv6zkrKd2U",
+                    "short_id": "0c2a093291fab91a"
+                }
+            }
+        },
+        {
+            "tag": "🇪🇸 ES | 🔒 VLESS | @config_proxy [68]",
+            "type": "vless",
+            "server": "tunnyl.ru",
+            "server_port": 443,
+            "uuid": "7bc03e01-2e6e-4b0d-a941-d99fef64d426",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "llUN5iiAQwwKwiAp7zCwfU8wNz7F4lg__e9Qdv_gkWs",
+                    "short_id": "0f1d6a"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [69]",
+            "type": "vless",
+            "server": "world-of.ru",
+            "server_port": 443,
+            "uuid": "3285e15e-4a35-4fd5-9811-cf0a55247a17",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "6bdxTggpMa9veyosJjxCvB3UPZmj-OquWTqp1iXAP3Y",
+                    "short_id": "785be44fdf"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [70]",
+            "type": "vless",
+            "server": "hield.ru",
+            "server_port": 3389,
+            "uuid": "c471ebc4-7795-4c47-bedf-484b1280e282",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "ios"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "brMfFpfxMeNeqGqG0ZmWdwlnvZBfBTY92Jjyfz8Qyz4",
+                    "short_id": "0274c94d298e"
                 }
             }
         },
@@ -452,29 +550,6 @@
                     "enabled": true,
                     "public_key": "rBXjuQ9eGNAUtELw1KFOMH7Aq0Q2t3RqcbdPcddYyTk",
                     "short_id": "69"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @v2raych [17]",
-            "type": "vless",
-            "server": "s9.vless-balancer.ru",
-            "server_port": 4443,
-            "uuid": "96605f21-f706-45ae-8eeb-ec71efbca6a2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "github.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE",
-                    "short_id": "aa7e96542880027a"
                 }
             }
         },
