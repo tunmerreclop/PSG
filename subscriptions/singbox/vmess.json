@@ -98,7 +98,8 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [56]",
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
-                "❔ XX | 🔓 VMESS | @config_proxy [62]",
+                "❔ XX | 🔓 VMESS | @config_proxy [54]",
+                "❔ XX | 🔒 VMESS | @config_proxy [66]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [5]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -108,9 +109,9 @@
                 "❔ XX | 🔓 VMESS | @dailyv2ray [30]",
                 "❔ XX | 🔓 VMESS | @dailyv2ray [31]",
                 "❔ XX | 🔒 VMESS | @free1_vpn [1]",
-                "❔ XX | 🔓 VMESS | @hope_net [10]",
-                "🚩 CF | 🔒 VMESS | @hope_net [11]",
-                "🚩 CF | 🔒 VMESS | @hope_net [14]",
+                "❔ XX | 🔓 VMESS | @hope_net [8]",
+                "🚩 CF | 🔒 VMESS | @hope_net [9]",
+                "🚩 CF | 🔒 VMESS | @hope_net [12]",
                 "❔ XX | 🔓 VMESS | @ir_netproxy [1]",
                 "❔ XX | 🔓 VMESS | @ir_netproxy [2]",
                 "❔ XX | 🔓 VMESS | @ir_netproxy [3]",
@@ -175,7 +176,8 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [56]",
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
-                "❔ XX | 🔓 VMESS | @config_proxy [62]",
+                "❔ XX | 🔓 VMESS | @config_proxy [54]",
+                "❔ XX | 🔒 VMESS | @config_proxy [66]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [5]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -185,9 +187,9 @@
                 "❔ XX | 🔓 VMESS | @dailyv2ray [30]",
                 "❔ XX | 🔓 VMESS | @dailyv2ray [31]",
                 "❔ XX | 🔒 VMESS | @free1_vpn [1]",
-                "❔ XX | 🔓 VMESS | @hope_net [10]",
-                "🚩 CF | 🔒 VMESS | @hope_net [11]",
-                "🚩 CF | 🔒 VMESS | @hope_net [14]",
+                "❔ XX | 🔓 VMESS | @hope_net [8]",
+                "🚩 CF | 🔒 VMESS | @hope_net [9]",
+                "🚩 CF | 🔒 VMESS | @hope_net [12]",
                 "❔ XX | 🔓 VMESS | @ir_netproxy [1]",
                 "❔ XX | 🔓 VMESS | @ir_netproxy [2]",
                 "❔ XX | 🔓 VMESS | @ir_netproxy [3]",
@@ -429,13 +431,38 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VMESS | @config_proxy [62]",
+            "tag": "❔ XX | 🔓 VMESS | @config_proxy [54]",
             "type": "vmess",
-            "server": "id1.wpairplane.com",
-            "server_port": 9000,
-            "uuid": "d96ab248-733f-425a-8e2d-d4c88822aa5a",
+            "server": "https://github.com/ALIILAPRO/v2rayNG-Config",
+            "server_port": 433,
+            "uuid": "Free",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "❔ XX | 🔒 VMESS | @config_proxy [66]",
+            "type": "vmess",
+            "server": "seoul03.zgjok.com",
+            "server_port": 443,
+            "uuid": "72a0dac4-9689-4a57-b164-5c65bfa94772",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "seoul03.zgjok.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "seoul03.zgjok.com"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
@@ -604,7 +631,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VMESS | @hope_net [10]",
+            "tag": "❔ XX | 🔓 VMESS | @hope_net [8]",
             "type": "vmess",
             "server": "blang.kcapsys.com",
             "server_port": 80,
@@ -620,7 +647,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VMESS | @hope_net [11]",
+            "tag": "🚩 CF | 🔒 VMESS | @hope_net [9]",
             "type": "vmess",
             "server": "104.16.61.8",
             "server_port": 2096,
@@ -645,7 +672,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VMESS | @hope_net [14]",
+            "tag": "🚩 CF | 🔒 VMESS | @hope_net [12]",
             "type": "vmess",
             "server": "172.67.192.57",
             "server_port": 443,
