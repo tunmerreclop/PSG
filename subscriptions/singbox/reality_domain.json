@@ -92,23 +92,24 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔒 VLESS | @ehsawn8 [7]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [68]",
+                "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [7]",
                 "❔ XX | 🔒 VLESS | @ehsawn8 [8]",
-                "❔ XX | 🔒 VLESS | @free1_vpn [3]",
+                "🇳🇱 NL | 🔒 VLESS | @free1_vpn [3]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "❔ XX | 🔒 VLESS | @public504 [2]",
-                "❔ XX | 🔒 VLESS | @public504 [3]",
+                "🇨🇦 CA | 🔒 VLESS | @public504 [3]",
                 "❔ XX | 🔒 VLESS | @public504 [5]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
                 "❔ XX | 🔒 VLESS | @satellitenewspersian [13]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @v2rayy_vpn13 [9]",
-                "❔ XX | 🔒 VLESS | @vpnowl [3]",
-                "❔ XX | 🔒 VLESS | @vpnowl [4]",
-                "❔ XX | 🔒 VLESS | @vpnowl [5]",
-                "❔ XX | 🔒 VLESS | @vpnowl [6]",
-                "❔ XX | 🔒 VLESS | @vpnowl [7]"
+                "🇺🇸 US | 🔒 VLESS | @vpnowl [3]",
+                "🇺🇸 US | 🔒 VLESS | @vpnowl [4]",
+                "🇺🇸 US | 🔒 VLESS | @vpnowl [5]",
+                "🇺🇸 US | 🔒 VLESS | @vpnowl [6]",
+                "🇺🇸 US | 🔒 VLESS | @vpnowl [7]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -119,23 +120,24 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔒 VLESS | @ehsawn8 [7]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [68]",
+                "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [7]",
                 "❔ XX | 🔒 VLESS | @ehsawn8 [8]",
-                "❔ XX | 🔒 VLESS | @free1_vpn [3]",
+                "🇳🇱 NL | 🔒 VLESS | @free1_vpn [3]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "❔ XX | 🔒 VLESS | @public504 [2]",
-                "❔ XX | 🔒 VLESS | @public504 [3]",
+                "🇨🇦 CA | 🔒 VLESS | @public504 [3]",
                 "❔ XX | 🔒 VLESS | @public504 [5]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
                 "❔ XX | 🔒 VLESS | @satellitenewspersian [13]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @v2rayy_vpn13 [9]",
-                "❔ XX | 🔒 VLESS | @vpnowl [3]",
-                "❔ XX | 🔒 VLESS | @vpnowl [4]",
-                "❔ XX | 🔒 VLESS | @vpnowl [5]",
-                "❔ XX | 🔒 VLESS | @vpnowl [6]",
-                "❔ XX | 🔒 VLESS | @vpnowl [7]"
+                "🇺🇸 US | 🔒 VLESS | @vpnowl [3]",
+                "🇺🇸 US | 🔒 VLESS | @vpnowl [4]",
+                "🇺🇸 US | 🔒 VLESS | @vpnowl [5]",
+                "🇺🇸 US | 🔒 VLESS | @vpnowl [6]",
+                "🇺🇸 US | 🔒 VLESS | @vpnowl [7]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -222,7 +224,30 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @ehsawn8 [7]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [68]",
+            "type": "vless",
+            "server": "spb-node.genadata.online",
+            "server_port": 2040,
+            "uuid": "89f99086-e244-41dc-ab20-c1d8763399d0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tradingview.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "qq"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1RJ2ulM9UyAC8PFy194dV0RTZI6xF6U4CGClhNz9fTg",
+                    "short_id": "50ed6f6007515d63"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [7]",
             "type": "vless",
             "server": "zonex.de.zopli.ir",
             "server_port": 33667,
@@ -268,7 +293,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @free1_vpn [3]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @free1_vpn [3]",
             "type": "vless",
             "server": "s9.vless-balancer.ru",
             "server_port": 4443,
@@ -337,7 +362,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @public504 [3]",
+            "tag": "🇨🇦 CA | 🔒 VLESS | @public504 [3]",
             "type": "vless",
             "server": "canada.turboo-server.com",
             "server_port": 10538,
@@ -506,7 +531,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @vpnowl [3]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @vpnowl [3]",
             "type": "vless",
             "server": "wndisdkvwmqyod.curfuffled.com",
             "server_port": 443,
@@ -533,7 +558,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @vpnowl [4]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @vpnowl [4]",
             "type": "vless",
             "server": "wndisdkvwmqyod.curfuffled.com",
             "server_port": 443,
@@ -560,7 +585,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @vpnowl [5]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @vpnowl [5]",
             "type": "vless",
             "server": "wndisdkvwmqyod.curfuffled.com",
             "server_port": 443,
@@ -587,7 +612,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @vpnowl [6]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @vpnowl [6]",
             "type": "vless",
             "server": "wndisdkvwmqyod.curfuffled.com",
             "server_port": 443,
@@ -614,7 +639,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @vpnowl [7]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @vpnowl [7]",
             "type": "vless",
             "server": "wndisdkvwmqyod.curfuffled.com",
             "server_port": 443,
