@@ -86,8 +86,8 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [56]",
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
-                "🇭🇰 HK | 🔓 VMESS | @config_proxy [53]",
-                "🇺🇸 US | 🔓 VMESS | @config_proxy [56]",
+                "🇯🇵 JP | 🔓 VMESS | @config_proxy [48]",
+                "🚩 CF | 🔓 VMESS | @config_proxy [50]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [5]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -96,8 +96,8 @@
                 "❔ XX | 🔒 VMESS | @dailyv2ray [29]",
                 "🇩🇪 DE | 🔓 VMESS | @dailyv2ray [30]",
                 "❔ XX | 🔓 VMESS | @dailyv2ray [31]",
-                "🚩 CF | 🔓 VMESS | @hope_net [18]",
-                "❔ XX | 🔒 VMESS | @hope_net [20]",
+                "🚩 CF | 🔓 VMESS | @hope_net [16]",
+                "❔ XX | 🔒 VMESS | @hope_net [18]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [1]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [2]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [3]",
@@ -162,8 +162,8 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [56]",
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
-                "🇭🇰 HK | 🔓 VMESS | @config_proxy [53]",
-                "🇺🇸 US | 🔓 VMESS | @config_proxy [56]",
+                "🇯🇵 JP | 🔓 VMESS | @config_proxy [48]",
+                "🚩 CF | 🔓 VMESS | @config_proxy [50]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [5]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -172,8 +172,8 @@
                 "❔ XX | 🔒 VMESS | @dailyv2ray [29]",
                 "🇩🇪 DE | 🔓 VMESS | @dailyv2ray [30]",
                 "❔ XX | 🔓 VMESS | @dailyv2ray [31]",
-                "🚩 CF | 🔓 VMESS | @hope_net [18]",
-                "❔ XX | 🔒 VMESS | @hope_net [20]",
+                "🚩 CF | 🔓 VMESS | @hope_net [16]",
+                "❔ XX | 🔒 VMESS | @hope_net [18]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [1]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [2]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [3]",
@@ -419,36 +419,34 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @config_proxy [53]",
+            "tag": "🇯🇵 JP | 🔓 VMESS | @config_proxy [48]",
             "type": "vmess",
-            "server": "v30.hdacd.com",
-            "server_port": 30830,
-            "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VMESS | @config_proxy [56]",
-            "type": "vmess",
-            "server": "v2ray.codefyinc.com",
-            "server_port": 443,
-            "uuid": "2c981164-9b93-4bca-94ff-b78d3f8498d7",
+            "server": "172.111.146.64",
+            "server_port": 80,
+            "uuid": "05b8c783-7f59-47f9-9923-06a465679f6a",
             "security": "auto",
             "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/vmessws",
+                "path": "/vmess/",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VMESS | @config_proxy [50]",
+            "type": "vmess",
+            "server": "104.21.75.246",
+            "server_port": 80,
+            "uuid": "c458695d-6908-45c3-9512-e0c46418454c",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "104.21.75.246"
                 }
             }
         },
@@ -594,7 +592,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @hope_net [18]",
+            "tag": "🚩 CF | 🔓 VMESS | @hope_net [16]",
             "type": "vmess",
             "server": "104.21.8.4",
             "server_port": 2083,
@@ -619,7 +617,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VMESS | @hope_net [20]",
+            "tag": "❔ XX | 🔒 VMESS | @hope_net [18]",
             "type": "vmess",
             "server": "cake.capellare.com",
             "server_port": 443,

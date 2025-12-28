@@ -92,13 +92,15 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [1]",
                 "🇲🇩 MD | 🔒 VLESS | @flyv2ray [3]",
                 "🇸🇪 SE | 🔒 VLESS | @flyv2ray [12]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [59]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [61]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [13]"
+                "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [13]",
+                "🇳🇱 NL | 🔓 VLESS | @v2raych [17]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -109,13 +111,15 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [1]",
                 "🇲🇩 MD | 🔒 VLESS | @flyv2ray [3]",
                 "🇸🇪 SE | 🔒 VLESS | @flyv2ray [12]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [59]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [61]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [13]"
+                "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [13]",
+                "🇳🇱 NL | 🔓 VLESS | @v2raych [17]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -198,6 +202,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [1]",
+            "type": "vless",
+            "server": "91.98.164.168",
+            "server_port": 45107,
+            "uuid": "c306bf29-80f1-4c4f-83b2-4a97fd28aba5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2DpFIQiJPwU4LZW69_MuOeDqTb8amojGsdM15Xahd0k",
+                    "short_id": "d4fa"
                 }
             }
         },
@@ -337,6 +364,15 @@
                     "short_id": "5426024033df45"
                 }
             }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔓 VLESS | @v2raych [17]",
+            "type": "vless",
+            "server": "151.101.205.194",
+            "server_port": 80,
+            "uuid": "4c4a5697-a4cf-4aa8-afa2-eab8577fb456",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
