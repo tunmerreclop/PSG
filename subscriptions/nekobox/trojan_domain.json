@@ -93,14 +93,15 @@
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
                 "🚩 CF | 🔒 TROJAN | @orange_vpns [5]",
-                "❔ XX | 🔒 TROJAN | @orange_vpns [15]",
+                "🇹🇷 TR | 🔒 TROJAN | @orange_vpns [15]",
                 "🚩 CF | 🔒 TROJAN | @outline_ir [12]",
                 "❔ XX | 🔒 TROJAN | @public504 [4]",
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [1]",
-                "❔ XX | 🔓 TROJAN | @teamvpnpro [2]",
+                "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [2]",
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
-                "❔ XX | 🔓 TROJAN | @teamvpnpro [7]",
-                "❔ XX | 🔒 TROJAN | @v2rayngconfig [49]",
+                "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [7]",
+                "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [49]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [50]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [52]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [54]",
@@ -136,14 +137,15 @@
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
                 "🚩 CF | 🔒 TROJAN | @orange_vpns [5]",
-                "❔ XX | 🔒 TROJAN | @orange_vpns [15]",
+                "🇹🇷 TR | 🔒 TROJAN | @orange_vpns [15]",
                 "🚩 CF | 🔒 TROJAN | @outline_ir [12]",
                 "❔ XX | 🔒 TROJAN | @public504 [4]",
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [1]",
-                "❔ XX | 🔓 TROJAN | @teamvpnpro [2]",
+                "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [2]",
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
-                "❔ XX | 🔓 TROJAN | @teamvpnpro [7]",
-                "❔ XX | 🔒 TROJAN | @v2rayngconfig [49]",
+                "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [7]",
+                "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [49]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [50]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [52]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [54]",
@@ -500,7 +502,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 TROJAN | @orange_vpns [15]",
+            "tag": "🇹🇷 TR | 🔒 TROJAN | @orange_vpns [15]",
             "type": "trojan",
             "server": "trunker.cc",
             "server_port": 8080,
@@ -573,7 +575,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 TROJAN | @teamvpnpro [2]",
+            "tag": "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [2]",
             "type": "trojan",
             "server": "de1.test3.net",
             "server_port": 443,
@@ -612,7 +614,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 TROJAN | @teamvpnpro [7]",
+            "tag": "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
             "type": "trojan",
             "server": "de1.test3.net",
             "server_port": 443,
@@ -628,7 +630,30 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 TROJAN | @v2rayngconfig [49]",
+            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [7]",
+            "type": "trojan",
+            "server": "www.calmlunch.com",
+            "server_port": 443,
+            "password": "humanity",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.calmlunch.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/assignment",
+                "headers": {
+                    "Host": "www.calmlunch.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [49]",
             "type": "trojan",
             "server": "phxv002.jd0001.top",
             "server_port": 44303,
