@@ -1,442 +1,514 @@
 import os
 import json
-import datetime
-import pytz
+import base64
+import glob
+from urllib.parse import urlparse, parse_qs, unquote
 
-# --- Configuration ---
+# --- Configuration Constants ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-OUTPUT_HTML_FILE = os.path.join(BASE_DIR, "index.html")
-GITHUB_REPO_URL = "https://raw.githubusercontent.com/itsyebekhe/PSG/main"
+TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
+GITHUB_BASE_URL = 'https://raw.githubusercontent.com/itsyebekhe/PSG/main'
 
-# Directory Mapping
-SCAN_DIRECTORIES = {
-    "Standard": os.path.join(BASE_DIR, "subscriptions"),
-    "Lite": os.path.join(BASE_DIR, "lite", "subscriptions"),
-    "Channels": os.path.join(BASE_DIR, "subscriptions", "channels"),
+ALLOWED_SS_METHODS = ["chacha20-ietf-poly1305", "aes-256-gcm", "2022-blake3-aes-256-gcm"]
+
+# Define the Datasets to Process
+# 1. Main Version
+# 2. Lite Version
+DATASETS = [
+    {
+        "name": "MAIN",
+        "input_dir": os.path.join(BASE_DIR, 'subscriptions', 'xray', 'base64'),
+        "output_root": os.path.join(BASE_DIR, 'subscriptions'),
+        "url_path": "subscriptions/surfboard" # For Surfboard config URL
+    },
+    {
+        "name": "LITE",
+        "input_dir": os.path.join(BASE_DIR, 'lite', 'subscriptions', 'xray', 'base64'),
+        "output_root": os.path.join(BASE_DIR, 'lite', 'subscriptions'),
+        "url_path": "lite/subscriptions/surfboard"
+    }
+]
+
+# Output Mappings for Clash/Surfboard
+OUTPUT_MAPPING_CLASH = {
+    'clash': ['mix', 'vmess', 'vmess_ipv4', 'vmess_ipv6', 'vmess_domain', 'trojan', 'trojan_ipv4', 'trojan_ipv6', 'trojan_domain', 'ss', 'ss_ipv4', 'ss_ipv6', 'ss_domain'],
+    'meta': ['mix', 'vmess', 'vmess_ipv4', 'vmess_ipv6', 'vmess_domain', 'vless', 'vless_ipv4', 'vless_ipv6', 'vless_domain', 'reality', 'reality_ipv4', 'reality_ipv6', 'reality_domain', 'trojan', 'trojan_ipv4', 'trojan_ipv6', 'trojan_domain', 'ss', 'ss_ipv4', 'ss_ipv6', 'ss_domain'],
+    'surfboard': ['mix', 'vmess', 'vmess_ipv4', 'vmess_ipv6', 'vmess_domain', 'trojan', 'trojan_ipv4', 'trojan_ipv6', 'trojan_domain', 'ss', 'ss_ipv4', 'ss_ipv6', 'ss_domain'],
 }
 
-IGNORE_EXTENSIONS = {".php", ".md", ".ini", ".txt", ".log", ".conf", ".py", ".json", ".html"}
+# Singbox/Nekobox Configuration
+SINGBOX_CONFIGS = {
+    'singbox': {
+        'folder': 'singbox',
+        'template_file': 'structure.json',
+        'include_header': True
+    },
+    'nekobox': {
+        'folder': 'nekobox',
+        'template_file': 'nekobox.json',
+        'include_header': False
+    }
+}
 
-def get_client_info():
-    return {
-        "clash": {
-            "windows": [{"name": "Clash Verge (Rev)", "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases"}],
-            "android": [{"name": "Clash for Android", "url": "https://github.com/Kr328/ClashForAndroid/releases"}],
-            "ios": [{"name": "Stash", "url": "https://apps.apple.com/us/app/stash/id1596063349"}],
-            "linux": [{"name": "Clash Verge", "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases"}]
-        },
-        "singbox": {
-            "windows": [{"name": "Hiddify Next", "url": "https://github.com/hiddify/hiddify-next/releases"}],
-            "android": [{"name": "Hiddify Next", "url": "https://github.com/hiddify/hiddify-next/releases"}, {"name": "v2rayNG", "url": "https://github.com/2dust/v2rayNG/releases"}],
-            "ios": [{"name": "Streisand", "url": "https://apps.apple.com/us/app/streisand/id6450534064"}, {"name": "V2Box", "url": "https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690"}]
-        },
-        "xray": {
-            "windows": [{"name": "v2rayN", "url": "https://github.com/2dust/v2rayN/releases"}],
-            "android": [{"name": "v2rayNG", "url": "https://github.com/2dust/v2rayNG/releases"}],
-            "ios": [{"name": "Shadowrocket", "url": "https://apps.apple.com/us/app/shadowrocket/id932747118"}]
-        }
+# --- Helper Functions ---
+
+def safe_base64_decode(s):
+    s = s.strip()
+    missing_padding = len(s) % 4
+    if missing_padding:
+        s += '=' * (4 - missing_padding)
+    try:
+        return base64.b64decode(s).decode('utf-8', errors='ignore')
+    except:
+        return ""
+
+def detect_type(config):
+    if config.startswith('vmess://'): return 'vmess'
+    if config.startswith('vless://'): return 'vless'
+    if config.startswith('trojan://'): return 'trojan'
+    if config.startswith('ss://'): return 'ss'
+    if config.startswith('tuic://'): return 'tuic'
+    if config.startswith(('hy2://', 'hysteria2://')): return 'hy2'
+    return None
+
+def parse_config(config_str):
+    """Parses a config link into a standardized dictionary."""
+    ctype = detect_type(config_str)
+    if not ctype: return None
+    
+    try:
+        if ctype == 'vmess':
+            b64 = config_str[8:]
+            data = json.loads(safe_base64_decode(b64))
+            return {
+                'type': 'vmess',
+                'name': data.get('ps', 'vmess'),
+                'server': data.get('add', ''),
+                'port': int(data.get('port', 443)),
+                'uuid': data.get('id', ''),
+                'alterId': int(data.get('aid', 0)),
+                'cipher': data.get('scy', 'auto'),
+                'network': data.get('net', 'tcp'),
+                'type_header': data.get('type', 'none'),
+                'host': data.get('host', ''),
+                'path': data.get('path', ''),
+                'tls': data.get('tls', '') == 'tls',
+                'sni': data.get('sni', ''),
+                'fp': data.get('fp', ''),
+                'alpn': data.get('alpn', ''),
+            }
+        
+        elif ctype == 'ss':
+            parsed = urlparse(config_str)
+            user_info = parsed.username
+            if not user_info and '@' in parsed.netloc:
+                 try:
+                     b64part = parsed.netloc.split('@')[0]
+                     decoded = safe_base64_decode(b64part)
+                     method, password = decoded.split(':', 1)
+                 except:
+                     return None
+            else:
+                method = parsed.username
+                password = parsed.password
+
+            return {
+                'type': 'ss',
+                'name': unquote(parsed.fragment),
+                'server': parsed.hostname,
+                'port': parsed.port,
+                'method': method,
+                'password': password
+            }
+
+        else: # vless, trojan, tuic, hy2
+            parsed = urlparse(config_str)
+            params = parse_qs(parsed.query)
+            clean_params = {k: v[0] for k, v in params.items()}
+            
+            return {
+                'type': ctype,
+                'name': unquote(parsed.fragment),
+                'server': parsed.hostname,
+                'port': parsed.port,
+                'uuid': parsed.username,
+                'password': parsed.username, 
+                'params': clean_params,
+                'path': parsed.path
+            }
+    except:
+        return None
+
+# #############################################################################
+# CLASH / SURFBOARD CONVERTERS
+# #############################################################################
+
+def to_clash_proxy(data, is_meta=False):
+    ctype = data['type']
+    
+    proxy = {
+        "name": data['name'],
+        "server": data['server'],
+        "port": data['port'],
+        "type": ctype,
+        "skip-cert-verify": True 
     }
 
-def scan_directory(directory):
-    if not os.path.exists(directory): return []
-    file_list = []
-    for root, _, files in os.walk(directory):
-        for file in files:
-            _, ext = os.path.splitext(file)
-            if ext.lower() not in IGNORE_EXTENSIONS:
-                full_path = os.path.join(root, file)
-                rel_path = os.path.relpath(full_path, BASE_DIR).replace("\\", "/")
-                file_list.append(rel_path)
-    return file_list
+    if ctype == 'vmess':
+        proxy.update({
+            "uuid": data['uuid'],
+            "alterId": data['alterId'],
+            "cipher": data['cipher'],
+            "network": data['network'],
+            "tls": data['tls']
+        })
+        if data['network'] == 'ws':
+            proxy['ws-opts'] = {
+                "path": data['path'],
+                "headers": {"Host": data['host'] if data['host'] else data['server']}
+            }
+        elif data['network'] == 'grpc':
+            proxy['grpc-opts'] = {
+                "grpc-service-name": data['path'], 
+            }
+            if not proxy['tls']: proxy['tls'] = True 
 
-def process_files_to_structure(files_by_category):
-    structure = {}
-    for cat_key, cat_path in SCAN_DIRECTORIES.items():
-        if cat_key not in files_by_category: continue
-        base_rel = os.path.relpath(cat_path, BASE_DIR).replace("\\", "/")
+    elif ctype == 'vless':
+        if not is_meta: return None 
+        params = data['params']
+        proxy.update({
+            "uuid": data['uuid'],
+            "network": params.get('type', 'tcp'),
+            "tls": params.get('security') in ['tls', 'reality'],
+            "udp": True,
+            "client-fingerprint": params.get('fp', 'chrome')
+        })
         
-        for file_path in files_by_category[cat_key]:
-            if file_path.startswith(base_rel):
-                clean_path = file_path[len(base_rel):].strip("/")
-            else: continue
-
-            parts = clean_path.split("/")
-            if len(parts) < 2: continue
+        if params.get('flow'): proxy['flow'] = 'xtls-rprx-vision'
+        if params.get('sni'): proxy['servername'] = params.get('sni')
+        
+        if proxy['network'] == 'ws':
+            proxy['ws-opts'] = {
+                "path": data['path'],
+                "headers": {"Host": params.get('host', data['server'])}
+            }
+        elif proxy['network'] == 'grpc':
+            proxy['grpc-opts'] = {"grpc-service-name": params.get('serviceName', '')}
             
-            type_prefix = parts[0]
-            remaining_parts = parts[1:]
-            if len(remaining_parts) > 0 and remaining_parts[0] == "base64": remaining_parts.pop(0)
-            if len(remaining_parts) == 0: continue
-
-            final_name_with_ext = "/".join(remaining_parts)
-            final_name, _ = os.path.splitext(final_name_with_ext)
-            url = f"{GITHUB_REPO_URL}/{file_path}"
+        if params.get('security') == 'reality':
+            proxy['client-fingerprint'] = params.get('fp', 'chrome')
+            proxy['reality-opts'] = {
+                "public-key": params.get('pbk', ''),
+                "short-id": params.get('sid', '')
+            }
             
-            if cat_key not in structure: structure[cat_key] = {}
-            if type_prefix not in structure[cat_key]: structure[cat_key][type_prefix] = {}
-            structure[cat_key][type_prefix][final_name] = url
+    elif ctype == 'trojan':
+        proxy['password'] = data['password']
+        proxy['skip-cert-verify'] = (data.get('params', {}).get('allowInsecure') == '1')
+        if 'params' in data and data['params'].get('sni'):
+             proxy['sni'] = data['params']['sni']
 
-    return structure
+    elif ctype == 'ss':
+        if data['method'] not in ALLOWED_SS_METHODS: return None
+        proxy['cipher'] = data['method']
+        proxy['password'] = data['password']
 
-def generate_html(data, client_info, timestamp):
-    json_data = json.dumps(data, ensure_ascii=False)
-    json_client = json.dumps(client_info, ensure_ascii=False)
+    else:
+        return None 
 
-    html_content = f"""<!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PSG | Proxy Subscription Generator</title>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.jsdelivr.net/npm/davidshimjs-qrcodejs@0.0.2/qrcode.min.js"></script>
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <script>
-      tailwind.config = {{
-        darkMode: 'class',
-        theme: {{
-          extend: {{
-            fontFamily: {{ sans: ['Outfit', 'sans-serif'], }},
-            colors: {{ brand: {{ 50: '#f0f9ff', 100: '#e0f2fe', 500: '#0ea5e9', 600: '#0284c7', 900: '#0c4a6e' }} }}
-          }}
-        }}
-      }}
-    </script>
-    <style>
-        body {{ font-family: 'Outfit', sans-serif; }}
-        .glass {{ background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.3); }}
-        .dark .glass {{ background: rgba(15, 23, 42, 0.6); border: 1px solid rgba(255, 255, 255, 0.05); }}
-        .step-active {{ border-color: #0ea5e9; opacity: 1; }}
-        .step-inactive {{ opacity: 0.6; pointer-events: none; }}
-        .step-icon-active {{ background-color: #0ea5e9; color: white; }}
-    </style>
-</head>
-<body class="bg-slate-50 dark:bg-[#0B1120] text-slate-800 dark:text-slate-200 min-h-screen flex flex-col transition-colors duration-300">
-    <div class="fixed inset-0 z-[-1] overflow-hidden pointer-events-none">
-        <div class="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-blue-500/10 rounded-full blur-3xl"></div>
-        <div class="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-purple-500/10 rounded-full blur-3xl"></div>
-    </div>
+    return proxy
 
-    <div class="container max-w-5xl mx-auto px-4 py-8 flex-grow">
-        <header class="flex flex-col md:flex-row justify-between items-center mb-12">
-            <div class="flex items-center gap-4 mb-4 md:mb-0">
-                <div class="w-12 h-12 bg-white dark:bg-slate-800 rounded-full flex items-center justify-center shadow-lg border border-slate-200 dark:border-slate-700">
-                    <i data-lucide="zap" class="w-6 h-6 text-brand-500"></i>
-                </div>
-                <div>
-                    <h1 class="text-2xl font-bold">PSG <span class="text-brand-500">Builder</span></h1>
-                    <p class="text-xs text-slate-500 dark:text-slate-400 font-medium tracking-wide">PROXY SUBSCRIPTION GENERATOR</p>
-                </div>
-            </div>
-            <button id="theme-toggle" class="p-2.5 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:border-brand-500 transition-all shadow-sm">
-                <i id="theme-icon" data-lucide="moon" class="w-5 h-5 text-slate-600 dark:text-slate-300"></i>
-            </button>
-        </header>
-
-        <nav class="mb-8">
-            <div class="glass rounded-2xl p-1.5 flex flex-wrap sm:flex-nowrap shadow-sm">
-                <button data-id="simple" class="nav-btn flex-1 py-2.5 px-4 rounded-xl text-sm font-semibold transition-all text-brand-600 bg-white dark:bg-slate-700 shadow-md">Simple</button>
-                <button data-id="composer" class="nav-btn flex-1 py-2.5 px-4 rounded-xl text-sm font-semibold transition-all text-slate-600 dark:text-slate-400 hover:bg-white/50">Composer</button>
-            </div>
-        </nav>
-
-        <main class="glass rounded-3xl p-6 md:p-8 shadow-xl">
-            <!-- SIMPLE MODE -->
-            <div id="simpleModeContainer" class="mode-container">
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <!-- Step 1 -->
-                    <div id="step1" class="border-2 border-brand-500 rounded-2xl p-5 transition-all duration-300">
-                        <div class="w-10 h-10 rounded-full bg-brand-500 text-white flex items-center justify-center mb-4 font-bold">1</div>
-                        <h3 class="font-bold text-lg mb-2">Category</h3>
-                        <select id="configType" class="w-full bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg px-3 py-2.5 text-sm focus:ring-2 focus:ring-brand-500 outline-none"></select>
-                    </div>
-                    <!-- Step 2 -->
-                    <div id="step2" class="step-inactive border-2 border-slate-200 dark:border-slate-700 rounded-2xl p-5 transition-all duration-300">
-                        <div class="w-10 h-10 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-500 flex items-center justify-center mb-4 font-bold step-icon">2</div>
-                        <h3 class="font-bold text-lg mb-2">Client</h3>
-                        <select id="ipType" class="w-full bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg px-3 py-2.5 text-sm focus:ring-2 focus:ring-brand-500 outline-none" disabled></select>
-                    </div>
-                    <!-- Step 3 -->
-                    <div id="step3" class="step-inactive border-2 border-slate-200 dark:border-slate-700 rounded-2xl p-5 transition-all duration-300">
-                        <div class="w-10 h-10 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-500 flex items-center justify-center mb-4 font-bold step-icon">3</div>
-                        <h3 class="font-bold text-lg mb-2">Result</h3>
-                        <input type="search" id="searchBar" placeholder="Search..." class="w-full bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg px-3 py-2.5 text-sm mb-2 outline-none" disabled>
-                        <select id="otherElement" class="w-full bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg px-3 py-2.5 text-sm outline-none" disabled></select>
-                    </div>
-                </div>
-
-                <div id="resultArea" class="hidden mt-8 pt-8 border-t border-slate-200 dark:border-slate-700">
-                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                        <div>
-                            <label class="block text-sm font-semibold mb-2 ml-1 text-slate-600 dark:text-slate-300">Subscription Link</label>
-                            <div class="flex items-center gap-0 mb-4">
-                                <input type="text" id="subscriptionUrl" readonly class="flex-grow bg-slate-100 dark:bg-slate-900 border border-slate-300 dark:border-slate-600 rounded-l-xl px-4 py-3 text-xs md:text-sm font-mono focus:outline-none">
-                                <button id="copyButton" class="bg-brand-500 hover:bg-brand-600 text-white px-4 py-3 rounded-r-xl transition-colors">
-                                    <i data-lucide="copy" class="w-5 h-5"></i>
-                                </button>
-                            </div>
-                            <div id="qrcode" class="p-3 bg-white rounded-xl shadow-sm border border-slate-200 w-fit"></div>
-                        </div>
-                        <div id="client-info-container" class="bg-slate-50 dark:bg-slate-900/50 rounded-xl p-6 border border-slate-200 dark:border-slate-700">
-                            <h4 class="font-bold text-slate-700 dark:text-slate-200 mb-4 flex items-center gap-2">
-                                <i data-lucide="download-cloud" class="w-5 h-5 text-brand-500"></i> Supported Clients
-                            </h4>
-                            <div id="client-info-list" class="space-y-3 text-sm"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- COMPOSER MODE -->
-            <div id="composerModeContainer" class="mode-container hidden">
-                <div class="text-center py-10 text-slate-500">Composer Mode coming soon...</div>
-            </div>
-        </main>
-
-        <footer class="mt-12 text-center text-slate-500 dark:text-slate-400 text-sm">
-            <p>Generated at: {timestamp}</p>
-        </footer>
-    </div>
-
-    <!-- TOAST -->
-    <div id="messageBox" class="fixed bottom-6 right-6 z-50 transform translate-y-20 opacity-0 transition-all duration-300">
-        <div class="bg-slate-800 text-white px-6 py-3 rounded-xl shadow-2xl flex items-center gap-3">
-            <i data-lucide="info" class="w-5 h-5 text-brand-500"></i>
-            <span id="messageBoxText">Notification</span>
-        </div>
-    </div>
-
-    <script>
-        const structuredData = {json_data};
-        const clientInfoData = {json_client};
-
-        // --- THEME & NAV LOGIC ---
-        document.addEventListener('DOMContentLoaded', () => {{
-            lucide.createIcons();
-            const html = document.documentElement;
-            const themeBtn = document.getElementById('theme-toggle');
-            const themeIcon = document.getElementById('theme-icon');
-
-            function setTheme(isDark) {{
-                if(isDark) {{ html.classList.add('dark'); localStorage.setItem('theme', 'dark'); themeIcon.setAttribute('data-lucide', 'sun'); }}
-                else {{ html.classList.remove('dark'); localStorage.setItem('theme', 'light'); themeIcon.setAttribute('data-lucide', 'moon'); }}
-                lucide.createIcons();
-            }}
-            if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) setTheme(true); else setTheme(false);
-            themeBtn.addEventListener('click', () => setTheme(!html.classList.contains('dark')));
-
-            const navBtns = document.querySelectorAll('.nav-btn');
-            const modeContainers = document.querySelectorAll('.mode-container');
-            navBtns.forEach(btn => {{
-                btn.addEventListener('click', () => {{
-                    navBtns.forEach(b => {{ b.classList.remove('bg-white', 'dark:bg-slate-700', 'shadow-md', 'text-brand-600'); b.classList.add('text-slate-600', 'dark:text-slate-400'); }});
-                    btn.classList.add('bg-white', 'dark:bg-slate-700', 'shadow-md', 'text-brand-600');
-                    btn.classList.remove('text-slate-600', 'dark:text-slate-400');
-                    const id = btn.dataset.id;
-                    modeContainers.forEach(c => c.classList.add('hidden'));
-                    document.getElementById(id + 'ModeContainer').classList.remove('hidden');
-                }});
-            }});
-        }});
-
-        // --- SIMPLE MODE LOGIC (FIXED) ---
-        const configType = document.getElementById('configType');
-        const ipType = document.getElementById('ipType');
-        const searchBar = document.getElementById('searchBar');
-        const otherElement = document.getElementById('otherElement');
-        const resultArea = document.getElementById('resultArea');
-        const subUrlInput = document.getElementById('subscriptionUrl');
-        const copyBtn = document.getElementById('copyButton');
-        const clientList = document.getElementById('client-info-list');
-        const step2 = document.getElementById('step2');
-        const step3 = document.getElementById('step3');
-
-        // 1. Populate Config Types
-        function initSimpleMode() {{
-            configType.innerHTML = '<option value="">Select Category...</option>';
-            Object.keys(structuredData).forEach(key => {{
-                const opt = document.createElement('option');
-                opt.value = key;
-                opt.textContent = key;
-                configType.appendChild(opt);
-            }});
-        }}
-        initSimpleMode();
-
-        // 2. Change Category -> Unlock Step 2
-        configType.addEventListener('change', () => {{
-            const cat = configType.value;
-            ipType.innerHTML = '<option value="">Select Client...</option>';
-            
-            if (cat && structuredData[cat]) {{
-                Object.keys(structuredData[cat]).forEach(k => {{
-                    const opt = document.createElement('option');
-                    opt.value = k;
-                    opt.textContent = k.toUpperCase();
-                    ipType.appendChild(opt);
-                }});
-                
-                // Activate Step 2
-                step2.classList.remove('step-inactive');
-                step2.classList.add('border-brand-500');
-                step2.querySelector('.step-icon').classList.add('step-icon-active');
-                step2.querySelector('.step-icon').classList.remove('bg-slate-100', 'text-slate-500');
-                ipType.disabled = false;
-                
-                // Reset Step 3
-                resetStep3();
-            }} else {{
-                resetStep2();
-            }}
-        }});
-
-        // 3. Change Client -> Unlock Step 3
-        ipType.addEventListener('change', () => {{
-            const cat = configType.value;
-            const type = ipType.value;
-            otherElement.innerHTML = '<option value="">Select Config...</option>';
-            searchBar.value = '';
-
-            if (cat && type && structuredData[cat][type]) {{
-                const keys = Object.keys(structuredData[cat][type]).sort();
-                keys.forEach(k => {{
-                    const opt = document.createElement('option');
-                    opt.value = k;
-                    opt.textContent = k;
-                    otherElement.appendChild(opt);
-                }});
-
-                // Activate Step 3
-                step3.classList.remove('step-inactive');
-                step3.classList.add('border-brand-500');
-                step3.querySelector('.step-icon').classList.add('step-icon-active');
-                step3.querySelector('.step-icon').classList.remove('bg-slate-100', 'text-slate-500');
-                searchBar.disabled = false;
-                otherElement.disabled = false;
-                
-                renderClients(type);
-            }} else {{
-                resetStep3();
-            }}
-        }});
-
-        // 4. Select Config -> Show Result
-        otherElement.addEventListener('change', () => {{
-            const cat = configType.value;
-            const type = ipType.value;
-            const key = otherElement.value;
-
-            if (key) {{
-                const url = structuredData[cat][type][key];
-                subUrlInput.value = url;
-                resultArea.classList.remove('hidden');
-                
-                // QR Code
-                const qrContainer = document.getElementById('qrcode');
-                qrContainer.innerHTML = '';
-                new QRCode(qrContainer, {{ text: url, width: 128, height: 128 }});
-            }} else {{
-                resultArea.classList.add('hidden');
-            }}
-        }});
-
-        // Search Filter
-        searchBar.addEventListener('input', (e) => {{
-            const val = e.target.value.toLowerCase();
-            Array.from(otherElement.options).forEach(opt => {{
-                if(opt.value === "") return;
-                const txt = opt.textContent.toLowerCase();
-                opt.style.display = txt.includes(val) ? 'block' : 'none';
-            }});
-        }});
-
-        // Copy Button
-        copyBtn.addEventListener('click', () => {{
-            navigator.clipboard.writeText(subUrlInput.value);
-            const box = document.getElementById('messageBox');
-            document.getElementById('messageBoxText').textContent = "Copied to clipboard!";
-            box.classList.remove('translate-y-20', 'opacity-0');
-            setTimeout(() => box.classList.add('translate-y-20', 'opacity-0'), 2000);
-        }});
-
-        function resetStep2() {{
-            ipType.innerHTML = '';
-            ipType.disabled = true;
-            step2.classList.add('step-inactive');
-            step2.classList.remove('border-brand-500');
-            step2.querySelector('.step-icon').classList.remove('step-icon-active');
-            resetStep3();
-        }}
-
-        function resetStep3() {{
-            otherElement.innerHTML = '';
-            otherElement.disabled = true;
-            searchBar.disabled = true;
-            resultArea.classList.add('hidden');
-            step3.classList.add('step-inactive');
-            step3.classList.remove('border-brand-500');
-            step3.querySelector('.step-icon').classList.remove('step-icon-active');
-        }}
-
-        function renderClients(type) {{
-            // Simple mapping for demo
-            let key = 'xray';
-            if(type.includes('clash') || type.includes('meta')) key = 'clash';
-            if(type.includes('singbox')) key = 'singbox';
-            
-            const data = clientInfoData[key] || clientInfoData['xray'];
-            clientList.innerHTML = '';
-            
-            Object.keys(data).forEach(os => {{
-                const div = document.createElement('div');
-                div.innerHTML = `<h5 class="capitalize font-semibold text-slate-500 mb-1">${{os}}</h5>`;
-                const links = document.createElement('div');
-                links.className = 'flex flex-wrap gap-2';
-                data[os].forEach(app => {{
-                    const a = document.createElement('a');
-                    a.href = app.url;
-                    a.target = '_blank';
-                    a.className = 'px-3 py-1.5 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg hover:border-brand-500 transition-colors';
-                    a.textContent = app.name;
-                    links.appendChild(a);
-                }});
-                div.appendChild(links);
-                clientList.appendChild(div);
-            }});
-        }}
-    </script>
-</body>
-</html>"""
+def to_surfboard_proxy(data):
+    ctype = data['type']
+    if ctype not in ['vmess', 'trojan', 'ss']: return None
     
-    return html_content
+    # Name cannot contain commas in Surfboard
+    name = data['name'].replace(',', ' ')
+    parts = [f"{name} = {ctype}", data['server'], str(data['port'])]
+
+    if ctype == 'vmess':
+        parts.append(f"username = {data['uuid']}")
+        parts.append(f"ws = {'true' if data['network'] == 'ws' else 'false'}")
+        parts.append(f"tls = {'true' if data['tls'] else 'false'}")
+        if data['network'] == 'ws':
+             parts.append(f"ws-path = {data['path']}")
+             host = data['host'] if data['host'] else data['server']
+             parts.append(f'ws-headers = Host:"{host}"')
+
+    elif ctype == 'trojan':
+        parts.append(f"password = {data['password']}")
+        parts.append("skip-cert-verify = true")
+        if 'params' in data and data['params'].get('sni'):
+            parts.append(f"sni = {data['params']['sni']}")
+
+    elif ctype == 'ss':
+         if data['method'] not in ALLOWED_SS_METHODS: return None
+         parts.append(f"encrypt-method = {data['method']}")
+         parts.append(f"password = {data['password']}")
+
+    return ", ".join(parts)
+
+# #############################################################################
+# SING-BOX CONVERTERS
+# #############################################################################
+
+def to_singbox_outbound(data):
+    ctype = data['type']
+    out = {
+        "tag": data['name'],
+        "type": ctype,
+        "server": data['server'],
+        "server_port": data['port']
+    }
+
+    def get_tls(sni, insecure=True, fp='chrome', alpn=None, reality=None):
+        tls = {
+            "enabled": True,
+            "server_name": sni,
+            "insecure": insecure,
+            "utls": {"enabled": True, "fingerprint": fp}
+        }
+        if alpn: tls['alpn'] = alpn
+        if reality:
+            tls['reality'] = reality
+            tls['reality']['enabled'] = True
+        return tls
+
+    def get_transport(net, path, host, service_name):
+        if net == 'ws':
+            return {"type": "ws", "path": path, "headers": {"Host": host}}
+        if net == 'grpc':
+            return {"type": "grpc", "service_name": service_name}
+        if net == 'http':
+             return {"type": "http", "host": [host], "path": path}
+        return None
+
+    if ctype == 'vmess':
+        out.update({
+            "uuid": data['uuid'],
+            "security": "auto",
+            "alter_id": data['alterId']
+        })
+        if data['port'] == 443 or data['tls']:
+             out['tls'] = get_tls(data['sni'] if data['sni'] else data['host'])
+        
+        if data['network'] in ['ws', 'grpc', 'http']:
+             out['transport'] = get_transport(data['network'], data['path'], data['host'], data['path'])
+
+    elif ctype == 'vless':
+        params = data['params']
+        out.update({
+            "uuid": data['uuid'],
+            "packet_encoding": "xudp"
+        })
+        if params.get('flow'): out['flow'] = "xtls-rprx-vision"
+        
+        security = params.get('security', '')
+        if data['port'] == 443 or security in ['tls', 'reality']:
+            reality = None
+            if security == 'reality':
+                reality = {
+                    "public_key": params.get('pbk', ''),
+                    "short_id": params.get('sid', '')
+                }
+            out['tls'] = get_tls(params.get('sni', ''), reality=reality, fp=params.get('fp', 'chrome'))
+        
+        net = params.get('type', 'tcp')
+        if net in ['ws', 'grpc', 'http']:
+            out['transport'] = get_transport(net, data['path'], params.get('host', ''), params.get('serviceName', ''))
+
+    elif ctype == 'trojan':
+        out['password'] = data['password']
+        if data['port'] == 443 or data.get('params', {}).get('security') == 'tls':
+             out['tls'] = get_tls(data.get('params', {}).get('sni', ''))
+        
+    elif ctype == 'ss':
+        out['type'] = "shadowsocks"
+        out['method'] = data['method']
+        out['password'] = data['password']
+
+    elif ctype == 'tuic':
+        params = data['params']
+        out.update({
+            "uuid": data['uuid'],
+            "password": data['password'],
+            "congestion_control": params.get('congestion_control', 'bbr'),
+            "udp_relay_mode": params.get('udp_relay_mode', 'native'),
+            "tls": {
+                "enabled": True,
+                "server_name": params.get('sni', ''),
+                "insecure": params.get('allow_insecure') == '1',
+                "alpn": params.get('alpn', '').split(',') if params.get('alpn') else None
+            }
+        })
+
+    elif ctype == 'hy2':
+        out['type'] = 'hysteria2'
+        params = data['params']
+        if not params.get('obfs-password'): return None
+        out.update({
+            "password": data['password'],
+            "obfs": {"type": params.get('obfs', 'salamander'), "password": params.get('obfs-password')},
+            "tls": {
+                "enabled": True,
+                "server_name": params.get('sni', ''),
+                "insecure": params.get('insecure') == '1',
+                "alpn": ["h3"]
+            }
+        })
+    else:
+        return None
+
+    return out
+
+# #############################################################################
+# PROCESSING LOGIC
+# #############################################################################
+
+def process_dataset(name, input_dir, output_root, url_path, singbox_templates):
+    print(f"--- Processing {name} Version ---")
+    
+    # Create Output Directories
+    os.makedirs(os.path.join(output_root, 'clash'), exist_ok=True)
+    os.makedirs(os.path.join(output_root, 'meta'), exist_ok=True)
+    os.makedirs(os.path.join(output_root, 'surfboard'), exist_ok=True)
+    
+    input_files = glob.glob(os.path.join(input_dir, '*'))
+    if not input_files:
+        print(f"No files found in {input_dir}")
+        return
+
+    for filepath in input_files:
+        filename = os.path.basename(filepath)
+        # print(f"  > Converting {filename}...")
+
+        with open(filepath, 'r', encoding='utf-8') as f:
+            b64_content = f.read().strip()
+        
+        decoded_content = safe_base64_decode(b64_content)
+        config_lines = decoded_content.splitlines()
+        
+        parsed_proxies = []
+        for line in config_lines:
+            if not line.strip(): continue
+            parsed = parse_config(line)
+            if parsed:
+                parsed_proxies.append(parsed)
+
+        # 1. Generate Clash / Meta / Surfboard
+        for out_type, allowed in OUTPUT_MAPPING_CLASH.items():
+            if filename in allowed:
+                is_meta = (out_type == 'meta')
+                
+                if out_type == 'surfboard':
+                    proxies_ini = []
+                    proxy_names = []
+                    for p in parsed_proxies:
+                        res = to_surfboard_proxy(p)
+                        if res: 
+                            proxies_ini.append(res)
+                            proxy_names.append(p['name'].replace(',', ' '))
+                    
+                    if proxies_ini:
+                        tpl_path = os.path.join(TEMPLATES_DIR, 'surfboard.ini')
+                        if os.path.exists(tpl_path):
+                            with open(tpl_path, 'r', encoding='utf-8') as f: content = f.read()
+                            
+                            # Construct correct URL for Main vs Lite
+                            config_url = f"{GITHUB_BASE_URL}/{url_path}/{filename}"
+                            
+                            content = content.replace('##CONFIG_URL##', config_url)
+                            content = content.replace('##PROXIES##', '\n'.join(proxies_ini))
+                            content = content.replace('##PROXY_NAMES##', ', '.join(proxy_names))
+                            
+                            with open(os.path.join(output_root, 'surfboard', filename), 'w', encoding='utf-8') as f:
+                                f.write(content)
+                
+                else: # Clash / Meta
+                    proxies_yaml = []
+                    proxy_names_yaml = []
+                    
+                    for p in parsed_proxies:
+                        res = to_clash_proxy(p, is_meta)
+                        if res:
+                            json_str = json.dumps(res, ensure_ascii=False)
+                            proxies_yaml.append(f"  - {json_str}")
+                            safe_name = p['name'].replace("'", "''")
+                            proxy_names_yaml.append(f"      - '{safe_name}'")
+                    
+                    if proxies_yaml:
+                        tpl_path = os.path.join(TEMPLATES_DIR, 'clash.yaml')
+                        if os.path.exists(tpl_path):
+                            with open(tpl_path, 'r', encoding='utf-8') as f: content = f.read()
+                            
+                            content = content.replace('##PROXIES##', '\n'.join(proxies_yaml))
+                            content = content.replace('##PROXY_NAMES##', '\n'.join(proxy_names_yaml))
+                            
+                            with open(os.path.join(output_root, out_type, filename), 'w', encoding='utf-8') as f:
+                                f.write(content)
+
+        # 2. Generate Sing-box / Nekobox
+        for task, conf in SINGBOX_CONFIGS.items():
+            if task not in singbox_templates: continue
+            
+            # Prepare Output Dir
+            target_dir = os.path.join(output_root, conf['folder'])
+            os.makedirs(target_dir, exist_ok=True)
+
+            structure = json.loads(json.dumps(singbox_templates[task]))
+            if 'outbounds' not in structure: structure['outbounds'] = []
+            
+            tags_added = []
+            for p in parsed_proxies:
+                outbound = to_singbox_outbound(p)
+                if outbound:
+                    structure['outbounds'].append(outbound)
+                    tags_added.append(outbound['tag'])
+
+            if tags_added:
+                for i in [0, 1]:
+                    if len(structure['outbounds']) > i and 'outbounds' in structure['outbounds'][i]:
+                        structure['outbounds'][i]['outbounds'].extend(tags_added)
+            
+            final_content = ""
+            if conf['include_header']:
+                b64_title = base64.b64encode(f"PSG | {filename.upper()}".encode()).decode()
+                final_content += f"//profile-title: base64:{b64_title}\n"
+                final_content += "//profile-update-interval: 1\n"
+                final_content += "//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531\n"
+                final_content += "//support-url: https://t.me/yebekhe\n"
+                final_content += "//profile-web-page-url: https://github.com/itsyebekhe/PSG\n\n"
+            
+            final_content += json.dumps(structure, indent=2, ensure_ascii=False)
+            
+            with open(os.path.join(target_dir, f"{filename}.json"), 'w', encoding='utf-8') as f:
+                f.write(final_content)
+
 
 def main():
-    print("Starting Python PSG Builder...")
-    all_files = {}
-    total_count = 0
-    for cat, path in SCAN_DIRECTORIES.items():
-        if os.path.exists(path):
-            files = scan_directory(path)
-            all_files[cat] = files
-            total_count += len(files)
-            print(f"Scanning {cat}: Found {len(files)} files.")
-    
-    if total_count == 0: return print("Error: No files found.")
+    print("Starting Multi-Format Conversion...")
 
-    structured_data = process_files_to_structure(all_files)
-    client_info = get_client_info()
-    tehran_tz = pytz.timezone("Asia/Tehran")
-    timestamp = datetime.datetime.now(tehran_tz).strftime("%Y-%m-%d %H:%M:%S %Z")
+    # Load Singbox Templates once
+    singbox_templates = {}
+    for task, conf in SINGBOX_CONFIGS.items():
+        tpl_path = os.path.join(TEMPLATES_DIR, conf['template_file'])
+        if os.path.exists(tpl_path):
+             with open(tpl_path, 'r', encoding='utf-8') as f:
+                 singbox_templates[task] = json.load(f)
+        else:
+            print(f"Warning: Template {conf['template_file']} not found.")
 
-    html_output = generate_html(structured_data, client_info, timestamp)
+    # Iterate over datasets (MAIN and LITE)
+    for dataset in DATASETS:
+        process_dataset(
+            dataset['name'],
+            dataset['input_dir'],
+            dataset['output_root'],
+            dataset['url_path'],
+            singbox_templates
+        )
 
-    try:
-        with open(OUTPUT_HTML_FILE, "w", encoding="utf-8") as f:
-            f.write(html_output)
-        print(f"Success: {OUTPUT_HTML_FILE}")
-    except Exception as e:
-        print(f"Error: {e}")
+    print("\nAll conversions complete!")
 
 if __name__ == "__main__":
     main()
