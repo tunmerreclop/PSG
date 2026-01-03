@@ -101,6 +101,7 @@
         "🇳🇱 NL | VLESS | @config_proxy",
         "🇳🇱 NL | VLESS | @config_proxy",
         "🇳🇱 NL | VLESS | @config_proxy",
+        "🇳🇱 NL | VLESS | @config_proxy",
         "🇳🇱 NL | SS | @father_vpn",
         "🇳🇱 NL | VLESS | @filterk0sh",
         "🇳🇱 NL | VLESS | @free1_vpn",
@@ -151,6 +152,7 @@
         "🇳🇱 NL | VLESS | @prrofile_purple",
         "🇳🇱 NL | VLESS | @prrofile_purple",
         "🇳🇱 NL | VLESS | @prrofile_purple",
+        "🇳🇱 NL | VLESS | @prrofile_purple",
         "🇳🇱 NL | VLESS | @qeshmserver",
         "🇳🇱 NL | VLESS | @qeshmserver",
         "🇳🇱 NL | VLESS | @qeshmserver",
@@ -158,7 +160,6 @@
         "🇳🇱 NL | VLESS | @v2aryng_vpn",
         "🇳🇱 NL | VLESS | @v2ray_collector",
         "🇳🇱 NL | VLESS | @v2ray_vmes",
-        "🇳🇱 NL | VLESS | @v2raych",
         "🇳🇱 NL | VLESS | @v2raych",
         "🇳🇱 NL | VLESS | @v2raych",
         "🇳🇱 NL | VLESS | @v2rayexpress",
@@ -194,6 +195,7 @@
         "🇳🇱 NL | VLESS | @config_proxy",
         "🇳🇱 NL | VLESS | @config_proxy",
         "🇳🇱 NL | VLESS | @config_proxy",
+        "🇳🇱 NL | VLESS | @config_proxy",
         "🇳🇱 NL | SS | @father_vpn",
         "🇳🇱 NL | VLESS | @filterk0sh",
         "🇳🇱 NL | VLESS | @free1_vpn",
@@ -244,6 +246,7 @@
         "🇳🇱 NL | VLESS | @prrofile_purple",
         "🇳🇱 NL | VLESS | @prrofile_purple",
         "🇳🇱 NL | VLESS | @prrofile_purple",
+        "🇳🇱 NL | VLESS | @prrofile_purple",
         "🇳🇱 NL | VLESS | @qeshmserver",
         "🇳🇱 NL | VLESS | @qeshmserver",
         "🇳🇱 NL | VLESS | @qeshmserver",
@@ -251,7 +254,6 @@
         "🇳🇱 NL | VLESS | @v2aryng_vpn",
         "🇳🇱 NL | VLESS | @v2ray_collector",
         "🇳🇱 NL | VLESS | @v2ray_vmes",
-        "🇳🇱 NL | VLESS | @v2raych",
         "🇳🇱 NL | VLESS | @v2raych",
         "🇳🇱 NL | VLESS | @v2raych",
         "🇳🇱 NL | VLESS | @v2rayexpress",
@@ -445,6 +447,23 @@
       "server_port": 80,
       "uuid": "a23941f3-889c-4b53-8bef-172c03cfed78",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "hol.karwashnet.com",
+      "server_port": 443,
+      "uuid": "971e7ec4-a712-486e-a950-7d8fb19c285b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | SS | @father_vpn",
@@ -913,6 +932,23 @@
     {
       "tag": "🇳🇱 NL | VLESS | @prrofile_purple",
       "type": "vless",
+      "server": "ams1.fromblancwithlove.com",
+      "server_port": 8443,
+      "uuid": "a207569d-bf8f-43dd-81fd-2c847c7870c4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @prrofile_purple",
+      "type": "vless",
       "server": "143.244.197.90",
       "server_port": 40191,
       "uuid": "c4c65266-80fb-4bf4-87ce-fb9e3deb3429",
@@ -1090,25 +1126,17 @@
     {
       "tag": "🇳🇱 NL | VLESS | @v2raych",
       "type": "vless",
-      "server": "91.84.107.75",
-      "server_port": 8443,
-      "uuid": "1ef15939-7ec4-427f-9d47-eed9ced4c96f",
+      "server": "151.101.205.194",
+      "server_port": 80,
+      "uuid": "a23941f3-889c-4b53-8bef-172c03cfed78",
       "packet_encoding": "xudp"
     },
     {
       "tag": "🇳🇱 NL | VLESS | @v2raych",
       "type": "vless",
-      "server": "185.165.240.89",
-      "server_port": 10073,
-      "uuid": "8f7d1918-d041-4706-83e5-46941cb5ff7b",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @v2raych",
-      "type": "vless",
-      "server": "144.124.242.141",
+      "server": "hol.karwashnet.com",
       "server_port": 443,
-      "uuid": "a72a7148-24d8-4494-981d-6dfa96a55020",
+      "uuid": "971e7ec4-a712-486e-a950-7d8fb19c285b",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

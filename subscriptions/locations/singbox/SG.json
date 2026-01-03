@@ -96,6 +96,7 @@
         "🇸🇬 SG | SS | @config_proxy",
         "🇸🇬 SG | VLESS | @qeshmserver",
         "🇸🇬 SG | VLESS | @qeshmserver",
+        "🇸🇬 SG | VLESS | @v2raych",
         "🇸🇬 SG | VLESS | @v2rayexpress",
         "🇸🇬 SG | VLESS | @v2rayprotocol"
       ],
@@ -111,6 +112,7 @@
         "🇸🇬 SG | SS | @config_proxy",
         "🇸🇬 SG | VLESS | @qeshmserver",
         "🇸🇬 SG | VLESS | @qeshmserver",
+        "🇸🇬 SG | VLESS | @v2raych",
         "🇸🇬 SG | VLESS | @v2rayexpress",
         "🇸🇬 SG | VLESS | @v2rayprotocol"
       ],
@@ -218,6 +220,23 @@
       "server_port": 2020,
       "uuid": "telegram-id-qeshmserver",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @v2raych",
+      "type": "vless",
+      "server": "167.172.85.7",
+      "server_port": 443,
+      "uuid": "a75b109e-91ce-40cf-8ea9-596fdf548af7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇸🇬 SG | VLESS | @v2rayexpress",

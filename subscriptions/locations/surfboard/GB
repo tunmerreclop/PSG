@@ -13,11 +13,12 @@ DIRECT = direct
 🇬🇧 GB | TROJAN | @manstervpn = trojan, 18.170.178.186, 22222, password = telegram-id-directvpn, skip-cert-verify = true
 🇬🇧 GB | TROJAN | @manstervpn = trojan, 13.43.214.20, 22222, password = telegram-id-privatevpns, skip-cert-verify = true
 🇬🇧 GB | TROJAN | @manstervpn = trojan, 18.134.104.70, 22222, password = telegram-id-directvpn, skip-cert-verify = true
+🇬🇧 GB | TROJAN | @v2raych = trojan, 3.11.162.21, 22222, password = telegram-id-privatevpns, skip-cert-verify = true
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇬🇧 GB | TROJAN | @hope_net, 🇬🇧 GB | TROJAN | @manstervpn, 🇬🇧 GB | TROJAN | @manstervpn, 🇬🇧 GB | TROJAN | @manstervpn
-PSG-AUTO = url-test, 🇬🇧 GB | TROJAN | @hope_net, 🇬🇧 GB | TROJAN | @manstervpn, 🇬🇧 GB | TROJAN | @manstervpn, 🇬🇧 GB | TROJAN | @manstervpn
-PSG-FALLBACK = fallback, 🇬🇧 GB | TROJAN | @hope_net, 🇬🇧 GB | TROJAN | @manstervpn, 🇬🇧 GB | TROJAN | @manstervpn, 🇬🇧 GB | TROJAN | @manstervpn
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇬🇧 GB | TROJAN | @hope_net, 🇬🇧 GB | TROJAN | @manstervpn, 🇬🇧 GB | TROJAN | @manstervpn, 🇬🇧 GB | TROJAN | @manstervpn, 🇬🇧 GB | TROJAN | @v2raych
+PSG-AUTO = url-test, 🇬🇧 GB | TROJAN | @hope_net, 🇬🇧 GB | TROJAN | @manstervpn, 🇬🇧 GB | TROJAN | @manstervpn, 🇬🇧 GB | TROJAN | @manstervpn, 🇬🇧 GB | TROJAN | @v2raych
+PSG-FALLBACK = fallback, 🇬🇧 GB | TROJAN | @hope_net, 🇬🇧 GB | TROJAN | @manstervpn, 🇬🇧 GB | TROJAN | @manstervpn, 🇬🇧 GB | TROJAN | @manstervpn, 🇬🇧 GB | TROJAN | @v2raych
 
 [Rule]
 GEOIP,IR,DIRECT
