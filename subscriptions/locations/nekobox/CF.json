@@ -93,11 +93,6 @@
         "🇺🇸 US | VLESS | @buffalo_vpn",
         "🇽🇽 XX | VLESS | @config_proxy",
         "🇽🇽 XX | VLESS | @config_proxy",
-        "🇽🇽 XX | TROJAN | @config_proxy",
-        "🇽🇽 XX | VLESS | @config_proxy",
-        "🇽🇽 XX | VLESS | @config_proxy",
-        "🇽🇽 XX | VLESS | @config_proxy",
-        "🇽🇽 XX | VLESS | @config_proxy",
         "🇽🇽 XX | VLESS | @config_proxy",
         "🇽🇽 XX | TROJAN | @config_proxy",
         "🇽🇽 XX | VLESS | @config_proxy",
@@ -138,6 +133,7 @@
         "🇽🇽 XX | VLESS | @filtershekan_channel",
         "🇽🇽 XX | VLESS | @filtershekan_channel",
         "🇽🇽 XX | VLESS | @filtershekan_channel",
+        "🇽🇽 XX | VLESS | @flyv2ray",
         "🇽🇽 XX | VLESS | @flyv2ray",
         "🇽🇽 XX | VLESS | @flyv2ray",
         "🇽🇽 XX | VLESS | @flyv2ray",
@@ -448,8 +444,6 @@
         "🇽🇽 XX | VLESS | @v2ray_youtube",
         "🇽🇽 XX | VLESS | @v2raybe",
         "🇽🇽 XX | VLESS | @v2raybe",
-        "🇽🇽 XX | VLESS | @v2raych",
-        "🇽🇽 XX | VLESS | @v2raych",
         "🇽🇽 XX | VLESS | @v2rayfast_7",
         "🇽🇽 XX | VLESS | @v2rayfast_7",
         "🇽🇽 XX | VLESS | @v2raymelliii",
@@ -549,11 +543,6 @@
         "🇺🇸 US | VLESS | @buffalo_vpn",
         "🇽🇽 XX | VLESS | @config_proxy",
         "🇽🇽 XX | VLESS | @config_proxy",
-        "🇽🇽 XX | TROJAN | @config_proxy",
-        "🇽🇽 XX | VLESS | @config_proxy",
-        "🇽🇽 XX | VLESS | @config_proxy",
-        "🇽🇽 XX | VLESS | @config_proxy",
-        "🇽🇽 XX | VLESS | @config_proxy",
         "🇽🇽 XX | VLESS | @config_proxy",
         "🇽🇽 XX | TROJAN | @config_proxy",
         "🇽🇽 XX | VLESS | @config_proxy",
@@ -594,6 +583,7 @@
         "🇽🇽 XX | VLESS | @filtershekan_channel",
         "🇽🇽 XX | VLESS | @filtershekan_channel",
         "🇽🇽 XX | VLESS | @filtershekan_channel",
+        "🇽🇽 XX | VLESS | @flyv2ray",
         "🇽🇽 XX | VLESS | @flyv2ray",
         "🇽🇽 XX | VLESS | @flyv2ray",
         "🇽🇽 XX | VLESS | @flyv2ray",
@@ -904,8 +894,6 @@
         "🇽🇽 XX | VLESS | @v2ray_youtube",
         "🇽🇽 XX | VLESS | @v2raybe",
         "🇽🇽 XX | VLESS | @v2raybe",
-        "🇽🇽 XX | VLESS | @v2raych",
-        "🇽🇽 XX | VLESS | @v2raych",
         "🇽🇽 XX | VLESS | @v2rayfast_7",
         "🇽🇽 XX | VLESS | @v2rayfast_7",
         "🇽🇽 XX | VLESS | @v2raymelliii",
@@ -1214,54 +1202,6 @@
           "Host": ""
         }
       }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "172.66.156.81",
-      "server_port": 80,
-      "uuid": "cda9ae20-f69f-4112-be95-90cdfc7a21ae",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "172.64.146.20",
-      "server_port": 2096,
-      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | TROJAN | @config_proxy",
-      "type": "trojan",
-      "server": "172.66.44.128",
-      "server_port": 443,
-      "password": "tg-dns68",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "104.21.96.1",
-      "server_port": 2096,
-      "uuid": "7bcb7241-33f9-48e0-8660-b33aed2bff7a",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "whatismyipaddress.com",
-      "server_port": 80,
-      "uuid": "18ff277a-3b9a-46a0-842e-290f2b0661d2",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @config_proxy",
@@ -1773,6 +1713,23 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VLESS | @flyv2ray",
+      "type": "vless",
+      "server": "104.20.28.242",
+      "server_port": 443,
+      "uuid": "13e71ddb-908c-45e0-993c-da482d848c88",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @free4allvpn",
       "type": "vless",
       "server": "norman.ns.cloudflare.com",
@@ -2141,22 +2098,6 @@
     {
       "tag": "🇽🇽 XX | TROJAN | @hope_net",
       "type": "trojan",
-      "server": "198.41.220.18",
-      "server_port": 443,
-      "password": "2cba4104747d49d18319e5ade1b93ab5",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | TROJAN | @hope_net",
-      "type": "trojan",
       "server": "104.17.61.7",
       "server_port": 443,
       "password": "4732adfa16c6450bbef87264e41332db",
@@ -2190,6 +2131,22 @@
       "tag": "🇽🇽 XX | TROJAN | @hope_net",
       "type": "trojan",
       "server": "162.159.152.145",
+      "server_port": 443,
+      "password": "tg-dns68",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @hope_net",
+      "type": "trojan",
+      "server": "172.66.44.128",
       "server_port": 443,
       "password": "tg-dns68",
       "tls": {
@@ -5282,22 +5239,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @v2raych",
-      "type": "vless",
-      "server": "www.speedtest.net",
-      "server_port": 8880,
-      "uuid": "62c8751b-80b1-4c9a-cf82-e81fdae6c521",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @v2raych",
-      "type": "vless",
-      "server": "172.67.72.39",
-      "server_port": 2086,
-      "uuid": "e01538bf-a703-4e39-e68e-0e92443e95bc",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @v2rayfast_7",
       "type": "vless",
       "server": "leeaw.focusontrade.ir",
@@ -5985,26 +5926,17 @@
     {
       "tag": "🇽🇽 XX | VLESS | @vmesc",
       "type": "vless",
-      "server": "104.20.28.242",
-      "server_port": 443,
-      "uuid": "13e71ddb-908c-45e0-993c-da482d848c88",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "104.26.6.89",
+      "server_port": 80,
+      "uuid": "c5b129d7-f133-4b34-a9c6-68c9a8f70248",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @vmesc",
       "type": "vless",
-      "server": "104.26.6.89",
-      "server_port": 80,
-      "uuid": "c5b129d7-f133-4b34-a9c6-68c9a8f70248",
+      "server": "172.64.146.20",
+      "server_port": 2096,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
       "packet_encoding": "xudp"
     },
     {

@@ -96,13 +96,13 @@
         "🇬🇧 GB | SS | @NamiraConfigs",
         "🇬🇧 GB | VLESS | @bored_vpn",
         "🇬🇧 GB | VLESS | @bored_vpn",
-        "🇬🇧 GB | VLESS | @config_proxy",
         "🇬🇧 GB | SS | @config_proxy",
         "🇬🇧 GB | SS | @filtershekan_channel",
         "🇬🇧 GB | VLESS | @free1_vpn",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | VLESS | @free4allvpn",
+        "🇬🇧 GB | TROJAN | @hope_net",
         "🇬🇧 GB | SS | @imhdiyvp",
         "🇬🇧 GB | SS | @imhdiyvp",
         "🇬🇧 GB | SS | @ir_netproxy",
@@ -175,6 +175,7 @@
         "🇬🇧 GB | SS | @tobevasl",
         "🇬🇧 GB | SS | @torang_vpn",
         "🇬🇧 GB | VLESS | @v2ray_youtube",
+        "🇬🇧 GB | VLESS | @v2raych",
         "🇬🇧 GB | SS | @v2rayngalpha",
         "🇬🇧 GB | SS | @v2rayopen",
         "🇬🇧 GB | VLESS | @v_2rayng0",
@@ -195,13 +196,13 @@
         "🇬🇧 GB | SS | @NamiraConfigs",
         "🇬🇧 GB | VLESS | @bored_vpn",
         "🇬🇧 GB | VLESS | @bored_vpn",
-        "🇬🇧 GB | VLESS | @config_proxy",
         "🇬🇧 GB | SS | @config_proxy",
         "🇬🇧 GB | SS | @filtershekan_channel",
         "🇬🇧 GB | VLESS | @free1_vpn",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | VLESS | @free4allvpn",
+        "🇬🇧 GB | TROJAN | @hope_net",
         "🇬🇧 GB | SS | @imhdiyvp",
         "🇬🇧 GB | SS | @imhdiyvp",
         "🇬🇧 GB | SS | @ir_netproxy",
@@ -274,6 +275,7 @@
         "🇬🇧 GB | SS | @tobevasl",
         "🇬🇧 GB | SS | @torang_vpn",
         "🇬🇧 GB | VLESS | @v2ray_youtube",
+        "🇬🇧 GB | VLESS | @v2raych",
         "🇬🇧 GB | SS | @v2rayngalpha",
         "🇬🇧 GB | SS | @v2rayopen",
         "🇬🇧 GB | VLESS | @v_2rayng0",
@@ -388,14 +390,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇬🇧 GB | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "25.26.27.158",
-      "server_port": 2096,
-      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇬🇧 GB | SS | @config_proxy",
       "type": "shadowsocks",
       "server": "37.221.125.38",
@@ -442,6 +436,22 @@
       "server_port": 443,
       "uuid": "037e395f-f79d-4d61-bb92-dafcc27e53ba",
       "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | TROJAN | @hope_net",
+      "type": "trojan",
+      "server": "3.11.162.21",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -1099,6 +1109,21 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2raych",
+      "type": "vless",
+      "server": "152.114.193.158",
+      "server_port": 2039,
+      "uuid": "1b07b61e-7c71-75fa-f97d-f4a82c66cfb5",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
         }
       }
     },

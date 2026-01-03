@@ -23,14 +23,13 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇽🇽 XX | TROJAN | @config_proxy", "server": "172.66.44.128", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "tg-dns68"}
   - {"name": "🇽🇽 XX | TROJAN | @config_proxy", "server": "ct.090227.xyz", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "22367c45-f6c4-4ca8-8d52-d9787d7bbe91"}
   - {"name": "🇽🇽 XX | VMESS | @config_proxy", "server": "mizan.andishehnegar404.ir", "port": 2096, "type": "vmess", "skip-cert-verify": true, "uuid": "aa0a1de5-f464-4be1-b50f-3c39f3746c95", "alterId": 0, "cipher": "auto", "network": "httpupgrade", "tls": true}
   - {"name": "🇽🇽 XX | VMESS | @config_proxy", "server": "mizan.andishehnegar404.ir", "port": 2096, "type": "vmess", "skip-cert-verify": true, "uuid": "1f771db1-ae50-41e9-9f98-e65048eb5890", "alterId": 0, "cipher": "auto", "network": "httpupgrade", "tls": true}
-  - {"name": "🇽🇽 XX | TROJAN | @hope_net", "server": "198.41.220.18", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "2cba4104747d49d18319e5ade1b93ab5"}
   - {"name": "🇽🇽 XX | TROJAN | @hope_net", "server": "104.17.61.7", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "4732adfa16c6450bbef87264e41332db"}
   - {"name": "🇽🇽 XX | TROJAN | @hope_net", "server": "162.159.152.150", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "tg-dns68"}
   - {"name": "🇽🇽 XX | TROJAN | @hope_net", "server": "162.159.152.145", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "tg-dns68"}
+  - {"name": "🇽🇽 XX | TROJAN | @hope_net", "server": "172.66.44.128", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "tg-dns68"}
   - {"name": "🇽🇽 XX | TROJAN | @hope_net", "server": "162.159.152.227", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "tg-dns68"}
   - {"name": "🇽🇽 XX | TROJAN | @hope_net", "server": "104.17.147.22", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "E-Graphic"}
   - {"name": "🇽🇽 XX | TROJAN | @hope_net", "server": "162.159.153.29", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "tg-dns68"}
@@ -64,7 +63,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇽🇽 XX | TROJAN | @config_proxy'
       - '🇽🇽 XX | TROJAN | @config_proxy'
       - '🇽🇽 XX | VMESS | @config_proxy'
       - '🇽🇽 XX | VMESS | @config_proxy'

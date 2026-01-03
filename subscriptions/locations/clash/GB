@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇬🇧 GB | TROJAN | @hope_net", "server": "3.11.162.21", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
   - {"name": "🇬🇧 GB | TROJAN | @manstervpn", "server": "18.170.178.186", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-directvpn"}
   - {"name": "🇬🇧 GB | TROJAN | @manstervpn", "server": "13.43.214.20", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
   - {"name": "🇬🇧 GB | TROJAN | @manstervpn", "server": "18.134.104.70", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-directvpn"}
@@ -39,6 +40,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇬🇧 GB | TROJAN | @hope_net'
       - '🇬🇧 GB | TROJAN | @manstervpn'
       - '🇬🇧 GB | TROJAN | @manstervpn'
       - '🇬🇧 GB | TROJAN | @manstervpn'

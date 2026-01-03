@@ -85,6 +85,7 @@
         "🇫🇮 FI | VLESS | @config_proxy",
         "🇫🇮 FI | VLESS | @config_proxy",
         "🇫🇮 FI | VLESS | @config_proxy",
+        "🇫🇮 FI | VLESS | @config_proxy",
         "🇫🇮 FI | VLESS | @custom_14",
         "🇫🇮 FI | VLESS | @iranbfilter",
         "🇫🇮 FI | VLESS | @nofilter_v2rayng",
@@ -97,7 +98,6 @@
         "🇫🇮 FI | VLESS | @tobevasl",
         "🇫🇮 FI | VLESS | @v2ra_ng_iran",
         "🇫🇮 FI | TROJAN | @v2ray_n",
-        "🇫🇮 FI | VLESS | @v2raych",
         "🇫🇮 FI | VLESS | @v2rayng3",
         "🇫🇮 FI | VLESS | @v2rayngconfiig",
         "🇫🇮 FI | VLESS | @v2raytg",
@@ -118,6 +118,7 @@
         "🇫🇮 FI | VLESS | @config_proxy",
         "🇫🇮 FI | VLESS | @config_proxy",
         "🇫🇮 FI | VLESS | @config_proxy",
+        "🇫🇮 FI | VLESS | @config_proxy",
         "🇫🇮 FI | VLESS | @custom_14",
         "🇫🇮 FI | VLESS | @iranbfilter",
         "🇫🇮 FI | VLESS | @nofilter_v2rayng",
@@ -130,7 +131,6 @@
         "🇫🇮 FI | VLESS | @tobevasl",
         "🇫🇮 FI | VLESS | @v2ra_ng_iran",
         "🇫🇮 FI | TROJAN | @v2ray_n",
-        "🇫🇮 FI | VLESS | @v2raych",
         "🇫🇮 FI | VLESS | @v2rayng3",
         "🇫🇮 FI | VLESS | @v2rayngconfiig",
         "🇫🇮 FI | VLESS | @v2raytg",
@@ -290,6 +290,28 @@
       "server_port": 3389,
       "uuid": "06938664-031d-47c3-b93d-862d714f6b60",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "us.svnmobile.com",
+      "server_port": 443,
+      "uuid": "89129587-f2d8-4540-a220-00589315e71c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇫🇮 FI | VLESS | @config_proxy",
@@ -503,28 +525,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2raych",
-      "type": "vless",
-      "server": "46.62.240.45",
-      "server_port": 46704,
-      "uuid": "11c21629-e286-4c60-9f14-cf1935854b3e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
