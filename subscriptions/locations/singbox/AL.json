@@ -93,6 +93,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇦🇱 AL | VLESS | @config_proxy",
         "🇦🇱 AL | VLESS | @netmellianti"
       ],
       "tag": "proxy",
@@ -104,6 +105,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇦🇱 AL | VLESS | @config_proxy",
         "🇦🇱 AL | VLESS | @netmellianti"
       ],
       "tag": "auto",
@@ -184,6 +186,28 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇦🇱 AL | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "78.159.131.51",
+      "server_port": 443,
+      "uuid": "c5c9d8ec-6c95-4f84-a395-de41ef895f34",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },

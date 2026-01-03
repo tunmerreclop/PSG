@@ -81,16 +81,19 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇨🇾 CY | SS | @NamiraConfigs",
+        "🇨🇾 CY | VLESS | @config_proxy",
         "🇨🇾 CY | VLESS | @filterk0sh",
         "🇨🇾 CY | VLESS | @filterk0sh",
         "🇨🇾 CY | VLESS | @flyv2ray",
         "🇨🇾 CY | VLESS | @free4allvpn",
         "🇨🇾 CY | VLESS | @freeconfigsplus",
+        "🇨🇾 CY | TROJAN | @orange_vpns",
         "🇨🇾 CY | SS | @prrofile_purple",
         "🇨🇾 CY | VLESS | @satellitenewspersian",
         "🇨🇾 CY | VLESS | @v2ray_collector",
         "🇨🇾 CY | VLESS | @v2ray_collector",
         "🇨🇾 CY | VLESS | @v2ray_collector",
+        "🇨🇾 CY | VLESS | @v2raych",
         "🇨🇾 CY | VLESS | @v2rayprotocol",
         "🇨🇾 CY | VLESS | @v2raytg",
         "🇨🇾 CY | VLESS | @v2raytg",
@@ -110,16 +113,19 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇨🇾 CY | SS | @NamiraConfigs",
+        "🇨🇾 CY | VLESS | @config_proxy",
         "🇨🇾 CY | VLESS | @filterk0sh",
         "🇨🇾 CY | VLESS | @filterk0sh",
         "🇨🇾 CY | VLESS | @flyv2ray",
         "🇨🇾 CY | VLESS | @free4allvpn",
         "🇨🇾 CY | VLESS | @freeconfigsplus",
+        "🇨🇾 CY | TROJAN | @orange_vpns",
         "🇨🇾 CY | SS | @prrofile_purple",
         "🇨🇾 CY | VLESS | @satellitenewspersian",
         "🇨🇾 CY | VLESS | @v2ray_collector",
         "🇨🇾 CY | VLESS | @v2ray_collector",
         "🇨🇾 CY | VLESS | @v2ray_collector",
+        "🇨🇾 CY | VLESS | @v2raych",
         "🇨🇾 CY | VLESS | @v2rayprotocol",
         "🇨🇾 CY | VLESS | @v2raytg",
         "🇨🇾 CY | VLESS | @v2raytg",
@@ -223,6 +229,28 @@
       "password": null
     },
     {
+      "tag": "🇨🇾 CY | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "45.12.136.48",
+      "server_port": 443,
+      "uuid": "c5c9d8ec-6c95-4f84-a395-de41ef895f34",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇨🇾 CY | VLESS | @filterk0sh",
       "type": "vless",
       "server": "45.82.251.122",
@@ -281,6 +309,13 @@
       }
     },
     {
+      "tag": "🇨🇾 CY | TROJAN | @orange_vpns",
+      "type": "trojan",
+      "server": "trunker.cc",
+      "server_port": 8080,
+      "password": "nYzYreUpD4dDjzjFcgf6Fe3oaw4QFN"
+    },
+    {
       "tag": "🇨🇾 CY | SS | @prrofile_purple",
       "type": "shadowsocks",
       "server": "45.83.20.206",
@@ -319,6 +354,28 @@
       "server_port": 8880,
       "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇨🇾 CY | VLESS | @v2raych",
+      "type": "vless",
+      "server": "45.12.136.48",
+      "server_port": 443,
+      "uuid": "c5c9d8ec-6c95-4f84-a395-de41ef895f34",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇨🇾 CY | VLESS | @v2rayprotocol",

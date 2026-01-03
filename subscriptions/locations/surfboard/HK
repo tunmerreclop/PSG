@@ -10,12 +10,11 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇭🇰 HK | TROJAN | @free4allvpn = trojan, 219.79.214.159, 443, password = BxceQaOe, skip-cert-verify = true
-🇭🇰 HK | TROJAN | @hope_net = trojan, 47.56.196.176, 9443, password = tg-dns68, skip-cert-verify = true
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇭🇰 HK | TROJAN | @free4allvpn, 🇭🇰 HK | TROJAN | @hope_net
-PSG-AUTO = url-test, 🇭🇰 HK | TROJAN | @free4allvpn, 🇭🇰 HK | TROJAN | @hope_net
-PSG-FALLBACK = fallback, 🇭🇰 HK | TROJAN | @free4allvpn, 🇭🇰 HK | TROJAN | @hope_net
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇭🇰 HK | TROJAN | @free4allvpn
+PSG-AUTO = url-test, 🇭🇰 HK | TROJAN | @free4allvpn
+PSG-FALLBACK = fallback, 🇭🇰 HK | TROJAN | @free4allvpn
 
 [Rule]
 GEOIP,IR,DIRECT

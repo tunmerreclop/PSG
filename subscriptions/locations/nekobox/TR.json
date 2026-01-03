@@ -81,7 +81,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇹🇷 TR | SS | @NamiraConfigs",
-        "🇹🇷 TR | VLESS | @config_proxy",
+        "🇹🇷 TR | SS | @config_proxy",
         "🇹🇷 TR | VLESS | @dailyv2ray",
         "🇹🇷 TR | VLESS | @drvpn_net",
         "🇹🇷 TR | VLESS | @filterk0sh",
@@ -95,9 +95,9 @@
         "🇹🇷 TR | VLESS | @proxyfn",
         "🇹🇷 TR | VLESS | @prrofile_purple",
         "🇹🇷 TR | SS | @prrofile_purple",
-        "🇹🇷 TR | VLESS | @v2raych",
         "🇹🇷 TR | TROJAN | @v2rayngconfig",
-        "🇹🇷 TR | SS | @v2rayopen"
+        "🇹🇷 TR | SS | @v2rayopen",
+        "🇹🇷 TR | VLESS | @vpnplusee_free"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -109,7 +109,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇹🇷 TR | SS | @NamiraConfigs",
-        "🇹🇷 TR | VLESS | @config_proxy",
+        "🇹🇷 TR | SS | @config_proxy",
         "🇹🇷 TR | VLESS | @dailyv2ray",
         "🇹🇷 TR | VLESS | @drvpn_net",
         "🇹🇷 TR | VLESS | @filterk0sh",
@@ -123,9 +123,9 @@
         "🇹🇷 TR | VLESS | @proxyfn",
         "🇹🇷 TR | VLESS | @prrofile_purple",
         "🇹🇷 TR | SS | @prrofile_purple",
-        "🇹🇷 TR | VLESS | @v2raych",
         "🇹🇷 TR | TROJAN | @v2rayngconfig",
-        "🇹🇷 TR | SS | @v2rayopen"
+        "🇹🇷 TR | SS | @v2rayopen",
+        "🇹🇷 TR | VLESS | @vpnplusee_free"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -221,26 +221,12 @@
       "password": null
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "198.105.123.152",
-      "server_port": 51065,
-      "uuid": "5695e906-fd40-45e7-b261-7bc605af614c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "tag": "🇹🇷 TR | SS | @config_proxy",
+      "type": "shadowsocks",
+      "server": "185.39.204.27",
+      "server_port": 1080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5d2ZBOEJOMTZuZl8wOEpoQnlEV0czcVRCNWo4NmI1Vg==",
+      "password": null
     },
     {
       "tag": "🇹🇷 TR | VLESS | @dailyv2ray",
@@ -375,28 +361,6 @@
       "password": null
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @v2raych",
-      "type": "vless",
-      "server": "198.105.123.152",
-      "server_port": 51065,
-      "uuid": "5695e906-fd40-45e7-b261-7bc605af614c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇹🇷 TR | TROJAN | @v2rayngconfig",
       "type": "trojan",
       "server": "194.146.26.40",
@@ -419,6 +383,28 @@
       "server_port": 31348,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpuWVJoVENaZFFMRXhLNmV3VkhnSFMybWx2NEZDeXNLeWV5VFRmaFJkRWdkZWVSTjA=",
       "password": null
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @vpnplusee_free",
+      "type": "vless",
+      "server": "quarenty.site",
+      "server_port": 8443,
+      "uuid": "6257bd0f-18d6-41cc-8e41-fe183cf63881",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

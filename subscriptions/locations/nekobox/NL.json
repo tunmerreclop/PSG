@@ -82,15 +82,12 @@
         "KingRezaPahlavi",
         "🇳🇱 NL | SS | @NamiraConfigs",
         "🇳🇱 NL | VLESS | @config_proxy",
-        "🇳🇱 NL | VLESS | @config_proxy",
         "🇳🇱 NL | SS | @father_vpn",
         "🇳🇱 NL | VLESS | @filterk0sh",
-        "🇳🇱 NL | VLESS | @free1_vpn",
         "🇳🇱 NL | VLESS | @free1_vpn",
         "🇳🇱 NL | VLESS | @free4allvpn",
         "🇳🇱 NL | VLESS | @freeconfigsplus",
         "🇳🇱 NL | VLESS | @frev2rayng",
-        "🇳🇱 NL | TROJAN | @hope_net",
         "🇳🇱 NL | VLESS | @jokerv2ray",
         "🇳🇱 NL | TROJAN | @manstervpn",
         "🇳🇱 NL | SS | @manstervpn",
@@ -127,6 +124,7 @@
         "🇳🇱 NL | SS | @outlinereleasedkey",
         "🇳🇱 NL | SS | @proxyfn",
         "🇳🇱 NL | SS | @proxyfn",
+        "🇳🇱 NL | VLESS | @prrofile_purple",
         "🇳🇱 NL | VLESS | @prrofile_purple",
         "🇳🇱 NL | VLESS | @prrofile_purple",
         "🇳🇱 NL | VLESS | @prrofile_purple",
@@ -167,15 +165,12 @@
         "KingRezaPahlavi",
         "🇳🇱 NL | SS | @NamiraConfigs",
         "🇳🇱 NL | VLESS | @config_proxy",
-        "🇳🇱 NL | VLESS | @config_proxy",
         "🇳🇱 NL | SS | @father_vpn",
         "🇳🇱 NL | VLESS | @filterk0sh",
-        "🇳🇱 NL | VLESS | @free1_vpn",
         "🇳🇱 NL | VLESS | @free1_vpn",
         "🇳🇱 NL | VLESS | @free4allvpn",
         "🇳🇱 NL | VLESS | @freeconfigsplus",
         "🇳🇱 NL | VLESS | @frev2rayng",
-        "🇳🇱 NL | TROJAN | @hope_net",
         "🇳🇱 NL | VLESS | @jokerv2ray",
         "🇳🇱 NL | TROJAN | @manstervpn",
         "🇳🇱 NL | SS | @manstervpn",
@@ -212,6 +207,7 @@
         "🇳🇱 NL | SS | @outlinereleasedkey",
         "🇳🇱 NL | SS | @proxyfn",
         "🇳🇱 NL | SS | @proxyfn",
+        "🇳🇱 NL | VLESS | @prrofile_purple",
         "🇳🇱 NL | VLESS | @prrofile_purple",
         "🇳🇱 NL | VLESS | @prrofile_purple",
         "🇳🇱 NL | VLESS | @prrofile_purple",
@@ -337,18 +333,19 @@
     {
       "tag": "🇳🇱 NL | VLESS | @config_proxy",
       "type": "vless",
-      "server": "202.71.14.202",
-      "server_port": 8443,
-      "uuid": "faa693f6-41eb-4c90-842c-876c989adc9c",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "151.101.205.194",
-      "server_port": 80,
-      "uuid": "e578e519-d95c-41ff-aaaa-1b17be64ee22",
-      "packet_encoding": "xudp"
+      "server": "nl1.vpnreal.ru",
+      "server_port": 443,
+      "uuid": "d08ff8b7-d4a3-4628-9c39-c9c3d256cbf7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | SS | @father_vpn",
@@ -364,28 +361,6 @@
       "server": "eng14.netliberated.org",
       "server_port": 443,
       "uuid": "0bb6dff2-0029-4b81-8c81-4fc70fae1ed9",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @free1_vpn",
-      "type": "vless",
-      "server": "188.166.7.40",
-      "server_port": 6048,
-      "uuid": "2f30aa44-c87c-e73d-a715-0813c68ee9b2",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -451,22 +426,6 @@
       "server_port": 37062,
       "uuid": "b3a0f19f-b0f9-4a96-95de-49c5c5a725e0",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇳🇱 NL | TROJAN | @hope_net",
-      "type": "trojan",
-      "server": "136.244.101.16",
-      "server_port": 48163,
-      "password": "KsAG60yhjU",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇳🇱 NL | VLESS | @jokerv2ray",
@@ -817,6 +776,23 @@
     {
       "tag": "🇳🇱 NL | VLESS | @prrofile_purple",
       "type": "vless",
+      "server": "ams1.fromblancwithlove.com",
+      "server_port": 8443,
+      "uuid": "a207569d-bf8f-43dd-81fd-2c847c7870c4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @prrofile_purple",
+      "type": "vless",
       "server": "143.244.197.90",
       "server_port": 40191,
       "uuid": "c4c65266-80fb-4bf4-87ce-fb9e3deb3429",
@@ -994,9 +970,9 @@
     {
       "tag": "🇳🇱 NL | VLESS | @v2raych",
       "type": "vless",
-      "server": "151.101.205.194",
-      "server_port": 80,
-      "uuid": "e578e519-d95c-41ff-aaaa-1b17be64ee22",
+      "server": "141.98.6.247",
+      "server_port": 8443,
+      "uuid": "710725f0e16c41658c76112399e5db3e",
       "packet_encoding": "xudp"
     },
     {

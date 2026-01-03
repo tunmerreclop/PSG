@@ -80,8 +80,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇰🇷 KR | SS | @outlinereleasedkey",
-        "🇰🇷 KR | SS | @v2ray_free_conf"
+        "🇰🇷 KR | VLESS | @config_proxy",
+        "🇰🇷 KR | SS | @outlinereleasedkey"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -92,8 +92,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇰🇷 KR | SS | @outlinereleasedkey",
-        "🇰🇷 KR | SS | @v2ray_free_conf"
+        "🇰🇷 KR | VLESS | @config_proxy",
+        "🇰🇷 KR | SS | @outlinereleasedkey"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -181,19 +181,28 @@
       }
     },
     {
+      "tag": "🇰🇷 KR | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "211.196.226.172",
+      "server_port": 32202,
+      "uuid": "93b99881-df03-4597-9146-0c11e46387f7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇰🇷 KR | SS | @outlinereleasedkey",
       "type": "shadowsocks",
       "server": "141.164.63.32",
       "server_port": 30936,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMjU3MjdkZi0xNWVhLTQ1M2MtYTAwNi0xM2ZlOThmZWUxZDI=",
-      "password": null
-    },
-    {
-      "tag": "🇰🇷 KR | SS | @v2ray_free_conf",
-      "type": "shadowsocks",
-      "server": "115.161.136.145",
-      "server_port": 10099,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMjI0Mg==",
       "password": null
     }
   ],

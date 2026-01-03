@@ -9,13 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇳🇱 NL | TROJAN | @hope_net = trojan, 136.244.101.16, 48163, password = KsAG60yhjU, skip-cert-verify = true
 🇳🇱 NL | TROJAN | @manstervpn = trojan, 185.176.24.2, 443, password = bpb-trojan, skip-cert-verify = true
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇳🇱 NL | TROJAN | @hope_net, 🇳🇱 NL | TROJAN | @manstervpn
-PSG-AUTO = url-test, 🇳🇱 NL | TROJAN | @hope_net, 🇳🇱 NL | TROJAN | @manstervpn
-PSG-FALLBACK = fallback, 🇳🇱 NL | TROJAN | @hope_net, 🇳🇱 NL | TROJAN | @manstervpn
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇳🇱 NL | TROJAN | @manstervpn
+PSG-AUTO = url-test, 🇳🇱 NL | TROJAN | @manstervpn
+PSG-FALLBACK = fallback, 🇳🇱 NL | TROJAN | @manstervpn
 
 [Rule]
 GEOIP,IR,DIRECT
