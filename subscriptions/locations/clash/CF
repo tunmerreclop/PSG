@@ -1,0 +1,137 @@
+mixed-port: 7890
+allow-lan: true
+log-level: info
+external-controller: 0.0.0.0:9090
+
+dns:
+  enabled: true
+  listen: 0.0.0.0:1053
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fake-ip-filter:
+    - '*.lan'
+    - '*.local'
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - '+.pool.ntp.org'
+
+proxies: 
+  - {"name": "🇽🇽 XX | TROJAN | @config_proxy", "server": "172.66.44.128", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "tg-dns68"}
+  - {"name": "🇽🇽 XX | TROJAN | @config_proxy", "server": "ct.090227.xyz", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "22367c45-f6c4-4ca8-8d52-d9787d7bbe91"}
+  - {"name": "🇽🇽 XX | VMESS | @config_proxy", "server": "mizan.andishehnegar404.ir", "port": 2096, "type": "vmess", "skip-cert-verify": true, "uuid": "aa0a1de5-f464-4be1-b50f-3c39f3746c95", "alterId": 0, "cipher": "auto", "network": "httpupgrade", "tls": true}
+  - {"name": "🇽🇽 XX | VMESS | @config_proxy", "server": "mizan.andishehnegar404.ir", "port": 2096, "type": "vmess", "skip-cert-verify": true, "uuid": "1f771db1-ae50-41e9-9f98-e65048eb5890", "alterId": 0, "cipher": "auto", "network": "httpupgrade", "tls": true}
+  - {"name": "🇽🇽 XX | TROJAN | @hope_net", "server": "198.41.220.18", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "2cba4104747d49d18319e5ade1b93ab5"}
+  - {"name": "🇽🇽 XX | TROJAN | @hope_net", "server": "104.17.61.7", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "4732adfa16c6450bbef87264e41332db"}
+  - {"name": "🇽🇽 XX | TROJAN | @hope_net", "server": "162.159.152.150", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "tg-dns68"}
+  - {"name": "🇽🇽 XX | TROJAN | @hope_net", "server": "162.159.152.145", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "tg-dns68"}
+  - {"name": "🇽🇽 XX | TROJAN | @hope_net", "server": "162.159.152.227", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "tg-dns68"}
+  - {"name": "🇽🇽 XX | TROJAN | @hope_net", "server": "104.17.147.22", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "E-Graphic"}
+  - {"name": "🇽🇽 XX | TROJAN | @hope_net", "server": "162.159.153.29", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "tg-dns68"}
+  - {"name": "🇽🇽 XX | TROJAN | @hope_net", "server": "162.159.152.57", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "tg-dns68"}
+  - {"name": "🇽🇽 XX | TROJAN | @hope_net", "server": "162.159.153.116", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "tg-dns68"}
+  - {"name": "🇽🇽 XX | VMESS | @iranvpnet", "server": "mute-math-d64e.0e503992ad7026.WOrKERs.deV", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/aveiror.com:443/linkvws", "headers": {"Host": "mute-math-d64e.0e503992ad7026.woRKERS.DeV"}}}
+  - {"name": "🇽🇽 XX | VMESS | @manstervpn", "server": "104.16.60.8", "port": 2086, "type": "vmess", "skip-cert-verify": true, "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/glweidf.sbs/linkws", "headers": {"Host": "1c11-muddy-rice-1c11.vetanex501.workers.dev"}}}
+  - {"name": "🇽🇽 XX | TROJAN | @manstervpn", "server": "172.66.44.141", "port": 2083, "type": "trojan", "skip-cert-verify": false, "password": "bpb-trojan"}
+  - {"name": "🇽🇽 XX | TROJAN | @manstervpn", "server": "104.18.37.111", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "bpb-trojan"}
+  - {"name": "🇽🇽 XX | VMESS | @mastervpnshop1", "server": "162.55.174.152", "port": 51540, "type": "vmess", "skip-cert-verify": true, "uuid": "910e5e07-fc57-4c3a-8f16-5dfa705caa51", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇽🇽 XX | VMESS | @mastervpnshop1", "server": "128.140.124.120", "port": 47529, "type": "vmess", "skip-cert-verify": true, "uuid": "94b89ab2-2ce6-454d-b036-d3bb855ce54d", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇽🇽 XX | TROJAN | @orange_vpns", "server": "tunel.amirspacee.top", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "ignHF1x8Gp"}
+  - {"name": "🇽🇽 XX | TROJAN | @outline_ir", "server": "one.cf.cdn.hyli.xyz", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "5a2c16f9"}
+  - {"name": "🇽🇽 XX | VMESS | @public504", "server": "94.182.136.40", "port": 25832, "type": "vmess", "skip-cert-verify": true, "uuid": "a4393300-6777-47b9-8348-1ac84aa7ede9", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇽🇽 XX | TROJAN | @teamvpnpro", "server": "chatbuzzteambhm.chatbuzzt7150.workers.dev", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "22f86840-bcac-11ee-abea-1239d0255272"}
+  - {"name": "🇽🇽 XX | TROJAN | @teamvpnpro", "server": "chatbuzzteambhm.chatbuzzt7150.workers.dev", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "c7f9b8f0-bfdb-11ee-a15c-1239d0255272"}
+  - {"name": "🇽🇽 XX | VMESS | @v2ray_free_conf", "server": "82.198.246.97", "port": 180, "type": "vmess", "skip-cert-verify": true, "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇽🇽 XX | TROJAN | @v2rayngconfiig", "server": "104.18.26.90", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "Xa4%5El%28%3B.%3BB%23a"}
+  - {"name": "🇽🇽 XX | TROJAN | @vmesc", "server": "bisque.qzz.io", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "e86364fb-a5e3-42c3-b7fa-6ce8097fe19f"}
+  - {"name": "🇽🇽 XX | TROJAN | @vpn_ioss", "server": "172.67.134.185", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "POORIARED"}
+
+proxy-groups:
+  - name: 🚀 Proxy
+    type: select
+    proxies:
+      - ♻️ Auto
+      - 🎯 Direct
+
+  - name: ♻️ Auto
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies: 
+      - '🇽🇽 XX | TROJAN | @config_proxy'
+      - '🇽🇽 XX | TROJAN | @config_proxy'
+      - '🇽🇽 XX | VMESS | @config_proxy'
+      - '🇽🇽 XX | VMESS | @config_proxy'
+      - '🇽🇽 XX | TROJAN | @hope_net'
+      - '🇽🇽 XX | TROJAN | @hope_net'
+      - '🇽🇽 XX | TROJAN | @hope_net'
+      - '🇽🇽 XX | TROJAN | @hope_net'
+      - '🇽🇽 XX | TROJAN | @hope_net'
+      - '🇽🇽 XX | TROJAN | @hope_net'
+      - '🇽🇽 XX | TROJAN | @hope_net'
+      - '🇽🇽 XX | TROJAN | @hope_net'
+      - '🇽🇽 XX | TROJAN | @hope_net'
+      - '🇽🇽 XX | VMESS | @iranvpnet'
+      - '🇽🇽 XX | VMESS | @manstervpn'
+      - '🇽🇽 XX | TROJAN | @manstervpn'
+      - '🇽🇽 XX | TROJAN | @manstervpn'
+      - '🇽🇽 XX | VMESS | @mastervpnshop1'
+      - '🇽🇽 XX | VMESS | @mastervpnshop1'
+      - '🇽🇽 XX | TROJAN | @orange_vpns'
+      - '🇽🇽 XX | TROJAN | @outline_ir'
+      - '🇽🇽 XX | VMESS | @public504'
+      - '🇽🇽 XX | TROJAN | @teamvpnpro'
+      - '🇽🇽 XX | TROJAN | @teamvpnpro'
+      - '🇽🇽 XX | VMESS | @v2ray_free_conf'
+      - '🇽🇽 XX | TROJAN | @v2rayngconfiig'
+      - '🇽🇽 XX | TROJAN | @vmesc'
+      - '🇽🇽 XX | TROJAN | @vpn_ioss'
+
+  - name: 🌍 Global Media
+    type: select
+    proxies:
+      - 🚀 Proxy
+      - ♻️ Auto
+      - 🎯 Direct
+
+  - name: 🎯 Direct
+    type: select
+    proxies:
+      - DIRECT
+
+  - name: 🛑 Ad Block
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+
+  - name: 🐟 Fallback
+    type: select
+    proxies:
+      - 🚀 Proxy
+      - 🎯 Direct
+
+rules:
+  - DOMAIN-KEYWORD,adservice,🛑 Ad Block
+  - DOMAIN-SUFFIX,googlesyndication.com,🛑 Ad Block
+  - DOMAIN-SUFFIX,netflix.com,🌍 Global Media
+  - DOMAIN-SUFFIX,nflxvideo.net,🌍 Global Media
+  - DOMAIN-SUFFIX,disneyplus.com,🌍 Global Media
+  - DOMAIN-KEYWORD,youtube,🌍 Global Media
+  - DOMAIN-SUFFIX,t.me,🚀 Proxy
+  - DOMAIN-SUFFIX,telegram.org,🚀 Proxy
+  - DOMAIN-SUFFIX,openai.com,🚀 Proxy
+  - DOMAIN-SUFFIX,lan,🎯 Direct
+  - DOMAIN-SUFFIX,local,🎯 Direct
+  - IP-CIDR,127.0.0.0/8,🎯 Direct,no-resolve
+  - IP-CIDR,192.168.0.0/16,🎯 Direct,no-resolve
+  - IP-CIDR,10.0.0.0/8,🎯 Direct,no-resolve
+  - IP-CIDR,172.16.0.0/12,🎯 Direct,no-resolve
+  - GEOIP,IR,🎯 Direct
+  - MATCH,🐟 Fallback

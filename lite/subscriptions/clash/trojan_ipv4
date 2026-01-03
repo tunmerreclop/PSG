@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇽🇽 XX | TROJAN | @config_proxy", "server": "172.66.44.128", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "tg-dns68"}
   - {"name": "🇩🇪 DE | TROJAN | @freev2raym", "server": "91.107.141.0", "port": 23825, "type": "trojan", "skip-cert-verify": false, "password": "ziIjOlyGbM"}
   - {"name": "🇽🇽 XX | TROJAN | @hope_net", "server": "198.41.220.18", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "2cba4104747d49d18319e5ade1b93ab5"}
   - {"name": "🇲🇩 MD | TROJAN | @hope_net", "server": "185.234.64.146", "port": 2053, "type": "trojan", "skip-cert-verify": false, "password": "5c7941b5-c393-4eea-a76d-d44b59baf8a0"}
@@ -74,6 +75,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇽🇽 XX | TROJAN | @config_proxy'
       - '🇩🇪 DE | TROJAN | @freev2raym'
       - '🇽🇽 XX | TROJAN | @hope_net'
       - '🇲🇩 MD | TROJAN | @hope_net'

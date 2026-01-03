@@ -118,6 +118,7 @@
         "🇽🇽 XX | TROJAN | @xrayzxn",
         "🇽🇽 XX | TROJAN | @xrayzxn",
         "🇽🇽 XX | TROJAN | @xrayzxn",
+        "🇽🇽 XX | TROJAN | @config_proxy",
         "🇩🇪 DE | TROJAN | @freev2raym",
         "🇽🇽 XX | TROJAN | @hope_net",
         "🇲🇩 MD | TROJAN | @hope_net",
@@ -191,6 +192,7 @@
         "🇽🇽 XX | TROJAN | @xrayzxn",
         "🇽🇽 XX | TROJAN | @xrayzxn",
         "🇽🇽 XX | TROJAN | @xrayzxn",
+        "🇽🇽 XX | TROJAN | @config_proxy",
         "🇩🇪 DE | TROJAN | @freev2raym",
         "🇽🇽 XX | TROJAN | @hope_net",
         "🇲🇩 MD | TROJAN | @hope_net",
@@ -683,6 +685,22 @@
       "server": "amin.karkas1.ir",
       "server_port": 443,
       "password": "11ae0edd-2f63-4495-8683-037abbda9986",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @config_proxy",
+      "type": "trojan",
+      "server": "172.66.44.128",
+      "server_port": 443,
+      "password": "tg-dns68",
       "tls": {
         "enabled": true,
         "server_name": "",

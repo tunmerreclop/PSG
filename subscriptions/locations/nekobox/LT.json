@@ -1,0 +1,504 @@
+{
+  "dns": {
+    "independent_cache": true,
+    "rules": [
+      {
+        "domain": [
+          "dns.google"
+        ],
+        "server": "dns-direct"
+      },
+      {
+        "outbound": [
+          "any"
+        ],
+        "server": "dns-direct"
+      }
+    ],
+    "servers": [
+      {
+        "address": "tcp://1.1.1.1",
+        "address_resolver": "local-dns",
+        "detour": "proxy",
+        "tag": "proxy-dns"
+      },
+      {
+        "address": "local",
+        "detour": "direct",
+        "tag": "local-dns"
+      },
+      {
+        "address": "tcp://8.8.8.8",
+        "detour": "direct",
+        "tag": "direct-dns"
+      }
+    ]
+  },
+  "experimental": {
+    "cache_file": {
+      "enabled": true,
+      "path": "../cache/clash.db",
+      "store_fakeip": true
+    },
+    "clash_api": {
+      "external_controller": "127.0.0.1:9090",
+      "external_ui": "../files/yacd"
+    }
+  },
+  "inbounds": [
+    {
+      "domain_strategy": "",
+      "endpoint_independent_nat": true,
+      "inet4_address": [
+        "172.19.0.1/28"
+      ],
+      "mtu": 9000,
+      "sniff": true,
+      "sniff_override_destination": false,
+      "stack": "mixed",
+      "tag": "tun-in",
+      "type": "tun"
+    },
+    {
+      "domain_strategy": "",
+      "listen": "127.0.0.1",
+      "listen_port": 2080,
+      "sniff": true,
+      "sniff_override_destination": false,
+      "tag": "mixed-in",
+      "type": "mixed"
+    }
+  ],
+  "log": {
+    "level": "info"
+  },
+  "outbounds": [
+    {
+      "outbounds": [
+        "auto",
+        "direct",
+        "همکاری_ملی",
+        "جاویدشاه",
+        "KingRezaPahlavi",
+        "🇱🇹 LT | SS | @NamiraConfigs",
+        "🇱🇹 LT | SS | @NamiraConfigs",
+        "🇱🇹 LT | SS | @NamiraConfigs",
+        "🇱🇹 LT | SS | @NamiraConfigs",
+        "🇱🇹 LT | SS | @NamiraConfigs",
+        "🇱🇹 LT | SS | @NamiraConfigs",
+        "🇱🇹 LT | SS | @NamiraConfigs",
+        "🇱🇹 LT | SS | @NamiraConfigs",
+        "🇱🇹 LT | SS | @NamiraConfigs",
+        "🇱🇹 LT | SS | @NamiraConfigs",
+        "🇱🇹 LT | SS | @NamiraConfigs",
+        "🇱🇹 LT | SS | @NamiraConfigs",
+        "🇱🇹 LT | SS | @config_proxy",
+        "🇱🇹 LT | SS | @imhdiyvp",
+        "🇱🇹 LT | SS | @manstervpn",
+        "🇱🇹 LT | SS | @manstervpn",
+        "🇱🇹 LT | SS | @mester_v2ray",
+        "🇱🇹 LT | SS | @netfreedom0",
+        "🇱🇹 LT | VLESS | @oonfig",
+        "🇱🇹 LT | SS | @outlinereleasedkey",
+        "🇱🇹 LT | SS | @prrofile_purple",
+        "🇱🇹 LT | VLESS | @v2ray_collector",
+        "🇱🇹 LT | SS | @vmessiranproxy",
+        "🇱🇹 LT | SS | @vmessiranproxy",
+        "🇱🇹 LT | SS | @NamiraConfigs",
+        "🇱🇹 LT | SS | @NamiraConfigs",
+        "🇱🇹 LT | SS | @NamiraConfigs"
+      ],
+      "tag": "proxy",
+      "type": "selector"
+    },
+    {
+      "interval": "10m",
+      "outbounds": [
+        "همکاری_ملی",
+        "جاویدشاه",
+        "KingRezaPahlavi",
+        "🇱🇹 LT | SS | @NamiraConfigs",
+        "🇱🇹 LT | SS | @NamiraConfigs",
+        "🇱🇹 LT | SS | @NamiraConfigs",
+        "🇱🇹 LT | SS | @NamiraConfigs",
+        "🇱🇹 LT | SS | @NamiraConfigs",
+        "🇱🇹 LT | SS | @NamiraConfigs",
+        "🇱🇹 LT | SS | @NamiraConfigs",
+        "🇱🇹 LT | SS | @NamiraConfigs",
+        "🇱🇹 LT | SS | @NamiraConfigs",
+        "🇱🇹 LT | SS | @NamiraConfigs",
+        "🇱🇹 LT | SS | @NamiraConfigs",
+        "🇱🇹 LT | SS | @NamiraConfigs",
+        "🇱🇹 LT | SS | @config_proxy",
+        "🇱🇹 LT | SS | @imhdiyvp",
+        "🇱🇹 LT | SS | @manstervpn",
+        "🇱🇹 LT | SS | @manstervpn",
+        "🇱🇹 LT | SS | @mester_v2ray",
+        "🇱🇹 LT | SS | @netfreedom0",
+        "🇱🇹 LT | VLESS | @oonfig",
+        "🇱🇹 LT | SS | @outlinereleasedkey",
+        "🇱🇹 LT | SS | @prrofile_purple",
+        "🇱🇹 LT | VLESS | @v2ray_collector",
+        "🇱🇹 LT | SS | @vmessiranproxy",
+        "🇱🇹 LT | SS | @vmessiranproxy",
+        "🇱🇹 LT | SS | @NamiraConfigs",
+        "🇱🇹 LT | SS | @NamiraConfigs",
+        "🇱🇹 LT | SS | @NamiraConfigs"
+      ],
+      "tag": "auto",
+      "tolerance": 50,
+      "type": "urltest",
+      "url": "http://www.gstatic.com/generate_204"
+    },
+    {
+      "tag": "direct",
+      "type": "direct"
+    },
+    {
+      "tag": "bypass",
+      "type": "direct"
+    },
+    {
+      "tag": "همکاری_ملی",
+      "type": "vless",
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "جاویدشاه",
+      "type": "vless",
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "KingRezaPahlavi",
+      "type": "vless",
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇱🇹 LT | SS | @NamiraConfigs",
+      "type": "shadowsocks",
+      "server": "beesyar.org",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh",
+      "password": null
+    },
+    {
+      "tag": "🇱🇹 LT | SS | @NamiraConfigs",
+      "type": "shadowsocks",
+      "server": "45.158.171.110",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "password": null
+    },
+    {
+      "tag": "🇱🇹 LT | SS | @NamiraConfigs",
+      "type": "shadowsocks",
+      "server": "45.158.171.146",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1",
+      "password": null
+    },
+    {
+      "tag": "🇱🇹 LT | SS | @NamiraConfigs",
+      "type": "shadowsocks",
+      "server": "45.87.175.188",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1",
+      "password": null
+    },
+    {
+      "tag": "🇱🇹 LT | SS | @NamiraConfigs",
+      "type": "shadowsocks",
+      "server": "45.87.175.164",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1",
+      "password": null
+    },
+    {
+      "tag": "🇱🇹 LT | SS | @NamiraConfigs",
+      "type": "shadowsocks",
+      "server": "45.87.175.188",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxUld3WGh3ZkFCNWdBRW96VTRHMlBn",
+      "password": null
+    },
+    {
+      "tag": "🇱🇹 LT | SS | @NamiraConfigs",
+      "type": "shadowsocks",
+      "server": "beesyar.org",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1",
+      "password": null
+    },
+    {
+      "tag": "🇱🇹 LT | SS | @NamiraConfigs",
+      "type": "shadowsocks",
+      "server": "45.87.175.10",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "password": null
+    },
+    {
+      "tag": "🇱🇹 LT | SS | @NamiraConfigs",
+      "type": "shadowsocks",
+      "server": "45.87.175.192",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1",
+      "password": null
+    },
+    {
+      "tag": "🇱🇹 LT | SS | @NamiraConfigs",
+      "type": "shadowsocks",
+      "server": "45.87.175.22",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "password": null
+    },
+    {
+      "tag": "🇱🇹 LT | SS | @NamiraConfigs",
+      "type": "shadowsocks",
+      "server": "45.158.171.60",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "password": null
+    },
+    {
+      "tag": "🇱🇹 LT | SS | @NamiraConfigs",
+      "type": "shadowsocks",
+      "server": "45.87.175.154",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q",
+      "password": null
+    },
+    {
+      "tag": "🇱🇹 LT | SS | @config_proxy",
+      "type": "shadowsocks",
+      "server": "45.87.175.35",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "password": null
+    },
+    {
+      "tag": "🇱🇹 LT | SS | @imhdiyvp",
+      "type": "shadowsocks",
+      "server": "45.87.175.157",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh",
+      "password": null
+    },
+    {
+      "tag": "🇱🇹 LT | SS | @manstervpn",
+      "type": "shadowsocks",
+      "server": "45.87.175.188",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh",
+      "password": null
+    },
+    {
+      "tag": "🇱🇹 LT | SS | @manstervpn",
+      "type": "shadowsocks",
+      "server": "45.87.175.166",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh",
+      "password": null
+    },
+    {
+      "tag": "🇱🇹 LT | SS | @mester_v2ray",
+      "type": "shadowsocks",
+      "server": "45.87.175.192",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh",
+      "password": null
+    },
+    {
+      "tag": "🇱🇹 LT | SS | @netfreedom0",
+      "type": "shadowsocks",
+      "server": "45.87.175.158",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
+      "password": null
+    },
+    {
+      "tag": "🇱🇹 LT | VLESS | @oonfig",
+      "type": "vless",
+      "server": "lpersianvpnl.salehpersian.com",
+      "server_port": 443,
+      "uuid": "ce5c2b77-919b-438f-b10c-a55dd9990f49",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇱🇹 LT | SS | @outlinereleasedkey",
+      "type": "shadowsocks",
+      "server": "45.87.175.92",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "password": null
+    },
+    {
+      "tag": "🇱🇹 LT | SS | @prrofile_purple",
+      "type": "shadowsocks",
+      "server": "45.87.175.187",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1",
+      "password": null
+    },
+    {
+      "tag": "🇱🇹 LT | VLESS | @v2ray_collector",
+      "type": "vless",
+      "server": "89.116.180.248",
+      "server_port": 443,
+      "uuid": "401374e6-df77-41fb-f638-dad8184f175b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇱🇹 LT | SS | @vmessiranproxy",
+      "type": "shadowsocks",
+      "server": "45.87.175.58",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "password": null
+    },
+    {
+      "tag": "🇱🇹 LT | SS | @vmessiranproxy",
+      "type": "shadowsocks",
+      "server": "45.87.175.199",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxUld3WGh3ZkFCNWdBRW96VTRHMlBn",
+      "password": null
+    },
+    {
+      "tag": "🇱🇹 LT | SS | @NamiraConfigs",
+      "type": "shadowsocks",
+      "server": "45.158.171.146",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q",
+      "password": null
+    },
+    {
+      "tag": "🇱🇹 LT | SS | @NamiraConfigs",
+      "type": "shadowsocks",
+      "server": "45.87.175.154",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh",
+      "password": null
+    },
+    {
+      "tag": "🇱🇹 LT | SS | @NamiraConfigs",
+      "type": "shadowsocks",
+      "server": "45.87.175.164",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh",
+      "password": null
+    }
+  ],
+  "route": {
+    "auto_detect_interface": true,
+    "rule_set": [],
+    "rules": [
+      {
+        "action": "hijack-dns",
+        "port": [
+          53
+        ]
+      },
+      {
+        "action": "hijack-dns",
+        "protocol": [
+          "dns"
+        ]
+      },
+      {
+        "action": "reject",
+        "ip_cidr": [
+          "224.0.0.0/3",
+          "ff00::/8"
+        ],
+        "source_ip_cidr": [
+          "224.0.0.0/3",
+          "ff00::/8"
+        ]
+      }
+    ]
+  }
+}

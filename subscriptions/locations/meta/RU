@@ -1,0 +1,169 @@
+mixed-port: 7890
+allow-lan: true
+log-level: info
+external-controller: 0.0.0.0:9090
+
+dns:
+  enabled: true
+  listen: 0.0.0.0:1053
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fake-ip-filter:
+    - '*.lan'
+    - '*.local'
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - '+.pool.ntp.org'
+
+proxies: 
+  - {"name": "همکاری_ملی", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
+  - {"name": "جاویدشاه", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
+  - {"name": "KingRezaPahlavi", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
+  - {"name": "🇷🇺 RU | VLESS | @config_proxy", "server": "185.72.144.43", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "88f2c5cc-a287-4be9-be28-56c2729d3782", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @config_proxy", "server": "83.166.236.32", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "e39204ba-70fd-4d56-87c3-4f9d0dded63a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @config_proxy", "server": "yt.ducks.tel", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "30dd2eea-fe78-4660-a04f-096a7dac41e3", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @evay_vpn", "server": "84.201.130.151", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "fd4b0117-d752-46fd-9a94-21a21e360fdb", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @evay_vpn", "server": "51.250.75.169", "port": 444, "type": "vless", "skip-cert-verify": true, "uuid": "c495cf08-e046-4311-aa4b-82cc16576992", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @father_vpn", "server": "185.231.205.109", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @father_vpn", "server": "638959783653647289.lahijan-blkaft-aaao.info", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @freeconfigsplus", "server": "80.92.206.19", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012", "network": "grpc", "tls": false, "udp": true, "client-fingerprint": "chrome", "grpc-opts": {"grpc-service-name": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @iranbfilter", "server": "benefits.by", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "2d29bc24-aaf2-4e48-b0c1-ec6d625f8271", "network": "httpupgrade", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | TROJAN | @maradona_vpn", "server": "185.59.218.220", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "Maradona_vpn"}
+  - {"name": "🇷🇺 RU | TROJAN | @maradona_vpn", "server": "185.174.138.209", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "maradona_vpn"}
+  - {"name": "🇷🇺 RU | VLESS | @netazadchannel", "server": "5.42.82.167", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "26a1e667-19e3-4817-bec9-80122da80675", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @nofilter_v2rayng", "server": "185.130.114.253", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "309fa273-6579-4cb2-9143-7cad50401eba", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @outline_ir", "server": "51.250.28.151", "port": 4248, "type": "vless", "skip-cert-verify": true, "uuid": "5ba2e48a-d36c-40a5-a4a1-2819ed6efce5", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VMESS | @prooxyk", "server": "77.v2ray1.xyz", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/A2DJOPFT", "headers": {"Host": "77.v2ray1.xyz"}}}
+  - {"name": "🇷🇺 RU | VLESS | @proxyfn", "server": "45.89.54.240", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "e51aa02e-6358-4ade-963e-1c3ef2ed0d50", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @proxyfn", "server": "5.42.77.71", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2f8179a0-c0ea-4f8a-97fc-39af16d2bfc5", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @prrofile_purple", "server": "51.250.106.64", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "4a6de183-2ad3-456c-b420-feeac81f6257", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @prrofile_purple", "server": "wolfy.ufavpn.ru", "port": 27121, "type": "vless", "skip-cert-verify": true, "uuid": "cbf1ec03-2cff-4b1f-9eb5-5929c13fc20c", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @prrofile_purple", "server": "45.87.153.147", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1670aed6-5763-4d24-8c05-8074449233b6", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @prrofile_purple", "server": "45.87.154.92", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "e8a471a3-4837-41fc-9a96-14dfd205306d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @prrofile_purple", "server": "51.250.75.169", "port": 444, "type": "vless", "skip-cert-verify": true, "uuid": "c495cf08-e046-4311-aa4b-82cc16576992", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @prrofile_purple", "server": "158.160.202.13", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "7e637266-e609-437a-9436-bc9e5aa8e074", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @prrofile_purple", "server": "158.160.202.13", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "dc117fd8-6edd-444b-a56a-9cfee67f7257", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @prrofile_purple", "server": "130.193.35.232", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "97dd83ab-b3b7-43e4-9002-c6bdcae0729d", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @prrofile_purple", "server": "51.250.73.31", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "64bc8910-bc0f-453e-b3f3-a101a5dce03e", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @prrofile_purple", "server": "51.250.75.158", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "64bc8910-bc0f-453e-b3f3-a101a5dce03e", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @prrofile_purple", "server": "megaf.takovpn.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "e5017995-2093-491b-a0fa-d4890782d42a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @prrofile_purple", "server": "51.250.104.85", "port": 1488, "type": "vless", "skip-cert-verify": true, "uuid": "5ba2e48a-d36c-40a5-a4a1-2819ed6efce5", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @prrofile_purple", "server": "185.251.89.26", "port": 4443, "type": "vless", "skip-cert-verify": true, "uuid": "526552b2-f67f-489c-9d0d-3e00e7d890d1", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @prrofile_purple", "server": "147.45.230.128", "port": 4443, "type": "vless", "skip-cert-verify": true, "uuid": "ecc65f46-4bb6-47b5-860c-837b3ae4f3ab", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @satellitenewspersian", "server": "45.8.145.61", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "309fa273-6579-4cb2-9143-7cad50401eba", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @server_nekobox", "server": "51.250.26.96", "port": 4248, "type": "vless", "skip-cert-verify": true, "uuid": "5ba2e48a-d36c-40a5-a4a1-2819ed6efce5", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @v2ray_collector", "server": "188.225.80.183", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "5475990d-e0ce-46ea-95e5-50f9e4879af9", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @v2raych", "server": "che-0001-xr.packet-drop-society.net", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "94e25e2b-ffc8-453d-a08c-1f5c3c249755", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @v2rayng3", "server": "638946986851076125.hamedan-drc-tusabl.info", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @vipnetmeli", "server": "194.113.106.139", "port": 24984, "type": "vless", "skip-cert-verify": true, "uuid": "c9e4f683-ee36-47cf-9c30-f751f1c118b5", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @NamiraConfigs", "server": "185.231.205.231", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012", "network": "grpc", "tls": false, "udp": true, "client-fingerprint": "chrome", "grpc-opts": {"grpc-service-name": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @NamiraConfigs", "server": "185.231.205.5", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012", "network": "grpc", "tls": false, "udp": true, "client-fingerprint": "chrome", "grpc-opts": {"grpc-service-name": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @NamiraConfigs", "server": "185.231.205.239", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012", "network": "grpc", "tls": false, "udp": true, "client-fingerprint": "chrome", "grpc-opts": {"grpc-service-name": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @NamiraConfigs", "server": "185.231.205.181", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012", "network": "grpc", "tls": false, "udp": true, "client-fingerprint": "chrome", "grpc-opts": {"grpc-service-name": ""}}
+
+proxy-groups:
+  - name: 🚀 Proxy
+    type: select
+    proxies:
+      - ♻️ Auto
+      - 🎯 Direct
+
+  - name: ♻️ Auto
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies: 
+      - 'همکاری_ملی'
+      - 'جاویدشاه'
+      - 'KingRezaPahlavi'
+      - '🇷🇺 RU | VLESS | @config_proxy'
+      - '🇷🇺 RU | VLESS | @config_proxy'
+      - '🇷🇺 RU | VLESS | @config_proxy'
+      - '🇷🇺 RU | VLESS | @evay_vpn'
+      - '🇷🇺 RU | VLESS | @evay_vpn'
+      - '🇷🇺 RU | VLESS | @father_vpn'
+      - '🇷🇺 RU | VLESS | @father_vpn'
+      - '🇷🇺 RU | VLESS | @freeconfigsplus'
+      - '🇷🇺 RU | VLESS | @iranbfilter'
+      - '🇷🇺 RU | TROJAN | @maradona_vpn'
+      - '🇷🇺 RU | TROJAN | @maradona_vpn'
+      - '🇷🇺 RU | VLESS | @netazadchannel'
+      - '🇷🇺 RU | VLESS | @nofilter_v2rayng'
+      - '🇷🇺 RU | VLESS | @outline_ir'
+      - '🇷🇺 RU | VMESS | @prooxyk'
+      - '🇷🇺 RU | VLESS | @proxyfn'
+      - '🇷🇺 RU | VLESS | @proxyfn'
+      - '🇷🇺 RU | VLESS | @prrofile_purple'
+      - '🇷🇺 RU | VLESS | @prrofile_purple'
+      - '🇷🇺 RU | VLESS | @prrofile_purple'
+      - '🇷🇺 RU | VLESS | @prrofile_purple'
+      - '🇷🇺 RU | VLESS | @prrofile_purple'
+      - '🇷🇺 RU | VLESS | @prrofile_purple'
+      - '🇷🇺 RU | VLESS | @prrofile_purple'
+      - '🇷🇺 RU | VLESS | @prrofile_purple'
+      - '🇷🇺 RU | VLESS | @prrofile_purple'
+      - '🇷🇺 RU | VLESS | @prrofile_purple'
+      - '🇷🇺 RU | VLESS | @prrofile_purple'
+      - '🇷🇺 RU | VLESS | @prrofile_purple'
+      - '🇷🇺 RU | VLESS | @prrofile_purple'
+      - '🇷🇺 RU | VLESS | @prrofile_purple'
+      - '🇷🇺 RU | VLESS | @satellitenewspersian'
+      - '🇷🇺 RU | VLESS | @server_nekobox'
+      - '🇷🇺 RU | VLESS | @v2ray_collector'
+      - '🇷🇺 RU | VLESS | @v2raych'
+      - '🇷🇺 RU | VLESS | @v2rayng3'
+      - '🇷🇺 RU | VLESS | @vipnetmeli'
+      - '🇷🇺 RU | VLESS | @NamiraConfigs'
+      - '🇷🇺 RU | VLESS | @NamiraConfigs'
+      - '🇷🇺 RU | VLESS | @NamiraConfigs'
+      - '🇷🇺 RU | VLESS | @NamiraConfigs'
+
+  - name: 🌍 Global Media
+    type: select
+    proxies:
+      - 🚀 Proxy
+      - ♻️ Auto
+      - 🎯 Direct
+
+  - name: 🎯 Direct
+    type: select
+    proxies:
+      - DIRECT
+
+  - name: 🛑 Ad Block
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+
+  - name: 🐟 Fallback
+    type: select
+    proxies:
+      - 🚀 Proxy
+      - 🎯 Direct
+
+rules:
+  - DOMAIN-KEYWORD,adservice,🛑 Ad Block
+  - DOMAIN-SUFFIX,googlesyndication.com,🛑 Ad Block
+  - DOMAIN-SUFFIX,netflix.com,🌍 Global Media
+  - DOMAIN-SUFFIX,nflxvideo.net,🌍 Global Media
+  - DOMAIN-SUFFIX,disneyplus.com,🌍 Global Media
+  - DOMAIN-KEYWORD,youtube,🌍 Global Media
+  - DOMAIN-SUFFIX,t.me,🚀 Proxy
+  - DOMAIN-SUFFIX,telegram.org,🚀 Proxy
+  - DOMAIN-SUFFIX,openai.com,🚀 Proxy
+  - DOMAIN-SUFFIX,lan,🎯 Direct
+  - DOMAIN-SUFFIX,local,🎯 Direct
+  - IP-CIDR,127.0.0.0/8,🎯 Direct,no-resolve
+  - IP-CIDR,192.168.0.0/16,🎯 Direct,no-resolve
+  - IP-CIDR,10.0.0.0/8,🎯 Direct,no-resolve
+  - IP-CIDR,172.16.0.0/12,🎯 Direct,no-resolve
+  - GEOIP,IR,🎯 Direct
+  - MATCH,🐟 Fallback

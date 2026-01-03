@@ -1,0 +1,22 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/locations/surfboard/HK interval=3600 strict=false
+
+[General]
+loglevel = notify
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+ipv6 = true
+dns-server = system, 223.5.5.5
+enhanced-mode-by-rule = true
+
+[Proxy]
+DIRECT = direct
+🇭🇰 HK | TROJAN | @free4allvpn = trojan, 219.79.214.159, 443, password = BxceQaOe, skip-cert-verify = true
+🇭🇰 HK | TROJAN | @hope_net = trojan, 47.56.196.176, 9443, password = tg-dns68, skip-cert-verify = true
+
+[Proxy Group]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇭🇰 HK | TROJAN | @free4allvpn, 🇭🇰 HK | TROJAN | @hope_net
+PSG-AUTO = url-test, 🇭🇰 HK | TROJAN | @free4allvpn, 🇭🇰 HK | TROJAN | @hope_net
+PSG-FALLBACK = fallback, 🇭🇰 HK | TROJAN | @free4allvpn, 🇭🇰 HK | TROJAN | @hope_net
+
+[Rule]
+GEOIP,IR,DIRECT
+FINAL,PSG-MANUAL

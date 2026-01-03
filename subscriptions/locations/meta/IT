@@ -1,0 +1,123 @@
+mixed-port: 7890
+allow-lan: true
+log-level: info
+external-controller: 0.0.0.0:9090
+
+dns:
+  enabled: true
+  listen: 0.0.0.0:1053
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fake-ip-filter:
+    - '*.lan'
+    - '*.local'
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - '+.pool.ntp.org'
+
+proxies: 
+  - {"name": "همکاری_ملی", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
+  - {"name": "جاویدشاه", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
+  - {"name": "KingRezaPahlavi", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
+  - {"name": "🇮🇹 IT | VLESS | @config_proxy", "server": "usaa.fastlynew.hosting-ip.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "b8a79f38-2ffb-49cb-a6e2-c92a13e6fc77", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇹 IT | VLESS | @dargiiriis", "server": "server.ultra-irancell.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "turboo-server", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇹 IT | VLESS | @free1_vpn", "server": "usaa.fastlynew.hosting-ip.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "a9244690-a82e-4a7c-e257-14f20f9c02b7", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇹 IT | VLESS | @netmellianti", "server": "pizaitaliano.gojustore.site", "port": 7035, "type": "vless", "skip-cert-verify": true, "uuid": "e265fc78-e269-46b2-9b6a-85f573dab3d5", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇹 IT | VLESS | @netmellianti", "server": "31.14.135.127", "port": 7035, "type": "vless", "skip-cert-verify": true, "uuid": "7d27c544-135d-41a2-bd84-713b8af4f3c2", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇹 IT | VLESS | @nofiltering2", "server": "ip.fastlynew.hosting-ip.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "TELEGRAM-CONFiGLiNE-88", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇹 IT | VLESS | @nofiltering2", "server": "ip.fastlynew.hosting-ip.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "TELEGRAM-CONFiGLiNE-88", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇹 IT | VLESS | @outline_ir", "server": "ip.fastlynew.hosting-ip.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "TELEGRAM-CONFiGLiNE-116", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇹 IT | VLESS | @outline_ir", "server": "ip.fastlynew.hosting-ip.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "TELEGRAM-CONFiGLiNE-115", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇹 IT | VLESS | @prrofile_purple", "server": "ip.fastlynew.hosting-ip.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "TELEGRAM-CONFiGLiNE-86", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇹 IT | VLESS | @prrofile_purple", "server": "ip.fastlynew.hosting-ip.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "TELEGRAM-CONFiGLiNE-87", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇹 IT | VLESS | @server_nekobox", "server": "ip.fastlynew.hosting-ip.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "TELEGRAM-CONFiGLiNE-116", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇹 IT | VLESS | @v2aryng_vpn", "server": "ip.fastlynew.hosting-ip.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "TELEGRAM-CONFiGLiNE-103", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇹 IT | VLESS | @v2aryng_vpn", "server": "ip.fastlynew.hosting-ip.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "TELEGRAM-CONFiGLiNE-113", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇹 IT | VLESS | @v2ray_vmes", "server": "146.75.55.82", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "db0f2cb6-a263-48d2-89bc-4237c81e0aca", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇹 IT | VLESS | @v2raych", "server": "usaa.fastlynew.hosting-ip.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "b8a79f38-2ffb-49cb-a6e2-c92a13e6fc77", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇹 IT | VLESS | @v2rayopen", "server": "ip.fastlynew.hosting-ip.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "8f7d09a0-c997-4ae6-a0f2-b6ce6935dea8", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇹 IT | VLESS | @xsv2ray", "server": "fast-01.saitsazs.ir", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "34a4cfb4-8b42-42ba-b087-6a338c2b3b4a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+
+proxy-groups:
+  - name: 🚀 Proxy
+    type: select
+    proxies:
+      - ♻️ Auto
+      - 🎯 Direct
+
+  - name: ♻️ Auto
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies: 
+      - 'همکاری_ملی'
+      - 'جاویدشاه'
+      - 'KingRezaPahlavi'
+      - '🇮🇹 IT | VLESS | @config_proxy'
+      - '🇮🇹 IT | VLESS | @dargiiriis'
+      - '🇮🇹 IT | VLESS | @free1_vpn'
+      - '🇮🇹 IT | VLESS | @netmellianti'
+      - '🇮🇹 IT | VLESS | @netmellianti'
+      - '🇮🇹 IT | VLESS | @nofiltering2'
+      - '🇮🇹 IT | VLESS | @nofiltering2'
+      - '🇮🇹 IT | VLESS | @outline_ir'
+      - '🇮🇹 IT | VLESS | @outline_ir'
+      - '🇮🇹 IT | VLESS | @prrofile_purple'
+      - '🇮🇹 IT | VLESS | @prrofile_purple'
+      - '🇮🇹 IT | VLESS | @server_nekobox'
+      - '🇮🇹 IT | VLESS | @v2aryng_vpn'
+      - '🇮🇹 IT | VLESS | @v2aryng_vpn'
+      - '🇮🇹 IT | VLESS | @v2ray_vmes'
+      - '🇮🇹 IT | VLESS | @v2raych'
+      - '🇮🇹 IT | VLESS | @v2rayopen'
+      - '🇮🇹 IT | VLESS | @xsv2ray'
+
+  - name: 🌍 Global Media
+    type: select
+    proxies:
+      - 🚀 Proxy
+      - ♻️ Auto
+      - 🎯 Direct
+
+  - name: 🎯 Direct
+    type: select
+    proxies:
+      - DIRECT
+
+  - name: 🛑 Ad Block
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+
+  - name: 🐟 Fallback
+    type: select
+    proxies:
+      - 🚀 Proxy
+      - 🎯 Direct
+
+rules:
+  - DOMAIN-KEYWORD,adservice,🛑 Ad Block
+  - DOMAIN-SUFFIX,googlesyndication.com,🛑 Ad Block
+  - DOMAIN-SUFFIX,netflix.com,🌍 Global Media
+  - DOMAIN-SUFFIX,nflxvideo.net,🌍 Global Media
+  - DOMAIN-SUFFIX,disneyplus.com,🌍 Global Media
+  - DOMAIN-KEYWORD,youtube,🌍 Global Media
+  - DOMAIN-SUFFIX,t.me,🚀 Proxy
+  - DOMAIN-SUFFIX,telegram.org,🚀 Proxy
+  - DOMAIN-SUFFIX,openai.com,🚀 Proxy
+  - DOMAIN-SUFFIX,lan,🎯 Direct
+  - DOMAIN-SUFFIX,local,🎯 Direct
+  - IP-CIDR,127.0.0.0/8,🎯 Direct,no-resolve
+  - IP-CIDR,192.168.0.0/16,🎯 Direct,no-resolve
+  - IP-CIDR,10.0.0.0/8,🎯 Direct,no-resolve
+  - IP-CIDR,172.16.0.0/12,🎯 Direct,no-resolve
+  - GEOIP,IR,🎯 Direct
+  - MATCH,🐟 Fallback
