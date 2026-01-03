@@ -2,496 +2,634 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
-//profile-web-page-url: ithub.com/itsyebekhe/PSG
+//profile-web-page-url: https://github.com/itsyebekhe/PSG
+
 {
-    "dns": {
-        "final": "local-dns",
-        "rules": [
-            {
-                "action": "route",
-                "clash_mode": "Global",
-                "server": "proxy-dns",
-                "source_ip_cidr": [
-                    "172.19.0.0/30",
-                    "fdfe:dcba:9876::1/126"
-                ]
-            },
-            {
-                "action": "route",
-                "server": "proxy-dns",
-                "source_ip_cidr": [
-                    "172.19.0.0/30",
-                    "fdfe:dcba:9876::1/126"
-                ]
-            },
-            {
-                "action": "route",
-                "clash_mode": "Direct",
-                "server": "direct-dns"
-            },
-            {
-                "action": "route",
-                "rule_set": [
-                    "geosite-ir"
-                ],
-                "server": "direct-dns"
-            }
-        ],
-        "servers": [
-            {
-                "address": "tcp://1.1.1.1",
-                "address_resolver": "local-dns",
-                "detour": "proxy",
-                "tag": "proxy-dns"
-            },
-            {
-                "address": "local",
-                "detour": "direct",
-                "tag": "local-dns"
-            },
-            {
-                "address": "tcp://8.8.8.8",
-                "detour": "direct",
-                "tag": "direct-dns"
-            }
-        ],
-        "strategy": "prefer_ipv4"
-    },
-    "inbounds": [
-        {
-            "address": [
-                "172.19.0.1/30",
-                "fdfe:dcba:9876::1/126"
-            ],
-            "auto_route": true,
-            "endpoint_independent_nat": false,
-            "mtu": 9000,
-            "platform": {
-                "http_proxy": {
-                    "enabled": true,
-                    "server": "127.0.0.1",
-                    "server_port": 2080
-                }
-            },
-            "stack": "system",
-            "strict_route": false,
-            "type": "tun"
-        },
-        {
-            "listen": "127.0.0.1",
-            "listen_port": 2080,
-            "type": "mixed",
-            "users": []
-        }
-    ],
-    "outbounds": [
-        {
-            "outbounds": [
-                "auto",
-                "direct",
-                "همکاری_ملی",
-                "جاویدشاه",
-                "KingRezaPahlavi",
-                "🇬🇧 GB | 🔒 SS | @filtershekan_channel [4]",
-                "🇬🇧 GB | 🔒 SS | @imhdiyvp [3]",
-                "🇬🇧 GB | 🔒 SS | @imhdiyvp [9]",
-                "🇬🇧 GB | 🔒 SS | @manstervpn [60]",
-                "🇬🇧 GB | 🔒 SS | @manstervpn [62]",
-                "🇬🇧 GB | 🔒 SS | @manstervpn [64]",
-                "🇬🇧 GB | 🔒 SS | @manstervpn [66]",
-                "❔ XX | 🔒 SS | @megavpn_link [5]",
-                "🇭🇰 HK | 🔒 SS | @mftizi [18]",
-                "❔ XX | 🔒 SS | @mt_proxy [2]",
-                "🇬🇧 GB | 🔒 SS | @nepo_v2ray [14]",
-                "🇬🇧 GB | 🔒 SS | @nepo_v2ray [19]",
-                "🇨🇭 CH | 🔒 SS | @orange_vpns [11]",
-                "🇫🇮 FI | 🔒 SS | @outlinereleasedkey [13]",
-                "🇺🇸 US | 🔒 SS | @proxy_confiingir [2]",
-                "❔ XX | 🔒 SS | @public504 [8]",
-                "❔ XX | 🔒 SS | @public504 [9]",
-                "🇺🇸 US | 🔒 SS | @red2ray [1]",
-                "🇮🇹 IT | 🔒 SS | @selinc [4]",
-                "🇬🇧 GB | 🔒 SS | @serverv2ray00 [14]",
-                "🇬🇧 GB | 🔒 SS | @torang_vpn [6]",
-                "🇬🇧 GB | 🔒 SS | @v2rayngalpha [2]",
-                "🇬🇧 GB | 🔒 SS | @vpnowl [4]"
-            ],
-            "tag": "proxy",
-            "type": "selector"
-        },
-        {
-            "interval": "10m",
-            "outbounds": [
-                "همکاری_ملی",
-                "جاویدشاه",
-                "KingRezaPahlavi",
-                "🇬🇧 GB | 🔒 SS | @filtershekan_channel [4]",
-                "🇬🇧 GB | 🔒 SS | @imhdiyvp [3]",
-                "🇬🇧 GB | 🔒 SS | @imhdiyvp [9]",
-                "🇬🇧 GB | 🔒 SS | @manstervpn [60]",
-                "🇬🇧 GB | 🔒 SS | @manstervpn [62]",
-                "🇬🇧 GB | 🔒 SS | @manstervpn [64]",
-                "🇬🇧 GB | 🔒 SS | @manstervpn [66]",
-                "❔ XX | 🔒 SS | @megavpn_link [5]",
-                "🇭🇰 HK | 🔒 SS | @mftizi [18]",
-                "❔ XX | 🔒 SS | @mt_proxy [2]",
-                "🇬🇧 GB | 🔒 SS | @nepo_v2ray [14]",
-                "🇬🇧 GB | 🔒 SS | @nepo_v2ray [19]",
-                "🇨🇭 CH | 🔒 SS | @orange_vpns [11]",
-                "🇫🇮 FI | 🔒 SS | @outlinereleasedkey [13]",
-                "🇺🇸 US | 🔒 SS | @proxy_confiingir [2]",
-                "❔ XX | 🔒 SS | @public504 [8]",
-                "❔ XX | 🔒 SS | @public504 [9]",
-                "🇺🇸 US | 🔒 SS | @red2ray [1]",
-                "🇮🇹 IT | 🔒 SS | @selinc [4]",
-                "🇬🇧 GB | 🔒 SS | @serverv2ray00 [14]",
-                "🇬🇧 GB | 🔒 SS | @torang_vpn [6]",
-                "🇬🇧 GB | 🔒 SS | @v2rayngalpha [2]",
-                "🇬🇧 GB | 🔒 SS | @vpnowl [4]"
-            ],
-            "tag": "auto",
-            "tolerance": 50,
-            "type": "urltest",
-            "url": "http://www.gstatic.com/generate_204"
-        },
-        {
-            "tag": "direct",
-            "type": "direct"
-        },
-        {
-            "tag": "همکاری_ملی",
-            "type": "vless",
-            "server": "127.0.0.1",
-            "server_port": 443,
-            "uuid": "00000000-0000-0000-0000-000000000000",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "127.0.0.1",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "127.0.0.1"
-                }
-            }
-        },
-        {
-            "tag": "جاویدشاه",
-            "type": "vless",
-            "server": "127.0.0.1",
-            "server_port": 443,
-            "uuid": "00000000-0000-0000-0000-000000000000",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "127.0.0.1",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "127.0.0.1"
-                }
-            }
-        },
-        {
-            "tag": "KingRezaPahlavi",
-            "type": "vless",
-            "server": "127.0.0.1",
-            "server_port": 443,
-            "uuid": "00000000-0000-0000-0000-000000000000",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "127.0.0.1",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "127.0.0.1"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 SS | @filtershekan_channel [4]",
-            "type": "shadowsocks",
-            "server": "admin.c4.webramz.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "69MUii7VDwMqh7Hz"
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 SS | @imhdiyvp [3]",
-            "type": "shadowsocks",
-            "server": "series-a2.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "mps3FwmDjLrWaOVg"
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 SS | @imhdiyvp [9]",
-            "type": "shadowsocks",
-            "server": "series-a2-mec.varzesh360.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c"
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 SS | @manstervpn [60]",
-            "type": "shadowsocks",
-            "server": "c1.nastuh.link",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "WiitXs6BHZgSNlit"
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 SS | @manstervpn [62]",
-            "type": "shadowsocks",
-            "server": "azjnac1.uksouth.cloudapp.azure.com",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "b2EJuconC460KllN"
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 SS | @manstervpn [64]",
-            "type": "shadowsocks",
-            "server": "azjnac1.uksouth.cloudapp.azure.com",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "ksg929BWf1K220dG"
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 SS | @manstervpn [66]",
-            "type": "shadowsocks",
-            "server": "c1.nastuh.link",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "lntfVeiB7cy3Hm1O"
-        },
-        {
-            "tag": "❔ XX | 🔒 SS | @megavpn_link [5]",
-            "type": "shadowsocks",
-            "server": "api.namasha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c"
-        },
-        {
-            "tag": "🇭🇰 HK | 🔒 SS | @mftizi [18]",
-            "type": "shadowsocks",
-            "server": "hk01.x.quickcht3.club",
-            "server_port": 52611,
-            "method": "chacha20-ietf-poly1305",
-            "password": "2be0c954-4291-45ea-b47d-ca713180550b"
-        },
-        {
-            "tag": "❔ XX | 🔒 SS | @mt_proxy [2]",
-            "type": "shadowsocks",
-            "server": "www2.broadalx.cfd",
-            "server_port": 40934,
-            "method": "chacha20-ietf-poly1305",
-            "password": "jxfYgVB87GkSQR4U7Ce6rNBkP5URFYJfH1bFNo84pr5fWXMYCkcPAUYBCrAz7NBkpixeHgdzYYYW7jVyo9LpwSakvQ7nuKj1"
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 SS | @nepo_v2ray [14]",
-            "type": "shadowsocks",
-            "server": "series-a2-me.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "Bog0ELmMM9DSxDdQ"
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 SS | @nepo_v2ray [19]",
-            "type": "shadowsocks",
-            "server": "series-a2-mec.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c"
-        },
-        {
-            "tag": "🇨🇭 CH | 🔒 SS | @orange_vpns [11]",
-            "type": "shadowsocks",
-            "server": "pro.turbooserver.com",
-            "server_port": 1084,
-            "method": "chacha20-ietf-poly1305",
-            "password": "3CzOPSKLa_vvzCgSePdIWw"
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 SS | @outlinereleasedkey [13]",
-            "type": "shadowsocks",
-            "server": "media.mothyleela.cfd",
-            "server_port": 40521,
-            "method": "chacha20-ietf-poly1305",
-            "password": "2WkRGh6tAv8UmsHh4i3F6zosj2dzA6sCzXbwq4TdXteztMfyA5aZcLy5jY5Z7FZ3QQMcTVwM7TvibdvzYircC7iDZafp2U6z"
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 SS | @proxy_confiingir [2]",
-            "type": "shadowsocks",
-            "server": "ak1857.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c"
-        },
-        {
-            "tag": "❔ XX | 🔒 SS | @public504 [8]",
-            "type": "shadowsocks",
-            "server": "seoul.dodohee.info",
-            "server_port": 20976,
-            "method": "chacha20-ietf-poly1305",
-            "password": "Gy1ddTFQcNrkyJMaoDl1da"
-        },
-        {
-            "tag": "❔ XX | 🔒 SS | @public504 [9]",
-            "type": "shadowsocks",
-            "server": "india.dodohee.info",
-            "server_port": 6980,
-            "method": "chacha20-ietf-poly1305",
-            "password": "4e9ufa1a2jeANAVebF0wqN"
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 SS | @red2ray [1]",
-            "type": "shadowsocks",
-            "server": "www.outline.network.ak1909.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "mps3FwmDjLrWaOVg"
-        },
-        {
-            "tag": "🇮🇹 IT | 🔒 SS | @selinc [4]",
-            "type": "shadowsocks",
-            "server": "promo19v.bystrivpn.ru",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "SwTShXYSQd404FISs8NFeJ"
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 SS | @serverv2ray00 [14]",
-            "type": "shadowsocks",
-            "server": "account-mec.emofid.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "7ivrGEHY88sQk3DP"
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 SS | @torang_vpn [6]",
-            "type": "shadowsocks",
-            "server": "series-a1.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "W74XFALLLuw6m5IA"
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 SS | @v2rayngalpha [2]",
-            "type": "shadowsocks",
-            "server": "series-a2-me.varzesh360.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "Bog0ELmMM9DSxDdQ"
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 SS | @vpnowl [4]",
-            "type": "shadowsocks",
-            "server": "adas-polo-ba-mahi.kotlet.org",
-            "server_port": 2053,
-            "method": "2022-blake3-aes-256-gcm",
-            "password": "5CX5dFRzQ29X1CTxHC/vsB35i7lLe82HeloZ3LBBbRw=:lVWD5jwK0Z2r7SodPX41giubPaDi4IrgkTfQ+ejUaFw="
-        }
-    ],
-    "route": {
-        "auto_detect_interface": true,
-        "final": "proxy",
-        "rule_set": [
-            {
-                "download_detour": "direct",
-                "format": "binary",
-                "tag": "geosite-ads",
-                "type": "remote",
-                "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geosite/category-ads-all.srs"
-            },
-            {
-                "download_detour": "direct",
-                "format": "binary",
-                "tag": "geosite-private",
-                "type": "remote",
-                "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geosite/private.srs"
-            },
-            {
-                "download_detour": "direct",
-                "format": "binary",
-                "tag": "geosite-ir",
-                "type": "remote",
-                "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geosite/category-ir.srs"
-            },
-            {
-                "download_detour": "direct",
-                "format": "binary",
-                "tag": "geoip-private",
-                "type": "remote",
-                "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geoip/private.srs"
-            },
-            {
-                "download_detour": "direct",
-                "format": "binary",
-                "tag": "geoip-ir",
-                "type": "remote",
-                "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geoip/ir.srs"
-            }
-        ],
-        "rules": [
-            {
-                "action": "sniff"
-            },
-            {
-                "action": "route",
-                "clash_mode": "Direct",
-                "outbound": "direct"
-            },
-            {
-                "action": "route",
-                "clash_mode": "Global",
-                "outbound": "proxy"
-            },
-            {
-                "action": "hijack-dns",
-                "protocol": "dns"
-            },
-            {
-                "action": "route",
-                "outbound": "direct",
-                "rule_set": [
-                    "geoip-private",
-                    "geosite-private",
-                    "geosite-ir",
-                    "geoip-ir"
-                ]
-            },
-            {
-                "action": "reject",
-                "rule_set": [
-                    "geosite-ads"
-                ]
-            }
+  "dns": {
+    "final": "local-dns",
+    "rules": [
+      {
+        "action": "route",
+        "clash_mode": "Global",
+        "server": "proxy-dns",
+        "source_ip_cidr": [
+          "172.19.0.0/30",
+          "fdfe:dcba:9876::1/126"
         ]
+      },
+      {
+        "action": "route",
+        "server": "proxy-dns",
+        "source_ip_cidr": [
+          "172.19.0.0/30",
+          "fdfe:dcba:9876::1/126"
+        ]
+      },
+      {
+        "action": "route",
+        "clash_mode": "Direct",
+        "server": "direct-dns"
+      },
+      {
+        "action": "route",
+        "rule_set": [
+          "geosite-ir"
+        ],
+        "server": "direct-dns"
+      }
+    ],
+    "servers": [
+      {
+        "address": "tcp://1.1.1.1",
+        "address_resolver": "local-dns",
+        "detour": "proxy",
+        "tag": "proxy-dns"
+      },
+      {
+        "address": "local",
+        "detour": "direct",
+        "tag": "local-dns"
+      },
+      {
+        "address": "tcp://8.8.8.8",
+        "detour": "direct",
+        "tag": "direct-dns"
+      }
+    ],
+    "strategy": "prefer_ipv4"
+  },
+  "inbounds": [
+    {
+      "address": [
+        "172.19.0.1/30",
+        "fdfe:dcba:9876::1/126"
+      ],
+      "auto_route": true,
+      "endpoint_independent_nat": false,
+      "mtu": 9000,
+      "platform": {
+        "http_proxy": {
+          "enabled": true,
+          "server": "127.0.0.1",
+          "server_port": 2080
+        }
+      },
+      "stack": "system",
+      "strict_route": false,
+      "type": "tun"
+    },
+    {
+      "listen": "127.0.0.1",
+      "listen_port": 2080,
+      "type": "mixed",
+      "users": []
     }
+  ],
+  "outbounds": [
+    {
+      "outbounds": [
+        "auto",
+        "direct",
+        "همکاری_ملی",
+        "جاویدشاه",
+        "KingRezaPahlavi",
+        "🇱🇹 LT | SS | @NamiraConfigs",
+        "🇱🇹 LT | SS | @NamiraConfigs",
+        "🇽🇽 XX | SS | @armodchannel",
+        "🇽🇽 XX | SS | @armodchannel",
+        "🇺🇸 US | SS | @config_proxy",
+        "🇷🇺 RU | SS | @config_proxy",
+        "🇬🇧 GB | SS | @filtershekan_channel",
+        "🇽🇽 XX | SS | @goldenshiinevpn",
+        "🇬🇧 GB | SS | @imhdiyvp",
+        "🇬🇧 GB | SS | @imhdiyvp",
+        "🇽🇽 XX | SS | @jetupnet",
+        "🇬🇧 GB | SS | @manstervpn",
+        "🇬🇧 GB | SS | @manstervpn",
+        "🇬🇧 GB | SS | @manstervpn",
+        "🇬🇧 GB | SS | @manstervpn",
+        "🇽🇽 XX | SS | @megavpn_link",
+        "🇽🇽 XX | SS | @mester_v2ray",
+        "🇭🇰 HK | SS | @mftizi",
+        "🇽🇽 XX | SS | @mt_proxy",
+        "🇬🇧 GB | SS | @nepo_v2ray",
+        "🇬🇧 GB | SS | @nepo_v2ray",
+        "🇨🇭 CH | SS | @orange_vpns",
+        "🇬🇧 GB | SS | @outlinereleasedkey",
+        "🇺🇸 US | SS | @proxy_confiingir",
+        "🇽🇽 XX | SS | @public504",
+        "🇽🇽 XX | SS | @public504",
+        "🇺🇸 US | SS | @red2ray",
+        "🇬🇧 GB | SS | @serverv2ray00",
+        "🇬🇧 GB | SS | @serverv2ray00",
+        "🇽🇽 XX | SS | @torang_vpn",
+        "🇬🇧 GB | SS | @torang_vpn",
+        "🇽🇽 XX | SS | @torang_vpn",
+        "🇽🇽 XX | SS | @torang_vpn",
+        "🇬🇧 GB | SS | @v2rayngalpha",
+        "🇽🇽 XX | SS | @vmessiranproxy",
+        "🇽🇽 XX | SS | @vmessiranproxy",
+        "🇬🇧 GB | SS | @vpnowl"
+      ],
+      "tag": "proxy",
+      "type": "selector"
+    },
+    {
+      "interval": "10m",
+      "outbounds": [
+        "همکاری_ملی",
+        "جاویدشاه",
+        "KingRezaPahlavi",
+        "🇱🇹 LT | SS | @NamiraConfigs",
+        "🇱🇹 LT | SS | @NamiraConfigs",
+        "🇽🇽 XX | SS | @armodchannel",
+        "🇽🇽 XX | SS | @armodchannel",
+        "🇺🇸 US | SS | @config_proxy",
+        "🇷🇺 RU | SS | @config_proxy",
+        "🇬🇧 GB | SS | @filtershekan_channel",
+        "🇽🇽 XX | SS | @goldenshiinevpn",
+        "🇬🇧 GB | SS | @imhdiyvp",
+        "🇬🇧 GB | SS | @imhdiyvp",
+        "🇽🇽 XX | SS | @jetupnet",
+        "🇬🇧 GB | SS | @manstervpn",
+        "🇬🇧 GB | SS | @manstervpn",
+        "🇬🇧 GB | SS | @manstervpn",
+        "🇬🇧 GB | SS | @manstervpn",
+        "🇽🇽 XX | SS | @megavpn_link",
+        "🇽🇽 XX | SS | @mester_v2ray",
+        "🇭🇰 HK | SS | @mftizi",
+        "🇽🇽 XX | SS | @mt_proxy",
+        "🇬🇧 GB | SS | @nepo_v2ray",
+        "🇬🇧 GB | SS | @nepo_v2ray",
+        "🇨🇭 CH | SS | @orange_vpns",
+        "🇬🇧 GB | SS | @outlinereleasedkey",
+        "🇺🇸 US | SS | @proxy_confiingir",
+        "🇽🇽 XX | SS | @public504",
+        "🇽🇽 XX | SS | @public504",
+        "🇺🇸 US | SS | @red2ray",
+        "🇬🇧 GB | SS | @serverv2ray00",
+        "🇬🇧 GB | SS | @serverv2ray00",
+        "🇽🇽 XX | SS | @torang_vpn",
+        "🇬🇧 GB | SS | @torang_vpn",
+        "🇽🇽 XX | SS | @torang_vpn",
+        "🇽🇽 XX | SS | @torang_vpn",
+        "🇬🇧 GB | SS | @v2rayngalpha",
+        "🇽🇽 XX | SS | @vmessiranproxy",
+        "🇽🇽 XX | SS | @vmessiranproxy",
+        "🇬🇧 GB | SS | @vpnowl"
+      ],
+      "tag": "auto",
+      "tolerance": 50,
+      "type": "urltest",
+      "url": "http://www.gstatic.com/generate_204"
+    },
+    {
+      "tag": "direct",
+      "type": "direct"
+    },
+    {
+      "tag": "همکاری_ملی",
+      "type": "vless",
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "جاویدشاه",
+      "type": "vless",
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "KingRezaPahlavi",
+      "type": "vless",
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇱🇹 LT | SS | @NamiraConfigs",
+      "type": "shadowsocks",
+      "server": "beesyar.org",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh",
+      "password": null
+    },
+    {
+      "tag": "🇱🇹 LT | SS | @NamiraConfigs",
+      "type": "shadowsocks",
+      "server": "beesyar.org",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1",
+      "password": null
+    },
+    {
+      "tag": "🇽🇽 XX | SS | @armodchannel",
+      "type": "shadowsocks",
+      "server": "yourbughost",
+      "server_port": null,
+      "method": "Og==",
+      "password": null
+    },
+    {
+      "tag": "🇽🇽 XX | SS | @armodchannel",
+      "type": "shadowsocks",
+      "server": "bughost",
+      "server_port": null,
+      "method": "Og==",
+      "password": null
+    },
+    {
+      "tag": "🇺🇸 US | SS | @config_proxy",
+      "type": "shadowsocks",
+      "server": "yxv0bzrvrx",
+      "server_port": null,
+      "method": null,
+      "password": null
+    },
+    {
+      "tag": "🇷🇺 RU | SS | @config_proxy",
+      "type": "shadowsocks",
+      "server": "yxv0bzrvrx",
+      "server_port": null,
+      "method": null,
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @filtershekan_channel",
+      "type": "shadowsocks",
+      "server": "admin.c4.webramz.co",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2OU1VaWk3VkR3TXFoN0h6",
+      "password": null
+    },
+    {
+      "tag": "🇽🇽 XX | SS | @goldenshiinevpn",
+      "type": "shadowsocks",
+      "server": "y2hhy2hhmjataw…<",
+      "server_port": null,
+      "method": "Og==",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @imhdiyvp",
+      "type": "shadowsocks",
+      "server": "series-a2.samanehha.co",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptcHMzRndtRGpMcldhT1Zn",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @imhdiyvp",
+      "type": "shadowsocks",
+      "server": "series-a2-mec.varzesh360.co",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj",
+      "password": null
+    },
+    {
+      "tag": "🇽🇽 XX | SS | @jetupnet",
+      "type": "shadowsocks",
+      "server": "y2hhy2hhmjatawv0zi1wb2x5mtmwntoymtu4nmfhyi0zytm3ltrmntutyjhiny01ywu2otu3mmq0mdm<a",
+      "server_port": null,
+      "method": "Og==",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @manstervpn",
+      "type": "shadowsocks",
+      "server": "c1.nastuh.link",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXaWl0WHM2QkhaZ1NObGl0",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @manstervpn",
+      "type": "shadowsocks",
+      "server": "azjnac1.uksouth.cloudapp.azure.com",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMkVKdWNvbkM0NjBLbGxO",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @manstervpn",
+      "type": "shadowsocks",
+      "server": "azjnac1.uksouth.cloudapp.azure.com",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprc2c5MjlCV2YxSzIyMGRH",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @manstervpn",
+      "type": "shadowsocks",
+      "server": "c1.nastuh.link",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsbnRmVmVpQjdjeTNIbTFP",
+      "password": null
+    },
+    {
+      "tag": "🇽🇽 XX | SS | @megavpn_link",
+      "type": "shadowsocks",
+      "server": "api.namasha.co",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj",
+      "password": null
+    },
+    {
+      "tag": "🇽🇽 XX | SS | @mester_v2ray",
+      "type": "shadowsocks",
+      "server": "<br",
+      "server_port": null,
+      "method": "Og==",
+      "password": null
+    },
+    {
+      "tag": "🇭🇰 HK | SS | @mftizi",
+      "type": "shadowsocks",
+      "server": "hk01.x.quickcht3.club",
+      "server_port": 52611,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyYmUwYzk1NC00MjkxLTQ1ZWEtYjQ3ZC1jYTcxMzE4MDU1MGI=",
+      "password": null
+    },
+    {
+      "tag": "🇽🇽 XX | SS | @mt_proxy",
+      "type": "shadowsocks",
+      "server": "www2.broadalx.cfd",
+      "server_port": 40934,
+      "method": "YXV0bzo=",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @nepo_v2ray",
+      "type": "shadowsocks",
+      "server": "series-a2-me.samanehha.co",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCb2cwRUxtTU05RFN4RGRR",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @nepo_v2ray",
+      "type": "shadowsocks",
+      "server": "series-a2-mec.samanehha.co",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj",
+      "password": null
+    },
+    {
+      "tag": "🇨🇭 CH | SS | @orange_vpns",
+      "type": "shadowsocks",
+      "server": "pro.turbooserver.com",
+      "server_port": 1084,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozQ3pPUFNLTGFfdnZ6Q2dTZVBkSVd3",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @outlinereleasedkey",
+      "type": "shadowsocks",
+      "server": "media.mothyleela.cfd",
+      "server_port": 40521,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyV2tSR2g2dEF2OFVtc0hoNGkzRjZ6b3NqMmR6QTZzQ3pYYndxNFRkWHRlenRNZnlBNWFaY0x5NWpZNVo3RlozUVFNY1RWd003VHZpYmR2ellpcmNDN2lEWmFmcDJVNno=",
+      "password": null
+    },
+    {
+      "tag": "🇺🇸 US | SS | @proxy_confiingir",
+      "type": "shadowsocks",
+      "server": "ak1857.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj",
+      "password": null
+    },
+    {
+      "tag": "🇽🇽 XX | SS | @public504",
+      "type": "shadowsocks",
+      "server": "seoul.dodohee.info",
+      "server_port": 20976,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHeTFkZFRGUWNOcmt5Sk1hb0RsMWRh",
+      "password": null
+    },
+    {
+      "tag": "🇽🇽 XX | SS | @public504",
+      "type": "shadowsocks",
+      "server": "india.dodohee.info",
+      "server_port": 6980,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0ZTl1ZmExYTJqZUFOQVZlYkYwd3FO",
+      "password": null
+    },
+    {
+      "tag": "🇺🇸 US | SS | @red2ray",
+      "type": "shadowsocks",
+      "server": "www.outline.network.ak1909.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptcHMzRndtRGpMcldhT1Zn",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @serverv2ray00",
+      "type": "shadowsocks",
+      "server": "series-a2-me.samanehha.co",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtcG9seTEzMDU6Qm9nMEVMbU1NOURTeERkUQ==",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @serverv2ray00",
+      "type": "shadowsocks",
+      "server": "account-mec.emofid.co",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3aXZyR0VIWTg4c1FrM0RQ",
+      "password": null
+    },
+    {
+      "tag": "🇽🇽 XX | SS | @torang_vpn",
+      "type": "shadowsocks",
+      "server": "series…<",
+      "server_port": null,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @torang_vpn",
+      "type": "shadowsocks",
+      "server": "series-a1.samanehha.co",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
+      "password": null
+    },
+    {
+      "tag": "🇽🇽 XX | SS | @torang_vpn",
+      "type": "shadowsocks",
+      "server": "series…<",
+      "server_port": null,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj",
+      "password": null
+    },
+    {
+      "tag": "🇽🇽 XX | SS | @torang_vpn",
+      "type": "shadowsocks",
+      "server": "23.157.4…<",
+      "server_port": null,
+      "method": "YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @v2rayngalpha",
+      "type": "shadowsocks",
+      "server": "series-a2-me.varzesh360.co",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCb2cwRUxtTU05RFN4RGRR",
+      "password": null
+    },
+    {
+      "tag": "🇽🇽 XX | SS | @vmessiranproxy",
+      "type": "shadowsocks",
+      "server": "<a",
+      "server_port": null,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpyaGpLVTJFajNvSjRYTGRjeEd4UlM3WFpzakFnbjRDV240clZqb2NIdG1Fd3NYVjQyaVdoa1ZuaW1FajlOSEc3cnk5dEplS3ozTmFHckNualUyY2hXTE5XUkVHcm04NlI=",
+      "password": null
+    },
+    {
+      "tag": "🇽🇽 XX | SS | @vmessiranproxy",
+      "type": "shadowsocks",
+      "server": "<a",
+      "server_port": null,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZMjl4M0RVOWNpZk1yMmZvWmg4YXZYM0Q5RmtWNG1FaWdaUGlOaWJvQUJwQURSOFNNdmpOUDJ6R2dpMkZSczN2ZjZ2dlZYdHY5VkJrZ2tzUVdMVTZkWnNqaTNyRDJMMVg=",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @vpnowl",
+      "type": "shadowsocks",
+      "server": "adas-polo-ba-mahi.kotlet.org",
+      "server_port": 2053,
+      "method": "YXV0bzo=",
+      "password": null
+    }
+  ],
+  "route": {
+    "auto_detect_interface": true,
+    "final": "proxy",
+    "rule_set": [
+      {
+        "download_detour": "direct",
+        "format": "binary",
+        "tag": "geosite-ads",
+        "type": "remote",
+        "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geosite/category-ads-all.srs"
+      },
+      {
+        "download_detour": "direct",
+        "format": "binary",
+        "tag": "geosite-private",
+        "type": "remote",
+        "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geosite/private.srs"
+      },
+      {
+        "download_detour": "direct",
+        "format": "binary",
+        "tag": "geosite-ir",
+        "type": "remote",
+        "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geosite/category-ir.srs"
+      },
+      {
+        "download_detour": "direct",
+        "format": "binary",
+        "tag": "geoip-private",
+        "type": "remote",
+        "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geoip/private.srs"
+      },
+      {
+        "download_detour": "direct",
+        "format": "binary",
+        "tag": "geoip-ir",
+        "type": "remote",
+        "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geoip/ir.srs"
+      }
+    ],
+    "rules": [
+      {
+        "action": "sniff"
+      },
+      {
+        "action": "route",
+        "clash_mode": "Direct",
+        "outbound": "direct"
+      },
+      {
+        "action": "route",
+        "clash_mode": "Global",
+        "outbound": "proxy"
+      },
+      {
+        "action": "hijack-dns",
+        "protocol": "dns"
+      },
+      {
+        "action": "route",
+        "outbound": "direct",
+        "rule_set": [
+          "geoip-private",
+          "geosite-private",
+          "geosite-ir",
+          "geoip-ir"
+        ]
+      },
+      {
+        "action": "reject",
+        "rule_set": [
+          "geosite-ads"
+        ]
+      }
+    ]
+  }
 }
