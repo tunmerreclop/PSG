@@ -475,22 +475,52 @@
         }
 
         function processTree(tree) {
-            structuredData = { "Standard": {}, "Lite": {}, "Channels": {} };
+            structuredData = { "Standard": {}, "Lite": {}, "Channels": {}, "Locations": {} }; // Added "Locations"
             totalConfigsCount = 0;
+            
             tree.forEach(item => {
                 if (item.type !== "blob") return;
                 const path = item.path;
                 let category = null;
                 let cleanPath = "";
-                if (path.startsWith("subscriptions/channels/")) { category = "Channels"; cleanPath = path.replace("subscriptions/channels/", ""); }
-                else if (path.startsWith("lite/subscriptions/")) { category = "Lite"; cleanPath = path.replace("lite/subscriptions/", ""); }
-                else if (path.startsWith("subscriptions/")) { category = "Standard"; cleanPath = path.replace("subscriptions/", ""); }
-                else return;
+
+                // 1. Detect Category based on folder path
+                if (path.startsWith("subscriptions/channels/")) {
+                    category = "Channels";
+                    cleanPath = path.replace("subscriptions/channels/", "");
+                } else if (path.startsWith("subscriptions/locations/")) {
+                    // NEW: Logic for Locations folder
+                    category = "Locations";
+                    cleanPath = path.replace("subscriptions/locations/", "");
+                } else if (path.startsWith("lite/subscriptions/")) {
+                    category = "Lite";
+                    cleanPath = path.replace("lite/subscriptions/", "");
+                } else if (path.startsWith("subscriptions/")) {
+                    category = "Standard";
+                    cleanPath = path.replace("subscriptions/", "");
+                } else {
+                    return; // Skip other files
+                }
+
                 const ext = cleanPath.split('.').pop();
                 if (["md", "php", "py", "html", "json", "txt"].includes(ext)) return;
+
+                // Handle path splitting
                 const parts = cleanPath.split("/");
+                
+                // --- SPECIAL HANDLING FOR LOCATIONS ---
+                if (category === "Locations") {
+                    // Locations don't have sub-types like 'vmess'/'vless'.
+                    // They are just files like "US", "DE".
+                    // We'll group them under a generic type "Countries".
+                    addToStructure(category, "Countries", cleanPath, path);
+                    return;
+                }
+                
+                // --- STANDARD LOGIC ---
                 if (parts.length < 2) return;
                 const typeKey = parts[0];
+
                 if (typeKey === "xray") {
                     if (parts[1] === "normal") return;
                     if (parts[1] === "base64" && parts.length >= 3) {
@@ -500,6 +530,7 @@
                 }
                 addToStructure(category, typeKey, parts.slice(1).join("/"), path);
             });
+
             initSimpleMode();
         }
 
