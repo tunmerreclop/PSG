@@ -1,0 +1,39 @@
+name: Auto Update Subscriptions
+
+on:
+  schedule:
+    # This runs the bot every 6 hours. 
+    # You can change the timing here (UTC time)
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Allows you to run it manually from the "Actions" tab
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Allows the bot to push changes back to your repo
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          pip install aiohttp geoip2 pytz
+
+      - name: Run Main Bot (Fetch & Deduplicate)
+        run: python main.py
+
+      - name: Run Converter (Clash, Singbox, etc.)
+        run: python convert.py
+
+      - name: Commit and Push Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto-update subscriptions [skip ci]"
+          file_pattern: 'subscriptions/* lite/* config.txt api/* channelsData/channelsAssets.json'
