@@ -34,7 +34,6 @@ proxies:
   - {"name": "🇮🇷 IR | VMESS | @v2ray4win", "server": "65.109.204.63", "port": 12184, "type": "vmess", "skip-cert-verify": true, "uuid": "c4ab8b1d-11d4-450d-f7e7-826c22c33219", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇮🇷 IR | VMESS | @v2ray4win", "server": "91.107.160.240", "port": 15795, "type": "vmess", "skip-cert-verify": true, "uuid": "7ca6c13a-e450-49fa-9b9c-b49a6eda5b79", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇮🇷 IR | VMESS | @v2ray_free_conf", "server": "159.69.102.131", "port": 8080, "type": "vmess", "skip-cert-verify": true, "uuid": "3c67bb79-8b96-43d1-c576-c01dff9178ff", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/", "headers": {"Host": "Bmi.ir"}}}
-  - {"name": "🇮🇷 IR | TROJAN | @v2raych", "server": "ir2.iobase.ir", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "JQUeAxiGU6", "sni": "ir2.iobase.ir"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -59,7 +58,6 @@ proxy-groups:
       - '🇮🇷 IR | VMESS | @v2ray4win'
       - '🇮🇷 IR | VMESS | @v2ray4win'
       - '🇮🇷 IR | VMESS | @v2ray_free_conf'
-      - '🇮🇷 IR | TROJAN | @v2raych'
 
   - name: 🌍 Global Media
     type: select

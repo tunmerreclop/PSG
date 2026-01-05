@@ -95,8 +95,10 @@
         "KingRezaPahlavi",
         "🇰🇿 KZ | VLESS | @config_proxy",
         "🇰🇿 KZ | VLESS | @filterk0sh",
-        "🇰🇿 KZ | VLESS | @hope_net",
-        "🇰🇿 KZ | SS | @outlinereleasedkey"
+        "🇰🇿 KZ | SS | @outlinereleasedkey",
+        "🇰🇿 KZ | VLESS | @v2raych",
+        "🇰🇿 KZ | VLESS | @v2raych",
+        "🇰🇿 KZ | VLESS | @v2raych"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -109,8 +111,10 @@
         "KingRezaPahlavi",
         "🇰🇿 KZ | VLESS | @config_proxy",
         "🇰🇿 KZ | VLESS | @filterk0sh",
-        "🇰🇿 KZ | VLESS | @hope_net",
-        "🇰🇿 KZ | SS | @outlinereleasedkey"
+        "🇰🇿 KZ | SS | @outlinereleasedkey",
+        "🇰🇿 KZ | VLESS | @v2raych",
+        "🇰🇿 KZ | VLESS | @v2raych",
+        "🇰🇿 KZ | VLESS | @v2raych"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -196,9 +200,9 @@
     {
       "tag": "🇰🇿 KZ | VLESS | @config_proxy",
       "type": "vless",
-      "server": "77.91.75.113",
-      "server_port": 443,
-      "uuid": "06a3c194-1c1d-4a4f-8297-1d648de0a958",
+      "server": "91.217.10.166",
+      "server_port": 9443,
+      "uuid": "da76b83b-23be-4f60-adee-f83abad0a157",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -207,6 +211,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -233,29 +242,36 @@
       }
     },
     {
-      "tag": "🇰🇿 KZ | VLESS | @hope_net",
-      "type": "vless",
-      "server": "194.76.18.189",
-      "server_port": 443,
-      "uuid": "48198295-b7ba-4b5c-8d85-085d55a6c869",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇰🇿 KZ | SS | @outlinereleasedkey",
       "type": "shadowsocks",
       "server": "38.107.234.38",
       "server_port": 57456,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm",
       "password": null
+    },
+    {
+      "tag": "🇰🇿 KZ | VLESS | @v2raych",
+      "type": "vless",
+      "server": "185.176.26.105",
+      "server_port": 80,
+      "uuid": "89212ac1-8d91-4056-b8cb-bb6dbe69a4f3",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇰🇿 KZ | VLESS | @v2raych",
+      "type": "vless",
+      "server": "185.176.26.105",
+      "server_port": 80,
+      "uuid": "89212ac1-8d91-4056-b8cb-bb6dbe69a4f3",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇰🇿 KZ | VLESS | @v2raych",
+      "type": "vless",
+      "server": "194.76.18.50",
+      "server_port": 80,
+      "uuid": "f2a72ad0-d23f-4eed-96cb-7d970b1e784d",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

@@ -102,6 +102,7 @@
         "🇫🇷 FR | VLESS | @bored_vpn",
         "🇫🇷 FR | VLESS | @config_proxy",
         "🇫🇷 FR | VLESS | @config_proxy",
+        "🇫🇷 FR | VLESS | @config_proxy",
         "🇫🇷 FR | VLESS | @configasli",
         "🇫🇷 FR | VLESS | @evay_vpn",
         "🇫🇷 FR | VLESS | @evay_vpn",
@@ -180,7 +181,6 @@
         "🇫🇷 FR | VLESS | @satellitenewspersian",
         "🇫🇷 FR | VLESS | @v2ray_collector",
         "🇫🇷 FR | VLESS | @v2raych",
-        "🇫🇷 FR | TROJAN | @v2raych",
         "🇫🇷 FR | TROJAN | @v2rayngconfig",
         "🇫🇷 FR | SS | @v2rayngconfig",
         "🇫🇷 FR | TROJAN | @v2rayngconfig",
@@ -227,6 +227,7 @@
         "🇫🇷 FR | VLESS | @bored_vpn",
         "🇫🇷 FR | VLESS | @config_proxy",
         "🇫🇷 FR | VLESS | @config_proxy",
+        "🇫🇷 FR | VLESS | @config_proxy",
         "🇫🇷 FR | VLESS | @configasli",
         "🇫🇷 FR | VLESS | @evay_vpn",
         "🇫🇷 FR | VLESS | @evay_vpn",
@@ -305,7 +306,6 @@
         "🇫🇷 FR | VLESS | @satellitenewspersian",
         "🇫🇷 FR | VLESS | @v2ray_collector",
         "🇫🇷 FR | VLESS | @v2raych",
-        "🇫🇷 FR | TROJAN | @v2raych",
         "🇫🇷 FR | TROJAN | @v2rayngconfig",
         "🇫🇷 FR | SS | @v2rayngconfig",
         "🇫🇷 FR | TROJAN | @v2rayngconfig",
@@ -495,6 +495,28 @@
     {
       "tag": "🇫🇷 FR | VLESS | @config_proxy",
       "type": "vless",
+      "server": "maxb17.musicdoon.ir",
+      "server_port": 8080,
+      "uuid": "2c7a2b04-ad16-484b-b0e4-739cd06b650f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @config_proxy",
+      "type": "vless",
       "server": "maxa19.gatesrev.ir",
       "server_port": 8080,
       "uuid": "ec6901a9-0837-4d55-a29b-f5623d138af7",
@@ -517,9 +539,9 @@
     {
       "tag": "🇫🇷 FR | VLESS | @config_proxy",
       "type": "vless",
-      "server": "maxb17.musicdoon.ir",
-      "server_port": 8080,
-      "uuid": "2c7a2b04-ad16-484b-b0e4-739cd06b650f",
+      "server": "57.128.111.63",
+      "server_port": 443,
+      "uuid": "355f4e29-b43e-4916-b47d-bc8067fcfbcc",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -528,11 +550,13 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
         }
       }
     },
@@ -1358,17 +1382,26 @@
     {
       "tag": "🇫🇷 FR | VLESS | @v2raych",
       "type": "vless",
-      "server": "202.133.88.161",
-      "server_port": 20146,
-      "uuid": "4d9a6f21-6f31-43b5-88e0-17474f0b2b75",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇷 FR | TROJAN | @v2raych",
-      "type": "trojan",
-      "server": "88.214.24.235",
-      "server_port": 9443,
-      "password": "02948bde80594712b974368035f294dd"
+      "server": "57.128.111.63",
+      "server_port": 443,
+      "uuid": "355f4e29-b43e-4916-b47d-bc8067fcfbcc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
     },
     {
       "tag": "🇫🇷 FR | TROJAN | @v2rayngconfig",
