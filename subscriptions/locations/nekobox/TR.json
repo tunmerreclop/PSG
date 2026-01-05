@@ -81,6 +81,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇹🇷 TR | SS | @NamiraConfigs",
+        "🇹🇷 TR | VLESS | @config_proxy",
         "🇹🇷 TR | VLESS | @dailyv2ray",
         "🇹🇷 TR | VLESS | @drvpn_net",
         "🇹🇷 TR | VLESS | @filterk0sh",
@@ -91,13 +92,12 @@
         "🇹🇷 TR | SS | @manstervpn",
         "🇹🇷 TR | VLESS | @netmellianti",
         "🇹🇷 TR | VLESS | @proxyfn",
-        "🇹🇷 TR | VLESS | @prrofile_purple",
         "🇹🇷 TR | SS | @prrofile_purple",
         "🇹🇷 TR | SS | @prrofile_purple",
         "🇹🇷 TR | TROJAN | @v2rayngconfig",
         "🇹🇷 TR | SS | @v2rayopen",
         "🇹🇷 TR | VLESS | @v2raytg",
-        "🇹🇷 TR | VLESS | @vpnplusee_free"
+        "🇹🇷 TR | VLESS | @vmesskhodam"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -109,6 +109,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇹🇷 TR | SS | @NamiraConfigs",
+        "🇹🇷 TR | VLESS | @config_proxy",
         "🇹🇷 TR | VLESS | @dailyv2ray",
         "🇹🇷 TR | VLESS | @drvpn_net",
         "🇹🇷 TR | VLESS | @filterk0sh",
@@ -119,13 +120,12 @@
         "🇹🇷 TR | SS | @manstervpn",
         "🇹🇷 TR | VLESS | @netmellianti",
         "🇹🇷 TR | VLESS | @proxyfn",
-        "🇹🇷 TR | VLESS | @prrofile_purple",
         "🇹🇷 TR | SS | @prrofile_purple",
         "🇹🇷 TR | SS | @prrofile_purple",
         "🇹🇷 TR | TROJAN | @v2rayngconfig",
         "🇹🇷 TR | SS | @v2rayopen",
         "🇹🇷 TR | VLESS | @v2raytg",
-        "🇹🇷 TR | VLESS | @vpnplusee_free"
+        "🇹🇷 TR | VLESS | @vmesskhodam"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -219,6 +219,14 @@
       "server_port": 990,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz",
       "password": null
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "45.141.148.146",
+      "server_port": 10002,
+      "uuid": "628a1148-09a4-4808-b484-806f6206e6ba",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇹🇷 TR | VLESS | @dailyv2ray",
@@ -329,14 +337,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @prrofile_purple",
-      "type": "vless",
-      "server": "198.105.123.182",
-      "server_port": 2080,
-      "uuid": "684ead3d-43b1-4707-904a-24e3e9e91fb1",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇹🇷 TR | SS | @prrofile_purple",
       "type": "shadowsocks",
       "server": "83.217.9.17",
@@ -385,26 +385,12 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @vpnplusee_free",
+      "tag": "🇹🇷 TR | VLESS | @vmesskhodam",
       "type": "vless",
-      "server": "198.105.123.152",
-      "server_port": 51065,
-      "uuid": "5695e906-fd40-45e7-b261-7bc605af614c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "server": "tr.nicren.com",
+      "server_port": 5678,
+      "uuid": "c4aac235-d112-4f6d-974c-70ae852093e1",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

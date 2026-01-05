@@ -100,13 +100,14 @@
         "🇲🇩 MD | VLESS | @mtproxy22_v2ray",
         "🇲🇩 MD | VLESS | @mtproxy22_v2ray",
         "🇲🇩 MD | VLESS | @mtproxy22_v2ray",
+        "🇲🇩 MD | TROJAN | @orange_vpns",
         "🇲🇩 MD | VLESS | @prrofile_purple",
         "🇲🇩 MD | VLESS | @prrofile_purple",
         "🇲🇩 MD | VLESS | @v2aryng_vpn",
         "🇲🇩 MD | VLESS | @v2aryng_vpn",
-        "🇲🇩 MD | SS | @v2ray_free_conf",
         "🇲🇩 MD | VLESS | @v2rayprotocol",
-        "🇲🇩 MD | VLESS | @vpnowl"
+        "🇲🇩 MD | VLESS | @vpnowl",
+        "🇲🇩 MD | VLESS | @vpnplusee_free"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -137,13 +138,14 @@
         "🇲🇩 MD | VLESS | @mtproxy22_v2ray",
         "🇲🇩 MD | VLESS | @mtproxy22_v2ray",
         "🇲🇩 MD | VLESS | @mtproxy22_v2ray",
+        "🇲🇩 MD | TROJAN | @orange_vpns",
         "🇲🇩 MD | VLESS | @prrofile_purple",
         "🇲🇩 MD | VLESS | @prrofile_purple",
         "🇲🇩 MD | VLESS | @v2aryng_vpn",
         "🇲🇩 MD | VLESS | @v2aryng_vpn",
-        "🇲🇩 MD | SS | @v2ray_free_conf",
         "🇲🇩 MD | VLESS | @v2rayprotocol",
-        "🇲🇩 MD | VLESS | @vpnowl"
+        "🇲🇩 MD | VLESS | @vpnowl",
+        "🇲🇩 MD | VLESS | @vpnplusee_free"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -456,6 +458,13 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇲🇩 MD | TROJAN | @orange_vpns",
+      "type": "trojan",
+      "server": "trunker.cc",
+      "server_port": 8080,
+      "password": "nYzYreUpD4dDjzjFcgf6Fe3oaw4QFN"
+    },
+    {
       "tag": "🇲🇩 MD | VLESS | @prrofile_purple",
       "type": "vless",
       "server": "103.35.189.146",
@@ -515,14 +524,6 @@
       }
     },
     {
-      "tag": "🇲🇩 MD | SS | @v2ray_free_conf",
-      "type": "shadowsocks",
-      "server": "94.131.104.147",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2VkFjbGw0UDh4UFRVVlZ0SGVTVDNvblJtTG9WSUJTVQ==",
-      "password": null
-    },
-    {
       "tag": "🇲🇩 MD | VLESS | @v2rayprotocol",
       "type": "vless",
       "server": "195.42.233.146",
@@ -534,6 +535,14 @@
       "tag": "🇲🇩 MD | VLESS | @vpnowl",
       "type": "vless",
       "server": "195.42.233.91",
+      "server_port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇲🇩 MD | VLESS | @vpnplusee_free",
+      "type": "vless",
+      "server": "94.131.118.39",
       "server_port": 8880,
       "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
       "packet_encoding": "xudp"
