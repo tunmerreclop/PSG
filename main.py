@@ -408,24 +408,31 @@ class SubscriptionProcessor:
         """
         Tests if the config host:port is reachable via TCP.
         Handles SNI fallback if host is missing.
+        Safely handles missing ports.
         """
-        # 1. Determine Target Host
-        host = parsed.get('host') or parsed.get('add', '')
-        port = int(parsed.get('port', 0))
+        # 1. Safe Port Extraction
+        raw_port = parsed.get('port')
+        if not raw_port:
+            return False
+        
+        try:
+            port = int(raw_port)
+        except ValueError:
+            return False
 
-        # 2. "Do something for SNI/WS" 
-        # If the 'host' (address) is missing or looks like a placeholder, 
-        # but 'sni' is provided, try connecting to the SNI address.
+        # 2. Determine Target Host
+        host = parsed.get('host') or parsed.get('add', '')
+        
+        # SNI Fallback logic
         sni = parsed.get('sni') or parsed.get('params', {}).get('sni') or parsed.get('params', {}).get('host')
         
         if (not host or host == '127.0.0.1') and sni:
             host = sni
 
-        # If we still don't have a valid host or port, fail.
-        if not host or not port:
+        if not host:
             return False
 
-        # 3. Clean IPv6 brackets for socket connection
+        # 3. Clean IPv6 brackets
         target_host = host.strip('[]')
 
         async with self.tcp_semaphore:
@@ -434,7 +441,7 @@ class SubscriptionProcessor:
                 future = asyncio.open_connection(target_host, port)
                 reader, writer = await asyncio.wait_for(future, timeout=CONSTANTS['TCP_TIMEOUT'])
                 
-                # If we get here, connection works
+                # Connection Successful
                 writer.close()
                 await writer.wait_closed()
                 return True
