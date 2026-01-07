@@ -307,7 +307,25 @@ class SubscriptionProcessor:
 
     async def initialize(self):
         self.session = aiohttp.ClientSession()
-        # Ensure directories
+        
+        # --- FIX: CLEANUP OLD ARTIFACTS ---
+        # We must remove the old output directories because the structure might have changed
+        # (e.g., 'normal' changing from a file to a folder).
+        dirs_to_clean = [
+            PATHS['TEMP'], 
+            PATHS['OUTPUT_SUBS'], 
+            PATHS['OUTPUT_LITE']
+        ]
+        
+        logger.info("Cleaning up old directories...")
+        for d in dirs_to_clean:
+            if os.path.exists(d):
+                try:
+                    shutil.rmtree(d)
+                except Exception as e:
+                    logger.warning(f"Could not remove {d}: {e}")
+
+        # Ensure directories exist
         for path in [PATHS['TEMP'], PATHS['FINAL_ASSETS'], PATHS['API'], 
                      os.path.join(PATHS['TEMP'], 'logos'), 
                      os.path.join(PATHS['TEMP'], 'html_cache')]:
@@ -317,10 +335,14 @@ class SubscriptionProcessor:
         await self._setup_geoip()
 
     async def cleanup(self):
-        if self.session: await self.session.close()
-        if self.geo_reader: self.geo_reader.close()
+        if self.session: 
+            await self.session.close()
+            self.session = None
+        if self.geo_reader: 
+            self.geo_reader.close()
 
     async def _fetch_url(self, url: str) -> Optional[bytes]:
+        if not self.session: return None
         try:
             async with self.session.get(url, timeout=CONSTANTS['TIMEOUT']) as response:
                 if response.status == 200:
@@ -349,7 +371,6 @@ class SubscriptionProcessor:
         async with self.dns_semaphore:
             try:
                 loop = asyncio.get_running_loop()
-                # Run blocking socket call in executor
                 ip = await loop.run_in_executor(None, socket.gethostbyname, host)
                 self.dns_cache[host] = ip
                 return ip
@@ -382,17 +403,14 @@ class SubscriptionProcessor:
         
         results = await asyncio.gather(*tasks)
         
-        # Aggregate results
         logos_to_fetch = {}
         for key, configs, logo_url in results:
             if logo_url: logos_to_fetch[key] = logo_url
             for c in configs: self.all_configs.append((c, key))
             
-        # Download Logos (Optional - Fire and forget mostly)
         logo_tasks = [self._fetch_and_save_logo(k, u) for k, u in logos_to_fetch.items()]
         if logo_tasks: await asyncio.gather(*logo_tasks)
 
-        # Private Configs
         await self._fetch_private_configs()
 
     async def _process_single_source(self, key: str, data: Dict) -> Tuple[str, List[str], Optional[str]]:
@@ -405,7 +423,6 @@ class SubscriptionProcessor:
 
         if content:
             text = content.decode('utf-8', errors='ignore')
-            # Attempt base64 decode if it looks like a sub
             if data.get('subscription_url'):
                 try:
                     decoded = ConfigUtils.safe_base64_decode(text)
@@ -414,8 +431,6 @@ class SubscriptionProcessor:
                 except: pass
             
             configs = PROTOCOL_REGEX.findall(text)
-            
-            # Metadata extraction
             for c in configs: 
                 ct = ConfigUtils.detect_type(c)
                 if ct: types.add(ct)
@@ -435,8 +450,10 @@ class SubscriptionProcessor:
     async def _fetch_and_save_logo(self, key, url):
         data = await self._fetch_url(url)
         if data:
-            with open(os.path.join(PATHS['TEMP'], 'logos', f"{key}.jpg"), 'wb') as f:
-                f.write(data)
+            try:
+                with open(os.path.join(PATHS['TEMP'], 'logos', f"{key}.jpg"), 'wb') as f:
+                    f.write(data)
+            except: pass
 
     async def _fetch_private_configs(self):
         data = await self._fetch_url(URLS['PRIVATE'])
@@ -452,8 +469,6 @@ class SubscriptionProcessor:
                     if ct: 
                         p_types.add(ct)
                         self.all_configs.append((c, c_name))
-                
-                # Update assets
                 if c_name in self.channel_assets:
                     curr_types = set(self.channel_assets[c_name]['types'])
                     self.channel_assets[c_name]['types'] = sorted(list(curr_types | p_types))
@@ -479,21 +494,12 @@ class SubscriptionProcessor:
         final_list = []
         lite_list = []
         api_data = []
-        
-        # Categorized collections
-        groups = {
-            'channels': defaultdict(list),
-            'locations': defaultdict(list)
-        }
-        
+        groups = {'channels': defaultdict(list), 'locations': defaultdict(list)}
         channel_counts = defaultdict(int)
         
         total = len(unique_map)
         logger.info(f"Processing {total} unique configs...")
 
-        # Process in chunks or one-by-one with DNS resolution
-        # We need to resolve IPs to get Geo info
-        
         for i, (fp, (orig, parsed, chan)) in enumerate(unique_map.items()):
             if i % 100 == 0: sys.stdout.write(f"\rProcessing... {int(i/total*100)}%")
             
@@ -507,7 +513,6 @@ class SubscriptionProcessor:
             
             ctype_disp = parsed.get('type', 'UNK').upper()
             
-            # Create Tag
             new_tag = f"{flag} {country_code} | {ctype_disp} | @{clean_chan}"
             final_str = ConfigParser.reassemble(parsed, new_tag)
             
@@ -515,36 +520,28 @@ class SubscriptionProcessor:
             
             final_list.append(final_str)
             
-            # Groups
             groups['channels'][clean_chan].append(final_str)
             groups['locations'][country_code].append(final_str)
             if is_cf:
                 groups['locations']['CF'].append(final_str)
             
-            # Lite List (Limited count)
             if channel_counts[clean_chan] < CONSTANTS['LITE_LIMIT']:
                 lite_list.append(final_str)
                 channel_counts[clean_chan] += 1
                 
-            # API Data
             eff_type = parsed['type']
             if eff_type == 'vless' and 'security=reality' in final_str: eff_type = 'reality'
             assets = self.channel_assets.get(clean_chan, {})
             
             api_data.append({
                 'channel': {'username': clean_chan, 'title': assets.get('title', ''), 'logo': assets.get('logo', '')},
-                'country': country_code,
-                'flag': flag,
-                'type': eff_type,
-                'config': final_str,
-                'is_cf': is_cf
+                'country': country_code, 'flag': flag, 'type': eff_type, 'config': final_str, 'is_cf': is_cf
             })
             
         print("\nProcessing complete.")
         return final_list, lite_list, groups, api_data
 
     def write_output(self, final_list, lite_list, groups, api_data):
-        # 1. Update Assets JSON
         sorted_assets = dict(sorted(self.channel_assets.items()))
         with open(os.path.join(PATHS['TEMP'], 'channelsAssets.json'), 'w', encoding='utf-8') as f:
             json.dump(sorted_assets, f, indent=4, ensure_ascii=False)
@@ -552,83 +549,52 @@ class SubscriptionProcessor:
         if os.path.exists(PATHS['FINAL_ASSETS']): shutil.rmtree(PATHS['FINAL_ASSETS'])
         shutil.copytree(PATHS['TEMP'], PATHS['FINAL_ASSETS'])
 
-        # 2. Helper to write subscription packages (DRY)
         def write_subscription_package(configs: List[str], base_dir: str, title_prefix: str):
-            """
-            Groups configs by Protocol AND Address Type (IPv4/IPv6/Domain),
-            then writes Normal and Base64 files for each group.
-            """
-            
-            # Data Structure: groups[protocol][address_type] = [list_of_configs]
-            # using defaultdict to avoid 'if key not in dict' checks
             groups = defaultdict(lambda: defaultdict(list))
-            
             fake_configs = [ConfigUtils.create_fake_config(n) for n in CONSTANTS['FAKE_NAMES']]
             
-            # --- 1. Categorize ---
             for c in configs:
                 ct = ConfigUtils.detect_type(c)
                 if not ct: continue
-                
-                # We must parse to get the host to determine address type
                 parsed = ConfigParser.parse(c)
                 if not parsed: continue
-                
                 host = parsed.get('host') or parsed.get('add', '')
                 addr_type = ConfigUtils.get_address_type(host)
-                
-                # Standard Grouping (e.g., vmess_ipv4)
                 groups[ct][addr_type].append(c)
-                
-                # Special Case: Reality (Subset of Vless)
                 if ct == 'vless' and ConfigUtils.is_reality(c):
                     groups['reality'][addr_type].append(c)
-                
-                # Special Case: XHTTP
                 if ConfigUtils.is_xhttp(c):
                     groups['xhttp'][addr_type].append(c)
 
-            # --- 2. Write "Mix" File (All protocols combined) ---
             self._write_files(base_dir, 'mix', configs, f"{title_prefix} | MIX", fake_configs)
 
-            # --- 3. Write Categorized Files ---
             for proto, addr_groups in groups.items():
-                
-                # We collect all configs for this protocol to write the "Main" protocol file
-                # e.g., 'vmess' (containing ipv4 + ipv6 + domain)
                 all_proto_configs = []
-                
                 for at, confs in addr_groups.items():
                     if not confs: continue
-                    
-                    # Write specific type: e.g., 'vmess_ipv4', 'vless_domain'
                     filename = f"{proto}_{at}"
                     header_title = f"{title_prefix} | {proto.upper()} {at.upper()}"
                     self._write_files(base_dir, filename, confs, header_title, fake_configs)
-                    
                     all_proto_configs.extend(confs)
-                
-                # Write the generic protocol file (e.g., 'vmess')
                 if all_proto_configs:
                     header_title = f"{title_prefix} | {proto.upper()}"
                     self._write_files(base_dir, proto, all_proto_configs, header_title, fake_configs)
 
-        # 3. Write Subscriptions
         logger.info("Writing files...")
         write_subscription_package(final_list, os.path.join(PATHS['OUTPUT_SUBS'], 'xray'), "PSG")
         write_subscription_package(lite_list, os.path.join(PATHS['OUTPUT_LITE'], 'xray'), "PSG Lite")
         
-        # 4. Locations & Channels
         for loc, confs in groups['locations'].items():
             safe_name = re.sub(r'[^a-zA-Z0-9]', '', loc) or "XX"
             path = os.path.join(PATHS['OUTPUT_SUBS'], 'locations')
             self._write_files(path, safe_name, confs, f"PSG | Location {loc}")
 
         for chan, confs in groups['channels'].items():
-            path = os.path.join(PATHS['OUTPUT_SUBS'], 'channels', chan)
+            # --- FIX: Sanitize channel name to prevent filesystem errors ---
+            safe_chan = re.sub(r'[^a-zA-Z0-9_.-]', '_', chan)
+            path = os.path.join(PATHS['OUTPUT_SUBS'], 'channels', safe_chan)
             self._write_files(path, 'list', confs, f"PSG | @{chan}")
 
-        # 5. Config TXT & API
         with open(PATHS['CONFIG_TXT'], 'w', encoding='utf-8') as f:
             f.write('\n'.join(final_list))
         
@@ -637,43 +603,46 @@ class SubscriptionProcessor:
 
     def _write_files(self, directory: str, filename: str, configs: List[str], title: str, prepends: List[str] = None):
         """Writes both Normal and Base64 versions of a file."""
+        # This will now succeed because initialize() deleted the old bad structure
         os.makedirs(os.path.join(directory, 'normal'), exist_ok=True)
         os.makedirs(os.path.join(directory, 'base64'), exist_ok=True)
         
         merged = (prepends or []) + configs
-        # Use join for efficient string building
         content = ConfigUtils.generate_header(title) + '\n'.join(merged)
         b64_content = base64.b64encode(content.encode()).decode()
         
-        # Try/Except block for file safety
         try:
             with open(os.path.join(directory, 'normal', filename), 'w', encoding='utf-8') as f:
                 f.write(content)
             with open(os.path.join(directory, 'base64', filename), 'w', encoding='utf-8') as f:
                 f.write(b64_content)
         except IOError as e:
-            logger.error(f"Failed to write {filename}: {e}")
+            logger.error(f"Failed to write {filename} in {directory}: {e}")
 
 # --- Entry Point ---
 
 async def main():
     processor = SubscriptionProcessor()
-    await processor.initialize()
-    
-    logger.info("1. Fetching Sources")
-    await processor.process_sources()
-    
-    logger.info("2. Deduplicating")
-    unique_map = processor.deduplicate_configs()
-    
-    logger.info("3. Enriching and Tagging (GeoIP + DNS)")
-    final, lite, groups, api_data = await processor.enrich_and_tag(unique_map)
-    
-    logger.info("4. Writing Outputs")
-    processor.write_output(final, lite, groups, api_data)
-    
-    await processor.cleanup()
-    logger.info("Done.")
+    try:
+        # 1. Initialize (This cleans up the old folders causing the error)
+        await processor.initialize()
+        
+        logger.info("1. Fetching Sources")
+        await processor.process_sources()
+        
+        logger.info("2. Deduplicating")
+        unique_map = processor.deduplicate_configs()
+        
+        logger.info("3. Enriching and Tagging (GeoIP + DNS)")
+        final, lite, groups, api_data = await processor.enrich_and_tag(unique_map)
+        
+        logger.info("4. Writing Outputs")
+        processor.write_output(final, lite, groups, api_data)
+        
+    finally:
+        # Ensures session is closed even if scripts crash
+        await processor.cleanup()
+        logger.info("Cleanup done.")
 
 if __name__ == "__main__":
     if os.name == 'nt':
