@@ -96,6 +96,8 @@
         "🇷🇺 RU | VLESS | @config_proxy",
         "🇷🇺 RU | VLESS | @config_proxy",
         "🇷🇺 RU | VLESS | @config_proxy",
+        "🇷🇺 RU | VLESS | @config_proxy",
+        "🇷🇺 RU | VLESS | @config_proxy",
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇷🇺 RU | VLESS | @father_vpn",
@@ -152,6 +154,8 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇺 RU | VLESS | @Fr33C0nfig",
+        "🇷🇺 RU | VLESS | @config_proxy",
+        "🇷🇺 RU | VLESS | @config_proxy",
         "🇷🇺 RU | VLESS | @config_proxy",
         "🇷🇺 RU | VLESS | @config_proxy",
         "🇷🇺 RU | VLESS | @config_proxy",
@@ -302,6 +306,36 @@
       "transport": {
         "type": "grpc",
         "service_name": ""
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "84.201.133.68",
+      "server_port": 1443,
+      "uuid": "de47ecbc-aa99-41cf-8484-7d300fbef83d",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "home.fp3.ir",
+      "server_port": 200,
+      "uuid": "f762fa01-58a5-4d91-bdad-28275cc8d8d1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
       }
     },
     {
@@ -894,9 +928,9 @@
     {
       "tag": "🇷🇺 RU | VLESS | @v2raych",
       "type": "vless",
-      "server": "51.250.11.249",
-      "server_port": 443,
-      "uuid": "c166b73d-8cde-4728-ab74-b14a34febb76",
+      "server": "home.fp3.ir",
+      "server_port": 200,
+      "uuid": "f762fa01-58a5-4d91-bdad-28275cc8d8d1",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

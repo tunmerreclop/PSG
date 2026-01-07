@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇯🇵 JP | VLESS | @config_proxy", "server": "38.60.212.251", "port": 29059, "type": "vless", "skip-cert-verify": true, "uuid": "d706bf16-124a-417b-aaa0-0d6d5efd58fd", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇯🇵 JP | TROJAN | @free4allvpn", "server": "kuame.missionsec.us", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D"}
   - {"name": "🇯🇵 JP | VLESS | @free4allvpn", "server": "15.168.173.144", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "e0306a33-9971-4b75-a5e0-a176a5a48a2e", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇯🇵 JP | TROJAN | @free4allvpn", "server": "160.16.107.37", "port": 3169, "type": "trojan", "skip-cert-verify": false, "password": "44e660b0ee21cf3ac66aee2c08af85d2"}
@@ -43,7 +42,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇯🇵 JP | VLESS | @config_proxy'
       - '🇯🇵 JP | TROJAN | @free4allvpn'
       - '🇯🇵 JP | VLESS | @free4allvpn'
       - '🇯🇵 JP | TROJAN | @free4allvpn'

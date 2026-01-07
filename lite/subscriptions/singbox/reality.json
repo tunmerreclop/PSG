@@ -95,6 +95,8 @@
         "KingRezaPahlavi",
         "🇫🇷 FR | VLESS | @Fr33C0nfig",
         "🇽🇽 XX | VLESS | @buffalo_vpn",
+        "🇩🇪 DE | VLESS | @config_proxy",
+        "🇷🇺 RU | VLESS | @config_proxy",
         "🇩🇪 DE | VLESS | @configasli",
         "🇽🇽 XX | VLESS | @connectshu",
         "🇽🇽 XX | VLESS | @connectshu",
@@ -192,7 +194,9 @@
         "🇲🇩 MD | VLESS | @bored_vpn",
         "🇩🇪 DE | VLESS | @bored_vpn",
         "🇳🇱 NL | VLESS | @bored_vpn",
-        "🇯🇵 JP | VLESS | @config_proxy",
+        "🇷🇺 RU | VLESS | @config_proxy",
+        "🇳🇱 NL | VLESS | @config_proxy",
+        "🇺🇸 US | VLESS | @config_proxy",
         "🇷🇺 RU | VLESS | @config_proxy",
         "🇩🇪 DE | VLESS | @configasli",
         "🇩🇪 DE | VLESS | @configasli",
@@ -324,6 +328,8 @@
         "KingRezaPahlavi",
         "🇫🇷 FR | VLESS | @Fr33C0nfig",
         "🇽🇽 XX | VLESS | @buffalo_vpn",
+        "🇩🇪 DE | VLESS | @config_proxy",
+        "🇷🇺 RU | VLESS | @config_proxy",
         "🇩🇪 DE | VLESS | @configasli",
         "🇽🇽 XX | VLESS | @connectshu",
         "🇽🇽 XX | VLESS | @connectshu",
@@ -421,7 +427,9 @@
         "🇲🇩 MD | VLESS | @bored_vpn",
         "🇩🇪 DE | VLESS | @bored_vpn",
         "🇳🇱 NL | VLESS | @bored_vpn",
-        "🇯🇵 JP | VLESS | @config_proxy",
+        "🇷🇺 RU | VLESS | @config_proxy",
+        "🇳🇱 NL | VLESS | @config_proxy",
+        "🇺🇸 US | VLESS | @config_proxy",
         "🇷🇺 RU | VLESS | @config_proxy",
         "🇩🇪 DE | VLESS | @configasli",
         "🇩🇪 DE | VLESS | @configasli",
@@ -655,6 +663,45 @@
       "transport": {
         "type": "grpc",
         "service_name": ""
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "geteway-de.nub-shop.ir",
+      "server_port": 5640,
+      "uuid": "e4e2a606-ddc5-4bbd-be2e-bd62f876947b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "hypervisor.speedload.ru",
+      "server_port": 443,
+      "uuid": "4d94fa33-9462-48b4-b7de-8a2863560d19",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -2018,14 +2065,6 @@
       }
     },
     {
-      "tag": "🇯🇵 JP | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "38.60.212.251",
-      "server_port": 29059,
-      "uuid": "d706bf16-124a-417b-aaa0-0d6d5efd58fd",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇷🇺 RU | VLESS | @config_proxy",
       "type": "vless",
       "server": "5.182.36.56",
@@ -2046,6 +2085,39 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "144.124.251.88",
+      "server_port": 443,
+      "uuid": "88d848f8-88ac-4a90-8258-d61a491ce34e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "15.204.97.154",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "51.250.110.247",
+      "server_port": 7443,
+      "uuid": "4d94fa33-9462-48b4-b7de-8a2863560d19",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇩🇪 DE | VLESS | @configasli",

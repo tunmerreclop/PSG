@@ -27,6 +27,7 @@ proxies:
   - {"name": "🇳🇱 NL | VLESS | @config_proxy", "server": "144.124.251.88", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "88d848f8-88ac-4a90-8258-d61a491ce34e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @config_proxy", "server": "209.38.97.113", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "358edbda-53c3-4fb5-a68d-2faecf95f1bd", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @config_proxy", "server": "89.124.72.86", "port": 5398, "type": "vless", "skip-cert-verify": true, "uuid": "ddef83b7-0269-fc4f-bd8e-c33e2c5df807", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇳🇱 NL | VLESS | @config_proxy", "server": "103.90.75.252", "port": 3001, "type": "vless", "skip-cert-verify": true, "uuid": "61757901-3818-46c7-8482-683fa7f6ba10", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @filterk0sh", "server": "eng14.netliberated.org", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0bb6dff2-0029-4b81-8c81-4fc70fae1ed9", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇳🇱 NL | VLESS | @flyv2ray", "server": "5.10.245.238", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @free4allvpn", "server": "103.90.75.252", "port": 3001, "type": "vless", "skip-cert-verify": true, "uuid": "61757901-3818-46c7-8482-683fa7f6ba10", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -57,7 +58,6 @@ proxies:
   - {"name": "🇳🇱 NL | VLESS | @orange_vpns", "server": "72.56.92.27", "port": 4443, "type": "vless", "skip-cert-verify": true, "uuid": "ddffda27-8c5f-4f53-8450-4d11a1e0b368", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇳🇱 NL | VLESS | @orange_vpns", "server": "151.101.205.194", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "54259b2a-595e-4104-853d-8b12ea37be80", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @prrofile_purple", "server": "143.244.197.90", "port": 40188, "type": "vless", "skip-cert-verify": true, "uuid": "d8c3d1dc-d162-42bf-a1ca-69cd59d76f22", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇳🇱 NL | VLESS | @prrofile_purple", "server": "ams1.fromblancwithlove.com", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "a207569d-bf8f-43dd-81fd-2c847c7870c4", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @prrofile_purple", "server": "143.244.197.90", "port": 40191, "type": "vless", "skip-cert-verify": true, "uuid": "c4c65266-80fb-4bf4-87ce-fb9e3deb3429", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @prrofile_purple", "server": "202.71.14.202", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "faa693f6-41eb-4c90-842c-876c989adc9c", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇳🇱 NL | VLESS | @qeshmserver", "server": "45.76.32.68", "port": 43144, "type": "vless", "skip-cert-verify": true, "uuid": "3cac427f-306c-421b-a2a0-adf8f49e1f48", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -85,6 +85,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇳🇱 NL | VLESS | @bored_vpn'
+      - '🇳🇱 NL | VLESS | @config_proxy'
       - '🇳🇱 NL | VLESS | @config_proxy'
       - '🇳🇱 NL | VLESS | @config_proxy'
       - '🇳🇱 NL | VLESS | @config_proxy'
@@ -117,7 +118,6 @@ proxy-groups:
       - '🇳🇱 NL | VLESS | @nofiltering2'
       - '🇳🇱 NL | VLESS | @orange_vpns'
       - '🇳🇱 NL | VLESS | @orange_vpns'
-      - '🇳🇱 NL | VLESS | @prrofile_purple'
       - '🇳🇱 NL | VLESS | @prrofile_purple'
       - '🇳🇱 NL | VLESS | @prrofile_purple'
       - '🇳🇱 NL | VLESS | @prrofile_purple'

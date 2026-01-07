@@ -88,6 +88,7 @@
         "🇩🇪 DE | VLESS | @config_proxy",
         "🇩🇪 DE | VLESS | @config_proxy",
         "🇷🇺 RU | VLESS | @config_proxy",
+        "🇷🇺 RU | VLESS | @config_proxy",
         "🇩🇪 DE | VLESS | @configasli",
         "🇽🇽 XX | VLESS | @connectshu",
         "🇽🇽 XX | VLESS | @connectshu",
@@ -187,8 +188,7 @@
         "🇽🇽 XX | VLESS | @v2rayang201",
         "🇽🇽 XX | VLESS | @v2rayang201",
         "🇽🇽 XX | VLESS | @v2rayang201",
-        "🇩🇪 DE | VLESS | @v2raych",
-        "🇩🇪 DE | VLESS | @v2raych",
+        "🇷🇺 RU | VLESS | @v2raych",
         "🇽🇽 XX | VLESS | @v2raymelliii",
         "🇫🇮 FI | VLESS | @v2rayngconfiig",
         "🇫🇷 FR | VLESS | @v2rayopen",
@@ -228,6 +228,7 @@
         "🇩🇪 DE | VLESS | @config_proxy",
         "🇩🇪 DE | VLESS | @config_proxy",
         "🇷🇺 RU | VLESS | @config_proxy",
+        "🇷🇺 RU | VLESS | @config_proxy",
         "🇩🇪 DE | VLESS | @configasli",
         "🇽🇽 XX | VLESS | @connectshu",
         "🇽🇽 XX | VLESS | @connectshu",
@@ -327,8 +328,7 @@
         "🇽🇽 XX | VLESS | @v2rayang201",
         "🇽🇽 XX | VLESS | @v2rayang201",
         "🇽🇽 XX | VLESS | @v2rayang201",
-        "🇩🇪 DE | VLESS | @v2raych",
-        "🇩🇪 DE | VLESS | @v2raych",
+        "🇷🇺 RU | VLESS | @v2raych",
         "🇽🇽 XX | VLESS | @v2raymelliii",
         "🇫🇮 FI | VLESS | @v2rayngconfiig",
         "🇫🇷 FR | VLESS | @v2rayopen",
@@ -585,6 +585,28 @@
       "transport": {
         "type": "grpc",
         "service_name": ""
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "home.fp3.ir",
+      "server_port": 200,
+      "uuid": "f762fa01-58a5-4d91-bdad-28275cc8d8d1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
       }
     },
     {
@@ -2031,33 +2053,11 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2raych",
+      "tag": "🇷🇺 RU | VLESS | @v2raych",
       "type": "vless",
-      "server": "portal.ofmdirect.com",
-      "server_port": 23200,
-      "uuid": "69a397ac-1a30-455f-a0ad-7c45c4c8ad16",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @v2raych",
-      "type": "vless",
-      "server": "play.worldpulse.sbs",
-      "server_port": 47656,
-      "uuid": "4346da41-0fe7-445d-89f4-1bc084e00a87",
+      "server": "home.fp3.ir",
+      "server_port": 200,
+      "uuid": "f762fa01-58a5-4d91-bdad-28275cc8d8d1",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

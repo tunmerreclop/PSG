@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇪🇸 ES | VLESS | @prrofile_purple", "server": "ns.piche.pw", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "7d591a13-9828-417c-aef9-63859280bb16", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇪🇸 ES | VLESS | @v2rayexpress", "server": "217.71.204.148", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "977cf430-e251-4b5f-8bc4-c974fdec0df9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇪🇸 ES | VLESS | @v2rayexpress", "server": "217.71.204.148", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "977cf430-e251-4b5f-8bc4-c974fdec0df9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇪🇸 ES | VLESS | @v2raytg", "server": "p1anel.lormarb.ir", "port": 53762, "type": "vless", "skip-cert-verify": true, "uuid": "aaeddbf5-a9df-4931-b231-08909eed7501", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -39,6 +40,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇪🇸 ES | VLESS | @prrofile_purple'
       - '🇪🇸 ES | VLESS | @v2rayexpress'
       - '🇪🇸 ES | VLESS | @v2rayexpress'
       - '🇪🇸 ES | VLESS | @v2raytg'

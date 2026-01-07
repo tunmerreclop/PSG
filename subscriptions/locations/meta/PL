@@ -25,7 +25,6 @@ dns:
 proxies: 
   - {"name": "🇵🇱 PL | VLESS | @kafing_2", "server": "poland.4uvpn1.us", "port": 52361, "type": "vless", "skip-cert-verify": true, "uuid": "9c0857dc-2900-4038-ac5e-c0bc189405d7", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇵🇱 PL | VLESS | @proxy48", "server": "172.64.198.137", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇵🇱 PL | VLESS | @v2raych", "server": "45.144.51.14", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "613725ab-ca86-4d54-852e-a0bf45e812de", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -41,7 +40,6 @@ proxy-groups:
     proxies: 
       - '🇵🇱 PL | VLESS | @kafing_2'
       - '🇵🇱 PL | VLESS | @proxy48'
-      - '🇵🇱 PL | VLESS | @v2raych'
 
   - name: 🌍 Global Media
     type: select

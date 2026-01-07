@@ -145,6 +145,7 @@
         "🇺🇸 US | VMESS | @v2ray4win",
         "🇮🇷 IR | VMESS | @v2ray4win",
         "🇽🇽 XX | VMESS | @v2ray_free_conf",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf",
         "🇽🇽 XX | VMESS | @v2ray_n",
         "🇽🇽 XX | VMESS | @v2ray_n",
         "🇦🇺 AU | VMESS | @v2rayngconfig",
@@ -241,6 +242,7 @@
         "🇽🇽 XX | VMESS | @v2ray4win",
         "🇺🇸 US | VMESS | @v2ray4win",
         "🇮🇷 IR | VMESS | @v2ray4win",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf",
         "🇽🇽 XX | VMESS | @v2ray_free_conf",
         "🇽🇽 XX | VMESS | @v2ray_n",
         "🇽🇽 XX | VMESS | @v2ray_n",
@@ -1557,6 +1559,31 @@
         "path": "/",
         "headers": {
           "Host": "t1.620720.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf",
+      "type": "vmess",
+      "server": "5.83.150.108",
+      "server_port": 23831,
+      "uuid": "c6e0562f-7ad1-40fb-a255-26194b2de84a",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "imafake.locker",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/speedtest",
+        "headers": {
+          "Host": "imafake.locker"
         }
       }
     },

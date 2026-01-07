@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇸🇪 SE | VLESS | @config_proxy",
         "🇸🇪 SE | VLESS | @dargiiriis",
         "🇸🇪 SE | VLESS | @deli_servers",
         "🇸🇪 SE | SS | @filtershekan_channel",
@@ -104,6 +105,12 @@
         "🇸🇪 SE | VLESS | @hope_net",
         "🇸🇪 SE | TROJAN | @hope_net",
         "🇸🇪 SE | VMESS | @ir_netproxy",
+        "🇸🇪 SE | VLESS | @kurd_v2ray",
+        "🇸🇪 SE | VLESS | @kurd_v2ray",
+        "🇸🇪 SE | VLESS | @kurd_v2ray",
+        "🇸🇪 SE | VLESS | @kurd_v2ray",
+        "🇸🇪 SE | VLESS | @kurd_v2ray",
+        "🇸🇪 SE | VLESS | @kurd_v2ray",
         "🇸🇪 SE | VLESS | @kurd_v2ray",
         "🇸🇪 SE | VLESS | @kurd_v2ray",
         "🇸🇪 SE | VLESS | @kurd_v2ray",
@@ -134,7 +141,6 @@
         "🇸🇪 SE | SS | @netfreedom0",
         "🇸🇪 SE | VLESS | @proxyfn",
         "🇸🇪 SE | VLESS | @proxyfn",
-        "🇸🇪 SE | VLESS | @prrofile_purple",
         "🇸🇪 SE | VLESS | @realvpnmaster",
         "🇸🇪 SE | VLESS | @realvpnmaster",
         "🇸🇪 SE | VLESS | @realvpnmaster",
@@ -162,6 +168,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇸🇪 SE | VLESS | @config_proxy",
         "🇸🇪 SE | VLESS | @dargiiriis",
         "🇸🇪 SE | VLESS | @deli_servers",
         "🇸🇪 SE | SS | @filtershekan_channel",
@@ -176,6 +183,12 @@
         "🇸🇪 SE | VLESS | @hope_net",
         "🇸🇪 SE | TROJAN | @hope_net",
         "🇸🇪 SE | VMESS | @ir_netproxy",
+        "🇸🇪 SE | VLESS | @kurd_v2ray",
+        "🇸🇪 SE | VLESS | @kurd_v2ray",
+        "🇸🇪 SE | VLESS | @kurd_v2ray",
+        "🇸🇪 SE | VLESS | @kurd_v2ray",
+        "🇸🇪 SE | VLESS | @kurd_v2ray",
+        "🇸🇪 SE | VLESS | @kurd_v2ray",
         "🇸🇪 SE | VLESS | @kurd_v2ray",
         "🇸🇪 SE | VLESS | @kurd_v2ray",
         "🇸🇪 SE | VLESS | @kurd_v2ray",
@@ -206,7 +219,6 @@
         "🇸🇪 SE | SS | @netfreedom0",
         "🇸🇪 SE | VLESS | @proxyfn",
         "🇸🇪 SE | VLESS | @proxyfn",
-        "🇸🇪 SE | VLESS | @prrofile_purple",
         "🇸🇪 SE | VLESS | @realvpnmaster",
         "🇸🇪 SE | VLESS | @realvpnmaster",
         "🇸🇪 SE | VLESS | @realvpnmaster",
@@ -236,6 +248,23 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "d.mrtech.com.tr",
+      "server_port": 443,
+      "uuid": "0415dbea-edbd-4d53-91f2-fe367ca48067",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇸🇪 SE | VLESS | @dargiiriis",
@@ -532,6 +561,36 @@
     {
       "tag": "🇸🇪 SE | VLESS | @kurd_v2ray",
       "type": "vless",
+      "server": "185.146.173.68",
+      "server_port": 2095,
+      "uuid": "DIGIV2raY",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @kurd_v2ray",
+      "type": "vless",
+      "server": "185.146.173.68",
+      "server_port": 2095,
+      "uuid": "DIGIV2raY",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @kurd_v2ray",
+      "type": "vless",
       "server": "185.146.173.93",
       "server_port": 2095,
       "uuid": "DIGIV2rAY",
@@ -550,6 +609,66 @@
       "server": "185.146.173.93",
       "server_port": 2095,
       "uuid": "DIGIV2rAY",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @kurd_v2ray",
+      "type": "vless",
+      "server": "185.146.173.93",
+      "server_port": 2095,
+      "uuid": "DIGIV2RAY",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @kurd_v2ray",
+      "type": "vless",
+      "server": "185.146.173.93",
+      "server_port": 2095,
+      "uuid": "DIGIV2RAY",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @kurd_v2ray",
+      "type": "vless",
+      "server": "185.146.173.93",
+      "server_port": 2095,
+      "uuid": "DIGiV2RAY",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @kurd_v2ray",
+      "type": "vless",
+      "server": "185.146.173.93",
+      "server_port": 2095,
+      "uuid": "DIGiV2RAY",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
@@ -762,14 +881,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @prrofile_purple",
-      "type": "vless",
-      "server": "n-vip.hulkirani1.ir",
-      "server_port": 80,
-      "uuid": "b9c20ba9-da82-4082-a97a-977b4fbed67b",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇸🇪 SE | VLESS | @realvpnmaster",

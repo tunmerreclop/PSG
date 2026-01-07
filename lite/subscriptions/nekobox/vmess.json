@@ -81,6 +81,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VMESS | @Fr33C0nfig",
+        "🇺🇸 US | VMESS | @config_proxy",
         "🇲🇺 MU | VMESS | @custom_14",
         "🇺🇸 US | VMESS | @diamondproxytm",
         "🇷🇺 RU | VMESS | @freeshadowsock",
@@ -175,6 +176,7 @@
         "🇺🇸 US | VMESS | @v2ray4win",
         "🇮🇷 IR | VMESS | @v2ray4win",
         "🇽🇽 XX | VMESS | @v2ray_free_conf",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf",
         "🇽🇽 XX | VMESS | @v2ray_n",
         "🇽🇽 XX | VMESS | @v2ray_n",
         "🇦🇺 AU | VMESS | @v2rayngconfig",
@@ -208,6 +210,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VMESS | @Fr33C0nfig",
+        "🇺🇸 US | VMESS | @config_proxy",
         "🇲🇺 MU | VMESS | @custom_14",
         "🇺🇸 US | VMESS | @diamondproxytm",
         "🇷🇺 RU | VMESS | @freeshadowsock",
@@ -301,6 +304,7 @@
         "🇽🇽 XX | VMESS | @v2ray4win",
         "🇺🇸 US | VMESS | @v2ray4win",
         "🇮🇷 IR | VMESS | @v2ray4win",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf",
         "🇽🇽 XX | VMESS | @v2ray_free_conf",
         "🇽🇽 XX | VMESS | @v2ray_n",
         "🇽🇽 XX | VMESS | @v2ray_n",
@@ -416,6 +420,15 @@
       "server": "172.234.132.232",
       "server_port": 10001,
       "uuid": "a6b99c05-8e0a-4f7e-bf7b-e4b9febb9589",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @config_proxy",
+      "type": "vmess",
+      "server": "47.251.91.241",
+      "server_port": 42899,
+      "uuid": "0925b355-2bcd-4eae-9720-d2709e4f7e36",
       "security": "auto",
       "alter_id": 0
     },
@@ -2064,6 +2077,31 @@
         "path": "/",
         "headers": {
           "Host": "t1.620720.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf",
+      "type": "vmess",
+      "server": "5.83.150.108",
+      "server_port": 23831,
+      "uuid": "c6e0562f-7ad1-40fb-a255-26194b2de84a",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "imafake.locker",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/speedtest",
+        "headers": {
+          "Host": "imafake.locker"
         }
       }
     },
