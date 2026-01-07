@@ -1,0 +1,808 @@
+//profile-title: base64:UFNHIHwgR0I=
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
+//support-url: https://t.me/yebekhe
+//profile-web-page-url: https://github.com/itsyebekhe/PSG
+
+{
+  "dns": {
+    "final": "local-dns",
+    "rules": [
+      {
+        "action": "route",
+        "clash_mode": "Global",
+        "server": "proxy-dns",
+        "source_ip_cidr": [
+          "172.19.0.0/30",
+          "fdfe:dcba:9876::1/126"
+        ]
+      },
+      {
+        "action": "route",
+        "server": "proxy-dns",
+        "source_ip_cidr": [
+          "172.19.0.0/30",
+          "fdfe:dcba:9876::1/126"
+        ]
+      },
+      {
+        "action": "route",
+        "clash_mode": "Direct",
+        "server": "direct-dns"
+      },
+      {
+        "action": "route",
+        "rule_set": [
+          "geosite-ir"
+        ],
+        "server": "direct-dns"
+      }
+    ],
+    "servers": [
+      {
+        "address": "tcp://1.1.1.1",
+        "address_resolver": "local-dns",
+        "detour": "proxy",
+        "tag": "proxy-dns"
+      },
+      {
+        "address": "local",
+        "detour": "direct",
+        "tag": "local-dns"
+      },
+      {
+        "address": "tcp://8.8.8.8",
+        "detour": "direct",
+        "tag": "direct-dns"
+      }
+    ],
+    "strategy": "prefer_ipv4"
+  },
+  "inbounds": [
+    {
+      "address": [
+        "172.19.0.1/30",
+        "fdfe:dcba:9876::1/126"
+      ],
+      "auto_route": true,
+      "endpoint_independent_nat": false,
+      "mtu": 9000,
+      "platform": {
+        "http_proxy": {
+          "enabled": true,
+          "server": "127.0.0.1",
+          "server_port": 2080
+        }
+      },
+      "stack": "system",
+      "strict_route": false,
+      "type": "tun"
+    },
+    {
+      "listen": "127.0.0.1",
+      "listen_port": 2080,
+      "type": "mixed",
+      "users": []
+    }
+  ],
+  "outbounds": [
+    {
+      "outbounds": [
+        "auto",
+        "direct",
+        "🇬🇧 GB | VLESS | @bored_vpn",
+        "🇬🇧 GB | SS | @config_proxy",
+        "🇬🇧 GB | VLESS | @flyv2ray",
+        "🇬🇧 GB | VLESS | @free1_vpn",
+        "🇬🇧 GB | SS | @free4allvpn",
+        "🇬🇧 GB | SS | @free4allvpn",
+        "🇬🇧 GB | VLESS | @free4allvpn",
+        "🇬🇧 GB | VLESS | @hope_net",
+        "🇬🇧 GB | VLESS | @kafing_2",
+        "🇬🇧 GB | VLESS | @kafing_2",
+        "🇬🇧 GB | VLESS | @kafing_2",
+        "🇬🇧 GB | VLESS | @kafing_2",
+        "🇬🇧 GB | SS | @key_outline",
+        "🇬🇧 GB | SS | @key_outline",
+        "🇬🇧 GB | SS | @key_outline",
+        "🇬🇧 GB | SS | @key_outline",
+        "🇬🇧 GB | SS | @key_outline",
+        "🇬🇧 GB | SS | @key_outline",
+        "🇬🇧 GB | SS | @key_outline",
+        "🇬🇧 GB | SS | @netfreedom0",
+        "🇬🇧 GB | SS | @netfreedom0",
+        "🇬🇧 GB | SS | @netfreedom0",
+        "🇬🇧 GB | VLESS | @orange_vpns",
+        "🇬🇧 GB | VLESS | @orange_vpns",
+        "🇬🇧 GB | VLESS | @outline_ir",
+        "🇬🇧 GB | VLESS | @outline_ir",
+        "🇬🇧 GB | VLESS | @parsashonam",
+        "🇬🇧 GB | VLESS | @parsashonam",
+        "🇬🇧 GB | VLESS | @prrofile_purple",
+        "🇬🇧 GB | VLESS | @prrofile_purple",
+        "🇬🇧 GB | VLESS | @prrofile_purple",
+        "🇬🇧 GB | SS | @prrofile_purple",
+        "🇬🇧 GB | SS | @prrofile_purple",
+        "🇬🇧 GB | SS | @prrofile_purple",
+        "🇬🇧 GB | SS | @prrofile_purple",
+        "🇬🇧 GB | VLESS | @prrofile_purple",
+        "🇬🇧 GB | VLESS | @prrofile_purple",
+        "🇬🇧 GB | VLESS | @prrofile_purple",
+        "🇬🇧 GB | VLESS | @satellitenewspersian",
+        "🇬🇧 GB | SS | @v2ray_free_conf",
+        "🇬🇧 GB | VLESS | @v2ray_vmes",
+        "🇬🇧 GB | VLESS | @v2ray_vmes",
+        "🇬🇧 GB | VLESS | @v2rayfast_7",
+        "🇬🇧 GB | VLESS | @v2raymelliii",
+        "🇬🇧 GB | VLESS | @v2rayopen",
+        "🇬🇧 GB | VLESS | @v2rayvpn2",
+        "🇬🇧 GB | VLESS | @vmesc",
+        "🇬🇧 GB | VLESS | @vmesc",
+        "🇬🇧 GB | VLESS | @vmesc",
+        "🇬🇧 GB | VLESS | @vmesc",
+        "🇬🇧 GB | VLESS | @vmesc",
+        "🇬🇧 GB | VLESS | @vpnowl",
+        "🇬🇧 GB | VLESS | @xsv2ray"
+      ],
+      "tag": "proxy",
+      "type": "selector"
+    },
+    {
+      "interval": "10m",
+      "outbounds": [
+        "🇬🇧 GB | VLESS | @bored_vpn",
+        "🇬🇧 GB | SS | @config_proxy",
+        "🇬🇧 GB | VLESS | @flyv2ray",
+        "🇬🇧 GB | VLESS | @free1_vpn",
+        "🇬🇧 GB | SS | @free4allvpn",
+        "🇬🇧 GB | SS | @free4allvpn",
+        "🇬🇧 GB | VLESS | @free4allvpn",
+        "🇬🇧 GB | VLESS | @hope_net",
+        "🇬🇧 GB | VLESS | @kafing_2",
+        "🇬🇧 GB | VLESS | @kafing_2",
+        "🇬🇧 GB | VLESS | @kafing_2",
+        "🇬🇧 GB | VLESS | @kafing_2",
+        "🇬🇧 GB | SS | @key_outline",
+        "🇬🇧 GB | SS | @key_outline",
+        "🇬🇧 GB | SS | @key_outline",
+        "🇬🇧 GB | SS | @key_outline",
+        "🇬🇧 GB | SS | @key_outline",
+        "🇬🇧 GB | SS | @key_outline",
+        "🇬🇧 GB | SS | @key_outline",
+        "🇬🇧 GB | SS | @netfreedom0",
+        "🇬🇧 GB | SS | @netfreedom0",
+        "🇬🇧 GB | SS | @netfreedom0",
+        "🇬🇧 GB | VLESS | @orange_vpns",
+        "🇬🇧 GB | VLESS | @orange_vpns",
+        "🇬🇧 GB | VLESS | @outline_ir",
+        "🇬🇧 GB | VLESS | @outline_ir",
+        "🇬🇧 GB | VLESS | @parsashonam",
+        "🇬🇧 GB | VLESS | @parsashonam",
+        "🇬🇧 GB | VLESS | @prrofile_purple",
+        "🇬🇧 GB | VLESS | @prrofile_purple",
+        "🇬🇧 GB | VLESS | @prrofile_purple",
+        "🇬🇧 GB | SS | @prrofile_purple",
+        "🇬🇧 GB | SS | @prrofile_purple",
+        "🇬🇧 GB | SS | @prrofile_purple",
+        "🇬🇧 GB | SS | @prrofile_purple",
+        "🇬🇧 GB | VLESS | @prrofile_purple",
+        "🇬🇧 GB | VLESS | @prrofile_purple",
+        "🇬🇧 GB | VLESS | @prrofile_purple",
+        "🇬🇧 GB | VLESS | @satellitenewspersian",
+        "🇬🇧 GB | SS | @v2ray_free_conf",
+        "🇬🇧 GB | VLESS | @v2ray_vmes",
+        "🇬🇧 GB | VLESS | @v2ray_vmes",
+        "🇬🇧 GB | VLESS | @v2rayfast_7",
+        "🇬🇧 GB | VLESS | @v2raymelliii",
+        "🇬🇧 GB | VLESS | @v2rayopen",
+        "🇬🇧 GB | VLESS | @v2rayvpn2",
+        "🇬🇧 GB | VLESS | @vmesc",
+        "🇬🇧 GB | VLESS | @vmesc",
+        "🇬🇧 GB | VLESS | @vmesc",
+        "🇬🇧 GB | VLESS | @vmesc",
+        "🇬🇧 GB | VLESS | @vmesc",
+        "🇬🇧 GB | VLESS | @vpnowl",
+        "🇬🇧 GB | VLESS | @xsv2ray"
+      ],
+      "tag": "auto",
+      "tolerance": 50,
+      "type": "urltest",
+      "url": "http://www.gstatic.com/generate_204"
+    },
+    {
+      "tag": "direct",
+      "type": "direct"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @bored_vpn",
+      "type": "vless",
+      "server": "25.26.27.158",
+      "server_port": 2096,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @config_proxy",
+      "type": "shadowsocks",
+      "server": "62.100.205.100",
+      "server_port": 990,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @flyv2ray",
+      "type": "vless",
+      "server": "25.26.27.158",
+      "server_port": 2096,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @free1_vpn",
+      "type": "vless",
+      "server": "25.26.27.158",
+      "server_port": 2096,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @free4allvpn",
+      "type": "shadowsocks",
+      "server": "141.98.101.182",
+      "server_port": 443,
+      "method": "YXV0bzo=",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @free4allvpn",
+      "type": "shadowsocks",
+      "server": "82.38.31.205",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @free4allvpn",
+      "type": "vless",
+      "server": "46.101.57.231",
+      "server_port": 443,
+      "uuid": "037e395f-f79d-4d61-bb92-dafcc27e53ba",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @hope_net",
+      "type": "vless",
+      "server": "217.163.76.225",
+      "server_port": 443,
+      "uuid": "48198295-b7ba-4b5c-8d85-085d55a6c869",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @kafing_2",
+      "type": "vless",
+      "server": "25.26.27.158",
+      "server_port": 2096,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @kafing_2",
+      "type": "vless",
+      "server": "25.26.27.158",
+      "server_port": 2096,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @kafing_2",
+      "type": "vless",
+      "server": "25.26.27.158",
+      "server_port": 2096,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @kafing_2",
+      "type": "vless",
+      "server": "25.26.27.158",
+      "server_port": 2096,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @key_outline",
+      "type": "shadowsocks",
+      "server": "78.129.140.11",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPSGlOSDdRd1dGdGRHR3hzcHJwU1JD",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @key_outline",
+      "type": "shadowsocks",
+      "server": "78.129.140.11",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppTVNMM3I1QUc1U2VIWkJOUGY5YThk",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @key_outline",
+      "type": "shadowsocks",
+      "server": "78.129.140.11",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKSVh6aDg1T1BvYWFBU3ZYcnBSbDUw",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @key_outline",
+      "type": "shadowsocks",
+      "server": "78.129.140.11",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6c1FHMldlVjJJWVMwUGdZT2VoQ0U1",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @key_outline",
+      "type": "shadowsocks",
+      "server": "78.129.140.11",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRMlFNU0t0cGk3eXlUclFaaTU1WTcx",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @key_outline",
+      "type": "shadowsocks",
+      "server": "78.129.140.11",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCZHA5cTYzMG9HeTF3d3REQU1HdG1L",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @key_outline",
+      "type": "shadowsocks",
+      "server": "78.129.140.11",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxTUFuZ0pGRVFvcjlPNWZtUktLTTln",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @netfreedom0",
+      "type": "shadowsocks",
+      "server": "82.38.31.179",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @netfreedom0",
+      "type": "shadowsocks",
+      "server": "82.38.31.210",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @netfreedom0",
+      "type": "shadowsocks",
+      "server": "82.38.31.176",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @orange_vpns",
+      "type": "vless",
+      "server": "23.81.33.188",
+      "server_port": 2096,
+      "uuid": "0aec5570-f7ab-4c9d-adc0-e095dfc57f00",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @orange_vpns",
+      "type": "vless",
+      "server": "25.26.27.158",
+      "server_port": 2096,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @outline_ir",
+      "type": "vless",
+      "server": "25.26.27.158",
+      "server_port": 2096,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @outline_ir",
+      "type": "vless",
+      "server": "25.26.27.158",
+      "server_port": 2096,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @parsashonam",
+      "type": "vless",
+      "server": "199.232.53.135",
+      "server_port": 80,
+      "uuid": "Parsashonam-333",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @parsashonam",
+      "type": "vless",
+      "server": "199.232.53.135",
+      "server_port": 80,
+      "uuid": "Parsashonam-333",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @prrofile_purple",
+      "type": "vless",
+      "server": "25.25.25.253",
+      "server_port": 2096,
+      "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @prrofile_purple",
+      "type": "vless",
+      "server": "25.25.25.253",
+      "server_port": 2096,
+      "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @prrofile_purple",
+      "type": "vless",
+      "server": "25.25.25.253",
+      "server_port": 2096,
+      "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @prrofile_purple",
+      "type": "shadowsocks",
+      "server": "82.38.31.191",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @prrofile_purple",
+      "type": "shadowsocks",
+      "server": "82.38.31.217",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @prrofile_purple",
+      "type": "shadowsocks",
+      "server": "82.38.31.194",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @prrofile_purple",
+      "type": "shadowsocks",
+      "server": "82.38.31.218",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @prrofile_purple",
+      "type": "vless",
+      "server": "uk2.miyazono-kaori.com",
+      "server_port": 443,
+      "uuid": "582f44d4-4511-402c-a0b7-b5771a2a5c9d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @prrofile_purple",
+      "type": "vless",
+      "server": "25.26.27.158",
+      "server_port": 2096,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @prrofile_purple",
+      "type": "vless",
+      "server": "25.26.27.158",
+      "server_port": 2096,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @satellitenewspersian",
+      "type": "vless",
+      "server": "23.81.33.188",
+      "server_port": 443,
+      "uuid": "239ed41c-4af6-49ba-8156-ff2310ea5d78",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @v2ray_free_conf",
+      "type": "shadowsocks",
+      "server": "82.38.31.202",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2ray_vmes",
+      "type": "vless",
+      "server": "25.26.27.158",
+      "server_port": 2096,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2ray_vmes",
+      "type": "vless",
+      "server": "25.26.27.158",
+      "server_port": 2096,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2rayfast_7",
+      "type": "vless",
+      "server": "clean.photoggenic.ir",
+      "server_port": 8880,
+      "uuid": "8e997404-cb62-4fa1-a8c9-c77a32f10153",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2raymelliii",
+      "type": "vless",
+      "server": "25.26.27.158",
+      "server_port": 2096,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2rayopen",
+      "type": "vless",
+      "server": "25.26.27.158",
+      "server_port": 2096,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2rayvpn2",
+      "type": "vless",
+      "server": "25.26.27.158",
+      "server_port": 2096,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @vmesc",
+      "type": "vless",
+      "server": "25.26.27.158",
+      "server_port": 2096,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @vmesc",
+      "type": "vless",
+      "server": "25.26.27.158",
+      "server_port": 2096,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @vmesc",
+      "type": "vless",
+      "server": "25.26.27.158",
+      "server_port": 2096,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @vmesc",
+      "type": "vless",
+      "server": "185.193.28.168",
+      "server_port": 2096,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @vmesc",
+      "type": "vless",
+      "server": "25.26.27.158",
+      "server_port": 2096,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @vpnowl",
+      "type": "vless",
+      "server": "25.26.27.158",
+      "server_port": 2096,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @xsv2ray",
+      "type": "vless",
+      "server": "nv73.momdping.com",
+      "server_port": 443,
+      "uuid": "959eb33c-43f8-4f45-9de6-3ffd13319a79",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    }
+  ],
+  "route": {
+    "auto_detect_interface": true,
+    "final": "proxy",
+    "rule_set": [
+      {
+        "download_detour": "direct",
+        "format": "binary",
+        "tag": "geosite-ads",
+        "type": "remote",
+        "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geosite/category-ads-all.srs"
+      },
+      {
+        "download_detour": "direct",
+        "format": "binary",
+        "tag": "geosite-private",
+        "type": "remote",
+        "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geosite/private.srs"
+      },
+      {
+        "download_detour": "direct",
+        "format": "binary",
+        "tag": "geosite-ir",
+        "type": "remote",
+        "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geosite/category-ir.srs"
+      },
+      {
+        "download_detour": "direct",
+        "format": "binary",
+        "tag": "geoip-private",
+        "type": "remote",
+        "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geoip/private.srs"
+      },
+      {
+        "download_detour": "direct",
+        "format": "binary",
+        "tag": "geoip-ir",
+        "type": "remote",
+        "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geoip/ir.srs"
+      }
+    ],
+    "rules": [
+      {
+        "action": "sniff"
+      },
+      {
+        "action": "route",
+        "clash_mode": "Direct",
+        "outbound": "direct"
+      },
+      {
+        "action": "route",
+        "clash_mode": "Global",
+        "outbound": "proxy"
+      },
+      {
+        "action": "hijack-dns",
+        "protocol": "dns"
+      },
+      {
+        "action": "route",
+        "outbound": "direct",
+        "rule_set": [
+          "geoip-private",
+          "geosite-private",
+          "geosite-ir",
+          "geoip-ir"
+        ]
+      },
+      {
+        "action": "reject",
+        "rule_set": [
+          "geosite-ads"
+        ]
+      }
+    ]
+  }
+}

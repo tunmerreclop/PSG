@@ -90,8 +90,14 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇪 AE | SS | @NamiraConfigs",
-        "🇦🇪 AE | SS | @NamiraConfigs"
+        "🇦🇪 AE | VLESS | @filterk0sh",
+        "🇦🇪 AE | VLESS | @iran_access",
+        "🇦🇪 AE | SS | @netfreedom0",
+        "🇦🇪 AE | VLESS | @outline_ir",
+        "🇦🇪 AE | SS | @outlinereleasedkey",
+        "🇦🇪 AE | VLESS | @prrofile_purple",
+        "🇦🇪 AE | VLESS | @v2raying",
+        "🇦🇪 AE | VLESS | @vpnplusee_free"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +105,14 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇪 AE | SS | @NamiraConfigs",
-        "🇦🇪 AE | SS | @NamiraConfigs"
+        "🇦🇪 AE | VLESS | @filterk0sh",
+        "🇦🇪 AE | VLESS | @iran_access",
+        "🇦🇪 AE | SS | @netfreedom0",
+        "🇦🇪 AE | VLESS | @outline_ir",
+        "🇦🇪 AE | SS | @outlinereleasedkey",
+        "🇦🇪 AE | VLESS | @prrofile_purple",
+        "🇦🇪 AE | VLESS | @v2raying",
+        "🇦🇪 AE | VLESS | @vpnplusee_free"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,20 +124,96 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇪 AE | SS | @NamiraConfigs",
+      "tag": "🇦🇪 AE | VLESS | @filterk0sh",
+      "type": "vless",
+      "server": "93.127.180.123",
+      "server_port": 3030,
+      "uuid": "ed82ccaa-4924-41a6-90a1-8facadf38841",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @iran_access",
+      "type": "vless",
+      "server": "uae.kitten-tube.com",
+      "server_port": 443,
+      "uuid": "414df689-dc19-418b-849c-f0f15967d71e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 AE | SS | @netfreedom0",
       "type": "shadowsocks",
-      "server": "beesyar.org",
+      "server": "151.242.251.142",
       "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1",
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
       "password": null
     },
     {
-      "tag": "🇦🇪 AE | SS | @NamiraConfigs",
+      "tag": "🇦🇪 AE | VLESS | @outline_ir",
+      "type": "vless",
+      "server": "146.75.64.0",
+      "server_port": 80,
+      "uuid": "54f7ec07-e994-4861-b951-0a0886439ae4",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇦🇪 AE | SS | @outlinereleasedkey",
       "type": "shadowsocks",
-      "server": "beesyar.org",
+      "server": "151.242.251.153",
       "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh",
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q",
       "password": null
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @prrofile_purple",
+      "type": "vless",
+      "server": "viva.abidar.net",
+      "server_port": 11006,
+      "uuid": "7e6d1d6b-12ad-4c27-ebdd-10b7cd362cf8",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @v2raying",
+      "type": "vless",
+      "server": "v2shop-dubai1.bing-net.com",
+      "server_port": 3038,
+      "uuid": "84260313-d1db-4377-a71b-235b3b940649",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @vpnplusee_free",
+      "type": "vless",
+      "server": "212.192.2.218",
+      "server_port": 443,
+      "uuid": "e7d37edf-2c57-4047-8cdd-33ffc8324235",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

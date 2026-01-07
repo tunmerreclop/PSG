@@ -1,0 +1,135 @@
+mixed-port: 7890
+allow-lan: true
+log-level: info
+external-controller: 0.0.0.0:9090
+
+dns:
+  enabled: true
+  listen: 0.0.0.0:1053
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fake-ip-filter:
+    - '*.lan'
+    - '*.local'
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - '+.pool.ntp.org'
+
+proxies: 
+  - {"name": "همکاری_ملی", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
+  - {"name": "جاویدشاه", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
+  - {"name": "KingRezaPahlavi", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
+  - {"name": "🇭🇰 HK | VMESS | @config_proxy", "server": "hkt.gotochinatown.net", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "336501b6-51d2-11ee-a993-f23c9164ca5d", "alterId": 2, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/", "headers": {"Host": "hkt.gotochinatown.net"}}}
+  - {"name": "🇦🇺 AU | VMESS | @dailyv2ray", "server": "104.31.16.104", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "12c25b50-f6c7-11ed-b230-205c6d5f5d78", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/qmbdkyzn", "headers": {"Host": "us-4.0rd.net"}}}
+  - {"name": "🇭🇰 HK | VMESS | @freev2rays", "server": "hk2.lrzdx.uk", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "db69d5bc-d36c-4903-f471-74b98c5cefe5", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/register", "headers": {"Host": "hk2.lrzdx.uk"}}}
+  - {"name": "🇺🇸 US | VMESS | @freev2rays", "server": "xcf037.facai2024.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "d9863037-0463-4615-e972-36ba9662d1e9", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/d9863037", "headers": {"Host": "xcf037.facai2024.com"}}}
+  - {"name": "🇧🇾 BY | VMESS | @ir_netproxy", "server": "5.161.156.196", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "d20e38ef-1a4d-4009-a00d-2f0d44e3c65a", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇺🇸 US | VMESS | @ir_netproxy", "server": "172.67.207.114", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 1, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "linkvws", "headers": {"Host": "ophelia.mom"}}}
+  - {"name": "🇽🇽 XX | VMESS | @iranvpnet", "server": "mute-math-d64e.0e503992ad7026.WOrKERs.deV", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/aveiror.com:443/linkvws", "headers": {"Host": "mute-math-d64e.0e503992ad7026.woRKERS.DeV"}}}
+  - {"name": "🇦🇺 AU | VMESS | @khoneproxy", "server": "us-2.0rd.net", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "597888c0-a318-11ed-b536-205c6d5f5d78", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/tq98e0yk", "headers": {"Host": "us-2.0rd.net"}}}
+  - {"name": "🇺🇸 US | VMESS | @manstervpn", "server": "172.67.71.160", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkws", "headers": {"Host": "obdii.cfd"}}}
+  - {"name": "🇽🇽 XX | VMESS | @manstervpn", "server": "104.16.60.8", "port": 2086, "type": "vmess", "skip-cert-verify": true, "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/glweidf.sbs/linkws", "headers": {"Host": "1c11-muddy-rice-1c11.vetanex501.workers.dev"}}}
+  - {"name": "🇺🇸 US | VMESS | @mi_pn_official", "server": "104.21.15.212", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkws", "headers": {"Host": "glweidf.sbs"}}}
+  - {"name": "🇷🇺 RU | VMESS | @prooxyk", "server": "77.v2ray1.xyz", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/A2DJOPFT", "headers": {"Host": "77.v2ray1.xyz"}}}
+  - {"name": "🇺🇸 US | VMESS | @serverv2ray00", "server": "104.21.4.6", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkws", "headers": {"Host": "glweidf.cfd"}}}
+  - {"name": "🇺🇸 US | VMESS | @serverv2ray00", "server": "172.67.196.112", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkvws", "headers": {"Host": "kellie.makeup"}}}
+  - {"name": "🇺🇸 US | VMESS | @serverv2ray00", "server": "172.67.152.214", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkvws", "headers": {"Host": "meroiy.icu"}}}
+  - {"name": "🇺🇸 US | VMESS | @serverv2ray00", "server": "172.67.170.13", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkws", "headers": {"Host": "glweidf.sbs"}}}
+  - {"name": "🇺🇸 US | VMESS | @v2ray4win", "server": "cf.sudoer.net", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "c11357eb-a34e-5acb-a309-f8af8082855c", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/api05", "headers": {"Host": "scherehtzflk01.schere.net"}}}
+  - {"name": "🇽🇽 XX | VMESS | @v2ray_free_conf", "server": "t1.620720.xyz", "port": 8443, "type": "vmess", "skip-cert-verify": true, "uuid": "516d8a7a-3f0b-41d3-bad0-246116381516", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/", "headers": {"Host": "t1.620720.xyz"}}}
+  - {"name": "🇦🇺 AU | VMESS | @v2rayngconfig", "server": "vde2.0bad.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "927094d3-d678-4763-8591-e240d0bcae87", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/chat", "headers": {"Host": "vde2.0bad.com"}}}
+  - {"name": "🇺🇸 US | VMESS | @v2rayngconfig", "server": "new6.hucloud-dns.xyz", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "0a5dc877-0211-4352-f73a-8fbdae81d673", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/", "headers": {"Host": "new6.hucloud-dns.xyz"}}}
+  - {"name": "🇦🇺 AU | VMESS | @v2rayngconfig", "server": "vin1.0bad.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "927094d3-d678-4763-8591-e240d0bcae87", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/chat", "headers": {"Host": "vin1.0bad.com"}}}
+  - {"name": "🇦🇺 AU | VMESS | @v2rayngconfig", "server": "vau1.0bad.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "927094d3-d678-4763-8591-e240d0bcae87", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/chat", "headers": {"Host": "vau1.0bad.com"}}}
+  - {"name": "🇺🇸 US | VMESS | @vpngate_config", "server": "cold-dawn-9246.fly.dev", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "ea4909ef-7ca6-4b46-bf2e-6c07896ef338", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm", "headers": {"Host": "cold-dawn-9246.fly.dev"}}}
+  - {"name": "🇮🇷 IR | VMESS | @xsv2ray", "server": "tehran-sms.xyz", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "7f034e0b-0d3f-4961-92d6-1b4bdbf3cb17", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/connect/de/?ed=1024/?JOKERRVPN", "headers": {"Host": "tehran-sms.xyz"}}}
+
+proxy-groups:
+  - name: 🚀 Proxy
+    type: select
+    proxies:
+      - ♻️ Auto
+      - 🎯 Direct
+
+  - name: ♻️ Auto
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies: 
+      - 'همکاری_ملی'
+      - 'جاویدشاه'
+      - 'KingRezaPahlavi'
+      - '🇭🇰 HK | VMESS | @config_proxy'
+      - '🇦🇺 AU | VMESS | @dailyv2ray'
+      - '🇭🇰 HK | VMESS | @freev2rays'
+      - '🇺🇸 US | VMESS | @freev2rays'
+      - '🇧🇾 BY | VMESS | @ir_netproxy'
+      - '🇺🇸 US | VMESS | @ir_netproxy'
+      - '🇽🇽 XX | VMESS | @iranvpnet'
+      - '🇦🇺 AU | VMESS | @khoneproxy'
+      - '🇺🇸 US | VMESS | @manstervpn'
+      - '🇽🇽 XX | VMESS | @manstervpn'
+      - '🇺🇸 US | VMESS | @mi_pn_official'
+      - '🇷🇺 RU | VMESS | @prooxyk'
+      - '🇺🇸 US | VMESS | @serverv2ray00'
+      - '🇺🇸 US | VMESS | @serverv2ray00'
+      - '🇺🇸 US | VMESS | @serverv2ray00'
+      - '🇺🇸 US | VMESS | @serverv2ray00'
+      - '🇺🇸 US | VMESS | @v2ray4win'
+      - '🇽🇽 XX | VMESS | @v2ray_free_conf'
+      - '🇦🇺 AU | VMESS | @v2rayngconfig'
+      - '🇺🇸 US | VMESS | @v2rayngconfig'
+      - '🇦🇺 AU | VMESS | @v2rayngconfig'
+      - '🇦🇺 AU | VMESS | @v2rayngconfig'
+      - '🇺🇸 US | VMESS | @vpngate_config'
+      - '🇮🇷 IR | VMESS | @xsv2ray'
+
+  - name: 🌍 Global Media
+    type: select
+    proxies:
+      - 🚀 Proxy
+      - ♻️ Auto
+      - 🎯 Direct
+
+  - name: 🎯 Direct
+    type: select
+    proxies:
+      - DIRECT
+
+  - name: 🛑 Ad Block
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+
+  - name: 🐟 Fallback
+    type: select
+    proxies:
+      - 🚀 Proxy
+      - 🎯 Direct
+
+rules:
+  - DOMAIN-KEYWORD,adservice,🛑 Ad Block
+  - DOMAIN-SUFFIX,googlesyndication.com,🛑 Ad Block
+  - DOMAIN-SUFFIX,netflix.com,🌍 Global Media
+  - DOMAIN-SUFFIX,nflxvideo.net,🌍 Global Media
+  - DOMAIN-SUFFIX,disneyplus.com,🌍 Global Media
+  - DOMAIN-KEYWORD,youtube,🌍 Global Media
+  - DOMAIN-SUFFIX,t.me,🚀 Proxy
+  - DOMAIN-SUFFIX,telegram.org,🚀 Proxy
+  - DOMAIN-SUFFIX,openai.com,🚀 Proxy
+  - DOMAIN-SUFFIX,lan,🎯 Direct
+  - DOMAIN-SUFFIX,local,🎯 Direct
+  - IP-CIDR,127.0.0.0/8,🎯 Direct,no-resolve
+  - IP-CIDR,192.168.0.0/16,🎯 Direct,no-resolve
+  - IP-CIDR,10.0.0.0/8,🎯 Direct,no-resolve
+  - IP-CIDR,172.16.0.0/12,🎯 Direct,no-resolve
+  - GEOIP,IR,🎯 Direct
+  - MATCH,🐟 Fallback
