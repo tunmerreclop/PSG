@@ -90,7 +90,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇹 AT | VLESS | @hope_net",
         "🇦🇹 AT | VLESS | @orange_vpns",
         "🇦🇹 AT | SS | @prrofile_purple"
       ],
@@ -100,7 +99,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇹 AT | VLESS | @hope_net",
         "🇦🇹 AT | VLESS | @orange_vpns",
         "🇦🇹 AT | SS | @prrofile_purple"
       ],
@@ -112,23 +110,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇦🇹 AT | VLESS | @hope_net",
-      "type": "vless",
-      "server": "212.183.88.102",
-      "server_port": 443,
-      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇦🇹 AT | VLESS | @orange_vpns",

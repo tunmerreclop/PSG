@@ -92,17 +92,13 @@
         "direct",
         "🇳🇱 NL | VLESS | @Fr33C0nfig",
         "🇳🇱 NL | VLESS | @bored_vpn",
-        "🇳🇱 NL | VLESS | @config_proxy",
-        "🇳🇱 NL | VLESS | @config_proxy",
         "🇳🇱 NL | VLESS | @filterk0sh",
-        "🇳🇱 NL | VLESS | @flyv2ray",
         "🇳🇱 NL | VLESS | @free4allvpn",
         "🇳🇱 NL | TROJAN | @manstervpn",
         "🇳🇱 NL | SS | @manstervpn",
         "🇳🇱 NL | VLESS | @minovpnch",
         "🇳🇱 NL | SS | @netfreedom0",
         "🇳🇱 NL | VLESS | @nn_vpn",
-        "🇳🇱 NL | VLESS | @nofiltering2",
         "🇳🇱 NL | VLESS | @nofiltering2",
         "🇳🇱 NL | VLESS | @nofiltering2",
         "🇳🇱 NL | VLESS | @nofiltering2",
@@ -122,10 +118,12 @@
         "🇳🇱 NL | SS | @outlinereleasedkey",
         "🇳🇱 NL | VLESS | @prrofile_purple",
         "🇳🇱 NL | VLESS | @qeshmserver",
+        "🇳🇱 NL | VLESS | @server_nekobox",
         "🇳🇱 NL | VLESS | @sobi_vpn",
         "🇳🇱 NL | VLESS | @v2aryng_vpn",
         "🇳🇱 NL | VLESS | @v2aryng_vpn",
         "🇳🇱 NL | VLESS | @v2ray_collector",
+        "🇳🇱 NL | VLESS | @v2raych",
         "🇳🇱 NL | SS | @NamiraConfigs"
       ],
       "tag": "proxy",
@@ -136,17 +134,13 @@
       "outbounds": [
         "🇳🇱 NL | VLESS | @Fr33C0nfig",
         "🇳🇱 NL | VLESS | @bored_vpn",
-        "🇳🇱 NL | VLESS | @config_proxy",
-        "🇳🇱 NL | VLESS | @config_proxy",
         "🇳🇱 NL | VLESS | @filterk0sh",
-        "🇳🇱 NL | VLESS | @flyv2ray",
         "🇳🇱 NL | VLESS | @free4allvpn",
         "🇳🇱 NL | TROJAN | @manstervpn",
         "🇳🇱 NL | SS | @manstervpn",
         "🇳🇱 NL | VLESS | @minovpnch",
         "🇳🇱 NL | SS | @netfreedom0",
         "🇳🇱 NL | VLESS | @nn_vpn",
-        "🇳🇱 NL | VLESS | @nofiltering2",
         "🇳🇱 NL | VLESS | @nofiltering2",
         "🇳🇱 NL | VLESS | @nofiltering2",
         "🇳🇱 NL | VLESS | @nofiltering2",
@@ -166,10 +160,12 @@
         "🇳🇱 NL | SS | @outlinereleasedkey",
         "🇳🇱 NL | VLESS | @prrofile_purple",
         "🇳🇱 NL | VLESS | @qeshmserver",
+        "🇳🇱 NL | VLESS | @server_nekobox",
         "🇳🇱 NL | VLESS | @sobi_vpn",
         "🇳🇱 NL | VLESS | @v2aryng_vpn",
         "🇳🇱 NL | VLESS | @v2aryng_vpn",
         "🇳🇱 NL | VLESS | @v2ray_collector",
+        "🇳🇱 NL | VLESS | @v2raych",
         "🇳🇱 NL | SS | @NamiraConfigs"
       ],
       "tag": "auto",
@@ -212,22 +208,6 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "91.84.110.45",
-      "server_port": 8443,
-      "uuid": "a307515b-bfac-4dfb-a5ac-0dd5596e76f2",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "s9.vless-balancer.ru",
-      "server_port": 4443,
-      "uuid": "96605f21-f706-45ae-8eeb-ec71efbca6a2",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇳🇱 NL | VLESS | @filterk0sh",
       "type": "vless",
       "server": "eng14.netliberated.org",
@@ -248,14 +228,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @flyv2ray",
-      "type": "vless",
-      "server": "5.10.245.238",
-      "server_port": 2096,
-      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇳🇱 NL | VLESS | @free4allvpn",
@@ -311,14 +283,6 @@
       "server": "sadaf.netherlands.mehrdadsadaf.com",
       "server_port": 80,
       "uuid": "59acb90b-fb9d-433b-a2f0-c039cf23dfc7",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @nofiltering2",
-      "type": "vless",
-      "server": "151.101.205.194",
-      "server_port": 80,
-      "uuid": "3b1af81c-9c09-46fd-bcfb-1fa7bd73fe5f",
       "packet_encoding": "xudp"
     },
     {
@@ -506,6 +470,28 @@
       }
     },
     {
+      "tag": "🇳🇱 NL | VLESS | @server_nekobox",
+      "type": "vless",
+      "server": "node.idealvpn.site",
+      "server_port": 443,
+      "uuid": "a5426375-3592-4e0c-9c17-1007e7b92660",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇳🇱 NL | VLESS | @sobi_vpn",
       "type": "vless",
       "server": "45.131.4.5",
@@ -564,6 +550,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2raych",
+      "type": "vless",
+      "server": "sprt.bestsurena.com",
+      "server_port": 13359,
+      "uuid": "f1b42f5d-e825-4393-90e6-a5ccca1d6220",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇳🇱 NL | SS | @NamiraConfigs",

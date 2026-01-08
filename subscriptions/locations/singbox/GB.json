@@ -91,11 +91,12 @@
         "auto",
         "direct",
         "🇬🇧 GB | VLESS | @bored_vpn",
+        "🇬🇧 GB | SS | @config_proxy",
         "🇬🇧 GB | VLESS | @config_proxy",
         "🇬🇧 GB | VLESS | @config_proxy",
-        "🇬🇧 GB | VLESS | @configv2rayforfree",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | SS | @free4allvpn",
+        "🇬🇧 GB | VLESS | @hope_net",
         "🇬🇧 GB | VLESS | @kafing_2",
         "🇬🇧 GB | VLESS | @kafing_2",
         "🇬🇧 GB | VLESS | @kafing_2",
@@ -129,6 +130,7 @@
         "🇬🇧 GB | VLESS | @v2ray_vmes",
         "🇬🇧 GB | VLESS | @v2ray_vmes",
         "🇬🇧 GB | VLESS | @v2raych",
+        "🇬🇧 GB | VLESS | @v2raych",
         "🇬🇧 GB | VLESS | @v2rayfast_7",
         "🇬🇧 GB | VLESS | @v2rayfast_7",
         "🇬🇧 GB | VLESS | @v2raymelliii",
@@ -140,7 +142,8 @@
         "🇬🇧 GB | VLESS | @vmesc",
         "🇬🇧 GB | VLESS | @vmesc",
         "🇬🇧 GB | VLESS | @vmesc",
-        "🇬🇧 GB | VLESS | @vpn_ioss"
+        "🇬🇧 GB | VLESS | @vpn_ioss",
+        "🇬🇧 GB | VLESS | @vpnowl"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -149,11 +152,12 @@
       "interval": "10m",
       "outbounds": [
         "🇬🇧 GB | VLESS | @bored_vpn",
+        "🇬🇧 GB | SS | @config_proxy",
         "🇬🇧 GB | VLESS | @config_proxy",
         "🇬🇧 GB | VLESS | @config_proxy",
-        "🇬🇧 GB | VLESS | @configv2rayforfree",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | SS | @free4allvpn",
+        "🇬🇧 GB | VLESS | @hope_net",
         "🇬🇧 GB | VLESS | @kafing_2",
         "🇬🇧 GB | VLESS | @kafing_2",
         "🇬🇧 GB | VLESS | @kafing_2",
@@ -187,6 +191,7 @@
         "🇬🇧 GB | VLESS | @v2ray_vmes",
         "🇬🇧 GB | VLESS | @v2ray_vmes",
         "🇬🇧 GB | VLESS | @v2raych",
+        "🇬🇧 GB | VLESS | @v2raych",
         "🇬🇧 GB | VLESS | @v2rayfast_7",
         "🇬🇧 GB | VLESS | @v2rayfast_7",
         "🇬🇧 GB | VLESS | @v2raymelliii",
@@ -198,7 +203,8 @@
         "🇬🇧 GB | VLESS | @vmesc",
         "🇬🇧 GB | VLESS | @vmesc",
         "🇬🇧 GB | VLESS | @vmesc",
-        "🇬🇧 GB | VLESS | @vpn_ioss"
+        "🇬🇧 GB | VLESS | @vpn_ioss",
+        "🇬🇧 GB | VLESS | @vpnowl"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -218,34 +224,27 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇬🇧 GB | SS | @config_proxy",
+      "type": "shadowsocks",
+      "server": "62.100.205.100",
+      "server_port": 990,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==",
+      "password": null
+    },
+    {
       "tag": "🇬🇧 GB | VLESS | @config_proxy",
       "type": "vless",
-      "server": "25.26.27.158",
-      "server_port": 2096,
-      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "server": "25.25.25.25",
+      "server_port": 2082,
+      "uuid": "d1f7114a-32e2-400d-b403-b045aa204f4a",
       "packet_encoding": "xudp"
     },
     {
       "tag": "🇬🇧 GB | VLESS | @config_proxy",
       "type": "vless",
-      "server": "185.193.30.158",
-      "server_port": 2096,
-      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @configv2rayforfree",
-      "type": "vless",
-      "server": "hajimamadvpnjoinsho.fast199.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "832a3784-7ae1-4ff2-ab13-5fb4bf8abd28",
+      "server": "cr7.zx-shop.ir",
+      "server_port": 8880,
+      "uuid": "abd432ba-c9ca-4565-e787-f354d466be4e",
       "packet_encoding": "xudp"
     },
     {
@@ -263,6 +262,14 @@
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
       "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @hope_net",
+      "type": "vless",
+      "server": "154.197.121.178",
+      "server_port": 8443,
+      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇬🇧 GB | VLESS | @kafing_2",
@@ -564,19 +571,18 @@
     {
       "tag": "🇬🇧 GB | VLESS | @v2raych",
       "type": "vless",
+      "server": "25.25.25.25",
+      "server_port": 2082,
+      "uuid": "d1f7114a-32e2-400d-b403-b045aa204f4a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2raych",
+      "type": "vless",
       "server": "cr7.zx-shop.ir",
-      "server_port": 2096,
-      "uuid": "725f7cc0-af7e-40b8-e2c1-72e29bc00529",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server_port": 8880,
+      "uuid": "abd432ba-c9ca-4565-e787-f354d466be4e",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇬🇧 GB | VLESS | @v2rayfast_7",
@@ -686,6 +692,14 @@
     },
     {
       "tag": "🇬🇧 GB | VLESS | @vpn_ioss",
+      "type": "vless",
+      "server": "25.26.27.158",
+      "server_port": 2096,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @vpnowl",
       "type": "vless",
       "server": "25.26.27.158",
       "server_port": 2096,

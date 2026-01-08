@@ -23,8 +23,14 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇮🇹 IT | VLESS | @Fr33C0nfig", "server": "ip3-fast.tyryqyserver.ir", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "58f72986-da72-4942-bc88-59276dab411f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇹 IT | VLESS | @config_proxy", "server": "pt1vless.instavpn.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "854eea7a-c834-4f62-9e17-ae63d1086f36", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇹 IT | VLESS | @flyv2ray", "server": "146.75.55.82", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "f78e701b-dd93-49ce-94a0-706df52094db", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇹 IT | VLESS | @prrofile_purple", "server": "ip.fastlynew.hosting-ip.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "TELEGRAM-CONFiGLiNE-86", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇹 IT | VLESS | @prrofile_purple", "server": "ip.fastlynew.hosting-ip.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "TELEGRAM-CONFiGLiNE-87", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇹 IT | VLESS | @turboo_server", "server": "server.ultra-irancell.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "turboo-server", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇹 IT | VLESS | @turboo_server", "server": "server.ultra-irancell.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "telegram-turboo-server", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇹 IT | VLESS | @xsv2ray", "server": "fast-01.saitsazs.ir", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "34a4cfb4-8b42-42ba-b087-6a338c2b3b4a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +44,14 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇮🇹 IT | VLESS | @Fr33C0nfig'
+      - '🇮🇹 IT | VLESS | @config_proxy'
+      - '🇮🇹 IT | VLESS | @flyv2ray'
+      - '🇮🇹 IT | VLESS | @prrofile_purple'
+      - '🇮🇹 IT | VLESS | @prrofile_purple'
       - '🇮🇹 IT | VLESS | @turboo_server'
       - '🇮🇹 IT | VLESS | @turboo_server'
+      - '🇮🇹 IT | VLESS | @xsv2ray'
 
   - name: 🌍 Global Media
     type: select

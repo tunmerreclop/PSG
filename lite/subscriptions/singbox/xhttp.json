@@ -97,11 +97,11 @@
         "🇩🇪 DE | VLESS | @dargiiriis",
         "🇺🇸 US | VLESS | @evay_vpn",
         "🇩🇪 DE | VLESS | @father_vpn",
+        "🇩🇪 DE | VLESS | @flyv2ray",
         "🇺🇸 US | VLESS | @ghalagyann",
         "🇺🇸 US | VLESS | @komail315",
         "🇩🇪 DE | VLESS | @mtpv2ray",
         "🇩🇪 DE | VLESS | @mtpv2ray",
-        "🇳🇱 NL | VLESS | @nofiltering2",
         "🇳🇱 NL | VLESS | @nofiltering2",
         "🇳🇱 NL | VLESS | @orange_vpns",
         "🇬🇧 GB | VLESS | @parsashonam",
@@ -112,13 +112,16 @@
         "🇩🇪 DE | VLESS | @v2raying",
         "🇩🇪 DE | VLESS | @v2raying",
         "🇩🇪 DE | VLESS | @v_2rayng0",
-        "🇩🇪 DE | VLESS | @eliteproxyv2",
-        "🇩🇪 DE | VLESS | @free1_vpn",
+        "🇺🇸 US | VLESS | @eliteproxyv2",
+        "🇽🇽 XX | VLESS | @flyv2ray",
+        "🇺🇸 US | VLESS | @free1_vpn",
         "🇩🇪 DE | VLESS | @grizzlyvpn",
         "🇩🇪 DE | VLESS | @grizzlyvpn",
         "🇺🇸 US | VLESS | @parsashonam",
+        "🇺🇸 US | VLESS | @v2ray_vmes",
         "🇩🇪 DE | VLESS | @v2ray_vmes",
-        "🇩🇪 DE | VLESS | @vmesc"
+        "🇩🇪 DE | VLESS | @vmesc",
+        "🇮🇹 IT | VLESS | @xsv2ray"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -133,11 +136,11 @@
         "🇩🇪 DE | VLESS | @dargiiriis",
         "🇺🇸 US | VLESS | @evay_vpn",
         "🇩🇪 DE | VLESS | @father_vpn",
+        "🇩🇪 DE | VLESS | @flyv2ray",
         "🇺🇸 US | VLESS | @ghalagyann",
         "🇺🇸 US | VLESS | @komail315",
         "🇩🇪 DE | VLESS | @mtpv2ray",
         "🇩🇪 DE | VLESS | @mtpv2ray",
-        "🇳🇱 NL | VLESS | @nofiltering2",
         "🇳🇱 NL | VLESS | @nofiltering2",
         "🇳🇱 NL | VLESS | @orange_vpns",
         "🇬🇧 GB | VLESS | @parsashonam",
@@ -148,13 +151,16 @@
         "🇩🇪 DE | VLESS | @v2raying",
         "🇩🇪 DE | VLESS | @v2raying",
         "🇩🇪 DE | VLESS | @v_2rayng0",
-        "🇩🇪 DE | VLESS | @eliteproxyv2",
-        "🇩🇪 DE | VLESS | @free1_vpn",
+        "🇺🇸 US | VLESS | @eliteproxyv2",
+        "🇽🇽 XX | VLESS | @flyv2ray",
+        "🇺🇸 US | VLESS | @free1_vpn",
         "🇩🇪 DE | VLESS | @grizzlyvpn",
         "🇩🇪 DE | VLESS | @grizzlyvpn",
         "🇺🇸 US | VLESS | @parsashonam",
+        "🇺🇸 US | VLESS | @v2ray_vmes",
         "🇩🇪 DE | VLESS | @v2ray_vmes",
-        "🇩🇪 DE | VLESS | @vmesc"
+        "🇩🇪 DE | VLESS | @vmesc",
+        "🇮🇹 IT | VLESS | @xsv2ray"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -270,6 +276,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇩🇪 DE | VLESS | @flyv2ray",
+      "type": "vless",
+      "server": "146.75.119.82",
+      "server_port": 80,
+      "uuid": "f2fca1ee-a1e4-4955-9653-6d493eaa5dac",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @ghalagyann",
       "type": "vless",
       "server": "151.101.3.8",
@@ -299,14 +313,6 @@
       "server": "191.96.94.33",
       "server_port": 8080,
       "uuid": "f31ec3e2-6fc7-4044-bfbd-7fd74fa5648f",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @nofiltering2",
-      "type": "vless",
-      "server": "151.101.205.194",
-      "server_port": 80,
-      "uuid": "3b1af81c-9c09-46fd-bcfb-1fa7bd73fe5f",
       "packet_encoding": "xudp"
     },
     {
@@ -390,7 +396,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @eliteproxyv2",
+      "tag": "🇺🇸 US | VLESS | @eliteproxyv2",
       "type": "vless",
       "server": "germany.fast.hosting-ip.com",
       "server_port": 80,
@@ -398,7 +404,15 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @free1_vpn",
+      "tag": "🇽🇽 XX | VLESS | @flyv2ray",
+      "type": "vless",
+      "server": "iup.sernett.ir",
+      "server_port": 80,
+      "uuid": "SERVERNETT-TELEGRAM1",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @free1_vpn",
       "type": "vless",
       "server": "deadseectelegram.blackandwhiteshop.ir",
       "server_port": 80,
@@ -430,11 +444,19 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2ray_vmes",
+      "tag": "🇺🇸 US | VLESS | @v2ray_vmes",
       "type": "vless",
       "server": "viop.fast.hosting-ip.com",
       "server_port": 80,
       "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2ray_vmes",
+      "type": "vless",
+      "server": "deadseectelegram.fast.hosting-ip.com",
+      "server_port": 80,
+      "uuid": "70557107-0ca9-4c37-f02c-09c333a3d219",
       "packet_encoding": "xudp"
     },
     {
@@ -453,6 +475,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇮🇹 IT | VLESS | @xsv2ray",
+      "type": "vless",
+      "server": "fast-01.saitsazs.ir",
+      "server_port": 80,
+      "uuid": "34a4cfb4-8b42-42ba-b087-6a338c2b3b4a",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

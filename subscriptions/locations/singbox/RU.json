@@ -92,13 +92,8 @@
         "direct",
         "🇷🇺 RU | VLESS | @Fr33C0nfig",
         "🇷🇺 RU | SS | @Fr33C0nfig",
-        "🇷🇺 RU | VLESS | @config_proxy",
-        "🇷🇺 RU | VLESS | @config_proxy",
-        "🇷🇺 RU | VLESS | @config_proxy",
-        "🇷🇺 RU | VLESS | @config_proxy",
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇷🇺 RU | VLESS | @evay_vpn",
-        "🇷🇺 RU | VLESS | @flyv2ray",
         "🇷🇺 RU | VLESS | @flyv2ray",
         "🇷🇺 RU | VLESS | @iranbfilter",
         "🇷🇺 RU | VLESS | @kafing_2",
@@ -117,7 +112,6 @@
         "🇷🇺 RU | VLESS | @satellitenewspersian",
         "🇷🇺 RU | VLESS | @v2raytg",
         "🇷🇺 RU | VLESS | @vmesc",
-        "🇷🇺 RU | SS | @vmesskhodam",
         "🇷🇺 RU | VLESS | @vmesskhodam"
       ],
       "tag": "proxy",
@@ -128,13 +122,8 @@
       "outbounds": [
         "🇷🇺 RU | VLESS | @Fr33C0nfig",
         "🇷🇺 RU | SS | @Fr33C0nfig",
-        "🇷🇺 RU | VLESS | @config_proxy",
-        "🇷🇺 RU | VLESS | @config_proxy",
-        "🇷🇺 RU | VLESS | @config_proxy",
-        "🇷🇺 RU | VLESS | @config_proxy",
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇷🇺 RU | VLESS | @evay_vpn",
-        "🇷🇺 RU | VLESS | @flyv2ray",
         "🇷🇺 RU | VLESS | @flyv2ray",
         "🇷🇺 RU | VLESS | @iranbfilter",
         "🇷🇺 RU | VLESS | @kafing_2",
@@ -153,7 +142,6 @@
         "🇷🇺 RU | VLESS | @satellitenewspersian",
         "🇷🇺 RU | VLESS | @v2raytg",
         "🇷🇺 RU | VLESS | @vmesc",
-        "🇷🇺 RU | SS | @vmesskhodam",
         "🇷🇺 RU | VLESS | @vmesskhodam"
       ],
       "tag": "auto",
@@ -180,65 +168,6 @@
       "server_port": 15544,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3azZsQTRYUm5FV2ZFbkRyZG0wTlk2",
       "password": null
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "51.250.105.64",
-      "server_port": 4443,
-      "uuid": "4d94fa33-9462-48b4-b7de-8a2863560d19",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "grpc",
-        "service_name": ""
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "178.154.202.71",
-      "server_port": 4249,
-      "uuid": "dd618f98-8af3-413b-b4d7-f77afa40365d",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "51.250.95.143",
-      "server_port": 443,
-      "uuid": "5725a60c-34a5-476d-9ae3-9e43d945ca8f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "45.67.34.55",
-      "server_port": 443,
-      "uuid": "854eea7a-c834-4f62-9e17-ae63d1086f36",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇷🇺 RU | VLESS | @evay_vpn",
@@ -271,28 +200,6 @@
       "server": "84.201.144.113",
       "server_port": 47060,
       "uuid": "987c44fb-0072-4c43-b790-4a05c2f97e2e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @flyv2ray",
-      "type": "vless",
-      "server": "45.159.249.242",
-      "server_port": 8443,
-      "uuid": "ecd373ac-8cc8-407d-9600-896d6296320c",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -633,14 +540,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇷🇺 RU | SS | @vmesskhodam",
-      "type": "shadowsocks",
-      "server": "90.156.203.62",
-      "server_port": 5112,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWVmxBZmY3N0NuQVU0M0FvYzVqMTVZ",
-      "password": null
     },
     {
       "tag": "🇷🇺 RU | VLESS | @vmesskhodam",

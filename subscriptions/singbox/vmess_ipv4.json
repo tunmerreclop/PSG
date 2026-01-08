@@ -93,7 +93,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VMESS | @config_proxy",
         "🇽🇽 XX | VMESS | @frev2rayng",
         "🇩🇪 DE | VMESS | @khoneproxy",
         "🇩🇪 DE | VMESS | @khoneproxy",
@@ -108,7 +107,6 @@
         "🇽🇽 XX | VMESS | @proxy48",
         "🇫🇷 FR | VMESS | @selinc",
         "🇺🇸 US | VMESS | @v2ray_collector",
-        "🇨🇦 CA | VMESS | @v2ray_free_conf",
         "🇨🇦 CA | VMESS | @NamiraConfigs"
       ],
       "tag": "proxy",
@@ -120,7 +118,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VMESS | @config_proxy",
         "🇽🇽 XX | VMESS | @frev2rayng",
         "🇩🇪 DE | VMESS | @khoneproxy",
         "🇩🇪 DE | VMESS | @khoneproxy",
@@ -135,7 +132,6 @@
         "🇽🇽 XX | VMESS | @proxy48",
         "🇫🇷 FR | VMESS | @selinc",
         "🇺🇸 US | VMESS | @v2ray_collector",
-        "🇨🇦 CA | VMESS | @v2ray_free_conf",
         "🇨🇦 CA | VMESS | @NamiraConfigs"
       ],
       "tag": "auto",
@@ -218,15 +214,6 @@
           "Host": ""
         }
       }
-    },
-    {
-      "tag": "🇩🇪 DE | VMESS | @config_proxy",
-      "type": "vmess",
-      "server": "85.195.101.122",
-      "server_port": 40878,
-      "uuid": "f3d4167e-b15e-4e46-82e9-9286ef93fda7",
-      "security": "auto",
-      "alter_id": 0
     },
     {
       "tag": "🇽🇽 XX | VMESS | @frev2rayng",
@@ -481,31 +468,6 @@
         "path": "/vmessws",
         "headers": {
           "Host": "209.126.84.189"
-        }
-      }
-    },
-    {
-      "tag": "🇨🇦 CA | VMESS | @v2ray_free_conf",
-      "type": "vmess",
-      "server": "23.162.200.227",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/linkvws",
-        "headers": {
-          "Host": ""
         }
       }
     },

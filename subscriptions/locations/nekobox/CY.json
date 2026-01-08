@@ -78,10 +78,12 @@
         "auto",
         "direct",
         "🇨🇾 CY | SS | @NamiraConfigs",
+        "🇨🇾 CY | VLESS | @config_proxy",
         "🇨🇾 CY | VLESS | @free4allvpn",
         "🇨🇾 CY | VLESS | @freeconfigsplus",
         "🇨🇾 CY | TROJAN | @orange_vpns",
         "🇨🇾 CY | VLESS | @v2ray_collector",
+        "🇨🇾 CY | VLESS | @v2raych",
         "🇨🇾 CY | VLESS | @v2raymelliii",
         "🇨🇾 CY | VLESS | @v2rayprotocol",
         "🇨🇾 CY | VLESS | @v2raytg",
@@ -95,10 +97,12 @@
       "interval": "10m",
       "outbounds": [
         "🇨🇾 CY | SS | @NamiraConfigs",
+        "🇨🇾 CY | VLESS | @config_proxy",
         "🇨🇾 CY | VLESS | @free4allvpn",
         "🇨🇾 CY | VLESS | @freeconfigsplus",
         "🇨🇾 CY | TROJAN | @orange_vpns",
         "🇨🇾 CY | VLESS | @v2ray_collector",
+        "🇨🇾 CY | VLESS | @v2raych",
         "🇨🇾 CY | VLESS | @v2raymelliii",
         "🇨🇾 CY | VLESS | @v2rayprotocol",
         "🇨🇾 CY | VLESS | @v2raytg",
@@ -125,6 +129,23 @@
       "server_port": 990,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz",
       "password": null
+    },
+    {
+      "tag": "🇨🇾 CY | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "154.92.9.28",
+      "server_port": 8443,
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇨🇾 CY | VLESS | @free4allvpn",
@@ -174,6 +195,23 @@
       "server_port": 8880,
       "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇨🇾 CY | VLESS | @v2raych",
+      "type": "vless",
+      "server": "154.92.9.28",
+      "server_port": 8443,
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇨🇾 CY | VLESS | @v2raymelliii",
