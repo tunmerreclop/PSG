@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇪🇸 ES | VLESS | @freeconfigsplus",
         "🇪🇸 ES | VLESS | @v2raytg"
       ],
       "tag": "proxy",
@@ -85,6 +86,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇪🇸 ES | VLESS | @freeconfigsplus",
         "🇪🇸 ES | VLESS | @v2raytg"
       ],
       "tag": "auto",
@@ -99,6 +101,21 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇪🇸 ES | VLESS | @freeconfigsplus",
+      "type": "vless",
+      "server": "subscription.lormarb.ir",
+      "server_port": 53762,
+      "uuid": "0b3dc0af-9ca6-4542-ac1a-513d0e3b8eaa",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
+        }
+      }
     },
     {
       "tag": "🇪🇸 ES | VLESS | @v2raytg",

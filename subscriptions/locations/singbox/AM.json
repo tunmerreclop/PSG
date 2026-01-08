@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇲 AM | VLESS | @config_proxy"
+        "🇦🇲 AM | SS | @prrofile_purple"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇲 AM | VLESS | @config_proxy"
+        "🇦🇲 AM | SS | @prrofile_purple"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇲 AM | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "am.speeditest.ir",
-      "server_port": 81,
-      "uuid": "18b38135-f9f4-4ceb-a81b-d30466483133",
-      "packet_encoding": "xudp"
+      "tag": "🇦🇲 AM | SS | @prrofile_purple",
+      "type": "shadowsocks",
+      "server": "85.90.207.104",
+      "server_port": 18794,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplNzE2ZDdiYmFlNGJkZDE0",
+      "password": null
     }
   ],
   "route": {

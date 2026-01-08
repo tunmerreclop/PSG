@@ -127,10 +127,19 @@
     {
       "tag": "🇰🇿 KZ | VLESS | @hope_net",
       "type": "vless",
-      "server": "31.43.179.84",
-      "server_port": 2083,
-      "uuid": "9af577f2-0a7a-4448-ae0b-6985c53ea634",
-      "packet_encoding": "xudp"
+      "server": "185.176.26.87",
+      "server_port": 443,
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

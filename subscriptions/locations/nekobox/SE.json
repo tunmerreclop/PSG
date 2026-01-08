@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇪 SE | VLESS | @config_proxy",
         "🇸🇪 SE | VLESS | @deli_servers",
         "🇸🇪 SE | VLESS | @free_vip3",
         "🇸🇪 SE | VLESS | @free_vip3",
@@ -140,7 +139,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇪 SE | VLESS | @config_proxy",
         "🇸🇪 SE | VLESS | @deli_servers",
         "🇸🇪 SE | VLESS | @free_vip3",
         "🇸🇪 SE | VLESS | @free_vip3",
@@ -209,14 +207,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "sweden.novaads.shop",
-      "server_port": 42505,
-      "uuid": "18b38135-f9f4-4ceb-a81b-d30466483133",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇸🇪 SE | VLESS | @deli_servers",

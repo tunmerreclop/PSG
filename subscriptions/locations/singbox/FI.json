@@ -90,14 +90,12 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @config_proxy",
-        "🇫🇮 FI | VLESS | @config_proxy",
         "🇫🇮 FI | VLESS | @flyv2ray",
+        "🇫🇮 FI | VLESS | @flyv2ray",
+        "🇫🇮 FI | VLESS | @freeconfigsplus",
         "🇫🇮 FI | VLESS | @iranbfilter",
         "🇫🇮 FI | VLESS | @kafing_2",
-        "🇫🇮 FI | VLESS | @kafing_2",
-        "🇫🇮 FI | VLESS | @prrofile_purple",
-        "🇫🇮 FI | VLESS | @v2raych"
+        "🇫🇮 FI | VLESS | @prrofile_purple"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -105,14 +103,12 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @config_proxy",
-        "🇫🇮 FI | VLESS | @config_proxy",
         "🇫🇮 FI | VLESS | @flyv2ray",
+        "🇫🇮 FI | VLESS | @flyv2ray",
+        "🇫🇮 FI | VLESS | @freeconfigsplus",
         "🇫🇮 FI | VLESS | @iranbfilter",
         "🇫🇮 FI | VLESS | @kafing_2",
-        "🇫🇮 FI | VLESS | @kafing_2",
-        "🇫🇮 FI | VLESS | @prrofile_purple",
-        "🇫🇮 FI | VLESS | @v2raych"
+        "🇫🇮 FI | VLESS | @prrofile_purple"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -122,22 +118,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "finland.aparat-movies-download.ir",
-      "server_port": 42538,
-      "uuid": "2556a8ce-bd8b-4a86-91e7-b95f5e81144e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "finland.aparat-movies-download.ir",
-      "server_port": 42538,
-      "uuid": "2556a8ce-bd8b-4a86-91e7-b95f5e81144e",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇮 FI | VLESS | @flyv2ray",
@@ -155,6 +135,22 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @flyv2ray",
+      "type": "vless",
+      "server": "finland.aparat-movies-download.ir",
+      "server_port": 42538,
+      "uuid": "2556a8ce-bd8b-4a86-91e7-b95f5e81144e",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @freeconfigsplus",
+      "type": "vless",
+      "server": "grok.zarlyt-ok3.ir",
+      "server_port": 9828,
+      "uuid": "28ef7769-b7a8-478f-bac7-052494312c01",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇮 FI | VLESS | @iranbfilter",
@@ -177,28 +173,6 @@
         "path": "/",
         "headers": {
           "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @kafing_2",
-      "type": "vless",
-      "server": "65.109.184.27",
-      "server_port": 443,
-      "uuid": "de14ae87-5b0b-4012-a9d6-890f7813801a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
@@ -240,14 +214,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2raych",
-      "type": "vless",
-      "server": "finland.aparat-movies-download.ir",
-      "server_port": 42538,
-      "uuid": "2556a8ce-bd8b-4a86-91e7-b95f5e81144e",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

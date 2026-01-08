@@ -103,6 +103,7 @@
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxie",
+        "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxy48",
         "🇫🇷 FR | VMESS | @selinc",
         "🇺🇸 US | VMESS | @v2ray_collector",
@@ -121,6 +122,7 @@
         "🇩🇪 DE | VMESS | @khoneproxy",
         "🇩🇪 DE | VMESS | @khoneproxy",
         "🇩🇪 DE | VMESS | @magickey_shop",
+        "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxie",
@@ -280,6 +282,24 @@
       "tls": {
         "enabled": true,
         "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @proxie",
+      "type": "vmess",
+      "server": "104.21.62.144",
+      "server_port": 443,
+      "uuid": "6734be04-d4d0-4495-a9ac-899bd83c3e0b",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "sauron2.melkore.ir",
         "insecure": true,
         "utls": {
           "enabled": true,

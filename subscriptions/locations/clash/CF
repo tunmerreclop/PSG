@@ -29,6 +29,7 @@ proxies:
   - {"name": "🇽🇽 XX | VMESS | @manstervpn", "server": "104.16.60.8", "port": 2086, "type": "vmess", "skip-cert-verify": true, "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/glweidf.sbs/linkws", "headers": {"Host": "1c11-muddy-rice-1c11.vetanex501.workers.dev"}}}
   - {"name": "🇽🇽 XX | TROJAN | @manstervpn", "server": "172.66.44.141", "port": 2083, "type": "trojan", "skip-cert-verify": false, "password": "bpb-trojan"}
   - {"name": "🇽🇽 XX | TROJAN | @manstervpn", "server": "104.18.37.111", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "bpb-trojan"}
+  - {"name": "🇽🇽 XX | VMESS | @proxie", "server": "104.21.62.144", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "6734be04-d4d0-4495-a9ac-899bd83c3e0b", "alterId": 0, "cipher": "zero", "network": "xhttp", "tls": true}
   - {"name": "🇽🇽 XX | VMESS | @proxie", "server": "104.21.62.144", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "e9e3bc02-c4ec-4670-ad23-fe62f2ddaf9f", "alterId": 0, "cipher": "zero", "network": "xhttp", "tls": true}
   - {"name": "🇽🇽 XX | VMESS | @proxie", "server": "104.21.62.144", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "c26c9663-a72d-489f-a7da-7a482b876c1c", "alterId": 0, "cipher": "zero", "network": "xhttp", "tls": true}
   - {"name": "🇽🇽 XX | VMESS | @proxie", "server": "104.21.62.144", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "9da10022-4480-4794-8338-33f87cbbf2d4", "alterId": 0, "cipher": "zero", "network": "xhttp", "tls": true}
@@ -60,6 +61,7 @@ proxy-groups:
       - '🇽🇽 XX | VMESS | @manstervpn'
       - '🇽🇽 XX | TROJAN | @manstervpn'
       - '🇽🇽 XX | TROJAN | @manstervpn'
+      - '🇽🇽 XX | VMESS | @proxie'
       - '🇽🇽 XX | VMESS | @proxie'
       - '🇽🇽 XX | VMESS | @proxie'
       - '🇽🇽 XX | VMESS | @proxie'
