@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇺🇸 US | VMESS | @config_proxy", "server": "172.67.219.194", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "b321fd5d-e6ec-4293-a644-164e3885f52e", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkws", "headers": {"Host": "adenc36v.xtooltech.cfd"}}}
   - {"name": "🇺🇸 US | TROJAN | @free4allvpn", "server": "23.247.137.64", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "3c4e10af98c30972"}
   - {"name": "🇺🇸 US | VMESS | @freev2rays", "server": "xcf037.facai2024.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "d9863037-0463-4615-e972-36ba9662d1e9", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/d9863037", "headers": {"Host": "xcf037.facai2024.com"}}}
   - {"name": "🇺🇸 US | VMESS | @hope_net", "server": "www.speedtest.net", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "33ae86a0-473d-11ef-a6cd-1239d0255272", "alterId": 0, "cipher": "none", "network": "ws", "tls": false, "ws-opts": {"path": "/vmws", "headers": {"Host": "Us1.socifiles.com."}}}
@@ -52,7 +51,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | VMESS | @config_proxy'
       - '🇺🇸 US | TROJAN | @free4allvpn'
       - '🇺🇸 US | VMESS | @freev2rays'
       - '🇺🇸 US | VMESS | @hope_net'

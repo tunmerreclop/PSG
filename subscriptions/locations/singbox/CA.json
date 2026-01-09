@@ -91,12 +91,15 @@
         "auto",
         "direct",
         "🇨🇦 CA | SS | @config_proxy",
+        "🇨🇦 CA | VLESS | @config_proxy",
         "🇨🇦 CA | VLESS | @jokerv2ray",
         "🇨🇦 CA | VLESS | @jokerv2ray",
         "🇨🇦 CA | VLESS | @serverv2ray00",
+        "🇨🇦 CA | VLESS | @v2raych",
         "🇨🇦 CA | SS | @v2raytg",
         "🇨🇦 CA | VLESS | @vpnowl",
-        "🇨🇦 CA | SS | @NamiraConfigs"
+        "🇨🇦 CA | SS | @NamiraConfigs",
+        "🇨🇦 CA | VMESS | @NamiraConfigs"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -105,12 +108,15 @@
       "interval": "10m",
       "outbounds": [
         "🇨🇦 CA | SS | @config_proxy",
+        "🇨🇦 CA | VLESS | @config_proxy",
         "🇨🇦 CA | VLESS | @jokerv2ray",
         "🇨🇦 CA | VLESS | @jokerv2ray",
         "🇨🇦 CA | VLESS | @serverv2ray00",
+        "🇨🇦 CA | VLESS | @v2raych",
         "🇨🇦 CA | SS | @v2raytg",
         "🇨🇦 CA | VLESS | @vpnowl",
-        "🇨🇦 CA | SS | @NamiraConfigs"
+        "🇨🇦 CA | SS | @NamiraConfigs",
+        "🇨🇦 CA | VMESS | @NamiraConfigs"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -128,6 +134,28 @@
       "server_port": 990,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz",
       "password": null
+    },
+    {
+      "tag": "🇨🇦 CA | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "15.235.39.193",
+      "server_port": 443,
+      "uuid": "cf93275f-9805-4a4c-a5f7-ac0423b92d02",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇨🇦 CA | VLESS | @jokerv2ray",
@@ -170,6 +198,28 @@
       }
     },
     {
+      "tag": "🇨🇦 CA | VLESS | @v2raych",
+      "type": "vless",
+      "server": "15.235.39.193",
+      "server_port": 443,
+      "uuid": "cf93275f-9805-4a4c-a5f7-ac0423b92d02",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇨🇦 CA | SS | @v2raytg",
       "type": "shadowsocks",
       "server": "51.161.80.138",
@@ -192,6 +242,22 @@
       "server_port": 80,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKSWhONnJCS2thRWJvTE5YVlN2NXJx",
       "password": null
+    },
+    {
+      "tag": "🇨🇦 CA | VMESS | @NamiraConfigs",
+      "type": "vmess",
+      "server": "51.79.102.253",
+      "server_port": 80,
+      "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/IOebhLMhl1CTbFHbL95myfRX2",
+        "headers": {
+          "Host": ""
+        }
+      }
     }
   ],
   "route": {

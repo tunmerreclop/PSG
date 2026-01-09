@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇹🇷 TR | TROJAN | @v2rayngconfig", "server": "194.146.26.40", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "2ea5fc44-bd38-4fb0-a9b9-88c83fc56622"}
+  - {"name": "🇲🇩 MD | VLESS | @config_proxy", "server": "91.194.160.151", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "5b83fd54-c5ac-434e-8083-6f06c62785ce", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇹🇷 TR | TROJAN | @v2rayngconfig'
+      - '🇲🇩 MD | VLESS | @config_proxy'
 
   - name: 🌍 Global Media
     type: select

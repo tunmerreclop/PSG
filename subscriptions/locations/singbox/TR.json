@@ -91,7 +91,7 @@
         "auto",
         "direct",
         "🇹🇷 TR | SS | @outline_ir",
-        "🇹🇷 TR | TROJAN | @v2rayngconfig"
+        "🇹🇷 TR | SS | @prrofile_purple"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +100,7 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | SS | @outline_ir",
-        "🇹🇷 TR | TROJAN | @v2rayngconfig"
+        "🇹🇷 TR | SS | @prrofile_purple"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -120,20 +120,12 @@
       "password": null
     },
     {
-      "tag": "🇹🇷 TR | TROJAN | @v2rayngconfig",
-      "type": "trojan",
-      "server": "194.146.26.40",
-      "server_port": 443,
-      "password": "2ea5fc44-bd38-4fb0-a9b9-88c83fc56622",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "tag": "🇹🇷 TR | SS | @prrofile_purple",
+      "type": "shadowsocks",
+      "server": "83.217.9.17",
+      "server_port": 25232,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiZ3ZMWlVmczhzaXZvQjlBN3drWWRt",
+      "password": null
     }
   ],
   "route": {

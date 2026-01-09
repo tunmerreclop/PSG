@@ -9,6 +9,7 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇭🇰 HK | TROJAN | @config_proxy = trojan, lm-allnodes.lma1b2.com, 53404, password = a1df0017-309e-4034-a733-284a1b0ed6aa, skip-cert-verify = true
 🇨🇾 CY | TROJAN | @orange_vpns = trojan, trunker.cc, 8080, password = nYzYreUpD4dDjzjFcgf6Fe3oaw4QFN, skip-cert-verify = true
 🇽🇽 XX | TROJAN | @satellitenewspersian = trojan, saas.sin.fan, 443, password = 87d1bfd4-574e-4c96-ad42-0426f27461ff, skip-cert-verify = true
 🇽🇽 XX | TROJAN | @teamvpnpro = trojan, chatbuzzteambhm.chatbuzzt7150.workers.dev, 443, password = 22f86840-bcac-11ee-abea-1239d0255272, skip-cert-verify = true
@@ -16,9 +17,9 @@ DIRECT = direct
 🇽🇽 XX | TROJAN | @vpn_ioss = trojan, www.calmlunch.com, 443, password = humanity, skip-cert-verify = true
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇨🇾 CY | TROJAN | @orange_vpns, 🇽🇽 XX | TROJAN | @satellitenewspersian, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇽🇽 XX | TROJAN | @vpn_ioss
-PSG-AUTO = url-test, 🇨🇾 CY | TROJAN | @orange_vpns, 🇽🇽 XX | TROJAN | @satellitenewspersian, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇽🇽 XX | TROJAN | @vpn_ioss
-PSG-FALLBACK = fallback, 🇨🇾 CY | TROJAN | @orange_vpns, 🇽🇽 XX | TROJAN | @satellitenewspersian, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇽🇽 XX | TROJAN | @vpn_ioss
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇭🇰 HK | TROJAN | @config_proxy, 🇨🇾 CY | TROJAN | @orange_vpns, 🇽🇽 XX | TROJAN | @satellitenewspersian, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇽🇽 XX | TROJAN | @vpn_ioss
+PSG-AUTO = url-test, 🇭🇰 HK | TROJAN | @config_proxy, 🇨🇾 CY | TROJAN | @orange_vpns, 🇽🇽 XX | TROJAN | @satellitenewspersian, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇽🇽 XX | TROJAN | @vpn_ioss
+PSG-FALLBACK = fallback, 🇭🇰 HK | TROJAN | @config_proxy, 🇨🇾 CY | TROJAN | @orange_vpns, 🇽🇽 XX | TROJAN | @satellitenewspersian, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇽🇽 XX | TROJAN | @teamvpnpro, 🇽🇽 XX | TROJAN | @vpn_ioss
 
 [Rule]
 GEOIP,IR,DIRECT

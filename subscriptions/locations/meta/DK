@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇹🇷 TR | TROJAN | @v2rayngconfig", "server": "194.146.26.40", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "2ea5fc44-bd38-4fb0-a9b9-88c83fc56622"}
+  - {"name": "🇩🇰 DK | VLESS | @configv2rayforfree", "server": "hajimamadvpnjoinsho.fast199.hosting-ip.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "832a3784-7ae1-4ff2-ab13-5fb4bf8abd28", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇹🇷 TR | TROJAN | @v2rayngconfig'
+      - '🇩🇰 DK | VLESS | @configv2rayforfree'
 
   - name: 🌍 Global Media
     type: select

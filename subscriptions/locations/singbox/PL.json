@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @kafing_2"
+        "🇵🇱 PL | VLESS | @kafing_2",
+        "🇵🇱 PL | SS | @outlinereleasedkey"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @kafing_2"
+        "🇵🇱 PL | VLESS | @kafing_2",
+        "🇵🇱 PL | SS | @outlinereleasedkey"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -116,6 +118,14 @@
       "server_port": 52361,
       "uuid": "9c0857dc-2900-4038-ac5e-c0bc189405d7",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇵🇱 PL | SS | @outlinereleasedkey",
+      "type": "shadowsocks",
+      "server": "217.30.10.18",
+      "server_port": 9011,
+      "method": "YWVzLTI1Ni1jZmI6TTN0MlpFUWNNR1JXQmpSYQ==",
+      "password": null
     }
   ],
   "route": {
