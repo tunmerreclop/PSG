@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇮🇳 IN | TROJAN | @config_proxy",
         "🇮🇳 IN | VLESS | @prrofile_purple",
         "🇮🇳 IN | VLESS | @v2raytg"
       ],
@@ -86,6 +87,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇮🇳 IN | TROJAN | @config_proxy",
         "🇮🇳 IN | VLESS | @prrofile_purple",
         "🇮🇳 IN | VLESS | @v2raytg"
       ],
@@ -101,6 +103,22 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇮🇳 IN | TROJAN | @config_proxy",
+      "type": "trojan",
+      "server": "hyfuuf6.wsone.icu",
+      "server_port": 443,
+      "password": "M7v%25w11Se%2A",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇮🇳 IN | VLESS | @prrofile_purple",

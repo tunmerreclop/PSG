@@ -80,11 +80,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇭🇰 HK | VMESS | @config_proxy",
         "🇦🇺 AU | VMESS | @dailyv2ray",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇺🇸 US | VMESS | @freev2rays",
-        "🇺🇸 US | VMESS | @hope_net",
         "🇧🇾 BY | VMESS | @ir_netproxy",
         "🇺🇸 US | VMESS | @ir_netproxy",
         "🇽🇽 XX | VMESS | @iranvpnet",
@@ -98,7 +96,9 @@
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @v2ray4win",
+        "🇦🇺 AU | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
+        "🇦🇺 AU | VMESS | @v2rayngconfig",
         "🇦🇺 AU | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @vpngate_config",
         "🇽🇽 XX | VMESS | @frev2rayng",
@@ -115,6 +115,7 @@
         "🇽🇽 XX | VMESS | @proxy48",
         "🇫🇷 FR | VMESS | @selinc",
         "🇺🇸 US | VMESS | @v2ray_collector",
+        "🇫🇷 FR | VMESS | @v2ray_free_conf",
         "🇨🇦 CA | VMESS | @NamiraConfigs"
       ],
       "tag": "proxy",
@@ -126,11 +127,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇭🇰 HK | VMESS | @config_proxy",
         "🇦🇺 AU | VMESS | @dailyv2ray",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇺🇸 US | VMESS | @freev2rays",
-        "🇺🇸 US | VMESS | @hope_net",
         "🇧🇾 BY | VMESS | @ir_netproxy",
         "🇺🇸 US | VMESS | @ir_netproxy",
         "🇽🇽 XX | VMESS | @iranvpnet",
@@ -144,7 +143,9 @@
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @v2ray4win",
+        "🇦🇺 AU | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
+        "🇦🇺 AU | VMESS | @v2rayngconfig",
         "🇦🇺 AU | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @vpngate_config",
         "🇽🇽 XX | VMESS | @frev2rayng",
@@ -161,6 +162,7 @@
         "🇽🇽 XX | VMESS | @proxy48",
         "🇫🇷 FR | VMESS | @selinc",
         "🇺🇸 US | VMESS | @v2ray_collector",
+        "🇫🇷 FR | VMESS | @v2ray_free_conf",
         "🇨🇦 CA | VMESS | @NamiraConfigs"
       ],
       "tag": "auto",
@@ -249,22 +251,6 @@
       }
     },
     {
-      "tag": "🇭🇰 HK | VMESS | @config_proxy",
-      "type": "vmess",
-      "server": "aflzzul.meiquankongjian.com",
-      "server_port": 52511,
-      "uuid": "342bacfd-2b8f-3f49-a16e-439db5b0b9d5",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/564dfa20/",
-        "headers": {
-          "Host": "aflzzul.meiquankongjian.com"
-        }
-      }
-    },
-    {
       "tag": "🇦🇺 AU | VMESS | @dailyv2ray",
       "type": "vmess",
       "server": "104.31.16.104",
@@ -327,22 +313,6 @@
         "path": "/d9863037",
         "headers": {
           "Host": "xcf037.facai2024.com"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VMESS | @hope_net",
-      "type": "vmess",
-      "server": "www.speedtest.net",
-      "server_port": 80,
-      "uuid": "33ae86a0-473d-11ef-a6cd-1239d0255272",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/vmws",
-        "headers": {
-          "Host": "Us1.socifiles.com."
         }
       }
     },
@@ -656,6 +626,31 @@
       }
     },
     {
+      "tag": "🇦🇺 AU | VMESS | @v2rayngconfig",
+      "type": "vmess",
+      "server": "vde2.0bad.com",
+      "server_port": 443,
+      "uuid": "927094d3-d678-4763-8591-e240d0bcae87",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "vde2.0bad.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/chat",
+        "headers": {
+          "Host": "vde2.0bad.com"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @v2rayngconfig",
       "type": "vmess",
       "server": "new6.hucloud-dns.xyz",
@@ -677,6 +672,31 @@
         "path": "/",
         "headers": {
           "Host": "new6.hucloud-dns.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇺 AU | VMESS | @v2rayngconfig",
+      "type": "vmess",
+      "server": "vin1.0bad.com",
+      "server_port": 443,
+      "uuid": "927094d3-d678-4763-8591-e240d0bcae87",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "vin1.0bad.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/chat",
+        "headers": {
+          "Host": "vin1.0bad.com"
         }
       }
     },
@@ -983,6 +1003,24 @@
         "path": "/vmessws",
         "headers": {
           "Host": "209.126.84.189"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VMESS | @v2ray_free_conf",
+      "type": "vmess",
+      "server": "217.69.5.32",
+      "server_port": 443,
+      "uuid": "ec4c349c-b3c6-4cff-be63-01eaad1dc098",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },

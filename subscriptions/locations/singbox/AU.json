@@ -93,6 +93,8 @@
         "🇦🇺 AU | VMESS | @dailyv2ray",
         "🇦🇺 AU | VMESS | @khoneproxy",
         "🇦🇺 AU | VLESS | @nofilter_v2rayng",
+        "🇦🇺 AU | VMESS | @v2rayngconfig",
+        "🇦🇺 AU | VMESS | @v2rayngconfig",
         "🇦🇺 AU | VMESS | @v2rayngconfig"
       ],
       "tag": "proxy",
@@ -104,6 +106,8 @@
         "🇦🇺 AU | VMESS | @dailyv2ray",
         "🇦🇺 AU | VMESS | @khoneproxy",
         "🇦🇺 AU | VLESS | @nofilter_v2rayng",
+        "🇦🇺 AU | VMESS | @v2rayngconfig",
+        "🇦🇺 AU | VMESS | @v2rayngconfig",
         "🇦🇺 AU | VMESS | @v2rayngconfig"
       ],
       "tag": "auto",
@@ -175,6 +179,56 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇦🇺 AU | VMESS | @v2rayngconfig",
+      "type": "vmess",
+      "server": "vde2.0bad.com",
+      "server_port": 443,
+      "uuid": "927094d3-d678-4763-8591-e240d0bcae87",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "vde2.0bad.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/chat",
+        "headers": {
+          "Host": "vde2.0bad.com"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇺 AU | VMESS | @v2rayngconfig",
+      "type": "vmess",
+      "server": "vin1.0bad.com",
+      "server_port": 443,
+      "uuid": "927094d3-d678-4763-8591-e240d0bcae87",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "vin1.0bad.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/chat",
+        "headers": {
+          "Host": "vin1.0bad.com"
         }
       }
     },
