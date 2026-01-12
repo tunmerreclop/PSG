@@ -80,10 +80,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇳🇱 NL | VLESS | @config_proxy",
+        "🇪🇸 ES | VLESS | @config_proxy",
         "🇫🇮 FI | VLESS | @config_proxy",
         "🇪🇸 ES | VLESS | @config_proxy",
-        "🇪🇸 ES | VLESS | @config_proxy",
-        "🇳🇱 NL | VLESS | @config_proxy",
         "🇩🇪 DE | VLESS | @configasli",
         "🇳🇱 NL | VLESS | @filterk0sh",
         "🇷🇺 RU | VLESS | @flyv2ray",
@@ -106,7 +106,6 @@
         "🇳🇱 NL | VLESS | @nn_vpn",
         "🇫🇷 FR | VLESS | @prrofile_purple",
         "🇱🇻 LV | VLESS | @prrofile_purple",
-        "🇩🇪 DE | VLESS | @prrofile_purple",
         "🇩🇪 DE | VLESS | @prrofile_purple",
         "🇩🇪 DE | VLESS | @prrofile_purple",
         "🇩🇪 DE | VLESS | @savagev2ray",
@@ -129,10 +128,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇳🇱 NL | VLESS | @config_proxy",
+        "🇪🇸 ES | VLESS | @config_proxy",
         "🇫🇮 FI | VLESS | @config_proxy",
         "🇪🇸 ES | VLESS | @config_proxy",
-        "🇪🇸 ES | VLESS | @config_proxy",
-        "🇳🇱 NL | VLESS | @config_proxy",
         "🇩🇪 DE | VLESS | @configasli",
         "🇳🇱 NL | VLESS | @filterk0sh",
         "🇷🇺 RU | VLESS | @flyv2ray",
@@ -155,7 +154,6 @@
         "🇳🇱 NL | VLESS | @nn_vpn",
         "🇫🇷 FR | VLESS | @prrofile_purple",
         "🇱🇻 LV | VLESS | @prrofile_purple",
-        "🇩🇪 DE | VLESS | @prrofile_purple",
         "🇩🇪 DE | VLESS | @prrofile_purple",
         "🇩🇪 DE | VLESS | @prrofile_purple",
         "🇩🇪 DE | VLESS | @savagev2ray",
@@ -255,27 +253,11 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @config_proxy",
+      "tag": "🇳🇱 NL | VLESS | @config_proxy",
       "type": "vless",
-      "server": "hield.ru",
-      "server_port": 3389,
-      "uuid": "a1dde3e7-4e8d-45ba-8ea6-f99cd591ecf8",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇪🇸 ES | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "tunnyl.ru",
-      "server_port": 54746,
-      "uuid": "7e41fdce-5678-4ed0-9639-6bf54e7a18fa",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇪🇸 ES | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "tunnyl.ru",
+      "server": "world-of.ru",
       "server_port": 443,
-      "uuid": "af182a3e-b7d7-493c-a99b-ec063362cfdb",
+      "uuid": "99ef9a4d-56ac-4497-9dd4-04a3c3bd402d",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -288,11 +270,27 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @config_proxy",
+      "tag": "🇪🇸 ES | VLESS | @config_proxy",
       "type": "vless",
-      "server": "world-of.ru",
+      "server": "tunnyl.ru",
+      "server_port": 54746,
+      "uuid": "6e9ea54d-801b-4542-bd7d-01e34d3b0e14",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "hield.ru",
+      "server_port": 3389,
+      "uuid": "3949daeb-597d-4a8c-bc1e-b51a7b810129",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇪🇸 ES | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "tunnyl.ru",
       "server_port": 443,
-      "uuid": "438e7888-957a-4f64-8925-340a5b2a94e2",
+      "uuid": "fe61dbab-f634-4b30-9abe-f16f1f015c92",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -663,28 +661,6 @@
       "server": "de1.jugploer.icu",
       "server_port": 443,
       "uuid": "23d94ce7-81fe-4a37-935d-0fa980485c51",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @prrofile_purple",
-      "type": "vless",
-      "server": "portal.ofmdirect.com",
-      "server_port": 23200,
-      "uuid": "69a397ac-1a30-455f-a0ad-7c45c4c8ad16",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

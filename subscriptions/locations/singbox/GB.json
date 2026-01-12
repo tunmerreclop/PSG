@@ -91,13 +91,14 @@
         "auto",
         "direct",
         "🇬🇧 GB | SS | @config_proxy",
-        "🇬🇧 GB | SS | @config_proxy",
+        "🇬🇧 GB | VLESS | @config_proxy",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | VLESS | @kafing_2",
         "🇬🇧 GB | VLESS | @kafing_2",
         "🇬🇧 GB | VLESS | @kafing_2",
         "🇬🇧 GB | VLESS | @kafing_2",
+        "🇬🇧 GB | SS | @key_outline",
         "🇬🇧 GB | SS | @key_outline",
         "🇬🇧 GB | SS | @key_outline",
         "🇬🇧 GB | SS | @key_outline",
@@ -117,7 +118,6 @@
         "🇬🇧 GB | SS | @prrofile_purple",
         "🇬🇧 GB | SS | @prrofile_purple",
         "🇬🇧 GB | SS | @prrofile_purple",
-        "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @prrofile_purple",
@@ -144,13 +144,14 @@
       "interval": "10m",
       "outbounds": [
         "🇬🇧 GB | SS | @config_proxy",
-        "🇬🇧 GB | SS | @config_proxy",
+        "🇬🇧 GB | VLESS | @config_proxy",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | VLESS | @kafing_2",
         "🇬🇧 GB | VLESS | @kafing_2",
         "🇬🇧 GB | VLESS | @kafing_2",
         "🇬🇧 GB | VLESS | @kafing_2",
+        "🇬🇧 GB | SS | @key_outline",
         "🇬🇧 GB | SS | @key_outline",
         "🇬🇧 GB | SS | @key_outline",
         "🇬🇧 GB | SS | @key_outline",
@@ -170,7 +171,6 @@
         "🇬🇧 GB | SS | @prrofile_purple",
         "🇬🇧 GB | SS | @prrofile_purple",
         "🇬🇧 GB | SS | @prrofile_purple",
-        "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @prrofile_purple",
@@ -202,18 +202,27 @@
     {
       "tag": "🇬🇧 GB | SS | @config_proxy",
       "type": "shadowsocks",
-      "server": "141.98.101.179",
-      "server_port": 443,
-      "method": "YWVzLTEyOC1nY206c2hhZG93c29ja3M=",
-      "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @config_proxy",
-      "type": "shadowsocks",
       "server": "62.100.205.100",
       "server_port": 990,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==",
       "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "5.181.21.95",
+      "server_port": 443,
+      "uuid": "3321a819-889d-40b3-b8fa-f34208827ef1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇬🇧 GB | SS | @free4allvpn",
@@ -310,6 +319,14 @@
       "server": "78.129.140.11",
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpteFpwUkdEQXBlTHc0WFdkeG9lU3gw",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @key_outline",
+      "type": "shadowsocks",
+      "server": "78.129.140.11",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOcUFzYm9pVnNFUXAzcXNmZkNobWJZ",
       "password": null
     },
     {
@@ -455,14 +472,6 @@
       "server": "api-saronet.zirakomamle.com",
       "server_port": 2082,
       "uuid": "5e182110-8d13-4aa4-abf6-f3081628e1d0",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @prrofile_purple",
-      "type": "vless",
-      "server": "api-saronet.sarhadpirani.ir",
-      "server_port": 2052,
-      "uuid": "cb522244-ff63-4883-ae1f-87d883fb2da7",
       "packet_encoding": "xudp"
     },
     {

@@ -23,11 +23,11 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇩🇪 DE | VMESS | @hope_net", "server": "172.67.156.22", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkws/afrhms16v.bestxray.buzz", "headers": {"Host": "nezuko.raidenshogun.cloudns.org"}}}
   - {"name": "🇩🇪 DE | VMESS | @khoneproxy", "server": "142.132.163.200", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "7f965e3e-b03f-455e-a96e-01b61f72537a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/graphql", "headers": {"Host": "142.132.163.200"}}}
   - {"name": "🇩🇪 DE | VMESS | @khoneproxy", "server": "167.235.205.182", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇩🇪 DE | VMESS | @magickey_shop", "server": "168.119.174.229", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇩🇪 DE | TROJAN | @v2rayngconfig", "server": "146.19.215.81", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "769c2da7-add3-42e8-a03c-07be9fcf483c"}
+  - {"name": "🇩🇪 DE | TROJAN | @v2rayvpnchannel", "server": "3.70.165.84", "port": 22223, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-v2rayvpnchannel"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -41,11 +41,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇩🇪 DE | VMESS | @hope_net'
       - '🇩🇪 DE | VMESS | @khoneproxy'
       - '🇩🇪 DE | VMESS | @khoneproxy'
       - '🇩🇪 DE | VMESS | @magickey_shop'
       - '🇩🇪 DE | TROJAN | @v2rayngconfig'
+      - '🇩🇪 DE | TROJAN | @v2rayvpnchannel'
 
   - name: 🌍 Global Media
     type: select

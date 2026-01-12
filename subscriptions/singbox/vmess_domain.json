@@ -93,10 +93,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇺🇸 US | VMESS | @config_proxy",
         "🇦🇺 AU | VMESS | @dailyv2ray",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇺🇸 US | VMESS | @freev2rays",
-        "🇩🇪 DE | VMESS | @hope_net",
         "🇧🇾 BY | VMESS | @ir_netproxy",
         "🇺🇸 US | VMESS | @ir_netproxy",
         "🇽🇽 XX | VMESS | @iranvpnet",
@@ -110,7 +110,6 @@
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @v2ray4win",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf",
         "🇦🇺 AU | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇦🇺 AU | VMESS | @v2rayngconfig",
@@ -126,10 +125,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇺🇸 US | VMESS | @config_proxy",
         "🇦🇺 AU | VMESS | @dailyv2ray",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇺🇸 US | VMESS | @freev2rays",
-        "🇩🇪 DE | VMESS | @hope_net",
         "🇧🇾 BY | VMESS | @ir_netproxy",
         "🇺🇸 US | VMESS | @ir_netproxy",
         "🇽🇽 XX | VMESS | @iranvpnet",
@@ -143,7 +142,6 @@
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @v2ray4win",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf",
         "🇦🇺 AU | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇦🇺 AU | VMESS | @v2rayngconfig",
@@ -232,6 +230,31 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VMESS | @config_proxy",
+      "type": "vmess",
+      "server": "az05.beyondy.cfd",
+      "server_port": 443,
+      "uuid": "3f638f34-8dba-4186-bc43-2716a7ddd4be",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "az05.beyondy.cfd",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/link",
+        "headers": {
+          "Host": "az05.beyondy.cfd"
+        }
+      }
+    },
+    {
       "tag": "🇦🇺 AU | VMESS | @dailyv2ray",
       "type": "vmess",
       "server": "104.31.16.104",
@@ -294,31 +317,6 @@
         "path": "/d9863037",
         "headers": {
           "Host": "xcf037.facai2024.com"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VMESS | @hope_net",
-      "type": "vmess",
-      "server": "172.67.156.22",
-      "server_port": 443,
-      "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "nezuko.raidenshogun.cloudns.org",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/linkws/afrhms16v.bestxray.buzz",
-        "headers": {
-          "Host": "nezuko.raidenshogun.cloudns.org"
         }
       }
     },
@@ -628,22 +626,6 @@
         "path": "/api05",
         "headers": {
           "Host": "scherehtzflk01.schere.net"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf",
-      "type": "vmess",
-      "server": "104.26.15.141",
-      "server_port": 8080,
-      "uuid": "239ed41c-4af6-49ba-8156-ff2310ea5d78",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/14351/Nextlife",
-        "headers": {
-          "Host": "pn2w1nweb.sigmachemicals.ir"
         }
       }
     },

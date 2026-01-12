@@ -83,7 +83,8 @@
         "🇫🇮 FI | VLESS | @freeconfigsplus",
         "🇫🇮 FI | VLESS | @iranbfilter",
         "🇫🇮 FI | VLESS | @kafing_2",
-        "🇫🇮 FI | VLESS | @prrofile_purple"
+        "🇫🇮 FI | VLESS | @prrofile_purple",
+        "🇫🇮 FI | VLESS | @v2raych"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -97,7 +98,8 @@
         "🇫🇮 FI | VLESS | @freeconfigsplus",
         "🇫🇮 FI | VLESS | @iranbfilter",
         "🇫🇮 FI | VLESS | @kafing_2",
-        "🇫🇮 FI | VLESS | @prrofile_purple"
+        "🇫🇮 FI | VLESS | @prrofile_purple",
+        "🇫🇮 FI | VLESS | @v2raych"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -117,7 +119,7 @@
       "type": "vless",
       "server": "hield.ru",
       "server_port": 3389,
-      "uuid": "a1dde3e7-4e8d-45ba-8ea6-f99cd591ecf8",
+      "uuid": "3949daeb-597d-4a8c-bc1e-b51a7b810129",
       "packet_encoding": "xudp"
     },
     {
@@ -213,6 +215,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2raych",
+      "type": "vless",
+      "server": "178.17.53.28",
+      "server_port": 47539,
+      "uuid": "447c45cd-ade0-4bfe-90a0-3e581829f741",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

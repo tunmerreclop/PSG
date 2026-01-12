@@ -77,9 +77,12 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇮🇪 IE | VLESS | @config_proxy",
         "🇮🇪 IE | VLESS | @configv2rayforfree",
         "🇮🇪 IE | VLESS | @parsashonam",
-        "🇮🇪 IE | VLESS | @parsashonam"
+        "🇮🇪 IE | VLESS | @parsashonam",
+        "🇮🇪 IE | VLESS | @prrofile_purple",
+        "🇮🇪 IE | VLESS | @v2raych"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +90,12 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇮🇪 IE | VLESS | @config_proxy",
         "🇮🇪 IE | VLESS | @configv2rayforfree",
         "🇮🇪 IE | VLESS | @parsashonam",
-        "🇮🇪 IE | VLESS | @parsashonam"
+        "🇮🇪 IE | VLESS | @parsashonam",
+        "🇮🇪 IE | VLESS | @prrofile_purple",
+        "🇮🇪 IE | VLESS | @v2raych"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,6 +109,23 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇮🇪 IE | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "37.0.6.46",
+      "server_port": 443,
+      "uuid": "00a85603-d8c6-437d-a8bd-ea521107bd87",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇮🇪 IE | VLESS | @configv2rayforfree",
@@ -127,6 +150,31 @@
       "server_port": 80,
       "uuid": "Parsashonam-338",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇪 IE | VLESS | @prrofile_purple",
+      "type": "vless",
+      "server": "n-vip.hulkirani1.ir",
+      "server_port": 80,
+      "uuid": "b9c20ba9-da82-4082-a97a-977b4fbed67b",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇪 IE | VLESS | @v2raych",
+      "type": "vless",
+      "server": "37.0.6.46",
+      "server_port": 443,
+      "uuid": "00a85603-d8c6-437d-a8bd-ea521107bd87",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
