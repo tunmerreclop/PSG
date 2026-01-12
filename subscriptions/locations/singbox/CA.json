@@ -90,18 +90,11 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇦 CA | VLESS | @custom_14",
         "🇨🇦 CA | VLESS | @jokerv2ray",
         "🇨🇦 CA | VLESS | @jokerv2ray",
         "🇨🇦 CA | VLESS | @lemonshopvpn",
-        "🇨🇦 CA | VLESS | @lemonshopvpn",
-        "🇨🇦 CA | VLESS | @proxy_confiingir",
-        "🇨🇦 CA | VLESS | @proxy_confiingir",
         "🇨🇦 CA | VLESS | @serverv2ray00",
         "🇨🇦 CA | SS | @v2raytg",
-        "🇨🇦 CA | VLESS | @v2rayza",
-        "🇨🇦 CA | VLESS | @v2rayza",
-        "🇨🇦 CA | VLESS | @vboxpanel",
         "🇨🇦 CA | VLESS | @vpnowl",
         "🇨🇦 CA | SS | @NamiraConfigs",
         "🇨🇦 CA | VMESS | @NamiraConfigs"
@@ -112,18 +105,11 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇦 CA | VLESS | @custom_14",
         "🇨🇦 CA | VLESS | @jokerv2ray",
         "🇨🇦 CA | VLESS | @jokerv2ray",
         "🇨🇦 CA | VLESS | @lemonshopvpn",
-        "🇨🇦 CA | VLESS | @lemonshopvpn",
-        "🇨🇦 CA | VLESS | @proxy_confiingir",
-        "🇨🇦 CA | VLESS | @proxy_confiingir",
         "🇨🇦 CA | VLESS | @serverv2ray00",
         "🇨🇦 CA | SS | @v2raytg",
-        "🇨🇦 CA | VLESS | @v2rayza",
-        "🇨🇦 CA | VLESS | @v2rayza",
-        "🇨🇦 CA | VLESS | @vboxpanel",
         "🇨🇦 CA | VLESS | @vpnowl",
         "🇨🇦 CA | SS | @NamiraConfigs",
         "🇨🇦 CA | VMESS | @NamiraConfigs"
@@ -136,23 +122,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇨🇦 CA | VLESS | @custom_14",
-      "type": "vless",
-      "server": "melo-mtn.outline-vpn.cloud",
-      "server_port": 443,
-      "uuid": "a3e76574-9458-4783-905b-970cf0ccdcd1",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇨🇦 CA | VLESS | @jokerv2ray",
@@ -186,57 +155,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇨🇦 CA | VLESS | @lemonshopvpn",
-      "type": "vless",
-      "server": "cxc--join.outline-vpn.cloud",
-      "server_port": 443,
-      "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇨🇦 CA | VLESS | @proxy_confiingir",
-      "type": "vless",
-      "server": "542.outline-vpn.cloud",
-      "server_port": 443,
-      "uuid": "884f9b2c-f0c5-44dd-a68e-3e39ce93bb39",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇨🇦 CA | VLESS | @proxy_confiingir",
-      "type": "vless",
-      "server": "bia2.outline-vpn.cloud",
-      "server_port": 443,
-      "uuid": "884f9b2c-f0c5-44dd-a68e-3e39ce93bb39",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇨🇦 CA | VLESS | @serverv2ray00",
       "type": "vless",
       "server": "23.227.60.7",
@@ -260,71 +178,6 @@
       "server_port": 27797,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5Zjk5MTgwZmM5MjExYzQw",
       "password": null
-    },
-    {
-      "tag": "🇨🇦 CA | VLESS | @v2rayza",
-      "type": "vless",
-      "server": "542.outline-vpn.cloud",
-      "server_port": 443,
-      "uuid": "884f9b2c-f0c5-44dd-a68e-3e39ce93bb39",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇨🇦 CA | VLESS | @v2rayza",
-      "type": "vless",
-      "server": "x124-join.outline-vpn.cloud",
-      "server_port": 443,
-      "uuid": "884f9b2c-f0c5-44dd-a68e-3e39ce93bb39",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇨🇦 CA | VLESS | @vboxpanel",
-      "type": "vless",
-      "server": "ejoin-to.outline-vpn.cloud",
-      "server_port": 443,
-      "uuid": "c17ee8d1-c7a3-4666-83da-d923ae45c31d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇨🇦 CA | VLESS | @vpnowl",

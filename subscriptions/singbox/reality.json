@@ -95,7 +95,6 @@
         "KingRezaPahlavi",
         "🇳🇱 NL | VLESS | @Fr33C0nfig",
         "🇳🇱 NL | VLESS | @bored_vpn",
-        "🇯🇵 JP | VLESS | @config_proxy",
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇸🇮 SI | VLESS | @filterk0sh",
@@ -140,7 +139,6 @@
         "🇬🇧 GB | VLESS | @satellitenewspersian",
         "🇩🇪 DE | VLESS | @v2aryng_vpn",
         "🇳🇱 NL | VLESS | @v2ray_collector",
-        "🇯🇵 JP | VLESS | @v2raych",
         "🇨🇾 CY | VLESS | @v2rayprotocol",
         "🇮🇳 IN | VLESS | @v2raytg",
         "🇷🇺 RU | VLESS | @v2raytg",
@@ -151,10 +149,9 @@
         "🇺🇸 US | VLESS | @vmessiranproxy",
         "🇺🇸 US | VLESS | @vmessiranproxy",
         "🇱🇻 LV | VLESS | @vpnowl",
-        "🇪🇸 ES | VLESS | @config_proxy",
-        "🇳🇱 NL | VLESS | @config_proxy",
-        "🇪🇸 ES | VLESS | @config_proxy",
         "🇫🇮 FI | VLESS | @config_proxy",
+        "🇪🇸 ES | VLESS | @config_proxy",
+        "🇪🇸 ES | VLESS | @config_proxy",
         "🇳🇱 NL | VLESS | @config_proxy",
         "🇩🇪 DE | VLESS | @configasli",
         "🇳🇱 NL | VLESS | @filterk0sh",
@@ -203,7 +200,6 @@
         "KingRezaPahlavi",
         "🇳🇱 NL | VLESS | @Fr33C0nfig",
         "🇳🇱 NL | VLESS | @bored_vpn",
-        "🇯🇵 JP | VLESS | @config_proxy",
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇸🇮 SI | VLESS | @filterk0sh",
@@ -248,7 +244,6 @@
         "🇬🇧 GB | VLESS | @satellitenewspersian",
         "🇩🇪 DE | VLESS | @v2aryng_vpn",
         "🇳🇱 NL | VLESS | @v2ray_collector",
-        "🇯🇵 JP | VLESS | @v2raych",
         "🇨🇾 CY | VLESS | @v2rayprotocol",
         "🇮🇳 IN | VLESS | @v2raytg",
         "🇷🇺 RU | VLESS | @v2raytg",
@@ -259,10 +254,9 @@
         "🇺🇸 US | VLESS | @vmessiranproxy",
         "🇺🇸 US | VLESS | @vmessiranproxy",
         "🇱🇻 LV | VLESS | @vpnowl",
-        "🇪🇸 ES | VLESS | @config_proxy",
-        "🇳🇱 NL | VLESS | @config_proxy",
-        "🇪🇸 ES | VLESS | @config_proxy",
         "🇫🇮 FI | VLESS | @config_proxy",
+        "🇪🇸 ES | VLESS | @config_proxy",
+        "🇪🇸 ES | VLESS | @config_proxy",
         "🇳🇱 NL | VLESS | @config_proxy",
         "🇩🇪 DE | VLESS | @configasli",
         "🇳🇱 NL | VLESS | @filterk0sh",
@@ -424,14 +418,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇯🇵 JP | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "66.235.104.110",
-      "server_port": 58545,
-      "uuid": "7620636b-e5cd-4949-94de-371aa405e9d1",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VLESS | @evay_vpn",
@@ -1250,14 +1236,6 @@
       }
     },
     {
-      "tag": "🇯🇵 JP | VLESS | @v2raych",
-      "type": "vless",
-      "server": "66.235.104.110",
-      "server_port": 58545,
-      "uuid": "7620636b-e5cd-4949-94de-371aa405e9d1",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇨🇾 CY | VLESS | @v2rayprotocol",
       "type": "vless",
       "server": "5.180.24.11",
@@ -1422,19 +1400,44 @@
       }
     },
     {
+      "tag": "🇫🇮 FI | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "hield.ru",
+      "server_port": 3389,
+      "uuid": "a1dde3e7-4e8d-45ba-8ea6-f99cd591ecf8",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇪🇸 ES | VLESS | @config_proxy",
       "type": "vless",
       "server": "tunnyl.ru",
       "server_port": 54746,
-      "uuid": "d2faa29a-9bbf-42de-9f67-a724477ea0d9",
+      "uuid": "7e41fdce-5678-4ed0-9639-6bf54e7a18fa",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇪🇸 ES | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "tunnyl.ru",
+      "server_port": 443,
+      "uuid": "af182a3e-b7d7-493c-a99b-ec063362cfdb",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | VLESS | @config_proxy",
       "type": "vless",
       "server": "world-of.ru",
       "server_port": 443,
-      "uuid": "76a2c97e-9cae-4e75-8d45-061bdc9a5ac5",
+      "uuid": "438e7888-957a-4f64-8925-340a5b2a94e2",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -1445,39 +1448,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇪🇸 ES | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "tunnyl.ru",
-      "server_port": 443,
-      "uuid": "8f0d5e6f-95df-42fc-a3d0-b31d29de0ad3",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "hield.ru",
-      "server_port": 3389,
-      "uuid": "3b18cd9b-243d-48ed-b021-92a65ac1bd41",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "subscribe.getvlessvpn.com",
-      "server_port": 49000,
-      "uuid": "160e9c18-c548-42bf-9c00-905aed8ef96f",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇩🇪 DE | VLESS | @configasli",

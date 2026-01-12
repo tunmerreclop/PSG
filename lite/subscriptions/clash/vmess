@@ -25,6 +25,7 @@ dns:
 proxies: 
   - {"name": "🇭🇰 HK | VMESS | @freev2rays", "server": "hk2.lrzdx.uk", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "db69d5bc-d36c-4903-f471-74b98c5cefe5", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/register", "headers": {"Host": "hk2.lrzdx.uk"}}}
   - {"name": "🇺🇸 US | VMESS | @freev2rays", "server": "xcf037.facai2024.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "d9863037-0463-4615-e972-36ba9662d1e9", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/d9863037", "headers": {"Host": "xcf037.facai2024.com"}}}
+  - {"name": "🇩🇪 DE | VMESS | @hope_net", "server": "172.67.156.22", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkws/afrhms16v.bestxray.buzz", "headers": {"Host": "nezuko.raidenshogun.cloudns.org"}}}
   - {"name": "🇧🇾 BY | VMESS | @ir_netproxy", "server": "5.161.156.196", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "d20e38ef-1a4d-4009-a00d-2f0d44e3c65a", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇺🇸 US | VMESS | @ir_netproxy", "server": "172.67.207.114", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 1, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "linkvws", "headers": {"Host": "ophelia.mom"}}}
   - {"name": "🇽🇽 XX | VMESS | @iranvpnet", "server": "mute-math-d64e.0e503992ad7026.WOrKERs.deV", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/aveiror.com:443/linkvws", "headers": {"Host": "mute-math-d64e.0e503992ad7026.woRKERS.DeV"}}}
@@ -36,6 +37,7 @@ proxies:
   - {"name": "🇦🇺 AU | VMESS | @v2rayngconfig", "server": "vde2.0bad.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "927094d3-d678-4763-8591-e240d0bcae87", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/chat", "headers": {"Host": "vde2.0bad.com"}}}
   - {"name": "🇺🇸 US | VMESS | @v2rayngconfig", "server": "new6.hucloud-dns.xyz", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "0a5dc877-0211-4352-f73a-8fbdae81d673", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/", "headers": {"Host": "new6.hucloud-dns.xyz"}}}
   - {"name": "🇺🇸 US | VMESS | @vpngate_config", "server": "cold-dawn-9246.fly.dev", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "ea4909ef-7ca6-4b46-bf2e-6c07896ef338", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm", "headers": {"Host": "cold-dawn-9246.fly.dev"}}}
+  - {"name": "🇽🇽 XX | VMESS | @hope_net", "server": "104.19.38.62", "port": 2086, "type": "vmess", "skip-cert-verify": true, "uuid": "29eebb60-b27b-4a9d-bba5-947763d9205e", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "", "headers": {"Host": "104.19.38.62"}}}
   - {"name": "🇩🇪 DE | VMESS | @khoneproxy", "server": "142.132.163.200", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "7f965e3e-b03f-455e-a96e-01b61f72537a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/graphql", "headers": {"Host": "142.132.163.200"}}}
   - {"name": "🇩🇪 DE | VMESS | @khoneproxy", "server": "167.235.205.182", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇩🇪 DE | VMESS | @magickey_shop", "server": "168.119.174.229", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
@@ -59,6 +61,7 @@ proxy-groups:
     proxies: 
       - '🇭🇰 HK | VMESS | @freev2rays'
       - '🇺🇸 US | VMESS | @freev2rays'
+      - '🇩🇪 DE | VMESS | @hope_net'
       - '🇧🇾 BY | VMESS | @ir_netproxy'
       - '🇺🇸 US | VMESS | @ir_netproxy'
       - '🇽🇽 XX | VMESS | @iranvpnet'
@@ -70,6 +73,7 @@ proxy-groups:
       - '🇦🇺 AU | VMESS | @v2rayngconfig'
       - '🇺🇸 US | VMESS | @v2rayngconfig'
       - '🇺🇸 US | VMESS | @vpngate_config'
+      - '🇽🇽 XX | VMESS | @hope_net'
       - '🇩🇪 DE | VMESS | @khoneproxy'
       - '🇩🇪 DE | VMESS | @khoneproxy'
       - '🇩🇪 DE | VMESS | @magickey_shop'

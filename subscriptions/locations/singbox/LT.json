@@ -98,7 +98,7 @@
         "🇱🇹 LT | SS | @NamiraConfigs",
         "🇱🇹 LT | SS | @NamiraConfigs",
         "🇱🇹 LT | SS | @NamiraConfigs",
-        "🇱🇹 LT | SS | @NamiraConfigs",
+        "🇱🇹 LT | VLESS | @config_proxy",
         "🇱🇹 LT | SS | @manstervpn",
         "🇱🇹 LT | SS | @manstervpn",
         "🇱🇹 LT | SS | @mester_v2ray",
@@ -106,6 +106,7 @@
         "🇱🇹 LT | SS | @outlinereleasedkey",
         "🇱🇹 LT | SS | @prrofile_purple",
         "🇱🇹 LT | VLESS | @v2ray_collector",
+        "🇱🇹 LT | VLESS | @v2raych",
         "🇱🇹 LT | SS | @vmessiranproxy",
         "🇱🇹 LT | SS | @vmessiranproxy",
         "🇱🇹 LT | SS | @NamiraConfigs",
@@ -125,7 +126,7 @@
         "🇱🇹 LT | SS | @NamiraConfigs",
         "🇱🇹 LT | SS | @NamiraConfigs",
         "🇱🇹 LT | SS | @NamiraConfigs",
-        "🇱🇹 LT | SS | @NamiraConfigs",
+        "🇱🇹 LT | VLESS | @config_proxy",
         "🇱🇹 LT | SS | @manstervpn",
         "🇱🇹 LT | SS | @manstervpn",
         "🇱🇹 LT | SS | @mester_v2ray",
@@ -133,6 +134,7 @@
         "🇱🇹 LT | SS | @outlinereleasedkey",
         "🇱🇹 LT | SS | @prrofile_purple",
         "🇱🇹 LT | VLESS | @v2ray_collector",
+        "🇱🇹 LT | VLESS | @v2raych",
         "🇱🇹 LT | SS | @vmessiranproxy",
         "🇱🇹 LT | SS | @vmessiranproxy",
         "🇱🇹 LT | SS | @NamiraConfigs",
@@ -146,14 +148,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇱🇹 LT | SS | @NamiraConfigs",
-      "type": "shadowsocks",
-      "server": "beesyar.org",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh",
-      "password": null
     },
     {
       "tag": "🇱🇹 LT | SS | @NamiraConfigs",
@@ -218,6 +212,23 @@
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q",
       "password": null
+    },
+    {
+      "tag": "🇱🇹 LT | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "89.116.161.178",
+      "server_port": 2053,
+      "uuid": "0d0566b8-203a-4076-b18c-5645d9815e18",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇱🇹 LT | SS | @manstervpn",
@@ -289,6 +300,23 @@
       "server": "89.116.180.248",
       "server_port": 443,
       "uuid": "401374e6-df77-41fb-f638-dad8184f175b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇱🇹 LT | VLESS | @v2raych",
+      "type": "vless",
+      "server": "89.116.161.178",
+      "server_port": 2053,
+      "uuid": "0d0566b8-203a-4076-b18c-5645d9815e18",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

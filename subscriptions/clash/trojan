@@ -23,14 +23,12 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇭🇰 HK | TROJAN | @config_proxy", "server": "58.152.46.60", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "BxceQaOe"}
   - {"name": "🇽🇽 XX | TROJAN | @config_proxy", "server": "104.18.42.163", "port": 2096, "type": "trojan", "skip-cert-verify": false, "password": "f52d0a04-94ad-4f9e-9945-4c3d43374e36"}
-  - {"name": "🇭🇰 HK | TROJAN | @config_proxy", "server": "58.152.46.60", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "BxceQaOe"}
-  - {"name": "🇭🇰 HK | TROJAN | @config_proxy", "server": "58.152.46.60", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "BxceQaOe"}
   - {"name": "🇺🇸 US | TROJAN | @free4allvpn", "server": "23.247.137.64", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "3c4e10af98c30972"}
   - {"name": "🇳🇱 NL | TROJAN | @manstervpn", "server": "185.176.24.2", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "bpb-trojan"}
   - {"name": "🇽🇽 XX | TROJAN | @manstervpn", "server": "172.66.44.141", "port": 2083, "type": "trojan", "skip-cert-verify": false, "password": "bpb-trojan"}
   - {"name": "🇽🇽 XX | TROJAN | @manstervpn", "server": "104.18.37.111", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "bpb-trojan"}
-  - {"name": "🇩🇪 DE | TROJAN | @privatevpns", "server": "63.181.220.145", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
   - {"name": "🇫🇷 FR | TROJAN | @privatevpns", "server": "51.45.9.101", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
   - {"name": "🇫🇷 FR | TROJAN | @proxyfn", "server": "51.91.11.29", "port": 80, "type": "trojan", "skip-cert-verify": false, "password": "598c19f3-a48e-47cd-8451-1ba04ea094d0"}
   - {"name": "🇺🇸 US | TROJAN | @v2ray_collector", "server": "198.23.229.250", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "2ee85121-31de-4581-a492-eb00f606e392"}
@@ -58,14 +56,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇭🇰 HK | TROJAN | @config_proxy'
       - '🇽🇽 XX | TROJAN | @config_proxy'
-      - '🇭🇰 HK | TROJAN | @config_proxy'
-      - '🇭🇰 HK | TROJAN | @config_proxy'
       - '🇺🇸 US | TROJAN | @free4allvpn'
       - '🇳🇱 NL | TROJAN | @manstervpn'
       - '🇽🇽 XX | TROJAN | @manstervpn'
       - '🇽🇽 XX | TROJAN | @manstervpn'
-      - '🇩🇪 DE | TROJAN | @privatevpns'
       - '🇫🇷 FR | TROJAN | @privatevpns'
       - '🇫🇷 FR | TROJAN | @proxyfn'
       - '🇺🇸 US | TROJAN | @v2ray_collector'

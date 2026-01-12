@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇦🇹 AT | VLESS | @freeconfigsplus", "server": "trial.axo.foundation", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "8f9ef160-7a47-4bde-918a-7ef36d4f2579", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇦🇹 AT | VLESS | @orange_vpns", "server": "212.183.88.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇦🇹 AT | VLESS | @freeconfigsplus'
       - '🇦🇹 AT | VLESS | @orange_vpns'
 
   - name: 🌍 Global Media
