@@ -23,8 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇷🇺 RU | VLESS | @config_proxy", "server": "51.250.29.132", "port": 1488, "type": "vless", "skip-cert-verify": true, "uuid": "3ef34008-6ede-4356-b1d1-a9e9ab6ec279", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇷🇺 RU | VLESS | @config_proxy", "server": "51.250.29.71", "port": 1488, "type": "vless", "skip-cert-verify": true, "uuid": "3ef34008-6ede-4356-b1d1-a9e9ab6ec279", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @evay_vpn", "server": "84.201.130.151", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "fd4b0117-d752-46fd-9a94-21a21e360fdb", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @evay_vpn", "server": "51.250.75.169", "port": 444, "type": "vless", "skip-cert-verify": true, "uuid": "c495cf08-e046-4311-aa4b-82cc16576992", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @flyv2ray", "server": "45.159.249.242", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "ecd373ac-8cc8-407d-9600-896d6296320c", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
@@ -45,8 +43,6 @@ proxies:
   - {"name": "🇷🇺 RU | VLESS | @prrofile_purple", "server": "185.251.89.26", "port": 4443, "type": "vless", "skip-cert-verify": true, "uuid": "526552b2-f67f-489c-9d0d-3e00e7d890d1", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇷🇺 RU | VLESS | @prrofile_purple", "server": "176.109.109.58", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "bc32639e-100a-40ad-b064-b0829a0bd197", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇷🇺 RU | VLESS | @satellitenewspersian", "server": "45.8.145.61", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "309fa273-6579-4cb2-9143-7cad50401eba", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇷🇺 RU | VLESS | @v2raych", "server": "51.250.29.71", "port": 1488, "type": "vless", "skip-cert-verify": true, "uuid": "3ef34008-6ede-4356-b1d1-a9e9ab6ec279", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇷🇺 RU | VLESS | @v2raych", "server": "51.250.16.178", "port": 1488, "type": "vless", "skip-cert-verify": true, "uuid": "3ef34008-6ede-4356-b1d1-a9e9ab6ec279", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @v2raytg", "server": "83.166.236.201", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "329bd550-a8f8-4157-b2df-dc4503097a27", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇷🇺 RU | VLESS | @vmesc", "server": "109.248.222.151", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a91e64f0-9295-499d-bf4a-661ad99d4938", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
@@ -62,8 +58,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇷🇺 RU | VLESS | @config_proxy'
-      - '🇷🇺 RU | VLESS | @config_proxy'
       - '🇷🇺 RU | VLESS | @evay_vpn'
       - '🇷🇺 RU | VLESS | @evay_vpn'
       - '🇷🇺 RU | VLESS | @flyv2ray'
@@ -84,8 +78,6 @@ proxy-groups:
       - '🇷🇺 RU | VLESS | @prrofile_purple'
       - '🇷🇺 RU | VLESS | @prrofile_purple'
       - '🇷🇺 RU | VLESS | @satellitenewspersian'
-      - '🇷🇺 RU | VLESS | @v2raych'
-      - '🇷🇺 RU | VLESS | @v2raych'
       - '🇷🇺 RU | VLESS | @v2raytg'
       - '🇷🇺 RU | VLESS | @vmesc'
 

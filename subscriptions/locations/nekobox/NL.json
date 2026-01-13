@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇳🇱 NL | VLESS | @Fr33C0nfig",
         "🇳🇱 NL | VLESS | @bored_vpn",
         "🇳🇱 NL | VLESS | @config_proxy",
         "🇳🇱 NL | VLESS | @filterk0sh",
@@ -106,7 +105,6 @@
         "🇳🇱 NL | VLESS | @qeshmserver",
         "🇳🇱 NL | VLESS | @sobi_vpn",
         "🇳🇱 NL | VLESS | @v2ray_collector",
-        "🇳🇱 NL | SS | @v2ray_free_conf",
         "🇳🇱 NL | SS | @NamiraConfigs"
       ],
       "tag": "proxy",
@@ -115,7 +113,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇳🇱 NL | VLESS | @Fr33C0nfig",
         "🇳🇱 NL | VLESS | @bored_vpn",
         "🇳🇱 NL | VLESS | @config_proxy",
         "🇳🇱 NL | VLESS | @filterk0sh",
@@ -144,7 +141,6 @@
         "🇳🇱 NL | VLESS | @qeshmserver",
         "🇳🇱 NL | VLESS | @sobi_vpn",
         "🇳🇱 NL | VLESS | @v2ray_collector",
-        "🇳🇱 NL | SS | @v2ray_free_conf",
         "🇳🇱 NL | SS | @NamiraConfigs"
       ],
       "tag": "auto",
@@ -159,28 +155,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @Fr33C0nfig",
-      "type": "vless",
-      "server": "146.103.105.233",
-      "server_port": 443,
-      "uuid": "osVPN_3111052",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇳🇱 NL | VLESS | @bored_vpn",
@@ -209,7 +183,7 @@
       "type": "vless",
       "server": "world-of.ru",
       "server_port": 443,
-      "uuid": "c84ecf03-f544-4769-ac38-b3767304c5d5",
+      "uuid": "e2d02426-f3f6-476e-a158-83bf04887bdd",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -496,14 +470,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇳🇱 NL | SS | @v2ray_free_conf",
-      "type": "shadowsocks",
-      "server": "208.67.106.73",
-      "server_port": 44884,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyREdxM2p2VlJnNW4zQ2N4bXlzR0sya21yZ0plU05vZjEyQTc2Y1p2VnhxUHBldHlDMVhFY2lDRnVmcTV4S3ZSV0dHbktWZW1icFRodVVTUWhiWjdHTXNaWTRVVnhFQnc=",
-      "password": null
     },
     {
       "tag": "🇳🇱 NL | SS | @NamiraConfigs",

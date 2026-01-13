@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇭🇰 HK | VLESS | @config_proxy", "server": "47.239.69.137", "port": 8440, "type": "vless", "skip-cert-verify": true, "uuid": "e258977b-e413-4718-a3af-02d75492c349", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇭🇰 HK | VMESS | @freev2rays", "server": "hk2.lrzdx.uk", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "db69d5bc-d36c-4903-f471-74b98c5cefe5", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/register", "headers": {"Host": "hk2.lrzdx.uk"}}}
   - {"name": "🇭🇰 HK | VMESS | @v2ray_free_conf", "server": "cef91d7a-t70f40-to8xn3-l4nv.hkt.gotochinatown.net", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "1469e09e-027c-11ec-a0fc-f23c913c8d2b", "alterId": 2, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/", "headers": {"Host": "cef91d7a-t70f40-to8xn3-l4nv.hkt.gotochinatown.net"}}}
 
@@ -39,7 +38,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇭🇰 HK | VLESS | @config_proxy'
       - '🇭🇰 HK | VMESS | @freev2rays'
       - '🇭🇰 HK | VMESS | @v2ray_free_conf'
 

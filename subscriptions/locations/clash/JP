@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇲🇾 MY | VLESS | @config_proxy", "server": "my01-vlr01.tcp-reset-club.net", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0a8998f4-0642-4408-9f74-ac40593efb28", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇲🇾 MY | VLESS | @v2raych", "server": "my01-vlr01.tcp-reset-club.net", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0a8998f4-0642-4408-9f74-ac40593efb28", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇯🇵 JP | TROJAN | @free4allvpn", "server": "kuame.missionsec.us", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇲🇾 MY | VLESS | @config_proxy'
-      - '🇲🇾 MY | VLESS | @v2raych'
+      - '🇯🇵 JP | TROJAN | @free4allvpn'
 
   - name: 🌍 Global Media
     type: select

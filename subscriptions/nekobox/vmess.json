@@ -97,6 +97,7 @@
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @v2ray4win",
         "🇭🇰 HK | VMESS | @v2ray_free_conf",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf",
         "🇦🇺 AU | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇦🇺 AU | VMESS | @v2rayngconfig",
@@ -145,6 +146,7 @@
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @v2ray4win",
         "🇭🇰 HK | VMESS | @v2ray_free_conf",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf",
         "🇦🇺 AU | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇦🇺 AU | VMESS | @v2rayngconfig",
@@ -640,6 +642,31 @@
         "path": "/",
         "headers": {
           "Host": "cef91d7a-t70f40-to8xn3-l4nv.hkt.gotochinatown.net"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf",
+      "type": "vmess",
+      "server": "t1.620720.xyz",
+      "server_port": 8443,
+      "uuid": "516d8a7a-3f0b-41d3-bad0-246116381516",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "t1.620720.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "t1.620720.xyz"
         }
       }
     },

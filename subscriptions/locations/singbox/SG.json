@@ -90,9 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇬 SG | SS | @v2ray_free_conf",
-        "🇸🇬 SG | VLESS | @v2raych",
-        "🇸🇬 SG | VLESS | @v2raych",
+        "🇸🇬 SG | VLESS | @config_proxy",
         "🇸🇬 SG | VLESS | @v2rayprotocol",
         "🇸🇬 SG | VLESS | @vmessiranproxy",
         "🇸🇬 SG | VLESS | @vmessiranproxy"
@@ -103,9 +101,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇬 SG | SS | @v2ray_free_conf",
-        "🇸🇬 SG | VLESS | @v2raych",
-        "🇸🇬 SG | VLESS | @v2raych",
+        "🇸🇬 SG | VLESS | @config_proxy",
         "🇸🇬 SG | VLESS | @v2rayprotocol",
         "🇸🇬 SG | VLESS | @vmessiranproxy",
         "🇸🇬 SG | VLESS | @vmessiranproxy"
@@ -120,36 +116,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇸🇬 SG | SS | @v2ray_free_conf",
-      "type": "shadowsocks",
-      "server": "68.183.235.122",
-      "server_port": 8080,
-      "method": "cmM0LW1kNToxNGZGUHJiZXpFM0hEWnpzTU9yNg==",
-      "password": null
-    },
-    {
-      "tag": "🇸🇬 SG | VLESS | @v2raych",
+      "tag": "🇸🇬 SG | VLESS | @config_proxy",
       "type": "vless",
-      "server": "sg01-vlr01.tcp-reset-club.net",
+      "server": "free-server.techsonic.ggff.net",
       "server_port": 443,
-      "uuid": "0a8998f4-0642-4408-9f74-ac40593efb28",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 SG | VLESS | @v2raych",
-      "type": "vless",
-      "server": "sg.fasti.win",
-      "server_port": 443,
-      "uuid": "a4bb90e6-94e7-4a02-948b-179afb33cb6d",
+      "uuid": "6a0e628b-e689-4c00-8a6e-e039ac7db08d",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
