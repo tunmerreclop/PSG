@@ -93,6 +93,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇱🇻 LV | VMESS | @config_proxy",
         "🇦🇺 AU | VMESS | @dailyv2ray",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇺🇸 US | VMESS | @freev2rays",
@@ -128,7 +129,6 @@
         "🇽🇽 XX | VMESS | @proxy48",
         "🇫🇷 FR | VMESS | @selinc",
         "🇺🇸 US | VMESS | @v2ray_collector",
-        "🇫🇷 FR | VMESS | @v2ray_free_conf",
         "🇨🇦 CA | VMESS | @NamiraConfigs"
       ],
       "tag": "proxy",
@@ -140,6 +140,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇱🇻 LV | VMESS | @config_proxy",
         "🇦🇺 AU | VMESS | @dailyv2ray",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇺🇸 US | VMESS | @freev2rays",
@@ -175,7 +176,6 @@
         "🇽🇽 XX | VMESS | @proxy48",
         "🇫🇷 FR | VMESS | @selinc",
         "🇺🇸 US | VMESS | @v2ray_collector",
-        "🇫🇷 FR | VMESS | @v2ray_free_conf",
         "🇨🇦 CA | VMESS | @NamiraConfigs"
       ],
       "tag": "auto",
@@ -258,6 +258,15 @@
           "Host": ""
         }
       }
+    },
+    {
+      "tag": "🇱🇻 LV | VMESS | @config_proxy",
+      "type": "vmess",
+      "server": "yellowbluegreenred.worldwebhunter.com",
+      "server_port": 2083,
+      "uuid": "bdcd3f0e-7aac-407b-a968-53444c2f2499",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇦🇺 AU | VMESS | @dailyv2ray",
@@ -1012,31 +1021,6 @@
         "path": "/vmessws",
         "headers": {
           "Host": "209.126.84.189"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 FR | VMESS | @v2ray_free_conf",
-      "type": "vmess",
-      "server": "57.128.189.240",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/linkvws",
-        "headers": {
-          "Host": ""
         }
       }
     },
