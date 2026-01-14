@@ -23,6 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇪🇸 ES | VLESS | @config_proxy", "server": "tunnyl.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a8913729-acd6-4fc9-bec3-66cd4d263ca2", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇪🇸 ES | VLESS | @config_proxy", "server": "tunnyl.ru", "port": 54746, "type": "vless", "skip-cert-verify": true, "uuid": "89009161-8def-4c10-b84f-93f06f771fc1", "network": "xhttp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇪🇸 ES | VLESS | @freeconfigsplus", "server": "subscription.lormarb.ir", "port": 53762, "type": "vless", "skip-cert-verify": true, "uuid": "0b3dc0af-9ca6-4542-ac1a-513d0e3b8eaa", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "/", "headers": {"Host": "subscription.lormarb.ir"}}}
   - {"name": "🇪🇸 ES | VLESS | @v2raytg", "server": "p1anel.lormarb.ir", "port": 53762, "type": "vless", "skip-cert-verify": true, "uuid": "aaeddbf5-a9df-4931-b231-08909eed7501", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
@@ -38,6 +40,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇪🇸 ES | VLESS | @config_proxy'
+      - '🇪🇸 ES | VLESS | @config_proxy'
       - '🇪🇸 ES | VLESS | @freeconfigsplus'
       - '🇪🇸 ES | VLESS | @v2raytg'
 

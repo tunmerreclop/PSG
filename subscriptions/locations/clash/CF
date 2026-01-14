@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇽🇽 XX | VMESS | @config_proxy", "server": "t1.620720.xyz", "port": 8443, "type": "vmess", "skip-cert-verify": true, "uuid": "516d8a7a-3f0b-41d3-bad0-246116381516", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/", "headers": {"Host": "t1.620720.xyz"}}}
   - {"name": "🇽🇽 XX | TROJAN | @config_proxy", "server": "172.67.203.189", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "e53ecb38-1974-4cca-b640-039e1f310710"}
   - {"name": "🇽🇽 XX | TROJAN | @config_proxy", "server": "104.18.42.163", "port": 2096, "type": "trojan", "skip-cert-verify": false, "password": "f52d0a04-94ad-4f9e-9945-4c3d43374e36"}
   - {"name": "🇽🇽 XX | VMESS | @frev2rayng", "server": "104.21.25.65", "port": 2087, "type": "vmess", "skip-cert-verify": true, "uuid": "864112a6-ceeb-4126-b7e2-509c2a203d20", "alterId": 0, "cipher": "auto", "network": "grpc", "tls": true, "grpc-opts": {"grpc-service-name": ""}}
@@ -57,7 +56,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇽🇽 XX | VMESS | @config_proxy'
       - '🇽🇽 XX | TROJAN | @config_proxy'
       - '🇽🇽 XX | TROJAN | @config_proxy'
       - '🇽🇽 XX | VMESS | @frev2rayng'

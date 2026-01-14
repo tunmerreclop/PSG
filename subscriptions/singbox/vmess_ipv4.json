@@ -93,8 +93,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VMESS | @config_proxy",
         "🇽🇽 XX | VMESS | @frev2rayng",
+        "🇩🇪 DE | VMESS | @khoneproxy",
         "🇩🇪 DE | VMESS | @khoneproxy",
         "🇩🇪 DE | VMESS | @magickey_shop",
         "🇽🇽 XX | VMESS | @proxie",
@@ -119,8 +119,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VMESS | @config_proxy",
         "🇽🇽 XX | VMESS | @frev2rayng",
+        "🇩🇪 DE | VMESS | @khoneproxy",
         "🇩🇪 DE | VMESS | @khoneproxy",
         "🇩🇪 DE | VMESS | @magickey_shop",
         "🇽🇽 XX | VMESS | @proxie",
@@ -218,22 +218,6 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VMESS | @config_proxy",
-      "type": "vmess",
-      "server": "142.132.163.200",
-      "server_port": 80,
-      "uuid": "7f965e3e-b03f-455e-a96e-01b61f72537a",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/graphql",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | VMESS | @frev2rayng",
       "type": "vmess",
       "server": "104.21.25.65",
@@ -253,6 +237,22 @@
       "transport": {
         "type": "grpc",
         "service_name": ""
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VMESS | @khoneproxy",
+      "type": "vmess",
+      "server": "142.132.163.200",
+      "server_port": 80,
+      "uuid": "7f965e3e-b03f-455e-a96e-01b61f72537a",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/graphql",
+        "headers": {
+          "Host": ""
+        }
       }
     },
     {
