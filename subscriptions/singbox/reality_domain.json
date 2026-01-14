@@ -94,11 +94,11 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇳🇱 NL | VLESS | @config_proxy",
+        "🇫🇮 FI | VLESS | @config_proxy",
         "🇩🇪 DE | VLESS | @configasli",
         "🇳🇱 NL | VLESS | @filterk0sh",
         "🇷🇺 RU | VLESS | @flyv2ray",
         "🇯🇵 JP | VLESS | @free1_vpn",
-        "🇩🇪 DE | VLESS | @freeconfigsplus",
         "🇩🇪 DE | VLESS | @freeconfigsplus",
         "🇩🇪 DE | VLESS | @freeconfigsplus",
         "🇩🇪 DE | VLESS | @freeconfigsplus",
@@ -140,11 +140,11 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇳🇱 NL | VLESS | @config_proxy",
+        "🇫🇮 FI | VLESS | @config_proxy",
         "🇩🇪 DE | VLESS | @configasli",
         "🇳🇱 NL | VLESS | @filterk0sh",
         "🇷🇺 RU | VLESS | @flyv2ray",
         "🇯🇵 JP | VLESS | @free1_vpn",
-        "🇩🇪 DE | VLESS | @freeconfigsplus",
         "🇩🇪 DE | VLESS | @freeconfigsplus",
         "🇩🇪 DE | VLESS | @freeconfigsplus",
         "🇩🇪 DE | VLESS | @freeconfigsplus",
@@ -260,9 +260,26 @@
     {
       "tag": "🇳🇱 NL | VLESS | @config_proxy",
       "type": "vless",
-      "server": "nl3.srv.oplcdn.link",
-      "server_port": 8443,
-      "uuid": "b82d5a1d-88be-47ea-b59d-2eb0a36b3922",
+      "server": "world-of.ru",
+      "server_port": 443,
+      "uuid": "952a4c09-c4e7-4dec-81b7-067ed88adb18",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "hield.ru",
+      "server_port": 3389,
+      "uuid": "8f5c1a11-8682-457a-ad27-99a240a961a2",
       "packet_encoding": "xudp"
     },
     {
@@ -331,14 +348,6 @@
       "type": "vless",
       "server": "ip.aiteamplus.ir",
       "server_port": 6005,
-      "uuid": "9da4ff55-440a-4b6e-9a3c-540beda258a1",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @freeconfigsplus",
-      "type": "vless",
-      "server": "ip.aiteamplus.ir",
-      "server_port": 6006,
       "uuid": "9da4ff55-440a-4b6e-9a3c-540beda258a1",
       "packet_encoding": "xudp"
     },

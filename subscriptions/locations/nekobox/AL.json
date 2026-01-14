@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇱 AL | VLESS | @config_proxy",
         "🇦🇱 AL | VLESS | @netmellianti"
       ],
       "tag": "proxy",
@@ -86,7 +85,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇱 AL | VLESS | @config_proxy",
         "🇦🇱 AL | VLESS | @netmellianti"
       ],
       "tag": "auto",
@@ -101,14 +99,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇦🇱 AL | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "45.15.170.217",
-      "server_port": 8443,
-      "uuid": "b82d5a1d-88be-47ea-b59d-2eb0a36b3922",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇦🇱 AL | VLESS | @netmellianti",

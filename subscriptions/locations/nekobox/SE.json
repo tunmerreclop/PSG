@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇸🇪 SE | VLESS | @config_proxy",
         "🇸🇪 SE | VLESS | @deli_servers",
         "🇸🇪 SE | VLESS | @free_vip3",
         "🇸🇪 SE | VLESS | @free_vip3",
@@ -85,7 +86,6 @@
         "🇸🇪 SE | VLESS | @free_vip3",
         "🇸🇪 SE | VLESS | @free_vip3",
         "🇸🇪 SE | VLESS | @free_vip3",
-        "🇸🇪 SE | VLESS | @kafing_2",
         "🇸🇪 SE | VLESS | @kurd_v2ray",
         "🇸🇪 SE | VLESS | @kurd_v2ray",
         "🇸🇪 SE | VLESS | @kurd_v2ray",
@@ -114,8 +114,6 @@
         "🇸🇪 SE | VLESS | @meli_v2rayng",
         "🇸🇪 SE | VLESS | @minovpnch",
         "🇸🇪 SE | VLESS | @proxyfn",
-        "🇸🇪 SE | VLESS | @prrofile_purple",
-        "🇸🇪 SE | VLESS | @prrofile_purple",
         "🇸🇪 SE | VLESS | @realvpnmaster",
         "🇸🇪 SE | VLESS | @realvpnmaster",
         "🇸🇪 SE | VLESS | @realvpnmaster",
@@ -129,7 +127,6 @@
         "🇸🇪 SE | VLESS | @v2logy",
         "🇸🇪 SE | VLESS | @v2logy",
         "🇸🇪 SE | VLESS | @v2logy",
-        "🇸🇪 SE | VLESS | @v2raych",
         "🇸🇪 SE | VLESS | @v2raytg",
         "🇸🇪 SE | VLESS | @v_2rayng0",
         "🇸🇪 SE | TUIC | @vipv2rey",
@@ -141,6 +138,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇸🇪 SE | VLESS | @config_proxy",
         "🇸🇪 SE | VLESS | @deli_servers",
         "🇸🇪 SE | VLESS | @free_vip3",
         "🇸🇪 SE | VLESS | @free_vip3",
@@ -149,7 +147,6 @@
         "🇸🇪 SE | VLESS | @free_vip3",
         "🇸🇪 SE | VLESS | @free_vip3",
         "🇸🇪 SE | VLESS | @free_vip3",
-        "🇸🇪 SE | VLESS | @kafing_2",
         "🇸🇪 SE | VLESS | @kurd_v2ray",
         "🇸🇪 SE | VLESS | @kurd_v2ray",
         "🇸🇪 SE | VLESS | @kurd_v2ray",
@@ -178,8 +175,6 @@
         "🇸🇪 SE | VLESS | @meli_v2rayng",
         "🇸🇪 SE | VLESS | @minovpnch",
         "🇸🇪 SE | VLESS | @proxyfn",
-        "🇸🇪 SE | VLESS | @prrofile_purple",
-        "🇸🇪 SE | VLESS | @prrofile_purple",
         "🇸🇪 SE | VLESS | @realvpnmaster",
         "🇸🇪 SE | VLESS | @realvpnmaster",
         "🇸🇪 SE | VLESS | @realvpnmaster",
@@ -193,7 +188,6 @@
         "🇸🇪 SE | VLESS | @v2logy",
         "🇸🇪 SE | VLESS | @v2logy",
         "🇸🇪 SE | VLESS | @v2logy",
-        "🇸🇪 SE | VLESS | @v2raych",
         "🇸🇪 SE | VLESS | @v2raytg",
         "🇸🇪 SE | VLESS | @v_2rayng0",
         "🇸🇪 SE | TUIC | @vipv2rey",
@@ -211,6 +205,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "185.146.173.68",
+      "server_port": 80,
+      "uuid": "b570b7db-89d1-45e7-8fe7-7664aa89c894",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇸🇪 SE | VLESS | @deli_servers",
@@ -324,14 +326,6 @@
           "Host": ""
         }
       }
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @kafing_2",
-      "type": "vless",
-      "server": "ip-range.coin.name.ng",
-      "server_port": 8443,
-      "uuid": "ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇸🇪 SE | VLESS | @kurd_v2ray",
@@ -628,22 +622,6 @@
       }
     },
     {
-      "tag": "🇸🇪 SE | VLESS | @prrofile_purple",
-      "type": "vless",
-      "server": "ip-range.coin.name.ng",
-      "server_port": 8443,
-      "uuid": "ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @prrofile_purple",
-      "type": "vless",
-      "server": "ip-range.coin.name.ng",
-      "server_port": 8443,
-      "uuid": "ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇸🇪 SE | VLESS | @realvpnmaster",
       "type": "vless",
       "server": "185.146.173.185",
@@ -759,14 +737,6 @@
       "server": "185.146.173.237",
       "server_port": 80,
       "uuid": "telegram-id-ArV2ray",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @v2raych",
-      "type": "vless",
-      "server": "185.146.173.25",
-      "server_port": 80,
-      "uuid": "67a4bed6-5528-49a2-a0ae-54332babb956",
       "packet_encoding": "xudp"
     },
     {

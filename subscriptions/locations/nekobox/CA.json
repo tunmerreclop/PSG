@@ -77,10 +77,12 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇨🇦 CA | VLESS | @config_proxy",
         "🇨🇦 CA | VLESS | @jokerv2ray",
         "🇨🇦 CA | VLESS | @jokerv2ray",
         "🇨🇦 CA | VLESS | @serverv2ray00",
         "🇨🇦 CA | SS | @v2ray_free_conf",
+        "🇨🇦 CA | VLESS | @v2raych",
         "🇨🇦 CA | SS | @v2raytg",
         "🇨🇦 CA | VLESS | @vpnowl",
         "🇨🇦 CA | VMESS | @NamiraConfigs"
@@ -91,10 +93,12 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇨🇦 CA | VLESS | @config_proxy",
         "🇨🇦 CA | VLESS | @jokerv2ray",
         "🇨🇦 CA | VLESS | @jokerv2ray",
         "🇨🇦 CA | VLESS | @serverv2ray00",
         "🇨🇦 CA | SS | @v2ray_free_conf",
+        "🇨🇦 CA | VLESS | @v2raych",
         "🇨🇦 CA | SS | @v2raytg",
         "🇨🇦 CA | VLESS | @vpnowl",
         "🇨🇦 CA | VMESS | @NamiraConfigs"
@@ -111,6 +115,23 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇨🇦 CA | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "23.227.38.145",
+      "server_port": 443,
+      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇨🇦 CA | VLESS | @jokerv2ray",
@@ -159,6 +180,23 @@
       "server_port": 80,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKSWhONnJCS2thRWJvTE5YVlN2NXJx",
       "password": null
+    },
+    {
+      "tag": "🇨🇦 CA | VLESS | @v2raych",
+      "type": "vless",
+      "server": "23.227.38.145",
+      "server_port": 443,
+      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇨🇦 CA | SS | @v2raytg",

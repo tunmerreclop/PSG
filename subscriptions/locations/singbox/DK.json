@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgSFU=
+//profile-title: base64:UFNHIHwgREs=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇺 HU | VLESS | @config_proxy"
+        "🇩🇰 DK | VLESS | @configv2rayforfree"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇺 HU | VLESS | @config_proxy"
+        "🇩🇰 DK | VLESS | @configv2rayforfree"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,21 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇭🇺 HU | VLESS | @config_proxy",
+      "tag": "🇩🇰 DK | VLESS | @configv2rayforfree",
       "type": "vless",
-      "server": "217.13.104.148",
-      "server_port": 443,
-      "uuid": "16bbdaa1-7145-4e5d-9c49-d2059d76432d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "hajimamadvpnjoinsho.fast199.hosting-ip.com",
+      "server_port": 80,
+      "uuid": "832a3784-7ae1-4ff2-ab13-5fb4bf8abd28",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
