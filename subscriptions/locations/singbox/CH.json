@@ -90,8 +90,10 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇨🇭 CH | VLESS | @config_proxy",
         "🇨🇭 CH | VLESS | @minovpnch",
-        "🇨🇭 CH | VLESS | @proxyfn"
+        "🇨🇭 CH | VLESS | @proxyfn",
+        "🇨🇭 CH | VLESS | @v2raych"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +101,10 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇨🇭 CH | VLESS | @config_proxy",
         "🇨🇭 CH | VLESS | @minovpnch",
-        "🇨🇭 CH | VLESS | @proxyfn"
+        "🇨🇭 CH | VLESS | @proxyfn",
+        "🇨🇭 CH | VLESS | @v2raych"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,6 +114,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "45.85.93.204",
+      "server_port": 2345,
+      "uuid": "8a92875e-2a19-43c8-8834-c38dc44e4ba7",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇨🇭 CH | VLESS | @minovpnch",
@@ -135,6 +147,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @v2raych",
+      "type": "vless",
+      "server": "45.85.93.204",
+      "server_port": 2345,
+      "uuid": "8a92875e-2a19-43c8-8834-c38dc44e4ba7",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

@@ -80,6 +80,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇦🇺 AU | VLESS | @config_proxy",
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇸🇮 SI | VLESS | @filterk0sh",
@@ -111,6 +112,8 @@
         "🇩🇪 DE | VLESS | @prrofile_purple",
         "🇩🇪 DE | VLESS | @prrofile_purple",
         "🇷🇺 RU | VLESS | @prrofile_purple",
+        "🇩🇪 DE | VLESS | @prrofile_purple",
+        "🇷🇺 RU | VLESS | @prrofile_purple",
         "🇷🇺 RU | VLESS | @prrofile_purple",
         "🇷🇺 RU | VLESS | @prrofile_purple",
         "🇷🇺 RU | VLESS | @prrofile_purple",
@@ -124,6 +127,7 @@
         "🇬🇧 GB | VLESS | @satellitenewspersian",
         "🇳🇱 NL | VLESS | @v2aryng_vpn",
         "🇳🇱 NL | VLESS | @v2ray_collector",
+        "🇨🇾 CY | VLESS | @v2rayprotocol",
         "🇮🇳 IN | VLESS | @v2raytg",
         "🇷🇺 RU | VLESS | @v2raytg",
         "🇩🇪 DE | VLESS | @vipv2rey",
@@ -142,6 +146,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇦🇺 AU | VLESS | @config_proxy",
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇸🇮 SI | VLESS | @filterk0sh",
@@ -173,6 +178,8 @@
         "🇩🇪 DE | VLESS | @prrofile_purple",
         "🇩🇪 DE | VLESS | @prrofile_purple",
         "🇷🇺 RU | VLESS | @prrofile_purple",
+        "🇩🇪 DE | VLESS | @prrofile_purple",
+        "🇷🇺 RU | VLESS | @prrofile_purple",
         "🇷🇺 RU | VLESS | @prrofile_purple",
         "🇷🇺 RU | VLESS | @prrofile_purple",
         "🇷🇺 RU | VLESS | @prrofile_purple",
@@ -186,6 +193,7 @@
         "🇬🇧 GB | VLESS | @satellitenewspersian",
         "🇳🇱 NL | VLESS | @v2aryng_vpn",
         "🇳🇱 NL | VLESS | @v2ray_collector",
+        "🇨🇾 CY | VLESS | @v2rayprotocol",
         "🇮🇳 IN | VLESS | @v2raytg",
         "🇷🇺 RU | VLESS | @v2raytg",
         "🇩🇪 DE | VLESS | @vipv2rey",
@@ -277,6 +285,23 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇦🇺 AU | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "45.15.185.45",
+      "server_port": 443,
+      "uuid": "0d93b787-b66b-4696-a036-a0f549764f69",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -771,6 +796,23 @@
     {
       "tag": "🇩🇪 DE | VLESS | @prrofile_purple",
       "type": "vless",
+      "server": "91.107.170.165",
+      "server_port": 443,
+      "uuid": "c7269205-fa36-448c-bb95-34f932f1c7bf",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @prrofile_purple",
+      "type": "vless",
       "server": "103.109.234.41",
       "server_port": 443,
       "uuid": "d9e62b6c-e55f-4e10-8743-28814b96c3a5",
@@ -789,6 +831,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @prrofile_purple",
+      "type": "vless",
+      "server": "51.250.75.169",
+      "server_port": 444,
+      "uuid": "c495cf08-e046-4311-aa4b-82cc16576992",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇩🇪 DE | VLESS | @prrofile_purple",
@@ -1094,6 +1144,28 @@
       "server": "208.67.105.196",
       "server_port": 443,
       "uuid": "c931b432-cbab-47f4-ae30-917b17e5fb1f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇨🇾 CY | VLESS | @v2rayprotocol",
+      "type": "vless",
+      "server": "5.180.24.11",
+      "server_port": 4443,
+      "uuid": "edb3d24d-1a55-42f7-8752-6ae216f18cf4",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
