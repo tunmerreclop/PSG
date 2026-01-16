@@ -90,11 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇺 AU | VLESS | @config_proxy",
         "🇦🇺 AU | VMESS | @dailyv2ray",
         "🇦🇺 AU | VMESS | @khoneproxy",
-        "🇦🇺 AU | VLESS | @nofilter_v2rayng",
-        "🇦🇺 AU | SS | @v2ray_free_conf"
+        "🇦🇺 AU | VLESS | @nofilter_v2rayng"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,11 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇺 AU | VLESS | @config_proxy",
         "🇦🇺 AU | VMESS | @dailyv2ray",
         "🇦🇺 AU | VMESS | @khoneproxy",
-        "🇦🇺 AU | VLESS | @nofilter_v2rayng",
-        "🇦🇺 AU | SS | @v2ray_free_conf"
+        "🇦🇺 AU | VLESS | @nofilter_v2rayng"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -116,23 +112,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇦🇺 AU | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "45.15.185.45",
-      "server_port": 443,
-      "uuid": "0d93b787-b66b-4696-a036-a0f549764f69",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇦🇺 AU | VMESS | @dailyv2ray",
@@ -196,14 +175,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇦🇺 AU | SS | @v2ray_free_conf",
-      "type": "shadowsocks",
-      "server": "103.75.119.38",
-      "server_port": 990,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==",
-      "password": null
     }
   ],
   "route": {

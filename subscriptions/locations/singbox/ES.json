@@ -91,6 +91,7 @@
         "auto",
         "direct",
         "🇪🇸 ES | VLESS | @config_proxy",
+        "🇪🇸 ES | VLESS | @config_proxy",
         "🇪🇸 ES | VLESS | @freeconfigsplus",
         "🇪🇸 ES | VLESS | @v2raytg"
       ],
@@ -100,6 +101,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇪🇸 ES | VLESS | @config_proxy",
         "🇪🇸 ES | VLESS | @config_proxy",
         "🇪🇸 ES | VLESS | @freeconfigsplus",
         "🇪🇸 ES | VLESS | @v2raytg"
@@ -118,8 +120,25 @@
       "type": "vless",
       "server": "tunnyl.ru",
       "server_port": 54746,
-      "uuid": "19fa88c5-6ef1-4fea-bbe1-de32ffd4ebfb",
+      "uuid": "1d488ca9-24d7-47a4-bf4e-92fccee24b65",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇪🇸 ES | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "tunnyl.ru",
+      "server_port": 443,
+      "uuid": "5940b6b0-8288-49ed-a2e0-c086ad7d67a1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇪🇸 ES | VLESS | @freeconfigsplus",

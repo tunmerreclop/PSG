@@ -80,7 +80,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇬🇧 GB | VMESS | @config_proxy",
+        "🇩🇪 DE | VMESS | @config_proxy",
         "🇽🇽 XX | VMESS | @frev2rayng",
         "🇩🇪 DE | VMESS | @khoneproxy",
         "🇩🇪 DE | VMESS | @khoneproxy",
@@ -99,7 +99,6 @@
         "🇦🇺 AU | VMESS | @dailyv2ray",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇺🇸 US | VMESS | @freev2rays",
-        "🇩🇪 DE | VMESS | @hope_net",
         "🇺🇸 US | VMESS | @hope_net",
         "🇧🇾 BY | VMESS | @ir_netproxy",
         "🇺🇸 US | VMESS | @ir_netproxy",
@@ -129,7 +128,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇬🇧 GB | VMESS | @config_proxy",
+        "🇩🇪 DE | VMESS | @config_proxy",
         "🇽🇽 XX | VMESS | @frev2rayng",
         "🇩🇪 DE | VMESS | @khoneproxy",
         "🇩🇪 DE | VMESS | @khoneproxy",
@@ -148,7 +147,6 @@
         "🇦🇺 AU | VMESS | @dailyv2ray",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇺🇸 US | VMESS | @freev2rays",
-        "🇩🇪 DE | VMESS | @hope_net",
         "🇺🇸 US | VMESS | @hope_net",
         "🇧🇾 BY | VMESS | @ir_netproxy",
         "🇺🇸 US | VMESS | @ir_netproxy",
@@ -255,18 +253,27 @@
       }
     },
     {
-      "tag": "🇬🇧 GB | VMESS | @config_proxy",
+      "tag": "🇩🇪 DE | VMESS | @config_proxy",
       "type": "vmess",
-      "server": "194.61.3.22",
-      "server_port": 2052,
-      "uuid": "ded35609-e284-4385-97e6-77816efa8dd2",
+      "server": "57.129.25.20",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "security": "auto",
-      "alter_id": 0,
+      "alter_id": 1,
+      "tls": {
+        "enabled": true,
+        "server_name": "57.129.25.20",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
         "type": "ws",
-        "path": "",
+        "path": "linkvws",
         "headers": {
-          "Host": ""
+          "Host": "57.129.25.20"
         }
       }
     },
@@ -605,31 +612,6 @@
         "path": "/d9863037",
         "headers": {
           "Host": "xcf037.facai2024.com"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VMESS | @hope_net",
-      "type": "vmess",
-      "server": "172.67.156.22",
-      "server_port": 443,
-      "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "nezuko.raidenshogun.cloudns.org",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/linkws/afrhms16v.bestxray.buzz",
-        "headers": {
-          "Host": "nezuko.raidenshogun.cloudns.org"
         }
       }
     },

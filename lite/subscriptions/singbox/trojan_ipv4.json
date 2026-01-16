@@ -94,9 +94,11 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | TROJAN | @privatevpns",
+        "🇫🇷 FR | TROJAN | @privatevpns",
         "🇫🇷 FR | TROJAN | @v2rayngconfig",
         "🇽🇽 XX | TROJAN | @v2rayngconfiig",
         "🇩🇪 DE | TROJAN | @v2rayvpnchannel",
+        "🇫🇷 FR | TROJAN | @v2rayvpnchannel",
         "🇫🇷 FR | TROJAN | @vpn_ioss"
       ],
       "tag": "proxy",
@@ -109,9 +111,11 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | TROJAN | @privatevpns",
+        "🇫🇷 FR | TROJAN | @privatevpns",
         "🇫🇷 FR | TROJAN | @v2rayngconfig",
         "🇽🇽 XX | TROJAN | @v2rayngconfiig",
         "🇩🇪 DE | TROJAN | @v2rayvpnchannel",
+        "🇫🇷 FR | TROJAN | @v2rayvpnchannel",
         "🇫🇷 FR | TROJAN | @vpn_ioss"
       ],
       "tag": "auto",
@@ -212,6 +216,22 @@
       }
     },
     {
+      "tag": "🇫🇷 FR | TROJAN | @privatevpns",
+      "type": "trojan",
+      "server": "35.181.111.41",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇫🇷 FR | TROJAN | @v2rayngconfig",
       "type": "trojan",
       "server": "51.91.11.29",
@@ -247,6 +267,22 @@
       "tag": "🇩🇪 DE | TROJAN | @v2rayvpnchannel",
       "type": "trojan",
       "server": "35.158.18.102",
+      "server_port": 22223,
+      "password": "telegram-id-v2rayvpnchannel",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | TROJAN | @v2rayvpnchannel",
+      "type": "trojan",
+      "server": "35.181.111.41",
       "server_port": 22223,
       "password": "telegram-id-v2rayvpnchannel",
       "tls": {
