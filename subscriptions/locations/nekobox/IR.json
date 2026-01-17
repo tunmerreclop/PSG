@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇮🇷 IR | VLESS | @config_proxy",
         "🇮🇷 IR | VLESS | @lax_vpn",
         "🇮🇷 IR | VLESS | @server_nekobox",
         "🇮🇷 IR | VLESS | @v2ray_iran88",
@@ -88,6 +89,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇮🇷 IR | VLESS | @config_proxy",
         "🇮🇷 IR | VLESS | @lax_vpn",
         "🇮🇷 IR | VLESS | @server_nekobox",
         "🇮🇷 IR | VLESS | @v2ray_iran88",
@@ -105,6 +107,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "v1xplus.xxxxxx-god.shop",
+      "server_port": 47778,
+      "uuid": "bfda6cd5-2b2a-dece-0c61-931b0c33e81f",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @lax_vpn",

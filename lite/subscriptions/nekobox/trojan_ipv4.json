@@ -81,10 +81,12 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇽🇽 XX | TROJAN | @config_proxy",
-        "🇩🇪 DE | TROJAN | @privatevpns",
         "🇫🇷 FR | TROJAN | @privatevpns",
+        "🇫🇷 FR | TROJAN | @v2raych",
+        "🇫🇷 FR | TROJAN | @v2raych",
         "🇫🇷 FR | TROJAN | @v2rayngconfig",
         "🇽🇽 XX | TROJAN | @v2rayngconfiig",
+        "🇩🇪 DE | TROJAN | @v2rayvpnchannel",
         "🇫🇷 FR | TROJAN | @vpn_ioss"
       ],
       "tag": "proxy",
@@ -97,10 +99,12 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇽🇽 XX | TROJAN | @config_proxy",
-        "🇩🇪 DE | TROJAN | @privatevpns",
         "🇫🇷 FR | TROJAN | @privatevpns",
+        "🇫🇷 FR | TROJAN | @v2raych",
+        "🇫🇷 FR | TROJAN | @v2raych",
         "🇫🇷 FR | TROJAN | @v2rayngconfig",
         "🇽🇽 XX | TROJAN | @v2rayngconfiig",
+        "🇩🇪 DE | TROJAN | @v2rayvpnchannel",
         "🇫🇷 FR | TROJAN | @vpn_ioss"
       ],
       "tag": "auto",
@@ -205,9 +209,9 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | TROJAN | @privatevpns",
+      "tag": "🇫🇷 FR | TROJAN | @privatevpns",
       "type": "trojan",
-      "server": "35.156.113.72",
+      "server": "15.236.220.134",
       "server_port": 22222,
       "password": "telegram-id-privatevpns",
       "tls": {
@@ -221,9 +225,25 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | TROJAN | @privatevpns",
+      "tag": "🇫🇷 FR | TROJAN | @v2raych",
       "type": "trojan",
-      "server": "15.236.27.89",
+      "server": "15.236.220.134",
+      "server_port": 22223,
+      "password": "telegram-id-directvpn",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | TROJAN | @v2raych",
+      "type": "trojan",
+      "server": "15.236.220.134",
       "server_port": 22222,
       "password": "telegram-id-privatevpns",
       "tls": {
@@ -258,6 +278,22 @@
       "server": "104.18.26.90",
       "server_port": 443,
       "password": "Xa4%5El%28%3B.%3BB%23a",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | TROJAN | @v2rayvpnchannel",
+      "type": "trojan",
+      "server": "63.182.140.159",
+      "server_port": 22223,
+      "password": "telegram-id-v2rayvpnchannel",
       "tls": {
         "enabled": true,
         "server_name": "",

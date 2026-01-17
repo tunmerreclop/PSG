@@ -80,6 +80,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇽🇽 XX | VMESS | @config_proxy",
         "🇦🇺 AU | VMESS | @dailyv2ray",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇺🇸 US | VMESS | @freev2rays",
@@ -96,7 +97,6 @@
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @v2ray4win",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf",
         "🇽🇽 XX | VMESS | @v2ray_free_conf",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
@@ -116,8 +116,7 @@
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxy48",
         "🇫🇷 FR | VMESS | @selinc",
-        "🇺🇸 US | VMESS | @v2ray_collector",
-        "🇨🇦 CA | VMESS | @NamiraConfigs"
+        "🇺🇸 US | VMESS | @v2ray_collector"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -128,6 +127,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇽🇽 XX | VMESS | @config_proxy",
         "🇦🇺 AU | VMESS | @dailyv2ray",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇺🇸 US | VMESS | @freev2rays",
@@ -144,7 +144,6 @@
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @v2ray4win",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf",
         "🇽🇽 XX | VMESS | @v2ray_free_conf",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
@@ -164,8 +163,7 @@
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxy48",
         "🇫🇷 FR | VMESS | @selinc",
-        "🇺🇸 US | VMESS | @v2ray_collector",
-        "🇨🇦 CA | VMESS | @NamiraConfigs"
+        "🇺🇸 US | VMESS | @v2ray_collector"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -251,6 +249,15 @@
           "Host": ""
         }
       }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @config_proxy",
+      "type": "vmess",
+      "server": "91.206.171.169",
+      "server_port": 8080,
+      "uuid": "22ff17f6-585e-402b-95d5-e7fb0db4d6e4",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇦🇺 AU | VMESS | @dailyv2ray",
@@ -630,32 +637,25 @@
     {
       "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf",
       "type": "vmess",
-      "server": "zula.ir",
-      "server_port": 8080,
-      "uuid": "nasnet",
+      "server": "hgtrojan.zabc.net",
+      "server_port": 2083,
+      "uuid": "e6395c20-4571-4b34-d6b1-55a5d36e49ea",
       "security": "auto",
       "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "nasnet-511952424.mcitel.co"
+      "tls": {
+        "enabled": true,
+        "server_name": "hgtrojan.zabc.net",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf",
-      "type": "vmess",
-      "server": "172.67.204.84",
-      "server_port": 8080,
-      "uuid": "nasnet",
-      "security": "auto",
-      "alter_id": 0,
+      },
       "transport": {
         "type": "ws",
-        "path": "/nasnet/cdn",
+        "path": "/e6395c20",
         "headers": {
-          "Host": "nasnet-511952424.mcitel.co"
+          "Host": "hgtrojan.zabc.net"
         }
       }
     },
@@ -1037,22 +1037,6 @@
         "path": "/vmessws",
         "headers": {
           "Host": "209.126.84.189"
-        }
-      }
-    },
-    {
-      "tag": "🇨🇦 CA | VMESS | @NamiraConfigs",
-      "type": "vmess",
-      "server": "51.79.102.253",
-      "server_port": 80,
-      "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/IOebhLMhl1CTbFHbL95myfRX2",
-        "headers": {
-          "Host": ""
         }
       }
     }

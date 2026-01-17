@@ -23,7 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇮🇳 IN | VLESS | @config_proxy", "server": "india.novaads.shop", "port": 42537, "type": "vless", "skip-cert-verify": true, "uuid": "42961e67-c3e0-4b84-8d71-1ff20bdcedae", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇳 IN | VLESS | @prrofile_purple", "server": "103.111.115.161", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "adab9268-f742-407b-8cbc-cf0b643c5e9f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇮🇳 IN | VLESS | @v2raych", "server": "india.novaads.shop", "port": 42537, "type": "vless", "skip-cert-verify": true, "uuid": "42961e67-c3e0-4b84-8d71-1ff20bdcedae", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇳 IN | VLESS | @v2raytg", "server": "45.88.183.100", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "309fa273-6579-4cb2-9143-7cad50401eba", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
@@ -38,7 +40,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇮🇳 IN | VLESS | @config_proxy'
       - '🇮🇳 IN | VLESS | @prrofile_purple'
+      - '🇮🇳 IN | VLESS | @v2raych'
       - '🇮🇳 IN | VLESS | @v2raytg'
 
   - name: 🌍 Global Media

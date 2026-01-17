@@ -77,7 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇮🇳 IN | VLESS | @config_proxy",
         "🇮🇳 IN | VLESS | @prrofile_purple",
+        "🇮🇳 IN | VLESS | @v2raych",
         "🇮🇳 IN | VLESS | @v2raytg"
       ],
       "tag": "proxy",
@@ -86,7 +88,9 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇮🇳 IN | VLESS | @config_proxy",
         "🇮🇳 IN | VLESS | @prrofile_purple",
+        "🇮🇳 IN | VLESS | @v2raych",
         "🇮🇳 IN | VLESS | @v2raytg"
       ],
       "tag": "auto",
@@ -101,6 +105,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇮🇳 IN | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "india.novaads.shop",
+      "server_port": 42537,
+      "uuid": "42961e67-c3e0-4b84-8d71-1ff20bdcedae",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇳 IN | VLESS | @prrofile_purple",
@@ -123,6 +135,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇮🇳 IN | VLESS | @v2raych",
+      "type": "vless",
+      "server": "india.novaads.shop",
+      "server_port": 42537,
+      "uuid": "42961e67-c3e0-4b84-8d71-1ff20bdcedae",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇳 IN | VLESS | @v2raytg",

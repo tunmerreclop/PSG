@@ -103,6 +103,7 @@
         "🇳🇱 NL | VLESS | @sobi_vpn",
         "🇳🇱 NL | VLESS | @v2aryng_vpn",
         "🇳🇱 NL | VLESS | @v2ray_collector",
+        "🇳🇱 NL | SS | @v2ray_free_conf",
         "🇳🇱 NL | SS | @NamiraConfigs"
       ],
       "tag": "proxy",
@@ -137,6 +138,7 @@
         "🇳🇱 NL | VLESS | @sobi_vpn",
         "🇳🇱 NL | VLESS | @v2aryng_vpn",
         "🇳🇱 NL | VLESS | @v2ray_collector",
+        "🇳🇱 NL | SS | @v2ray_free_conf",
         "🇳🇱 NL | SS | @NamiraConfigs"
       ],
       "tag": "auto",
@@ -359,19 +361,10 @@
     {
       "tag": "🇳🇱 NL | VLESS | @prrofile_purple",
       "type": "vless",
-      "server": "ams1.fromblancwithlove.com",
-      "server_port": 8443,
-      "uuid": "a207569d-bf8f-43dd-81fd-2c847c7870c4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "ns.piche.pw",
+      "server_port": 8080,
+      "uuid": "7d591a13-9828-417c-aef9-63859280bb16",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇳🇱 NL | VLESS | @qeshmserver",
@@ -441,6 +434,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇳🇱 NL | SS | @v2ray_free_conf",
+      "type": "shadowsocks",
+      "server": "193.29.139.251",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "password": null
     },
     {
       "tag": "🇳🇱 NL | SS | @NamiraConfigs",
