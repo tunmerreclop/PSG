@@ -78,7 +78,6 @@
         "auto",
         "direct",
         "🇫🇷 FR | VLESS | @config_proxy",
-        "🇫🇷 FR | VLESS | @config_proxy",
         "🇫🇷 FR | VLESS | @kafing_2",
         "🇫🇷 FR | SS | @key_outline",
         "🇫🇷 FR | SS | @key_outline",
@@ -91,16 +90,17 @@
         "🇫🇷 FR | VLESS | @netmellianti",
         "🇫🇷 FR | SS | @outline_ir",
         "🇫🇷 FR | SS | @outline_ir",
+        "🇫🇷 FR | TROJAN | @privatevpns",
         "🇫🇷 FR | TROJAN | @proxyfn",
         "🇫🇷 FR | VLESS | @prrofile_purple",
         "🇫🇷 FR | VLESS | @qeshmserver",
         "🇫🇷 FR | VMESS | @selinc",
         "🇫🇷 FR | VLESS | @v2ray_collector",
+        "🇫🇷 FR | VLESS | @v2raych",
         "🇫🇷 FR | TROJAN | @v2rayngconfig",
         "🇫🇷 FR | TROJAN | @v2rayngconfig",
         "🇫🇷 FR | VLESS | @v2rayopen",
         "🇫🇷 FR | SS | @v2rayvpn2",
-        "🇫🇷 FR | TROJAN | @v2rayvpnchannel",
         "🇫🇷 FR | VLESS | @vlessconfig",
         "🇫🇷 FR | TROJAN | @vpn_ioss"
       ],
@@ -111,7 +111,6 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇷 FR | VLESS | @config_proxy",
-        "🇫🇷 FR | VLESS | @config_proxy",
         "🇫🇷 FR | VLESS | @kafing_2",
         "🇫🇷 FR | SS | @key_outline",
         "🇫🇷 FR | SS | @key_outline",
@@ -124,16 +123,17 @@
         "🇫🇷 FR | VLESS | @netmellianti",
         "🇫🇷 FR | SS | @outline_ir",
         "🇫🇷 FR | SS | @outline_ir",
+        "🇫🇷 FR | TROJAN | @privatevpns",
         "🇫🇷 FR | TROJAN | @proxyfn",
         "🇫🇷 FR | VLESS | @prrofile_purple",
         "🇫🇷 FR | VLESS | @qeshmserver",
         "🇫🇷 FR | VMESS | @selinc",
         "🇫🇷 FR | VLESS | @v2ray_collector",
+        "🇫🇷 FR | VLESS | @v2raych",
         "🇫🇷 FR | TROJAN | @v2rayngconfig",
         "🇫🇷 FR | TROJAN | @v2rayngconfig",
         "🇫🇷 FR | VLESS | @v2rayopen",
         "🇫🇷 FR | SS | @v2rayvpn2",
-        "🇫🇷 FR | TROJAN | @v2rayvpnchannel",
         "🇫🇷 FR | VLESS | @vlessconfig",
         "🇫🇷 FR | TROJAN | @vpn_ioss"
       ],
@@ -153,17 +153,9 @@
     {
       "tag": "🇫🇷 FR | VLESS | @config_proxy",
       "type": "vless",
-      "server": "13.37.149.230",
-      "server_port": 22224,
-      "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "15.237.244.223",
-      "server_port": 22224,
-      "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+      "server": "fr.broadcasp.info",
+      "server_port": 42542,
+      "uuid": "f56f35a9-1123-4fe9-b1db-be57fb9f95d4",
       "packet_encoding": "xudp"
     },
     {
@@ -286,6 +278,22 @@
       "password": null
     },
     {
+      "tag": "🇫🇷 FR | TROJAN | @privatevpns",
+      "type": "trojan",
+      "server": "15.236.27.89",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇫🇷 FR | TROJAN | @proxyfn",
       "type": "trojan",
       "server": "51.91.11.29",
@@ -367,6 +375,14 @@
       }
     },
     {
+      "tag": "🇫🇷 FR | VLESS | @v2raych",
+      "type": "vless",
+      "server": "fr.broadcasp.info",
+      "server_port": 42542,
+      "uuid": "f56f35a9-1123-4fe9-b1db-be57fb9f95d4",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇫🇷 FR | TROJAN | @v2rayngconfig",
       "type": "trojan",
       "server": "51.91.11.29",
@@ -429,25 +445,9 @@
       "password": null
     },
     {
-      "tag": "🇫🇷 FR | TROJAN | @v2rayvpnchannel",
-      "type": "trojan",
-      "server": "15.237.244.223",
-      "server_port": 22223,
-      "password": "telegram-id-v2rayvpnchannel",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇫🇷 FR | VLESS | @vlessconfig",
       "type": "vless",
-      "server": "15.237.244.223",
+      "server": "15.236.27.89",
       "server_port": 22224,
       "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
       "packet_encoding": "xudp",

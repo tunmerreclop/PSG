@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇳🇱 NL | SS | @config_proxy",
+        "🇳🇱 NL | VLESS | @config_proxy",
         "🇳🇱 NL | VLESS | @filterk0sh",
         "🇳🇱 NL | VLESS | @free4allvpn",
         "🇳🇱 NL | TROJAN | @manstervpn",
@@ -112,7 +112,6 @@
         "🇳🇱 NL | SS | @outlinereleasedkey",
         "🇳🇱 NL | SS | @outlinereleasedkey",
         "🇳🇱 NL | SS | @outlinereleasedkey",
-        "🇳🇱 NL | VLESS | @prrofile_purple",
         "🇳🇱 NL | VLESS | @prrofile_purple",
         "🇳🇱 NL | VLESS | @qeshmserver",
         "🇳🇱 NL | VLESS | @sobi_vpn",
@@ -126,7 +125,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇳🇱 NL | SS | @config_proxy",
+        "🇳🇱 NL | VLESS | @config_proxy",
         "🇳🇱 NL | VLESS | @filterk0sh",
         "🇳🇱 NL | VLESS | @free4allvpn",
         "🇳🇱 NL | TROJAN | @manstervpn",
@@ -148,7 +147,6 @@
         "🇳🇱 NL | SS | @outlinereleasedkey",
         "🇳🇱 NL | SS | @outlinereleasedkey",
         "🇳🇱 NL | SS | @outlinereleasedkey",
-        "🇳🇱 NL | VLESS | @prrofile_purple",
         "🇳🇱 NL | VLESS | @prrofile_purple",
         "🇳🇱 NL | VLESS | @qeshmserver",
         "🇳🇱 NL | VLESS | @sobi_vpn",
@@ -166,12 +164,21 @@
       "type": "direct"
     },
     {
-      "tag": "🇳🇱 NL | SS | @config_proxy",
-      "type": "shadowsocks",
-      "server": "51.15.17.169",
-      "server_port": 989,
-      "method": "YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==",
-      "password": null
+      "tag": "🇳🇱 NL | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "world-of.ru",
+      "server_port": 443,
+      "uuid": "1d5d3b84-8cc1-48e3-a41a-c44d315e0bcd",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | VLESS | @filterk0sh",
@@ -393,14 +400,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @prrofile_purple",
-      "type": "vless",
-      "server": "ns.piche.pw",
-      "server_port": 8080,
-      "uuid": "7d591a13-9828-417c-aef9-63859280bb16",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇳🇱 NL | VLESS | @qeshmserver",

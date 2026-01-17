@@ -26,6 +26,9 @@ proxies:
   - {"name": "همکاری_ملی", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
   - {"name": "جاویدشاه", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
   - {"name": "KingRezaPahlavi", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
+  - {"name": "🇳🇱 NL | VLESS | @config_proxy", "server": "world-of.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1d5d3b84-8cc1-48e3-a41a-c44d315e0bcd", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇪🇸 ES | VLESS | @config_proxy", "server": "tunnyl.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "5c87c352-3926-42c2-a134-d2f2e6f98f19", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇪🇸 ES | VLESS | @config_proxy", "server": "tunnyl.ru", "port": 54746, "type": "vless", "skip-cert-verify": true, "uuid": "83cfe75e-b7fb-465c-9d17-ff6dac8c9d89", "network": "xhttp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇩🇪 DE | VLESS | @configasli", "server": "s1.aparat-movies-download.ir", "port": 4450, "type": "vless", "skip-cert-verify": true, "uuid": "a19f4213-fcb8-4384-9c85-cb51cae8ab8b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
   - {"name": "🇳🇱 NL | VLESS | @filterk0sh", "server": "eng14.netliberated.org", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0bb6dff2-0029-4b81-8c81-4fc70fae1ed9", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇯🇵 JP | VLESS | @free1_vpn", "server": "japan.geodema.network", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a11ab9c5-4155-430b-9efc-7a7122531382", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
@@ -51,6 +54,9 @@ proxy-groups:
       - 'همکاری_ملی'
       - 'جاویدشاه'
       - 'KingRezaPahlavi'
+      - '🇳🇱 NL | VLESS | @config_proxy'
+      - '🇪🇸 ES | VLESS | @config_proxy'
+      - '🇪🇸 ES | VLESS | @config_proxy'
       - '🇩🇪 DE | VLESS | @configasli'
       - '🇳🇱 NL | VLESS | @filterk0sh'
       - '🇯🇵 JP | VLESS | @free1_vpn'

@@ -9,17 +9,16 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇽🇽 XX | TROJAN | @config_proxy = trojan, 104.18.42.163, 2096, password = f52d0a04-94ad-4f9e-9945-4c3d43374e36, skip-cert-verify = true
 🇩🇪 DE | TROJAN | @privatevpns = trojan, 35.156.113.72, 22222, password = telegram-id-privatevpns, skip-cert-verify = true
+🇫🇷 FR | TROJAN | @privatevpns = trojan, 15.236.27.89, 22222, password = telegram-id-privatevpns, skip-cert-verify = true
 🇫🇷 FR | TROJAN | @v2rayngconfig = trojan, 51.91.11.29, 80, password = e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad, skip-cert-verify = true
 🇽🇽 XX | TROJAN | @v2rayngconfiig = trojan, 104.18.26.90, 443, password = Xa4%5El%28%3B.%3BB%23a, skip-cert-verify = true
-🇫🇷 FR | TROJAN | @v2rayvpnchannel = trojan, 15.237.244.223, 22223, password = telegram-id-v2rayvpnchannel, skip-cert-verify = true
 🇫🇷 FR | TROJAN | @vpn_ioss = trojan, 88.214.24.235, 9443, password = 02948bde80594712b974368035f294dd, skip-cert-verify = true
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇽🇽 XX | TROJAN | @config_proxy, 🇩🇪 DE | TROJAN | @privatevpns, 🇫🇷 FR | TROJAN | @v2rayngconfig, 🇽🇽 XX | TROJAN | @v2rayngconfiig, 🇫🇷 FR | TROJAN | @v2rayvpnchannel, 🇫🇷 FR | TROJAN | @vpn_ioss
-PSG-AUTO = url-test, 🇽🇽 XX | TROJAN | @config_proxy, 🇩🇪 DE | TROJAN | @privatevpns, 🇫🇷 FR | TROJAN | @v2rayngconfig, 🇽🇽 XX | TROJAN | @v2rayngconfiig, 🇫🇷 FR | TROJAN | @v2rayvpnchannel, 🇫🇷 FR | TROJAN | @vpn_ioss
-PSG-FALLBACK = fallback, 🇽🇽 XX | TROJAN | @config_proxy, 🇩🇪 DE | TROJAN | @privatevpns, 🇫🇷 FR | TROJAN | @v2rayngconfig, 🇽🇽 XX | TROJAN | @v2rayngconfiig, 🇫🇷 FR | TROJAN | @v2rayvpnchannel, 🇫🇷 FR | TROJAN | @vpn_ioss
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | TROJAN | @privatevpns, 🇫🇷 FR | TROJAN | @privatevpns, 🇫🇷 FR | TROJAN | @v2rayngconfig, 🇽🇽 XX | TROJAN | @v2rayngconfiig, 🇫🇷 FR | TROJAN | @vpn_ioss
+PSG-AUTO = url-test, 🇩🇪 DE | TROJAN | @privatevpns, 🇫🇷 FR | TROJAN | @privatevpns, 🇫🇷 FR | TROJAN | @v2rayngconfig, 🇽🇽 XX | TROJAN | @v2rayngconfiig, 🇫🇷 FR | TROJAN | @vpn_ioss
+PSG-FALLBACK = fallback, 🇩🇪 DE | TROJAN | @privatevpns, 🇫🇷 FR | TROJAN | @privatevpns, 🇫🇷 FR | TROJAN | @v2rayngconfig, 🇽🇽 XX | TROJAN | @v2rayngconfiig, 🇫🇷 FR | TROJAN | @vpn_ioss
 
 [Rule]
 GEOIP,IR,DIRECT

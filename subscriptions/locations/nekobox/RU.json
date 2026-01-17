@@ -77,9 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇺 RU | VLESS | @config_proxy",
-        "🇷🇺 RU | VLESS | @config_proxy",
-        "🇷🇺 RU | VLESS | @config_proxy",
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇷🇺 RU | VLESS | @flyv2ray",
@@ -110,9 +107,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇺 RU | VLESS | @config_proxy",
-        "🇷🇺 RU | VLESS | @config_proxy",
-        "🇷🇺 RU | VLESS | @config_proxy",
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇷🇺 RU | VLESS | @flyv2ray",
@@ -149,39 +143,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "217.198.13.50",
-      "server_port": 443,
-      "uuid": "d684cb56-e4b8-4453-8a7b-a1ad8c81935a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "130.193.35.232",
-      "server_port": 51101,
-      "uuid": "bd0c4a0a-499e-4b5c-be5e-e10ed2442e18",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "212.233.95.237",
-      "server_port": 8443,
-      "uuid": "3d0eaf84-0e85-44ab-9018-f4f9c9577245",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VLESS | @evay_vpn",

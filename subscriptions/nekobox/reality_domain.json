@@ -80,9 +80,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇳🇱 NL | VLESS | @config_proxy",
+        "🇪🇸 ES | VLESS | @config_proxy",
         "🇪🇸 ES | VLESS | @config_proxy",
         "🇫🇮 FI | VLESS | @config_proxy",
-        "🇪🇸 ES | VLESS | @config_proxy",
         "🇩🇪 DE | VLESS | @configasli",
         "🇳🇱 NL | VLESS | @filterk0sh",
         "🇷🇺 RU | VLESS | @flyv2ray",
@@ -126,9 +127,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇳🇱 NL | VLESS | @config_proxy",
+        "🇪🇸 ES | VLESS | @config_proxy",
         "🇪🇸 ES | VLESS | @config_proxy",
         "🇫🇮 FI | VLESS | @config_proxy",
-        "🇪🇸 ES | VLESS | @config_proxy",
         "🇩🇪 DE | VLESS | @configasli",
         "🇳🇱 NL | VLESS | @filterk0sh",
         "🇷🇺 RU | VLESS | @flyv2ray",
@@ -249,11 +251,11 @@
       }
     },
     {
-      "tag": "🇪🇸 ES | VLESS | @config_proxy",
+      "tag": "🇳🇱 NL | VLESS | @config_proxy",
       "type": "vless",
-      "server": "tunnyl.ru",
+      "server": "world-of.ru",
       "server_port": 443,
-      "uuid": "c2b919de-285e-46ea-a602-b404e92c4ae7",
+      "uuid": "1d5d3b84-8cc1-48e3-a41a-c44d315e0bcd",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -266,19 +268,36 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @config_proxy",
+      "tag": "🇪🇸 ES | VLESS | @config_proxy",
       "type": "vless",
-      "server": "hield.ru",
-      "server_port": 3389,
-      "uuid": "a429b0aa-6d52-42ca-b332-737e56ff0b45",
-      "packet_encoding": "xudp"
+      "server": "tunnyl.ru",
+      "server_port": 443,
+      "uuid": "5c87c352-3926-42c2-a134-d2f2e6f98f19",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇪🇸 ES | VLESS | @config_proxy",
       "type": "vless",
       "server": "tunnyl.ru",
       "server_port": 54746,
-      "uuid": "6b18d201-f174-4e3b-8c10-b3813a2b0e0e",
+      "uuid": "83cfe75e-b7fb-465c-9d17-ff6dac8c9d89",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "hield.ru",
+      "server_port": 3389,
+      "uuid": "ebb40723-08d6-4ade-8d09-45248f2b9fab",
       "packet_encoding": "xudp"
     },
     {

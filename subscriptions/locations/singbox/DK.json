@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgR1I=
+//profile-title: base64:UFNHIHwgREs=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇬🇷 GR | SS | @v2ray_free_conf"
+        "🇩🇰 DK | VLESS | @configv2rayforfree"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇬🇷 GR | SS | @v2ray_free_conf"
+        "🇩🇰 DK | VLESS | @configv2rayforfree"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇬🇷 GR | SS | @v2ray_free_conf",
-      "type": "shadowsocks",
-      "server": "192.71.166.100",
-      "server_port": 989,
-      "method": "YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==",
-      "password": null
+      "tag": "🇩🇰 DK | VLESS | @configv2rayforfree",
+      "type": "vless",
+      "server": "hajimamadvpnjoinsho.fast199.hosting-ip.com",
+      "server_port": 80,
+      "uuid": "832a3784-7ae1-4ff2-ab13-5fb4bf8abd28",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
