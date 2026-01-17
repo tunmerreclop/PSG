@@ -80,10 +80,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇳🇱 NL | VLESS | @config_proxy",
-        "🇪🇸 ES | VLESS | @config_proxy",
-        "🇪🇸 ES | VLESS | @config_proxy",
-        "🇫🇮 FI | VLESS | @config_proxy",
         "🇩🇪 DE | VLESS | @configasli",
         "🇳🇱 NL | VLESS | @filterk0sh",
         "🇷🇺 RU | VLESS | @flyv2ray",
@@ -101,7 +97,6 @@
         "🇩🇪 DE | VLESS | @kafing_2",
         "🇩🇪 DE | VLESS | @kafing_2",
         "🇫🇮 FI | VLESS | @kafing_2",
-        "🇩🇪 DE | VLESS | @megavpn_link",
         "🇩🇪 DE | VLESS | @mimitdl",
         "🇫🇷 FR | VLESS | @prrofile_purple",
         "🇱🇻 LV | VLESS | @prrofile_purple",
@@ -163,15 +158,13 @@
         "🇬🇧 GB | VLESS | @satellitenewspersian",
         "🇳🇱 NL | VLESS | @v2aryng_vpn",
         "🇳🇱 NL | VLESS | @v2ray_collector",
-        "🇨🇾 CY | VLESS | @v2rayprotocol",
         "🇮🇳 IN | VLESS | @v2raytg",
         "🇷🇺 RU | VLESS | @v2raytg",
         "🇩🇪 DE | VLESS | @vipv2rey",
         "🇷🇺 RU | VLESS | @vmesc",
         "🇸🇬 SG | VLESS | @vmessiranproxy",
         "🇸🇬 SG | VLESS | @vmessiranproxy",
-        "🇺🇸 US | VLESS | @vmessiranproxy",
-        "🇱🇻 LV | VLESS | @vpnowl"
+        "🇺🇸 US | VLESS | @vmessiranproxy"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -182,10 +175,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇳🇱 NL | VLESS | @config_proxy",
-        "🇪🇸 ES | VLESS | @config_proxy",
-        "🇪🇸 ES | VLESS | @config_proxy",
-        "🇫🇮 FI | VLESS | @config_proxy",
         "🇩🇪 DE | VLESS | @configasli",
         "🇳🇱 NL | VLESS | @filterk0sh",
         "🇷🇺 RU | VLESS | @flyv2ray",
@@ -203,7 +192,6 @@
         "🇩🇪 DE | VLESS | @kafing_2",
         "🇩🇪 DE | VLESS | @kafing_2",
         "🇫🇮 FI | VLESS | @kafing_2",
-        "🇩🇪 DE | VLESS | @megavpn_link",
         "🇩🇪 DE | VLESS | @mimitdl",
         "🇫🇷 FR | VLESS | @prrofile_purple",
         "🇱🇻 LV | VLESS | @prrofile_purple",
@@ -265,15 +253,13 @@
         "🇬🇧 GB | VLESS | @satellitenewspersian",
         "🇳🇱 NL | VLESS | @v2aryng_vpn",
         "🇳🇱 NL | VLESS | @v2ray_collector",
-        "🇨🇾 CY | VLESS | @v2rayprotocol",
         "🇮🇳 IN | VLESS | @v2raytg",
         "🇷🇺 RU | VLESS | @v2raytg",
         "🇩🇪 DE | VLESS | @vipv2rey",
         "🇷🇺 RU | VLESS | @vmesc",
         "🇸🇬 SG | VLESS | @vmessiranproxy",
         "🇸🇬 SG | VLESS | @vmessiranproxy",
-        "🇺🇸 US | VLESS | @vmessiranproxy",
-        "🇱🇻 LV | VLESS | @vpnowl"
+        "🇺🇸 US | VLESS | @vmessiranproxy"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -359,56 +345,6 @@
           "Host": ""
         }
       }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "world-of.ru",
-      "server_port": 443,
-      "uuid": "1d5d3b84-8cc1-48e3-a41a-c44d315e0bcd",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇪🇸 ES | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "tunnyl.ru",
-      "server_port": 443,
-      "uuid": "5c87c352-3926-42c2-a134-d2f2e6f98f19",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇪🇸 ES | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "tunnyl.ru",
-      "server_port": 54746,
-      "uuid": "83cfe75e-b7fb-465c-9d17-ff6dac8c9d89",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "hield.ru",
-      "server_port": 3389,
-      "uuid": "ebb40723-08d6-4ade-8d09-45248f2b9fab",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇩🇪 DE | VLESS | @configasli",
@@ -629,28 +565,6 @@
       "server": "new.pvnoco.ir",
       "server_port": 558,
       "uuid": "4f6efecc-5747-41a0-8fc3-c41271ee8c50",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @megavpn_link",
-      "type": "vless",
-      "server": "all32-vip.f-sub.com",
-      "server_port": 2434,
-      "uuid": "84e919b0-2a5d-4fad-8614-df01dd210b8e",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -1825,28 +1739,6 @@
       }
     },
     {
-      "tag": "🇨🇾 CY | VLESS | @v2rayprotocol",
-      "type": "vless",
-      "server": "5.180.24.11",
-      "server_port": 4443,
-      "uuid": "edb3d24d-1a55-42f7-8752-6ae216f18cf4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇮🇳 IN | VLESS | @v2raytg",
       "type": "vless",
       "server": "45.88.183.100",
@@ -1957,28 +1849,6 @@
       "server_port": 19296,
       "uuid": "28c94110-85db-4535-be71-fcec59635e05",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇱🇻 LV | VLESS | @vpnowl",
-      "type": "vless",
-      "server": "213.165.63.67",
-      "server_port": 443,
-      "uuid": "843a1bd1-d63b-4b54-ba31-4803ac40f527",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     }
   ],
   "route": {

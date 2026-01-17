@@ -26,7 +26,6 @@ proxies:
   - {"name": "🇽🇽 XX | TROJAN | @config_proxy", "server": "172.67.203.189", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "e53ecb38-1974-4cca-b640-039e1f310710"}
   - {"name": "🇽🇽 XX | TROJAN | @config_proxy", "server": "104.18.42.163", "port": 2096, "type": "trojan", "skip-cert-verify": false, "password": "f52d0a04-94ad-4f9e-9945-4c3d43374e36"}
   - {"name": "🇽🇽 XX | TROJAN | @config_proxy", "server": "162.159.133.36", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "89ce124f-42d1-4c90-b9d2-bde2861ae615"}
-  - {"name": "🇺🇸 US | VMESS | @config_proxy", "server": "47.251.91.241", "port": 42899, "type": "vmess", "skip-cert-verify": true, "uuid": "0925b355-2bcd-4eae-9720-d2709e4f7e36", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇦🇺 AU | VMESS | @dailyv2ray", "server": "104.31.16.104", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "12c25b50-f6c7-11ed-b230-205c6d5f5d78", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/qmbdkyzn", "headers": {"Host": "us-4.0rd.net"}}}
   - {"name": "🇺🇸 US | TROJAN | @free4allvpn", "server": "23.247.137.64", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "3c4e10af98c30972"}
   - {"name": "🇭🇰 HK | VMESS | @freev2rays", "server": "hk2.lrzdx.uk", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "db69d5bc-d36c-4903-f471-74b98c5cefe5", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/register", "headers": {"Host": "hk2.lrzdx.uk"}}}
@@ -67,6 +66,7 @@ proxies:
   - {"name": "🇽🇽 XX | TROJAN | @teamvpnpro", "server": "chatbuzzteambhm.chatbuzzt7150.workers.dev", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "22f86840-bcac-11ee-abea-1239d0255272"}
   - {"name": "🇽🇽 XX | TROJAN | @teamvpnpro", "server": "chatbuzzteambhm.chatbuzzt7150.workers.dev", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "c7f9b8f0-bfdb-11ee-a15c-1239d0255272"}
   - {"name": "🇺🇸 US | VMESS | @v2ray4win", "server": "cf.sudoer.net", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "c11357eb-a34e-5acb-a309-f8af8082855c", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/api05", "headers": {"Host": "scherehtzflk01.schere.net"}}}
+  - {"name": "🇺🇸 US | VMESS | @v2ray_collector", "server": "209.126.84.189", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "2c981164-9b93-4bca-94ff-b78d3f8498d7", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/vmessws", "headers": {"Host": "209.126.84.189"}}}
   - {"name": "🇺🇸 US | TROJAN | @v2ray_collector", "server": "198.23.229.250", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "2ee85121-31de-4581-a492-eb00f606e392"}
   - {"name": "🇽🇽 XX | VMESS | @v2ray_free_conf", "server": "zula.ir", "port": 8080, "type": "vmess", "skip-cert-verify": true, "uuid": "nasnet", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/", "headers": {"Host": "nasnet-511952424.mcitel.co"}}}
   - {"name": "🇽🇽 XX | VMESS | @v2ray_free_conf", "server": "172.67.204.84", "port": 8080, "type": "vmess", "skip-cert-verify": true, "uuid": "nasnet", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/nasnet/cdn", "headers": {"Host": "nasnet-511952424.mcitel.co"}}}
@@ -99,7 +99,6 @@ proxy-groups:
       - '🇽🇽 XX | TROJAN | @config_proxy'
       - '🇽🇽 XX | TROJAN | @config_proxy'
       - '🇽🇽 XX | TROJAN | @config_proxy'
-      - '🇺🇸 US | VMESS | @config_proxy'
       - '🇦🇺 AU | VMESS | @dailyv2ray'
       - '🇺🇸 US | TROJAN | @free4allvpn'
       - '🇭🇰 HK | VMESS | @freev2rays'
@@ -140,6 +139,7 @@ proxy-groups:
       - '🇽🇽 XX | TROJAN | @teamvpnpro'
       - '🇽🇽 XX | TROJAN | @teamvpnpro'
       - '🇺🇸 US | VMESS | @v2ray4win'
+      - '🇺🇸 US | VMESS | @v2ray_collector'
       - '🇺🇸 US | TROJAN | @v2ray_collector'
       - '🇽🇽 XX | VMESS | @v2ray_free_conf'
       - '🇽🇽 XX | VMESS | @v2ray_free_conf'
