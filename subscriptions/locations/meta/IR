@@ -23,6 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇮🇷 IR | VLESS | @ai_duet", "server": "onlane.top", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "3d811f1b-6621-47f4-8ac2-b5f8109df54a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇷 IR | VLESS | @config_proxy", "server": "eng.dodbib.ir", "port": 1024, "type": "vless", "skip-cert-verify": true, "uuid": "2b98e878-ab63-438f-90d5-08925ca06143", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "servername": "refersion.com"}
   - {"name": "🇮🇷 IR | VLESS | @frev2rayng", "server": "parspack.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "815724d3-0d61-4761-be07-471441d42be5", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇷 IR | VLESS | @lax_vpn", "server": "s19.speedyconnect.pro", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "97dce074-7db1-4d59-99ca-0ef8311e2425", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇷 IR | VLESS | @miov2ray", "server": "parspack.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -42,6 +44,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇮🇷 IR | VLESS | @ai_duet'
+      - '🇮🇷 IR | VLESS | @config_proxy'
       - '🇮🇷 IR | VLESS | @frev2rayng'
       - '🇮🇷 IR | VLESS | @lax_vpn'
       - '🇮🇷 IR | VLESS | @miov2ray'

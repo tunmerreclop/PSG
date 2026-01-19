@@ -93,12 +93,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇭🇰 HK | VMESS | @config_proxy",
         "🇦🇺 AU | VMESS | @dailyv2ray",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇺🇸 US | VMESS | @freev2rays",
-        "🇽🇽 XX | VMESS | @hope_net",
-        "🇽🇽 XX | VMESS | @hope_net",
-        "🇽🇽 XX | VMESS | @hope_net",
         "🇧🇾 BY | VMESS | @ir_netproxy",
         "🇺🇸 US | VMESS | @ir_netproxy",
         "🇽🇽 XX | VMESS | @iranvpnet",
@@ -113,6 +111,7 @@
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @v2ray4win",
         "🇽🇽 XX | VMESS | @v2ray_free_conf",
+        "🇺🇸 US | VMESS | @v2ray_free_conf",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
@@ -128,12 +127,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇭🇰 HK | VMESS | @config_proxy",
         "🇦🇺 AU | VMESS | @dailyv2ray",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇺🇸 US | VMESS | @freev2rays",
-        "🇽🇽 XX | VMESS | @hope_net",
-        "🇽🇽 XX | VMESS | @hope_net",
-        "🇽🇽 XX | VMESS | @hope_net",
         "🇧🇾 BY | VMESS | @ir_netproxy",
         "🇺🇸 US | VMESS | @ir_netproxy",
         "🇽🇽 XX | VMESS | @iranvpnet",
@@ -148,6 +145,7 @@
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @v2ray4win",
         "🇽🇽 XX | VMESS | @v2ray_free_conf",
+        "🇺🇸 US | VMESS | @v2ray_free_conf",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
@@ -236,6 +234,22 @@
       }
     },
     {
+      "tag": "🇭🇰 HK | VMESS | @config_proxy",
+      "type": "vmess",
+      "server": "5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net",
+      "server_port": 80,
+      "uuid": "167db97c-ee01-11ef-b737-f23c91cfbbc9",
+      "security": "auto",
+      "alter_id": 2,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net"
+        }
+      }
+    },
+    {
       "tag": "🇦🇺 AU | VMESS | @dailyv2ray",
       "type": "vmess",
       "server": "104.31.16.104",
@@ -298,81 +312,6 @@
         "path": "/d9863037",
         "headers": {
           "Host": "xcf037.facai2024.com"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @hope_net",
-      "type": "vmess",
-      "server": "bluehost.com",
-      "server_port": 443,
-      "uuid": "6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy1c4.sassanidempire.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/QvtvPdDXXIlSdZMqnuxG",
-        "headers": {
-          "Host": "hdfy1c4.sassanidempire.com"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @hope_net",
-      "type": "vmess",
-      "server": "speed.cloudflare.com",
-      "server_port": 8443,
-      "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "withered-disk-c4c0.wwwjoecartoonscom-vaalco.workers.dev",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/glweidf.sbs/linkws",
-        "headers": {
-          "Host": "withered-disk-c4c0.wwwjoecartoonscom-vaalco.workers.dev"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @hope_net",
-      "type": "vmess",
-      "server": "zula.ir",
-      "server_port": 2096,
-      "uuid": "11cfd86e-c3a9-42b2-803f-1bdbca3dcb28",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "kingo.hightechservice.ir",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "kingo.hightechservice.ir"
         }
       }
     },
@@ -698,6 +637,31 @@
         "path": "/miaosafh",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @v2ray_free_conf",
+      "type": "vmess",
+      "server": "cg1c01.waimaojd.com",
+      "server_port": 443,
+      "uuid": "be8e3136-b874-4085-bd23-ec3699300490",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "cg1c01.waimaojd.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/api/v1/graphql",
+        "headers": {
+          "Host": "cg1c01.waimaojd.com"
         }
       }
     },

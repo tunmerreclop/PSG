@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇸 ES | VLESS | @config_proxy",
         "🇪🇸 ES | VLESS | @freeconfigsplus",
         "🇪🇸 ES | VLESS | @v2raytg"
       ],
@@ -87,7 +86,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇸 ES | VLESS | @config_proxy",
         "🇪🇸 ES | VLESS | @freeconfigsplus",
         "🇪🇸 ES | VLESS | @v2raytg"
       ],
@@ -103,14 +101,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇪🇸 ES | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "tunnyl.ru",
-      "server_port": 54746,
-      "uuid": "986913d8-f5ab-46c4-a8d6-e3fead7dd5d9",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇪🇸 ES | VLESS | @freeconfigsplus",

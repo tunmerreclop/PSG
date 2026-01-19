@@ -90,10 +90,13 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇮🇹 IT | VLESS | @config_proxy",
+        "🇮🇹 IT | VLESS | @config_proxy",
         "🇮🇹 IT | VLESS | @flyv2ray",
         "🇮🇹 IT | VLESS | @prrofile_purple",
         "🇮🇹 IT | VLESS | @prrofile_purple",
-        "🇮🇹 IT | SS | @v2ray_free_conf"
+        "🇮🇹 IT | VLESS | @v2raych",
+        "🇮🇹 IT | VLESS | @v2raych"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,10 +104,13 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇮🇹 IT | VLESS | @config_proxy",
+        "🇮🇹 IT | VLESS | @config_proxy",
         "🇮🇹 IT | VLESS | @flyv2ray",
         "🇮🇹 IT | VLESS | @prrofile_purple",
         "🇮🇹 IT | VLESS | @prrofile_purple",
-        "🇮🇹 IT | SS | @v2ray_free_conf"
+        "🇮🇹 IT | VLESS | @v2raych",
+        "🇮🇹 IT | VLESS | @v2raych"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -114,6 +120,22 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇮🇹 IT | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "151.101.241.242",
+      "server_port": 80,
+      "uuid": "939d5184-11d9-4dc9-9ce0-6427cdf03d55",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇹 IT | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "151.101.241.242",
+      "server_port": 80,
+      "uuid": "593e8101-0bac-448f-936c-ee9d303ab8bb",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇹 IT | VLESS | @flyv2ray",
@@ -140,12 +162,20 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇹 IT | SS | @v2ray_free_conf",
-      "type": "shadowsocks",
-      "server": "promo19v.bystrivpn.ru",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK",
-      "password": null
+      "tag": "🇮🇹 IT | VLESS | @v2raych",
+      "type": "vless",
+      "server": "151.101.241.242",
+      "server_port": 80,
+      "uuid": "939d5184-11d9-4dc9-9ce0-6427cdf03d55",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇹 IT | VLESS | @v2raych",
+      "type": "vless",
+      "server": "151.101.241.242",
+      "server_port": 80,
+      "uuid": "593e8101-0bac-448f-936c-ee9d303ab8bb",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇦🇹 AT | VLESS | @config_proxy",
         "🇦🇹 AT | VLESS | @orange_vpns",
         "🇦🇹 AT | SS | @prrofile_purple"
       ],
@@ -99,6 +100,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇦🇹 AT | VLESS | @config_proxy",
         "🇦🇹 AT | VLESS | @orange_vpns",
         "🇦🇹 AT | SS | @prrofile_purple"
       ],
@@ -110,6 +112,23 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇦🇹 AT | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "212.183.88.102",
+      "server_port": 443,
+      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇦🇹 AT | VLESS | @orange_vpns",

@@ -93,6 +93,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇩🇪 DE | VMESS | @Fr33C0nfig",
         "🇩🇪 DE | VMESS | @khoneproxy",
         "🇩🇪 DE | VMESS | @khoneproxy",
         "🇩🇪 DE | VMESS | @magickey_shop",
@@ -100,7 +101,8 @@
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxy48",
-        "🇫🇷 FR | VMESS | @selinc"
+        "🇫🇷 FR | VMESS | @selinc",
+        "🇨🇦 CA | VMESS | @v2ray_free_conf"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -111,6 +113,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇩🇪 DE | VMESS | @Fr33C0nfig",
         "🇩🇪 DE | VMESS | @khoneproxy",
         "🇩🇪 DE | VMESS | @khoneproxy",
         "🇩🇪 DE | VMESS | @magickey_shop",
@@ -118,7 +121,8 @@
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxy48",
-        "🇫🇷 FR | VMESS | @selinc"
+        "🇫🇷 FR | VMESS | @selinc",
+        "🇨🇦 CA | VMESS | @v2ray_free_conf"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -200,6 +204,15 @@
           "Host": ""
         }
       }
+    },
+    {
+      "tag": "🇩🇪 DE | VMESS | @Fr33C0nfig",
+      "type": "vmess",
+      "server": "85.195.101.122",
+      "server_port": 40878,
+      "uuid": "f3d4167e-b15e-4e46-82e9-9286ef93fda7",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇩🇪 DE | VMESS | @khoneproxy",
@@ -337,6 +350,22 @@
       "uuid": "ede27a79-b039-490b-932c-495de4b68880",
       "security": "auto",
       "alter_id": 0
+    },
+    {
+      "tag": "🇨🇦 CA | VMESS | @v2ray_free_conf",
+      "type": "vmess",
+      "server": "51.79.102.253",
+      "server_port": 80,
+      "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/IOebhLMhl1CTbFHbL95myfRX2",
+        "headers": {
+          "Host": ""
+        }
+      }
     }
   ],
   "route": {

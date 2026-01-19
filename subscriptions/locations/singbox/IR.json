@@ -90,6 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇮🇷 IR | VLESS | @ai_duet",
+        "🇮🇷 IR | VLESS | @config_proxy",
         "🇮🇷 IR | VLESS | @frev2rayng",
         "🇮🇷 IR | VLESS | @lax_vpn",
         "🇮🇷 IR | VLESS | @miov2ray",
@@ -103,6 +105,8 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇮🇷 IR | VLESS | @ai_duet",
+        "🇮🇷 IR | VLESS | @config_proxy",
         "🇮🇷 IR | VLESS | @frev2rayng",
         "🇮🇷 IR | VLESS | @lax_vpn",
         "🇮🇷 IR | VLESS | @miov2ray",
@@ -118,6 +122,31 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @ai_duet",
+      "type": "vless",
+      "server": "onlane.top",
+      "server_port": 443,
+      "uuid": "3d811f1b-6621-47f4-8ac2-b5f8109df54a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "eng.dodbib.ir",
+      "server_port": 1024,
+      "uuid": "2b98e878-ab63-438f-90d5-08925ca06143",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @frev2rayng",
