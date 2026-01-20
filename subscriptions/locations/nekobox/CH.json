@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇨🇭 CH | VLESS | @config_proxy",
         "🇨🇭 CH | VLESS | @minovpnch",
         "🇨🇭 CH | VLESS | @proxyfn"
       ],
@@ -86,6 +87,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇨🇭 CH | VLESS | @config_proxy",
         "🇨🇭 CH | VLESS | @minovpnch",
         "🇨🇭 CH | VLESS | @proxyfn"
       ],
@@ -101,6 +103,23 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "179.43.184.243",
+      "server_port": 443,
+      "uuid": "45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇨🇭 CH | VLESS | @minovpnch",

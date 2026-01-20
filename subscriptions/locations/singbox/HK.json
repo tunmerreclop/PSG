@@ -92,8 +92,7 @@
         "direct",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇭🇰 HK | SS | @netfreedom0",
-        "🇭🇰 HK | TROJAN | @v2raych",
-        "🇭🇰 HK | TROJAN | @v2raych"
+        "🇭🇰 HK | SS | @v2ray_free_conf"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -103,8 +102,7 @@
       "outbounds": [
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇭🇰 HK | SS | @netfreedom0",
-        "🇭🇰 HK | TROJAN | @v2raych",
-        "🇭🇰 HK | TROJAN | @v2raych"
+        "🇭🇰 HK | SS | @v2ray_free_conf"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -149,18 +147,12 @@
       "password": null
     },
     {
-      "tag": "🇭🇰 HK | TROJAN | @v2raych",
-      "type": "trojan",
-      "server": "f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl",
-      "server_port": 27007,
-      "password": "d0d61b6f-4a87-4a73-80cc-4bab641abfc9"
-    },
-    {
-      "tag": "🇭🇰 HK | TROJAN | @v2raych",
-      "type": "trojan",
-      "server": "f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl",
-      "server_port": 27003,
-      "password": "d0d61b6f-4a87-4a73-80cc-4bab641abfc9"
+      "tag": "🇭🇰 HK | SS | @v2ray_free_conf",
+      "type": "shadowsocks",
+      "server": "203.23.128.92",
+      "server_port": 990,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==",
+      "password": null
     }
   ],
   "route": {

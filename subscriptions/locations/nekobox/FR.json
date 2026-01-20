@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇫🇷 FR | VMESS | @config_proxy",
         "🇫🇷 FR | VLESS | @kafing_2",
         "🇫🇷 FR | SS | @key_outline",
         "🇫🇷 FR | SS | @key_outline",
@@ -84,7 +85,6 @@
         "🇫🇷 FR | VLESS | @merdesert",
         "🇫🇷 FR | VLESS | @minovpnch",
         "🇫🇷 FR | VLESS | @minovpnch",
-        "🇫🇷 FR | VLESS | @netmellianti",
         "🇫🇷 FR | SS | @outline_ir",
         "🇫🇷 FR | SS | @outline_ir",
         "🇫🇷 FR | TROJAN | @privatevpns",
@@ -96,6 +96,7 @@
         "🇫🇷 FR | TROJAN | @v2rayngconfig",
         "🇫🇷 FR | VLESS | @v2rayopen",
         "🇫🇷 FR | SS | @v2rayvpn2",
+        "🇫🇷 FR | TROJAN | @v2rayvpnchannel",
         "🇫🇷 FR | VLESS | @vlessconfig",
         "🇫🇷 FR | TROJAN | @vpn_ioss"
       ],
@@ -105,6 +106,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇫🇷 FR | VMESS | @config_proxy",
         "🇫🇷 FR | VLESS | @kafing_2",
         "🇫🇷 FR | SS | @key_outline",
         "🇫🇷 FR | SS | @key_outline",
@@ -112,7 +114,6 @@
         "🇫🇷 FR | VLESS | @merdesert",
         "🇫🇷 FR | VLESS | @minovpnch",
         "🇫🇷 FR | VLESS | @minovpnch",
-        "🇫🇷 FR | VLESS | @netmellianti",
         "🇫🇷 FR | SS | @outline_ir",
         "🇫🇷 FR | SS | @outline_ir",
         "🇫🇷 FR | TROJAN | @privatevpns",
@@ -124,6 +125,7 @@
         "🇫🇷 FR | TROJAN | @v2rayngconfig",
         "🇫🇷 FR | VLESS | @v2rayopen",
         "🇫🇷 FR | SS | @v2rayvpn2",
+        "🇫🇷 FR | TROJAN | @v2rayvpnchannel",
         "🇫🇷 FR | VLESS | @vlessconfig",
         "🇫🇷 FR | TROJAN | @vpn_ioss"
       ],
@@ -139,6 +141,31 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇫🇷 FR | VMESS | @config_proxy",
+      "type": "vmess",
+      "server": "chatgpt.com",
+      "server_port": 443,
+      "uuid": "452feb53-e822-4e22-b2a1-3badd62dfecd",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "a.stbthai.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "a.stbthai.com"
+        }
+      }
     },
     {
       "tag": "🇫🇷 FR | VLESS | @kafing_2",
@@ -220,14 +247,6 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @netmellianti",
-      "type": "vless",
-      "server": "135.125.191.180",
-      "server_port": 2053,
-      "uuid": "57e590ec-cb21-4721-ad19-de28afca601e",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇫🇷 FR | SS | @outline_ir",
       "type": "shadowsocks",
       "server": "51.68.146.248",
@@ -246,7 +265,7 @@
     {
       "tag": "🇫🇷 FR | TROJAN | @privatevpns",
       "type": "trojan",
-      "server": "13.36.202.63",
+      "server": "13.37.174.80",
       "server_port": 22222,
       "password": "telegram-id-privatevpns",
       "tls": {
@@ -381,9 +400,25 @@
       "password": null
     },
     {
+      "tag": "🇫🇷 FR | TROJAN | @v2rayvpnchannel",
+      "type": "trojan",
+      "server": "13.37.174.80",
+      "server_port": 22223,
+      "password": "telegram-id-v2rayvpnchannel",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇫🇷 FR | VLESS | @vlessconfig",
       "type": "vless",
-      "server": "13.36.202.63",
+      "server": "13.37.174.80",
       "server_port": 22224,
       "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
       "packet_encoding": "xudp",

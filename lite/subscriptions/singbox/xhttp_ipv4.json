@@ -94,7 +94,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @bored_vpn",
-        "🇩🇪 DE | VLESS | @bored_vpn",
+        "🇸🇬 SG | VLESS | @config_proxy",
         "🇩🇪 DE | VLESS | @dargiiriis",
         "🇺🇸 US | VLESS | @evay_vpn",
         "🇩🇪 DE | VLESS | @father_vpn",
@@ -105,6 +105,7 @@
         "🇺🇸 US | VLESS | @mpproxy",
         "🇩🇪 DE | VLESS | @mtpv2ray",
         "🇩🇪 DE | VLESS | @mtpv2ray",
+        "🇳🇱 NL | VLESS | @nofiltering2",
         "🇳🇱 NL | VLESS | @nofiltering2",
         "🇳🇱 NL | VLESS | @orange_vpns",
         "🇺🇸 US | VLESS | @parsashonam",
@@ -127,7 +128,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @bored_vpn",
-        "🇩🇪 DE | VLESS | @bored_vpn",
+        "🇸🇬 SG | VLESS | @config_proxy",
         "🇩🇪 DE | VLESS | @dargiiriis",
         "🇺🇸 US | VLESS | @evay_vpn",
         "🇩🇪 DE | VLESS | @father_vpn",
@@ -138,6 +139,7 @@
         "🇺🇸 US | VLESS | @mpproxy",
         "🇩🇪 DE | VLESS | @mtpv2ray",
         "🇩🇪 DE | VLESS | @mtpv2ray",
+        "🇳🇱 NL | VLESS | @nofiltering2",
         "🇳🇱 NL | VLESS | @nofiltering2",
         "🇳🇱 NL | VLESS | @orange_vpns",
         "🇺🇸 US | VLESS | @parsashonam",
@@ -236,16 +238,25 @@
       "type": "vless",
       "server": "146.75.119.82",
       "server_port": 80,
-      "uuid": "8f09cda2-a608-4814-b659-1003408e0a41",
+      "uuid": "ba031344-70cf-466b-e566-c505f6908f70",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @bored_vpn",
+      "tag": "🇸🇬 SG | VLESS | @config_proxy",
       "type": "vless",
-      "server": "146.75.119.82",
-      "server_port": 80,
-      "uuid": "ba031344-70cf-466b-e566-c505f6908f70",
-      "packet_encoding": "xudp"
+      "server": "154.194.12.209",
+      "server_port": 443,
+      "uuid": "140f89e0-4f7c-4b12-a9da-286ad5dc6faa",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @dargiiriis",
@@ -333,6 +344,14 @@
       "server": "151.101.205.194",
       "server_port": 80,
       "uuid": "fce3c4a8-f376-4142-b8e8-2ca75c0d423d",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @nofiltering2",
+      "type": "vless",
+      "server": "151.101.205.194",
+      "server_port": 80,
+      "uuid": "bf62a83e-4270-48be-a7a5-6f60ee22b5be",
       "packet_encoding": "xudp"
     },
     {

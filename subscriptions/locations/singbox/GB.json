@@ -90,15 +90,15 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇬🇧 GB | VMESS | @bored_vpn",
+        "🇬🇧 GB | VLESS | @configv2rayforfree",
         "🇬🇧 GB | VLESS | @father_vpn",
-        "🇬🇧 GB | VLESS | @free1_vpn",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | VLESS | @kafing_2",
         "🇬🇧 GB | VLESS | @kafing_2",
         "🇬🇧 GB | VLESS | @kafing_2",
         "🇬🇧 GB | VLESS | @kafing_2",
-        "🇬🇧 GB | SS | @key_outline",
         "🇬🇧 GB | SS | @key_outline",
         "🇬🇧 GB | SS | @key_outline",
         "🇬🇧 GB | VLESS | @komail315",
@@ -108,14 +108,12 @@
         "🇬🇧 GB | VLESS | @orange_vpns",
         "🇬🇧 GB | VLESS | @orange_vpns",
         "🇬🇧 GB | SS | @outline_ir",
-        "🇬🇧 GB | SS | @prrofile_purple",
-        "🇬🇧 GB | VLESS | @prrofile_purple",
-        "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @satellitenewspersian",
         "🇬🇧 GB | VLESS | @v2ray_vmes",
         "🇬🇧 GB | VLESS | @v2rayfast_7",
         "🇬🇧 GB | VLESS | @v2rayfast_7",
         "🇬🇧 GB | VLESS | @v2raymelliii",
+        "🇬🇧 GB | VLESS | @v2rayopen",
         "🇬🇧 GB | VLESS | @vmesc",
         "🇬🇧 GB | VLESS | @vmesc",
         "🇬🇧 GB | VLESS | @vmesc",
@@ -132,15 +130,15 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇬🇧 GB | VMESS | @bored_vpn",
+        "🇬🇧 GB | VLESS | @configv2rayforfree",
         "🇬🇧 GB | VLESS | @father_vpn",
-        "🇬🇧 GB | VLESS | @free1_vpn",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | VLESS | @kafing_2",
         "🇬🇧 GB | VLESS | @kafing_2",
         "🇬🇧 GB | VLESS | @kafing_2",
         "🇬🇧 GB | VLESS | @kafing_2",
-        "🇬🇧 GB | SS | @key_outline",
         "🇬🇧 GB | SS | @key_outline",
         "🇬🇧 GB | SS | @key_outline",
         "🇬🇧 GB | VLESS | @komail315",
@@ -150,14 +148,12 @@
         "🇬🇧 GB | VLESS | @orange_vpns",
         "🇬🇧 GB | VLESS | @orange_vpns",
         "🇬🇧 GB | SS | @outline_ir",
-        "🇬🇧 GB | SS | @prrofile_purple",
-        "🇬🇧 GB | VLESS | @prrofile_purple",
-        "🇬🇧 GB | VLESS | @prrofile_purple",
         "🇬🇧 GB | VLESS | @satellitenewspersian",
         "🇬🇧 GB | VLESS | @v2ray_vmes",
         "🇬🇧 GB | VLESS | @v2rayfast_7",
         "🇬🇧 GB | VLESS | @v2rayfast_7",
         "🇬🇧 GB | VLESS | @v2raymelliii",
+        "🇬🇧 GB | VLESS | @v2rayopen",
         "🇬🇧 GB | VLESS | @vmesc",
         "🇬🇧 GB | VLESS | @vmesc",
         "🇬🇧 GB | VLESS | @vmesc",
@@ -178,19 +174,44 @@
       "type": "direct"
     },
     {
+      "tag": "🇬🇧 GB | VMESS | @bored_vpn",
+      "type": "vmess",
+      "server": "chatgpt.com",
+      "server_port": 443,
+      "uuid": "534a2c69-b7d5-4dbd-beab-4afc575e7761",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "gptai.asrenet.ru",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "gptai.asrenet.ru"
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @configv2rayforfree",
+      "type": "vless",
+      "server": "hajimamadvpnjoinsho.fast199.hosting-ip.com",
+      "server_port": 80,
+      "uuid": "832a3784-7ae1-4ff2-ab13-5fb4bf8abd28",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇬🇧 GB | VLESS | @father_vpn",
       "type": "vless",
       "server": "25.26.27.158",
       "server_port": 2095,
       "uuid": "f39c206d-8acc-4304-95cc-afe234a2f6f8",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @free1_vpn",
-      "type": "vless",
-      "server": "25.26.27.158",
-      "server_port": 2096,
-      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
       "packet_encoding": "xudp"
     },
     {
@@ -249,14 +270,6 @@
       "server_port": 2096,
       "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @key_outline",
-      "type": "shadowsocks",
-      "server": "78.129.140.11",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCZkVycWZWcGxEdXgxNk0yVVpqSG9R",
-      "password": null
     },
     {
       "tag": "🇬🇧 GB | SS | @key_outline",
@@ -331,30 +344,6 @@
       "password": null
     },
     {
-      "tag": "🇬🇧 GB | SS | @prrofile_purple",
-      "type": "shadowsocks",
-      "server": "82.38.31.194",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
-      "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @prrofile_purple",
-      "type": "vless",
-      "server": "25.26.27.158",
-      "server_port": 2096,
-      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @prrofile_purple",
-      "type": "vless",
-      "server": "25.26.27.158",
-      "server_port": 2096,
-      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇬🇧 GB | VLESS | @satellitenewspersian",
       "type": "vless",
       "server": "23.81.33.188",
@@ -402,6 +391,14 @@
     },
     {
       "tag": "🇬🇧 GB | VLESS | @v2raymelliii",
+      "type": "vless",
+      "server": "25.26.27.158",
+      "server_port": 2096,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2rayopen",
       "type": "vless",
       "server": "25.26.27.158",
       "server_port": 2096,

@@ -97,22 +97,22 @@
         "🇳🇱 NL | TROJAN | @manstervpn",
         "🇽🇽 XX | TROJAN | @manstervpn",
         "🇽🇽 XX | TROJAN | @manstervpn",
+        "🇩🇪 DE | TROJAN | @privatevpns",
         "🇫🇷 FR | TROJAN | @privatevpns",
         "🇫🇷 FR | TROJAN | @proxyfn",
         "🇺🇸 US | TROJAN | @v2ray_collector",
-        "🇯🇵 JP | TROJAN | @v2raych",
         "🇫🇷 FR | TROJAN | @v2rayngconfig",
         "🇹🇷 TR | TROJAN | @v2rayngconfig",
         "🇫🇷 FR | TROJAN | @v2rayngconfig",
         "🇩🇪 DE | TROJAN | @v2rayngconfig",
         "🇽🇽 XX | TROJAN | @v2rayngconfiig",
+        "🇩🇪 DE | TROJAN | @v2rayvpnchannel",
+        "🇫🇷 FR | TROJAN | @v2rayvpnchannel",
         "🇫🇷 FR | TROJAN | @vpn_ioss",
         "🇲🇩 MD | TROJAN | @orange_vpns",
         "🇽🇽 XX | TROJAN | @satellitenewspersian",
         "🇽🇽 XX | TROJAN | @teamvpnpro",
         "🇽🇽 XX | TROJAN | @teamvpnpro",
-        "🇭🇰 HK | TROJAN | @v2raych",
-        "🇭🇰 HK | TROJAN | @v2raych",
         "🇽🇽 XX | TROJAN | @vpn_ioss"
       ],
       "tag": "proxy",
@@ -128,22 +128,22 @@
         "🇳🇱 NL | TROJAN | @manstervpn",
         "🇽🇽 XX | TROJAN | @manstervpn",
         "🇽🇽 XX | TROJAN | @manstervpn",
+        "🇩🇪 DE | TROJAN | @privatevpns",
         "🇫🇷 FR | TROJAN | @privatevpns",
         "🇫🇷 FR | TROJAN | @proxyfn",
         "🇺🇸 US | TROJAN | @v2ray_collector",
-        "🇯🇵 JP | TROJAN | @v2raych",
         "🇫🇷 FR | TROJAN | @v2rayngconfig",
         "🇹🇷 TR | TROJAN | @v2rayngconfig",
         "🇫🇷 FR | TROJAN | @v2rayngconfig",
         "🇩🇪 DE | TROJAN | @v2rayngconfig",
         "🇽🇽 XX | TROJAN | @v2rayngconfiig",
+        "🇩🇪 DE | TROJAN | @v2rayvpnchannel",
+        "🇫🇷 FR | TROJAN | @v2rayvpnchannel",
         "🇫🇷 FR | TROJAN | @vpn_ioss",
         "🇲🇩 MD | TROJAN | @orange_vpns",
         "🇽🇽 XX | TROJAN | @satellitenewspersian",
         "🇽🇽 XX | TROJAN | @teamvpnpro",
         "🇽🇽 XX | TROJAN | @teamvpnpro",
-        "🇭🇰 HK | TROJAN | @v2raych",
-        "🇭🇰 HK | TROJAN | @v2raych",
         "🇽🇽 XX | TROJAN | @vpn_ioss"
       ],
       "tag": "auto",
@@ -283,9 +283,25 @@
       }
     },
     {
+      "tag": "🇩🇪 DE | TROJAN | @privatevpns",
+      "type": "trojan",
+      "server": "3.76.159.25",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇫🇷 FR | TROJAN | @privatevpns",
       "type": "trojan",
-      "server": "13.36.202.63",
+      "server": "13.37.174.80",
       "server_port": 22222,
       "password": "telegram-id-privatevpns",
       "tls": {
@@ -329,13 +345,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇯🇵 JP | TROJAN | @v2raych",
-      "type": "trojan",
-      "server": "160.16.63.16",
-      "server_port": 1281,
-      "password": "381f2e86233720eacda26d50e9aa26da"
     },
     {
       "tag": "🇫🇷 FR | TROJAN | @v2rayngconfig",
@@ -418,6 +427,38 @@
       }
     },
     {
+      "tag": "🇩🇪 DE | TROJAN | @v2rayvpnchannel",
+      "type": "trojan",
+      "server": "3.76.159.25",
+      "server_port": 22223,
+      "password": "telegram-id-v2rayvpnchannel",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | TROJAN | @v2rayvpnchannel",
+      "type": "trojan",
+      "server": "13.37.174.80",
+      "server_port": 22223,
+      "password": "telegram-id-v2rayvpnchannel",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇫🇷 FR | TROJAN | @vpn_ioss",
       "type": "trojan",
       "server": "88.214.24.235",
@@ -478,20 +519,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇭🇰 HK | TROJAN | @v2raych",
-      "type": "trojan",
-      "server": "f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl",
-      "server_port": 27007,
-      "password": "d0d61b6f-4a87-4a73-80cc-4bab641abfc9"
-    },
-    {
-      "tag": "🇭🇰 HK | TROJAN | @v2raych",
-      "type": "trojan",
-      "server": "f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl",
-      "server_port": 27003,
-      "password": "d0d61b6f-4a87-4a73-80cc-4bab641abfc9"
     },
     {
       "tag": "🇽🇽 XX | TROJAN | @vpn_ioss",
