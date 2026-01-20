@@ -102,16 +102,19 @@
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxy48",
         "🇫🇷 FR | VMESS | @selinc",
+        "🇳🇱 NL | VMESS | @v2ray_free_conf",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇺🇸 US | VMESS | @freev2rays",
         "🇧🇾 BY | VMESS | @ir_netproxy",
         "🇺🇸 US | VMESS | @ir_netproxy",
         "🇽🇽 XX | VMESS | @iranvpnet",
         "🇦🇺 AU | VMESS | @khoneproxy",
+        "🇫🇷 FR | VMESS | @mehrosaboran",
         "🇺🇸 US | VMESS | @mi_pn_official",
         "🇷🇺 RU | VMESS | @prooxyk",
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @v2ray4win",
+        "🇺🇸 US | VMESS | @v2ray_free_conf",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig"
       ],
@@ -133,16 +136,19 @@
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxy48",
         "🇫🇷 FR | VMESS | @selinc",
+        "🇳🇱 NL | VMESS | @v2ray_free_conf",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇺🇸 US | VMESS | @freev2rays",
         "🇧🇾 BY | VMESS | @ir_netproxy",
         "🇺🇸 US | VMESS | @ir_netproxy",
         "🇽🇽 XX | VMESS | @iranvpnet",
         "🇦🇺 AU | VMESS | @khoneproxy",
+        "🇫🇷 FR | VMESS | @mehrosaboran",
         "🇺🇸 US | VMESS | @mi_pn_official",
         "🇷🇺 RU | VMESS | @prooxyk",
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @v2ray4win",
+        "🇺🇸 US | VMESS | @v2ray_free_conf",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig"
       ],
@@ -374,6 +380,24 @@
       "alter_id": 0
     },
     {
+      "tag": "🇳🇱 NL | VMESS | @v2ray_free_conf",
+      "type": "vmess",
+      "server": "45.90.106.24",
+      "server_port": 1234,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "supervpn.super.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇭🇰 HK | VMESS | @freev2rays",
       "type": "vmess",
       "server": "hk2.lrzdx.uk",
@@ -517,6 +541,31 @@
       }
     },
     {
+      "tag": "🇫🇷 FR | VMESS | @mehrosaboran",
+      "type": "vmess",
+      "server": "chatgpt.com",
+      "server_port": 443,
+      "uuid": "452feb53-e822-4e22-b2a1-3badd62dfecd",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "a.stbthai.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "a.stbthai.com"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @mi_pn_official",
       "type": "vmess",
       "server": "104.21.15.212",
@@ -613,6 +662,31 @@
         "path": "/api05",
         "headers": {
           "Host": "scherehtzflk01.schere.net"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @v2ray_free_conf",
+      "type": "vmess",
+      "server": "cold-dawn-9246.fly.dev",
+      "server_port": 443,
+      "uuid": "ea4909ef-7ca6-4b46-bf2e-6c07896ef338",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "cold-dawn-9246.fly.dev",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm",
+        "headers": {
+          "Host": "cold-dawn-9246.fly.dev"
         }
       }
     },

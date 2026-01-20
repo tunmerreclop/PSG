@@ -90,8 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇯🇵 JP | VLESS | @free1_vpn",
-        "🇯🇵 JP | SS | @outlinereleasedkey"
+        "🇯🇵 JP | SS | @outlinereleasedkey",
+        "🇯🇵 JP | VLESS | @v2aryng_vpn"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇯🇵 JP | VLESS | @free1_vpn",
-        "🇯🇵 JP | SS | @outlinereleasedkey"
+        "🇯🇵 JP | SS | @outlinereleasedkey",
+        "🇯🇵 JP | VLESS | @v2aryng_vpn"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,7 +112,15 @@
       "type": "direct"
     },
     {
-      "tag": "🇯🇵 JP | VLESS | @free1_vpn",
+      "tag": "🇯🇵 JP | SS | @outlinereleasedkey",
+      "type": "shadowsocks",
+      "server": "149.22.87.240",
+      "server_port": 443,
+      "method": "YWVzLTEyOC1nY206c2hhZG93c29ja3M=",
+      "password": null
+    },
+    {
+      "tag": "🇯🇵 JP | VLESS | @v2aryng_vpn",
       "type": "vless",
       "server": "japan.geodema.network",
       "server_port": 443,
@@ -132,14 +140,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇯🇵 JP | SS | @outlinereleasedkey",
-      "type": "shadowsocks",
-      "server": "149.22.87.240",
-      "server_port": 443,
-      "method": "YWVzLTEyOC1nY206c2hhZG93c29ja3M=",
-      "password": null
     }
   ],
   "route": {

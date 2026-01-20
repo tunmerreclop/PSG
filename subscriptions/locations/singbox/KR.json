@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgRVM=
+//profile-title: base64:UFNHIHwgS1I=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,8 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇸 ES | VLESS | @freeconfigsplus",
-        "🇪🇸 ES | VLESS | @v2raytg"
+        "🇰🇷 KR | SS | @v2ray_free_conf"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇸 ES | VLESS | @freeconfigsplus",
-        "🇪🇸 ES | VLESS | @v2raytg"
+        "🇰🇷 KR | SS | @v2ray_free_conf"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,27 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇪🇸 ES | VLESS | @freeconfigsplus",
-      "type": "vless",
-      "server": "subscription.lormarb.ir",
-      "server_port": 53762,
-      "uuid": "0b3dc0af-9ca6-4542-ac1a-513d0e3b8eaa",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇪🇸 ES | VLESS | @v2raytg",
-      "type": "vless",
-      "server": "p1anel.lormarb.ir",
-      "server_port": 53762,
-      "uuid": "aaeddbf5-a9df-4931-b231-08909eed7501",
-      "packet_encoding": "xudp"
+      "tag": "🇰🇷 KR | SS | @v2ray_free_conf",
+      "type": "shadowsocks",
+      "server": "154.90.62.168",
+      "server_port": 989,
+      "method": "YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==",
+      "password": null
     }
   ],
   "route": {

@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇬 SG | VLESS | @config_proxy",
         "🇸🇬 SG | VLESS | @vmessiranproxy",
         "🇸🇬 SG | VLESS | @vmessiranproxy"
       ],
@@ -87,7 +86,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇬 SG | VLESS | @config_proxy",
         "🇸🇬 SG | VLESS | @vmessiranproxy",
         "🇸🇬 SG | VLESS | @vmessiranproxy"
       ],
@@ -103,23 +101,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇸🇬 SG | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "154.194.12.209",
-      "server_port": 443,
-      "uuid": "140f89e0-4f7c-4b12-a9da-286ad5dc6faa",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇸🇬 SG | VLESS | @vmessiranproxy",

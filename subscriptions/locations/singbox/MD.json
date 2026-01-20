@@ -91,7 +91,6 @@
         "auto",
         "direct",
         "🇲🇩 MD | VLESS | @config_proxy",
-        "🇲🇩 MD | TROJAN | @orange_vpns",
         "🇲🇩 MD | SS | @v2ray_free_conf",
         "🇲🇩 MD | SS | @vmesc"
       ],
@@ -102,7 +101,6 @@
       "interval": "10m",
       "outbounds": [
         "🇲🇩 MD | VLESS | @config_proxy",
-        "🇲🇩 MD | TROJAN | @orange_vpns",
         "🇲🇩 MD | SS | @v2ray_free_conf",
         "🇲🇩 MD | SS | @vmesc"
       ],
@@ -118,7 +116,7 @@
     {
       "tag": "🇲🇩 MD | VLESS | @config_proxy",
       "type": "vless",
-      "server": "176.120.67.103",
+      "server": "176.120.67.77",
       "server_port": 8443,
       "uuid": "d0dea598-9047-4567-a934-84c2797c0978",
       "packet_encoding": "xudp",
@@ -136,13 +134,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇲🇩 MD | TROJAN | @orange_vpns",
-      "type": "trojan",
-      "server": "trunker.cc",
-      "server_port": 8080,
-      "password": "nYzYreUpD4dDjzjFcgf6Fe3oaw4QFN"
     },
     {
       "tag": "🇲🇩 MD | SS | @v2ray_free_conf",
