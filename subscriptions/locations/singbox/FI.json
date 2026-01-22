@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇫🇮 FI | VLESS | @config_proxy",
         "🇫🇮 FI | VLESS | @kafing_2"
       ],
       "tag": "proxy",
@@ -98,6 +99,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇫🇮 FI | VLESS | @config_proxy",
         "🇫🇮 FI | VLESS | @kafing_2"
       ],
       "tag": "auto",
@@ -108,6 +110,23 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "drdyhshsjsgyg.api.arsinoo.com",
+      "server_port": 443,
+      "uuid": "58bef8fd-c32f-4bc0-a58d-c4262f0cf586",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇫🇮 FI | VLESS | @kafing_2",

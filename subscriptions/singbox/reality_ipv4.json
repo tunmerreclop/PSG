@@ -93,6 +93,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇳🇱 NL | VLESS | @config_proxy",
+        "🇦🇹 AT | VLESS | @config_proxy",
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇸🇮 SI | VLESS | @filterk0sh",
@@ -118,6 +120,7 @@
         "🇷🇺 RU | VLESS | @v2aryng_vpn",
         "🇷🇺 RU | VLESS | @v2aryng_vpn",
         "🇳🇱 NL | VLESS | @v2ray_collector",
+        "🇩🇪 DE | VLESS | @v2raych",
         "🇨🇾 CY | VLESS | @v2rayprotocol",
         "🇮🇳 IN | VLESS | @v2raytg",
         "🇷🇺 RU | VLESS | @v2raytg",
@@ -136,6 +139,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇳🇱 NL | VLESS | @config_proxy",
+        "🇦🇹 AT | VLESS | @config_proxy",
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇸🇮 SI | VLESS | @filterk0sh",
@@ -161,6 +166,7 @@
         "🇷🇺 RU | VLESS | @v2aryng_vpn",
         "🇷🇺 RU | VLESS | @v2aryng_vpn",
         "🇳🇱 NL | VLESS | @v2ray_collector",
+        "🇩🇪 DE | VLESS | @v2raych",
         "🇨🇾 CY | VLESS | @v2rayprotocol",
         "🇮🇳 IN | VLESS | @v2raytg",
         "🇷🇺 RU | VLESS | @v2raytg",
@@ -250,6 +256,36 @@
           "Host": ""
         }
       }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "51.158.206.29",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇦🇹 AT | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "152.53.51.24",
+      "server_port": 22955,
+      "uuid": "63f92f3c-447c-4283-80b9-0af8e164cdad",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VLESS | @evay_vpn",
@@ -676,6 +712,18 @@
           "short_id": "",
           "enabled": true
         }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2raych",
+      "type": "vless",
+      "server": "161.35.212.82",
+      "server_port": 29989,
+      "uuid": "5b7a3e9a-f6c9-4acf-a5fd-2f2e4fb2ef61",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
       }
     },
     {

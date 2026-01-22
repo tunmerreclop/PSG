@@ -80,6 +80,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇫🇮 FI | VLESS | @config_proxy",
+        "🇮🇷 IR | VLESS | @config_proxy",
+        "🇩🇪 DE | VLESS | @config_proxy",
+        "🇩🇪 DE | VLESS | @config_proxy",
         "🇩🇪 DE | VLESS | @configasli",
         "🇳🇱 NL | VLESS | @filterk0sh",
         "🇦🇪 AE | VLESS | @iran_access",
@@ -88,8 +92,8 @@
         "🇩🇪 DE | VLESS | @kafing_2",
         "🇫🇮 FI | VLESS | @kafing_2",
         "🇩🇪 DE | VLESS | @mimitdl",
-        "🇯🇵 JP | VLESS | @prrofile_purple",
-        "🇩🇪 DE | VLESS | @v2raymelliii"
+        "🇮🇷 IR | VLESS | @prrofile_purple",
+        "🇯🇵 JP | VLESS | @v2raytg"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,6 +104,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇫🇮 FI | VLESS | @config_proxy",
+        "🇮🇷 IR | VLESS | @config_proxy",
+        "🇩🇪 DE | VLESS | @config_proxy",
+        "🇩🇪 DE | VLESS | @config_proxy",
         "🇩🇪 DE | VLESS | @configasli",
         "🇳🇱 NL | VLESS | @filterk0sh",
         "🇦🇪 AE | VLESS | @iran_access",
@@ -108,8 +116,8 @@
         "🇩🇪 DE | VLESS | @kafing_2",
         "🇫🇮 FI | VLESS | @kafing_2",
         "🇩🇪 DE | VLESS | @mimitdl",
-        "🇯🇵 JP | VLESS | @prrofile_purple",
-        "🇩🇪 DE | VLESS | @v2raymelliii"
+        "🇮🇷 IR | VLESS | @prrofile_purple",
+        "🇯🇵 JP | VLESS | @v2raytg"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -193,6 +201,88 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "drdyhshsjsgyg.api.arsinoo.com",
+      "server_port": 443,
+      "uuid": "58bef8fd-c32f-4bc0-a58d-c4262f0cf586",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "eng.dodbib.ir",
+      "server_port": 1024,
+      "uuid": "2b98e878-ab63-438f-90d5-08925ca06143",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "prime.dissertationhelpspecialist.com",
+      "server_port": 443,
+      "uuid": "e628c496-5b92-4fe0-8bae-c07082fbb77b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "cupkake.cookierp.ir",
+      "server_port": 1004,
+      "uuid": "72a9aff3-2899-4a11-bdf2-1bc57a348177",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -360,11 +450,11 @@
       }
     },
     {
-      "tag": "🇯🇵 JP | VLESS | @prrofile_purple",
+      "tag": "🇮🇷 IR | VLESS | @prrofile_purple",
       "type": "vless",
-      "server": "japan.geodema.network",
-      "server_port": 443,
-      "uuid": "a11ab9c5-4155-430b-9efc-7a7122531382",
+      "server": "eng.dodbib.ir",
+      "server_port": 1024,
+      "uuid": "2b98e878-ab63-438f-90d5-08925ca06143",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -382,11 +472,11 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2raymelliii",
+      "tag": "🇯🇵 JP | VLESS | @v2raytg",
       "type": "vless",
-      "server": "ipv.aiteamplus.ir",
-      "server_port": 20400,
-      "uuid": "e728ebb5-fc0d-4feb-ad44-dfaea0d01dcd",
+      "server": "japan.geodema.network",
+      "server_port": 443,
+      "uuid": "a11ab9c5-4155-430b-9efc-7a7122531382",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
