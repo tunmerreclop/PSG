@@ -81,7 +81,6 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇽🇽 XX | VLESS | @config_proxy",
-        "🇽🇽 XX | VLESS | @config_proxy",
         "🇺🇸 US | VLESS | @evay_vpn",
         "🇬🇧 GB | VLESS | @father_vpn",
         "🇺🇸 US | VLESS | @mpproxy",
@@ -89,16 +88,17 @@
         "🇩🇪 DE | VLESS | @mtpv2ray",
         "🇩🇪 DE | VLESS | @mtpv2ray",
         "🇳🇱 NL | VLESS | @nofiltering2",
-        "🇳🇱 NL | VLESS | @nofiltering2",
         "🇬🇧 GB | VLESS | @orange_vpns",
         "🇺🇸 US | VLESS | @qeshmserver",
         "🇽🇽 XX | VLESS | @selinc",
         "🇽🇽 XX | VLESS | @selinc",
+        "🇩🇪 DE | VLESS | @v2aryng_vpn",
         "🇽🇽 XX | TROJAN | @v2ray_youtube",
         "🇩🇪 DE | VLESS | @v2raying",
         "🇩🇪 DE | VLESS | @v2raying",
         "🇩🇪 DE | VLESS | @v2raying",
-        "🇩🇪 DE | VLESS | @v_2rayng0"
+        "🇩🇪 DE | VLESS | @v_2rayng0",
+        "🇽🇽 XX | VLESS | @vpnplusee_free"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -110,7 +110,6 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇽🇽 XX | VLESS | @config_proxy",
-        "🇽🇽 XX | VLESS | @config_proxy",
         "🇺🇸 US | VLESS | @evay_vpn",
         "🇬🇧 GB | VLESS | @father_vpn",
         "🇺🇸 US | VLESS | @mpproxy",
@@ -118,16 +117,17 @@
         "🇩🇪 DE | VLESS | @mtpv2ray",
         "🇩🇪 DE | VLESS | @mtpv2ray",
         "🇳🇱 NL | VLESS | @nofiltering2",
-        "🇳🇱 NL | VLESS | @nofiltering2",
         "🇬🇧 GB | VLESS | @orange_vpns",
         "🇺🇸 US | VLESS | @qeshmserver",
         "🇽🇽 XX | VLESS | @selinc",
         "🇽🇽 XX | VLESS | @selinc",
+        "🇩🇪 DE | VLESS | @v2aryng_vpn",
         "🇽🇽 XX | TROJAN | @v2ray_youtube",
         "🇩🇪 DE | VLESS | @v2raying",
         "🇩🇪 DE | VLESS | @v2raying",
         "🇩🇪 DE | VLESS | @v2raying",
-        "🇩🇪 DE | VLESS | @v_2rayng0"
+        "🇩🇪 DE | VLESS | @v_2rayng0",
+        "🇽🇽 XX | VLESS | @vpnplusee_free"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -217,18 +217,19 @@
     {
       "tag": "🇽🇽 XX | VLESS | @config_proxy",
       "type": "vless",
-      "server": "162.159.152.4",
-      "server_port": 8443,
-      "uuid": "faadb7ef-b17e-41ae-9ff7-2605430012e7",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @config_proxy",
-      "type": "vless",
       "server": "8.6.112.0",
-      "server_port": 8443,
-      "uuid": "faadb7ef-b17e-41ae-9ff7-2605430012e7",
-      "packet_encoding": "xudp"
+      "server_port": 443,
+      "uuid": "cd530800-f183-4277-a9a9-c4d277a5b0fa",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @evay_vpn",
@@ -276,14 +277,6 @@
       "server": "191.96.94.33",
       "server_port": 8080,
       "uuid": "22a5ae0c-17a5-418e-83e6-a0ca556c04a4",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @nofiltering2",
-      "type": "vless",
-      "server": "151.101.205.194",
-      "server_port": 80,
-      "uuid": "fce3c4a8-f376-4142-b8e8-2ca75c0d423d",
       "packet_encoding": "xudp"
     },
     {
@@ -345,6 +338,14 @@
       }
     },
     {
+      "tag": "🇩🇪 DE | VLESS | @v2aryng_vpn",
+      "type": "vless",
+      "server": "146.75.119.82",
+      "server_port": 80,
+      "uuid": "352fce66-fd55-4747-893f-9b30b55dc0d7",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇽🇽 XX | TROJAN | @v2ray_youtube",
       "type": "trojan",
       "server": "162.159.152.4",
@@ -382,6 +383,23 @@
       "server_port": 80,
       "uuid": "18ee1094-fc1a-4b8c-942b-1d8da3db6ca6",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @vpnplusee_free",
+      "type": "vless",
+      "server": "8.6.112.0",
+      "server_port": 443,
+      "uuid": "538f5bd0-d241-4945-ab8d-a76d04c9a8fb",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

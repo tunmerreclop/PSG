@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇽🇽 XX | VMESS | @config_proxy", "server": "8.6.112.0", "port": 2053, "type": "vmess", "skip-cert-verify": true, "uuid": "8b23a6c9-0ca6-4134-83f2-39d42da0d648", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/", "headers": {"Host": "8.6.112.0"}}}
   - {"name": "🇽🇽 XX | VMESS | @frev2rayng", "server": "104.21.25.65", "port": 2087, "type": "vmess", "skip-cert-verify": true, "uuid": "864112a6-ceeb-4126-b7e2-509c2a203d20", "alterId": 0, "cipher": "auto", "network": "grpc", "tls": true, "grpc-opts": {"grpc-service-name": ""}}
   - {"name": "🇩🇪 DE | VMESS | @khoneproxy", "server": "142.132.163.200", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "7f965e3e-b03f-455e-a96e-01b61f72537a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/graphql", "headers": {"Host": "142.132.163.200"}}}
   - {"name": "🇩🇪 DE | VMESS | @khoneproxy", "server": "167.235.205.182", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
@@ -52,7 +51,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇽🇽 XX | VMESS | @config_proxy'
       - '🇽🇽 XX | VMESS | @frev2rayng'
       - '🇩🇪 DE | VMESS | @khoneproxy'
       - '🇩🇪 DE | VMESS | @khoneproxy'

@@ -23,10 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇽🇽 XX | VMESS | @config_proxy", "server": "www.speedtest.net", "port": 2053, "type": "vmess", "skip-cert-verify": true, "uuid": "00fb7867-95ad-4eaf-99f1-22255beb6251", "alterId": 0, "cipher": "auto", "network": "grpc", "tls": true, "grpc-opts": {"grpc-service-name": ""}}
   - {"name": "🇽🇽 XX | VMESS | @father_vpn", "server": "chatgpt.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "ac158da9-7ec9-4e23-a6d7-80836da39895", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "?ed=2048", "headers": {"Host": "dl3.hupcloud.com"}}}
   - {"name": "🇽🇽 XX | VMESS | @frev2rayng", "server": "104.21.25.65", "port": 2087, "type": "vmess", "skip-cert-verify": true, "uuid": "864112a6-ceeb-4126-b7e2-509c2a203d20", "alterId": 0, "cipher": "auto", "network": "grpc", "tls": true, "grpc-opts": {"grpc-service-name": ""}}
   - {"name": "🇽🇽 XX | TROJAN | @grizzlyvpn", "server": "104.18.32.47", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "87d1bfd4-574e-4c96-ad42-0426f27461ff"}
-  - {"name": "🇽🇽 XX | VMESS | @hope_net", "server": "www.speedtest.net", "port": 2053, "type": "vmess", "skip-cert-verify": true, "uuid": "00fb7867-95ad-4eaf-99f1-22255beb6251", "alterId": 0, "cipher": "auto", "network": "grpc", "tls": true, "grpc-opts": {"grpc-service-name": ""}}
   - {"name": "🇽🇽 XX | VMESS | @iranvpnet", "server": "mute-math-d64e.0e503992ad7026.WOrKERs.deV", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/aveiror.com:443/linkvws", "headers": {"Host": "mute-math-d64e.0e503992ad7026.woRKERS.DeV"}}}
   - {"name": "🇽🇽 XX | VMESS | @manstervpn", "server": "104.16.60.8", "port": 2086, "type": "vmess", "skip-cert-verify": true, "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/glweidf.sbs/linkws", "headers": {"Host": "1c11-muddy-rice-1c11.vetanex501.workers.dev"}}}
   - {"name": "🇽🇽 XX | TROJAN | @manstervpn", "server": "172.66.44.141", "port": 2083, "type": "trojan", "skip-cert-verify": false, "password": "bpb-trojan"}
@@ -46,6 +46,7 @@ proxies:
   - {"name": "🇽🇽 XX | TROJAN | @teamvpnpro", "server": "chatbuzzteambhm.chatbuzzt7150.workers.dev", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "c7f9b8f0-bfdb-11ee-a15c-1239d0255272"}
   - {"name": "🇽🇽 XX | TROJAN | @v2ray_youtube", "server": "162.159.152.4", "port": 8443, "type": "trojan", "skip-cert-verify": false, "password": "DPaEhASbrF"}
   - {"name": "🇽🇽 XX | VMESS | @v2ray_youtube", "server": "rav2fa.noytads.ir", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "3fe9c0fe-bc34-45a7-9d39-b9e84d3e06e2", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/?ed=2052/@RaV2Fa", "headers": {"Host": "netmeli.noytads.ir"}}}
+  - {"name": "🇽🇽 XX | TROJAN | @v2raych", "server": "zzula.ir", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "df371b78-abfe-43b0-865a-a0e640e0ca0c"}
   - {"name": "🇽🇽 XX | TROJAN | @v2rayngconfiig", "server": "104.18.26.90", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "Xa4%5El%28%3B.%3BB%23a"}
   - {"name": "🇽🇽 XX | TROJAN | @vpn_ioss", "server": "www.calmlunch.com", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
 
@@ -61,10 +62,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇽🇽 XX | VMESS | @config_proxy'
       - '🇽🇽 XX | VMESS | @father_vpn'
       - '🇽🇽 XX | VMESS | @frev2rayng'
       - '🇽🇽 XX | TROJAN | @grizzlyvpn'
-      - '🇽🇽 XX | VMESS | @hope_net'
       - '🇽🇽 XX | VMESS | @iranvpnet'
       - '🇽🇽 XX | VMESS | @manstervpn'
       - '🇽🇽 XX | TROJAN | @manstervpn'
@@ -84,6 +85,7 @@ proxy-groups:
       - '🇽🇽 XX | TROJAN | @teamvpnpro'
       - '🇽🇽 XX | TROJAN | @v2ray_youtube'
       - '🇽🇽 XX | VMESS | @v2ray_youtube'
+      - '🇽🇽 XX | TROJAN | @v2raych'
       - '🇽🇽 XX | TROJAN | @v2rayngconfiig'
       - '🇽🇽 XX | TROJAN | @vpn_ioss'
 

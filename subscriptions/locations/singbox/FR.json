@@ -90,7 +90,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇷 FR | VMESS | @config_proxy",
         "🇫🇷 FR | VLESS | @kafing_2",
         "🇫🇷 FR | SS | @key_outline",
         "🇫🇷 FR | SS | @key_outline",
@@ -108,9 +107,7 @@
         "🇫🇷 FR | TROJAN | @v2rayngconfig",
         "🇫🇷 FR | TROJAN | @v2rayngconfig",
         "🇫🇷 FR | VMESS | @v2raytg",
-        "🇫🇷 FR | TROJAN | @v2rayvpnchannel",
-        "🇫🇷 FR | VLESS | @vlessconfig",
-        "🇫🇷 FR | TROJAN | @vpn_ioss"
+        "🇫🇷 FR | VLESS | @vlessconfig"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -118,7 +115,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇷 FR | VMESS | @config_proxy",
         "🇫🇷 FR | VLESS | @kafing_2",
         "🇫🇷 FR | SS | @key_outline",
         "🇫🇷 FR | SS | @key_outline",
@@ -136,9 +132,7 @@
         "🇫🇷 FR | TROJAN | @v2rayngconfig",
         "🇫🇷 FR | TROJAN | @v2rayngconfig",
         "🇫🇷 FR | VMESS | @v2raytg",
-        "🇫🇷 FR | TROJAN | @v2rayvpnchannel",
-        "🇫🇷 FR | VLESS | @vlessconfig",
-        "🇫🇷 FR | TROJAN | @vpn_ioss"
+        "🇫🇷 FR | VLESS | @vlessconfig"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -148,31 +142,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇫🇷 FR | VMESS | @config_proxy",
-      "type": "vmess",
-      "server": "162.159.152.4",
-      "server_port": 443,
-      "uuid": "e510d718-26b8-4b0e-e768-600dd8db7321",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "amirzaplus.alsahoarvi.cfd",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "amirzaplus.alsahoarvi.cfd"
-        }
-      }
     },
     {
       "tag": "🇫🇷 FR | VLESS | @kafing_2",
@@ -402,22 +371,6 @@
       "alter_id": 0
     },
     {
-      "tag": "🇫🇷 FR | TROJAN | @v2rayvpnchannel",
-      "type": "trojan",
-      "server": "51.44.124.96",
-      "server_port": 22223,
-      "password": "telegram-id-v2rayvpnchannel",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇫🇷 FR | VLESS | @vlessconfig",
       "type": "vless",
       "server": "51.44.124.96",
@@ -431,13 +384,6 @@
           "Host": ""
         }
       }
-    },
-    {
-      "tag": "🇫🇷 FR | TROJAN | @vpn_ioss",
-      "type": "trojan",
-      "server": "88.214.24.235",
-      "server_port": 9443,
-      "password": "02948bde80594712b974368035f294dd"
     }
   ],
   "route": {

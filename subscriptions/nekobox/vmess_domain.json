@@ -81,12 +81,11 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇬🇧 GB | VMESS | @bored_vpn",
-        "🇫🇷 FR | VMESS | @config_proxy",
+        "🇽🇽 XX | VMESS | @config_proxy",
         "🇦🇺 AU | VMESS | @dailyv2ray",
         "🇽🇽 XX | VMESS | @father_vpn",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇺🇸 US | VMESS | @freev2rays",
-        "🇽🇽 XX | VMESS | @hope_net",
         "🇧🇾 BY | VMESS | @ir_netproxy",
         "🇺🇸 US | VMESS | @ir_netproxy",
         "🇽🇽 XX | VMESS | @iranvpnet",
@@ -120,12 +119,11 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇬🇧 GB | VMESS | @bored_vpn",
-        "🇫🇷 FR | VMESS | @config_proxy",
+        "🇽🇽 XX | VMESS | @config_proxy",
         "🇦🇺 AU | VMESS | @dailyv2ray",
         "🇽🇽 XX | VMESS | @father_vpn",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇺🇸 US | VMESS | @freev2rays",
-        "🇽🇽 XX | VMESS | @hope_net",
         "🇧🇾 BY | VMESS | @ir_netproxy",
         "🇺🇸 US | VMESS | @ir_netproxy",
         "🇽🇽 XX | VMESS | @iranvpnet",
@@ -260,16 +258,16 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | VMESS | @config_proxy",
+      "tag": "🇽🇽 XX | VMESS | @config_proxy",
       "type": "vmess",
-      "server": "162.159.152.4",
-      "server_port": 443,
-      "uuid": "e510d718-26b8-4b0e-e768-600dd8db7321",
+      "server": "www.speedtest.net",
+      "server_port": 2053,
+      "uuid": "00fb7867-95ad-4eaf-99f1-22255beb6251",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "amirzaplus.alsahoarvi.cfd",
+        "server_name": "1S0tbpcysTVzKnnfkbaxK8mykaiYYhDrH2jYGrv2q5zbCzAjl.protonix.ir.",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -277,11 +275,8 @@
         }
       },
       "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "amirzaplus.alsahoarvi.cfd"
-        }
+        "type": "grpc",
+        "service_name": ""
       }
     },
     {
@@ -373,28 +368,6 @@
         "headers": {
           "Host": "xcf037.facai2024.com"
         }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @hope_net",
-      "type": "vmess",
-      "server": "www.speedtest.net",
-      "server_port": 2053,
-      "uuid": "00fb7867-95ad-4eaf-99f1-22255beb6251",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "1S0tbpcysTVzKnnfkbaxK8mykaiYYhDrH2jYGrv2q5zbCzAjl.protonix.ir.",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": ""
       }
     },
     {
