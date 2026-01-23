@@ -85,11 +85,12 @@
         "🇽🇽 XX | TROJAN | @teamvpnpro",
         "🇽🇽 XX | TROJAN | @teamvpnpro",
         "🇺🇸 US | TROJAN | @turboo_server",
+        "🇺🇸 US | TROJAN | @turboo_server",
         "🇽🇽 XX | TROJAN | @grizzlyvpn",
+        "🇩🇪 DE | TROJAN | @privatevpns",
         "🇫🇷 FR | TROJAN | @v2rayngconfig",
         "🇽🇽 XX | TROJAN | @v2rayngconfiig",
-        "🇩🇪 DE | TROJAN | @v2rayvpnchannel",
-        "🇫🇷 FR | TROJAN | @vpn_ioss"
+        "🇩🇪 DE | TROJAN | @v2rayvpnchannel"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -105,11 +106,12 @@
         "🇽🇽 XX | TROJAN | @teamvpnpro",
         "🇽🇽 XX | TROJAN | @teamvpnpro",
         "🇺🇸 US | TROJAN | @turboo_server",
+        "🇺🇸 US | TROJAN | @turboo_server",
         "🇽🇽 XX | TROJAN | @grizzlyvpn",
+        "🇩🇪 DE | TROJAN | @privatevpns",
         "🇫🇷 FR | TROJAN | @v2rayngconfig",
         "🇽🇽 XX | TROJAN | @v2rayngconfiig",
-        "🇩🇪 DE | TROJAN | @v2rayvpnchannel",
-        "🇫🇷 FR | TROJAN | @vpn_ioss"
+        "🇩🇪 DE | TROJAN | @v2rayvpnchannel"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -268,11 +270,34 @@
       "password": "TurbooServer"
     },
     {
+      "tag": "🇺🇸 US | TROJAN | @turboo_server",
+      "type": "trojan",
+      "server": "cdn1.turbooserver.com",
+      "server_port": 80,
+      "password": "TurbooServer"
+    },
+    {
       "tag": "🇽🇽 XX | TROJAN | @grizzlyvpn",
       "type": "trojan",
       "server": "104.18.32.47",
       "server_port": 443,
       "password": "87d1bfd4-574e-4c96-ad42-0426f27461ff",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | TROJAN | @privatevpns",
+      "type": "trojan",
+      "server": "35.157.182.40",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -318,7 +343,7 @@
     {
       "tag": "🇩🇪 DE | TROJAN | @v2rayvpnchannel",
       "type": "trojan",
-      "server": "3.65.79.146",
+      "server": "35.157.182.40",
       "server_port": 22223,
       "password": "telegram-id-v2rayvpnchannel",
       "tls": {
@@ -330,13 +355,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇫🇷 FR | TROJAN | @vpn_ioss",
-      "type": "trojan",
-      "server": "88.214.24.235",
-      "server_port": 9443,
-      "password": "02948bde80594712b974368035f294dd"
     }
   ],
   "route": {

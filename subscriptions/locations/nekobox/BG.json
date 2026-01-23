@@ -77,7 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇬 SG | VLESS | @vmessiranproxy"
+        "🇧🇬 BG | VLESS | @flyv2ray",
+        "🇧🇬 BG | VLESS | @v2ray_youtube",
+        "🇧🇬 BG | VLESS | @vmesskhodam"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇬 SG | VLESS | @vmessiranproxy"
+        "🇧🇬 BG | VLESS | @flyv2ray",
+        "🇧🇬 BG | VLESS | @v2ray_youtube",
+        "🇧🇬 BG | VLESS | @vmesskhodam"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,12 +105,60 @@
       "type": "direct"
     },
     {
-      "tag": "🇸🇬 SG | VLESS | @vmessiranproxy",
+      "tag": "🇧🇬 BG | VLESS | @flyv2ray",
       "type": "vless",
-      "server": "52.77.208.165",
-      "server_port": 39801,
-      "uuid": "c9f044aa-7ec0-4510-b39b-a90357856cf2",
-      "packet_encoding": "xudp"
+      "server": "club.cocomelon.org",
+      "server_port": 443,
+      "uuid": "15fc2169-d6f4-4d2c-9933-a2c7305c4c84",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇬 BG | VLESS | @v2ray_youtube",
+      "type": "vless",
+      "server": "club.cocomelon.org",
+      "server_port": 443,
+      "uuid": "15fc2169-d6f4-4d2c-9933-a2c7305c4c84",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇬 BG | VLESS | @vmesskhodam",
+      "type": "vless",
+      "server": "club.cocomelon.org",
+      "server_port": 443,
+      "uuid": "15fc2169-d6f4-4d2c-9933-a2c7305c4c84",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgTUs=
+//profile-title: base64:UFNHIHwgTVk=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇲🇰 MK | SS | @netfreedom0"
+        "🇲🇾 MY | VMESS | @config_proxy"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇲🇰 MK | SS | @netfreedom0"
+        "🇲🇾 MY | VMESS | @config_proxy"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇲🇰 MK | SS | @netfreedom0",
-      "type": "shadowsocks",
-      "server": "46.183.185.37",
-      "server_port": 989,
-      "method": "YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==",
-      "password": null
+      "tag": "🇲🇾 MY | VMESS | @config_proxy",
+      "type": "vmess",
+      "server": "23.27.28.103",
+      "server_port": 80,
+      "uuid": "rootface-@pwn1337-🎄",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/𒉭𓆩@rootface𒆜 Merry Christmas 🎄🥳🎁𒉭 @pwn_1337 TELEGRAM",
+        "headers": {
+          "Host": ""
+        }
+      }
     }
   ],
   "route": {

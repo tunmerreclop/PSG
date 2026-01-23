@@ -79,7 +79,7 @@
         "direct",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇭🇰 HK | SS | @netfreedom0",
-        "🇭🇰 HK | TROJAN | @v2ray_youtube"
+        "🇭🇰 HK | SS | @v2ray_free_conf"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -89,7 +89,7 @@
       "outbounds": [
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇭🇰 HK | SS | @netfreedom0",
-        "🇭🇰 HK | TROJAN | @v2ray_youtube"
+        "🇭🇰 HK | SS | @v2ray_free_conf"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -138,20 +138,12 @@
       "password": null
     },
     {
-      "tag": "🇭🇰 HK | TROJAN | @v2ray_youtube",
-      "type": "trojan",
-      "server": "58.152.25.236",
-      "server_port": 443,
-      "password": "BxceQaOe",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "tag": "🇭🇰 HK | SS | @v2ray_free_conf",
+      "type": "shadowsocks",
+      "server": "203.23.128.33",
+      "server_port": 990,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz",
+      "password": null
     }
   ],
   "route": {

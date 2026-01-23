@@ -91,6 +91,7 @@
         "auto",
         "direct",
         "🇬🇧 GB | VMESS | @bored_vpn",
+        "🇬🇧 GB | VLESS | @config_proxy",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | VLESS | @frev2rayng",
@@ -106,7 +107,7 @@
         "🇬🇧 GB | SS | @netfreedom0",
         "🇬🇧 GB | VLESS | @satellitenewspersian",
         "🇬🇧 GB | SS | @v2ray_free_conf",
-        "🇬🇧 GB | SS | @v2ray_free_conf",
+        "🇬🇧 GB | VLESS | @vmesc",
         "🇬🇧 GB | VLESS | @vmesc",
         "🇬🇧 GB | VLESS | @vmesc",
         "🇬🇧 GB | VLESS | @vmesc",
@@ -125,6 +126,7 @@
       "interval": "10m",
       "outbounds": [
         "🇬🇧 GB | VMESS | @bored_vpn",
+        "🇬🇧 GB | VLESS | @config_proxy",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | VLESS | @frev2rayng",
@@ -140,7 +142,7 @@
         "🇬🇧 GB | SS | @netfreedom0",
         "🇬🇧 GB | VLESS | @satellitenewspersian",
         "🇬🇧 GB | SS | @v2ray_free_conf",
-        "🇬🇧 GB | SS | @v2ray_free_conf",
+        "🇬🇧 GB | VLESS | @vmesc",
         "🇬🇧 GB | VLESS | @vmesc",
         "🇬🇧 GB | VLESS | @vmesc",
         "🇬🇧 GB | VLESS | @vmesc",
@@ -185,6 +187,14 @@
           "Host": "gptai.asrenet.ru"
         }
       }
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "25.25.25.253",
+      "server_port": 2096,
+      "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇬🇧 GB | SS | @free4allvpn",
@@ -333,14 +343,6 @@
     {
       "tag": "🇬🇧 GB | SS | @v2ray_free_conf",
       "type": "shadowsocks",
-      "server": "45.14.245.2",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxN1pET1JXSWxpUUh1TzZXUkdIQ2hYWU16ZFJ0QVlWUA==",
-      "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @v2ray_free_conf",
-      "type": "shadowsocks",
       "server": "5.181.21.246",
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnS1l5Z1RjUlloYzNza2MyeDZ0WjA3M2xZejBEbmllWA==",
@@ -402,6 +404,14 @@
       "server": "25.26.27.158",
       "server_port": 2096,
       "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @vmesc",
+      "type": "vless",
+      "server": "api-saronet.sarhadpirani.ir",
+      "server_port": 2052,
+      "uuid": "cb522244-ff63-4883-ae1f-87d883fb2da7",
       "packet_encoding": "xudp"
     },
     {

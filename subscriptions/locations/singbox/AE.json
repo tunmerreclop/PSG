@@ -90,14 +90,12 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇪 AE | VLESS | @config_proxy",
+        "🇦🇪 AE | SS | @NamiraConfigs",
         "🇦🇪 AE | VLESS | @iran_access",
         "🇦🇪 AE | VLESS | @kafing_2",
         "🇦🇪 AE | SS | @netfreedom0",
         "🇦🇪 AE | SS | @outlinereleasedkey",
-        "🇦🇪 AE | VLESS | @prrofile_purple",
-        "🇦🇪 AE | VLESS | @prrofile_purple",
-        "🇦🇪 AE | VLESS | @vpnplusee_free"
+        "🇦🇪 AE | VLESS | @prrofile_purple"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -105,14 +103,12 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇪 AE | VLESS | @config_proxy",
+        "🇦🇪 AE | SS | @NamiraConfigs",
         "🇦🇪 AE | VLESS | @iran_access",
         "🇦🇪 AE | VLESS | @kafing_2",
         "🇦🇪 AE | SS | @netfreedom0",
         "🇦🇪 AE | SS | @outlinereleasedkey",
-        "🇦🇪 AE | VLESS | @prrofile_purple",
-        "🇦🇪 AE | VLESS | @prrofile_purple",
-        "🇦🇪 AE | VLESS | @vpnplusee_free"
+        "🇦🇪 AE | VLESS | @prrofile_purple"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -124,12 +120,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇪 AE | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "goth.hellpresso.ir",
-      "server_port": 10684,
-      "uuid": "16899fd6-6ca0-4400-805d-9b891885bd69",
-      "packet_encoding": "xudp"
+      "tag": "🇦🇪 AE | SS | @NamiraConfigs",
+      "type": "shadowsocks",
+      "server": "beesyar.org",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh",
+      "password": null
     },
     {
       "tag": "🇦🇪 AE | VLESS | @iran_access",
@@ -184,36 +180,6 @@
       "server_port": 35177,
       "uuid": "8d51e92a-7f6f-433c-b946-1ec411e7a759",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @prrofile_purple",
-      "type": "vless",
-      "server": "dubai.torprospeed.ir",
-      "server_port": 2023,
-      "uuid": "27528d1a-9ef9-42df-86f3-00b4e1b09169",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @vpnplusee_free",
-      "type": "vless",
-      "server": "goth.hellpresso.ir",
-      "server_port": 10684,
-      "uuid": "16899fd6-6ca0-4400-805d-9b891885bd69",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     }
   ],
   "route": {

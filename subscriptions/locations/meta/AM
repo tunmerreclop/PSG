@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇦🇲 AM | VLESS | @config_proxy", "server": "92.223.2.31", "port": 81, "type": "vless", "skip-cert-verify": true, "uuid": "5a76fdef-97a2-43cd-93b9-e9646a7d6a6c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇦🇲 AM | VLESS | @config_proxy", "server": "92.223.2.31", "port": 81, "type": "vless", "skip-cert-verify": true, "uuid": "5a76fdef-97a2-43cd-93b9-e9646a7d6a6c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇲 AM | VLESS | @config_proxy", "server": "deb-armenia-oha.xirix.li", "port": 5891, "type": "vless", "skip-cert-verify": true, "uuid": "e14aa46a-2fee-4bb3-94eb-814b8bdfff82", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,7 +37,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇦🇲 AM | VLESS | @config_proxy'
       - '🇦🇲 AM | VLESS | @config_proxy'
 
   - name: 🌍 Global Media

@@ -104,6 +104,8 @@
         "🇷🇺 RU | VMESS | @prooxyk",
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @v2ray4win",
+        "🇺🇸 US | VMESS | @v2ray_free_conf",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @vpngate_config",
@@ -136,6 +138,8 @@
         "🇷🇺 RU | VMESS | @prooxyk",
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @v2ray4win",
+        "🇺🇸 US | VMESS | @v2ray_free_conf",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @vpngate_config",
@@ -494,6 +498,40 @@
         "path": "/api05",
         "headers": {
           "Host": "scherehtzflk01.schere.net"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @v2ray_free_conf",
+      "type": "vmess",
+      "server": "82.198.246.97",
+      "server_port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf",
+      "type": "vmess",
+      "server": "aio.unlimited.biz.id",
+      "server_port": 443,
+      "uuid": "f282b878-8711-45a1-8c69-5564172123c1",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "aio.unlimited.biz.id",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aioproxybot/129.150.49.58-18650",
+        "headers": {
+          "Host": "aio.unlimited.biz.id"
         }
       }
     },

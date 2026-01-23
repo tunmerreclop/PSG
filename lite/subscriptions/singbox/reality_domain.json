@@ -95,12 +95,14 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @configasli",
         "🇳🇱 NL | VLESS | @filterk0sh",
+        "🇫🇷 FR | VLESS | @flyv2ray",
+        "🇧🇬 BG | VLESS | @flyv2ray",
         "🇫🇷 FR | VLESS | @kafing_2",
+        "🇩🇪 DE | VLESS | @megavpn_link",
         "🇩🇪 DE | VLESS | @mimitdl",
-        "🇵🇱 PL | VLESS | @netmellianti",
-        "🇳🇱 NL | VLESS | @prrofile_purple",
+        "🇧🇬 BG | VLESS | @v2ray_youtube",
         "🇨🇭 CH | VLESS | @v2raymelliii",
-        "🇳🇱 NL | VLESS | @vmesskhodam"
+        "🇧🇬 BG | VLESS | @vmesskhodam"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -113,12 +115,14 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @configasli",
         "🇳🇱 NL | VLESS | @filterk0sh",
+        "🇫🇷 FR | VLESS | @flyv2ray",
+        "🇧🇬 BG | VLESS | @flyv2ray",
         "🇫🇷 FR | VLESS | @kafing_2",
+        "🇩🇪 DE | VLESS | @megavpn_link",
         "🇩🇪 DE | VLESS | @mimitdl",
-        "🇵🇱 PL | VLESS | @netmellianti",
-        "🇳🇱 NL | VLESS | @prrofile_purple",
+        "🇧🇬 BG | VLESS | @v2ray_youtube",
         "🇨🇭 CH | VLESS | @v2raymelliii",
-        "🇳🇱 NL | VLESS | @vmesskhodam"
+        "🇧🇬 BG | VLESS | @vmesskhodam"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -233,11 +237,58 @@
       }
     },
     {
+      "tag": "🇫🇷 FR | VLESS | @flyv2ray",
+      "type": "vless",
+      "server": "about.jokershadow.org",
+      "server_port": 63639,
+      "uuid": "15fc2169-d6f4-4d2c-9933-a2c7305c4c84",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇧🇬 BG | VLESS | @flyv2ray",
+      "type": "vless",
+      "server": "club.cocomelon.org",
+      "server_port": 443,
+      "uuid": "15fc2169-d6f4-4d2c-9933-a2c7305c4c84",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇫🇷 FR | VLESS | @kafing_2",
       "type": "vless",
       "server": "maxb17.musicdoon.ir",
       "server_port": 8080,
       "uuid": "2c7a2b04-ad16-484b-b0e4-739cd06b650f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @megavpn_link",
+      "type": "vless",
+      "server": "all32-vip.f-sub.com",
+      "server_port": 2434,
+      "uuid": "84e919b0-2a5d-4fad-8614-df01dd210b8e",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -277,11 +328,11 @@
       }
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @netmellianti",
+      "tag": "🇧🇬 BG | VLESS | @v2ray_youtube",
       "type": "vless",
-      "server": "zen-core.megaconfig.com",
-      "server_port": 1198,
-      "uuid": "9f51682b-487d-4912-9418-c659cbe8f4ed",
+      "server": "club.cocomelon.org",
+      "server_port": 443,
+      "uuid": "15fc2169-d6f4-4d2c-9933-a2c7305c4c84",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -290,33 +341,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @prrofile_purple",
-      "type": "vless",
-      "server": "n1.parhamm1.ir",
-      "server_port": 4001,
-      "uuid": "20d41fce-f96c-4f0e-9111-5c911369f4e5",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
@@ -343,7 +367,7 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @vmesskhodam",
+      "tag": "🇧🇬 BG | VLESS | @vmesskhodam",
       "type": "vless",
       "server": "club.cocomelon.org",
       "server_port": 443,

@@ -90,7 +90,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇪 SE | VLESS | @config_proxy",
         "🇸🇪 SE | VLESS | @deli_servers",
         "🇸🇪 SE | VLESS | @free_vip3",
         "🇸🇪 SE | VLESS | @free_vip3",
@@ -127,6 +126,7 @@
         "🇸🇪 SE | VLESS | @meli_v2rayng",
         "🇸🇪 SE | VLESS | @minovpnch",
         "🇸🇪 SE | VLESS | @proxyfn",
+        "🇸🇪 SE | VLESS | @prrofile_purple",
         "🇸🇪 SE | VLESS | @realvpnmaster",
         "🇸🇪 SE | VLESS | @realvpnmaster",
         "🇸🇪 SE | VLESS | @realvpnmaster",
@@ -152,7 +152,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇪 SE | VLESS | @config_proxy",
         "🇸🇪 SE | VLESS | @deli_servers",
         "🇸🇪 SE | VLESS | @free_vip3",
         "🇸🇪 SE | VLESS | @free_vip3",
@@ -189,6 +188,7 @@
         "🇸🇪 SE | VLESS | @meli_v2rayng",
         "🇸🇪 SE | VLESS | @minovpnch",
         "🇸🇪 SE | VLESS | @proxyfn",
+        "🇸🇪 SE | VLESS | @prrofile_purple",
         "🇸🇪 SE | VLESS | @realvpnmaster",
         "🇸🇪 SE | VLESS | @realvpnmaster",
         "🇸🇪 SE | VLESS | @realvpnmaster",
@@ -216,28 +216,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "snapp.shop.two.ahellservice.ir",
-      "server_port": 1818,
-      "uuid": "721093a5-39ed-44c4-83a7-ba156fc3bac3",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇸🇪 SE | VLESS | @deli_servers",
@@ -647,6 +625,14 @@
       }
     },
     {
+      "tag": "🇸🇪 SE | VLESS | @prrofile_purple",
+      "type": "vless",
+      "server": "172.232.159.142",
+      "server_port": 8880,
+      "uuid": "52e7723a-b840-4498-9e44-b8dc89d67e1f",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇸🇪 SE | VLESS | @realvpnmaster",
       "type": "vless",
       "server": "185.146.173.185",
@@ -783,9 +769,9 @@
     {
       "tag": "🇸🇪 SE | VLESS | @v2raych",
       "type": "vless",
-      "server": "snapp.shop.two.ahellservice.ir",
-      "server_port": 1818,
-      "uuid": "721093a5-39ed-44c4-83a7-ba156fc3bac3",
+      "server": "download.letfaster.com",
+      "server_port": 443,
+      "uuid": "b8bc814f-ad59-4fae-8ea8-fb9d5a9c8b50",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

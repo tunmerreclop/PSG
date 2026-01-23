@@ -23,9 +23,11 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇰🇿 KZ | VLESS | @Fr33C0nfig", "server": "mci2.atliehsafa.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "5985deab-e8cf-4228-af5f-a3ebcf648b23", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇰🇿 KZ | VLESS | @config_proxy", "server": "194.76.18.222", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "fccdaaae-af39-41a7-9fde-fd32a48278cf", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇰🇿 KZ | VLESS | @config_proxy", "server": "91.217.10.68", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0d93b787-b66b-4696-a036-a0f549764f69", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇰🇿 KZ | VLESS | @config_proxy", "server": "kz.fasti.win", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0d93b787-b66b-4696-a036-a0f549764f69", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇰🇿 KZ | VLESS | @filterk0sh", "server": "77.73.232.61", "port": 19747, "type": "vless", "skip-cert-verify": true, "uuid": "2a9ed01e-5455-44b4-a66a-76ee8165f0ac", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇰🇿 KZ | VLESS | @outline_ir", "server": "chatgpt.yoloperps.fun", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "844e0f15-6ea4-4dd7-8f08-11311c9c23e8", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇰🇿 KZ | VLESS | @v2raych", "server": "cdn.halazzon.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "6dc3b114-1c6e-4e6a-9540-86e2f6431bd1", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +41,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇰🇿 KZ | VLESS | @Fr33C0nfig'
+      - '🇰🇿 KZ | VLESS | @config_proxy'
       - '🇰🇿 KZ | VLESS | @config_proxy'
       - '🇰🇿 KZ | VLESS | @filterk0sh'
+      - '🇰🇿 KZ | VLESS | @outline_ir'
+      - '🇰🇿 KZ | VLESS | @v2raych'
 
   - name: 🌍 Global Media
     type: select

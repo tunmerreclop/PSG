@@ -90,9 +90,13 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇹🇷 TR | VLESS | @config_proxy",
         "🇹🇷 TR | VLESS | @prrofile_purple",
         "🇹🇷 TR | VLESS | @prrofile_purple",
-        "🇹🇷 TR | TROJAN | @v2rayngconfig"
+        "🇹🇷 TR | VLESS | @v2ray_youtube",
+        "🇹🇷 TR | TROJAN | @v2rayngconfig",
+        "🇹🇷 TR | VLESS | @vmesskhodam",
+        "🇹🇷 TR | VLESS | @vpnplusee_free"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +104,13 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇹🇷 TR | VLESS | @config_proxy",
         "🇹🇷 TR | VLESS | @prrofile_purple",
         "🇹🇷 TR | VLESS | @prrofile_purple",
-        "🇹🇷 TR | TROJAN | @v2rayngconfig"
+        "🇹🇷 TR | VLESS | @v2ray_youtube",
+        "🇹🇷 TR | TROJAN | @v2rayngconfig",
+        "🇹🇷 TR | VLESS | @vmesskhodam",
+        "🇹🇷 TR | VLESS | @vpnplusee_free"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,6 +120,28 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "ubuntu-tr-is.xirix.li",
+      "server_port": 5891,
+      "uuid": "e14aa46a-2fee-4bb3-94eb-814b8bdfff82",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇹🇷 TR | VLESS | @prrofile_purple",
@@ -158,6 +188,14 @@
       }
     },
     {
+      "tag": "🇹🇷 TR | VLESS | @v2ray_youtube",
+      "type": "vless",
+      "server": "156.146.52.113",
+      "server_port": 8443,
+      "uuid": "4267751e-4e4c-43cb-9f1e-b74a8b1315a8",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇹🇷 TR | TROJAN | @v2rayngconfig",
       "type": "trojan",
       "server": "194.146.26.40",
@@ -172,6 +210,22 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @vmesskhodam",
+      "type": "vless",
+      "server": "tk.napsternetx.ir",
+      "server_port": 2096,
+      "uuid": "8bd64c9d-c76a-4eba-8448-9a4646e9d0e3",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @vpnplusee_free",
+      "type": "vless",
+      "server": "tr.speeditest.ir",
+      "server_port": 81,
+      "uuid": "b6effac4-2883-47ff-8325-93d0a3d75c22",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

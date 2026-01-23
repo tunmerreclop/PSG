@@ -79,15 +79,16 @@
         "direct",
         "🇮🇷 IR | VLESS | @ai_duet",
         "🇮🇷 IR | VLESS | @config_proxy",
+        "🇮🇷 IR | VLESS | @config_proxy",
+        "🇮🇷 IR | VLESS | @flyv2ray",
         "🇮🇷 IR | VLESS | @lax_vpn",
         "🇮🇷 IR | VLESS | @orange_vpns",
         "🇮🇷 IR | VLESS | @prooxyk",
         "🇮🇷 IR | VLESS | @prrofile_purple",
-        "🇮🇷 IR | VLESS | @prrofile_purple",
-        "🇮🇷 IR | VLESS | @prrofile_purple",
         "🇮🇷 IR | VLESS | @v2ray_iran88",
-        "🇮🇷 IR | VLESS | @v2ray_youtube",
-        "🇮🇷 IR | VLESS | @vmesc"
+        "🇮🇷 IR | VLESS | @v2raych",
+        "🇮🇷 IR | VLESS | @vmesc",
+        "🇮🇷 IR | VLESS | @vmesskhodam"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -97,15 +98,16 @@
       "outbounds": [
         "🇮🇷 IR | VLESS | @ai_duet",
         "🇮🇷 IR | VLESS | @config_proxy",
+        "🇮🇷 IR | VLESS | @config_proxy",
+        "🇮🇷 IR | VLESS | @flyv2ray",
         "🇮🇷 IR | VLESS | @lax_vpn",
         "🇮🇷 IR | VLESS | @orange_vpns",
         "🇮🇷 IR | VLESS | @prooxyk",
         "🇮🇷 IR | VLESS | @prrofile_purple",
-        "🇮🇷 IR | VLESS | @prrofile_purple",
-        "🇮🇷 IR | VLESS | @prrofile_purple",
         "🇮🇷 IR | VLESS | @v2ray_iran88",
-        "🇮🇷 IR | VLESS | @v2ray_youtube",
-        "🇮🇷 IR | VLESS | @vmesc"
+        "🇮🇷 IR | VLESS | @v2raych",
+        "🇮🇷 IR | VLESS | @vmesc",
+        "🇮🇷 IR | VLESS | @vmesskhodam"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -140,9 +142,39 @@
     {
       "tag": "🇮🇷 IR | VLESS | @config_proxy",
       "type": "vless",
-      "server": "nimba.aparat-movies-download.ir",
-      "server_port": 42535,
-      "uuid": "260225a1-8f2c-4302-a7de-1250f334e566",
+      "server": "91.216.71.66",
+      "server_port": 60001,
+      "uuid": "552d9d16-fd7d-4183-b513-217b8d9b49b2",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "fin.zerosulution.com",
+      "server_port": 2000,
+      "uuid": "f0d2cf44-2d84-4c41-a9d7-95ca8b5c966c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @flyv2ray",
+      "type": "vless",
+      "server": "185.113.10.103",
+      "server_port": 26480,
+      "uuid": "cbcafae9-4b13-4a5c-8521-342262dc57eb",
       "packet_encoding": "xudp"
     },
     {
@@ -181,50 +213,6 @@
     {
       "tag": "🇮🇷 IR | VLESS | @prrofile_purple",
       "type": "vless",
-      "server": "185.113.10.146",
-      "server_port": 3443,
-      "uuid": "ca8d5058-2365-4e07-8231-4fda963006ad",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @prrofile_purple",
-      "type": "vless",
-      "server": "newfi.pixoservers.com",
-      "server_port": 3389,
-      "uuid": "ca8d5058-2365-4e07-8231-4fda963006ad",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @prrofile_purple",
-      "type": "vless",
       "server": "185.113.10.103",
       "server_port": 26480,
       "uuid": "705e3af9-bb69-418d-bf87-8aa2df4aeac0",
@@ -239,11 +227,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_youtube",
+      "tag": "🇮🇷 IR | VLESS | @v2raych",
       "type": "vless",
-      "server": "56n2t.de2.unique-casparo.com",
-      "server_port": 8082,
-      "uuid": "60280985-cd6c-9717-de86-b110d2af7bfd",
+      "server": "91.216.71.69",
+      "server_port": 405,
+      "uuid": "b5ea9b62-642e-434d-8605-b7219d141813",
       "packet_encoding": "xudp"
     },
     {
@@ -253,6 +241,28 @@
       "server_port": 8443,
       "uuid": "77371595-b7aa-472a-9d61-e9731861af07",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @vmesskhodam",
+      "type": "vless",
+      "server": "uk.zerosulution.com",
+      "server_port": 7567,
+      "uuid": "4eaa7aaa-47b4-4660-841a-4c5f0e39332c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {
