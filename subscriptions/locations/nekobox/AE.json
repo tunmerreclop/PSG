@@ -78,7 +78,8 @@
         "auto",
         "direct",
         "🇦🇪 AE | SS | @netfreedom0 #1",
-        "🇦🇪 AE | SS | @outlinereleasedkey #1"
+        "🇦🇪 AE | SS | @outlinereleasedkey #1",
+        "🇦🇪 AE | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇦🇪 AE | SS | @netfreedom0 #1",
-        "🇦🇪 AE | SS | @outlinereleasedkey #1"
+        "🇦🇪 AE | SS | @outlinereleasedkey #1",
+        "🇦🇪 AE | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -117,6 +119,28 @@
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q",
       "password": null
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "dnn.zerosulution.com",
+      "server_port": 7567,
+      "uuid": "709bb7c8-583f-419c-9cf0-f2ce45fc833d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {
