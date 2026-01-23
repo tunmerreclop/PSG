@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇮🇳 IN | VLESS | @v2raytg", "server": "45.88.183.100", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "309fa273-6579-4cb2-9143-7cad50401eba", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇮🇳 IN | VLESS | @vpnplusee_free", "server": "109.248.161.217", "port": 1500, "type": "vless", "skip-cert-verify": true, "uuid": "7b8f7a22-e628-4216-a98c-b158c035822b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇮🇳 IN | VLESS | @v2raytg #1", "server": "45.88.183.100", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "309fa273-6579-4cb2-9143-7cad50401eba", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇮🇳 IN | VLESS | @v2raytg'
-      - '🇮🇳 IN | VLESS | @vpnplusee_free'
+      - '🇮🇳 IN | VLESS | @v2raytg #1'
 
   - name: 🌍 Global Media
     type: select

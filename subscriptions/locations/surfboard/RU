@@ -9,12 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇷🇺 RU | VMESS | @prooxyk = vmess, 77.v2ray1.xyz, 443, username = 17b2a313-37a0-4945-a8e4-e63375506b4a, ws = true, tls = true, ws-path = /A2DJOPFT, ws-headers = Host:"77.v2ray1.xyz"
+🇷🇺 RU | VMESS | @prooxyk #1 = vmess, 77.v2ray1.xyz, 443, username = 17b2a313-37a0-4945-a8e4-e63375506b4a, ws = true, tls = true, ws-path = /A2DJOPFT, ws-headers = Host:"77.v2ray1.xyz"
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇷🇺 RU | VMESS | @prooxyk
-PSG-AUTO = url-test, 🇷🇺 RU | VMESS | @prooxyk
-PSG-FALLBACK = fallback, 🇷🇺 RU | VMESS | @prooxyk
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇷🇺 RU | VMESS | @prooxyk #1
+PSG-AUTO = url-test, 🇷🇺 RU | VMESS | @prooxyk #1
+PSG-FALLBACK = fallback, 🇷🇺 RU | VMESS | @prooxyk #1
 
 [Rule]
 GEOIP,IR,DIRECT

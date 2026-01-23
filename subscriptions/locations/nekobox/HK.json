@@ -77,9 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰 HK | VMESS | @freev2rays",
-        "🇭🇰 HK | SS | @netfreedom0",
-        "🇭🇰 HK | SS | @v2ray_free_conf"
+        "🇭🇰 HK | VMESS | @freev2rays #1",
+        "🇭🇰 HK | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇰 HK | VMESS | @freev2rays",
-        "🇭🇰 HK | SS | @netfreedom0",
-        "🇭🇰 HK | SS | @v2ray_free_conf"
+        "🇭🇰 HK | VMESS | @freev2rays #1",
+        "🇭🇰 HK | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -105,7 +103,7 @@
       "type": "direct"
     },
     {
-      "tag": "🇭🇰 HK | VMESS | @freev2rays",
+      "tag": "🇭🇰 HK | VMESS | @freev2rays #1",
       "type": "vmess",
       "server": "hk2.lrzdx.uk",
       "server_port": 443,
@@ -130,15 +128,7 @@
       }
     },
     {
-      "tag": "🇭🇰 HK | SS | @netfreedom0",
-      "type": "shadowsocks",
-      "server": "216.250.97.82",
-      "server_port": 38388,
-      "method": "YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW",
-      "password": null
-    },
-    {
-      "tag": "🇭🇰 HK | SS | @v2ray_free_conf",
+      "tag": "🇭🇰 HK | SS | @v2ray_free_conf #1",
       "type": "shadowsocks",
       "server": "203.23.128.33",
       "server_port": 990,

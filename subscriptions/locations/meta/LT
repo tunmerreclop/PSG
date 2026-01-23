@@ -23,9 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇱🇹 LT | VLESS | @config_proxy", "server": "x0net.imsoon.org", "port": 47196, "type": "vless", "skip-cert-verify": true, "uuid": "8da97dbb-8437-4d8e-8866-f08b1fbbff25", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇱🇹 LT | VLESS | @netmellianti", "server": "93.115.25.42", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "ca5ab635-fbaa-4ff2-8283-3954b92ae477", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇱🇹 LT | VLESS | @v2ray_collector", "server": "89.116.180.248", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "401374e6-df77-41fb-f638-dad8184f175b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇱🇹 LT | VLESS | @v2ray_collector #1", "server": "89.116.180.248", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "401374e6-df77-41fb-f638-dad8184f175b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇱🇹 LT | VLESS | @config_proxy'
-      - '🇱🇹 LT | VLESS | @netmellianti'
-      - '🇱🇹 LT | VLESS | @v2ray_collector'
+      - '🇱🇹 LT | VLESS | @v2ray_collector #1'
 
   - name: 🌍 Global Media
     type: select

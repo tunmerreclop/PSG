@@ -9,12 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇬🇧 GB | VMESS | @bored_vpn = vmess, chatgpt.com, 443, username = 534a2c69-b7d5-4dbd-beab-4afc575e7761, ws = true, tls = true, ws-path = /?ed=2048, ws-headers = Host:"gptai.asrenet.ru"
+🇬🇧 GB | VMESS | @bored_vpn #1 = vmess, chatgpt.com, 443, username = 534a2c69-b7d5-4dbd-beab-4afc575e7761, ws = true, tls = true, ws-path = /?ed=2048, ws-headers = Host:"gptai.asrenet.ru"
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇬🇧 GB | VMESS | @bored_vpn
-PSG-AUTO = url-test, 🇬🇧 GB | VMESS | @bored_vpn
-PSG-FALLBACK = fallback, 🇬🇧 GB | VMESS | @bored_vpn
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇬🇧 GB | VMESS | @bored_vpn #1
+PSG-AUTO = url-test, 🇬🇧 GB | VMESS | @bored_vpn #1
+PSG-FALLBACK = fallback, 🇬🇧 GB | VMESS | @bored_vpn #1
 
 [Rule]
 GEOIP,IR,DIRECT

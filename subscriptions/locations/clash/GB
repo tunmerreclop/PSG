@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇬🇧 GB | VMESS | @bored_vpn", "server": "chatgpt.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "534a2c69-b7d5-4dbd-beab-4afc575e7761", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/?ed=2048", "headers": {"Host": "gptai.asrenet.ru"}}}
+  - {"name": "🇬🇧 GB | VMESS | @bored_vpn #1", "server": "chatgpt.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "534a2c69-b7d5-4dbd-beab-4afc575e7761", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/?ed=2048", "headers": {"Host": "gptai.asrenet.ru"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇬🇧 GB | VMESS | @bored_vpn'
+      - '🇬🇧 GB | VMESS | @bored_vpn #1'
 
   - name: 🌍 Global Media
     type: select

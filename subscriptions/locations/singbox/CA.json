@@ -90,11 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇦 CA | VLESS | @jokerv2ray",
-        "🇨🇦 CA | VLESS | @jokerv2ray",
-        "🇨🇦 CA | VLESS | @serverv2ray00",
-        "🇨🇦 CA | SS | @v2raytg",
-        "🇨🇦 CA | VMESS | @NamiraConfigs"
+        "🇨🇦 CA | VLESS | @jokerv2ray #1",
+        "🇨🇦 CA | VLESS | @jokerv2ray #2",
+        "🇨🇦 CA | VLESS | @serverv2ray00 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,11 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇦 CA | VLESS | @jokerv2ray",
-        "🇨🇦 CA | VLESS | @jokerv2ray",
-        "🇨🇦 CA | VLESS | @serverv2ray00",
-        "🇨🇦 CA | SS | @v2raytg",
-        "🇨🇦 CA | VMESS | @NamiraConfigs"
+        "🇨🇦 CA | VLESS | @jokerv2ray #1",
+        "🇨🇦 CA | VLESS | @jokerv2ray #2",
+        "🇨🇦 CA | VLESS | @serverv2ray00 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -118,7 +114,7 @@
       "type": "direct"
     },
     {
-      "tag": "🇨🇦 CA | VLESS | @jokerv2ray",
+      "tag": "🇨🇦 CA | VLESS | @jokerv2ray #1",
       "type": "vless",
       "server": "23.227.60.12",
       "server_port": 2096,
@@ -126,7 +122,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇨🇦 CA | VLESS | @jokerv2ray",
+      "tag": "🇨🇦 CA | VLESS | @jokerv2ray #2",
       "type": "vless",
       "server": "23.227.60.12",
       "server_port": 2096,
@@ -141,7 +137,7 @@
       }
     },
     {
-      "tag": "🇨🇦 CA | VLESS | @serverv2ray00",
+      "tag": "🇨🇦 CA | VLESS | @serverv2ray00 #1",
       "type": "vless",
       "server": "23.227.60.7",
       "server_port": 443,
@@ -154,30 +150,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇨🇦 CA | SS | @v2raytg",
-      "type": "shadowsocks",
-      "server": "51.161.80.138",
-      "server_port": 27797,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5Zjk5MTgwZmM5MjExYzQw",
-      "password": null
-    },
-    {
-      "tag": "🇨🇦 CA | VMESS | @NamiraConfigs",
-      "type": "vmess",
-      "server": "51.79.102.253",
-      "server_port": 80,
-      "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/IOebhLMhl1CTbFHbL95myfRX2",
-        "headers": {
-          "Host": ""
         }
       }
     }

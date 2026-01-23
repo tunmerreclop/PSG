@@ -90,12 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇪 AE | SS | @NamiraConfigs",
-        "🇦🇪 AE | VLESS | @iran_access",
-        "🇦🇪 AE | VLESS | @kafing_2",
-        "🇦🇪 AE | SS | @netfreedom0",
-        "🇦🇪 AE | SS | @outlinereleasedkey",
-        "🇦🇪 AE | VLESS | @prrofile_purple"
+        "🇦🇪 AE | SS | @netfreedom0 #1",
+        "🇦🇪 AE | SS | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -103,12 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇪 AE | SS | @NamiraConfigs",
-        "🇦🇪 AE | VLESS | @iran_access",
-        "🇦🇪 AE | VLESS | @kafing_2",
-        "🇦🇪 AE | SS | @netfreedom0",
-        "🇦🇪 AE | SS | @outlinereleasedkey",
-        "🇦🇪 AE | VLESS | @prrofile_purple"
+        "🇦🇪 AE | SS | @netfreedom0 #1",
+        "🇦🇪 AE | SS | @outlinereleasedkey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -120,45 +112,7 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇪 AE | SS | @NamiraConfigs",
-      "type": "shadowsocks",
-      "server": "beesyar.org",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh",
-      "password": null
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @iran_access",
-      "type": "vless",
-      "server": "uae.kitten-tube.com",
-      "server_port": 443,
-      "uuid": "414df689-dc19-418b-849c-f0f15967d71e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @kafing_2",
-      "type": "vless",
-      "server": "ae.aparat-movies-download.ir",
-      "server_port": 42539,
-      "uuid": "5a76fdef-97a2-43cd-93b9-e9646a7d6a6c",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇦🇪 AE | SS | @netfreedom0",
+      "tag": "🇦🇪 AE | SS | @netfreedom0 #1",
       "type": "shadowsocks",
       "server": "151.242.251.142",
       "server_port": 8080,
@@ -166,20 +120,12 @@
       "password": null
     },
     {
-      "tag": "🇦🇪 AE | SS | @outlinereleasedkey",
+      "tag": "🇦🇪 AE | SS | @outlinereleasedkey #1",
       "type": "shadowsocks",
       "server": "151.242.251.153",
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q",
       "password": null
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @prrofile_purple",
-      "type": "vless",
-      "server": "217.195.200.233",
-      "server_port": 35177,
-      "uuid": "8d51e92a-7f6f-433c-b946-1ec411e7a759",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

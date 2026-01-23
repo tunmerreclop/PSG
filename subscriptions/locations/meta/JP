@@ -23,10 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇯🇵 JP | VLESS | @config_proxy", "server": "66.235.104.110", "port": 53553, "type": "vless", "skip-cert-verify": true, "uuid": "24c59c32-286a-4d62-8744-9cb8c45e7168", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇯🇵 JP | TROJAN | @free4allvpn", "server": "kuame.missionsec.us", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D"}
-  - {"name": "🇯🇵 JP | TROJAN | @netfreedom0", "server": "160.16.89.176", "port": 5076, "type": "trojan", "skip-cert-verify": false, "password": "869e9086806483ca4744a4cb0f3d6e16"}
-  - {"name": "🇯🇵 JP | VLESS | @v2raytg", "server": "japan.geodema.network", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a11ab9c5-4155-430b-9efc-7a7122531382", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇯🇵 JP | TROJAN | @free4allvpn #1", "server": "kuame.missionsec.us", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,10 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇯🇵 JP | VLESS | @config_proxy'
-      - '🇯🇵 JP | TROJAN | @free4allvpn'
-      - '🇯🇵 JP | TROJAN | @netfreedom0'
-      - '🇯🇵 JP | VLESS | @v2raytg'
+      - '🇯🇵 JP | TROJAN | @free4allvpn #1'
 
   - name: 🌍 Global Media
     type: select

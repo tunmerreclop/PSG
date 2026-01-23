@@ -90,8 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇮 SI | VLESS | @filterk0sh",
-        "🇸🇮 SI | SS | @NamiraConfigs"
+        "🇸🇮 SI | VLESS | @filterk0sh #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇮 SI | VLESS | @filterk0sh",
-        "🇸🇮 SI | SS | @NamiraConfigs"
+        "🇸🇮 SI | VLESS | @filterk0sh #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,7 +110,7 @@
       "type": "direct"
     },
     {
-      "tag": "🇸🇮 SI | VLESS | @filterk0sh",
+      "tag": "🇸🇮 SI | VLESS | @filterk0sh #1",
       "type": "vless",
       "server": "92.60.78.221",
       "server_port": 443,
@@ -132,14 +130,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇸🇮 SI | SS | @NamiraConfigs",
-      "type": "shadowsocks",
-      "server": "192.71.244.150",
-      "server_port": 990,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz",
-      "password": null
     }
   ],
   "route": {

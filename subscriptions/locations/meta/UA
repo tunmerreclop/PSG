@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇺🇦 UA | VLESS | @iranbfilter", "server": "grpc1.caseshop.website", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "3a26be3c-ac0c-4180-a123-1d3772f21b9f", "network": "grpc", "tls": false, "udp": true, "client-fingerprint": "chrome", "grpc-opts": {"grpc-service-name": ""}}
+  - {"name": "🇺🇦 UA | VLESS | @iranbfilter #1", "server": "grpc1.caseshop.website", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "3a26be3c-ac0c-4180-a123-1d3772f21b9f", "network": "grpc", "tls": false, "udp": true, "client-fingerprint": "chrome", "grpc-opts": {"grpc-service-name": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇦 UA | VLESS | @iranbfilter'
+      - '🇺🇦 UA | VLESS | @iranbfilter #1'
 
   - name: 🌍 Global Media
     type: select

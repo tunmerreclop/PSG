@@ -9,19 +9,20 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇩🇪 DE | VMESS | @khoneproxy = vmess, 142.132.163.200, 80, username = 7f965e3e-b03f-455e-a96e-01b61f72537a, ws = true, tls = false, ws-path = /graphql, ws-headers = Host:"142.132.163.200"
-🇩🇪 DE | VMESS | @khoneproxy = vmess, 167.235.205.182, 443, username = 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147, ws = false, tls = false
-🇩🇪 DE | VMESS | @magickey_shop = vmess, 168.119.174.229, 443, username = 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147, ws = false, tls = false
-🇽🇽 XX | VMESS | @proxie = vmess, 104.21.62.144, 443, username = 6734be04-d4d0-4495-a9ac-899bd83c3e0b, ws = false, tls = true
-🇽🇽 XX | VMESS | @proxie = vmess, 104.21.62.144, 443, username = e9e3bc02-c4ec-4670-ad23-fe62f2ddaf9f, ws = false, tls = true
-🇽🇽 XX | VMESS | @proxie = vmess, 104.21.62.144, 443, username = c26c9663-a72d-489f-a7da-7a482b876c1c, ws = false, tls = true
-🇽🇽 XX | VMESS | @proxy48 = vmess, 172.66.213.38, 443, username = dfbbc8de-8a4f-407d-8069-6de38d83c4e1, ws = false, tls = true
-🇫🇷 FR | VMESS | @v2raytg = vmess, 162.19.248.238, 550, username = ede27a79-b039-490b-932c-495de4b68880, ws = false, tls = false
+🇩🇪 DE | VMESS | @khoneproxy #1 = vmess, 142.132.163.200, 80, username = 7f965e3e-b03f-455e-a96e-01b61f72537a, ws = true, tls = false, ws-path = /graphql, ws-headers = Host:"142.132.163.200"
+🇩🇪 DE | VMESS | @khoneproxy #2 = vmess, 167.235.205.182, 443, username = 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147, ws = false, tls = false
+🇩🇪 DE | VMESS | @magickey_shop #1 = vmess, 168.119.174.229, 443, username = 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147, ws = false, tls = false
+🇽🇽 XX | VMESS | @proxie #1 = vmess, 104.21.62.144, 443, username = 6734be04-d4d0-4495-a9ac-899bd83c3e0b, ws = false, tls = true
+🇽🇽 XX | VMESS | @proxie #2 = vmess, 104.21.62.144, 443, username = e9e3bc02-c4ec-4670-ad23-fe62f2ddaf9f, ws = false, tls = true
+🇽🇽 XX | VMESS | @proxie #3 = vmess, 104.21.62.144, 443, username = c26c9663-a72d-489f-a7da-7a482b876c1c, ws = false, tls = true
+🇽🇽 XX | VMESS | @proxy48 #1 = vmess, 172.66.213.38, 443, username = dfbbc8de-8a4f-407d-8069-6de38d83c4e1, ws = false, tls = true
+🇳🇱 NL | VMESS | @v2aryng_vpn #1 = vmess, 45.252.182.137, 21500, username = f81274ed-878f-4a97-9372-e3099e8dea3c, ws = true, tls = false, ws-path = /, ws-headers = Host:"45.252.182.137"
+🇫🇷 FR | VMESS | @v2raytg #1 = vmess, 162.19.248.238, 550, username = ede27a79-b039-490b-932c-495de4b68880, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | VMESS | @khoneproxy, 🇩🇪 DE | VMESS | @khoneproxy, 🇩🇪 DE | VMESS | @magickey_shop, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxy48, 🇫🇷 FR | VMESS | @v2raytg
-PSG-AUTO = url-test, 🇩🇪 DE | VMESS | @khoneproxy, 🇩🇪 DE | VMESS | @khoneproxy, 🇩🇪 DE | VMESS | @magickey_shop, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxy48, 🇫🇷 FR | VMESS | @v2raytg
-PSG-FALLBACK = fallback, 🇩🇪 DE | VMESS | @khoneproxy, 🇩🇪 DE | VMESS | @khoneproxy, 🇩🇪 DE | VMESS | @magickey_shop, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxie, 🇽🇽 XX | VMESS | @proxy48, 🇫🇷 FR | VMESS | @v2raytg
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | VMESS | @khoneproxy #1, 🇩🇪 DE | VMESS | @khoneproxy #2, 🇩🇪 DE | VMESS | @magickey_shop #1, 🇽🇽 XX | VMESS | @proxie #1, 🇽🇽 XX | VMESS | @proxie #2, 🇽🇽 XX | VMESS | @proxie #3, 🇽🇽 XX | VMESS | @proxy48 #1, 🇳🇱 NL | VMESS | @v2aryng_vpn #1, 🇫🇷 FR | VMESS | @v2raytg #1
+PSG-AUTO = url-test, 🇩🇪 DE | VMESS | @khoneproxy #1, 🇩🇪 DE | VMESS | @khoneproxy #2, 🇩🇪 DE | VMESS | @magickey_shop #1, 🇽🇽 XX | VMESS | @proxie #1, 🇽🇽 XX | VMESS | @proxie #2, 🇽🇽 XX | VMESS | @proxie #3, 🇽🇽 XX | VMESS | @proxy48 #1, 🇳🇱 NL | VMESS | @v2aryng_vpn #1, 🇫🇷 FR | VMESS | @v2raytg #1
+PSG-FALLBACK = fallback, 🇩🇪 DE | VMESS | @khoneproxy #1, 🇩🇪 DE | VMESS | @khoneproxy #2, 🇩🇪 DE | VMESS | @magickey_shop #1, 🇽🇽 XX | VMESS | @proxie #1, 🇽🇽 XX | VMESS | @proxie #2, 🇽🇽 XX | VMESS | @proxie #3, 🇽🇽 XX | VMESS | @proxy48 #1, 🇳🇱 NL | VMESS | @v2aryng_vpn #1, 🇫🇷 FR | VMESS | @v2raytg #1
 
 [Rule]
 GEOIP,IR,DIRECT

@@ -90,11 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇰🇿 KZ | VLESS | @config_proxy",
-        "🇰🇿 KZ | VLESS | @config_proxy",
-        "🇰🇿 KZ | VLESS | @filterk0sh",
-        "🇰🇿 KZ | VLESS | @outline_ir",
-        "🇰🇿 KZ | VLESS | @v2raych"
+        "🇰🇿 KZ | VLESS | @filterk0sh #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,11 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇰🇿 KZ | VLESS | @config_proxy",
-        "🇰🇿 KZ | VLESS | @config_proxy",
-        "🇰🇿 KZ | VLESS | @filterk0sh",
-        "🇰🇿 KZ | VLESS | @outline_ir",
-        "🇰🇿 KZ | VLESS | @v2raych"
+        "🇰🇿 KZ | VLESS | @filterk0sh #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -118,41 +110,7 @@
       "type": "direct"
     },
     {
-      "tag": "🇰🇿 KZ | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "91.217.10.68",
-      "server_port": 443,
-      "uuid": "0d93b787-b66b-4696-a036-a0f549764f69",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇰🇿 KZ | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "kz.fasti.win",
-      "server_port": 443,
-      "uuid": "0d93b787-b66b-4696-a036-a0f549764f69",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇰🇿 KZ | VLESS | @filterk0sh",
+      "tag": "🇰🇿 KZ | VLESS | @filterk0sh #1",
       "type": "vless",
       "server": "77.73.232.61",
       "server_port": 19747,
@@ -170,40 +128,6 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇰🇿 KZ | VLESS | @outline_ir",
-      "type": "vless",
-      "server": "chatgpt.yoloperps.fun",
-      "server_port": 8443,
-      "uuid": "844e0f15-6ea4-4dd7-8f08-11311c9c23e8",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇰🇿 KZ | VLESS | @v2raych",
-      "type": "vless",
-      "server": "cdn.halazzon.ir",
-      "server_port": 443,
-      "uuid": "6dc3b114-1c6e-4e6a-9540-86e2f6431bd1",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     }

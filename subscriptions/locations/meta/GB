@@ -23,26 +23,19 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇬🇧 GB | VMESS | @bored_vpn", "server": "chatgpt.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "534a2c69-b7d5-4dbd-beab-4afc575e7761", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/?ed=2048", "headers": {"Host": "gptai.asrenet.ru"}}}
-  - {"name": "🇬🇧 GB | VLESS | @config_proxy", "server": "25.25.25.253", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇬🇧 GB | VLESS | @frev2rayng", "server": "parspack.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "815724d3-0d61-4761-be07-471441d42be5", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇬🇧 GB | VLESS | @kafing_2", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇬🇧 GB | VLESS | @kafing_2", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇬🇧 GB | VLESS | @kafing_2", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇬🇧 GB | VLESS | @kafing_2", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇬🇧 GB | VLESS | @komail315", "server": "cr7.zx-shop.ir", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "abd432ba-c9ca-4565-e787-f354d466be4e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇬🇧 GB | VLESS | @miov2ray", "server": "parspack.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇬🇧 GB | VLESS | @satellitenewspersian", "server": "23.81.33.188", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "239ed41c-4af6-49ba-8156-ff2310ea5d78", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇬🇧 GB | VLESS | @vmesc", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇬🇧 GB | VLESS | @vmesc", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇬🇧 GB | VLESS | @vmesc", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇬🇧 GB | VLESS | @vmesc", "server": "185.193.28.168", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇬🇧 GB | VLESS | @vmesc", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇬🇧 GB | VLESS | @vmesc", "server": "api-saronet.sarhadpirani.ir", "port": 2052, "type": "vless", "skip-cert-verify": true, "uuid": "cb522244-ff63-4883-ae1f-87d883fb2da7", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇬🇧 GB | VLESS | @vpn_ioss", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇬🇧 GB | VLESS | @vpn_ioss", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇬🇧 GB | VLESS | @vpnowl", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇬🇧 GB | VLESS | @xsv2ray", "server": "nv73.momdping.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "959eb33c-43f8-4f45-9de6-3ffd13319a79", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇧 GB | VMESS | @bored_vpn #1", "server": "chatgpt.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "534a2c69-b7d5-4dbd-beab-4afc575e7761", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/?ed=2048", "headers": {"Host": "gptai.asrenet.ru"}}}
+  - {"name": "🇬🇧 GB | VLESS | @kafing_2 #1", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇧 GB | VLESS | @kafing_2 #2", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇧 GB | VLESS | @komail315 #1", "server": "cr7.zx-shop.ir", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "abd432ba-c9ca-4565-e787-f354d466be4e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇧 GB | VLESS | @miov2ray #1", "server": "parspack.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇧 GB | VLESS | @satellitenewspersian #1", "server": "23.81.33.188", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "239ed41c-4af6-49ba-8156-ff2310ea5d78", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇬🇧 GB | VLESS | @v2raych #1", "server": "nv271.momdping.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "6302d0b2-e495-4a9c-a2d6-1fe108135b7e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇧 GB | VLESS | @vmesc #1", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇧 GB | VLESS | @vpn_ioss #1", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇧 GB | VLESS | @vpn_ioss #2", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇧 GB | VLESS | @vpnowl #1", "server": "25.26.27.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇧 GB | VLESS | @vpnplusee_free #1", "server": "london.63455-3jisjkskeb.need4speed.com.tr", "port": 7035, "type": "vless", "skip-cert-verify": true, "uuid": "54832bef-b2a3-406d-a2e2-f03f45c08450", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇧 GB | VLESS | @xsv2ray #1", "server": "nv73.momdping.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "959eb33c-43f8-4f45-9de6-3ffd13319a79", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -56,26 +49,19 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇬🇧 GB | VMESS | @bored_vpn'
-      - '🇬🇧 GB | VLESS | @config_proxy'
-      - '🇬🇧 GB | VLESS | @frev2rayng'
-      - '🇬🇧 GB | VLESS | @kafing_2'
-      - '🇬🇧 GB | VLESS | @kafing_2'
-      - '🇬🇧 GB | VLESS | @kafing_2'
-      - '🇬🇧 GB | VLESS | @kafing_2'
-      - '🇬🇧 GB | VLESS | @komail315'
-      - '🇬🇧 GB | VLESS | @miov2ray'
-      - '🇬🇧 GB | VLESS | @satellitenewspersian'
-      - '🇬🇧 GB | VLESS | @vmesc'
-      - '🇬🇧 GB | VLESS | @vmesc'
-      - '🇬🇧 GB | VLESS | @vmesc'
-      - '🇬🇧 GB | VLESS | @vmesc'
-      - '🇬🇧 GB | VLESS | @vmesc'
-      - '🇬🇧 GB | VLESS | @vmesc'
-      - '🇬🇧 GB | VLESS | @vpn_ioss'
-      - '🇬🇧 GB | VLESS | @vpn_ioss'
-      - '🇬🇧 GB | VLESS | @vpnowl'
-      - '🇬🇧 GB | VLESS | @xsv2ray'
+      - '🇬🇧 GB | VMESS | @bored_vpn #1'
+      - '🇬🇧 GB | VLESS | @kafing_2 #1'
+      - '🇬🇧 GB | VLESS | @kafing_2 #2'
+      - '🇬🇧 GB | VLESS | @komail315 #1'
+      - '🇬🇧 GB | VLESS | @miov2ray #1'
+      - '🇬🇧 GB | VLESS | @satellitenewspersian #1'
+      - '🇬🇧 GB | VLESS | @v2raych #1'
+      - '🇬🇧 GB | VLESS | @vmesc #1'
+      - '🇬🇧 GB | VLESS | @vpn_ioss #1'
+      - '🇬🇧 GB | VLESS | @vpn_ioss #2'
+      - '🇬🇧 GB | VLESS | @vpnowl #1'
+      - '🇬🇧 GB | VLESS | @vpnplusee_free #1'
+      - '🇬🇧 GB | VLESS | @xsv2ray #1'
 
   - name: 🌍 Global Media
     type: select

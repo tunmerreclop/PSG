@@ -23,8 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇪🇸 ES | VLESS | @netmellianti", "server": "84.17.62.67", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "146e8a2b-283d-4f06-86ec-0608e2478265", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇪🇸 ES | VLESS | @v2ray_youtube", "server": "5.22.219.57", "port": 30704, "type": "vless", "skip-cert-verify": true, "uuid": "8658dc4f-2b4e-46d7-831d-17a3def93c00", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇪🇸 ES | VLESS | @Fr33C0nfig #1", "server": "5.22.219.57", "port": 30704, "type": "vless", "skip-cert-verify": true, "uuid": "8658dc4f-2b4e-46d7-831d-17a3def93c00", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇪🇸 ES | VLESS | @filtershekan_channel #1", "server": "tunnyl.ru", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "e5b2a149-94d5-46fb-ab3e-88e4e83ddc87", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇪🇸 ES | VLESS | @flyv2ray #1", "server": "5.22.219.57", "port": 30704, "type": "vless", "skip-cert-verify": true, "uuid": "8658dc4f-2b4e-46d7-831d-17a3def93c00", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇪🇸 ES | VLESS | @netmellianti'
-      - '🇪🇸 ES | VLESS | @v2ray_youtube'
+      - '🇪🇸 ES | VLESS | @Fr33C0nfig #1'
+      - '🇪🇸 ES | VLESS | @filtershekan_channel #1'
+      - '🇪🇸 ES | VLESS | @flyv2ray #1'
 
   - name: 🌍 Global Media
     type: select

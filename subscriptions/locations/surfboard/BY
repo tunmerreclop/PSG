@@ -9,12 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇧🇾 BY | VMESS | @ir_netproxy = vmess, 5.161.156.196, 443, username = d20e38ef-1a4d-4009-a00d-2f0d44e3c65a, ws = false, tls = false
+🇧🇾 BY | VMESS | @ir_netproxy #1 = vmess, 5.161.156.196, 443, username = d20e38ef-1a4d-4009-a00d-2f0d44e3c65a, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇧🇾 BY | VMESS | @ir_netproxy
-PSG-AUTO = url-test, 🇧🇾 BY | VMESS | @ir_netproxy
-PSG-FALLBACK = fallback, 🇧🇾 BY | VMESS | @ir_netproxy
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇧🇾 BY | VMESS | @ir_netproxy #1
+PSG-AUTO = url-test, 🇧🇾 BY | VMESS | @ir_netproxy #1
+PSG-FALLBACK = fallback, 🇧🇾 BY | VMESS | @ir_netproxy #1
 
 [Rule]
 GEOIP,IR,DIRECT

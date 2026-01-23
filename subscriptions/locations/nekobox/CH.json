@@ -77,12 +77,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇭 CH | VLESS | @config_proxy",
-        "🇨🇭 CH | VLESS | @config_proxy",
-        "🇨🇭 CH | VLESS | @minovpnch",
-        "🇨🇭 CH | VLESS | @proxyfn",
-        "🇨🇭 CH | VLESS | @prrofile_purple",
-        "🇨🇭 CH | VLESS | @v2raymelliii"
+        "🇨🇭 CH | VLESS | @proxyfn #1",
+        "🇨🇭 CH | VLESS | @prrofile_purple #1",
+        "🇨🇭 CH | VLESS | @v2ray_youtube #1",
+        "🇨🇭 CH | VLESS | @v2raymelliii #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -90,12 +88,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇭 CH | VLESS | @config_proxy",
-        "🇨🇭 CH | VLESS | @config_proxy",
-        "🇨🇭 CH | VLESS | @minovpnch",
-        "🇨🇭 CH | VLESS | @proxyfn",
-        "🇨🇭 CH | VLESS | @prrofile_purple",
-        "🇨🇭 CH | VLESS | @v2raymelliii"
+        "🇨🇭 CH | VLESS | @proxyfn #1",
+        "🇨🇭 CH | VLESS | @prrofile_purple #1",
+        "🇨🇭 CH | VLESS | @v2ray_youtube #1",
+        "🇨🇭 CH | VLESS | @v2raymelliii #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -111,45 +107,7 @@
       "type": "direct"
     },
     {
-      "tag": "🇨🇭 CH | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "83.228.230.175",
-      "server_port": 8880,
-      "uuid": "52e7723a-b840-4498-9e44-b8dc89d67e1f",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇨🇭 CH | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "swit.zerosulution.com",
-      "server_port": 7567,
-      "uuid": "b2db346c-b24f-4ec4-876a-0c7fb490584c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇨🇭 CH | VLESS | @minovpnch",
-      "type": "vless",
-      "server": "185.18.250.67",
-      "server_port": 8080,
-      "uuid": "4d263c1a-fbb9-4946-a639-1de531120cde",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇨🇭 CH | VLESS | @proxyfn",
+      "tag": "🇨🇭 CH | VLESS | @proxyfn #1",
       "type": "vless",
       "server": "193.168.144.46",
       "server_port": 443,
@@ -166,7 +124,7 @@
       }
     },
     {
-      "tag": "🇨🇭 CH | VLESS | @prrofile_purple",
+      "tag": "🇨🇭 CH | VLESS | @prrofile_purple #1",
       "type": "vless",
       "server": "83.228.230.175",
       "server_port": 8880,
@@ -174,7 +132,15 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇨🇭 CH | VLESS | @v2raymelliii",
+      "tag": "🇨🇭 CH | VLESS | @v2ray_youtube #1",
+      "type": "vless",
+      "server": "swit.zerosulution.com",
+      "server_port": 7567,
+      "uuid": "b2db346c-b24f-4ec4-876a-0c7fb490584c",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @v2raymelliii #1",
       "type": "vless",
       "server": "api2.farzadyek.ir",
       "server_port": 8080,
