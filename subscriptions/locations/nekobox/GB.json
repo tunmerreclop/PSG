@@ -78,8 +78,6 @@
         "auto",
         "direct",
         "🇬🇧 GB | VMESS | @bored_vpn",
-        "🇬🇧 GB | VLESS | @configv2rayforfree",
-        "🇬🇧 GB | VLESS | @father_vpn",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | VLESS | @frev2rayng",
@@ -93,8 +91,9 @@
         "🇬🇧 GB | SS | @netfreedom0",
         "🇬🇧 GB | SS | @netfreedom0",
         "🇬🇧 GB | SS | @netfreedom0",
-        "🇬🇧 GB | VLESS | @orange_vpns",
         "🇬🇧 GB | VLESS | @satellitenewspersian",
+        "🇬🇧 GB | SS | @v2ray_free_conf",
+        "🇬🇧 GB | VLESS | @v2raych",
         "🇬🇧 GB | VLESS | @vmesc",
         "🇬🇧 GB | VLESS | @vmesc",
         "🇬🇧 GB | VLESS | @vmesc",
@@ -114,8 +113,6 @@
       "interval": "10m",
       "outbounds": [
         "🇬🇧 GB | VMESS | @bored_vpn",
-        "🇬🇧 GB | VLESS | @configv2rayforfree",
-        "🇬🇧 GB | VLESS | @father_vpn",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | SS | @free4allvpn",
         "🇬🇧 GB | VLESS | @frev2rayng",
@@ -129,8 +126,9 @@
         "🇬🇧 GB | SS | @netfreedom0",
         "🇬🇧 GB | SS | @netfreedom0",
         "🇬🇧 GB | SS | @netfreedom0",
-        "🇬🇧 GB | VLESS | @orange_vpns",
         "🇬🇧 GB | VLESS | @satellitenewspersian",
+        "🇬🇧 GB | SS | @v2ray_free_conf",
+        "🇬🇧 GB | VLESS | @v2raych",
         "🇬🇧 GB | VLESS | @vmesc",
         "🇬🇧 GB | VLESS | @vmesc",
         "🇬🇧 GB | VLESS | @vmesc",
@@ -180,22 +178,6 @@
           "Host": "gptai.asrenet.ru"
         }
       }
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @configv2rayforfree",
-      "type": "vless",
-      "server": "hajimamadvpnjoinsho.fast199.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "832a3784-7ae1-4ff2-ab13-5fb4bf8abd28",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @father_vpn",
-      "type": "vless",
-      "server": "25.26.27.158",
-      "server_port": 2095,
-      "uuid": "f39c206d-8acc-4304-95cc-afe234a2f6f8",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇬🇧 GB | SS | @free4allvpn",
@@ -320,14 +302,6 @@
       "password": null
     },
     {
-      "tag": "🇬🇧 GB | VLESS | @orange_vpns",
-      "type": "vless",
-      "server": "25.26.27.158",
-      "server_port": 2096,
-      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇬🇧 GB | VLESS | @satellitenewspersian",
       "type": "vless",
       "server": "23.81.33.188",
@@ -346,6 +320,31 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @v2ray_free_conf",
+      "type": "shadowsocks",
+      "server": "45.14.245.2",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxN1pET1JXSWxpUUh1TzZXUkdIQ2hYWU16ZFJ0QVlWUA==",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2raych",
+      "type": "vless",
+      "server": "217.163.76.245",
+      "server_port": 443,
+      "uuid": "48198295-b7ba-4b5c-8d85-085d55a6c869",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },

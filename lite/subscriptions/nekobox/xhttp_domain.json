@@ -81,12 +81,14 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇰🇿 KZ | VLESS | @Fr33C0nfig",
-        "🇩🇪 DE | VLESS | @config_proxy",
+        "🇽🇽 XX | VLESS | @dargiiriis",
         "🇽🇽 XX | VLESS | @drvpn_net",
         "🇩🇪 DE | VLESS | @eliteproxyv2",
         "🇬🇧 GB | VLESS | @komail315",
-        "🇺🇸 US | VLESS | @mtproxy22_v2ray",
-        "🇽🇽 XX | VLESS | @oonfig"
+        "🇽🇽 XX | VLESS | @oonfig",
+        "🇩🇪 DE | VLESS | @orange_vpns",
+        "🇽🇽 XX | VLESS | @outline_ir",
+        "🇳🇱 NL | VLESS | @vmesskhodam"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,12 +100,14 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇰🇿 KZ | VLESS | @Fr33C0nfig",
-        "🇩🇪 DE | VLESS | @config_proxy",
+        "🇽🇽 XX | VLESS | @dargiiriis",
         "🇽🇽 XX | VLESS | @drvpn_net",
         "🇩🇪 DE | VLESS | @eliteproxyv2",
         "🇬🇧 GB | VLESS | @komail315",
-        "🇺🇸 US | VLESS | @mtproxy22_v2ray",
-        "🇽🇽 XX | VLESS | @oonfig"
+        "🇽🇽 XX | VLESS | @oonfig",
+        "🇩🇪 DE | VLESS | @orange_vpns",
+        "🇽🇽 XX | VLESS | @outline_ir",
+        "🇳🇱 NL | VLESS | @vmesskhodam"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -208,11 +212,11 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @config_proxy",
+      "tag": "🇽🇽 XX | VLESS | @dargiiriis",
       "type": "vless",
-      "server": "statue.lnmarketplace.net",
+      "server": "chatgpt.com",
       "server_port": 443,
-      "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
+      "uuid": "6e8d6b76-c3ff-4cdc-aa9c-be6731789b76",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -258,14 +262,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @mtproxy22_v2ray",
-      "type": "vless",
-      "server": "speedtest.net",
-      "server_port": 80,
-      "uuid": "da72ff28-8ec0-43ec-a3c4-f37fe46853d1",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @oonfig",
       "type": "vless",
       "server": "chatgpt.com",
@@ -279,6 +275,53 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @orange_vpns",
+      "type": "vless",
+      "server": "deadseectelegram.blackandwhiteshop.ir",
+      "server_port": 80,
+      "uuid": "cbadfd29-8352-46e5-8baa-0010b43d1059",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @outline_ir",
+      "type": "vless",
+      "server": "chatgpt.com",
+      "server_port": 443,
+      "uuid": "924cd0c0-7fd0-4d0f-a23d-6b66808c23af",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @vmesskhodam",
+      "type": "vless",
+      "server": "club.cocomelon.org",
+      "server_port": 443,
+      "uuid": "15fc2169-d6f4-4d2c-9933-a2c7305c4c84",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

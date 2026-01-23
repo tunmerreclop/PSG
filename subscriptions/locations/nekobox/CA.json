@@ -77,8 +77,10 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇨🇦 CA | VMESS | @config_proxy",
         "🇨🇦 CA | VLESS | @jokerv2ray",
         "🇨🇦 CA | VLESS | @jokerv2ray",
+        "🇨🇦 CA | VLESS | @netmellianti",
         "🇨🇦 CA | VLESS | @serverv2ray00",
         "🇨🇦 CA | SS | @v2raytg",
         "🇨🇦 CA | VLESS | @vpnowl",
@@ -90,8 +92,10 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇨🇦 CA | VMESS | @config_proxy",
         "🇨🇦 CA | VLESS | @jokerv2ray",
         "🇨🇦 CA | VLESS | @jokerv2ray",
+        "🇨🇦 CA | VLESS | @netmellianti",
         "🇨🇦 CA | VLESS | @serverv2ray00",
         "🇨🇦 CA | SS | @v2raytg",
         "🇨🇦 CA | VLESS | @vpnowl",
@@ -109,6 +113,31 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇨🇦 CA | VMESS | @config_proxy",
+      "type": "vmess",
+      "server": "134.195.198.147",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws",
+        "headers": {
+          "Host": ""
+        }
+      }
     },
     {
       "tag": "🇨🇦 CA | VLESS | @jokerv2ray",
@@ -132,6 +161,14 @@
           "Host": ""
         }
       }
+    },
+    {
+      "tag": "🇨🇦 CA | VLESS | @netmellianti",
+      "type": "vless",
+      "server": "172.105.105.182",
+      "server_port": 2023,
+      "uuid": "97d0961f-7f44-40cf-a0c7-3d77722e3a51",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇨🇦 CA | VLESS | @serverv2ray00",

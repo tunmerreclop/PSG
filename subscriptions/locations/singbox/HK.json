@@ -90,9 +90,11 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰 HK | VLESS | @config_proxy",
+        "🇭🇰 HK | VMESS | @config_proxy",
+        "🇭🇰 HK | VMESS | @config_proxy",
         "🇭🇰 HK | VMESS | @freev2rays",
-        "🇭🇰 HK | SS | @netfreedom0"
+        "🇭🇰 HK | SS | @netfreedom0",
+        "🇭🇰 HK | TROJAN | @v2ray_youtube"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +102,11 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇰 HK | VLESS | @config_proxy",
+        "🇭🇰 HK | VMESS | @config_proxy",
+        "🇭🇰 HK | VMESS | @config_proxy",
         "🇭🇰 HK | VMESS | @freev2rays",
-        "🇭🇰 HK | SS | @netfreedom0"
+        "🇭🇰 HK | SS | @netfreedom0",
+        "🇭🇰 HK | TROJAN | @v2ray_youtube"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -114,19 +118,43 @@
       "type": "direct"
     },
     {
-      "tag": "🇭🇰 HK | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "n1761184282.74qxv.top",
+      "tag": "🇭🇰 HK | VMESS | @config_proxy",
+      "type": "vmess",
+      "server": "faafb8c9-t6r5s0-t7dy6t-jx5r.hkt.gotochinatown.net",
+      "server_port": 80,
+      "uuid": "73bfcc1c-5814-5f2a-b43a-3ef6af011db8",
+      "security": "auto",
+      "alter_id": 2,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "faafb8c9-t6r5s0-t7dy6t-jx5r.hkt.gotochinatown.net"
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 HK | VMESS | @config_proxy",
+      "type": "vmess",
+      "server": "n1761214919.mv7wh.tech",
       "server_port": 443,
-      "uuid": "824dc1b1-e35b-4121-ad73-9acaf13d6410",
-      "packet_encoding": "xudp",
+      "uuid": "c592f040-faff-47dc-a464-9bccf2dd4e7b",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "",
+        "server_name": "n1761214919.mv7wh.tech",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "n1761214919.mv7wh.tech"
         }
       }
     },
@@ -162,6 +190,22 @@
       "server_port": 38388,
       "method": "YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW",
       "password": null
+    },
+    {
+      "tag": "🇭🇰 HK | TROJAN | @v2ray_youtube",
+      "type": "trojan",
+      "server": "58.152.25.236",
+      "server_port": 443,
+      "password": "BxceQaOe",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

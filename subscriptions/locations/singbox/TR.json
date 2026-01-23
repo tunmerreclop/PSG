@@ -91,10 +91,11 @@
         "auto",
         "direct",
         "🇹🇷 TR | VLESS | @config_proxy",
-        "🇹🇷 TR | VLESS | @config_proxy",
-        "🇹🇷 TR | SS | @outline_ir",
         "🇹🇷 TR | VLESS | @prrofile_purple",
-        "🇹🇷 TR | TROJAN | @v2rayngconfig"
+        "🇹🇷 TR | VLESS | @prrofile_purple",
+        "🇹🇷 TR | VLESS | @v2raych",
+        "🇹🇷 TR | TROJAN | @v2rayngconfig",
+        "🇹🇷 TR | VLESS | @vpnplusee_free"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -103,10 +104,11 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VLESS | @config_proxy",
-        "🇹🇷 TR | VLESS | @config_proxy",
-        "🇹🇷 TR | SS | @outline_ir",
         "🇹🇷 TR | VLESS | @prrofile_purple",
-        "🇹🇷 TR | TROJAN | @v2rayngconfig"
+        "🇹🇷 TR | VLESS | @prrofile_purple",
+        "🇹🇷 TR | VLESS | @v2raych",
+        "🇹🇷 TR | TROJAN | @v2rayngconfig",
+        "🇹🇷 TR | VLESS | @vpnplusee_free"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -120,56 +122,17 @@
     {
       "tag": "🇹🇷 TR | VLESS | @config_proxy",
       "type": "vless",
-      "server": "46.31.76.120",
-      "server_port": 56879,
-      "uuid": "2f9ecfde-5600-4261-9939-107e8462c528",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "telewebion.com.visualfinearts.com.tr",
-      "server_port": 443,
-      "uuid": "9fbc1c4a-287a-4bfb-ae2d-5ec14b32605e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇹🇷 TR | SS | @outline_ir",
-      "type": "shadowsocks",
-      "server": "154.205.148.202",
-      "server_port": 11201,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3MTgwNzcxOGY1OTNkM2U2",
-      "password": null
+      "server": "v2shop-tr1.bing-net.com",
+      "server_port": 3040,
+      "uuid": "9b71a843-f9aa-486a-b9c5-b8b4bfbe2689",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇹🇷 TR | VLESS | @prrofile_purple",
       "type": "vless",
-      "server": "telewebion.com.visualfinearts.com.tr",
-      "server_port": 443,
-      "uuid": "9fbc1c4a-287a-4bfb-ae2d-5ec14b32605e",
+      "server": "107.161.174.155",
+      "server_port": 8443,
+      "uuid": "48845b16-2920-467d-ad47-cb897df93e76",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -185,6 +148,36 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @prrofile_purple",
+      "type": "vless",
+      "server": "87.249.139.231",
+      "server_port": 8443,
+      "uuid": "4267751e-4e4c-43cb-9f1e-b74a8b1315a8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2raych",
+      "type": "vless",
+      "server": "v2shop-tr1.bing-net.com",
+      "server_port": 3040,
+      "uuid": "9b71a843-f9aa-486a-b9c5-b8b4bfbe2689",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇹🇷 TR | TROJAN | @v2rayngconfig",
@@ -199,6 +192,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @vpnplusee_free",
+      "type": "vless",
+      "server": "156.146.52.113",
+      "server_port": 8443,
+      "uuid": "4267751e-4e4c-43cb-9f1e-b74a8b1315a8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

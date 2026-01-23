@@ -80,6 +80,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇨🇦 CA | VMESS | @config_proxy",
+        "🇸🇪 SE | VMESS | @config_proxy",
         "🇽🇽 XX | VMESS | @frev2rayng",
         "🇩🇪 DE | VMESS | @khoneproxy",
         "🇩🇪 DE | VMESS | @khoneproxy",
@@ -92,8 +94,8 @@
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxy48",
+        "🇳🇱 NL | VMESS | @prrofile_purple",
         "🇺🇸 US | VMESS | @v2ray_collector",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf",
         "🇫🇷 FR | VMESS | @v2raytg",
         "🇨🇦 CA | VMESS | @NamiraConfigs"
       ],
@@ -106,6 +108,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇨🇦 CA | VMESS | @config_proxy",
+        "🇸🇪 SE | VMESS | @config_proxy",
         "🇽🇽 XX | VMESS | @frev2rayng",
         "🇩🇪 DE | VMESS | @khoneproxy",
         "🇩🇪 DE | VMESS | @khoneproxy",
@@ -118,8 +122,8 @@
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxy48",
+        "🇳🇱 NL | VMESS | @prrofile_purple",
         "🇺🇸 US | VMESS | @v2ray_collector",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf",
         "🇫🇷 FR | VMESS | @v2raytg",
         "🇨🇦 CA | VMESS | @NamiraConfigs"
       ],
@@ -203,6 +207,56 @@
       "transport": {
         "type": "ws",
         "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇨🇦 CA | VMESS | @config_proxy",
+      "type": "vmess",
+      "server": "134.195.198.147",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇸🇪 SE | VMESS | @config_proxy",
+      "type": "vmess",
+      "server": "46.246.126.154",
+      "server_port": 443,
+      "uuid": "f2fd0786-1059-4f64-d54e-3f3a568c6c68",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
         "headers": {
           "Host": ""
         }
@@ -431,6 +485,22 @@
       }
     },
     {
+      "tag": "🇳🇱 NL | VMESS | @prrofile_purple",
+      "type": "vmess",
+      "server": "45.252.182.137",
+      "server_port": 21500,
+      "uuid": "f81274ed-878f-4a97-9372-e3099e8dea3c",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @v2ray_collector",
       "type": "vmess",
       "server": "209.126.84.189",
@@ -452,31 +522,6 @@
         "path": "/vmessws",
         "headers": {
           "Host": "209.126.84.189"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf",
-      "type": "vmess",
-      "server": "8.6.112.0",
-      "server_port": 2053,
-      "uuid": "8b23a6c9-0ca6-4134-83f2-39d42da0d648",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "aliyedast.gwkaqq.lol",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": ""
         }
       }
     },

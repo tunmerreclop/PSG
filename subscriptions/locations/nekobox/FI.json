@@ -77,11 +77,10 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇫🇮 FI | TROJAN | @config_proxy",
         "🇫🇮 FI | VLESS | @kafing_2",
         "🇫🇮 FI | VLESS | @orange_vpns",
-        "🇫🇮 FI | VLESS | @orange_vpns",
-        "🇫🇮 FI | VLESS | @v2ray_youtube",
-        "🇫🇮 FI | VLESS | @v2rayngalpha"
+        "🇫🇮 FI | VLESS | @orange_vpns"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -89,11 +88,10 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇫🇮 FI | TROJAN | @config_proxy",
         "🇫🇮 FI | VLESS | @kafing_2",
         "🇫🇮 FI | VLESS | @orange_vpns",
-        "🇫🇮 FI | VLESS | @orange_vpns",
-        "🇫🇮 FI | VLESS | @v2ray_youtube",
-        "🇫🇮 FI | VLESS | @v2rayngalpha"
+        "🇫🇮 FI | VLESS | @orange_vpns"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -107,6 +105,22 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇫🇮 FI | TROJAN | @config_proxy",
+      "type": "trojan",
+      "server": "fi2.nnvpn.io",
+      "server_port": 443,
+      "password": "Pe_dQrCQ4QbnntuVrqHN3dsKhCBpqvxr",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇫🇮 FI | VLESS | @kafing_2",
@@ -154,31 +168,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2ray_youtube",
-      "type": "vless",
-      "server": "finn.solonettochka.ru",
-      "server_port": 443,
-      "uuid": "e0145e20-db6d-4d75-b780-8842ff49483e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2rayngalpha",
-      "type": "vless",
-      "server": "tgju.org",
-      "server_port": 80,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

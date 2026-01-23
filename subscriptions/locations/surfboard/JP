@@ -10,12 +10,11 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇯🇵 JP | TROJAN | @free4allvpn = trojan, kuame.missionsec.us, 443, password = FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D, skip-cert-verify = true
-🇯🇵 JP | VMESS | @v2ray_free_conf = vmess, n1753598451.74qxv.top, 443, username = 9798678f-5b8c-4ff1-bbdd-b9b5c1539de0, ws = true, tls = true, ws-path = /, ws-headers = Host:"n1753598451.74qxv.top"
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇯🇵 JP | TROJAN | @free4allvpn, 🇯🇵 JP | VMESS | @v2ray_free_conf
-PSG-AUTO = url-test, 🇯🇵 JP | TROJAN | @free4allvpn, 🇯🇵 JP | VMESS | @v2ray_free_conf
-PSG-FALLBACK = fallback, 🇯🇵 JP | TROJAN | @free4allvpn, 🇯🇵 JP | VMESS | @v2ray_free_conf
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇯🇵 JP | TROJAN | @free4allvpn
+PSG-AUTO = url-test, 🇯🇵 JP | TROJAN | @free4allvpn
+PSG-FALLBACK = fallback, 🇯🇵 JP | TROJAN | @free4allvpn
 
 [Rule]
 GEOIP,IR,DIRECT

@@ -91,6 +91,7 @@
         "auto",
         "direct",
         "🇪🇸 ES | VLESS | @netmellianti",
+        "🇪🇸 ES | VLESS | @netmellianti",
         "🇪🇸 ES | VLESS | @v2raytg"
       ],
       "tag": "proxy",
@@ -99,6 +100,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇪🇸 ES | VLESS | @netmellianti",
         "🇪🇸 ES | VLESS | @netmellianti",
         "🇪🇸 ES | VLESS | @v2raytg"
       ],
@@ -117,6 +119,28 @@
       "server": "172.233.116.229",
       "server_port": 223,
       "uuid": "97d0961f-7f44-40cf-a0c7-3d77722e3a51",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇪🇸 ES | VLESS | @netmellianti",
+      "type": "vless",
+      "server": "84.17.62.67",
+      "server_port": 8443,
+      "uuid": "146e8a2b-283d-4f06-86ec-0608e2478265",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

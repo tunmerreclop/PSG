@@ -77,10 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @config_proxy",
-        "🇵🇱 PL | VLESS | @config_proxy",
-        "🇵🇱 PL | VLESS | @config_proxy",
-        "🇵🇱 PL | SS | @outlinereleasedkey"
+        "🇵🇱 PL | VLESS | @netmellianti",
+        "🇵🇱 PL | SS | @outlinereleasedkey",
+        "🇵🇱 PL | VLESS | @vpnplusee_free"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,10 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @config_proxy",
-        "🇵🇱 PL | VLESS | @config_proxy",
-        "🇵🇱 PL | VLESS | @config_proxy",
-        "🇵🇱 PL | SS | @outlinereleasedkey"
+        "🇵🇱 PL | VLESS | @netmellianti",
+        "🇵🇱 PL | SS | @outlinereleasedkey",
+        "🇵🇱 PL | VLESS | @vpnplusee_free"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -107,55 +105,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @config_proxy",
+      "tag": "🇵🇱 PL | VLESS | @netmellianti",
       "type": "vless",
       "server": "zen-core.megaconfig.com",
       "server_port": 1198,
       "uuid": "9f51682b-487d-4912-9418-c659cbe8f4ed",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "zen-core.megaconfig.com",
-      "server_port": 1198,
-      "uuid": "9f51682b-487d-4912-9418-c659cbe8f4ed",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "meta-hub.megaconfig.com",
-      "server_port": 1198,
-      "uuid": "1c7ea794-1efc-4f4a-a56a-f3904d94cab9",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -179,6 +133,28 @@
       "server_port": 9011,
       "method": "YWVzLTI1Ni1jZmI6TTN0MlpFUWNNR1JXQmpSYQ==",
       "password": null
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @vpnplusee_free",
+      "type": "vless",
+      "server": "45.144.51.22",
+      "server_port": 443,
+      "uuid": "6c49485f-843c-4e96-abfe-046bc473c7b0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

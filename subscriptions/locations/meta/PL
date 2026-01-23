@@ -23,9 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇵🇱 PL | VLESS | @config_proxy", "server": "zen-core.megaconfig.com", "port": 1198, "type": "vless", "skip-cert-verify": true, "uuid": "9f51682b-487d-4912-9418-c659cbe8f4ed", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇵🇱 PL | VLESS | @config_proxy", "server": "zen-core.megaconfig.com", "port": 1198, "type": "vless", "skip-cert-verify": true, "uuid": "9f51682b-487d-4912-9418-c659cbe8f4ed", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇵🇱 PL | VLESS | @config_proxy", "server": "meta-hub.megaconfig.com", "port": 1198, "type": "vless", "skip-cert-verify": true, "uuid": "1c7ea794-1efc-4f4a-a56a-f3904d94cab9", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇵🇱 PL | VLESS | @netmellianti", "server": "zen-core.megaconfig.com", "port": 1198, "type": "vless", "skip-cert-verify": true, "uuid": "9f51682b-487d-4912-9418-c659cbe8f4ed", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇵🇱 PL | VLESS | @vpnplusee_free", "server": "45.144.51.22", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "6c49485f-843c-4e96-abfe-046bc473c7b0", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇵🇱 PL | VLESS | @config_proxy'
-      - '🇵🇱 PL | VLESS | @config_proxy'
-      - '🇵🇱 PL | VLESS | @config_proxy'
+      - '🇵🇱 PL | VLESS | @netmellianti'
+      - '🇵🇱 PL | VLESS | @vpnplusee_free'
 
   - name: 🌍 Global Media
     type: select

@@ -86,10 +86,10 @@
         "🇱🇹 LT | SS | @NamiraConfigs",
         "🇱🇹 LT | SS | @NamiraConfigs",
         "🇱🇹 LT | SS | @NamiraConfigs",
-        "🇱🇹 LT | SS | @config_proxy",
         "🇱🇹 LT | SS | @manstervpn",
         "🇱🇹 LT | SS | @manstervpn",
         "🇱🇹 LT | SS | @mester_v2ray",
+        "🇱🇹 LT | VLESS | @netmellianti",
         "🇱🇹 LT | SS | @outlinereleasedkey",
         "🇱🇹 LT | VLESS | @v2ray_collector",
         "🇱🇹 LT | SS | @vmessiranproxy",
@@ -112,10 +112,10 @@
         "🇱🇹 LT | SS | @NamiraConfigs",
         "🇱🇹 LT | SS | @NamiraConfigs",
         "🇱🇹 LT | SS | @NamiraConfigs",
-        "🇱🇹 LT | SS | @config_proxy",
         "🇱🇹 LT | SS | @manstervpn",
         "🇱🇹 LT | SS | @manstervpn",
         "🇱🇹 LT | SS | @mester_v2ray",
+        "🇱🇹 LT | VLESS | @netmellianti",
         "🇱🇹 LT | SS | @outlinereleasedkey",
         "🇱🇹 LT | VLESS | @v2ray_collector",
         "🇱🇹 LT | SS | @vmessiranproxy",
@@ -209,14 +209,6 @@
       "password": null
     },
     {
-      "tag": "🇱🇹 LT | SS | @config_proxy",
-      "type": "shadowsocks",
-      "server": "ltnl16.saint.ydns.eu",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
-      "password": null
-    },
-    {
       "tag": "🇱🇹 LT | SS | @manstervpn",
       "type": "shadowsocks",
       "server": "45.87.175.188",
@@ -239,6 +231,28 @@
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh",
       "password": null
+    },
+    {
+      "tag": "🇱🇹 LT | VLESS | @netmellianti",
+      "type": "vless",
+      "server": "93.115.25.42",
+      "server_port": 8443,
+      "uuid": "ca5ab635-fbaa-4ff2-8283-3954b92ae477",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇱🇹 LT | SS | @outlinereleasedkey",

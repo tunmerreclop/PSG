@@ -92,12 +92,12 @@
         "direct",
         "🇦🇪 AE | VLESS | @config_proxy",
         "🇦🇪 AE | VLESS | @config_proxy",
-        "🇦🇪 AE | VLESS | @config_proxy",
         "🇦🇪 AE | VLESS | @iran_access",
+        "🇦🇪 AE | VLESS | @kafing_2",
         "🇦🇪 AE | SS | @netfreedom0",
         "🇦🇪 AE | SS | @outlinereleasedkey",
         "🇦🇪 AE | VLESS | @prrofile_purple",
-        "🇦🇪 AE | VLESS | @vpnplusee_free"
+        "🇦🇪 AE | VLESS | @v2raych"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -107,12 +107,12 @@
       "outbounds": [
         "🇦🇪 AE | VLESS | @config_proxy",
         "🇦🇪 AE | VLESS | @config_proxy",
-        "🇦🇪 AE | VLESS | @config_proxy",
         "🇦🇪 AE | VLESS | @iran_access",
+        "🇦🇪 AE | VLESS | @kafing_2",
         "🇦🇪 AE | SS | @netfreedom0",
         "🇦🇪 AE | SS | @outlinereleasedkey",
         "🇦🇪 AE | VLESS | @prrofile_purple",
-        "🇦🇪 AE | VLESS | @vpnplusee_free"
+        "🇦🇪 AE | VLESS | @v2raych"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -126,54 +126,32 @@
     {
       "tag": "🇦🇪 AE | VLESS | @config_proxy",
       "type": "vless",
-      "server": "uae.torprospeed.ir",
-      "server_port": 587,
-      "uuid": "65a1e22c-d37e-4b92-b6ca-1d09dcd1d441",
+      "server": "dubai.torprospeed.ir",
+      "server_port": 223,
+      "uuid": "27528d1a-9ef9-42df-86f3-00b4e1b09169",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "v2shop-dubai1.bing-net.com",
+      "server_port": 3038,
+      "uuid": "9b71a843-f9aa-486a-b9c5-b8b4bfbe2689",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "uae.torprospeed.ir",
-      "server_port": 587,
-      "uuid": "65a1e22c-d37e-4b92-b6ca-1d09dcd1d441",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "uae.torprospeed.ir",
-      "server_port": 587,
-      "uuid": "65a1e22c-d37e-4b92-b6ca-1d09dcd1d441",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇦🇪 AE | VLESS | @iran_access",
@@ -198,6 +176,14 @@
       }
     },
     {
+      "tag": "🇦🇪 AE | VLESS | @kafing_2",
+      "type": "vless",
+      "server": "ae.aparat-movies-download.ir",
+      "server_port": 42539,
+      "uuid": "5a76fdef-97a2-43cd-93b9-e9646a7d6a6c",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇦🇪 AE | SS | @netfreedom0",
       "type": "shadowsocks",
       "server": "151.242.251.142",
@@ -216,32 +202,18 @@
     {
       "tag": "🇦🇪 AE | VLESS | @prrofile_purple",
       "type": "vless",
-      "server": "ae.aparat-movies-download.ir",
-      "server_port": 42539,
-      "uuid": "5a76fdef-97a2-43cd-93b9-e9646a7d6a6c",
+      "server": "dubai.torprospeed.ir",
+      "server_port": 2023,
+      "uuid": "27528d1a-9ef9-42df-86f3-00b4e1b09169",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇦🇪 AE | VLESS | @vpnplusee_free",
+      "tag": "🇦🇪 AE | VLESS | @v2raych",
       "type": "vless",
-      "server": "86.106.26.239",
-      "server_port": 443,
-      "uuid": "0d93b787-b66b-4696-a036-a0f549764f69",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "server": "v2shop-dubai1.bing-net.com",
+      "server_port": 3038,
+      "uuid": "9b71a843-f9aa-486a-b9c5-b8b4bfbe2689",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
