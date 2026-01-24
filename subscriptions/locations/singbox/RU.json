@@ -91,10 +91,9 @@
         "auto",
         "direct",
         "🇷🇺 RU | VLESS | @evay_vpn #1",
-        "🇷🇺 RU | VLESS | @nofilter_v2rayng #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇷🇺 RU | VLESS | @vmesc #1",
-        "🇷🇺 RU | VLESS | @vmesskhodam #1"
+        "🇷🇺 RU | VLESS | @v2raych #1",
+        "🇷🇺 RU | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -103,10 +102,9 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇺 RU | VLESS | @evay_vpn #1",
-        "🇷🇺 RU | VLESS | @nofilter_v2rayng #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇷🇺 RU | VLESS | @vmesc #1",
-        "🇷🇺 RU | VLESS | @vmesskhodam #1"
+        "🇷🇺 RU | VLESS | @v2raych #1",
+        "🇷🇺 RU | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -124,28 +122,6 @@
       "server_port": 444,
       "uuid": "c495cf08-e046-4311-aa4b-82cc16576992",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @nofilter_v2rayng #1",
-      "type": "vless",
-      "server": "185.130.114.253",
-      "server_port": 443,
-      "uuid": "309fa273-6579-4cb2-9143-7cad50401eba",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇷🇺 RU | VMESS | @prooxyk #1",
@@ -173,11 +149,11 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @vmesc #1",
+      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "109.248.222.151",
+      "server": "dawn.wenllies.com",
       "server_port": 443,
-      "uuid": "a91e64f0-9295-499d-bf4a-661ad99d4938",
+      "uuid": "65cd15ed-7a25-41ce-8bdd-bb5db2c38f65",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -186,20 +162,15 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @vmesskhodam #1",
+      "tag": "🇷🇺 RU | VLESS | @vmesc #1",
       "type": "vless",
-      "server": "109.120.188.30",
-      "server_port": 1488,
-      "uuid": "d6b1327d-2bec-4366-a3a1-9b1284f95841",
+      "server": "109.248.222.151",
+      "server_port": 443,
+      "uuid": "a91e64f0-9295-499d-bf4a-661ad99d4938",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

@@ -78,7 +78,7 @@
         "auto",
         "direct",
         "🇫🇷 FR | VLESS | @ai_duet #1",
-        "🇫🇷 FR | VLESS | @filtershekan_channel #1",
+        "🇫🇷 FR | VLESS | @flyv2ray #1",
         "🇫🇷 FR | VLESS | @kafing_2 #1",
         "🇫🇷 FR | SS | @key_outline #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
@@ -101,7 +101,7 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇷 FR | VLESS | @ai_duet #1",
-        "🇫🇷 FR | VLESS | @filtershekan_channel #1",
+        "🇫🇷 FR | VLESS | @flyv2ray #1",
         "🇫🇷 FR | VLESS | @kafing_2 #1",
         "🇫🇷 FR | SS | @key_outline #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
@@ -139,12 +139,26 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @filtershekan_channel #1",
+      "tag": "🇫🇷 FR | VLESS | @flyv2ray #1",
       "type": "vless",
-      "server": "iran.dibadns.ir",
-      "server_port": 2053,
-      "uuid": "0b50cdfb-c96f-44d2-a5c0-f74ab71cc335",
-      "packet_encoding": "xudp"
+      "server": "196.196.35.27",
+      "server_port": 443,
+      "uuid": "7005f499-036f-4570-a2a1-29761cfbbd9e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇫🇷 FR | VLESS | @kafing_2 #1",
