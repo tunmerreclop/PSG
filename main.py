@@ -39,7 +39,7 @@ URLS = {
 
 CONSTANTS = {
     'LITE_LIMIT': 2,
-    'NORMAL_LIMIT': 4,
+    'NORMAL_LIMIT': 6,
     'TIMEOUT': 15,
     'DNS_WORKERS': 100,
     'TCP_WORKERS': 500,
@@ -834,3 +834,4 @@ if __name__ == "__main__":
         asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
     asyncio.run(main())
+
