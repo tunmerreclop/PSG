@@ -92,12 +92,12 @@
         "direct",
         "🇳🇱 NL | VLESS | @Fr33C0nfig #1",
         "🇳🇱 NL | VLESS | @Fr33C0nfig #2",
+        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1",
         "🇳🇱 NL | VLESS | @flyv2ray #1",
         "🇳🇱 NL | SS | @netfreedom0 #1",
         "🇳🇱 NL | VLESS | @oonfig #1",
-        "🇳🇱 NL | VLESS | @outline_ir #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #2",
         "🇳🇱 NL | SS | @outlinereleasedkey #3",
@@ -120,12 +120,12 @@
       "outbounds": [
         "🇳🇱 NL | VLESS | @Fr33C0nfig #1",
         "🇳🇱 NL | VLESS | @Fr33C0nfig #2",
+        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1",
         "🇳🇱 NL | VLESS | @flyv2ray #1",
         "🇳🇱 NL | SS | @netfreedom0 #1",
         "🇳🇱 NL | VLESS | @oonfig #1",
-        "🇳🇱 NL | VLESS | @outline_ir #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #2",
         "🇳🇱 NL | SS | @outlinereleasedkey #3",
@@ -177,6 +177,28 @@
       "server": "nl.reata.ir",
       "server_port": 2050,
       "uuid": "8d5b2746-aeda-4f7c-9f6b-062bb6517d48",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "51.158.206.29",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -283,14 +305,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @outline_ir #1",
-      "type": "vless",
-      "server": "100niggavs100.mrpixanos.ir",
-      "server_port": 4070,
-      "uuid": "4a9b3f56-a868-4c04-b877-59510560b676",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇳🇱 NL | SS | @outlinereleasedkey #1",

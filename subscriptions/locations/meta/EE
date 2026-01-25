@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇲🇾 MY | TROJAN | @flyv2ray #1", "server": "xiaozhu1.kkieo555.cn", "port": 41275, "type": "trojan", "skip-cert-verify": false, "password": "0b78da11-9e69-4bd6-a95f-27ca81c43d0d"}
+  - {"name": "🇪🇪 EE | VLESS | @v2raych #1", "server": "37.252.4.176", "port": 35979, "type": "vless", "skip-cert-verify": true, "uuid": "8ad4523c-032e-4ec3-94ea-182638c8e688", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇲🇾 MY | TROJAN | @flyv2ray #1'
+      - '🇪🇪 EE | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select

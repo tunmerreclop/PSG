@@ -77,9 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇪🇸 ES | VLESS | @Fr33C0nfig #1",
         "🇪🇸 ES | VLESS | @filtershekan_channel #1",
         "🇪🇸 ES | VLESS | @grizzlyvpn #1",
-        "🇪🇸 ES | VLESS | @v2raytg #1",
         "🇪🇸 ES | VLESS | @v2rayvpn2 #1"
       ],
       "tag": "proxy",
@@ -88,9 +88,9 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇪🇸 ES | VLESS | @Fr33C0nfig #1",
         "🇪🇸 ES | VLESS | @filtershekan_channel #1",
         "🇪🇸 ES | VLESS | @grizzlyvpn #1",
-        "🇪🇸 ES | VLESS | @v2raytg #1",
         "🇪🇸 ES | VLESS | @v2rayvpn2 #1"
       ],
       "tag": "auto",
@@ -105,6 +105,28 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇪🇸 ES | VLESS | @Fr33C0nfig #1",
+      "type": "vless",
+      "server": "es.marzxo.biz",
+      "server_port": 8086,
+      "uuid": "887c4487-5a14-426c-9c1b-f0b857d6ae06",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇪🇸 ES | VLESS | @filtershekan_channel #1",
@@ -134,14 +156,6 @@
       "server": "5.22.219.57",
       "server_port": 30704,
       "uuid": "8658dc4f-2b4e-46d7-831d-17a3def93c00",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇪🇸 ES | VLESS | @v2raytg #1",
-      "type": "vless",
-      "server": "p1anel.lormarb.ir",
-      "server_port": 53762,
-      "uuid": "aaeddbf5-a9df-4931-b231-08909eed7501",
       "packet_encoding": "xudp"
     },
     {

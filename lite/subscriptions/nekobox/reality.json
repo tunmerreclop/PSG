@@ -94,10 +94,12 @@
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇷🇺 RU | VLESS | @vmesc #1",
+        "🇮🇹 IT | VLESS | @vpnplusee_free #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
+        "🇪🇸 ES | VLESS | @filtershekan_channel #1",
+        "🇷🇺 RU | VLESS | @flyv2ray #1",
         "🇷🇺 RU | VLESS | @outline_ir #1",
-        "🇹🇷 TR | VLESS | @v2raymelliii #1",
         "🇳🇱 NL | VLESS | @vip_vpn_2022 #1",
         "🇮🇹 IT | VLESS | @vip_vpn_2022 #1",
         "🇷🇺 RU | VLESS | @vmesskhodam #1"
@@ -125,10 +127,12 @@
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇷🇺 RU | VLESS | @vmesc #1",
+        "🇮🇹 IT | VLESS | @vpnplusee_free #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
+        "🇪🇸 ES | VLESS | @filtershekan_channel #1",
+        "🇷🇺 RU | VLESS | @flyv2ray #1",
         "🇷🇺 RU | VLESS | @outline_ir #1",
-        "🇹🇷 TR | VLESS | @v2raymelliii #1",
         "🇳🇱 NL | VLESS | @vip_vpn_2022 #1",
         "🇮🇹 IT | VLESS | @vip_vpn_2022 #1",
         "🇷🇺 RU | VLESS | @vmesskhodam #1"
@@ -479,6 +483,24 @@
       }
     },
     {
+      "tag": "🇮🇹 IT | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "83.136.107.171",
+      "server_port": 443,
+      "uuid": "1cc1fa50-ad16-4e22-81a0-e416f7a35f60",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @configasli #1",
       "type": "vless",
       "server": "s1.aparat-movies-download.ir",
@@ -510,11 +532,11 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @outline_ir #1",
+      "tag": "🇪🇸 ES | VLESS | @filtershekan_channel #1",
       "type": "vless",
-      "server": "spb.jojack.ru",
-      "server_port": 443,
-      "uuid": "e8cba8f5-b824-4f56-8d91-9164fac200ce",
+      "server": "tunnyl.ru",
+      "server_port": 8443,
+      "uuid": "e5b2a149-94d5-46fb-ab3e-88e4e83ddc87",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -532,11 +554,33 @@
       }
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @v2raymelliii #1",
+      "tag": "🇷🇺 RU | VLESS | @flyv2ray #1",
       "type": "vless",
-      "server": "armania.mrvpvn.com",
-      "server_port": 9002,
-      "uuid": "18228710-dfd0-4bca-8425-4abff39843a4",
+      "server": "ss.02020.sbs",
+      "server_port": 8443,
+      "uuid": "c19fb567-74a9-454f-9757-e612fc4be371",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "spb.jojack.ru",
+      "server_port": 443,
+      "uuid": "e8cba8f5-b824-4f56-8d91-9164fac200ce",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

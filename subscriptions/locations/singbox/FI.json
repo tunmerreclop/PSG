@@ -91,7 +91,7 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @configv2rayforfree #1",
-        "🇫🇮 FI | VLESS | @flyv2ray #1",
+        "🇫🇮 FI | VLESS | @kafing_2 #1",
         "🇫🇮 FI | VLESS | @orange_vpns #1",
         "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
@@ -102,7 +102,7 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @configv2rayforfree #1",
-        "🇫🇮 FI | VLESS | @flyv2ray #1",
+        "🇫🇮 FI | VLESS | @kafing_2 #1",
         "🇫🇮 FI | VLESS | @orange_vpns #1",
         "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
@@ -133,12 +133,26 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @flyv2ray #1",
+      "tag": "🇫🇮 FI | VLESS | @kafing_2 #1",
       "type": "vless",
-      "server": "64.188.73.65",
-      "server_port": 20150,
-      "uuid": "98d80dd4-86bc-419c-8b3d-4d5f2423f4b1",
-      "packet_encoding": "xudp"
+      "server": "new.pvnoco.ir",
+      "server_port": 558,
+      "uuid": "4f6efecc-5747-41a0-8fc3-c41271ee8c50",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇫🇮 FI | VLESS | @orange_vpns #1",

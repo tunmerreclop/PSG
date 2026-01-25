@@ -77,8 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇬🇧 GB | VLESS | @config_proxy #1",
-        "🇬🇧 GB | VLESS | @config_proxy #2",
         "🇬🇧 GB | VLESS | @kafing_2 #1",
         "🇬🇧 GB | VLESS | @kafing_2 #2",
         "🇬🇧 GB | VLESS | @komail315 #1",
@@ -98,8 +96,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇬🇧 GB | VLESS | @config_proxy #1",
-        "🇬🇧 GB | VLESS | @config_proxy #2",
         "🇬🇧 GB | VLESS | @kafing_2 #1",
         "🇬🇧 GB | VLESS | @kafing_2 #2",
         "🇬🇧 GB | VLESS | @komail315 #1",
@@ -127,22 +123,6 @@
       "type": "direct"
     },
     {
-      "tag": "🇬🇧 GB | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "mza2.lizardshop.org",
-      "server_port": 4545,
-      "uuid": "a1c459eb-888c-46f1-815f-a88330167418",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "uk.aparat-movies-download.ir",
-      "server_port": 42536,
-      "uuid": "a521dba4-8894-4caa-bdf6-15b013489fbd",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇬🇧 GB | VLESS | @kafing_2 #1",
       "type": "vless",
       "server": "25.26.27.158",
@@ -156,16 +136,7 @@
       "server": "25.26.27.158",
       "server_port": 2096,
       "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇬🇧 GB | VLESS | @komail315 #1",

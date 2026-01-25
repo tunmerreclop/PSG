@@ -23,8 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇭🇰 HK | VLESS | @flyv2ray #1", "server": "47.57.190.228", "port": 8388, "type": "vless", "skip-cert-verify": true, "uuid": "e258977b-e413-4718-a3af-02d75492c349", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇭🇰 HK | VMESS | @freev2rays #1", "server": "hk2.lrzdx.uk", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "db69d5bc-d36c-4903-f471-74b98c5cefe5", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/register", "headers": {"Host": "hk2.lrzdx.uk"}}}
   - {"name": "🇭🇰 HK | VLESS | @prrofile_purple #1", "server": "47.57.190.228", "port": 8388, "type": "vless", "skip-cert-verify": true, "uuid": "e258977b-e413-4718-a3af-02d75492c349", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇭🇰 HK | VLESS | @v2raying #1", "server": "47.57.190.228", "port": 8388, "type": "vless", "skip-cert-verify": true, "uuid": "e258977b-e413-4718-a3af-02d75492c349", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +40,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇭🇰 HK | VLESS | @flyv2ray #1'
       - '🇭🇰 HK | VMESS | @freev2rays #1'
       - '🇭🇰 HK | VLESS | @prrofile_purple #1'
+      - '🇭🇰 HK | VLESS | @v2raying #1'
 
   - name: 🌍 Global Media
     type: select

@@ -23,11 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇹🇷 TR | VLESS | @config_proxy #1", "server": "france.specialmajor2.com", "port": 5489, "type": "vless", "skip-cert-verify": true, "uuid": "2c118006-a825-416a-9622-740769ca1a11", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇹🇷 TR | VLESS | @server_nekobox #1", "server": "trfastgateway.amirconfigpaanelllll.com", "port": 2126, "type": "vless", "skip-cert-verify": true, "uuid": "ffabe614-3bc8-4676-b8d3-c015ba274cc2", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇹🇷 TR | VLESS | @v2raymelliii #1", "server": "armania.mrvpvn.com", "port": 9002, "type": "vless", "skip-cert-verify": true, "uuid": "18228710-dfd0-4bca-8425-4abff39843a4", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇹🇷 TR | TROJAN | @v2rayngconfig #1", "server": "194.146.26.40", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "2ea5fc44-bd38-4fb0-a9b9-88c83fc56622"}
-  - {"name": "🇹🇷 TR | VLESS | @vpnplusee_free #1", "server": "185.226.92.188", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "04d03542-5d95-49de-a2f5-0f65a6b79e46", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -41,11 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇹🇷 TR | VLESS | @config_proxy #1'
       - '🇹🇷 TR | VLESS | @server_nekobox #1'
-      - '🇹🇷 TR | VLESS | @v2raymelliii #1'
       - '🇹🇷 TR | TROJAN | @v2rayngconfig #1'
-      - '🇹🇷 TR | VLESS | @vpnplusee_free #1'
 
   - name: 🌍 Global Media
     type: select
