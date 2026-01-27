@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇮 SI | VLESS | @filterk0sh #1"
+        "🇸🇮 SI | VLESS | @filterk0sh #1",
+        "🇸🇮 SI | VLESS | @grizzlyvpn #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇮 SI | VLESS | @filterk0sh #1"
+        "🇸🇮 SI | VLESS | @filterk0sh #1",
+        "🇸🇮 SI | VLESS | @grizzlyvpn #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -130,6 +132,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇸🇮 SI | VLESS | @grizzlyvpn #1",
+      "type": "vless",
+      "server": "cdn.az9x99.ir",
+      "server_port": 2096,
+      "uuid": "3a8994ae-5803-4e55-82af-7ba4468b8254",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

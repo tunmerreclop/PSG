@@ -78,8 +78,11 @@
         "auto",
         "direct",
         "🇰🇿 KZ | VLESS | @easy_free_vpn #1",
-        "🇰🇿 KZ | VLESS | @ehsawn8 #1",
-        "🇰🇿 KZ | VLESS | @filterk0sh #1"
+        "🇰🇿 KZ | VLESS | @filterk0sh #1",
+        "🇰🇿 KZ | VLESS | @filtershekan_channel #1",
+        "🇰🇿 KZ | VLESS | @v2rayngconfig #1",
+        "🇰🇿 KZ | VLESS | @v2rayngconfig #2",
+        "🇰🇿 KZ | VLESS | @v2rayngconfig #3"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,8 +91,11 @@
       "interval": "10m",
       "outbounds": [
         "🇰🇿 KZ | VLESS | @easy_free_vpn #1",
-        "🇰🇿 KZ | VLESS | @ehsawn8 #1",
-        "🇰🇿 KZ | VLESS | @filterk0sh #1"
+        "🇰🇿 KZ | VLESS | @filterk0sh #1",
+        "🇰🇿 KZ | VLESS | @filtershekan_channel #1",
+        "🇰🇿 KZ | VLESS | @v2rayngconfig #1",
+        "🇰🇿 KZ | VLESS | @v2rayngconfig #2",
+        "🇰🇿 KZ | VLESS | @v2rayngconfig #3"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -106,14 +112,6 @@
     },
     {
       "tag": "🇰🇿 KZ | VLESS | @easy_free_vpn #1",
-      "type": "vless",
-      "server": "clfconnect.pishipishi.pro",
-      "server_port": 8880,
-      "uuid": "vpn_connects",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇰🇿 KZ | VLESS | @ehsawn8 #1",
       "type": "vless",
       "server": "clfconnect.pishipishi.pro",
       "server_port": 8880,
@@ -141,6 +139,38 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇰🇿 KZ | VLESS | @filtershekan_channel #1",
+      "type": "vless",
+      "server": "dns1.turboo-server.space",
+      "server_port": 8880,
+      "uuid": "turboo-server",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇰🇿 KZ | VLESS | @v2rayngconfig #1",
+      "type": "vless",
+      "server": "speed.de2.ns.tailung.space",
+      "server_port": 2096,
+      "uuid": "62438703-bfad-4f04-a597-428127632c72",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇰🇿 KZ | VLESS | @v2rayngconfig #2",
+      "type": "vless",
+      "server": "speed.de2.ns.tailung.space",
+      "server_port": 2087,
+      "uuid": "62438703-bfad-4f04-a597-428127632c72",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇰🇿 KZ | VLESS | @v2rayngconfig #3",
+      "type": "vless",
+      "server": "speed.de2.orange.ns.tailung.space",
+      "server_port": 2087,
+      "uuid": "62438703-bfad-4f04-a597-428127632c72",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

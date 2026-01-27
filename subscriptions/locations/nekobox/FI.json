@@ -78,6 +78,7 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
+        "🇫🇮 FI | VLESS | @v2ray_youtube #1",
         "🇫🇮 FI | SS | @v2raymelliii #1"
       ],
       "tag": "proxy",
@@ -87,6 +88,7 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
+        "🇫🇮 FI | VLESS | @v2ray_youtube #1",
         "🇫🇮 FI | SS | @v2raymelliii #1"
       ],
       "tag": "auto",
@@ -123,6 +125,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2ray_youtube #1",
+      "type": "vless",
+      "server": "alman.hitraveling.sbs",
+      "server_port": 58777,
+      "uuid": "6debd58d-2360-4c63-9278-e8b26d0f6d41",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇮 FI | SS | @v2raymelliii #1",

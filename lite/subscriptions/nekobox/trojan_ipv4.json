@@ -80,7 +80,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇽🇽 XX | TROJAN | @prrofile_purple #1"
+        "🇫🇷 FR | TROJAN | @privatevpns #1",
+        "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -91,7 +92,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇽🇽 XX | TROJAN | @prrofile_purple #1"
+        "🇫🇷 FR | TROJAN | @privatevpns #1",
+        "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -179,11 +181,27 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | TROJAN | @prrofile_purple #1",
+      "tag": "🇫🇷 FR | TROJAN | @privatevpns #1",
       "type": "trojan",
-      "server": "104.17.74.206",
-      "server_port": 443,
-      "password": "b0a58cd7-1ab8-4cb3-b98f-bcad7783036f",
+      "server": "13.38.222.199",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1",
+      "type": "trojan",
+      "server": "13.38.222.199",
+      "server_port": 22223,
+      "password": "telegram-id-v2rayvpnchannel",
       "tls": {
         "enabled": true,
         "server_name": "",

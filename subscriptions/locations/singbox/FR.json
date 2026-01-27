@@ -91,16 +91,19 @@
         "auto",
         "direct",
         "🇫🇷 FR | VLESS | @ai_duet #1",
+        "🇫🇷 FR | VLESS | @freeconfigsplus #1",
         "🇫🇷 FR | VLESS | @grizzlyvpn #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | VLESS | @mtproxy22_v2ray #1",
+        "🇫🇷 FR | TROJAN | @privatevpns #1",
         "🇫🇷 FR | TROJAN | @proxyfn #1",
         "🇫🇷 FR | VLESS | @qeshmserver #1",
-        "🇫🇷 FR | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | SS | @v2rayng3 #1",
-        "🇫🇷 FR | VMESS | @v2raytg #1"
+        "🇫🇷 FR | VMESS | @v2raytg #1",
+        "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1",
+        "🇫🇷 FR | VLESS | @vlessconfig #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -109,16 +112,19 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇷 FR | VLESS | @ai_duet #1",
+        "🇫🇷 FR | VLESS | @freeconfigsplus #1",
         "🇫🇷 FR | VLESS | @grizzlyvpn #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | VLESS | @mtproxy22_v2ray #1",
+        "🇫🇷 FR | TROJAN | @privatevpns #1",
         "🇫🇷 FR | TROJAN | @proxyfn #1",
         "🇫🇷 FR | VLESS | @qeshmserver #1",
-        "🇫🇷 FR | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | SS | @v2rayng3 #1",
-        "🇫🇷 FR | VMESS | @v2raytg #1"
+        "🇫🇷 FR | VMESS | @v2raytg #1",
+        "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1",
+        "🇫🇷 FR | VLESS | @vlessconfig #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -135,6 +141,14 @@
       "server": "sktr.berkeart.ir",
       "server_port": 19702,
       "uuid": "1f3b130d-7d29-45d1-b5aa-adc5cd94a885",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @freeconfigsplus #1",
+      "type": "vless",
+      "server": "api-saronet.sarhadpirani.ir",
+      "server_port": 2052,
+      "uuid": "cb522244-ff63-4883-ae1f-87d883fb2da7",
       "packet_encoding": "xudp"
     },
     {
@@ -187,6 +201,22 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇫🇷 FR | TROJAN | @privatevpns #1",
+      "type": "trojan",
+      "server": "13.38.222.199",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇫🇷 FR | TROJAN | @proxyfn #1",
       "type": "trojan",
       "server": "51.91.11.29",
@@ -220,23 +250,6 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @v2ray_collector #1",
-      "type": "vless",
-      "server": "141.11.203.139",
-      "server_port": 443,
-      "uuid": "401374e6-df77-41fb-f638-dad8184f175b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇫🇷 FR | SS | @v2rayng3 #1",
       "type": "shadowsocks",
       "server": "57.130.28.148",
@@ -252,6 +265,37 @@
       "uuid": "ede27a79-b039-490b-932c-495de4b68880",
       "security": "auto",
       "alter_id": 0
+    },
+    {
+      "tag": "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1",
+      "type": "trojan",
+      "server": "13.38.222.199",
+      "server_port": 22223,
+      "password": "telegram-id-v2rayvpnchannel",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @vlessconfig #1",
+      "type": "vless",
+      "server": "13.38.222.199",
+      "server_port": 22224,
+      "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
     }
   ],
   "route": {

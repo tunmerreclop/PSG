@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @father_vpn #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
@@ -90,10 +89,10 @@
         "🇳🇱 NL | SS | @outlinereleasedkey #3",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @satellitenewspersian #1",
-        "🇳🇱 NL | VLESS | @sobi_vpn #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
         "🇳🇱 NL | VLESS | @v2ray_vmes #1",
-        "🇳🇱 NL | VLESS | @v2rayng3 #1"
+        "🇳🇱 NL | VLESS | @v2rayng3 #1",
+        "🇳🇱 NL | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,7 +100,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @father_vpn #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
@@ -114,10 +112,10 @@
         "🇳🇱 NL | SS | @outlinereleasedkey #3",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @satellitenewspersian #1",
-        "🇳🇱 NL | VLESS | @sobi_vpn #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
         "🇳🇱 NL | VLESS | @v2ray_vmes #1",
-        "🇳🇱 NL | VLESS | @v2rayng3 #1"
+        "🇳🇱 NL | VLESS | @v2rayng3 #1",
+        "🇳🇱 NL | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -131,28 +129,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "51.158.206.25",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇳🇱 NL | SS | @easy_free_vpn #1",
@@ -320,14 +296,6 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @sobi_vpn #1",
-      "type": "vless",
-      "server": "45.131.4.5",
-      "server_port": 2052,
-      "uuid": "8cf73792-0b3e-8e8b-f833-e86067f7a22c",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇳🇱 NL | VLESS | @v2ray_collector #1",
       "type": "vless",
       "server": "208.67.105.196",
@@ -363,6 +331,14 @@
       "server": "gcways.moderplus.com",
       "server_port": 80,
       "uuid": "9e4d8ebd-7952-4c6d-b18c-6300f3513fb6",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "speed.officialvpn.shop",
+      "server_port": 102,
+      "uuid": "a780c927-6d30-4e88-8ae9-7c0a54e7c76b",
       "packet_encoding": "xudp"
     }
   ],

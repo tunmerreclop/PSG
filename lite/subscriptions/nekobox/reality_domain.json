@@ -86,7 +86,8 @@
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
         "🇩🇪 DE | VLESS | @kafing_2 #1",
         "🇩🇪 DE | VLESS | @mimitdl #2",
-        "🇳🇱 NL | VLESS | @satellitenewspersian #1"
+        "🇳🇱 NL | VLESS | @satellitenewspersian #1",
+        "🇺🇸 US | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -103,7 +104,8 @@
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
         "🇩🇪 DE | VLESS | @kafing_2 #1",
         "🇩🇪 DE | VLESS | @mimitdl #2",
-        "🇳🇱 NL | VLESS | @satellitenewspersian #1"
+        "🇳🇱 NL | VLESS | @satellitenewspersian #1",
+        "🇺🇸 US | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -296,6 +298,28 @@
       "server": "r2.noode.work",
       "server_port": 443,
       "uuid": "3a65b0bc-81b9-4e2f-8c2e-35511839a5ac",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "cdn-download25.zula.ir.rahyabzamin.online",
+      "server_port": 2083,
+      "uuid": "f2b63359-b3c1-482a-91ad-78cd5b8faa03",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
