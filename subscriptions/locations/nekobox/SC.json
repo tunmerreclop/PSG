@@ -79,7 +79,8 @@
         "direct",
         "🇸🇨 SC | VLESS | @arv2ray #1",
         "🇸🇨 SC | VLESS | @arv2ray #2",
-        "🇸🇨 SC | VLESS | @arv2ray #3"
+        "🇸🇨 SC | VLESS | @arv2ray #3",
+        "🇸🇨 SC | VLESS | @satellitenewspersian #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -89,7 +90,8 @@
       "outbounds": [
         "🇸🇨 SC | VLESS | @arv2ray #1",
         "🇸🇨 SC | VLESS | @arv2ray #2",
-        "🇸🇨 SC | VLESS | @arv2ray #3"
+        "🇸🇨 SC | VLESS | @arv2ray #3",
+        "🇸🇨 SC | VLESS | @satellitenewspersian #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -144,6 +146,23 @@
       "server": "156.243.83.167",
       "server_port": 443,
       "uuid": "telegram-id-Arfilter",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @satellitenewspersian #1",
+      "type": "vless",
+      "server": "mkh.v2plus.ovh",
+      "server_port": 443,
+      "uuid": "0044dfce-62ac-4734-919a-fcbf79e9ec12",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

@@ -96,11 +96,11 @@
         "🇽🇽 XX | VLESS | @drvpn_net #2",
         "🇺🇸 US | VLESS | @grizzlyvpn #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
-        "🇽🇽 XX | VLESS | @netmellianti #1",
+        "🇺🇸 US | VLESS | @mtproxy22_v2ray #1",
+        "🇺🇸 US | VLESS | @netmellianti #1",
         "🇽🇽 XX | VLESS | @oonfig #2",
-        "🇩🇪 DE | VLESS | @selinc #1",
-        "🇺🇸 US | VLESS | @v2raych #1",
-        "🇺🇸 US | VLESS | @v2raych #2"
+        "🇺🇸 US | VLESS | @proxycrone #1",
+        "🇩🇪 DE | VLESS | @selinc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -114,11 +114,11 @@
         "🇽🇽 XX | VLESS | @drvpn_net #2",
         "🇺🇸 US | VLESS | @grizzlyvpn #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
-        "🇽🇽 XX | VLESS | @netmellianti #1",
+        "🇺🇸 US | VLESS | @mtproxy22_v2ray #1",
+        "🇺🇸 US | VLESS | @netmellianti #1",
         "🇽🇽 XX | VLESS | @oonfig #2",
-        "🇩🇪 DE | VLESS | @selinc #1",
-        "🇺🇸 US | VLESS | @v2raych #1",
-        "🇺🇸 US | VLESS | @v2raych #2"
+        "🇺🇸 US | VLESS | @proxycrone #1",
+        "🇩🇪 DE | VLESS | @selinc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -235,7 +235,15 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @netmellianti #1",
+      "tag": "🇺🇸 US | VLESS | @mtproxy22_v2ray #1",
+      "type": "vless",
+      "server": "speedtestcustom.com",
+      "server_port": 80,
+      "uuid": "9591f34a-90b1-41a1-b53d-be0bef7e7cc3",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @netmellianti #1",
       "type": "vless",
       "server": "cdn.sjdpictures.ir",
       "server_port": 443,
@@ -269,27 +277,19 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VLESS | @proxycrone #1",
+      "type": "vless",
+      "server": "speedtest.net",
+      "server_port": 80,
+      "uuid": "442caeb3-0845-4027-9fdd-ef0acb10609b",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @selinc #1",
       "type": "vless",
       "server": "de3.ir-ai1.com",
       "server_port": 17643,
       "uuid": "031363ca-f733-4ba2-a67d-05590c619d0a",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "speedtest.net",
-      "server_port": 80,
-      "uuid": "442caeb3-0845-4027-9fdd-ef0acb10609b",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "speedtest.net",
-      "server_port": 80,
-      "uuid": "442caeb3-0845-4027-9fdd-ef0acb10609b",
       "packet_encoding": "xudp"
     }
   ],

@@ -78,7 +78,8 @@
         "auto",
         "direct",
         "🇨🇭 CH | VLESS | @proxyfn #1",
-        "🇨🇭 CH | VLESS | @v2rayvpn2 #1"
+        "🇨🇭 CH | VLESS | @v2rayvpn2 #1",
+        "🇨🇭 CH | VLESS | @v2rayvpn2 #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇨🇭 CH | VLESS | @proxyfn #1",
-        "🇨🇭 CH | VLESS | @v2rayvpn2 #1"
+        "🇨🇭 CH | VLESS | @v2rayvpn2 #1",
+        "🇨🇭 CH | VLESS | @v2rayvpn2 #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -121,6 +123,28 @@
     },
     {
       "tag": "🇨🇭 CH | VLESS | @v2rayvpn2 #1",
+      "type": "vless",
+      "server": "ch-1.bot-iphone.ru",
+      "server_port": 8443,
+      "uuid": "123d4832-db2b-4376-be63-f60858cc328e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @v2rayvpn2 #2",
       "type": "vless",
       "server": "ch-1.bot-iphone.ru",
       "server_port": 8443,

@@ -78,20 +78,19 @@
         "auto",
         "direct",
         "🇷🇺 RU | VLESS | @Fr33C0nfig #1",
-        "🇷🇺 RU | VLESS | @Fr33C0nfig #2",
-        "🇷🇺 RU | VLESS | @Fr33C0nfig #3",
         "🇷🇺 RU | SS | @ai_duet #1",
         "🇷🇺 RU | VLESS | @father_vpn #1",
-        "🇷🇺 RU | VLESS | @filtershekan_channel #1",
         "🇷🇺 RU | VLESS | @iranbfilter #1",
+        "🇷🇺 RU | VLESS | @kurdistan_vpn_perfectt #1",
+        "🇷🇺 RU | VLESS | @outline_ir #1",
+        "🇷🇺 RU | VLESS | @outline_ir #2",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇷🇺 RU | VLESS | @prrofile_purple #1",
         "🇷🇺 RU | VLESS | @turboo_server #1",
-        "🇷🇺 RU | VLESS | @turboo_server #2",
         "🇷🇺 RU | VLESS | @v2ray_youtube #1",
         "🇷🇺 RU | VLESS | @v2raying #1",
         "🇷🇺 RU | VLESS | @v_2rayng0 #1",
-        "🇷🇺 RU | VLESS | @vmesskhodam #1"
+        "🇷🇺 RU | VLESS | @vmesskhodam #1",
+        "🇷🇺 RU | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,20 +99,19 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇺 RU | VLESS | @Fr33C0nfig #1",
-        "🇷🇺 RU | VLESS | @Fr33C0nfig #2",
-        "🇷🇺 RU | VLESS | @Fr33C0nfig #3",
         "🇷🇺 RU | SS | @ai_duet #1",
         "🇷🇺 RU | VLESS | @father_vpn #1",
-        "🇷🇺 RU | VLESS | @filtershekan_channel #1",
         "🇷🇺 RU | VLESS | @iranbfilter #1",
+        "🇷🇺 RU | VLESS | @kurdistan_vpn_perfectt #1",
+        "🇷🇺 RU | VLESS | @outline_ir #1",
+        "🇷🇺 RU | VLESS | @outline_ir #2",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇷🇺 RU | VLESS | @prrofile_purple #1",
         "🇷🇺 RU | VLESS | @turboo_server #1",
-        "🇷🇺 RU | VLESS | @turboo_server #2",
         "🇷🇺 RU | VLESS | @v2ray_youtube #1",
         "🇷🇺 RU | VLESS | @v2raying #1",
         "🇷🇺 RU | VLESS | @v_2rayng0 #1",
-        "🇷🇺 RU | VLESS | @vmesskhodam #1"
+        "🇷🇺 RU | VLESS | @vmesskhodam #1",
+        "🇷🇺 RU | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -130,22 +128,6 @@
     },
     {
       "tag": "🇷🇺 RU | VLESS | @Fr33C0nfig #1",
-      "type": "vless",
-      "server": "fastly2.yasharmobile.com",
-      "server_port": 8880,
-      "uuid": "b5585686-fb26-4534-8f84-71ac40a3f462",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @Fr33C0nfig #2",
-      "type": "vless",
-      "server": "fastly2.yasharmobile.com",
-      "server_port": 8880,
-      "uuid": "b5585686-fb26-4534-8f84-71ac40a3f462",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @Fr33C0nfig #3",
       "type": "vless",
       "server": "158.160.195.177",
       "server_port": 443,
@@ -192,20 +174,64 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @filtershekan_channel #1",
-      "type": "vless",
-      "server": "dns1.turboo-server.space",
-      "server_port": 8880,
-      "uuid": "turboo-server",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇷🇺 RU | VLESS | @iranbfilter #1",
       "type": "vless",
       "server": "benefits.by",
       "server_port": 80,
       "uuid": "2d29bc24-aaf2-4e48-b0c1-ec6d625f8271",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @kurdistan_vpn_perfectt #1",
+      "type": "vless",
+      "server": "fastly2.yasharmobile.com",
+      "server_port": 8880,
+      "uuid": "b5585686-fb26-4534-8f84-71ac40a3f462",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "84.252.130.60",
+      "server_port": 443,
+      "uuid": "c38e6142-9223-47ef-84ce-2a84a308cafb",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @outline_ir #2",
+      "type": "vless",
+      "server": "server.gymrent.eu",
+      "server_port": 2023,
+      "uuid": "648e1bab-a957-4334-a72e-b5eb399331e8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇷🇺 RU | VMESS | @prooxyk #1",
@@ -233,32 +259,7 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #1",
-      "type": "vless",
-      "server": "45.67.215.233",
-      "server_port": 2053,
-      "uuid": "893fed59-18a7-4d1c-ba63-5352ca2cee7a",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇷🇺 RU | VLESS | @turboo_server #1",
-      "type": "vless",
-      "server": "dns.turboo-server.space",
-      "server_port": 443,
-      "uuid": "turboo-server",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @turboo_server #2",
       "type": "vless",
       "server": "dns.turboo-server.space",
       "server_port": 443,
@@ -277,9 +278,9 @@
     {
       "tag": "🇷🇺 RU | VLESS | @v2ray_youtube #1",
       "type": "vless",
-      "server": "ss.02020.sbs",
-      "server_port": 8443,
-      "uuid": "c19fb567-74a9-454f-9757-e612fc4be371",
+      "server": "server.gymrent.eu",
+      "server_port": 2023,
+      "uuid": "648e1bab-a957-4334-a72e-b5eb399331e8",
       "packet_encoding": "xudp"
     },
     {
@@ -313,6 +314,23 @@
       "server": "iran.zone-server-irani.ir",
       "server_port": 443,
       "uuid": "0f1b6d8d-3f8c-4713-b32d-c94947083485",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "iran.zone-server-irani.ir",
+      "server_port": 443,
+      "uuid": "0f1b6d8d-3f8c-45663-b32d-c94947083485",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

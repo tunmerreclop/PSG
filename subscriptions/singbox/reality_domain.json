@@ -94,23 +94,27 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇫🇷 FR | VLESS | @ai_duet #1",
-        "🇹🇷 TR | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
         "🇳🇱 NL | VLESS | @grizzlyvpn #1",
+        "🇩🇪 DE | VLESS | @kafing_2 #1",
         "🇩🇪 DE | VLESS | @megavpn_link #1",
-        "🇩🇪 DE | VLESS | @mimitdl #3",
-        "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1",
+        "🇩🇪 DE | VLESS | @mimitdl #2",
+        "🇷🇺 RU | VLESS | @outline_ir #2",
         "🇳🇱 NL | VLESS | @satellitenewspersian #1",
         "🇩🇪 DE | VLESS | @savagev2ray #1",
         "🇩🇪 DE | VLESS | @savagev2ray #2",
         "🇩🇪 DE | VLESS | @v2ray_vmes #1",
-        "🇳🇱 NL | VLESS | @v2ray_youtube #1",
         "🇷🇺 RU | VLESS | @v2ray_youtube #1",
+        "🇮🇷 IR | VLESS | @v2raych #1",
+        "🇵🇱 PL | VLESS | @v2raych #1",
+        "🇸🇪 SE | VLESS | @v2raych #1",
         "🇨🇭 CH | VLESS | @v2rayvpn2 #1",
+        "🇨🇭 CH | VLESS | @v2rayvpn2 #2",
         "🇱🇺 LU | VLESS | @vip_vpn_2022 #1",
-        "🇩🇪 DE | VLESS | @vpnowl #1"
+        "🇩🇪 DE | VLESS | @vpnowl #1",
+        "🇮🇷 IR | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -122,23 +126,27 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇫🇷 FR | VLESS | @ai_duet #1",
-        "🇹🇷 TR | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
         "🇳🇱 NL | VLESS | @grizzlyvpn #1",
+        "🇩🇪 DE | VLESS | @kafing_2 #1",
         "🇩🇪 DE | VLESS | @megavpn_link #1",
-        "🇩🇪 DE | VLESS | @mimitdl #3",
-        "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1",
+        "🇩🇪 DE | VLESS | @mimitdl #2",
+        "🇷🇺 RU | VLESS | @outline_ir #2",
         "🇳🇱 NL | VLESS | @satellitenewspersian #1",
         "🇩🇪 DE | VLESS | @savagev2ray #1",
         "🇩🇪 DE | VLESS | @savagev2ray #2",
         "🇩🇪 DE | VLESS | @v2ray_vmes #1",
-        "🇳🇱 NL | VLESS | @v2ray_youtube #1",
         "🇷🇺 RU | VLESS | @v2ray_youtube #1",
+        "🇮🇷 IR | VLESS | @v2raych #1",
+        "🇵🇱 PL | VLESS | @v2raych #1",
+        "🇸🇪 SE | VLESS | @v2raych #1",
         "🇨🇭 CH | VLESS | @v2rayvpn2 #1",
+        "🇨🇭 CH | VLESS | @v2rayvpn2 #2",
         "🇱🇺 LU | VLESS | @vip_vpn_2022 #1",
-        "🇩🇪 DE | VLESS | @vpnowl #1"
+        "🇩🇪 DE | VLESS | @vpnowl #1",
+        "🇮🇷 IR | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -230,14 +238,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "ops.invoproxy.online",
-      "server_port": 8443,
-      "uuid": "388d8d25-5d35-4b1c-b8a1-111801a758eb",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇩🇪 DE | VLESS | @configasli #1",
       "type": "vless",
       "server": "s1.aparat-movies-download.ir",
@@ -308,6 +308,23 @@
       }
     },
     {
+      "tag": "🇩🇪 DE | VLESS | @kafing_2 #1",
+      "type": "vless",
+      "server": "partners.dissertationhelpspecialist.com",
+      "server_port": 443,
+      "uuid": "fc204a34-2e5a-451c-863b-a65bb11a7585",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @megavpn_link #1",
       "type": "vless",
       "server": "all32-vip.f-sub.com",
@@ -330,7 +347,7 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @mimitdl #3",
+      "tag": "🇩🇪 DE | VLESS | @mimitdl #2",
       "type": "vless",
       "server": "khabar.motionbetter.ir",
       "server_port": 39730,
@@ -352,13 +369,12 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1",
+      "tag": "🇷🇺 RU | VLESS | @outline_ir #2",
       "type": "vless",
-      "server": "test.country-8.eu-ffast.com",
-      "server_port": 443,
-      "uuid": "74be5a30-e7ca-47fa-9e6a-8d602739ec6c",
+      "server": "server.gymrent.eu",
+      "server_port": 2023,
+      "uuid": "648e1bab-a957-4334-a72e-b5eb399331e8",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -366,6 +382,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -444,11 +465,19 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @v2ray_youtube #1",
+      "tag": "🇷🇺 RU | VLESS | @v2ray_youtube #1",
       "type": "vless",
-      "server": "test.country-8.eu-ffast.com",
+      "server": "server.gymrent.eu",
+      "server_port": 2023,
+      "uuid": "648e1bab-a957-4334-a72e-b5eb399331e8",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "m1.designister.com",
       "server_port": 443,
-      "uuid": "74be5a30-e7ca-47fa-9e6a-8d602739ec6c",
+      "uuid": "5f968546-06e9-44fb-b5ee-c66773e45ac5",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -461,15 +490,73 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @v2ray_youtube #1",
+      "tag": "🇵🇱 PL | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "ss.02020.sbs",
-      "server_port": 8443,
-      "uuid": "c19fb567-74a9-454f-9757-e612fc4be371",
-      "packet_encoding": "xudp"
+      "server": "it-ip.gameirani.com",
+      "server_port": 500,
+      "uuid": "f3038fe4-1d2d-47ff-a535-b65f79c7beef",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "fr-ip.gameirani.com",
+      "server_port": 400,
+      "uuid": "f3038fe4-1d2d-47ff-a535-b65f79c7beef",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇨🇭 CH | VLESS | @v2rayvpn2 #1",
+      "type": "vless",
+      "server": "ch-1.bot-iphone.ru",
+      "server_port": 8443,
+      "uuid": "123d4832-db2b-4376-be63-f60858cc328e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @v2rayvpn2 #2",
       "type": "vless",
       "server": "ch-1.bot-iphone.ru",
       "server_port": 8443,
@@ -519,6 +606,28 @@
       "server_port": 2026,
       "uuid": "e2d67742-6f0a-412c-b382-e420d9461d23",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "mad.adaspolo.lat",
+      "server_port": 2724,
+      "uuid": "9b378369-6383-48d1-97ff-102f33c88de4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

@@ -91,7 +91,6 @@
         "🇸🇪 SE | VLESS | @meli_v2rayng #2",
         "🇸🇪 SE | VLESS | @meli_v2rayng #3",
         "🇸🇪 SE | VLESS | @meli_v2rayng #4",
-        "🇸🇪 SE | VLESS | @meli_v2rayng #5",
         "🇸🇪 SE | VLESS | @minovpnch #1",
         "🇸🇪 SE | VLESS | @proxyfn #1",
         "🇸🇪 SE | VLESS | @realvpnmaster #1",
@@ -106,6 +105,7 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
+        "🇸🇪 SE | VLESS | @v2raych #1",
         "🇸🇪 SE | TUIC | @vipv2rey #1"
       ],
       "tag": "proxy",
@@ -128,7 +128,6 @@
         "🇸🇪 SE | VLESS | @meli_v2rayng #2",
         "🇸🇪 SE | VLESS | @meli_v2rayng #3",
         "🇸🇪 SE | VLESS | @meli_v2rayng #4",
-        "🇸🇪 SE | VLESS | @meli_v2rayng #5",
         "🇸🇪 SE | VLESS | @minovpnch #1",
         "🇸🇪 SE | VLESS | @proxyfn #1",
         "🇸🇪 SE | VLESS | @realvpnmaster #1",
@@ -143,6 +142,7 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
+        "🇸🇪 SE | VLESS | @v2raych #1",
         "🇸🇪 SE | TUIC | @vipv2rey #1"
       ],
       "tag": "auto",
@@ -334,14 +334,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇸🇪 SE | VLESS | @meli_v2rayng #5",
-      "type": "vless",
-      "server": "185.146.173.37",
-      "server_port": 2095,
-      "uuid": "00a26afd-093b-47f5-a396-dbe994325a45",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇸🇪 SE | VLESS | @minovpnch #1",
       "type": "vless",
       "server": "185.146.173.200",
@@ -480,6 +472,28 @@
       "server_port": 80,
       "uuid": "telegram-id-ArV2ray",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "fr-ip.gameirani.com",
+      "server_port": 400,
+      "uuid": "f3038fe4-1d2d-47ff-a535-b65f79c7beef",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇸🇪 SE | TUIC | @vipv2rey #1",

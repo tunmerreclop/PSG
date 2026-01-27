@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇯🇵 JP | TROJAN | @config_proxy #1", "server": "153.121.51.29", "port": 4006, "type": "trojan", "skip-cert-verify": false, "password": "869e9086806483ca4744a4cb0f3d6e16"}
   - {"name": "🇯🇵 JP | TROJAN | @free4allvpn #1", "server": "kuame.missionsec.us", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D"}
 
 proxy-groups:
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇯🇵 JP | TROJAN | @config_proxy #1'
       - '🇯🇵 JP | TROJAN | @free4allvpn #1'
 
   - name: 🌍 Global Media

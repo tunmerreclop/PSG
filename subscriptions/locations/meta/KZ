@@ -25,7 +25,8 @@ dns:
 proxies: 
   - {"name": "🇰🇿 KZ | VLESS | @Fr33C0nfig #1", "server": "ert-7.v-sub.site", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "27132599-27db-4089-8238-4b7b94de500e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇰🇿 KZ | VLESS | @filterk0sh #1", "server": "77.73.232.61", "port": 19747, "type": "vless", "skip-cert-verify": true, "uuid": "2a9ed01e-5455-44b4-a66a-76ee8165f0ac", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇰🇿 KZ | VLESS | @vpnplusee_free #1", "server": "ipo.mastermarly.ir", "port": 2086, "type": "vless", "skip-cert-verify": true, "uuid": "060f9c49-a5cf-45c2-927d-67e3e9429e5e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇰🇿 KZ | VLESS | @v2ray_youtube #1", "server": "dns1.turboo-server.space", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "turboo-server", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇰🇿 KZ | VLESS | @vpnplusee_free #1", "server": "ert-3.v-sub.site", "port": 2087, "type": "vless", "skip-cert-verify": true, "uuid": "c11b7718-c5dc-4cf4-ae8d-786082d50c03", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -41,6 +42,7 @@ proxy-groups:
     proxies: 
       - '🇰🇿 KZ | VLESS | @Fr33C0nfig #1'
       - '🇰🇿 KZ | VLESS | @filterk0sh #1'
+      - '🇰🇿 KZ | VLESS | @v2ray_youtube #1'
       - '🇰🇿 KZ | VLESS | @vpnplusee_free #1'
 
   - name: 🌍 Global Media

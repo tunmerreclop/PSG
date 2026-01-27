@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇹🇷 TR | VLESS | @config_proxy #1", "server": "ops.invoproxy.online", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "388d8d25-5d35-4b1c-b8a1-111801a758eb", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇹🇷 TR | VLESS | @kafing_2 #1", "server": "www.niniweblog.org", "port": 82, "type": "vless", "skip-cert-verify": true, "uuid": "ee8f86dd-66e5-42e6-b6a4-118164eac794", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇹🇷 TR | VLESS | @config_proxy #1'
+      - '🇹🇷 TR | VLESS | @kafing_2 #1'
 
   - name: 🌍 Global Media
     type: select
