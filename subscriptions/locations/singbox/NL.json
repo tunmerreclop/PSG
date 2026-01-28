@@ -90,12 +90,14 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @father_vpn #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @grizzlyvpn #1",
         "🇳🇱 NL | SS | @netfreedom0 #1",
         "🇳🇱 NL | VLESS | @oonfig #1",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
+        "🇳🇱 NL | VLESS | @outline_ir #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #2",
         "🇳🇱 NL | SS | @outlinereleasedkey #3",
@@ -103,6 +105,7 @@
         "🇳🇱 NL | VLESS | @satellitenewspersian #1",
         "🇳🇱 NL | VLESS | @sobi_vpn #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
+        "🇳🇱 NL | SS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2rayng3 #1",
         "🇳🇱 NL | VLESS | @vmesc #1"
       ],
@@ -112,12 +115,14 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @father_vpn #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @grizzlyvpn #1",
         "🇳🇱 NL | SS | @netfreedom0 #1",
         "🇳🇱 NL | VLESS | @oonfig #1",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
+        "🇳🇱 NL | VLESS | @outline_ir #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #2",
         "🇳🇱 NL | SS | @outlinereleasedkey #3",
@@ -125,6 +130,7 @@
         "🇳🇱 NL | VLESS | @satellitenewspersian #1",
         "🇳🇱 NL | VLESS | @sobi_vpn #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
+        "🇳🇱 NL | SS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2rayng3 #1",
         "🇳🇱 NL | VLESS | @vmesc #1"
       ],
@@ -136,6 +142,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇳🇱 NL | SS | @easy_free_vpn #1",
+      "type": "shadowsocks",
+      "server": "193.29.139.151",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "password": null
     },
     {
       "tag": "🇳🇱 NL | VLESS | @father_vpn #1",
@@ -232,6 +246,23 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇳🇱 NL | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "neth.pingxbaz.com",
+      "server_port": 443,
+      "uuid": "b3176e0b-ffaf-4e1b-fd8a-c073bcc4272d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇳🇱 NL | SS | @outlinereleasedkey #1",
       "type": "shadowsocks",
       "server": "193.29.139.235",
@@ -323,6 +354,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇳🇱 NL | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "193.29.139.251",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "password": null
     },
     {
       "tag": "🇳🇱 NL | VLESS | @v2rayng3 #1",

@@ -83,7 +83,7 @@
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
-        "🇺🇸 US | VMESS | @hope_net #1",
+        "🇽🇽 XX | VMESS | @hope_net #1",
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
         "🇺🇸 US | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VMESS | @iranvpnet #1",
@@ -95,6 +95,8 @@
         "🇽🇽 XX | VMESS | @qrv2ray #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
+        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+        "🇮🇷 IR | VMESS | @v_2rayng0 #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "proxy",
@@ -109,7 +111,7 @@
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
-        "🇺🇸 US | VMESS | @hope_net #1",
+        "🇽🇽 XX | VMESS | @hope_net #1",
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
         "🇺🇸 US | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VMESS | @iranvpnet #1",
@@ -121,6 +123,8 @@
         "🇽🇽 XX | VMESS | @qrv2ray #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
+        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+        "🇮🇷 IR | VMESS | @v_2rayng0 #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "auto",
@@ -275,16 +279,16 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VMESS | @hope_net #1",
+      "tag": "🇽🇽 XX | VMESS | @hope_net #1",
       "type": "vmess",
-      "server": "185.146.173.59",
-      "server_port": 443,
-      "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+      "server": "zula.ir",
+      "server_port": 2096,
+      "uuid": "30cab746-5ca5-46ef-aa9b-537f20f6a40c",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "obdii.cfd",
+        "server_name": "kingo.hightechservice.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -293,9 +297,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/linkws",
+        "path": "/",
         "headers": {
-          "Host": "obdii.cfd"
+          "Host": "kingo.hightechservice.ir"
         }
       }
     },
@@ -566,6 +570,40 @@
           "Host": "kellie.makeup"
         }
       }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "vjp3.0bad.com",
+      "server_port": 443,
+      "uuid": "927094d3-d678-4763-8591-e240d0bcae87",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "vjp3.0bad.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/chat",
+        "headers": {
+          "Host": "vjp3.0bad.com"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VMESS | @v_2rayng0 #1",
+      "type": "vmess",
+      "server": "cDN-1.GxNeT.cAm",
+      "server_port": 3000,
+      "uuid": "cf2dadc0-8532-4686-a6e0-012f76be3e1e",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇺🇸 US | VMESS | @vpngate_config #1",

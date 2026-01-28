@@ -90,7 +90,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇪 SE | VLESS | @config_proxy #1",
         "🇸🇪 SE | VLESS | @deli_servers #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
@@ -119,7 +118,8 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
-        "🇸🇪 SE | TUIC | @vipv2rey #1"
+        "🇸🇪 SE | TUIC | @vipv2rey #1",
+        "🇸🇪 SE | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -127,7 +127,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇪 SE | VLESS | @config_proxy #1",
         "🇸🇪 SE | VLESS | @deli_servers #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
@@ -156,7 +155,8 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
-        "🇸🇪 SE | TUIC | @vipv2rey #1"
+        "🇸🇪 SE | TUIC | @vipv2rey #1",
+        "🇸🇪 SE | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -166,28 +166,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "aws.vulltr.ir",
-      "server_port": 1005,
-      "uuid": "1407bd07-4578-40b5-a486-1163066616ef",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇸🇪 SE | VLESS | @deli_servers #1",
@@ -290,9 +268,9 @@
     {
       "tag": "🇸🇪 SE | VLESS | @hope_net #1",
       "type": "vless",
-      "server": "185.146.173.152",
-      "server_port": 2095,
-      "uuid": "af309ad2-c943-48ea-b570-2e51a2f079d9",
+      "server": "185.146.173.68",
+      "server_port": 80,
+      "uuid": "7d8c6a23-71c0-4979-bb5b-802aecab2096",
       "packet_encoding": "xudp"
     },
     {
@@ -518,6 +496,28 @@
         "server_name": "",
         "insecure": false,
         "alpn": null
+      }
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "aws.vulltr.ir",
+      "server_port": 1005,
+      "uuid": "0eb73b59-9ec7-4b84-b011-2ef1959e0da0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
       }
     }
   ],

@@ -101,8 +101,9 @@
         "🇩🇪 DE | VLESS | @mimitdl #2",
         "🇳🇱 NL | VLESS | @satellitenewspersian #1",
         "🇩🇪 DE | VLESS | @savagev2ray #1",
-        "🇷🇺 RU | VLESS | @v2ray_vmes #1",
-        "🇫🇮 FI | VLESS | @v2rayvpn2 #1"
+        "🇩🇪 DE | VLESS | @v2raych #1",
+        "🇫🇮 FI | VLESS | @v2rayvpn2 #1",
+        "🇺🇸 US | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -121,8 +122,9 @@
         "🇩🇪 DE | VLESS | @mimitdl #2",
         "🇳🇱 NL | VLESS | @satellitenewspersian #1",
         "🇩🇪 DE | VLESS | @savagev2ray #1",
-        "🇷🇺 RU | VLESS | @v2ray_vmes #1",
-        "🇫🇮 FI | VLESS | @v2rayvpn2 #1"
+        "🇩🇪 DE | VLESS | @v2raych #1",
+        "🇫🇮 FI | VLESS | @v2rayvpn2 #1",
+        "🇺🇸 US | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -350,11 +352,11 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @v2ray_vmes #1",
+      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "ss.02020.sbs",
-      "server_port": 8443,
-      "uuid": "c19fb567-74a9-454f-9757-e612fc4be371",
+      "server": "cpu.pcapps.ir",
+      "server_port": 2087,
+      "uuid": "ececc46b-09fa-4b0f-93e7-609b245e5402",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -377,6 +379,28 @@
       "server": "finland.vpn-mtk.ru",
       "server_port": 443,
       "uuid": "5cf56d3c-9647-4e0f-8c0a-cbf924a91f21",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "mouse5.1lil1.de",
+      "server_port": 443,
+      "uuid": "191ee2c8-e3e3-09a1-a4a5-c9e8323c6f3d",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

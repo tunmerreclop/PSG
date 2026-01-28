@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇨🇦 CA | VLESS | @config_proxy #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2"
       ],
@@ -99,6 +100,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇨🇦 CA | VLESS | @config_proxy #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2"
       ],
@@ -110,6 +112,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇨🇦 CA | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "ca2.sepserver.de",
+      "server_port": 1034,
+      "uuid": "b3f996c3-2070-4433-9004-7f95ed1f7cdb",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇨🇦 CA | VLESS | @jokerv2ray #1",
