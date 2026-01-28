@@ -91,10 +91,12 @@
         "auto",
         "direct",
         "🇷🇺 RU | SS | @ai_duet #1",
+        "🇷🇺 RU | VLESS | @father_vpn #1",
         "🇷🇺 RU | VLESS | @iranbfilter #1",
+        "🇷🇺 RU | VLESS | @kurdistan_vpn_perfectt #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇷🇺 RU | VLESS | @v2ray_vmes #1",
-        "🇷🇺 RU | VLESS | @v_2rayng0 #1",
+        "🇷🇺 RU | VLESS | @v2ray_youtube #1",
         "🇷🇺 RU | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
@@ -104,10 +106,12 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇺 RU | SS | @ai_duet #1",
+        "🇷🇺 RU | VLESS | @father_vpn #1",
         "🇷🇺 RU | VLESS | @iranbfilter #1",
+        "🇷🇺 RU | VLESS | @kurdistan_vpn_perfectt #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇷🇺 RU | VLESS | @v2ray_vmes #1",
-        "🇷🇺 RU | VLESS | @v_2rayng0 #1",
+        "🇷🇺 RU | VLESS | @v2ray_youtube #1",
         "🇷🇺 RU | VLESS | @vmesc #1"
       ],
       "tag": "auto",
@@ -128,11 +132,36 @@
       "password": null
     },
     {
+      "tag": "🇷🇺 RU | VLESS | @father_vpn #1",
+      "type": "vless",
+      "server": "45.67.215.233",
+      "server_port": 443,
+      "uuid": "1305886a-1725-4abc-9be1-f11bf6cbaf4f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇷🇺 RU | VLESS | @iranbfilter #1",
       "type": "vless",
       "server": "benefits.by",
       "server_port": 80,
       "uuid": "2d29bc24-aaf2-4e48-b0c1-ec6d625f8271",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @kurdistan_vpn_perfectt #1",
+      "type": "vless",
+      "server": "fastly2.yasharmobile.com",
+      "server_port": 8880,
+      "uuid": "b5585686-fb26-4534-8f84-71ac40a3f462",
       "packet_encoding": "xudp"
     },
     {
@@ -183,21 +212,12 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @v_2rayng0 #1",
+      "tag": "🇷🇺 RU | VLESS | @v2ray_youtube #1",
       "type": "vless",
-      "server": "dawn.wenllies.com",
-      "server_port": 443,
-      "uuid": "65cd15ed-7a25-41ce-8bdd-bb5db2c38f65",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "192.144.57.132",
+      "server_port": 4443,
+      "uuid": "b78d1925-3368-4818-8c37-e730f0c15068",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VLESS | @vmesc #1",

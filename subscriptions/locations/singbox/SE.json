@@ -90,13 +90,13 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇪 SE | VLESS | @config_proxy #1",
         "🇸🇪 SE | VLESS | @deli_servers #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
         "🇸🇪 SE | VLESS | @free_vip3 #3",
         "🇸🇪 SE | VLESS | @free_vip3 #4",
         "🇸🇪 SE | VLESS | @free_vip3 #5",
+        "🇸🇪 SE | VLESS | @free_vip3 #6",
         "🇸🇪 SE | VLESS | @kurd_v2ray #1",
         "🇸🇪 SE | VLESS | @kurd_v2ray #2",
         "🇸🇪 SE | VLESS | @kurd_v2ray #3",
@@ -111,12 +111,14 @@
         "🇸🇪 SE | VLESS | @realvpnmaster #3",
         "🇸🇪 SE | VLESS | @realvpnmaster #4",
         "🇸🇪 SE | VLESS | @realvpnmaster #5",
+        "🇸🇪 SE | VLESS | @realvpnmaster #6",
+        "🇸🇪 SE | VLESS | @serverv2ray00 #1",
         "🇸🇪 SE | VLESS | @sobi_vpn #1",
         "🇸🇪 SE | VLESS | @sobi_vpn #2",
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
-        "🇸🇪 SE | TUIC | @vipv2rey #1",
-        "🇸🇪 SE | TUIC | @vipv2rey #2"
+        "🇸🇪 SE | VLESS | @v2logy #3",
+        "🇸🇪 SE | TUIC | @vipv2rey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -124,13 +126,13 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇪 SE | VLESS | @config_proxy #1",
         "🇸🇪 SE | VLESS | @deli_servers #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
         "🇸🇪 SE | VLESS | @free_vip3 #3",
         "🇸🇪 SE | VLESS | @free_vip3 #4",
         "🇸🇪 SE | VLESS | @free_vip3 #5",
+        "🇸🇪 SE | VLESS | @free_vip3 #6",
         "🇸🇪 SE | VLESS | @kurd_v2ray #1",
         "🇸🇪 SE | VLESS | @kurd_v2ray #2",
         "🇸🇪 SE | VLESS | @kurd_v2ray #3",
@@ -145,12 +147,14 @@
         "🇸🇪 SE | VLESS | @realvpnmaster #3",
         "🇸🇪 SE | VLESS | @realvpnmaster #4",
         "🇸🇪 SE | VLESS | @realvpnmaster #5",
+        "🇸🇪 SE | VLESS | @realvpnmaster #6",
+        "🇸🇪 SE | VLESS | @serverv2ray00 #1",
         "🇸🇪 SE | VLESS | @sobi_vpn #1",
         "🇸🇪 SE | VLESS | @sobi_vpn #2",
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
-        "🇸🇪 SE | TUIC | @vipv2rey #1",
-        "🇸🇪 SE | TUIC | @vipv2rey #2"
+        "🇸🇪 SE | VLESS | @v2logy #3",
+        "🇸🇪 SE | TUIC | @vipv2rey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -160,14 +164,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "googleads.g.doubleclick.net.w2.ajudanie.com",
-      "server_port": 1400,
-      "uuid": "50a78a3c-ce5f-4009-8d50-2c9ef9e82cd2",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇸🇪 SE | VLESS | @deli_servers #1",
@@ -227,7 +223,7 @@
       "type": "vless",
       "server": "185.146.173.58",
       "server_port": 8080,
-      "uuid": "726c7800-a083-4b83-b9cf-9a9872ea1fcb",
+      "uuid": "fbc325f6-1d61-4c1e-8752-9e12b5463f82",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
@@ -242,7 +238,22 @@
       "type": "vless",
       "server": "185.146.173.58",
       "server_port": 8080,
-      "uuid": "d14e62e6-7ae5-4a13-a36a-852c5fd25a3a",
+      "uuid": "13fdda6f-f5c9-499a-826c-d99bfacdcc23",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @free_vip3 #6",
+      "type": "vless",
+      "server": "185.146.173.58",
+      "server_port": 8080,
+      "uuid": "726c7800-a083-4b83-b9cf-9a9872ea1fcb",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
@@ -272,7 +283,7 @@
       "type": "vless",
       "server": "185.146.173.68",
       "server_port": 2095,
-      "uuid": "---DIGIV2RAY--",
+      "uuid": "-DIGIV2RAY-",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
@@ -287,7 +298,7 @@
       "type": "vless",
       "server": "185.146.173.68",
       "server_port": 2095,
-      "uuid": "DIGIV2RAy",
+      "uuid": "---DIGIV2RAY--",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
@@ -310,7 +321,7 @@
       "type": "vless",
       "server": "185.146.173.95",
       "server_port": 2095,
-      "uuid": "32961a93-a811-412a-b5f0-3cb7ccef4a6c",
+      "uuid": "50858d39-fb35-452c-96af-9d4f028dd631",
       "packet_encoding": "xudp"
     },
     {
@@ -318,7 +329,7 @@
       "type": "vless",
       "server": "185.146.173.37",
       "server_port": 2095,
-      "uuid": "00a26afd-093b-47f5-a396-dbe994325a45",
+      "uuid": "32961a93-a811-412a-b5f0-3cb7ccef4a6c",
       "packet_encoding": "xudp"
     },
     {
@@ -326,7 +337,7 @@
       "type": "vless",
       "server": "185.146.173.95",
       "server_port": 2095,
-      "uuid": "c1b69e03-ce23-4a47-b61e-29e5429e10c9",
+      "uuid": "32961a93-a811-412a-b5f0-3cb7ccef4a6c",
       "packet_encoding": "xudp"
     },
     {
@@ -362,17 +373,17 @@
     {
       "tag": "🇸🇪 SE | VLESS | @realvpnmaster #1",
       "type": "vless",
-      "server": "185.146.173.24",
-      "server_port": 8880,
-      "uuid": "53ed61cd-8be2-46eb-b7c2-850a732ed849",
+      "server": "185.146.173.185",
+      "server_port": 2095,
+      "uuid": "db5a8d71-b3f3-4e5c-a2a9-e7f78c9d141c",
       "packet_encoding": "xudp"
     },
     {
       "tag": "🇸🇪 SE | VLESS | @realvpnmaster #2",
       "type": "vless",
-      "server": "185.146.173.237",
-      "server_port": 80,
-      "uuid": "8044d53d-2efb-4cc7-9587-4c95caa5ab56",
+      "server": "185.146.173.24",
+      "server_port": 8880,
+      "uuid": "53ed61cd-8be2-46eb-b7c2-850a732ed849",
       "packet_encoding": "xudp"
     },
     {
@@ -380,11 +391,27 @@
       "type": "vless",
       "server": "185.146.173.185",
       "server_port": 2095,
-      "uuid": "5c7d90fe-f7d5-40bf-bfca-7726d5e44786",
+      "uuid": "f69052a7-2ed3-4196-87f0-4cf90a35ab79",
       "packet_encoding": "xudp"
     },
     {
       "tag": "🇸🇪 SE | VLESS | @realvpnmaster #4",
+      "type": "vless",
+      "server": "185.146.173.237",
+      "server_port": 80,
+      "uuid": "8044d53d-2efb-4cc7-9587-4c95caa5ab56",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @realvpnmaster #5",
+      "type": "vless",
+      "server": "185.146.173.185",
+      "server_port": 2095,
+      "uuid": "5c7d90fe-f7d5-40bf-bfca-7726d5e44786",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @realvpnmaster #6",
       "type": "vless",
       "server": "185.146.173.58",
       "server_port": 80,
@@ -392,11 +419,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇸🇪 SE | VLESS | @realvpnmaster #5",
+      "tag": "🇸🇪 SE | VLESS | @serverv2ray00 #1",
       "type": "vless",
-      "server": "185.146.173.58",
+      "server": "185.146.173.59",
       "server_port": 80,
-      "uuid": "29d742a6-c2d9-4f1d-bd43-e9ce835d0784",
+      "uuid": "SVNTEAM",
       "packet_encoding": "xudp"
     },
     {
@@ -432,13 +459,21 @@
     {
       "tag": "🇸🇪 SE | VLESS | @v2logy #1",
       "type": "vless",
-      "server": "185.146.173.158",
+      "server": "185.146.173.237",
       "server_port": 80,
       "uuid": "telegram-id-ArV2ray",
       "packet_encoding": "xudp"
     },
     {
       "tag": "🇸🇪 SE | VLESS | @v2logy #2",
+      "type": "vless",
+      "server": "185.146.173.158",
+      "server_port": 80,
+      "uuid": "telegram-id-ArV2ray",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @v2logy #3",
       "type": "vless",
       "server": "185.146.173.237",
       "server_port": 80,
@@ -449,22 +484,6 @@
       "tag": "🇸🇪 SE | TUIC | @vipv2rey #1",
       "type": "tuic",
       "server": "70.34.197.98",
-      "server_port": 443,
-      "uuid": "87bc1693-8860-41d7-acf4-e6edf49abbbb",
-      "password": "87bc1693-8860-41d7-acf4-e6edf49abbbb",
-      "congestion_control": "bbr",
-      "udp_relay_mode": "native",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": false,
-        "alpn": null
-      }
-    },
-    {
-      "tag": "🇸🇪 SE | TUIC | @vipv2rey #2",
-      "type": "tuic",
-      "server": "70.34.208.3",
       "server_port": 443,
       "uuid": "87bc1693-8860-41d7-acf4-e6edf49abbbb",
       "password": "87bc1693-8860-41d7-acf4-e6edf49abbbb",

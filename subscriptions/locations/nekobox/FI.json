@@ -78,8 +78,9 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
-        "🇫🇮 FI | VLESS | @v2ray_youtube #1",
-        "🇫🇮 FI | SS | @v2raymelliii #1"
+        "🇫🇮 FI | SS | @v2raymelliii #1",
+        "🇫🇮 FI | VLESS | @v2rayvpn2 #1",
+        "🇫🇮 FI | VLESS | @v2rayvpn2 #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,8 +89,9 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
-        "🇫🇮 FI | VLESS | @v2ray_youtube #1",
-        "🇫🇮 FI | SS | @v2raymelliii #1"
+        "🇫🇮 FI | SS | @v2raymelliii #1",
+        "🇫🇮 FI | VLESS | @v2rayvpn2 #1",
+        "🇫🇮 FI | VLESS | @v2rayvpn2 #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -127,20 +129,56 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @v2ray_youtube #1",
-      "type": "vless",
-      "server": "alman.hitraveling.sbs",
-      "server_port": 58777,
-      "uuid": "6debd58d-2360-4c63-9278-e8b26d0f6d41",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇫🇮 FI | SS | @v2raymelliii #1",
       "type": "shadowsocks",
       "server": "sb.matrixcs.ir",
       "server_port": 2086,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpibF8wWTNFeUdjMzc3c0pqTmJ4UE5B",
       "password": null
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2rayvpn2 #1",
+      "type": "vless",
+      "server": "finland.vpn-mtk.ru",
+      "server_port": 443,
+      "uuid": "5cf56d3c-9647-4e0f-8c0a-cbf924a91f21",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2rayvpn2 #2",
+      "type": "vless",
+      "server": "finland.vpn-mtk.ru",
+      "server_port": 443,
+      "uuid": "5cf56d3c-9647-4e0f-8c0a-cbf924a91f21",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

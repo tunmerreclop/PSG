@@ -87,7 +87,8 @@
         "🇩🇪 DE | VLESS | @kafing_2 #1",
         "🇩🇪 DE | VLESS | @mimitdl #2",
         "🇳🇱 NL | VLESS | @satellitenewspersian #1",
-        "🇺🇸 US | VLESS | @v2raych #1"
+        "🇷🇺 RU | VLESS | @v2ray_vmes #1",
+        "🇫🇮 FI | VLESS | @v2rayvpn2 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -105,7 +106,8 @@
         "🇩🇪 DE | VLESS | @kafing_2 #1",
         "🇩🇪 DE | VLESS | @mimitdl #2",
         "🇳🇱 NL | VLESS | @satellitenewspersian #1",
-        "🇺🇸 US | VLESS | @v2raych #1"
+        "🇷🇺 RU | VLESS | @v2ray_vmes #1",
+        "🇫🇮 FI | VLESS | @v2rayvpn2 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -315,11 +317,33 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2raych #1",
+      "tag": "🇷🇺 RU | VLESS | @v2ray_vmes #1",
       "type": "vless",
-      "server": "cdn-download25.zula.ir.rahyabzamin.online",
-      "server_port": 2083,
-      "uuid": "f2b63359-b3c1-482a-91ad-78cd5b8faa03",
+      "server": "ss.02020.sbs",
+      "server_port": 8443,
+      "uuid": "c19fb567-74a9-454f-9757-e612fc4be371",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2rayvpn2 #1",
+      "type": "vless",
+      "server": "finland.vpn-mtk.ru",
+      "server_port": 443,
+      "uuid": "5cf56d3c-9647-4e0f-8c0a-cbf924a91f21",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
