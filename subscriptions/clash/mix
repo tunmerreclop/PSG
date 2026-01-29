@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇽🇽 XX | TROJAN | @config_proxy #1", "server": "104.17.162.123", "port": 8443, "type": "trojan", "skip-cert-verify": false, "password": "t2vt6i26autu"}
   - {"name": "🇹🇼 TW | TROJAN | @configv2rayforfree #1", "server": "green2.cdntencentmusic.com", "port": 31101, "type": "trojan", "skip-cert-verify": false, "password": "3e7e8f27-3963-44f1-bad7-dc8b88206429"}
   - {"name": "🇦🇺 AU | VMESS | @dailyv2ray #1", "server": "104.31.16.104", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "12c25b50-f6c7-11ed-b230-205c6d5f5d78", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/qmbdkyzn", "headers": {"Host": "us-4.0rd.net"}}}
   - {"name": "🇯🇵 JP | TROJAN | @free4allvpn #1", "server": "kuame.missionsec.us", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D"}
@@ -31,6 +32,7 @@ proxies:
   - {"name": "🇧🇾 BY | VMESS | @ir_netproxy #1", "server": "5.161.156.196", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "d20e38ef-1a4d-4009-a00d-2f0d44e3c65a", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇺🇸 US | VMESS | @ir_netproxy #1", "server": "172.67.207.114", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 1, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "linkvws", "headers": {"Host": "ophelia.mom"}}}
   - {"name": "🇽🇽 XX | VMESS | @iranvpnet #1", "server": "mute-math-d64e.0e503992ad7026.WOrKERs.deV", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/aveiror.com:443/linkvws", "headers": {"Host": "mute-math-d64e.0e503992ad7026.woRKERS.DeV"}}}
+  - {"name": "🇲🇾 MY | TROJAN | @kafing_2 #1", "server": "xiaozhu1.kkieo555.cn", "port": 41274, "type": "trojan", "skip-cert-verify": false, "password": "f40d74b6-6092-4a32-bde1-0eec5db90de0"}
   - {"name": "🇩🇪 DE | VMESS | @khoneproxy #1", "server": "142.132.163.200", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "7f965e3e-b03f-455e-a96e-01b61f72537a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/graphql", "headers": {"Host": "142.132.163.200"}}}
   - {"name": "🇦🇺 AU | VMESS | @khoneproxy #1", "server": "us-2.0rd.net", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "597888c0-a318-11ed-b536-205c6d5f5d78", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/tq98e0yk", "headers": {"Host": "us-2.0rd.net"}}}
   - {"name": "🇩🇪 DE | VMESS | @khoneproxy #2", "server": "167.235.205.182", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
@@ -38,8 +40,6 @@ proxies:
   - {"name": "🇺🇸 US | VMESS | @manstervpn #1", "server": "172.67.71.160", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkws", "headers": {"Host": "obdii.cfd"}}}
   - {"name": "🇺🇸 US | VMESS | @mi_pn_official #1", "server": "104.21.15.212", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkws", "headers": {"Host": "glweidf.sbs"}}}
   - {"name": "🇽🇽 XX | VMESS | @nofilter_v2rayng #1", "server": "104.18.24.232", "port": 2083, "type": "vmess", "skip-cert-verify": true, "uuid": "f07f8891-8ade-4d5d-d78e-68460d3954c5", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/", "headers": {"Host": "ajyhgfjayetriuwygcinyuwegiywefgbcifsfgs.vajiko.ir"}}}
-  - {"name": "🇫🇷 FR | TROJAN | @privatevpns #1", "server": "13.36.112.231", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
-  - {"name": "🇩🇪 DE | TROJAN | @privatevpns #1", "server": "52.28.25.58", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
   - {"name": "🇷🇺 RU | VMESS | @prooxyk #1", "server": "77.v2ray1.xyz", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/A2DJOPFT", "headers": {"Host": "77.v2ray1.xyz"}}}
   - {"name": "🇽🇽 XX | VMESS | @proxie #1", "server": "104.21.62.144", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "6734be04-d4d0-4495-a9ac-899bd83c3e0b", "alterId": 0, "cipher": "zero", "network": "xhttp", "tls": true}
   - {"name": "🇽🇽 XX | VMESS | @proxie #2", "server": "104.21.62.144", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "e9e3bc02-c4ec-4670-ad23-fe62f2ddaf9f", "alterId": 0, "cipher": "zero", "network": "xhttp", "tls": true}
@@ -49,6 +49,7 @@ proxies:
   - {"name": "🇽🇽 XX | VMESS | @proxie #6", "server": "104.21.62.144", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "9ec1787e-7919-475d-8c7f-976ebe92e299", "alterId": 0, "cipher": "zero", "network": "xhttp", "tls": true}
   - {"name": "🇽🇽 XX | VMESS | @proxy48 #1", "server": "172.66.213.38", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "dfbbc8de-8a4f-407d-8069-6de38d83c4e1", "alterId": 0, "cipher": "chacha20-poly1305", "network": "grpc", "tls": true, "grpc-opts": {"grpc-service-name": "WgCmp8p80KDzo64uHE"}}
   - {"name": "🇫🇷 FR | TROJAN | @proxyfn #1", "server": "51.91.11.29", "port": 80, "type": "trojan", "skip-cert-verify": false, "password": "598c19f3-a48e-47cd-8451-1ba04ea094d0"}
+  - {"name": "🇽🇽 XX | TROJAN | @prrofile_purple #1", "server": "104.17.162.123", "port": 8443, "type": "trojan", "skip-cert-verify": false, "password": "u2k1jh0og5vn"}
   - {"name": "🇽🇽 XX | VMESS | @qrv2ray #1", "server": "104.19.204.14", "port": 2087, "type": "vmess", "skip-cert-verify": true, "uuid": "4658c416-9769-48c3-fdf6-9f4f846a9194", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/", "headers": {"Host": "jffghsdufhgsduhfglskdufhgiruygfhddjfh.vajiko.ir"}}}
   - {"name": "🇺🇸 US | VMESS | @serverv2ray00 #1", "server": "104.21.4.6", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkws", "headers": {"Host": "glweidf.cfd"}}}
   - {"name": "🇺🇸 US | VMESS | @serverv2ray00 #2", "server": "172.67.196.112", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkvws", "headers": {"Host": "kellie.makeup"}}}
@@ -56,11 +57,9 @@ proxies:
   - {"name": "🇽🇽 XX | TROJAN | @teamvpnpro #2", "server": "chatbuzzteambhm.chatbuzzt7150.workers.dev", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "c7f9b8f0-bfdb-11ee-a15c-1239d0255272"}
   - {"name": "🇺🇸 US | VMESS | @v2ray_collector #1", "server": "209.126.84.189", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "2c981164-9b93-4bca-94ff-b78d3f8498d7", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/vmessws", "headers": {"Host": "209.126.84.189"}}}
   - {"name": "🇺🇸 US | TROJAN | @v2ray_collector #1", "server": "198.23.229.250", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "2ee85121-31de-4581-a492-eb00f606e392"}
-  - {"name": "🇽🇽 XX | VMESS | @v2ray_free_conf #1", "server": "104.20.14.250", "port": 2053, "type": "vmess", "skip-cert-verify": true, "uuid": "9e8e037c-a098-4a4f-b66b-95ccac43d8c4", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/graphql", "headers": {"Host": "ajyhgfjayetriuwygcinyuwegiywefgbcifsfgs.vajiko.ir"}}}
-  - {"name": "🇸🇪 SE | VMESS | @v2ray_free_conf #1", "server": "46.246.126.154", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "f2fd0786-1059-4f64-d54e-3f3a568c6c68", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/", "headers": {"Host": "46.246.126.154"}}}
-  - {"name": "🇽🇽 XX | TROJAN | @v2raych #1", "server": "104.17.162.123", "port": 8443, "type": "trojan", "skip-cert-verify": false, "password": "u2k1jh0og5vn"}
+  - {"name": "🇭🇰 HK | VMESS | @v2ray_free_conf #1", "server": "v10.hdacd.com", "port": 30807, "type": "vmess", "skip-cert-verify": true, "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇫🇷 FR | VMESS | @v2raytg #1", "server": "162.19.248.238", "port": 550, "type": "vmess", "skip-cert-verify": true, "uuid": "ede27a79-b039-490b-932c-495de4b68880", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
-  - {"name": "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1", "server": "13.36.112.231", "port": 22223, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-v2rayvpnchannel"}
+  - {"name": "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1", "server": "52.28.25.58", "port": 22223, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-v2rayvpnchannel"}
   - {"name": "🇮🇷 IR | VMESS | @v_2rayng0 #1", "server": "cDN-1.GxNeT.cAm", "port": 3000, "type": "vmess", "skip-cert-verify": true, "uuid": "cf2dadc0-8532-4686-a6e0-012f76be3e1e", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇽🇽 XX | TROJAN | @v_2rayng0 #1", "server": "chatgpt.com", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
   - {"name": "🇫🇷 FR | TROJAN | @vpn_ioss #1", "server": "88.214.24.235", "port": 9443, "type": "trojan", "skip-cert-verify": false, "password": "02948bde80594712b974368035f294dd"}
@@ -79,6 +78,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇽🇽 XX | TROJAN | @config_proxy #1'
       - '🇹🇼 TW | TROJAN | @configv2rayforfree #1'
       - '🇦🇺 AU | VMESS | @dailyv2ray #1'
       - '🇯🇵 JP | TROJAN | @free4allvpn #1'
@@ -87,6 +87,7 @@ proxy-groups:
       - '🇧🇾 BY | VMESS | @ir_netproxy #1'
       - '🇺🇸 US | VMESS | @ir_netproxy #1'
       - '🇽🇽 XX | VMESS | @iranvpnet #1'
+      - '🇲🇾 MY | TROJAN | @kafing_2 #1'
       - '🇩🇪 DE | VMESS | @khoneproxy #1'
       - '🇦🇺 AU | VMESS | @khoneproxy #1'
       - '🇩🇪 DE | VMESS | @khoneproxy #2'
@@ -94,8 +95,6 @@ proxy-groups:
       - '🇺🇸 US | VMESS | @manstervpn #1'
       - '🇺🇸 US | VMESS | @mi_pn_official #1'
       - '🇽🇽 XX | VMESS | @nofilter_v2rayng #1'
-      - '🇫🇷 FR | TROJAN | @privatevpns #1'
-      - '🇩🇪 DE | TROJAN | @privatevpns #1'
       - '🇷🇺 RU | VMESS | @prooxyk #1'
       - '🇽🇽 XX | VMESS | @proxie #1'
       - '🇽🇽 XX | VMESS | @proxie #2'
@@ -105,6 +104,7 @@ proxy-groups:
       - '🇽🇽 XX | VMESS | @proxie #6'
       - '🇽🇽 XX | VMESS | @proxy48 #1'
       - '🇫🇷 FR | TROJAN | @proxyfn #1'
+      - '🇽🇽 XX | TROJAN | @prrofile_purple #1'
       - '🇽🇽 XX | VMESS | @qrv2ray #1'
       - '🇺🇸 US | VMESS | @serverv2ray00 #1'
       - '🇺🇸 US | VMESS | @serverv2ray00 #2'
@@ -112,11 +112,9 @@ proxy-groups:
       - '🇽🇽 XX | TROJAN | @teamvpnpro #2'
       - '🇺🇸 US | VMESS | @v2ray_collector #1'
       - '🇺🇸 US | TROJAN | @v2ray_collector #1'
-      - '🇽🇽 XX | VMESS | @v2ray_free_conf #1'
-      - '🇸🇪 SE | VMESS | @v2ray_free_conf #1'
-      - '🇽🇽 XX | TROJAN | @v2raych #1'
+      - '🇭🇰 HK | VMESS | @v2ray_free_conf #1'
       - '🇫🇷 FR | VMESS | @v2raytg #1'
-      - '🇫🇷 FR | TROJAN | @v2rayvpnchannel #1'
+      - '🇩🇪 DE | TROJAN | @v2rayvpnchannel #1'
       - '🇮🇷 IR | VMESS | @v_2rayng0 #1'
       - '🇽🇽 XX | TROJAN | @v_2rayng0 #1'
       - '🇫🇷 FR | TROJAN | @vpn_ioss #1'

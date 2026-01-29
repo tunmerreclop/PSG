@@ -26,7 +26,9 @@ proxies:
   - {"name": "🇷🇺 RU | VLESS | @father_vpn #1", "server": "45.67.215.233", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1305886a-1725-4abc-9be1-f11bf6cbaf4f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @iranbfilter #1", "server": "benefits.by", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "2d29bc24-aaf2-4e48-b0c1-ec6d625f8271", "network": "httpupgrade", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @kurdistan_vpn_perfectt #1", "server": "fastly2.yasharmobile.com", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "b5585686-fb26-4534-8f84-71ac40a3f462", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @outline_ir #1", "server": "37.139.32.212", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "c38e6142-9223-47ef-84ce-2a84a308cafb", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇷🇺 RU | VMESS | @prooxyk #1", "server": "77.v2ray1.xyz", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/A2DJOPFT", "headers": {"Host": "77.v2ray1.xyz"}}}
+  - {"name": "🇷🇺 RU | VLESS | @v2ray_vmes #1", "server": "ss.02020.sbs", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "c19fb567-74a9-454f-9757-e612fc4be371", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -43,7 +45,9 @@ proxy-groups:
       - '🇷🇺 RU | VLESS | @father_vpn #1'
       - '🇷🇺 RU | VLESS | @iranbfilter #1'
       - '🇷🇺 RU | VLESS | @kurdistan_vpn_perfectt #1'
+      - '🇷🇺 RU | VLESS | @outline_ir #1'
       - '🇷🇺 RU | VMESS | @prooxyk #1'
+      - '🇷🇺 RU | VLESS | @v2ray_vmes #1'
 
   - name: 🌍 Global Media
     type: select

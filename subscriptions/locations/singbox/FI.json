@@ -92,6 +92,7 @@
         "direct",
         "🇫🇮 FI | VLESS | @flyv2ray #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
+        "🇫🇮 FI | VLESS | @netmellianti #1",
         "🇫🇮 FI | SS | @outline_ir #1",
         "🇫🇮 FI | VLESS | @v2rayvpn2 #1",
         "🇫🇮 FI | VLESS | @v2rayvpn2 #2"
@@ -104,6 +105,7 @@
       "outbounds": [
         "🇫🇮 FI | VLESS | @flyv2ray #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
+        "🇫🇮 FI | VLESS | @netmellianti #1",
         "🇫🇮 FI | SS | @outline_ir #1",
         "🇫🇮 FI | VLESS | @v2rayvpn2 #1",
         "🇫🇮 FI | VLESS | @v2rayvpn2 #2"
@@ -145,6 +147,28 @@
       "server": "fi4.srv.cdnopl.link",
       "server_port": 6443,
       "uuid": "abb26a5a-3223-476f-a732-4c66f6a116ab",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @netmellianti #1",
+      "type": "vless",
+      "server": "gra.ipcl0ud.com",
+      "server_port": 443,
+      "uuid": "70f7b45a-dbf8-42a1-adc3-3e9124591c98",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

@@ -80,15 +80,16 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @configasli #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
-        "🇩🇪 DE | VLESS | @kafing_2 #1",
         "🇩🇪 DE | VLESS | @mimitdl #1",
         "🇳🇱 NL | VLESS | @satellitenewspersian #1",
         "🇩🇪 DE | VLESS | @savagev2ray #1",
         "🇩🇪 DE | VLESS | @savagev2ray #2",
-        "🇫🇮 FI | VLESS | @v2rayvpn2 #1"
+        "🇷🇺 RU | VLESS | @v2ray_vmes #1",
+        "🇮🇷 IR | VLESS | @v2raych #2",
+        "🇫🇮 FI | VLESS | @v2rayvpn2 #1",
+        "🇩🇪 DE | VLESS | @vip_vpn_2022 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,15 +100,16 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @configasli #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
-        "🇩🇪 DE | VLESS | @kafing_2 #1",
         "🇩🇪 DE | VLESS | @mimitdl #1",
         "🇳🇱 NL | VLESS | @satellitenewspersian #1",
         "🇩🇪 DE | VLESS | @savagev2ray #1",
         "🇩🇪 DE | VLESS | @savagev2ray #2",
-        "🇫🇮 FI | VLESS | @v2rayvpn2 #1"
+        "🇷🇺 RU | VLESS | @v2ray_vmes #1",
+        "🇮🇷 IR | VLESS | @v2raych #2",
+        "🇫🇮 FI | VLESS | @v2rayvpn2 #1",
+        "🇩🇪 DE | VLESS | @vip_vpn_2022 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -195,15 +197,6 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @configasli #1",
-      "type": "vless",
-      "server": "s1.aparat-movies-download.ir",
-      "server_port": 4450,
-      "uuid": "a19f4213-fcb8-4384-9c85-cb51cae8ab8b",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
-    },
-    {
       "tag": "🇳🇱 NL | VLESS | @filterk0sh #1",
       "type": "vless",
       "server": "eng14.netliberated.org",
@@ -244,23 +237,6 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @kafing_2 #1",
-      "type": "vless",
-      "server": "partners.dissertationhelpspecialist.com",
-      "server_port": 443,
-      "uuid": "fc204a34-2e5a-451c-863b-a65bb11a7585",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     },
@@ -313,7 +289,7 @@
       "type": "vless",
       "server": "panel1.myblog.org.tr",
       "server_port": 443,
-      "uuid": "ac6a7752-8963-4b20-bc39-8a6bdc2c9b9b",
+      "uuid": "d74647df-9f79-475f-a4f2-cc72bd311349",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -353,11 +329,77 @@
       }
     },
     {
+      "tag": "🇷🇺 RU | VLESS | @v2ray_vmes #1",
+      "type": "vless",
+      "server": "ss.02020.sbs",
+      "server_port": 8443,
+      "uuid": "c19fb567-74a9-454f-9757-e612fc4be371",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "ultra40.erebian01vaults.top",
+      "server_port": 34523,
+      "uuid": "f7d1a35d-36a7-40f7-a89a-213d0cf363c6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇫🇮 FI | VLESS | @v2rayvpn2 #1",
       "type": "vless",
       "server": "finland.vpn-mtk.ru",
       "server_port": 443,
       "uuid": "5cf56d3c-9647-4e0f-8c0a-cbf924a91f21",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @vip_vpn_2022 #1",
+      "type": "vless",
+      "server": "up.love-speed.sbs",
+      "server_port": 7567,
+      "uuid": "2b7a1667-345e-4fdf-b1a7-4957435be682",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
