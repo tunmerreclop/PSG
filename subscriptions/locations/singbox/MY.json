@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇲🇾 MY | TROJAN | @kafing_2 #1"
+        "🇲🇾 MY | TROJAN | @kafing_2 #1",
+        "🇲🇾 MY | TROJAN | @kafing_2 #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇲🇾 MY | TROJAN | @kafing_2 #1"
+        "🇲🇾 MY | TROJAN | @kafing_2 #1",
+        "🇲🇾 MY | TROJAN | @kafing_2 #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -115,6 +117,22 @@
       "server": "xiaozhu1.kkieo555.cn",
       "server_port": 41274,
       "password": "f40d74b6-6092-4a32-bde1-0eec5db90de0",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇲🇾 MY | TROJAN | @kafing_2 #2",
+      "type": "trojan",
+      "server": "xiaozhu1.kkieo555.cn",
+      "server_port": 41277,
+      "password": "7bdf5985-65ff-4f56-935a-2ff73cf4bf11",
       "tls": {
         "enabled": true,
         "server_name": "",
