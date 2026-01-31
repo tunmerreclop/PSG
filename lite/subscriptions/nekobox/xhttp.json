@@ -80,16 +80,15 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇽🇽 XX | VLESS | @config_proxy #1",
+        "🇺🇸 US | VLESS | @config_proxy #1",
+        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+        "🇺🇸 US | VLESS | @v2rayfast_7 #1",
+        "🇽🇽 XX | VLESS | @v2rayvpn2 #2",
         "🇺🇸 US | VLESS | @evay_vpn #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
-        "🇩🇪 DE | VLESS | @v_2rayng0 #1",
-        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
-        "🇺🇸 US | VLESS | @v2rayfast_7 #1",
-        "🇽🇽 XX | TROJAN | @v2rayngconfig #1",
-        "🇽🇽 XX | VLESS | @v2rayvpn2 #2"
+        "🇩🇪 DE | VLESS | @v_2rayng0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,16 +99,15 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇽🇽 XX | VLESS | @config_proxy #1",
+        "🇺🇸 US | VLESS | @config_proxy #1",
+        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+        "🇺🇸 US | VLESS | @v2rayfast_7 #1",
+        "🇽🇽 XX | VLESS | @v2rayvpn2 #2",
         "🇺🇸 US | VLESS | @evay_vpn #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
-        "🇩🇪 DE | VLESS | @v_2rayng0 #1",
-        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
-        "🇺🇸 US | VLESS | @v2rayfast_7 #1",
-        "🇽🇽 XX | TROJAN | @v2rayngconfig #1",
-        "🇽🇽 XX | VLESS | @v2rayvpn2 #2"
+        "🇩🇪 DE | VLESS | @v_2rayng0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -197,11 +195,35 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @config_proxy #1",
+      "tag": "🇺🇸 US | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "104.20.3.216",
-      "server_port": 2087,
-      "uuid": "46b39cbd-0014-4670-8252-a2e2770f5427",
+      "server": "python.org",
+      "server_port": 80,
+      "uuid": "6ebc0f91-da76-4875-afce-8c4f52408237",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+      "type": "vless",
+      "server": "germany.fast.hosting-ip.com",
+      "server_port": 80,
+      "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2rayfast_7 #1",
+      "type": "vless",
+      "server": "fast4.zone-server-irani.ir",
+      "server_port": 80,
+      "uuid": "79df85dd-cb40-4b32-828e-f38d918d85e3",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2rayvpn2 #2",
+      "type": "vless",
+      "server": "cloud2.vipfast7.site",
+      "server_port": 8880,
+      "uuid": "c11e0804-f0e2-2071-f44f-7f3dbe2e16e9",
       "packet_encoding": "xudp"
     },
     {
@@ -269,37 +291,6 @@
       "server": "146.75.119.82",
       "server_port": 80,
       "uuid": "18ee1094-fc1a-4b8c-942b-1d8da3db6ca6",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @eliteproxyv2 #1",
-      "type": "vless",
-      "server": "germany.fast.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @v2rayfast_7 #1",
-      "type": "vless",
-      "server": "fast4.zone-server-irani.ir",
-      "server_port": 80,
-      "uuid": "79df85dd-cb40-4b32-828e-f38d918d85e3",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | TROJAN | @v2rayngconfig #1",
-      "type": "trojan",
-      "server": "sama.asukasimp.com",
-      "server_port": 2087,
-      "password": "Zy6DXTCxtR"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @v2rayvpn2 #2",
-      "type": "vless",
-      "server": "cloud2.vipfast7.site",
-      "server_port": 8880,
-      "uuid": "c11e0804-f0e2-2071-f44f-7f3dbe2e16e9",
       "packet_encoding": "xudp"
     }
   ],
