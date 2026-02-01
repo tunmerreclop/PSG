@@ -168,17 +168,15 @@
     {
       "tag": "🇸🇪 SE | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "144.31.128.36",
-      "server_port": 443,
-      "uuid": "745d8b0e-1bf2-4921-8058-4d67dd3dbc13",
+      "server": "62.60.159.141",
+      "server_port": 2053,
+      "uuid": "5be76388-6ea5-4aa1-8e95-2d022494c06e",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
         }
       }
     },
