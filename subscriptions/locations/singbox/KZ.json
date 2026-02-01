@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQUw=
+//profile-title: base64:UFNHIHwgS1o=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇱 AL | VLESS | @v2raych #1"
+        "🇰🇿 KZ | VLESS | @filterk0sh #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇱 AL | VLESS | @v2raych #1"
+        "🇰🇿 KZ | VLESS | @filterk0sh #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,19 +110,24 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇱 AL | VLESS | @v2raych #1",
+      "tag": "🇰🇿 KZ | VLESS | @filterk0sh #1",
       "type": "vless",
-      "server": "185.177.238.131",
-      "server_port": 443,
-      "uuid": "fdeecee7-dbed-47f6-bea2-cb0073b5e435",
+      "server": "77.73.232.61",
+      "server_port": 19747,
+      "uuid": "2a9ed01e-5455-44b4-a66a-76ee8165f0ac",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "cl6-alb.privetnet.ru",
+        "server_name": "",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇦🇱 AL | VLESS | @v2raych #1", "server": "185.177.238.131", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "fdeecee7-dbed-47f6-bea2-cb0073b5e435", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "servername": "cl6-alb.privetnet.ru"}
+  - {"name": "🇵🇱 PL | VLESS | @config_proxy #1", "server": "144.31.1.227", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "5f836386-335e-43a0-951a-f37fd587bc18", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇦🇱 AL | VLESS | @v2raych #1'
+      - '🇵🇱 PL | VLESS | @config_proxy #1'
 
   - name: 🌍 Global Media
     type: select

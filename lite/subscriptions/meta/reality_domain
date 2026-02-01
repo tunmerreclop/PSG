@@ -30,6 +30,7 @@ proxies:
   - {"name": "🇳🇱 NL | VLESS | @filterk0sh #1", "server": "eng14.netliberated.org", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0bb6dff2-0029-4b81-8c81-4fc70fae1ed9", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇫🇮 FI | VLESS | @freeconfigsplus #1", "server": "fi4.srv.cdnopl.link", "port": 6443, "type": "vless", "skip-cert-verify": true, "uuid": "abb26a5a-3223-476f-a732-4c66f6a116ab", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇩🇪 DE | VLESS | @v2ray1_ng #1", "server": "download.wortexnetwork.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ea587015-7e48-4f1e-898b-b83c5b2bdf21", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇮🇷 IR | VLESS | @v2ray_vmes #2", "server": "m1.designister.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a0011204-1bd7-489b-b120-eeeab41b6e59", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -50,6 +51,7 @@ proxy-groups:
       - '🇳🇱 NL | VLESS | @filterk0sh #1'
       - '🇫🇮 FI | VLESS | @freeconfigsplus #1'
       - '🇩🇪 DE | VLESS | @v2ray1_ng #1'
+      - '🇮🇷 IR | VLESS | @v2ray_vmes #2'
 
   - name: 🌍 Global Media
     type: select

@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇧🇬 BG | SS | @ai_duet #1"
+        "🇧🇬 BG | SS | @ai_duet #1",
+        "🇧🇬 BG | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇧🇬 BG | SS | @ai_duet #1"
+        "🇧🇬 BG | SS | @ai_duet #1",
+        "🇧🇬 BG | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -115,6 +117,14 @@
       "server": "95.164.116.33",
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwUW1uQzAzSk9iYlBoZGg1RkJKSGdENmpuVExjaHNSQQ==",
+      "password": null
+    },
+    {
+      "tag": "🇧🇬 BG | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "95.164.10.228",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTRGFGSVNyM0dmbTZZa0JTU3JGSUV3d1dqRUVVN1hibw==",
       "password": null
     }
   ],
