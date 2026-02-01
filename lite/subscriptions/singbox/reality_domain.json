@@ -94,10 +94,12 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @configasli #1",
+        "🇮🇷 IR | VLESS | @connectshu #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
-        "🇩🇪 DE | VLESS | @v2ray1_ng #1",
-        "🇫🇮 FI | VLESS | @v2rayvpn2 #1"
+        "🇩🇪 DE | VLESS | @netmellianti #1",
+        "🇫🇮 FI | VLESS | @v2rayvpn2 #1",
+        "🇩🇪 DE | VLESS | @v2rayvpn2 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -109,10 +111,12 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @configasli #1",
+        "🇮🇷 IR | VLESS | @connectshu #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
-        "🇩🇪 DE | VLESS | @v2ray1_ng #1",
-        "🇫🇮 FI | VLESS | @v2rayvpn2 #1"
+        "🇩🇪 DE | VLESS | @netmellianti #1",
+        "🇫🇮 FI | VLESS | @v2rayvpn2 #1",
+        "🇩🇪 DE | VLESS | @v2rayvpn2 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -205,6 +209,28 @@
       "flow": "xtls-rprx-vision"
     },
     {
+      "tag": "🇮🇷 IR | VLESS | @connectshu #1",
+      "type": "vless",
+      "server": "ultrawide.zaros.tech",
+      "server_port": 12003,
+      "uuid": "174ba1c4-e694-472f-8f1b-1140752338f5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇳🇱 NL | VLESS | @filterk0sh #1",
       "type": "vless",
       "server": "eng14.netliberated.org",
@@ -249,11 +275,11 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2ray1_ng #1",
+      "tag": "🇩🇪 DE | VLESS | @netmellianti #1",
       "type": "vless",
-      "server": "download.wortexnetwork.com",
+      "server": "dlc-ger2.persianpinggame.ir",
       "server_port": 443,
-      "uuid": "ea587015-7e48-4f1e-898b-b83c5b2bdf21",
+      "uuid": "dc4651a0-39c9-4e09-81f9-ef95aa993c8e",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -276,6 +302,28 @@
       "server": "market.chepschasb.shop",
       "server_port": 2052,
       "uuid": "chanel%3BV2ray_fa3t",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2rayvpn2 #1",
+      "type": "vless",
+      "server": "download.wortexnetwork.com",
+      "server_port": 443,
+      "uuid": "ea587015-7e48-4f1e-898b-b83c5b2bdf21",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

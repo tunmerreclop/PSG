@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgTUQ=
+//profile-title: base64:UFNHIHwgTVk=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇲🇩 MD | VLESS | @config_proxy #1"
+        "🇲🇾 MY | TROJAN | @prrofile_purple #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇲🇩 MD | VLESS | @config_proxy #1"
+        "🇲🇾 MY | TROJAN | @prrofile_purple #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇲🇩 MD | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "jallermo.site",
-      "server_port": 8443,
-      "uuid": "93a20fae-54f4-4e25-93ef-995b3e52fc04",
-      "packet_encoding": "xudp"
+      "tag": "🇲🇾 MY | TROJAN | @prrofile_purple #1",
+      "type": "trojan",
+      "server": "xiaozhu1.kkieo555.cn",
+      "server_port": 41275,
+      "password": "378b3db2-4eb2-4f66-b567-e87769c0d334",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

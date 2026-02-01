@@ -81,6 +81,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @evay_vpn #1",
+        "🇽🇽 XX | VLESS | @ghalagyann #4",
         "🇺🇸 US | VLESS | @mpproxy #2",
         "🇺🇸 US | VLESS | @mpproxy #3",
         "🇽🇽 XX | VLESS | @proxie #1",
@@ -92,8 +93,7 @@
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇽🇽 XX | VLESS | @vmesc #2",
-        "🇽🇽 XX | VLESS | @vpn_ioss #3",
-        "🇺🇸 US | VLESS | @vpnplusee_free #1"
+        "🇽🇽 XX | VLESS | @vpn_ioss #3"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -105,6 +105,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @evay_vpn #1",
+        "🇽🇽 XX | VLESS | @ghalagyann #4",
         "🇺🇸 US | VLESS | @mpproxy #2",
         "🇺🇸 US | VLESS | @mpproxy #3",
         "🇽🇽 XX | VLESS | @proxie #1",
@@ -116,8 +117,7 @@
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇽🇽 XX | VLESS | @vmesc #2",
-        "🇽🇽 XX | VLESS | @vpn_ioss #3",
-        "🇺🇸 US | VLESS | @vpnplusee_free #1"
+        "🇽🇽 XX | VLESS | @vpn_ioss #3"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -211,6 +211,23 @@
       "server_port": 80,
       "uuid": "02d87d00-c769-48d8-91cb-bd05e2f62790",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @ghalagyann #4",
+      "type": "vless",
+      "server": "172.64.152.23",
+      "server_port": 443,
+      "uuid": "8196d16d-855b-42bc-80f4-b5db138c5572",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @mpproxy #2",
@@ -360,14 +377,6 @@
       "server": "172.66.40.99",
       "server_port": 8080,
       "uuid": "32ee6cfa-a6c2-48ec-b833-b072975c7177",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "199.232.11.238",
-      "server_port": 80,
-      "uuid": "8edaa2ae-7c08-4370-93b5-a3c2637bad9d",
       "packet_encoding": "xudp"
     }
   ],
