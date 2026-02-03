@@ -29,6 +29,7 @@ proxies:
   - {"name": "🇦🇪 AE | TROJAN | @outline_ir #1", "server": "94.140.0.1", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "bpb-trojan"}
   - {"name": "🇦🇪 AE | TROJAN | @v2raymelliii #1", "server": "94.140.0.1", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "bpb-trojan"}
   - {"name": "🇦🇪 AE | TROJAN | @vmesc #1", "server": "94.140.0.1", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "bpb-trojan"}
+  - {"name": "🇦🇪 AE | VLESS | @vpnplusee_free #1", "server": "blog.zanbori.ir", "port": 4220, "type": "vless", "skip-cert-verify": true, "uuid": "51d7e784-d531-4756-a887-cb60b3069aa3", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -48,6 +49,7 @@ proxy-groups:
       - '🇦🇪 AE | TROJAN | @outline_ir #1'
       - '🇦🇪 AE | TROJAN | @v2raymelliii #1'
       - '🇦🇪 AE | TROJAN | @vmesc #1'
+      - '🇦🇪 AE | VLESS | @vpnplusee_free #1'
 
   - name: 🌍 Global Media
     type: select
