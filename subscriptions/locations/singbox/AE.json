@@ -97,7 +97,8 @@
         "🇦🇪 AE | VLESS | @orange_vpns #1",
         "🇦🇪 AE | TROJAN | @outline_ir #1",
         "🇦🇪 AE | SS | @outlinereleasedkey #1",
-        "🇦🇪 AE | TROJAN | @v2raymelliii #1"
+        "🇦🇪 AE | TROJAN | @v2raymelliii #1",
+        "🇦🇪 AE | TROJAN | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -112,7 +113,8 @@
         "🇦🇪 AE | VLESS | @orange_vpns #1",
         "🇦🇪 AE | TROJAN | @outline_ir #1",
         "🇦🇪 AE | SS | @outlinereleasedkey #1",
-        "🇦🇪 AE | TROJAN | @v2raymelliii #1"
+        "🇦🇪 AE | TROJAN | @v2raymelliii #1",
+        "🇦🇪 AE | TROJAN | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -198,6 +200,22 @@
     },
     {
       "tag": "🇦🇪 AE | TROJAN | @v2raymelliii #1",
+      "type": "trojan",
+      "server": "94.140.0.1",
+      "server_port": 443,
+      "password": "bpb-trojan",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 AE | TROJAN | @vmesc #1",
       "type": "trojan",
       "server": "94.140.0.1",
       "server_port": 443,
