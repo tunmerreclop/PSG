@@ -77,13 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇪 AE | SS | @NamiraConfigs #1",
-        "🇦🇪 AE | SS | @NamiraConfigs #2",
-        "🇦🇪 AE | VLESS | @ai_duet #1",
-        "🇦🇪 AE | VLESS | @orange_vpns #1",
-        "🇦🇪 AE | VLESS | @outline_ir #1",
-        "🇦🇪 AE | SS | @outlinereleasedkey #1",
-        "🇦🇪 AE | VLESS | @v2rayngconfig #1"
+        "🇦🇪 AE | VLESS | @ai_duet #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -91,13 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇪 AE | SS | @NamiraConfigs #1",
-        "🇦🇪 AE | SS | @NamiraConfigs #2",
-        "🇦🇪 AE | VLESS | @ai_duet #1",
-        "🇦🇪 AE | VLESS | @orange_vpns #1",
-        "🇦🇪 AE | VLESS | @outline_ir #1",
-        "🇦🇪 AE | SS | @outlinereleasedkey #1",
-        "🇦🇪 AE | VLESS | @v2rayngconfig #1"
+        "🇦🇪 AE | VLESS | @ai_duet #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -113,68 +101,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇪 AE | SS | @NamiraConfigs #1",
-      "type": "shadowsocks",
-      "server": "beesyar.org",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh",
-      "password": null
-    },
-    {
-      "tag": "🇦🇪 AE | SS | @NamiraConfigs #2",
-      "type": "shadowsocks",
-      "server": "beesyar.org",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1",
-      "password": null
-    },
-    {
       "tag": "🇦🇪 AE | VLESS | @ai_duet #1",
       "type": "vless",
       "server": "api.steamsale.ir",
       "server_port": 443,
       "uuid": "3a4ddfac-e7da-48c9-9648-4a366109fc3a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @orange_vpns #1",
-      "type": "vless",
-      "server": "78.40.194.14",
-      "server_port": 19465,
-      "uuid": "a6690136-c109-45e6-be13-a45f7cb9eb2a",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @outline_ir #1",
-      "type": "vless",
-      "server": "109.61.18.10",
-      "server_port": 42539,
-      "uuid": "1eba8f10-8e16-484b-be7a-613327727d4d",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇦🇪 AE | SS | @outlinereleasedkey #1",
-      "type": "shadowsocks",
-      "server": "151.242.251.153",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q",
-      "password": null
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @v2rayngconfig #1",
-      "type": "vless",
-      "server": "s2.ihigkgloybfhygkih.pw",
-      "server_port": 8443,
-      "uuid": "1408e7de-a086-41e9-997d-06612883f3ae",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
