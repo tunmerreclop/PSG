@@ -93,6 +93,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇮🇷 IR | VLESS | @config_proxy #3",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇮🇷 IR | VLESS | @connectshu #1",
         "🇺🇸 US | VLESS | @connectshu #2",
@@ -100,10 +101,9 @@
         "🇳🇱 NL | VLESS | @filtershekan_channel #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
         "🇩🇪 DE | VLESS | @megavpn_link #1",
-        "🇮🇷 IR | VLESS | @v2ray_vmes #3",
+        "🇩🇪 DE | VLESS | @v2raych #1",
         "🇷🇺 RU | VLESS | @v_2rayng0 #1",
         "🇩🇪 DE | VLESS | @v_2rayng0 #1",
-        "🇩🇪 DE | VLESS | @vmesc #2",
         "🇩🇪 DE | VLESS | @vpnowl #1",
         "🇩🇪 DE | VLESS | @vpnowl #2"
       ],
@@ -116,6 +116,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇮🇷 IR | VLESS | @config_proxy #3",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇮🇷 IR | VLESS | @connectshu #1",
         "🇺🇸 US | VLESS | @connectshu #2",
@@ -123,10 +124,9 @@
         "🇳🇱 NL | VLESS | @filtershekan_channel #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
         "🇩🇪 DE | VLESS | @megavpn_link #1",
-        "🇮🇷 IR | VLESS | @v2ray_vmes #3",
+        "🇩🇪 DE | VLESS | @v2raych #1",
         "🇷🇺 RU | VLESS | @v_2rayng0 #1",
         "🇩🇪 DE | VLESS | @v_2rayng0 #1",
-        "🇩🇪 DE | VLESS | @vmesc #2",
         "🇩🇪 DE | VLESS | @vpnowl #1",
         "🇩🇪 DE | VLESS | @vpnowl #2"
       ],
@@ -208,6 +208,23 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @config_proxy #3",
+      "type": "vless",
+      "server": "drdhdhdbygyg.api.arsinoo.com",
+      "server_port": 443,
+      "uuid": "e60433e9-4601-4c4d-841f-33e274681888",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -348,21 +365,12 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_vmes #3",
+      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "m1.designister.com",
-      "server_port": 443,
-      "uuid": "a0011204-1bd7-489b-b120-eeeab41b6e59",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "iar.blackhoster.com",
+      "server_port": 350,
+      "uuid": "79a48cba-4a44-4a5c-bfa9-64a53379df2c",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VLESS | @v_2rayng0 #1",
@@ -387,28 +395,6 @@
       "server": "iranlease.com",
       "server_port": 443,
       "uuid": "a4dab647-8eee-469a-ba12-549e8d849d86",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @vmesc #2",
-      "type": "vless",
-      "server": "voip.khakshouri.ir",
-      "server_port": 56734,
-      "uuid": "e076e2c6-bb55-4830-a514-d89f60f550d8",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

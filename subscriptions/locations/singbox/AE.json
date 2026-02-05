@@ -90,9 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇪 AE | SS | @NamiraConfigs #1",
-        "🇦🇪 AE | SS | @NamiraConfigs #2",
         "🇦🇪 AE | VLESS | @ai_duet #1",
+        "🇦🇪 AE | VLESS | @mtproxy22_v2ray #1",
         "🇦🇪 AE | VLESS | @orange_vpns #1",
         "🇦🇪 AE | SS | @outlinereleasedkey #1",
         "🇦🇪 AE | VLESS | @v2rayngconfig #1"
@@ -103,9 +102,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇪 AE | SS | @NamiraConfigs #1",
-        "🇦🇪 AE | SS | @NamiraConfigs #2",
         "🇦🇪 AE | VLESS | @ai_duet #1",
+        "🇦🇪 AE | VLESS | @mtproxy22_v2ray #1",
         "🇦🇪 AE | VLESS | @orange_vpns #1",
         "🇦🇪 AE | SS | @outlinereleasedkey #1",
         "🇦🇪 AE | VLESS | @v2rayngconfig #1"
@@ -118,22 +116,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇦🇪 AE | SS | @NamiraConfigs #1",
-      "type": "shadowsocks",
-      "server": "beesyar.org",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh",
-      "password": null
-    },
-    {
-      "tag": "🇦🇪 AE | SS | @NamiraConfigs #2",
-      "type": "shadowsocks",
-      "server": "beesyar.org",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1",
-      "password": null
     },
     {
       "tag": "🇦🇪 AE | VLESS | @ai_duet #1",
@@ -151,6 +133,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @mtproxy22_v2ray #1",
+      "type": "vless",
+      "server": "pdf.aminv.ir",
+      "server_port": 80,
+      "uuid": "d4be055f-7869-4cff-a528-fd41f5e64fa6",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇦🇪 AE | VLESS | @orange_vpns #1",

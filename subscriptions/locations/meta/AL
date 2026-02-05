@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇸🇬 SG | VLESS | @hope_net #1", "server": "27.50.49.13", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "f775978b-6e22-41a8-ae5e-5f9779e6745f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇱 AL | VLESS | @config_proxy #1", "server": "pq-albania1.09vpn.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "b4819c49-6c7e-4b57-9b9b-c73031e1de11", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇸🇬 SG | VLESS | @hope_net #1'
+      - '🇦🇱 AL | VLESS | @config_proxy #1'
 
   - name: 🌍 Global Media
     type: select
