@@ -23,9 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇰🇿 KZ | VLESS | @free1_vpn #1", "server": "212.111.85.1", "port": 51102, "type": "vless", "skip-cert-verify": true, "uuid": "d4d031ec-0ba6-486a-aa0c-dce2b7cb8933", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇰🇿 KZ | VLESS | @v2raych #1", "server": "31.43.179.0", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "a81596f9-680f-4fd7-928e-767fbd6a45c5", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇰🇿 KZ | VLESS | @v2raych #2", "server": "31.43.179.0", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "a81596f9-680f-4fd7-928e-767fbd6a45c5", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇹 AT | VLESS | @config_proxy #1", "server": "at.asbndx.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "e804e80a-e413-436e-8e3c-8cce9ef657b9", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇰🇿 KZ | VLESS | @free1_vpn #1'
-      - '🇰🇿 KZ | VLESS | @v2raych #1'
-      - '🇰🇿 KZ | VLESS | @v2raych #2'
+      - '🇦🇹 AT | VLESS | @config_proxy #1'
 
   - name: 🌍 Global Media
     type: select
