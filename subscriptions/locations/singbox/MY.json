@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQUw=
+//profile-title: base64:UFNHIHwgTVk=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇱 AL | VLESS | @v2raych #1"
+        "🇲🇾 MY | TROJAN | @Fr33C0nfig #1",
+        "🇲🇾 MY | TROJAN | @Fr33C0nfig #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇱 AL | VLESS | @v2raych #1"
+        "🇲🇾 MY | TROJAN | @Fr33C0nfig #1",
+        "🇲🇾 MY | TROJAN | @Fr33C0nfig #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +112,36 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇱 AL | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "pq-albania1.09vpn.com",
-      "server_port": 80,
-      "uuid": "b4819c49-6c7e-4b57-9b9b-c73031e1de11",
-      "packet_encoding": "xudp"
+      "tag": "🇲🇾 MY | TROJAN | @Fr33C0nfig #1",
+      "type": "trojan",
+      "server": "xiaozhu1.kkieo555.cn",
+      "server_port": 11278,
+      "password": "d03e1173-3109-43c0-a5dd-e2b56916c540",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇲🇾 MY | TROJAN | @Fr33C0nfig #2",
+      "type": "trojan",
+      "server": "xiaozhu1.kkieo555.cn",
+      "server_port": 11278,
+      "password": "66037360-50d4-49c3-b3e7-810de84917e9",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
