@@ -81,10 +81,11 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @configasli #1",
-        "🇫🇮 FI | VLESS | @configv2rayforfree #1",
         "🇮🇷 IR | VLESS | @connectshu #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
-        "🇫🇮 FI | VLESS | @freeconfigsplus #1"
+        "🇫🇮 FI | VLESS | @freeconfigsplus #1",
+        "🇮🇷 IR | VLESS | @v2ray_vmes #2",
+        "🇩🇪 DE | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -96,10 +97,11 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @configasli #1",
-        "🇫🇮 FI | VLESS | @configv2rayforfree #1",
         "🇮🇷 IR | VLESS | @connectshu #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
-        "🇫🇮 FI | VLESS | @freeconfigsplus #1"
+        "🇫🇮 FI | VLESS | @freeconfigsplus #1",
+        "🇮🇷 IR | VLESS | @v2ray_vmes #2",
+        "🇩🇪 DE | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -196,28 +198,6 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @configv2rayforfree #1",
-      "type": "vless",
-      "server": "fl-2.bot-iphone.ru",
-      "server_port": 8443,
-      "uuid": "9c42819a-67a6-4742-9c6d-64900ba62160",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇮🇷 IR | VLESS | @connectshu #1",
       "type": "vless",
       "server": "ultrawide.zaros.tech",
@@ -267,6 +247,45 @@
       "server": "fi4.srv.cdnopl.link",
       "server_port": 6443,
       "uuid": "abb26a5a-3223-476f-a732-4c66f6a116ab",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_vmes #2",
+      "type": "vless",
+      "server": "m1.designister.com",
+      "server_port": 443,
+      "uuid": "a0011204-1bd7-489b-b120-eeeab41b6e59",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "dlc-ger1.persianpinggame.ir",
+      "server_port": 443,
+      "uuid": "d6637de9-6df6-4e14-b6c2-9f32df6d5c79",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

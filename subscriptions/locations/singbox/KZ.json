@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇰🇿 KZ | VLESS | @v2rayopen #1"
+        "🇰🇿 KZ | VLESS | @v2rayopen #1",
+        "🇰🇿 KZ | SS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇰🇿 KZ | VLESS | @v2rayopen #1"
+        "🇰🇿 KZ | VLESS | @v2rayopen #1",
+        "🇰🇿 KZ | SS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -116,6 +118,14 @@
       "server_port": 2083,
       "uuid": "c805b05e-339d-40e0-8787-432d97a27345",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇰🇿 KZ | SS | @vmesc #1",
+      "type": "shadowsocks",
+      "server": "213.156.137.142",
+      "server_port": 43660,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYzI3YTMwMTJkODFhNDRj",
+      "password": null
     }
   ],
   "route": {
