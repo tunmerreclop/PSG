@@ -93,8 +93,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇺🇸 US | VMESS | @config_proxy #1",
         "🇮🇷 IR | VMESS | @dargiiriis #1",
-        "🇽🇽 XX | VMESS | @free1_vpn #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
@@ -115,8 +115,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇺🇸 US | VMESS | @config_proxy #1",
         "🇮🇷 IR | VMESS | @dargiiriis #1",
-        "🇽🇽 XX | VMESS | @free1_vpn #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
@@ -210,6 +210,31 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "188.114.96.2",
+      "server_port": 443,
+      "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "obdii.cfd",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkws",
+        "headers": {
+          "Host": "obdii.cfd"
+        }
+      }
+    },
+    {
       "tag": "🇮🇷 IR | VMESS | @dargiiriis #1",
       "type": "vmess",
       "server": "homeyra.taz-min.com",
@@ -217,22 +242,6 @@
       "uuid": "fbdcae66-c997-49ce-9a18-a155fb7ec781",
       "security": "auto",
       "alter_id": 0
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @free1_vpn #1",
-      "type": "vmess",
-      "server": "104.21.69.44",
-      "server_port": 8080,
-      "uuid": "nasnet",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/nasnet/cdn",
-        "headers": {
-          "Host": "nasnet-511952424.mcitel.co"
-        }
-      }
     },
     {
       "tag": "🇭🇰 HK | VMESS | @freev2rays #1",

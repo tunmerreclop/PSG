@@ -94,15 +94,18 @@
         "🇺🇸 US | VLESS | @ai_duet #1",
         "🇺🇸 US | VLESS | @ai_duet #2",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
-        "🇺🇸 US | VLESS | @config_proxy #1",
+        "🇺🇸 US | VMESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @connectshu #1",
         "🇺🇸 US | VLESS | @connectshu #2",
         "🇺🇸 US | VLESS | @connectshu #3",
         "🇺🇸 US | VLESS | @deli_servers #1",
+        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @evay_vpn #1",
         "🇺🇸 US | VLESS | @evay_vpn #2",
         "🇺🇸 US | VLESS | @evay_vpn #3",
+        "🇺🇸 US | VLESS | @evay_vpn #4",
         "🇺🇸 US | VLESS | @filterk0sh #1",
+        "🇺🇸 US | VLESS | @flyv2ray #1",
         "🇺🇸 US | SS | @free4allvpn #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇺🇸 US | VLESS | @frev2rayng #1",
@@ -151,6 +154,9 @@
         "🇺🇸 US | VLESS | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2rayfast_7 #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
+        "🇺🇸 US | VLESS | @v2rayngconfiig #2",
+        "🇺🇸 US | VLESS | @v_2rayng0 #1",
+        "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇺🇸 US | VLESS | @vmesskhodam #1",
         "🇺🇸 US | VLESS | @vmesskhodam #2",
         "🇺🇸 US | VMESS | @vpngate_config #1",
@@ -166,15 +172,18 @@
         "🇺🇸 US | VLESS | @ai_duet #1",
         "🇺🇸 US | VLESS | @ai_duet #2",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
-        "🇺🇸 US | VLESS | @config_proxy #1",
+        "🇺🇸 US | VMESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @connectshu #1",
         "🇺🇸 US | VLESS | @connectshu #2",
         "🇺🇸 US | VLESS | @connectshu #3",
         "🇺🇸 US | VLESS | @deli_servers #1",
+        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @evay_vpn #1",
         "🇺🇸 US | VLESS | @evay_vpn #2",
         "🇺🇸 US | VLESS | @evay_vpn #3",
+        "🇺🇸 US | VLESS | @evay_vpn #4",
         "🇺🇸 US | VLESS | @filterk0sh #1",
+        "🇺🇸 US | VLESS | @flyv2ray #1",
         "🇺🇸 US | SS | @free4allvpn #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇺🇸 US | VLESS | @frev2rayng #1",
@@ -223,6 +232,9 @@
         "🇺🇸 US | VLESS | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2rayfast_7 #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
+        "🇺🇸 US | VLESS | @v2rayngconfiig #2",
+        "🇺🇸 US | VLESS | @v_2rayng0 #1",
+        "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇺🇸 US | VLESS | @vmesskhodam #1",
         "🇺🇸 US | VLESS | @vmesskhodam #2",
         "🇺🇸 US | VMESS | @vpngate_config #1",
@@ -295,12 +307,29 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "speedtest.net",
-      "server_port": 80,
-      "uuid": "056d10f1-4ebd-40e-9f78-c7e11fce5258",
-      "packet_encoding": "xudp"
+      "tag": "🇺🇸 US | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "188.114.96.2",
+      "server_port": 443,
+      "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "obdii.cfd",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkws",
+        "headers": {
+          "Host": "obdii.cfd"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @connectshu #1",
@@ -353,6 +382,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+      "type": "vless",
+      "server": "germany.fast.hosting-ip.com",
+      "server_port": 80,
+      "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @evay_vpn #1",
       "type": "vless",
       "server": "151.101.25.242",
@@ -371,6 +408,14 @@
     {
       "tag": "🇺🇸 US | VLESS | @evay_vpn #3",
       "type": "vless",
+      "server": "evay_vpn.fast.hosting-ip.com",
+      "server_port": 80,
+      "uuid": "d03d8fc0-23ce-461a-97fa-2a7e0a66d8db",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @evay_vpn #4",
+      "type": "vless",
       "server": "151.101.195.8",
       "server_port": 80,
       "uuid": "3ff60b54-f6d6-467f-9189-df1a0567c647",
@@ -382,6 +427,14 @@
       "server": "192.0.54.32",
       "server_port": 2096,
       "uuid": "b65f4df7-f6af-42b2-877a-cef33f21675e",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @flyv2ray #1",
+      "type": "vless",
+      "server": "167.82.92.159",
+      "server_port": 80,
+      "uuid": "0569f3ce-447b-4ac5-aae3-b47ae55351f7",
       "packet_encoding": "xudp"
     },
     {
@@ -797,9 +850,9 @@
     {
       "tag": "🇺🇸 US | VLESS | @prrofile_purple #1",
       "type": "vless",
-      "server": "kirinet.global.ssl.fastly.net",
-      "server_port": 443,
-      "uuid": "36213657-e751-478b-a5d7-547eef892af9",
+      "server": "cpp3.azangooo.ir",
+      "server_port": 2053,
+      "uuid": "c3418654-0b2a-4308-95a5-867b102cb4f0",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -814,7 +867,15 @@
     {
       "tag": "🇺🇸 US | VLESS | @prrofile_purple #2",
       "type": "vless",
-      "server": "dojman.global.ssl.fastly.net",
+      "server": "perl.org",
+      "server_port": 80,
+      "uuid": "0d30e81c-ee27-46dd-aa3d-7796da838b75",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @prrofile_purple #3",
+      "type": "vless",
+      "server": "kirinet.global.ssl.fastly.net",
       "server_port": 443,
       "uuid": "36213657-e751-478b-a5d7-547eef892af9",
       "packet_encoding": "xudp",
@@ -827,14 +888,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @prrofile_purple #3",
-      "type": "vless",
-      "server": "ip2.gptban.com",
-      "server_port": 80,
-      "uuid": "201dc832-fe31-4fd5-b453-6c401fc14477",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇺🇸 US | VLESS | @public504 #1",
@@ -1025,6 +1078,39 @@
       "server_port": 80,
       "uuid": "1260fbdc-57b6-4e2c-a76f-c6f748d26917",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #2",
+      "type": "vless",
+      "server": "test.fast.hosting-ip.com",
+      "server_port": 80,
+      "uuid": "TELEGRAM-CONFiGLiNE-29",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v_2rayng0 #1",
+      "type": "vless",
+      "server": "fastly.com",
+      "server_port": 80,
+      "uuid": "c805b05e-339d-40e0-8787-432d97a27345",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v_2rayng0 #2",
+      "type": "vless",
+      "server": "66.81.247.155",
+      "server_port": 443,
+      "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @vmesskhodam #1",
