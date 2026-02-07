@@ -24,6 +24,8 @@ dns:
 
 proxies: 
   - {"name": "🇸🇮 SI | VLESS | @filterk0sh #1", "server": "92.60.78.221", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "6897c181-24b1-4880-8660-e6c5c7ee13c7", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇸🇮 SI | VLESS | @v2raych #1", "server": "ip4.neoservers.ir", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "ca4693fd-5a4b-4361-9a17-3b92b5d95dde", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇸🇮 SI | VLESS | @v2raych #2", "server": "ip4.neoservers.ir", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "ca4693fd-5a4b-4361-9a17-3b92b5d95dde", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +40,8 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇸🇮 SI | VLESS | @filterk0sh #1'
+      - '🇸🇮 SI | VLESS | @v2raych #1'
+      - '🇸🇮 SI | VLESS | @v2raych #2'
 
   - name: 🌍 Global Media
     type: select

@@ -90,8 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇰🇿 KZ | VLESS | @filterk0sh #1",
-        "🇰🇿 KZ | SS | @vmesc #1"
+        "🇰🇿 KZ | VLESS | @config_proxy #1",
+        "🇰🇿 KZ | VLESS | @config_proxy #2",
+        "🇰🇿 KZ | VLESS | @netmellianti #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇰🇿 KZ | VLESS | @filterk0sh #1",
-        "🇰🇿 KZ | SS | @vmesc #1"
+        "🇰🇿 KZ | VLESS | @config_proxy #1",
+        "🇰🇿 KZ | VLESS | @config_proxy #2",
+        "🇰🇿 KZ | VLESS | @netmellianti #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,11 +114,27 @@
       "type": "direct"
     },
     {
-      "tag": "🇰🇿 KZ | VLESS | @filterk0sh #1",
+      "tag": "🇰🇿 KZ | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "77.73.232.61",
-      "server_port": 19747,
-      "uuid": "2a9ed01e-5455-44b4-a66a-76ee8165f0ac",
+      "server": "cf.mahdi383ir.website",
+      "server_port": 2083,
+      "uuid": "5a923f93-30d2-4f8b-ba28-afc637901e54",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇰🇿 KZ | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "cf.mahdi383ir.website",
+      "server_port": 2053,
+      "uuid": "c3ffa4ee-fbbe-45e3-f737-db2f381f557e",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇰🇿 KZ | VLESS | @netmellianti #1",
+      "type": "vless",
+      "server": "212.111.84.187",
+      "server_port": 51102,
+      "uuid": "4603e54d-b023-4947-83e7-70025416f306",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -132,14 +150,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇰🇿 KZ | SS | @vmesc #1",
-      "type": "shadowsocks",
-      "server": "213.156.137.142",
-      "server_port": 43660,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYzI3YTMwMTJkODFhNDRj",
-      "password": null
     }
   ],
   "route": {

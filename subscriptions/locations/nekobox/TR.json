@@ -78,6 +78,7 @@
         "auto",
         "direct",
         "🇹🇷 TR | VLESS | @armod_iran #1",
+        "🇹🇷 TR | VLESS | @config_proxy #1",
         "🇹🇷 TR | SS | @outline_ir #1"
       ],
       "tag": "proxy",
@@ -87,6 +88,7 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VLESS | @armod_iran #1",
+        "🇹🇷 TR | VLESS | @config_proxy #1",
         "🇹🇷 TR | SS | @outline_ir #1"
       ],
       "tag": "auto",
@@ -109,6 +111,28 @@
       "server_port": 2052,
       "uuid": "94697419-f8c4-4a38-9aa9-9e9f7d7c03f9",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "94.131.123.167",
+      "server_port": 443,
+      "uuid": "a44e0875-210f-4941-9062-89b6361a14c6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇹🇷 TR | SS | @outline_ir #1",

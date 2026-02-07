@@ -78,6 +78,9 @@
         "auto",
         "direct",
         "🇸🇮 SI | VLESS | @filterk0sh #1",
+        "🇸🇮 SI | SS | @v2ray_free_conf #1",
+        "🇸🇮 SI | VLESS | @v2raych #1",
+        "🇸🇮 SI | VLESS | @v2raych #2",
         "🇸🇮 SI | SS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
@@ -87,6 +90,9 @@
       "interval": "10m",
       "outbounds": [
         "🇸🇮 SI | VLESS | @filterk0sh #1",
+        "🇸🇮 SI | SS | @v2ray_free_conf #1",
+        "🇸🇮 SI | VLESS | @v2raych #1",
+        "🇸🇮 SI | VLESS | @v2raych #2",
         "🇸🇮 SI | SS | @NamiraConfigs #1"
       ],
       "tag": "auto",
@@ -121,6 +127,39 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇸🇮 SI | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "192.71.244.150",
+      "server_port": 989,
+      "method": "YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==",
+      "password": null
+    },
+    {
+      "tag": "🇸🇮 SI | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "ip4.neoservers.ir",
+      "server_port": 8443,
+      "uuid": "ca4693fd-5a4b-4361-9a17-3b92b5d95dde",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇮 SI | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "ip4.neoservers.ir",
+      "server_port": 8443,
+      "uuid": "ca4693fd-5a4b-4361-9a17-3b92b5d95dde",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },

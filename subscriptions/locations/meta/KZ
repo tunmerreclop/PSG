@@ -23,7 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇰🇿 KZ | VLESS | @filterk0sh #1", "server": "77.73.232.61", "port": 19747, "type": "vless", "skip-cert-verify": true, "uuid": "2a9ed01e-5455-44b4-a66a-76ee8165f0ac", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇰🇿 KZ | VLESS | @config_proxy #1", "server": "cf.mahdi383ir.website", "port": 2083, "type": "vless", "skip-cert-verify": true, "uuid": "5a923f93-30d2-4f8b-ba28-afc637901e54", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇰🇿 KZ | VLESS | @config_proxy #2", "server": "cf.mahdi383ir.website", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "c3ffa4ee-fbbe-45e3-f737-db2f381f557e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇰🇿 KZ | VLESS | @netmellianti #1", "server": "212.111.84.187", "port": 51102, "type": "vless", "skip-cert-verify": true, "uuid": "4603e54d-b023-4947-83e7-70025416f306", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇰🇿 KZ | VLESS | @filterk0sh #1'
+      - '🇰🇿 KZ | VLESS | @config_proxy #1'
+      - '🇰🇿 KZ | VLESS | @config_proxy #2'
+      - '🇰🇿 KZ | VLESS | @netmellianti #1'
 
   - name: 🌍 Global Media
     type: select

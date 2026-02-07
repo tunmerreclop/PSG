@@ -93,14 +93,18 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇹🇷 TR | VLESS | @config_proxy #1",
         "🇸🇮 SI | VLESS | @filterk0sh #1",
+        "🇬🇧 GB | VLESS | @filtershekan_channel #1",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
         "🇦🇪 AE | VLESS | @orange_vpns #1",
         "🇸🇪 SE | VLESS | @proxyfn #1",
         "🇨🇭 CH | VLESS | @proxyfn #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @v2rayvpn2 #1",
-        "🇩🇪 DE | VLESS | @vipv2rey #1"
+        "🇩🇪 DE | VLESS | @vipv2rey #1",
+        "🇷🇺 RU | VLESS | @vmesc #1",
+        "🇷🇺 RU | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -111,14 +115,18 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇹🇷 TR | VLESS | @config_proxy #1",
         "🇸🇮 SI | VLESS | @filterk0sh #1",
+        "🇬🇧 GB | VLESS | @filtershekan_channel #1",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
         "🇦🇪 AE | VLESS | @orange_vpns #1",
         "🇸🇪 SE | VLESS | @proxyfn #1",
         "🇨🇭 CH | VLESS | @proxyfn #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @v2rayvpn2 #1",
-        "🇩🇪 DE | VLESS | @vipv2rey #1"
+        "🇩🇪 DE | VLESS | @vipv2rey #1",
+        "🇷🇺 RU | VLESS | @vmesc #1",
+        "🇷🇺 RU | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -202,11 +210,55 @@
       }
     },
     {
+      "tag": "🇹🇷 TR | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "94.131.123.167",
+      "server_port": 443,
+      "uuid": "a44e0875-210f-4941-9062-89b6361a14c6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇸🇮 SI | VLESS | @filterk0sh #1",
       "type": "vless",
       "server": "92.60.78.221",
       "server_port": 443,
       "uuid": "6897c181-24b1-4880-8660-e6c5c7ee13c7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @filtershekan_channel #1",
+      "type": "vless",
+      "server": "146.185.208.206",
+      "server_port": 443,
+      "uuid": "914b0493-7094-4840-b94d-8ec3e92e9c43",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -323,6 +375,50 @@
       "server": "49.13.135.58",
       "server_port": 443,
       "uuid": "18e82ee0-3b88-48d1-9292-484c8051f690",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "109.172.101.234",
+      "server_port": 443,
+      "uuid": "49aabf68-e986-4722-8fd1-1702ce996bb6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "5.188.140.208",
+      "server_port": 8443,
+      "uuid": "e1f8472c-b1fb-471e-aaeb-731ed8b53b30",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

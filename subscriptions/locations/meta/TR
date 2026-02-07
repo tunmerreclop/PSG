@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇹🇷 TR | VLESS | @armod_iran #1", "server": "dl5-tr4-cdn.cloud-files-uploader.com", "port": 2052, "type": "vless", "skip-cert-verify": true, "uuid": "94697419-f8c4-4a38-9aa9-9e9f7d7c03f9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇹🇷 TR | VLESS | @config_proxy #1", "server": "94.131.123.167", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a44e0875-210f-4941-9062-89b6361a14c6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇹🇷 TR | VLESS | @armod_iran #1'
+      - '🇹🇷 TR | VLESS | @config_proxy #1'
 
   - name: 🌍 Global Media
     type: select

@@ -78,7 +78,8 @@
         "auto",
         "direct",
         "🇨🇭 CH | VLESS | @netfreedom0 #1",
-        "🇨🇭 CH | VLESS | @proxyfn #1"
+        "🇨🇭 CH | VLESS | @proxyfn #1",
+        "🇨🇭 CH | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇨🇭 CH | VLESS | @netfreedom0 #1",
-        "🇨🇭 CH | VLESS | @proxyfn #1"
+        "🇨🇭 CH | VLESS | @proxyfn #1",
+        "🇨🇭 CH | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -130,6 +132,23 @@
       "server": "193.168.144.46",
       "server_port": 443,
       "uuid": "cdb38f5b-12c3-414b-eacd-a635dc633701",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "185.18.250.252",
+      "server_port": 443,
+      "uuid": "fef4a93d-eb4f-4657-b56b-32a0dc060045",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
