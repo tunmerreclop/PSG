@@ -90,6 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇦🇹 AT | VLESS | @v2raych #1",
+        "🇦🇹 AT | VLESS | @vpnplusee_free #1",
         "🇦🇹 AT | SS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
@@ -98,6 +100,8 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇦🇹 AT | VLESS | @v2raych #1",
+        "🇦🇹 AT | VLESS | @vpnplusee_free #1",
         "🇦🇹 AT | SS | @NamiraConfigs #1"
       ],
       "tag": "auto",
@@ -108,6 +112,36 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇦🇹 AT | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "de2.ultima.foundation",
+      "server_port": 22231,
+      "uuid": "e44c7a66-0d05-42bc-a37b-bfed2a4fbcc1",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇦🇹 AT | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "echo.wenllies.com",
+      "server_port": 443,
+      "uuid": "ff2cd5ea-ae20-49e2-8a93-c0f90eb1e3d8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇦🇹 AT | SS | @NamiraConfigs #1",

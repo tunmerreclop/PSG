@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇸🇬 SG | TROJAN | @prrofile_purple #1",
         "🇸🇬 SG | VLESS | @v2rayngconfig #1"
       ],
       "tag": "proxy",
@@ -85,6 +86,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇸🇬 SG | TROJAN | @prrofile_purple #1",
         "🇸🇬 SG | VLESS | @v2rayngconfig #1"
       ],
       "tag": "auto",
@@ -99,6 +101,22 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇸🇬 SG | TROJAN | @prrofile_purple #1",
+      "type": "trojan",
+      "server": "vpn.qinfen180.cn",
+      "server_port": 443,
+      "password": "aZsk43TyWBpjt%40A",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇸🇬 SG | VLESS | @v2rayngconfig #1",

@@ -77,9 +77,11 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇵🇱 PL | VLESS | @config_proxy #1",
         "🇵🇱 PL | VLESS | @komail315 #1",
         "🇵🇱 PL | VLESS | @netfreedom0 #1",
-        "🇵🇱 PL | SS | @outlinereleasedkey #1"
+        "🇵🇱 PL | VLESS | @outline_ir #1",
+        "🇵🇱 PL | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +89,11 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇵🇱 PL | VLESS | @config_proxy #1",
         "🇵🇱 PL | VLESS | @komail315 #1",
         "🇵🇱 PL | VLESS | @netfreedom0 #1",
-        "🇵🇱 PL | SS | @outlinereleasedkey #1"
+        "🇵🇱 PL | VLESS | @outline_ir #1",
+        "🇵🇱 PL | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,6 +107,23 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "pol01-vls01.tcp-reset-club.net",
+      "server_port": 443,
+      "uuid": "fbc30338-4eed-4440-8d90-2247b479d734",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇵🇱 PL | VLESS | @komail315 #1",
@@ -130,12 +151,43 @@
       }
     },
     {
-      "tag": "🇵🇱 PL | SS | @outlinereleasedkey #1",
-      "type": "shadowsocks",
-      "server": "217.30.10.18",
-      "server_port": 9011,
-      "method": "YWVzLTI1Ni1jZmI6TTN0MlpFUWNNR1JXQmpSYQ==",
-      "password": null
+      "tag": "🇵🇱 PL | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "pl.griffon-guard.com",
+      "server_port": 443,
+      "uuid": "e6ec1d89-17fc-4de7-af89-81cd51022526",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "pol01-vls01.tcp-reset-club.net",
+      "server_port": 443,
+      "uuid": "fbc30338-4eed-4440-8d90-2247b479d734",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
