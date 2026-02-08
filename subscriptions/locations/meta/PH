@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇨🇳 CN | VLESS | @config_proxy #1", "server": "zhej.v2linkok.com", "port": 35177, "type": "vless", "skip-cert-verify": true, "uuid": "4535d4dd-0a3a-4be3-af8d-53cc8c4837b1", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇵🇭 PH | VLESS | @hope_net #1", "server": "154.83.2.140", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "26b367d0-db40-4717-a535-062dc84e4c99", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇨🇳 CN | VLESS | @config_proxy #1'
+      - '🇵🇭 PH | VLESS | @hope_net #1'
 
   - name: 🌍 Global Media
     type: select
