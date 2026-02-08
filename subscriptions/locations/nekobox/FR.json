@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇫🇷 FR | VLESS | @flyv2ray #1",
         "🇫🇷 FR | SS | @free1_vpn #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
@@ -86,7 +87,6 @@
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | SS | @v2rayng3 #1",
         "🇫🇷 FR | VMESS | @v2raytg #1",
-        "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1",
         "🇫🇷 FR | VLESS | @vlessconfig #1",
         "🇫🇷 FR | SS | @vpn_ioss #1"
       ],
@@ -96,6 +96,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇫🇷 FR | VLESS | @flyv2ray #1",
         "🇫🇷 FR | SS | @free1_vpn #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
@@ -105,7 +106,6 @@
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | SS | @v2rayng3 #1",
         "🇫🇷 FR | VMESS | @v2raytg #1",
-        "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1",
         "🇫🇷 FR | VLESS | @vlessconfig #1",
         "🇫🇷 FR | SS | @vpn_ioss #1"
       ],
@@ -121,6 +121,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @flyv2ray #1",
+      "type": "vless",
+      "server": "ywwq.izumii.ir",
+      "server_port": 2091,
+      "uuid": "3b70bf25-7d9b-4e42-8718-71c72f8b721c",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇷 FR | SS | @free1_vpn #1",
@@ -228,22 +236,6 @@
       "uuid": "ede27a79-b039-490b-932c-495de4b68880",
       "security": "auto",
       "alter_id": 0
-    },
-    {
-      "tag": "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1",
-      "type": "trojan",
-      "server": "13.37.8.71",
-      "server_port": 22223,
-      "password": "telegram-id-v2rayvpnchannel",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇫🇷 FR | VLESS | @vlessconfig #1",

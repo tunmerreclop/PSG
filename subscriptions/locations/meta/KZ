@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇰🇿 KZ | VLESS | @v2rayvpn2 #1", "server": "212.111.84.187", "port": 51102, "type": "vless", "skip-cert-verify": true, "uuid": "4603e54d-b023-4947-83e7-70025416f306", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇰🇿 KZ | VLESS | @v_2rayng0 #1", "server": "77.73.132.193", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "61111a66-0485-44b4-d90f-d49a1f90968b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -38,7 +37,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇰🇿 KZ | VLESS | @v2rayvpn2 #1'
       - '🇰🇿 KZ | VLESS | @v_2rayng0 #1'
 
   - name: 🌍 Global Media
