@@ -97,8 +97,8 @@
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
+        "🇸🇬 SG | VMESS | @red2ray #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
-        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
         "🇫🇷 FR | VMESS | @v2raytg #1",
         "🇨🇦 CA | VMESS | @NamiraConfigs #1"
       ],
@@ -115,8 +115,8 @@
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
+        "🇸🇬 SG | VMESS | @red2ray #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
-        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
         "🇫🇷 FR | VMESS | @v2raytg #1",
         "🇨🇦 CA | VMESS | @NamiraConfigs #1"
       ],
@@ -276,6 +276,22 @@
       }
     },
     {
+      "tag": "🇸🇬 SG | VMESS | @red2ray #1",
+      "type": "vmess",
+      "server": "217.217.255.99",
+      "server_port": 8443,
+      "uuid": "83049bda-8d53-44bc-f71c-f6b03c1ca482",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @v2ray_collector #1",
       "type": "vmess",
       "server": "209.126.84.189",
@@ -299,15 +315,6 @@
           "Host": "209.126.84.189"
         }
       }
-    },
-    {
-      "tag": "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "94.183.157.175",
-      "server_port": 8080,
-      "uuid": "4ab0e496-3ef5-43fd-9886-12434541fa42",
-      "security": "auto",
-      "alter_id": 0
     },
     {
       "tag": "🇫🇷 FR | VMESS | @v2raytg #1",

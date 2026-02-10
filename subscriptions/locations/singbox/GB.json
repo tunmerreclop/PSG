@@ -90,15 +90,15 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇬🇧 GB | VLESS | @config_proxy #1",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1",
+        "🇬🇧 GB | SS | @imhdiyvp #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇬🇧 GB | VLESS | @miov2ray #1",
         "🇬🇧 GB | SS | @nepo_v2ray #1",
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
         "🇬🇧 GB | SS | @v2rayngalpha #1",
-        "🇬🇧 GB | VLESS | @vpnplusee_free #1"
+        "🇬🇧 GB | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -106,15 +106,15 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇬🇧 GB | VLESS | @config_proxy #1",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1",
+        "🇬🇧 GB | SS | @imhdiyvp #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇬🇧 GB | VLESS | @miov2ray #1",
         "🇬🇧 GB | SS | @nepo_v2ray #1",
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
         "🇬🇧 GB | SS | @v2rayngalpha #1",
-        "🇬🇧 GB | VLESS | @vpnplusee_free #1"
+        "🇬🇧 GB | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -124,14 +124,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "aws57049acf22649c9f57horcj9j36.need12speed.ir",
-      "server_port": 9098,
-      "uuid": "a7773885-5cfc-4463-9e21-2f15c4fb3ab2",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇬🇧 GB | VLESS | @filtershekan_channel #1",
@@ -154,6 +146,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @imhdiyvp #1",
+      "type": "shadowsocks",
+      "server": "series-a2-mec.varzesh360.co",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj",
+      "password": null
     },
     {
       "tag": "🇬🇧 GB | VLESS | @komail315 #1",
@@ -213,11 +213,11 @@
       "password": null
     },
     {
-      "tag": "🇬🇧 GB | VLESS | @vpnplusee_free #1",
+      "tag": "🇬🇧 GB | VLESS | @vmesc #1",
       "type": "vless",
-      "server": "57.129.137.56",
-      "server_port": 443,
-      "uuid": "3321a819-889d-40b3-b8fa-f34208827ef1",
+      "server": "109.176.229.97",
+      "server_port": 8443,
+      "uuid": "cdeedd27-4b50-4f5b-b0c4-1967cc972f93",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -226,6 +226,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

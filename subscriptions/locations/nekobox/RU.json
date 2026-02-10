@@ -78,11 +78,8 @@
         "auto",
         "direct",
         "🇷🇺 RU | VLESS | @config_proxy #1",
-        "🇷🇺 RU | VLESS | @config_proxy #2",
         "🇷🇺 RU | VLESS | @connectshu #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇷🇺 RU | VLESS | @v2raych #1",
-        "🇷🇺 RU | VLESS | @v2raych #2",
         "🇷🇺 RU | VLESS | @v2rayopen #1"
       ],
       "tag": "proxy",
@@ -92,11 +89,8 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇺 RU | VLESS | @config_proxy #1",
-        "🇷🇺 RU | VLESS | @config_proxy #2",
         "🇷🇺 RU | VLESS | @connectshu #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇷🇺 RU | VLESS | @v2raych #1",
-        "🇷🇺 RU | VLESS | @v2raych #2",
         "🇷🇺 RU | VLESS | @v2rayopen #1"
       ],
       "tag": "auto",
@@ -115,26 +109,9 @@
     {
       "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "212.22.76.8",
-      "server_port": 443,
-      "uuid": "b25ae9bd-a6ad-4cf1-854d-bcd77134659d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "109.120.190.203",
-      "server_port": 1488,
-      "uuid": "d6b1327d-2bec-4366-a3a1-9b1284f95841",
+      "server": "rus70.ruslucker.org",
+      "server_port": 8443,
+      "uuid": "115034eb-c293-4031-bd98-29cdb5826440",
       "packet_encoding": "xudp"
     },
     {
@@ -178,22 +155,6 @@
           "Host": "77.v2ray1.xyz"
         }
       }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "37.139.33.57",
-      "server_port": 51101,
-      "uuid": "5bfe8543-3e87-4238-94f3-af07f7210812",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "87.239.107.214",
-      "server_port": 8443,
-      "uuid": "8c7961bd-2a58-4a02-8f8f-a37d2122eeaf",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VLESS | @v2rayopen #1",

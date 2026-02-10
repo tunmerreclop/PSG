@@ -90,9 +90,10 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇰🇿 KZ | VLESS | @filterk0sh #1",
         "🇰🇿 KZ | SS | @v2rayopen #1",
-        "🇰🇿 KZ | VLESS | @v_2rayng0 #1",
-        "🇰🇿 KZ | VLESS | @vpnplusee_free #1"
+        "🇰🇿 KZ | SS | @v2rayopen #2",
+        "🇰🇿 KZ | VLESS | @v_2rayng0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +101,10 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇰🇿 KZ | VLESS | @filterk0sh #1",
         "🇰🇿 KZ | SS | @v2rayopen #1",
-        "🇰🇿 KZ | VLESS | @v_2rayng0 #1",
-        "🇰🇿 KZ | VLESS | @vpnplusee_free #1"
+        "🇰🇿 KZ | SS | @v2rayopen #2",
+        "🇰🇿 KZ | VLESS | @v_2rayng0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -114,11 +116,41 @@
       "type": "direct"
     },
     {
+      "tag": "🇰🇿 KZ | VLESS | @filterk0sh #1",
+      "type": "vless",
+      "server": "77.73.232.61",
+      "server_port": 19747,
+      "uuid": "2a9ed01e-5455-44b4-a66a-76ee8165f0ac",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇰🇿 KZ | SS | @v2rayopen #1",
       "type": "shadowsocks",
       "server": "213.156.137.142",
       "server_port": 43661,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYzI3YTMwMTJkODFhNDRj",
+      "password": null
+    },
+    {
+      "tag": "🇰🇿 KZ | SS | @v2rayopen #2",
+      "type": "shadowsocks",
+      "server": "31.3.209.106",
+      "server_port": 46551,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJbnYxMTRkcDJ6azlaYllGUHBkUWY0",
       "password": null
     },
     {
@@ -128,23 +160,6 @@
       "server_port": 8080,
       "uuid": "61111a66-0485-44b4-d90f-d49a1f90968b",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇰🇿 KZ | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "fa.gamingserverstream.ir",
-      "server_port": 443,
-      "uuid": "8ae40bd9-f769-4b1b-bf89-fde9d5afc4c5",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     }
   ],
   "route": {
