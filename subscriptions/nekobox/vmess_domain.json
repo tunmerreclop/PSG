@@ -82,8 +82,6 @@
         "KingRezaPahlavi",
         "🇮🇷 IR | VMESS | @Fr33C0nfig #1",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
-        "🇮🇷 IR | VMESS | @dargiiriis #1",
-        "🇮🇷 IR | VMESS | @dargiiriis #2",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @hope_net #1",
@@ -97,6 +95,7 @@
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
         "🇭🇰 HK | VMESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #2",
         "🇮🇷 IR | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
@@ -112,8 +111,6 @@
         "KingRezaPahlavi",
         "🇮🇷 IR | VMESS | @Fr33C0nfig #1",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
-        "🇮🇷 IR | VMESS | @dargiiriis #1",
-        "🇮🇷 IR | VMESS | @dargiiriis #2",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @hope_net #1",
@@ -127,6 +124,7 @@
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
         "🇭🇰 HK | VMESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #2",
         "🇮🇷 IR | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
@@ -249,24 +247,6 @@
           "Host": "us-4.0rd.net"
         }
       }
-    },
-    {
-      "tag": "🇮🇷 IR | VMESS | @dargiiriis #1",
-      "type": "vmess",
-      "server": "homeyra.taz-min.com",
-      "server_port": 33221,
-      "uuid": "fbdcae66-c997-49ce-9a18-a155fb7ec781",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "tag": "🇮🇷 IR | VMESS | @dargiiriis #2",
-      "type": "vmess",
-      "server": "homeyra.taz-min.com",
-      "server_port": 33221,
-      "uuid": "de6241b0-ee2d-431e-b7e5-2853b4d0fb26",
-      "security": "auto",
-      "alter_id": 0
     },
     {
       "tag": "🇭🇰 HK | VMESS | @freev2rays #1",
@@ -583,6 +563,22 @@
         "path": "/",
         "headers": {
           "Host": "n1761214919.mv7wh.tech"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "tgju.org",
+      "server_port": 8080,
+      "uuid": "nasnet",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/nasnet/cdn?ed=2560",
+        "headers": {
+          "Host": "nasnet-571296497.iranpress.co"
         }
       }
     },

@@ -93,12 +93,15 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇩🇪 DE | VLESS | @config_proxy #1",
+        "🇩🇪 DE | VLESS | @configasli #1",
         "🇫🇮 FI | VLESS | @configv2rayforfree #1",
         "🇮🇷 IR | VLESS | @connectshu #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
+        "🇯🇵 JP | VLESS | @flyv2ray #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
         "🇭🇰 HK | VLESS | @mtproxy22_v2ray #1",
-        "🇮🇷 IR | VLESS | @v2ray_vmes #1",
+        "🇮🇷 IR | VLESS | @v2ray_vmes #2",
         "🇫🇮 FI | VLESS | @v2ray_youtube #1",
         "🇩🇪 DE | VLESS | @vpn_ioss #1",
         "🇩🇪 DE | VLESS | @vpnowl #1"
@@ -112,12 +115,15 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇩🇪 DE | VLESS | @config_proxy #1",
+        "🇩🇪 DE | VLESS | @configasli #1",
         "🇫🇮 FI | VLESS | @configv2rayforfree #1",
         "🇮🇷 IR | VLESS | @connectshu #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
+        "🇯🇵 JP | VLESS | @flyv2ray #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
         "🇭🇰 HK | VLESS | @mtproxy22_v2ray #1",
-        "🇮🇷 IR | VLESS | @v2ray_vmes #1",
+        "🇮🇷 IR | VLESS | @v2ray_vmes #2",
         "🇫🇮 FI | VLESS | @v2ray_youtube #1",
         "🇩🇪 DE | VLESS | @vpn_ioss #1",
         "🇩🇪 DE | VLESS | @vpnowl #1"
@@ -204,6 +210,37 @@
       }
     },
     {
+      "tag": "🇩🇪 DE | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "sinus.isgately.dev",
+      "server_port": 11004,
+      "uuid": "886b78f2-17f7-4958-a576-2ef87df11661",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @configasli #1",
+      "type": "vless",
+      "server": "s1.aparat-movies-download.ir",
+      "server_port": 4450,
+      "uuid": "a19f4213-fcb8-4384-9c85-cb51cae8ab8b",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "tag": "🇫🇮 FI | VLESS | @configv2rayforfree #1",
       "type": "vless",
       "server": "fl-2.bot-iphone.ru",
@@ -270,6 +307,28 @@
       }
     },
     {
+      "tag": "🇯🇵 JP | VLESS | @flyv2ray #1",
+      "type": "vless",
+      "server": "jp.griffon-guard.com",
+      "server_port": 443,
+      "uuid": "193c75c1-1af1-484a-84ec-14de4828d209",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇫🇮 FI | VLESS | @freeconfigsplus #1",
       "type": "vless",
       "server": "fi4.srv.cdnopl.link",
@@ -314,7 +373,7 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_vmes #1",
+      "tag": "🇮🇷 IR | VLESS | @v2ray_vmes #2",
       "type": "vless",
       "server": "m1.designister.com",
       "server_port": 443,

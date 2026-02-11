@@ -90,12 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇷🇺 RU | VLESS | @connectshu #1",
         "🇷🇺 RU | VLESS | @netmellianti #1",
-        "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇷🇺 RU | VLESS | @prrofile_purple #1",
-        "🇷🇺 RU | SS | @v2ray_free_conf #1"
+        "🇷🇺 RU | VMESS | @prooxyk #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -103,12 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇷🇺 RU | VLESS | @connectshu #1",
         "🇷🇺 RU | VLESS | @netmellianti #1",
-        "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇷🇺 RU | VLESS | @prrofile_purple #1",
-        "🇷🇺 RU | SS | @v2ray_free_conf #1"
+        "🇷🇺 RU | VMESS | @prooxyk #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -118,14 +112,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "87.242.102.193",
-      "server_port": 8443,
-      "uuid": "bc0602d4-86e3-4d58-80d8-afc6c67926a2",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VLESS | @connectshu #1",
@@ -190,31 +176,6 @@
           "Host": "77.v2ray1.xyz"
         }
       }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #1",
-      "type": "vless",
-      "server": "5.129.217.197",
-      "server_port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "145.249.109.108",
-      "server_port": 18740,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZSGFsRHZQMXo1UnJpVTZsNExuZ0tp",
-      "password": null
     }
   ],
   "route": {
