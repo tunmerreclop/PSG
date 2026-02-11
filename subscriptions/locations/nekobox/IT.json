@@ -77,9 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇹 IT | VLESS | @config_proxy #1",
-        "🇮🇹 IT | SS | @filtershekan_channel #1",
-        "🇮🇹 IT | VLESS | @prrofile_purple #1"
+        "🇮🇹 IT | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇹 IT | VLESS | @config_proxy #1",
-        "🇮🇹 IT | SS | @filtershekan_channel #1",
-        "🇮🇹 IT | VLESS | @prrofile_purple #1"
+        "🇮🇹 IT | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -105,27 +101,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇹 IT | VLESS | @config_proxy #1",
+      "tag": "🇮🇹 IT | VLESS | @vpnplusee_free #1",
       "type": "vless",
       "server": "146.75.53.132",
       "server_port": 80,
       "uuid": "1cfb30fe-703a-6948-2cee-e4483dbafcca",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇹 IT | SS | @filtershekan_channel #1",
-      "type": "shadowsocks",
-      "server": "57.131.41.129",
-      "server_port": 8390,
-      "method": "YXV0bzo=",
-      "password": null
-    },
-    {
-      "tag": "🇮🇹 IT | VLESS | @prrofile_purple #1",
-      "type": "vless",
-      "server": "mcnew.dl101movis.ir",
-      "server_port": 80,
-      "uuid": "508209de-ac9e-437d-b230-569ab55388da",
       "packet_encoding": "xudp"
     }
   ],

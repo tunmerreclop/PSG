@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇬 SG | SS | @red2ray #1"
+        "🇸🇬 SG | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇬 SG | SS | @red2ray #1"
+        "🇸🇬 SG | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,21 @@
       "type": "direct"
     },
     {
-      "tag": "🇸🇬 SG | SS | @red2ray #1",
-      "type": "shadowsocks",
-      "server": "3.1.195.148",
-      "server_port": 8316,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg==",
-      "password": null
+      "tag": "🇸🇬 SG | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "206.238.237.175",
+      "server_port": 443,
+      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
