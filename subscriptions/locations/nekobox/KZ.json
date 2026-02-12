@@ -78,7 +78,7 @@
         "auto",
         "direct",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
-        "🇰🇿 KZ | SS | @outline_ir #1",
+        "🇰🇿 KZ | VLESS | @prrofile_purple #1",
         "🇰🇿 KZ | VLESS | @v_2rayng0 #1"
       ],
       "tag": "proxy",
@@ -88,7 +88,7 @@
       "interval": "10m",
       "outbounds": [
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
-        "🇰🇿 KZ | SS | @outline_ir #1",
+        "🇰🇿 KZ | VLESS | @prrofile_purple #1",
         "🇰🇿 KZ | VLESS | @v_2rayng0 #1"
       ],
       "tag": "auto",
@@ -127,12 +127,21 @@
       }
     },
     {
-      "tag": "🇰🇿 KZ | SS | @outline_ir #1",
-      "type": "shadowsocks",
-      "server": "kazakhstan21.clearorbitllc.com",
-      "server_port": 46551,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJbnYxMTRkcDJ6azlaYllGUHBkUWY0",
-      "password": null
+      "tag": "🇰🇿 KZ | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "fa.gamingserverstream.ir",
+      "server_port": 443,
+      "uuid": "8ae40bd9-f769-4b1b-bf89-fde9d5afc4c5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇰🇿 KZ | VLESS | @v_2rayng0 #1",

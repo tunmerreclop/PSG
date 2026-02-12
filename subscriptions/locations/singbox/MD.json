@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgRUU=
+//profile-title: base64:UFNHIHwgTUQ=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,8 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇪 EE | VLESS | @hope_net #1",
-        "🇪🇪 EE | VLESS | @outline_ir #1"
+        "🇲🇩 MD | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇪 EE | VLESS | @hope_net #1",
-        "🇪🇪 EE | VLESS | @outline_ir #1"
+        "🇲🇩 MD | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,19 +110,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇪🇪 EE | VLESS | @hope_net #1",
+      "tag": "🇲🇩 MD | VLESS | @vmesc #1",
       "type": "vless",
-      "server": "45.80.110.19",
-      "server_port": 80,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇪🇪 EE | VLESS | @outline_ir #1",
-      "type": "vless",
-      "server": "95.85.245.114",
-      "server_port": 443,
-      "uuid": "b42f7955-3741-406f-b95a-ed7b051ae5aa",
+      "server": "md-alex-01.com",
+      "server_port": 8443,
+      "uuid": "e9000d6b-2cb8-46b0-96c8-751a7abd54f2",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
