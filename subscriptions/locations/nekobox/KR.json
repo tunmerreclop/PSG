@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇬 SG | VLESS | @vpn_ioss #1"
+        "🇰🇷 KR | VLESS | @v2raych #1",
+        "🇰🇷 KR | VLESS | @v2raych #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇬 SG | VLESS | @vpn_ioss #1"
+        "🇰🇷 KR | VLESS | @v2raych #1",
+        "🇰🇷 KR | VLESS | @v2raych #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,21 +103,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇸🇬 SG | VLESS | @vpn_ioss #1",
+      "tag": "🇰🇷 KR | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "27.50.48.155",
-      "server_port": 443,
-      "uuid": "ab321a49-bc9c-4bb6-915b-a1fcbc7de49c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "129.154.212.17",
+      "server_port": 20180,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇰🇷 KR | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "152.70.236.195",
+      "server_port": 30001,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

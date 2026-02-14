@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇲🇩 MD | VLESS | @vmesc #1", "server": "md-alex-01.com", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "e9000d6b-2cb8-46b0-96c8-751a7abd54f2", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇰🇷 KR | VLESS | @v2raych #1", "server": "129.154.212.17", "port": 20180, "type": "vless", "skip-cert-verify": true, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇰🇷 KR | VLESS | @v2raych #2", "server": "152.70.236.195", "port": 30001, "type": "vless", "skip-cert-verify": true, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇲🇩 MD | VLESS | @vmesc #1'
+      - '🇰🇷 KR | VLESS | @v2raych #1'
+      - '🇰🇷 KR | VLESS | @v2raych #2'
 
   - name: 🌍 Global Media
     type: select

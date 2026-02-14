@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgSVQ=
+//profile-title: base64:UFNHIHwgS1I=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇹 IT | SS | @v2raych #1"
+        "🇰🇷 KR | VLESS | @v2raych #1",
+        "🇰🇷 KR | VLESS | @v2raych #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇹 IT | SS | @v2raych #1"
+        "🇰🇷 KR | VLESS | @v2raych #1",
+        "🇰🇷 KR | VLESS | @v2raych #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +112,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇹 IT | SS | @v2raych #1",
-      "type": "shadowsocks",
-      "server": "57.131.38.151",
-      "server_port": 8443,
-      "method": "YWVzLTI1Ni1nY206K3pGTDBZN3NZUTZCUnJZSUo3ZFhHOHNVcWJ2Mkh6YlJ0MVpEY3N2VVpGcz0=",
-      "password": null
+      "tag": "🇰🇷 KR | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "129.154.212.17",
+      "server_port": 20180,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇰🇷 KR | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "152.70.236.195",
+      "server_port": 30001,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
