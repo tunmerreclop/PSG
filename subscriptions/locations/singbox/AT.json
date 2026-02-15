@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQkU=
+//profile-title: base64:UFNHIHwgQVQ=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇧🇪 BE | VLESS | @config_proxy #1"
+        "🇦🇹 AT | SS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇧🇪 BE | VLESS | @config_proxy #1"
+        "🇦🇹 AT | SS | @NamiraConfigs #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇧🇪 BE | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "5b941e3438fae910.fast2.viperping.ir",
-      "server_port": 80,
-      "uuid": "81aac87e-736c-4496-8209-bd26cdd0bfa8",
-      "packet_encoding": "xudp"
+      "tag": "🇦🇹 AT | SS | @NamiraConfigs #1",
+      "type": "shadowsocks",
+      "server": "77.110.110.117",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl",
+      "password": null
     }
   ],
   "route": {
