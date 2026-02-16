@@ -93,19 +93,18 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇺🇸 US | VLESS | @config_proxy #1",
+        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇺🇸 US | VLESS | @connectshu #1",
         "🇮🇷 IR | VLESS | @dargiiriis #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
         "🇩🇪 DE | VLESS | @megavpn_link #1",
-        "🇨🇭 CH | VLESS | @outline_ir #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #2",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
         "🇩🇪 DE | VLESS | @v2rayng3 #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
-        "🇩🇪 DE | VLESS | @vpnplusee_free #3"
+        "🇷🇺 RU | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -116,19 +115,18 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇺🇸 US | VLESS | @config_proxy #1",
+        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇺🇸 US | VLESS | @connectshu #1",
         "🇮🇷 IR | VLESS | @dargiiriis #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
         "🇩🇪 DE | VLESS | @megavpn_link #1",
-        "🇨🇭 CH | VLESS | @outline_ir #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #2",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
         "🇩🇪 DE | VLESS | @v2rayng3 #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
-        "🇩🇪 DE | VLESS | @vpnplusee_free #3"
+        "🇷🇺 RU | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -212,12 +210,22 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @config_proxy #1",
+      "tag": "🇳🇱 NL | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "us-cherry-01.com",
-      "server_port": 8443,
-      "uuid": "8a35152a-b65c-4f6b-aec4-7844d5f9e6d8",
-      "packet_encoding": "xudp"
+      "server": "nl.roblugo.su",
+      "server_port": 443,
+      "uuid": "32561144-434f-4752-a731-f35cd191ba4a",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @configasli #1",
@@ -334,28 +342,6 @@
       }
     },
     {
-      "tag": "🇨🇭 CH | VLESS | @outline_ir #1",
-      "type": "vless",
-      "server": "ch-gt-01.com",
-      "server_port": 8443,
-      "uuid": "9eac77f6-7813-45ab-9a5f-39d7e7d153c1",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇮🇷 IR | VLESS | @v2ray_vmes #2",
       "type": "vless",
       "server": "m1.designister.com",
@@ -434,15 +420,25 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @vpnplusee_free #3",
+      "tag": "🇷🇺 RU | VLESS | @vmesskhodam #1",
       "type": "vless",
-      "server": "partners.dissertationhelpspecialist.com",
-      "server_port": 2083,
-      "uuid": "183b52f7-af12-4eab-9e4e-29b9283fc3e1",
+      "server": "ru.jinnie.lol",
+      "server_port": 443,
+      "uuid": "53d37ac8-efc2-492c-b6c6-a864dfebbbff",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "grpc",
-        "service_name": ""
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
       }
     }
   ],

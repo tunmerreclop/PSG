@@ -93,12 +93,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇺🇸 US | VLESS | @config_proxy #1",
+        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇺🇸 US | VLESS | @connectshu #1",
+        "🇮🇷 IR | VLESS | @dargiiriis #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
-        "🇨🇭 CH | VLESS | @outline_ir #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #2"
       ],
       "tag": "proxy",
@@ -110,12 +110,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇺🇸 US | VLESS | @config_proxy #1",
+        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇺🇸 US | VLESS | @connectshu #1",
+        "🇮🇷 IR | VLESS | @dargiiriis #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
-        "🇨🇭 CH | VLESS | @outline_ir #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #2"
       ],
       "tag": "auto",
@@ -200,12 +200,22 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @config_proxy #1",
+      "tag": "🇳🇱 NL | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "us-cherry-01.com",
-      "server_port": 8443,
-      "uuid": "8a35152a-b65c-4f6b-aec4-7844d5f9e6d8",
-      "packet_encoding": "xudp"
+      "server": "nl.roblugo.su",
+      "server_port": 443,
+      "uuid": "32561144-434f-4752-a731-f35cd191ba4a",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @configasli #1",
@@ -230,6 +240,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @dargiiriis #1",
+      "type": "vless",
+      "server": "uktaz.taz-min.com",
+      "server_port": 6923,
+      "uuid": "45c48567-b3ee-4ab5-9ee0-562498c89488",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -261,28 +293,6 @@
       "server": "fi4.srv.cdnopl.link",
       "server_port": 6443,
       "uuid": "abb26a5a-3223-476f-a732-4c66f6a116ab",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇨🇭 CH | VLESS | @outline_ir #1",
-      "type": "vless",
-      "server": "ch-gt-01.com",
-      "server_port": 8443,
-      "uuid": "9eac77f6-7813-45ab-9a5f-39d7e7d153c1",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
