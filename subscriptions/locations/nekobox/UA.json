@@ -77,8 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇰🇷 KR | VLESS | @config_proxy #1",
-        "🇰🇷 KR | VLESS | @v2raych #1"
+        "🇺🇦 UA | VLESS | @prrofile_purple #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇰🇷 KR | VLESS | @config_proxy #1",
-        "🇰🇷 KR | VLESS | @v2raych #1"
+        "🇺🇦 UA | VLESS | @prrofile_purple #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,29 +101,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇰🇷 KR | VLESS | @config_proxy #1",
+      "tag": "🇺🇦 UA | VLESS | @prrofile_purple #1",
       "type": "vless",
-      "server": "129.154.223.89",
-      "server_port": 15800,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "server": "91.218.122.10",
+      "server_port": 8443,
+      "uuid": "c10999b4-7f93-5a50-3908-1467b1e52ae2",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇰🇷 KR | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "129.154.201.131",
-      "server_port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     }
   ],
   "route": {

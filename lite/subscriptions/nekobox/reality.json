@@ -94,13 +94,11 @@
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇺🇸 US | VLESS | @connectshu #1",
-        "🇮🇷 IR | VLESS | @dargiiriis #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
+        "🇩🇪 DE | VLESS | @prrofile_purple #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #1",
-        "🇩🇪 DE | VLESS | @vpnowl #1",
-        "🇩🇪 DE | VLESS | @vpnplusee_free #1",
-        "🇩🇪 DE | VLESS | @vpnplusee_free #2"
+        "🇩🇪 DE | VLESS | @vpnowl #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -125,13 +123,11 @@
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇺🇸 US | VLESS | @connectshu #1",
-        "🇮🇷 IR | VLESS | @dargiiriis #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
+        "🇩🇪 DE | VLESS | @prrofile_purple #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #1",
-        "🇩🇪 DE | VLESS | @vpnowl #1",
-        "🇩🇪 DE | VLESS | @vpnplusee_free #1",
-        "🇩🇪 DE | VLESS | @vpnplusee_free #2"
+        "🇩🇪 DE | VLESS | @vpnowl #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -471,28 +467,6 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @dargiiriis #1",
-      "type": "vless",
-      "server": "uktaz.taz-min.com",
-      "server_port": 6923,
-      "uuid": "45c48567-b3ee-4ab5-9ee0-562498c89488",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇳🇱 NL | VLESS | @filterk0sh #1",
       "type": "vless",
       "server": "eng14.netliberated.org",
@@ -537,6 +511,28 @@
       }
     },
     {
+      "tag": "🇩🇪 DE | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "gee.jykvpn.com",
+      "server_port": 443,
+      "uuid": "268f9be4-4e80-48ac-a0b8-f2d79d21f0a8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @v2ray_vmes #1",
       "type": "vless",
       "server": "m1.designister.com",
@@ -560,50 +556,6 @@
       "server_port": 2026,
       "uuid": "e2d67742-6f0a-412c-b382-e420d9461d23",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "sw.shopforkids.ir",
-      "server_port": 2245,
-      "uuid": "dd98ec41-bd36-4317-b8ab-29a14c5be29e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @vpnplusee_free #2",
-      "type": "vless",
-      "server": "cy.shopforkids.ir",
-      "server_port": 2256,
-      "uuid": "dd98ec41-bd36-4317-b8ab-29a14c5be29e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     }
   ],
   "route": {
