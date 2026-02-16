@@ -90,8 +90,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @config_proxy #1",
-        "🇵🇱 PL | SS | @outlinereleasedkey #1"
+        "🇵🇱 PL | VLESS | @armod_iran #1",
+        "🇵🇱 PL | SS | @outlinereleasedkey #1",
+        "🇵🇱 PL | SS | @v2ray_free_conf #1",
+        "🇵🇱 PL | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +101,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @config_proxy #1",
-        "🇵🇱 PL | SS | @outlinereleasedkey #1"
+        "🇵🇱 PL | VLESS | @armod_iran #1",
+        "🇵🇱 PL | SS | @outlinereleasedkey #1",
+        "🇵🇱 PL | SS | @v2ray_free_conf #1",
+        "🇵🇱 PL | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,11 +116,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @config_proxy #1",
+      "tag": "🇵🇱 PL | VLESS | @armod_iran #1",
       "type": "vless",
-      "server": "144.31.2.86",
+      "server": "144.31.3.30",
       "server_port": 443,
-      "uuid": "9034468f-b93d-407f-bfc0-87a178ba5c8c",
+      "uuid": "ccedb1b1-35f3-46d1-a85a-c699eef5f3e1",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -140,6 +144,36 @@
       "server_port": 9011,
       "method": "YWVzLTI1Ni1jZmI6TTN0MlpFUWNNR1JXQmpSYQ==",
       "password": null
+    },
+    {
+      "tag": "🇵🇱 PL | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "217.30.10.70",
+      "server_port": 9003,
+      "method": "YWVzLTI1Ni1jZmI6SmRtUks5Z01FcUZnczhuUA==",
+      "password": null
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "195.3.223.143",
+      "server_port": 443,
+      "uuid": "eb071647-72a6-46be-8e89-ff3d228d52f6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {
