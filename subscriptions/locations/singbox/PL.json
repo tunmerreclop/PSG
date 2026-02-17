@@ -90,8 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @config_proxy #1",
-        "🇵🇱 PL | SS | @outlinereleasedkey #1"
+        "🇵🇱 PL | SS | @outlinereleasedkey #1",
+        "🇵🇱 PL | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @config_proxy #1",
-        "🇵🇱 PL | SS | @outlinereleasedkey #1"
+        "🇵🇱 PL | SS | @outlinereleasedkey #1",
+        "🇵🇱 PL | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,11 +112,19 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @config_proxy #1",
+      "tag": "🇵🇱 PL | SS | @outlinereleasedkey #1",
+      "type": "shadowsocks",
+      "server": "217.30.10.18",
+      "server_port": 9011,
+      "method": "YWVzLTI1Ni1jZmI6TTN0MlpFUWNNR1JXQmpSYQ==",
+      "password": null
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "144.31.2.86",
-      "server_port": 443,
-      "uuid": "9034468f-b93d-407f-bfc0-87a178ba5c8c",
+      "server": "185.138.90.31",
+      "server_port": 8443,
+      "uuid": "0ea0ce13-85c2-4e97-8903-ef1232a2a2c6",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -132,14 +140,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇵🇱 PL | SS | @outlinereleasedkey #1",
-      "type": "shadowsocks",
-      "server": "217.30.10.18",
-      "server_port": 9011,
-      "method": "YWVzLTI1Ni1jZmI6TTN0MlpFUWNNR1JXQmpSYQ==",
-      "password": null
     }
   ],
   "route": {
