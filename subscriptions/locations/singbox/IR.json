@@ -91,7 +91,6 @@
         "auto",
         "direct",
         "🇮🇷 IR | VMESS | @Fr33C0nfig #1",
-        "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VMESS | @dargiiriis #1",
         "🇮🇷 IR | VMESS | @dargiiriis #2",
         "🇮🇷 IR | VLESS | @dargiiriis #1",
@@ -113,6 +112,7 @@
         "🇮🇷 IR | VLESS | @netmellianti #2",
         "🇮🇷 IR | VLESS | @netmellianti #3",
         "🇮🇷 IR | VLESS | @netmellianti #4",
+        "🇮🇷 IR | VLESS | @netmellianti #5",
         "🇮🇷 IR | VLESS | @outline_ir #1",
         "🇮🇷 IR | VLESS | @outline_ir #2",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
@@ -120,12 +120,11 @@
         "🇮🇷 IR | VLESS | @v2aryng_vpn #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #1",
-        "🇮🇷 IR | VLESS | @v2raymelliii #1",
         "🇮🇷 IR | VLESS | @v2rayngconfig #1",
         "🇮🇷 IR | VMESS | @v2rayngconfig #1",
         "🇮🇷 IR | VLESS | @v2rayopen #1",
-        "🇮🇷 IR | VLESS | @vmesc #1",
         "🇮🇷 IR | VLESS | @vpn_ioss #1",
+        "🇮🇷 IR | VLESS | @vpnfastservice #1",
         "🇮🇷 IR | VLESS | @xsv2ray #1"
       ],
       "tag": "proxy",
@@ -135,7 +134,6 @@
       "interval": "10m",
       "outbounds": [
         "🇮🇷 IR | VMESS | @Fr33C0nfig #1",
-        "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VMESS | @dargiiriis #1",
         "🇮🇷 IR | VMESS | @dargiiriis #2",
         "🇮🇷 IR | VLESS | @dargiiriis #1",
@@ -157,6 +155,7 @@
         "🇮🇷 IR | VLESS | @netmellianti #2",
         "🇮🇷 IR | VLESS | @netmellianti #3",
         "🇮🇷 IR | VLESS | @netmellianti #4",
+        "🇮🇷 IR | VLESS | @netmellianti #5",
         "🇮🇷 IR | VLESS | @outline_ir #1",
         "🇮🇷 IR | VLESS | @outline_ir #2",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
@@ -164,12 +163,11 @@
         "🇮🇷 IR | VLESS | @v2aryng_vpn #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #1",
-        "🇮🇷 IR | VLESS | @v2raymelliii #1",
         "🇮🇷 IR | VLESS | @v2rayngconfig #1",
         "🇮🇷 IR | VMESS | @v2rayngconfig #1",
         "🇮🇷 IR | VLESS | @v2rayopen #1",
-        "🇮🇷 IR | VLESS | @vmesc #1",
         "🇮🇷 IR | VLESS | @vpn_ioss #1",
+        "🇮🇷 IR | VLESS | @vpnfastservice #1",
         "🇮🇷 IR | VLESS | @xsv2ray #1"
       ],
       "tag": "auto",
@@ -198,14 +196,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "s9.daneshvardost.com",
-      "server_port": 26480,
-      "uuid": "6919e588-cff3-4c1b-b7a3-3ca0ada5fb69",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VMESS | @dargiiriis #1",
@@ -446,6 +436,14 @@
     {
       "tag": "🇮🇷 IR | VLESS | @netmellianti #3",
       "type": "vless",
+      "server": "5.160.144.59",
+      "server_port": 5087,
+      "uuid": "69b9d47e-59a9-4ba3-f8fe-4f581a624dfa",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @netmellianti #4",
+      "type": "vless",
       "server": "ir-joudian.aliacces.ir",
       "server_port": 443,
       "uuid": "4603d1b6-160a-47f2-9472-9db538b3b96d",
@@ -461,7 +459,7 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @netmellianti #4",
+      "tag": "🇮🇷 IR | VLESS | @netmellianti #5",
       "type": "vless",
       "server": "78.39.51.165",
       "server_port": 9594,
@@ -534,14 +532,6 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2raymelliii #1",
-      "type": "vless",
-      "server": "zone.li.zopli.ir",
-      "server_port": 50334,
-      "uuid": "bdf97c06-ae1f-47e9-b47a-9d9ff47b5820",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇮🇷 IR | VLESS | @v2rayngconfig #1",
       "type": "vless",
       "server": "fa.faraz360.ir",
@@ -567,19 +557,19 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @vmesc #1",
-      "type": "vless",
-      "server": "antifiltervip.pwteam.ir",
-      "server_port": 38463,
-      "uuid": "9706248e-259e-4738-9cde-a3f7e11be4b8",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇮🇷 IR | VLESS | @vpn_ioss #1",
       "type": "vless",
       "server": "85.133.249.38",
       "server_port": 58128,
       "uuid": "a98dfd2a-b021-607c-af2d-362ae38c9478",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @vpnfastservice #1",
+      "type": "vless",
+      "server": "tttt1.hennessypro.site",
+      "server_port": 4001,
+      "uuid": "81f57d7b-727a-4499-a29c-9229310db7fe",
       "packet_encoding": "xudp"
     },
     {

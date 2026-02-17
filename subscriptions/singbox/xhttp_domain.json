@@ -100,10 +100,11 @@
         "🇽🇽 XX | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @parsashonam #1",
         "🇧🇪 BE | VLESS | @prrofile_purple #1",
+        "🇽🇽 XX | VLESS | @v2raych #4",
+        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2rayfast_7 #1",
-        "🇺🇸 US | VLESS | @v2rayngconfiig #2",
+        "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇽🇽 XX | VLESS | @vpnowl #2",
-        "🇨🇭 CH | VLESS | @vpnplusee_free #1",
         "🇽🇽 XX | VLESS | @vpnplusee_free #2"
       ],
       "tag": "proxy",
@@ -122,10 +123,11 @@
         "🇽🇽 XX | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @parsashonam #1",
         "🇧🇪 BE | VLESS | @prrofile_purple #1",
+        "🇽🇽 XX | VLESS | @v2raych #4",
+        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2rayfast_7 #1",
-        "🇺🇸 US | VLESS | @v2rayngconfiig #2",
+        "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇽🇽 XX | VLESS | @vpnowl #2",
-        "🇨🇭 CH | VLESS | @vpnplusee_free #1",
         "🇽🇽 XX | VLESS | @vpnplusee_free #2"
       ],
       "tag": "auto",
@@ -266,6 +268,40 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇽🇽 XX | VLESS | @v2raych #4",
+      "type": "vless",
+      "server": "g1.prodnsspeed10.ir",
+      "server_port": 443,
+      "uuid": "7f382331-f6c9-4ebc-9725-308ee1a8f798",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "g11.prodnsspeed10.ir",
+      "server_port": 443,
+      "uuid": "7f382331-f6c9-4ebc-9725-308ee1a8f798",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @v2rayfast_7 #1",
       "type": "vless",
       "server": "fast4.zone-server-irani.ir",
@@ -274,7 +310,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #2",
+      "tag": "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
       "type": "vless",
       "server": "test.fast.hosting-ip.com",
       "server_port": 80,
@@ -287,14 +323,6 @@
       "server": "digitalocean.com",
       "server_port": 8443,
       "uuid": "nasnet",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇨🇭 CH | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "ir.grbr.private-link.lornanet.ir",
-      "server_port": 9174,
-      "uuid": "5808fea7-745a-fbd4-eb1e-616b1123c14f",
       "packet_encoding": "xudp"
     },
     {
