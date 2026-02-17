@@ -92,7 +92,9 @@
         "direct",
         "🇫🇮 FI | VLESS | @bored_vpn #1",
         "🇫🇮 FI | VLESS | @filtershekan_channel #1",
-        "🇫🇮 FI | VLESS | @freeconfigsplus #1"
+        "🇫🇮 FI | VLESS | @v2ray_vmes #1",
+        "🇫🇮 FI | SS | @v2ray_youtube #1",
+        "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,7 +104,9 @@
       "outbounds": [
         "🇫🇮 FI | VLESS | @bored_vpn #1",
         "🇫🇮 FI | VLESS | @filtershekan_channel #1",
-        "🇫🇮 FI | VLESS | @freeconfigsplus #1"
+        "🇫🇮 FI | VLESS | @v2ray_vmes #1",
+        "🇫🇮 FI | SS | @v2ray_youtube #1",
+        "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -144,11 +148,11 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @freeconfigsplus #1",
+      "tag": "🇫🇮 FI | VLESS | @v2ray_vmes #1",
       "type": "vless",
-      "server": "fi4.srv.cdnopl.link",
-      "server_port": 6443,
-      "uuid": "abb26a5a-3223-476f-a732-4c66f6a116ab",
+      "server": "m1.designister.com",
+      "server_port": 443,
+      "uuid": "a0011204-1bd7-489b-b120-eeeab41b6e59",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -157,13 +161,24 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇫🇮 FI | SS | @v2ray_youtube #1",
+      "type": "shadowsocks",
+      "server": "promo18v.bystrivpn.ru",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkQUhNMXBtOGFnN0tkbHJVeWxRaTZ0",
+      "password": null
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "37.27.240.154",
+      "server_port": 42538,
+      "uuid": "8b4b9ef8-a5b7-46f5-a070-4ba9b33d7545",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

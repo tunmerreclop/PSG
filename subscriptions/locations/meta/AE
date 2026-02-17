@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇹🇷 TR | VMESS | @free1_vpn #1", "server": "chatgpt.com", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/", "headers": {"Host": "tr1-smart.adelping.com."}}}
+  - {"name": "🇦🇪 AE | VLESS | @vpnplusee_free #1", "server": "gr-fa-tun.freequenceteam.com", "port": 10003, "type": "vless", "skip-cert-verify": true, "uuid": "ae193dc5-7104-135b-d381-affa50dccb95", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇹🇷 TR | VMESS | @free1_vpn #1'
+      - '🇦🇪 AE | VLESS | @vpnplusee_free #1'
 
   - name: 🌍 Global Media
     type: select

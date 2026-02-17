@@ -97,12 +97,10 @@
         "🇬🇧 GB | SS | @imhdiyvp #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇬🇧 GB | VLESS | @miov2ray #1",
+        "🇬🇧 GB | SS | @mtproxy22_v2ray #1",
         "🇬🇧 GB | SS | @red2ray #1",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
-        "🇬🇧 GB | SS | @torang_vpn #1",
-        "🇬🇧 GB | VLESS | @v2raych #1",
-        "🇬🇧 GB | SS | @vpn_ioss #1",
-        "🇬🇧 GB | SS | @vpn_ioss #2"
+        "🇬🇧 GB | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -117,12 +115,10 @@
         "🇬🇧 GB | SS | @imhdiyvp #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇬🇧 GB | VLESS | @miov2ray #1",
+        "🇬🇧 GB | SS | @mtproxy22_v2ray #1",
         "🇬🇧 GB | SS | @red2ray #1",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
-        "🇬🇧 GB | SS | @torang_vpn #1",
-        "🇬🇧 GB | VLESS | @v2raych #1",
-        "🇬🇧 GB | SS | @vpn_ioss #1",
-        "🇬🇧 GB | SS | @vpn_ioss #2"
+        "🇬🇧 GB | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -199,11 +195,19 @@
       }
     },
     {
-      "tag": "🇬🇧 GB | SS | @red2ray #1",
+      "tag": "🇬🇧 GB | SS | @mtproxy22_v2ray #1",
       "type": "shadowsocks",
       "server": "admin.c2.havij.co",
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprYVFIM2hHZGNQODBYRURJ",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @red2ray #1",
+      "type": "shadowsocks",
+      "server": "series-a1.samanehha.co",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
       "password": null
     },
     {
@@ -215,17 +219,9 @@
       "password": null
     },
     {
-      "tag": "🇬🇧 GB | SS | @torang_vpn #1",
-      "type": "shadowsocks",
-      "server": "series-a1.samanehha.co",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
-      "password": null
-    },
-    {
       "tag": "🇬🇧 GB | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "57.129.137.200",
+      "server": "57.129.137.231",
       "server_port": 443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "packet_encoding": "xudp",
@@ -238,22 +234,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @vpn_ioss #1",
-      "type": "shadowsocks",
-      "server": "51.89.119.213",
-      "server_port": 11201,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxNWIwNTczODMwMDgxZDAx",
-      "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @vpn_ioss #2",
-      "type": "shadowsocks",
-      "server": "82.38.31.210",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
-      "password": null
     }
   ],
   "route": {
