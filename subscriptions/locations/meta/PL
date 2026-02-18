@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇧🇪 BE | VLESS | @prrofile_purple #1", "server": "151.101.8.79", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "1b771dab-e581-4457-b1d9-416d48ea5d8c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇵🇱 PL | VLESS | @mtproxy22_v2ray #1", "server": "pol2.linkey37.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "41666e59-9e5c-45fb-b083-fa34a5b62a05", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇧🇪 BE | VLESS | @prrofile_purple #1'
+      - '🇵🇱 PL | VLESS | @mtproxy22_v2ray #1'
 
   - name: 🌍 Global Media
     type: select
