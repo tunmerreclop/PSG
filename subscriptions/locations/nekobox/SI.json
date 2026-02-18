@@ -78,7 +78,7 @@
         "auto",
         "direct",
         "🇸🇮 SI | VLESS | @filterk0sh #1",
-        "🇸🇮 SI | SS | @NamiraConfigs #1"
+        "🇸🇮 SI | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +87,7 @@
       "interval": "10m",
       "outbounds": [
         "🇸🇮 SI | VLESS | @filterk0sh #1",
-        "🇸🇮 SI | SS | @NamiraConfigs #1"
+        "🇸🇮 SI | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -125,12 +125,21 @@
       }
     },
     {
-      "tag": "🇸🇮 SI | SS | @NamiraConfigs #1",
-      "type": "shadowsocks",
-      "server": "192.71.244.150",
-      "server_port": 990,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz",
-      "password": null
+      "tag": "🇸🇮 SI | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "en.nattyzwerg.org",
+      "server_port": 443,
+      "uuid": "e292fde3-e11d-43ba-9805-a43836bcbabc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
