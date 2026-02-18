@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇲🇾 MY | VMESS | @v2ray_free_conf #1"
+        "🇸🇬 SG | SS | @free1_vpn #1",
+        "🇸🇬 SG | SS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇲🇾 MY | VMESS | @v2ray_free_conf #1"
+        "🇸🇬 SG | SS | @free1_vpn #1",
+        "🇸🇬 SG | SS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,20 +103,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇲🇾 MY | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "gtm1.ktmwan.net",
-      "server_port": 12883,
-      "uuid": "3ac9d436-f213-421d-9644-a94686ee9fba",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "gtm1.ktmwan.net"
-        }
-      }
+      "tag": "🇸🇬 SG | SS | @free1_vpn #1",
+      "type": "shadowsocks",
+      "server": "3.1.195.148",
+      "server_port": 8313,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg==",
+      "password": null
+    },
+    {
+      "tag": "🇸🇬 SG | SS | @red2ray #1",
+      "type": "shadowsocks",
+      "server": "45.77.253.107",
+      "server_port": 443,
+      "method": "YWVzLTI1Ni1nY206endqbFU5N3RCS3RQSlBCNQ==",
+      "password": null
     }
   ],
   "route": {

@@ -78,8 +78,6 @@
         "auto",
         "direct",
         "🇬🇧 GB | VLESS | @armod_iran #1",
-        "🇬🇧 GB | VLESS | @config_proxy #1",
-        "🇬🇧 GB | VLESS | @config_proxy #2",
         "🇬🇧 GB | SS | @filtershekan_channel #1",
         "🇬🇧 GB | VLESS | @flyv2ray #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
@@ -87,11 +85,11 @@
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇬🇧 GB | VLESS | @miov2ray #1",
         "🇬🇧 GB | SS | @mtproxy22_v2ray #1",
+        "🇬🇧 GB | VLESS | @red2ray #1",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
-        "🇬🇧 GB | SS | @torang_vpn #1",
-        "🇬🇧 GB | SS | @v2ray_free_conf #1",
+        "🇬🇧 GB | SS | @v2raych #1",
+        "🇬🇧 GB | SS | @v2raych #2",
         "🇬🇧 GB | VLESS | @vmesskhodam #1",
-        "🇬🇧 GB | SS | @vpn_ioss #1",
         "🇬🇧 GB | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
@@ -101,8 +99,6 @@
       "interval": "10m",
       "outbounds": [
         "🇬🇧 GB | VLESS | @armod_iran #1",
-        "🇬🇧 GB | VLESS | @config_proxy #1",
-        "🇬🇧 GB | VLESS | @config_proxy #2",
         "🇬🇧 GB | SS | @filtershekan_channel #1",
         "🇬🇧 GB | VLESS | @flyv2ray #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
@@ -110,11 +106,11 @@
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇬🇧 GB | VLESS | @miov2ray #1",
         "🇬🇧 GB | SS | @mtproxy22_v2ray #1",
+        "🇬🇧 GB | VLESS | @red2ray #1",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
-        "🇬🇧 GB | SS | @torang_vpn #1",
-        "🇬🇧 GB | SS | @v2ray_free_conf #1",
+        "🇬🇧 GB | SS | @v2raych #1",
+        "🇬🇧 GB | SS | @v2raych #2",
         "🇬🇧 GB | VLESS | @vmesskhodam #1",
-        "🇬🇧 GB | SS | @vpn_ioss #1",
         "🇬🇧 GB | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
@@ -137,38 +133,6 @@
       "server_port": 8443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "167.99.80.91",
-      "server_port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "185.170.166.138",
-      "server_port": 2096,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
     },
     {
       "tag": "🇬🇧 GB | SS | @filtershekan_channel #1",
@@ -236,6 +200,14 @@
       "password": null
     },
     {
+      "tag": "🇬🇧 GB | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "go.adslimit.info",
+      "server_port": 2345,
+      "uuid": "0331b690-79fc-49d5-85f0-54faa4eff89f",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇬🇧 GB | SS | @serverv2ray00 #1",
       "type": "shadowsocks",
       "server": "account-mec.emofid.co",
@@ -244,19 +216,19 @@
       "password": null
     },
     {
-      "tag": "🇬🇧 GB | SS | @torang_vpn #1",
+      "tag": "🇬🇧 GB | SS | @v2raych #1",
       "type": "shadowsocks",
-      "server": "series-a1.samanehha.co",
+      "server": "131.145.23.4",
       "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprYVFIM2hHZGNQODBYRURJ",
       "password": null
     },
     {
-      "tag": "🇬🇧 GB | SS | @v2ray_free_conf #1",
+      "tag": "🇬🇧 GB | SS | @v2raych #2",
       "type": "shadowsocks",
-      "server": "82.38.31.124",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "server": "4.158.0.51",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
       "password": null
     },
     {
@@ -275,14 +247,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @vpn_ioss #1",
-      "type": "shadowsocks",
-      "server": "82.38.31.184",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
-      "password": null
     },
     {
       "tag": "🇬🇧 GB | VLESS | @vpn_ioss #1",
