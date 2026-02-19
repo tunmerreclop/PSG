@@ -99,6 +99,8 @@
         "🇫🇷 FR | TROJAN | @proxyfn #1",
         "🇫🇷 FR | SS | @red2ray #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
+        "🇫🇷 FR | VMESS | @v2ray_free_conf #1",
+        "🇫🇷 FR | SS | @v2ray_free_conf #1",
         "🇫🇷 FR | SS | @v2rayng3 #1",
         "🇫🇷 FR | VMESS | @v2raytg #1",
         "🇫🇷 FR | VLESS | @vlessconfig #1",
@@ -119,6 +121,8 @@
         "🇫🇷 FR | TROJAN | @proxyfn #1",
         "🇫🇷 FR | SS | @red2ray #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
+        "🇫🇷 FR | VMESS | @v2ray_free_conf #1",
+        "🇫🇷 FR | SS | @v2ray_free_conf #1",
         "🇫🇷 FR | SS | @v2rayng3 #1",
         "🇫🇷 FR | VMESS | @v2raytg #1",
         "🇫🇷 FR | VLESS | @vlessconfig #1",
@@ -246,6 +250,39 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇫🇷 FR | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "57.128.189.240",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "51.178.114.83",
+      "server_port": 11202,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkNWI4NzhjYmI0NmYzZTMz",
+      "password": null
     },
     {
       "tag": "🇫🇷 FR | SS | @v2rayng3 #1",

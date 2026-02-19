@@ -91,15 +91,12 @@
         "auto",
         "direct",
         "🇳🇱 NL | VLESS | @bored_vpn #1",
-        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | SS | @mtproxy22_v2ray #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @sobi_vpn #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
-        "🇳🇱 NL | SS | @v2ray_free_conf #1",
-        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇳🇱 NL | VLESS | @vmesc #1",
         "🇳🇱 NL | VLESS | @vpn_ioss #1",
@@ -112,15 +109,12 @@
       "interval": "10m",
       "outbounds": [
         "🇳🇱 NL | VLESS | @bored_vpn #1",
-        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | SS | @mtproxy22_v2ray #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @sobi_vpn #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
-        "🇳🇱 NL | SS | @v2ray_free_conf #1",
-        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇳🇱 NL | VLESS | @vmesc #1",
         "🇳🇱 NL | VLESS | @vpn_ioss #1",
@@ -142,23 +136,6 @@
       "server_port": 2096,
       "uuid": "54c85e0d-2b86-4109-8cbc-41526c1e38a7",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "144.31.100.120",
-      "server_port": 443,
-      "uuid": "18f376e5-a4ce-4df3-b67b-77ed68533133",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇳🇱 NL | SS | @easy_free_vpn #1",
@@ -228,31 +205,6 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "109.201.152.181",
-      "server_port": 443,
-      "method": "YWVzLTEyOC1jZmI6c2hhZG93c29ja3M=",
-      "password": null
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "osn.takovpn.ru",
-      "server_port": 443,
-      "uuid": "79b5b31e-9557-4ea6-9ec5-450d7cdefecd",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     },

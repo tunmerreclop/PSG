@@ -83,7 +83,6 @@
         "🇺🇸 US | VLESS | @connectshu #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
-        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @evay_vpn #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇺🇸 US | VLESS | @filterk0sh #2",
@@ -120,7 +119,6 @@
         "🇺🇸 US | VLESS | @mpproxy #4",
         "🇺🇸 US | VLESS | @msv2raynp #1",
         "🇺🇸 US | VLESS | @msv2raynp #2",
-        "🇺🇸 US | VLESS | @mtproxy22_v2ray #1",
         "🇺🇸 US | VLESS | @netfreedom0 #1",
         "🇺🇸 US | VLESS | @nofiltering2 #1",
         "🇺🇸 US | VLESS | @nofiltering2 #2",
@@ -141,8 +139,11 @@
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
         "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+        "🇺🇸 US | SS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2raych #2",
+        "🇺🇸 US | VLESS | @v2raych #3",
+        "🇺🇸 US | VLESS | @v2raych #4",
         "🇺🇸 US | VLESS | @v2rayfast_7 #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #2",
@@ -168,7 +169,6 @@
         "🇺🇸 US | VLESS | @connectshu #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
-        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @evay_vpn #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇺🇸 US | VLESS | @filterk0sh #2",
@@ -205,7 +205,6 @@
         "🇺🇸 US | VLESS | @mpproxy #4",
         "🇺🇸 US | VLESS | @msv2raynp #1",
         "🇺🇸 US | VLESS | @msv2raynp #2",
-        "🇺🇸 US | VLESS | @mtproxy22_v2ray #1",
         "🇺🇸 US | VLESS | @netfreedom0 #1",
         "🇺🇸 US | VLESS | @nofiltering2 #1",
         "🇺🇸 US | VLESS | @nofiltering2 #2",
@@ -226,8 +225,11 @@
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
         "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+        "🇺🇸 US | SS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2raych #2",
+        "🇺🇸 US | VLESS | @v2raych #3",
+        "🇺🇸 US | VLESS | @v2raych #4",
         "🇺🇸 US | VLESS | @v2rayfast_7 #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #2",
@@ -325,14 +327,6 @@
       "server": "clfconnect.pishipishi.pro",
       "server_port": 8880,
       "uuid": "vpn_connects",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @eliteproxyv2 #1",
-      "type": "vless",
-      "server": "germany.fast.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
       "packet_encoding": "xudp"
     },
     {
@@ -792,28 +786,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @mtproxy22_v2ray #1",
-      "type": "vless",
-      "server": "de.gagtubelol.com",
-      "server_port": 443,
-      "uuid": "192f7c25-0c3a-4089-a67b-5138c5d5d561",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @netfreedom0 #1",
       "type": "vless",
       "server": "z1.n1server.org",
@@ -1090,14 +1062,14 @@
     {
       "tag": "🇺🇸 US | VMESS | @v2ray_free_conf #1",
       "type": "vmess",
-      "server": "198.62.62.199",
+      "server": "vjp1.0bad.com",
       "server_port": 443,
-      "uuid": "f08369d1-5ee7-4b16-d786-30bce12fc33c",
+      "uuid": "927094d3-d678-4763-8591-e240d0bcae87",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "ous3.dean52.top",
+        "server_name": "vjp1.0bad.com",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -1106,18 +1078,42 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/f08369d1-5ee7-4b16-d786-30bce12fc33c",
+        "path": "/chat",
         "headers": {
-          "Host": "ous3.dean52.top"
+          "Host": "vjp1.0bad.com"
         }
       }
+    },
+    {
+      "tag": "🇺🇸 US | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "209.126.5.209",
+      "server_port": 80,
+      "method": "YWVzLTI1Ni1nY206a0VWS2oxeHZnemVFbjhBVg==",
+      "password": null
     },
     {
       "tag": "🇺🇸 US | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "160.153.1.198",
+      "server": "aafc11.lizard2shop.com",
+      "server_port": 2095,
+      "uuid": "7174a404-0b07-4a78-b921-4c0a4dda44a7",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "aafc11.lizard2shop.com",
+      "server_port": 2095,
+      "uuid": "7174a404-0b07-4a78-b921-4c0a4dda44a7",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2raych #3",
+      "type": "vless",
+      "server": "fsxhh.fastshop1.com",
       "server_port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "uuid": "7174a404-0b07-4a78-b921-4c0a4dda44a7",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -1130,21 +1126,12 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2raych #2",
+      "tag": "🇺🇸 US | VLESS | @v2raych #4",
       "type": "vless",
-      "server": "209.102.207.120",
-      "server_port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "dallas.irandata.space",
+      "server_port": 8080,
+      "uuid": "cfbd6802-a516-4269-8972-8c44c623cb41",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇺🇸 US | VLESS | @v2rayfast_7 #1",

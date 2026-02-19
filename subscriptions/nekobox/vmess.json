@@ -96,7 +96,6 @@
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
         "🇺🇸 US | VMESS | @v2ray_free_conf #1",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #2",
         "🇮🇷 IR | VMESS | @v2rayngconfig #1",
         "🇽🇽 XX | VMESS | @vpn_ioss #1",
@@ -107,6 +106,7 @@
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
+        "🇫🇷 FR | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #1",
         "🇫🇷 FR | VMESS | @v2raytg #1"
       ],
@@ -135,7 +135,6 @@
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
         "🇺🇸 US | VMESS | @v2ray_free_conf #1",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #2",
         "🇮🇷 IR | VMESS | @v2rayngconfig #1",
         "🇽🇽 XX | VMESS | @vpn_ioss #1",
@@ -146,6 +145,7 @@
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
+        "🇫🇷 FR | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #1",
         "🇫🇷 FR | VMESS | @v2raytg #1"
       ],
@@ -564,14 +564,14 @@
     {
       "tag": "🇺🇸 US | VMESS | @v2ray_free_conf #1",
       "type": "vmess",
-      "server": "198.62.62.199",
+      "server": "vjp1.0bad.com",
       "server_port": 443,
-      "uuid": "f08369d1-5ee7-4b16-d786-30bce12fc33c",
+      "uuid": "927094d3-d678-4763-8591-e240d0bcae87",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "ous3.dean52.top",
+        "server_name": "vjp1.0bad.com",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -580,25 +580,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/f08369d1-5ee7-4b16-d786-30bce12fc33c",
+        "path": "/chat",
         "headers": {
-          "Host": "ous3.dean52.top"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "tgju.org",
-      "server_port": 8080,
-      "uuid": "e8b1500b-e9e8-5492-8312-f4eadf7d0767",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/nasnet/cdn",
-        "headers": {
-          "Host": "nasnet-571296497.iranpress.co"
+          "Host": "vjp1.0bad.com"
         }
       }
     },
@@ -789,6 +773,31 @@
         "path": "/vmessws",
         "headers": {
           "Host": "209.126.84.189"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "57.128.189.240",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
         }
       }
     },

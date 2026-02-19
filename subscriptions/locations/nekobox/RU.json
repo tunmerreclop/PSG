@@ -79,6 +79,9 @@
         "direct",
         "🇷🇺 RU | VLESS | @bored_vpn #1",
         "🇷🇺 RU | VLESS | @config_proxy #1",
+        "🇷🇺 RU | VLESS | @config_proxy #2",
+        "🇷🇺 RU | VLESS | @config_proxy #3",
+        "🇷🇺 RU | VLESS | @config_proxy #4",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇷🇺 RU | VLESS | @v2ray_youtube #1",
         "🇷🇺 RU | VLESS | @v2ray_youtube #2",
@@ -94,6 +97,9 @@
       "outbounds": [
         "🇷🇺 RU | VLESS | @bored_vpn #1",
         "🇷🇺 RU | VLESS | @config_proxy #1",
+        "🇷🇺 RU | VLESS | @config_proxy #2",
+        "🇷🇺 RU | VLESS | @config_proxy #3",
+        "🇷🇺 RU | VLESS | @config_proxy #4",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇷🇺 RU | VLESS | @v2ray_youtube #1",
         "🇷🇺 RU | VLESS | @v2ray_youtube #2",
@@ -138,6 +144,39 @@
     },
     {
       "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "84.23.52.70",
+      "server_port": 8443,
+      "uuid": "afffbafe-881f-4a06-bc22-d1a49121ba36",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "95.163.182.178",
+      "server_port": 443,
+      "uuid": "da11d62c-1996-4d2c-b2e6-e89c7a1265e9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @config_proxy #3",
+      "type": "vless",
+      "server": "178.154.253.80",
+      "server_port": 8443,
+      "uuid": "afffbafe-881f-4a06-bc22-d1a49121ba36",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @config_proxy #4",
       "type": "vless",
       "server": "176.109.109.58",
       "server_port": 8443,

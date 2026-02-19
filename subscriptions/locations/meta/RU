@@ -24,7 +24,10 @@ dns:
 
 proxies: 
   - {"name": "🇷🇺 RU | VLESS | @bored_vpn #1", "server": "51.250.86.102", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "64a3a23c-363a-4bee-9401-f5c42eea5a27", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇷🇺 RU | VLESS | @config_proxy #1", "server": "176.109.109.58", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "192d7d5c-0b89-409c-a176-0d160f173d2b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @config_proxy #1", "server": "84.23.52.70", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "afffbafe-881f-4a06-bc22-d1a49121ba36", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @config_proxy #2", "server": "95.163.182.178", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "da11d62c-1996-4d2c-b2e6-e89c7a1265e9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @config_proxy #3", "server": "178.154.253.80", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "afffbafe-881f-4a06-bc22-d1a49121ba36", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @config_proxy #4", "server": "176.109.109.58", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "192d7d5c-0b89-409c-a176-0d160f173d2b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VMESS | @prooxyk #1", "server": "77.v2ray1.xyz", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/A2DJOPFT", "headers": {"Host": "77.v2ray1.xyz"}}}
   - {"name": "🇷🇺 RU | VLESS | @v2ray_youtube #1", "server": "151.236.114.162", "port": 6443, "type": "vless", "skip-cert-verify": true, "uuid": "65704afe-e26a-4266-9ff3-4d09c0f04c14", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @v2ray_youtube #2", "server": "89.169.128.105", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "f8a2c7b5-616b-48b0-833b-ea59bce29351", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -46,6 +49,9 @@ proxy-groups:
     proxies: 
       - '🇷🇺 RU | VLESS | @bored_vpn #1'
       - '🇷🇺 RU | VLESS | @config_proxy #1'
+      - '🇷🇺 RU | VLESS | @config_proxy #2'
+      - '🇷🇺 RU | VLESS | @config_proxy #3'
+      - '🇷🇺 RU | VLESS | @config_proxy #4'
       - '🇷🇺 RU | VMESS | @prooxyk #1'
       - '🇷🇺 RU | VLESS | @v2ray_youtube #1'
       - '🇷🇺 RU | VLESS | @v2ray_youtube #2'
