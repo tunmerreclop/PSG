@@ -80,12 +80,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇨🇭 CH | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #2",
-        "🇳🇱 NL | VLESS | @vmesc #1"
+        "🇳🇱 NL | VLESS | @vmesc #1",
+        "🇳🇱 NL | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -96,12 +96,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇨🇭 CH | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #2",
-        "🇳🇱 NL | VLESS | @vmesc #1"
+        "🇳🇱 NL | VLESS | @vmesc #1",
+        "🇳🇱 NL | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -189,28 +189,6 @@
       }
     },
     {
-      "tag": "🇨🇭 CH | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "ir.grbr.private-link.lornanet.ir",
-      "server_port": 3130,
-      "uuid": "4ed6948d-0beb-f7ca-18e8-b4259eeb0dbb",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇩🇪 DE | VLESS | @configasli #1",
       "type": "vless",
       "server": "s1.aparat-movies-download.ir",
@@ -286,6 +264,28 @@
       "server": "nl.roblugo.su",
       "server_port": 443,
       "uuid": "32561144-434f-4752-a731-f35cd191ba4a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "ll0ll.vip",
+      "server_port": 8443,
+      "uuid": "b9dbc1ff-6364-4826-a973-71c0584116c4",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
