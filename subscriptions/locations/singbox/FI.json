@@ -90,6 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇫🇮 FI | VLESS | @config_proxy #1",
+        "🇫🇮 FI | VLESS | @config_proxy #2",
         "🇫🇮 FI | VLESS | @filtershekan_channel #1"
       ],
       "tag": "proxy",
@@ -98,6 +100,8 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇫🇮 FI | VLESS | @config_proxy #1",
+        "🇫🇮 FI | VLESS | @config_proxy #2",
         "🇫🇮 FI | VLESS | @filtershekan_channel #1"
       ],
       "tag": "auto",
@@ -108,6 +112,22 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "g4space.arman-a.ir",
+      "server_port": 2022,
+      "uuid": "c986d928-5d43-4c26-ae05-5d1412975dea",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "g4space.arman-a.ir",
+      "server_port": 8443,
+      "uuid": "c37403e4-b892-49e0-b3c1-b500c2afd27d",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇮 FI | VLESS | @filtershekan_channel #1",

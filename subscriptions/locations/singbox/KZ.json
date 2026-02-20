@@ -91,7 +91,9 @@
         "auto",
         "direct",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
-        "🇰🇿 KZ | SS | @outline_ir #1"
+        "🇰🇿 KZ | SS | @outline_ir #1",
+        "🇰🇿 KZ | VLESS | @outline_ir #1",
+        "🇰🇿 KZ | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +102,9 @@
       "interval": "10m",
       "outbounds": [
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
-        "🇰🇿 KZ | SS | @outline_ir #1"
+        "🇰🇿 KZ | SS | @outline_ir #1",
+        "🇰🇿 KZ | VLESS | @outline_ir #1",
+        "🇰🇿 KZ | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -140,6 +144,22 @@
       "server_port": 43659,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphODIwMWJiZDc0MDQyMGJi",
       "password": null
+    },
+    {
+      "tag": "🇰🇿 KZ | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "data.cloudvibe.ir",
+      "server_port": 8443,
+      "uuid": "3b7ec44b-66d8-4822-b772-f1f50c3fec95",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇰🇿 KZ | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "data.cloudvibe.ir",
+      "server_port": 8443,
+      "uuid": "6ba7bd1b-46d0-4fa0-8771-9df6e7186a4d",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

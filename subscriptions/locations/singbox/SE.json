@@ -118,7 +118,8 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
-        "🇸🇪 SE | TUIC | @vipv2rey #1"
+        "🇸🇪 SE | TUIC | @vipv2rey #1",
+        "🇸🇪 SE | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -154,7 +155,8 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
-        "🇸🇪 SE | TUIC | @vipv2rey #1"
+        "🇸🇪 SE | TUIC | @vipv2rey #1",
+        "🇸🇪 SE | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -494,6 +496,23 @@
         "server_name": "",
         "insecure": false,
         "alpn": null
+      }
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "77.91.85.109",
+      "server_port": 443,
+      "uuid": "8101e743-fab1-4c81-906c-f62eef26b07b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     }
   ],
