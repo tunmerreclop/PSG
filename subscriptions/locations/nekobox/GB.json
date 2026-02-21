@@ -77,15 +77,14 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇬🇧 GB | SS | @filtershekan_channel #1",
         "🇬🇧 GB | SS | @imhdiyvp #1",
+        "🇬🇧 GB | VLESS | @komail315 #1",
         "🇬🇧 GB | VLESS | @miov2ray #1",
-        "🇬🇧 GB | SS | @red2ray #1",
-        "🇬🇧 GB | SS | @red2ray #2",
-        "🇬🇧 GB | SS | @red2ray #3",
+        "🇬🇧 GB | SS | @selinc #1",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
-        "🇬🇧 GB | SS | @v2ray_free_conf #1",
-        "🇬🇧 GB | VLESS | @v2rayopen #1"
+        "🇬🇧 GB | VLESS | @v2rayopen #1",
+        "🇬🇧 GB | SS | @v2rayopen #1",
+        "🇬🇧 GB | SS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -93,15 +92,14 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇬🇧 GB | SS | @filtershekan_channel #1",
         "🇬🇧 GB | SS | @imhdiyvp #1",
+        "🇬🇧 GB | VLESS | @komail315 #1",
         "🇬🇧 GB | VLESS | @miov2ray #1",
-        "🇬🇧 GB | SS | @red2ray #1",
-        "🇬🇧 GB | SS | @red2ray #2",
-        "🇬🇧 GB | SS | @red2ray #3",
+        "🇬🇧 GB | SS | @selinc #1",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
-        "🇬🇧 GB | SS | @v2ray_free_conf #1",
-        "🇬🇧 GB | VLESS | @v2rayopen #1"
+        "🇬🇧 GB | VLESS | @v2rayopen #1",
+        "🇬🇧 GB | SS | @v2rayopen #1",
+        "🇬🇧 GB | SS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -117,20 +115,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇬🇧 GB | SS | @filtershekan_channel #1",
-      "type": "shadowsocks",
-      "server": "82.38.31.35",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
-      "password": null
-    },
-    {
       "tag": "🇬🇧 GB | SS | @imhdiyvp #1",
       "type": "shadowsocks",
       "server": "series-a2-mec.varzesh360.co",
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj",
       "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @komail315 #1",
+      "type": "vless",
+      "server": "cr7.zx-shop.ir",
+      "server_port": 8880,
+      "uuid": "abd432ba-c9ca-4565-e787-f354d466be4e",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇬🇧 GB | VLESS | @miov2ray #1",
@@ -150,27 +148,11 @@
       }
     },
     {
-      "tag": "🇬🇧 GB | SS | @red2ray #1",
+      "tag": "🇬🇧 GB | SS | @selinc #1",
       "type": "shadowsocks",
       "server": "series-a1.samanehha.co",
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
-      "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @red2ray #2",
-      "type": "shadowsocks",
-      "server": "series-a2.samanehha.co",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
-      "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @red2ray #3",
-      "type": "shadowsocks",
-      "server": "admin.c2.havij.co",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprYVFIM2hHZGNQODBYRURJ",
       "password": null
     },
     {
@@ -182,20 +164,28 @@
       "password": null
     },
     {
-      "tag": "🇬🇧 GB | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "82.38.31.103",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
-      "password": null
-    },
-    {
       "tag": "🇬🇧 GB | VLESS | @v2rayopen #1",
       "type": "vless",
       "server": "simurgh.adslimit.info",
       "server_port": 2345,
       "uuid": "20adc847-4159-4f39-b79f-d563b660945f",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @v2rayopen #1",
+      "type": "shadowsocks",
+      "server": "20.90.81.219",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprYVFIM2hHZGNQODBYRURJ",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @vpn_ioss #1",
+      "type": "shadowsocks",
+      "server": "series-a2.samanehha.co",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
+      "password": null
     }
   ],
   "route": {
