@@ -91,6 +91,10 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @filtershekan_channel #1",
+        "🇫🇮 FI | VLESS | @outline_ir #1",
+        "🇫🇮 FI | VLESS | @v2raych #1",
+        "🇫🇮 FI | VLESS | @v2raych #2",
+        "🇫🇮 FI | VLESS | @v2raych #3",
         "🇫🇮 FI | VLESS | @vmesskhodam #1",
         "🇫🇮 FI | VLESS | @vpnplusee_free #1",
         "🇫🇮 FI | VLESS | @vpnplusee_free #2"
@@ -102,6 +106,10 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @filtershekan_channel #1",
+        "🇫🇮 FI | VLESS | @outline_ir #1",
+        "🇫🇮 FI | VLESS | @v2raych #1",
+        "🇫🇮 FI | VLESS | @v2raych #2",
+        "🇫🇮 FI | VLESS | @v2raych #3",
         "🇫🇮 FI | VLESS | @vmesskhodam #1",
         "🇫🇮 FI | VLESS | @vpnplusee_free #1",
         "🇫🇮 FI | VLESS | @vpnplusee_free #2"
@@ -138,6 +146,52 @@
       }
     },
     {
+      "tag": "🇫🇮 FI | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "45.144.53.77",
+      "server_port": 8104,
+      "uuid": "db27262a-4151-4c36-8e5f-2cf7fd387a0f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "shop.ahoohost2.top",
+      "server_port": 7342,
+      "uuid": "9b6d18ea-f2ed-4065-813d-66f9fc447718",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "shop5.ahoohost3.top",
+      "server_port": 7339,
+      "uuid": "9b6d18ea-f2ed-4065-813d-66f9fc447718",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2raych #3",
+      "type": "vless",
+      "server": "shop2.ahoohost2.top",
+      "server_port": 7343,
+      "uuid": "9b6d18ea-f2ed-4065-813d-66f9fc447718",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇫🇮 FI | VLESS | @vmesskhodam #1",
       "type": "vless",
       "server": "my.kiomars.shop",
@@ -162,9 +216,9 @@
     {
       "tag": "🇫🇮 FI | VLESS | @vpnplusee_free #1",
       "type": "vless",
-      "server": "95.217.175.232",
-      "server_port": 8888,
-      "uuid": "260f19e2-41c2-4f0c-870f-ab7e28e72ef6",
+      "server": "my.kiomars.shop",
+      "server_port": 6610,
+      "uuid": "78793680-044c-46d7-8062-8ad3497476f6",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -184,24 +238,10 @@
     {
       "tag": "🇫🇮 FI | VLESS | @vpnplusee_free #2",
       "type": "vless",
-      "server": "my.kiomars.shop",
-      "server_port": 6610,
-      "uuid": "78793680-044c-46d7-8062-8ad3497476f6",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "server": "shop2.afraserver4.top",
+      "server_port": 7335,
+      "uuid": "b1b25fba-c0d0-48ea-971b-5cf4aee373d1",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

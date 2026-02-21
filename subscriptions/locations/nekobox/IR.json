@@ -80,6 +80,9 @@
         "🇮🇷 IR | VMESS | @Fr33C0nfig #1",
         "🇮🇷 IR | VLESS | @bored_vpn #1",
         "🇮🇷 IR | SS | @bored_vpn #1",
+        "🇮🇷 IR | VLESS | @config_proxy #1",
+        "🇮🇷 IR | VLESS | @config_proxy #2",
+        "🇮🇷 IR | VLESS | @flyv2ray #1",
         "🇮🇷 IR | VLESS | @golf_vpn #1",
         "🇮🇷 IR | VLESS | @golf_vpn #2",
         "🇮🇷 IR | VLESS | @golf_vpn #3",
@@ -116,6 +119,9 @@
         "🇮🇷 IR | VMESS | @Fr33C0nfig #1",
         "🇮🇷 IR | VLESS | @bored_vpn #1",
         "🇮🇷 IR | SS | @bored_vpn #1",
+        "🇮🇷 IR | VLESS | @config_proxy #1",
+        "🇮🇷 IR | VLESS | @config_proxy #2",
+        "🇮🇷 IR | VLESS | @flyv2ray #1",
         "🇮🇷 IR | VLESS | @golf_vpn #1",
         "🇮🇷 IR | VLESS | @golf_vpn #2",
         "🇮🇷 IR | VLESS | @golf_vpn #3",
@@ -200,15 +206,45 @@
       "password": null
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @golf_vpn #1",
+      "tag": "🇮🇷 IR | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "s13.leaders711.top",
-      "server_port": 5054,
-      "uuid": "635442ac-1c52-4227-948a-fd4bd2cc6e68",
+      "server": "dlpack.hbsado.ir",
+      "server_port": 44284,
+      "uuid": "3cd9422c-4dc8-4726-d2dc-14ceace09668",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "gr.v2online3.site",
+      "server_port": 42904,
+      "uuid": "e4f562c4-c14a-4266-adf6-0e7c2d143b9b",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @golf_vpn #2",
+      "tag": "🇮🇷 IR | VLESS | @flyv2ray #1",
+      "type": "vless",
+      "server": "tn9.radmardmax.ir",
+      "server_port": 7559,
+      "uuid": "fc05aa7b-cdfa-4209-89c7-a19dc7a9bbeb",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @golf_vpn #1",
       "type": "vless",
       "server": "s14.leaders711.top",
       "server_port": 5050,
@@ -223,22 +259,7 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @golf_vpn #3",
-      "type": "vless",
-      "server": "s14.leaders711.top",
-      "server_port": 5050,
-      "uuid": "30f3412d-dcb9-451d-8e58-737d7b704b0e",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @golf_vpn #4",
+      "tag": "🇮🇷 IR | VLESS | @golf_vpn #2",
       "type": "vless",
       "server": "s14.leaders711.top",
       "server_port": 5050,
@@ -253,7 +274,7 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @golf_vpn #5",
+      "tag": "🇮🇷 IR | VLESS | @golf_vpn #3",
       "type": "vless",
       "server": "s14.leaders711.top",
       "server_port": 5050,
@@ -268,11 +289,41 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @golf_vpn #6",
+      "tag": "🇮🇷 IR | VLESS | @golf_vpn #4",
       "type": "vless",
       "server": "s14.leaders711.top",
       "server_port": 5050,
       "uuid": "341a1b4e-3a62-4367-bb57-ae744cfffaba",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @golf_vpn #5",
+      "type": "vless",
+      "server": "s14.leaders711.top",
+      "server_port": 5050,
+      "uuid": "b7b52207-3f71-4f97-87c8-7d18810c6ee0",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @golf_vpn #6",
+      "type": "vless",
+      "server": "s15.leader21.top",
+      "server_port": 5054,
+      "uuid": "47ef0566-5f8f-46bf-8c7f-57e3d68d8695",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",

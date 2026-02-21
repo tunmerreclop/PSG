@@ -77,8 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇳🇱 NL | VLESS | @config_proxy #1",
-        "🇳🇱 NL | VLESS | @config_proxy #2",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @kafing_2 #1",
         "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1",
@@ -90,7 +88,6 @@
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇳🇱 NL | VLESS | @vmesc #1",
-        "🇳🇱 NL | VLESS | @vmesc #2",
         "🇳🇱 NL | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
@@ -99,8 +96,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇳🇱 NL | VLESS | @config_proxy #1",
-        "🇳🇱 NL | VLESS | @config_proxy #2",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @kafing_2 #1",
         "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1",
@@ -112,7 +107,6 @@
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇳🇱 NL | VLESS | @vmesc #1",
-        "🇳🇱 NL | VLESS | @vmesc #2",
         "🇳🇱 NL | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
@@ -127,35 +121,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "62.106.66.56",
-      "server_port": 443,
-      "uuid": "bdb495e3-c84a-458e-a957-d797f399c56e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "150.241.94.142",
-      "server_port": 7443,
-      "uuid": "4bc7d558-1943-44de-bd82-56920bc9383e",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "grpc",
-        "service_name": ""
-      }
     },
     {
       "tag": "🇳🇱 NL | SS | @easy_free_vpn #1",
@@ -318,28 +283,6 @@
     },
     {
       "tag": "🇳🇱 NL | VLESS | @vmesc #1",
-      "type": "vless",
-      "server": "nl.roblugo.su",
-      "server_port": 443,
-      "uuid": "32561144-434f-4752-a731-f35cd191ba4a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @vmesc #2",
       "type": "vless",
       "server": "deu549.worldbypass.org",
       "server_port": 443,
