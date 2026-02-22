@@ -93,7 +93,7 @@
         "🇮🇷 IR | VMESS | @Fr33C0nfig #1",
         "🇮🇷 IR | VLESS | @bored_vpn #1",
         "🇮🇷 IR | SS | @bored_vpn #1",
-        "🇮🇷 IR | VLESS | @config_proxy #1",
+        "🇮🇷 IR | VMESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @golf_vpn #1",
         "🇮🇷 IR | VLESS | @golf_vpn #2",
         "🇮🇷 IR | VLESS | @golf_vpn #3",
@@ -102,6 +102,7 @@
         "🇮🇷 IR | VLESS | @golf_vpn #6",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @komail315 #1",
+        "🇮🇷 IR | VLESS | @kurdistan_vpn_perfectt #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇮🇷 IR | VLESS | @lemonshopvpn #1",
         "🇮🇷 IR | VLESS | @megavpn_link #1",
@@ -109,8 +110,8 @@
         "🇮🇷 IR | VLESS | @mimitdl #2",
         "🇮🇷 IR | VLESS | @mimitdl #3",
         "🇮🇷 IR | VLESS | @mpproxy #1",
-        "🇮🇷 IR | VLESS | @netfreedom0 #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
+        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #2",
@@ -127,7 +128,7 @@
         "🇮🇷 IR | VMESS | @Fr33C0nfig #1",
         "🇮🇷 IR | VLESS | @bored_vpn #1",
         "🇮🇷 IR | SS | @bored_vpn #1",
-        "🇮🇷 IR | VLESS | @config_proxy #1",
+        "🇮🇷 IR | VMESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @golf_vpn #1",
         "🇮🇷 IR | VLESS | @golf_vpn #2",
         "🇮🇷 IR | VLESS | @golf_vpn #3",
@@ -136,6 +137,7 @@
         "🇮🇷 IR | VLESS | @golf_vpn #6",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @komail315 #1",
+        "🇮🇷 IR | VLESS | @kurdistan_vpn_perfectt #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇮🇷 IR | VLESS | @lemonshopvpn #1",
         "🇮🇷 IR | VLESS | @megavpn_link #1",
@@ -143,8 +145,8 @@
         "🇮🇷 IR | VLESS | @mimitdl #2",
         "🇮🇷 IR | VLESS | @mimitdl #3",
         "🇮🇷 IR | VLESS | @mpproxy #1",
-        "🇮🇷 IR | VLESS | @netfreedom0 #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
+        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #2",
@@ -205,12 +207,13 @@
       "password": null
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "fn1.aminv.ir",
-      "server_port": 80,
-      "uuid": "df2ebc74-894e-4a9c-9b1e-af7d315ee127",
-      "packet_encoding": "xudp"
+      "tag": "🇮🇷 IR | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "s4.forwardscdn.com",
+      "server_port": 2090,
+      "uuid": "10bc19b8-4938-43bc-7d30-f36434e5d32f",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇮🇷 IR | VLESS | @golf_vpn #1",
@@ -313,6 +316,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇮🇷 IR | VLESS | @kurdistan_vpn_perfectt #1",
+      "type": "vless",
+      "server": "nv22.napsternet22.com",
+      "server_port": 12012,
+      "uuid": "8cbe4739-ed49-4021-94ce-ccb53e098285",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @lax_vpn #1",
       "type": "vless",
       "server": "s19.speedyconnect.pro",
@@ -387,27 +398,21 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @netfreedom0 #1",
-      "type": "vless",
-      "server": "blog.zanbori.ir",
-      "server_port": 4220,
-      "uuid": "51d7e784-d531-4756-a887-cb60b3069aa3",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
       "tag": "🇮🇷 IR | VLESS | @realvpnmaster #1",
       "type": "vless",
       "server": "zula.ir",
       "server_port": 80,
       "uuid": "19f935c2-4c92-4b8a-b024-3e378f396255",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "s5.forwardscdn.com",
+      "server_port": 2091,
+      "uuid": "82a010f9-1883-49a1-0f2e-6542e4c03611",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",

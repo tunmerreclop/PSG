@@ -81,10 +81,11 @@
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | SS | @mt_proxy #1",
+        "🇫🇷 FR | VLESS | @netfreedom0 #1",
         "🇫🇷 FR | TROJAN | @privatevpns #1",
-        "🇫🇷 FR | TROJAN | @privatevpns #2",
         "🇫🇷 FR | TROJAN | @proxyfn #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
+        "🇫🇷 FR | VLESS | @v2ray_youtube #1",
         "🇫🇷 FR | SS | @v2ray_youtube #1",
         "🇫🇷 FR | SS | @v2rayng3 #1",
         "🇫🇷 FR | SS | @v2rayopen #1",
@@ -103,10 +104,11 @@
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | SS | @mt_proxy #1",
+        "🇫🇷 FR | VLESS | @netfreedom0 #1",
         "🇫🇷 FR | TROJAN | @privatevpns #1",
-        "🇫🇷 FR | TROJAN | @privatevpns #2",
         "🇫🇷 FR | TROJAN | @proxyfn #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
+        "🇫🇷 FR | VLESS | @v2ray_youtube #1",
         "🇫🇷 FR | SS | @v2ray_youtube #1",
         "🇫🇷 FR | SS | @v2rayng3 #1",
         "🇫🇷 FR | SS | @v2rayopen #1",
@@ -170,11 +172,12 @@
       "password": null
     },
     {
-      "tag": "🇫🇷 FR | TROJAN | @privatevpns #1",
-      "type": "trojan",
-      "server": "13.39.244.211",
-      "server_port": 22222,
-      "password": "telegram-id-privatevpns",
+      "tag": "🇫🇷 FR | VLESS | @netfreedom0 #1",
+      "type": "vless",
+      "server": "157.173.127.224",
+      "server_port": 443,
+      "uuid": "bec44ac3-a662-4179-a9dd-2aa881706dde",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -182,11 +185,16 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
     {
-      "tag": "🇫🇷 FR | TROJAN | @privatevpns #2",
+      "tag": "🇫🇷 FR | TROJAN | @privatevpns #1",
       "type": "trojan",
       "server": "35.181.35.59",
       "server_port": 22222,
@@ -223,6 +231,23 @@
       "server": "141.11.203.139",
       "server_port": 443,
       "uuid": "401374e6-df77-41fb-f638-dad8184f175b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @v2ray_youtube #1",
+      "type": "vless",
+      "server": "ss.mrrnasr.ir",
+      "server_port": 443,
+      "uuid": "51c27910-f70a-4dac-b8f1-88ac6f1cbdf5",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
