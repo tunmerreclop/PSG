@@ -25,6 +25,8 @@ dns:
 proxies: 
   - {"name": "🇮🇷 IR | VMESS | @Fr33C0nfig #1", "server": "servers.xvon.in", "port": 2087, "type": "vmess", "skip-cert-verify": true, "uuid": "43a7c6fd-c52d-4e1a-ba2b-b7a5d393bea0", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": true}
   - {"name": "🇮🇷 IR | VMESS | @khoneproxy #1", "server": "78.47.131.39", "port": 8443, "type": "vmess", "skip-cert-verify": true, "uuid": "4d598e48-234f-4c60-fdd3-fa90e084770d", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇮🇷 IR | VMESS | @prrofile_purple #1", "server": "fi.srvtogo.com", "port": 9970, "type": "vmess", "skip-cert-verify": true, "uuid": "704dfc67-26ff-4a5c-9e39-c1f614c7b3a1", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇮🇷 IR | VMESS | @v2raych #1", "server": "37.202.228.23", "port": 42376, "type": "vmess", "skip-cert-verify": true, "uuid": "7dc15efa-ae9a-41d0-9649-83ac03c856fa", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/V2RayyNGvpn/t.me/V2RayyNGvpn", "headers": {"Host": "37.202.228.23"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,6 +42,8 @@ proxy-groups:
     proxies: 
       - '🇮🇷 IR | VMESS | @Fr33C0nfig #1'
       - '🇮🇷 IR | VMESS | @khoneproxy #1'
+      - '🇮🇷 IR | VMESS | @prrofile_purple #1'
+      - '🇮🇷 IR | VMESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select

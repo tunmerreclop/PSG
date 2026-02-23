@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇧🇷 BR | VLESS | @v2ray1_ng #1"
+        "🇧🇷 BR | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇧🇷 BR | VLESS | @v2ray1_ng #1"
+        "🇧🇷 BR | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇧🇷 BR | VLESS | @v2ray1_ng #1",
-      "type": "vless",
-      "server": "poli.appleseraj.ir",
-      "server_port": 2096,
-      "uuid": "75d8e7bb-74f8-4c25-a72f-dc3d983fb6d7",
-      "packet_encoding": "xudp"
+      "tag": "🇧🇷 BR | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "5.188.4.103",
+      "server_port": 11202,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphN2MyMDU2NDJiMzAyYzIw",
+      "password": null
     }
   ],
   "route": {
