@@ -105,10 +105,11 @@
     {
       "tag": "🇫🇮 FI | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "my.kiomars.shop",
-      "server_port": 6664,
-      "uuid": "3432abbc-85da-42fe-8997-4d9041d4c923",
+      "server": "main.gsupport.support",
+      "server_port": 443,
+      "uuid": "9ac48f4e-0316-4d0b-919f-12717d11b1ab",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -116,11 +117,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },

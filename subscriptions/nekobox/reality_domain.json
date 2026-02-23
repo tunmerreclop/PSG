@@ -80,15 +80,17 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇷🇺 RU | VLESS | @Fr33C0nfig #1",
+        "🇩🇪 DE | VLESS | @config_proxy #2",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇮🇷 IR | VLESS | @mimitdl #3",
-        "🇩🇪 DE | VLESS | @mtproxy22_v2ray #3",
         "🇮🇷 IR | VLESS | @v2ray_vmes #2",
         "🇫🇮 FI | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #1",
+        "🇩🇪 DE | VLESS | @vpnplusee_free #1",
         "🇩🇪 DE | VLESS | @vpnv2raytop #2"
       ],
       "tag": "proxy",
@@ -100,15 +102,17 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇷🇺 RU | VLESS | @Fr33C0nfig #1",
+        "🇩🇪 DE | VLESS | @config_proxy #2",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇮🇷 IR | VLESS | @mimitdl #3",
-        "🇩🇪 DE | VLESS | @mtproxy22_v2ray #3",
         "🇮🇷 IR | VLESS | @v2ray_vmes #2",
         "🇫🇮 FI | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #1",
+        "🇩🇪 DE | VLESS | @vpnplusee_free #1",
         "🇩🇪 DE | VLESS | @vpnv2raytop #2"
       ],
       "tag": "auto",
@@ -197,6 +201,36 @@
       }
     },
     {
+      "tag": "🇷🇺 RU | VLESS | @Fr33C0nfig #1",
+      "type": "vless",
+      "server": "netherland.boot-lee.ru",
+      "server_port": 8443,
+      "uuid": "05dc09d5-5c56-454b-a34e-6ef743d91e1a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "ip.speedcheck.mobileemdad.top",
+      "server_port": 4450,
+      "uuid": "72c7ef63-3209-4ce0-8ff7-e504b25ed2c8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @configasli #1",
       "type": "vless",
       "server": "s1.aparat-movies-download.ir",
@@ -258,28 +292,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @mtproxy22_v2ray #3",
-      "type": "vless",
-      "server": "germ-node.genadata.online",
-      "server_port": 2040,
-      "uuid": "14818654-7689-453a-9a1f-4c72f89782d5",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇮🇷 IR | VLESS | @v2ray_vmes #2",
       "type": "vless",
       "server": "m1.designister.com",
@@ -299,10 +311,11 @@
     {
       "tag": "🇫🇮 FI | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "my.kiomars.shop",
-      "server_port": 6664,
-      "uuid": "3432abbc-85da-42fe-8997-4d9041d4c923",
+      "server": "main.gsupport.support",
+      "server_port": 443,
+      "uuid": "9ac48f4e-0316-4d0b-919f-12717d11b1ab",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -310,11 +323,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
@@ -360,6 +368,18 @@
           "short_id": "",
           "enabled": true
         }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "partners.dissertationhelpspecialist.com",
+      "server_port": 2083,
+      "uuid": "9e5d9354-6be4-4bdb-a78a-92062312f8f3",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
       }
     },
     {
