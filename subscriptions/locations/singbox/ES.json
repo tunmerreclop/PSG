@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQUU=
+//profile-title: base64:UFNHIHwgRVM=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇪 AE | VLESS | @v2raych #1"
+        "🇪🇸 ES | VLESS | @config_proxy #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇪 AE | VLESS | @v2raych #1"
+        "🇪🇸 ES | VLESS | @config_proxy #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,26 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇪 AE | VLESS | @v2raych #1",
+      "tag": "🇪🇸 ES | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "94.183.150.47",
-      "server_port": 8082,
-      "uuid": "4e392aec-fd42-48aa-bc52-a7f927dd7da0",
-      "packet_encoding": "xudp"
+      "server": "main.gsupport.support",
+      "server_port": 443,
+      "uuid": "9ac48f4e-0316-4d0b-919f-12717d11b1ab",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

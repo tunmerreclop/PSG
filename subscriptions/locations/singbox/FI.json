@@ -90,7 +90,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @v2raych #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -99,7 +98,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @v2raych #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -110,24 +108,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "main.gsupport.support",
-      "server_port": 443,
-      "uuid": "9ac48f4e-0316-4d0b-919f-12717d11b1ab",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇫🇮 FI | VLESS | @vmesskhodam #1",

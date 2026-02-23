@@ -77,11 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇺 RU | VLESS | @Fr33C0nfig #1",
         "🇷🇺 RU | VLESS | @armod_iran #1",
         "🇷🇺 RU | VLESS | @bored_vpn #1",
-        "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇷🇺 RU | VLESS | @v_2rayng0 #1"
+        "🇷🇺 RU | VMESS | @prooxyk #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -89,11 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇺 RU | VLESS | @Fr33C0nfig #1",
         "🇷🇺 RU | VLESS | @armod_iran #1",
         "🇷🇺 RU | VLESS | @bored_vpn #1",
-        "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇷🇺 RU | VLESS | @v_2rayng0 #1"
+        "🇷🇺 RU | VMESS | @prooxyk #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -107,14 +103,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @Fr33C0nfig #1",
-      "type": "vless",
-      "server": "netherland.boot-lee.ru",
-      "server_port": 8443,
-      "uuid": "05dc09d5-5c56-454b-a34e-6ef743d91e1a",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VLESS | @armod_iran #1",
@@ -182,23 +170,6 @@
         "path": "/A2DJOPFT",
         "headers": {
           "Host": "77.v2ray1.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v_2rayng0 #1",
-      "type": "vless",
-      "server": "ru.cheburnetnastalgia1998.com",
-      "server_port": 443,
-      "uuid": "d42a623b-4dbd-4523-ab4e-adedf7b95a6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     }

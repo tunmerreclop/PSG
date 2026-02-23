@@ -91,12 +91,12 @@
         "auto",
         "direct",
         "🇺🇸 US | VLESS | @Fr33C0nfig #1",
-        "🇺🇸 US | VLESS | @Fr33C0nfig #2",
         "🇺🇸 US | VLESS | @ai_duet #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | VLESS | @connectshu #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
+        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @evay_vpn #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇺🇸 US | SS | @free4allvpn #1",
@@ -148,10 +148,9 @@
         "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | SS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2ray_youtube #1",
         "🇺🇸 US | VLESS | @v2rayngconfig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
-        "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇺🇸 US | SS | @v2rayopen #1",
         "🇺🇸 US | VMESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
@@ -169,12 +168,12 @@
       "interval": "10m",
       "outbounds": [
         "🇺🇸 US | VLESS | @Fr33C0nfig #1",
-        "🇺🇸 US | VLESS | @Fr33C0nfig #2",
         "🇺🇸 US | VLESS | @ai_duet #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | VLESS | @connectshu #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
+        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @evay_vpn #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇺🇸 US | SS | @free4allvpn #1",
@@ -226,10 +225,9 @@
         "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | SS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2ray_youtube #1",
         "🇺🇸 US | VLESS | @v2rayngconfig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
-        "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇺🇸 US | SS | @v2rayopen #1",
         "🇺🇸 US | VMESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
@@ -255,14 +253,6 @@
       "server": "167.82.92.159",
       "server_port": 80,
       "uuid": "0569f3ce-447b-4ac5-aae3-b47ae55351f7",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @Fr33C0nfig #2",
-      "type": "vless",
-      "server": "159.89.87.21",
-      "server_port": 28190,
-      "uuid": "14c80e0e-f7ce-4991-94fc-99a1db4a9b1e",
       "packet_encoding": "xudp"
     },
     {
@@ -328,6 +318,14 @@
       "server": "clfconnect.pishipishi.pro",
       "server_port": 8880,
       "uuid": "vpn_connects",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+      "type": "vless",
+      "server": "germany.fast.hosting-ip.com",
+      "server_port": 80,
+      "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
       "packet_encoding": "xudp"
     },
     {
@@ -997,12 +995,21 @@
       }
     },
     {
-      "tag": "🇺🇸 US | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "64.74.163.218",
-      "server_port": 990,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz",
-      "password": null
+      "tag": "🇺🇸 US | VLESS | @v2ray_youtube #1",
+      "type": "vless",
+      "server": "ss.mrrnasr.ir",
+      "server_port": 443,
+      "uuid": "51c27910-f70a-4dac-b8f1-88ac6f1cbdf5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @v2rayngconfig #1",
@@ -1018,14 +1025,6 @@
       "server": "151.101.3.8",
       "server_port": 80,
       "uuid": "1260fbdc-57b6-4e2c-a76f-c6f748d26917",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #2",
-      "type": "vless",
-      "server": "test.fast.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "TELEGRAM-CONFiGLiNE-29",
       "packet_encoding": "xudp"
     },
     {
