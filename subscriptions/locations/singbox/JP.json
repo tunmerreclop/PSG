@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇯🇵 JP | TROJAN | @free4allvpn #1",
+        "🇯🇵 JP | VLESS | @hope_net #1",
         "🇯🇵 JP | SS | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
@@ -99,7 +99,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇯🇵 JP | TROJAN | @free4allvpn #1",
+        "🇯🇵 JP | VLESS | @hope_net #1",
         "🇯🇵 JP | SS | @outlinereleasedkey #1"
       ],
       "tag": "auto",
@@ -112,11 +112,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇯🇵 JP | TROJAN | @free4allvpn #1",
-      "type": "trojan",
-      "server": "kuame.missionsec.us",
+      "tag": "🇯🇵 JP | VLESS | @hope_net #1",
+      "type": "vless",
+      "server": "54.249.135.43",
       "server_port": 443,
-      "password": "FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D",
+      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
