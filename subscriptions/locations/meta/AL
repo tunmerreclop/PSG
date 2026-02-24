@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇲🇩 MD | VLESS | @vmesc #1", "server": "94.232.247.168", "port": 41360, "type": "vless", "skip-cert-verify": true, "uuid": "e16a35ea-6715-4e75-9845-d20358bd0876", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇦🇱 AL | VLESS | @red2ray #1", "server": "pq-albania1.09vpn.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "8910cbb3-33b1-4266-a243-ac780ac63394", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇲🇩 MD | VLESS | @vmesc #1'
+      - '🇦🇱 AL | VLESS | @red2ray #1'
 
   - name: 🌍 Global Media
     type: select
