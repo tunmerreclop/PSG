@@ -23,7 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇦🇪 AE | VLESS | @vpnplusee_free #1", "server": "fr.apikeder.ir.onvanet.com", "port": 8952, "type": "vless", "skip-cert-verify": true, "uuid": "dc01db14-47ea-4354-a7fb-87fd6559ac5e", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇯🇵 JP | VLESS | @config_proxy #1", "server": "jpfast-3.up-pay.xyz", "port": 53676, "type": "vless", "skip-cert-verify": true, "uuid": "c72c8380-2dda-4e79-a8e9-5b106d398839", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇯🇵 JP | VLESS | @config_proxy #2", "server": "jpfast-3.up-pay.xyz", "port": 53676, "type": "vless", "skip-cert-verify": true, "uuid": "c72c8380-2dda-4e79-a8e9-5b106d398839", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇯🇵 JP | VLESS | @config_proxy #3", "server": "jpfast-3.up-pay.xyz", "port": 53676, "type": "vless", "skip-cert-verify": true, "uuid": "c72c8380-2dda-4e79-a8e9-5b106d398839", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇯🇵 JP | VLESS | @config_proxy #4", "server": "jpfast-3.up-pay.xyz", "port": 53676, "type": "vless", "skip-cert-verify": true, "uuid": "c72c8380-2dda-4e79-a8e9-5b106d398839", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +40,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇦🇪 AE | VLESS | @vpnplusee_free #1'
+      - '🇯🇵 JP | VLESS | @config_proxy #1'
+      - '🇯🇵 JP | VLESS | @config_proxy #2'
+      - '🇯🇵 JP | VLESS | @config_proxy #3'
+      - '🇯🇵 JP | VLESS | @config_proxy #4'
 
   - name: 🌍 Global Media
     type: select

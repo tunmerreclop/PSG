@@ -90,18 +90,17 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇬🇧 GB | VLESS | @config_proxy #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | SS | @imhdiyvp #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
-        "🇬🇧 GB | VLESS | @red2ray #1",
+        "🇬🇧 GB | SS | @red2ray #1",
+        "🇬🇧 GB | SS | @red2ray #2",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
+        "🇬🇧 GB | VLESS | @vmesc #1",
         "🇬🇧 GB | VLESS | @vmesskhodam #1",
-        "🇬🇧 GB | VLESS | @vpn_ioss #1",
-        "🇬🇧 GB | SS | @vpn_ioss #1",
-        "🇬🇧 GB | VLESS | @vpnplusee_free #1"
+        "🇬🇧 GB | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -109,18 +108,17 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇬🇧 GB | VLESS | @config_proxy #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | SS | @imhdiyvp #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
-        "🇬🇧 GB | VLESS | @red2ray #1",
+        "🇬🇧 GB | SS | @red2ray #1",
+        "🇬🇧 GB | SS | @red2ray #2",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
+        "🇬🇧 GB | VLESS | @vmesc #1",
         "🇬🇧 GB | VLESS | @vmesskhodam #1",
-        "🇬🇧 GB | VLESS | @vpn_ioss #1",
-        "🇬🇧 GB | SS | @vpn_ioss #1",
-        "🇬🇧 GB | VLESS | @vpnplusee_free #1"
+        "🇬🇧 GB | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -130,28 +128,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "5.180.97.139",
-      "server_port": 443,
-      "uuid": "a384c715-aeb5-45e8-859b-f687ca6c083f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇬🇧 GB | SS | @free4allvpn #1",
@@ -194,12 +170,20 @@
       "password": null
     },
     {
-      "tag": "🇬🇧 GB | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "go.adslimit.info",
-      "server_port": 2345,
-      "uuid": "0331b690-79fc-49d5-85f0-54faa4eff89f",
-      "packet_encoding": "xudp"
+      "tag": "🇬🇧 GB | SS | @red2ray #1",
+      "type": "shadowsocks",
+      "server": "admin.c1.havij.co",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxa1ZyMEtBVElKSTdtd09G",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @red2ray #2",
+      "type": "shadowsocks",
+      "server": "series-a2.samanehha.co",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
+      "password": null
     },
     {
       "tag": "🇬🇧 GB | SS | @serverv2ray00 #1",
@@ -208,6 +192,14 @@
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3aXZyR0VIWTg4c1FrM0RQ",
       "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "go.adslimit.info",
+      "server_port": 2345,
+      "uuid": "0331b690-79fc-49d5-85f0-54faa4eff89f",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇬🇧 GB | VLESS | @vmesskhodam #1",
@@ -232,22 +224,6 @@
       "server": "simurgh.adslimit.info",
       "server_port": 2345,
       "uuid": "20adc847-4159-4f39-b79f-d563b660945f",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @vpn_ioss #1",
-      "type": "shadowsocks",
-      "server": "series-a2.samanehha.co",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
-      "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "57.129.133.88",
-      "server_port": 2345,
-      "uuid": "7007111a-c28b-4ab1-8d28-bc7b42681028",
       "packet_encoding": "xudp"
     }
   ],
