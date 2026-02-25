@@ -87,17 +87,17 @@
         "🇺🇸 US | SS | @key_outline #1",
         "🇺🇸 US | SS | @key_outline #2",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
+        "🇵🇱 PL | SS | @outlinereleasedkey #1",
         "🇻🇳 VN | SS | @v2ray_free_conf #1",
+        "🇻🇳 VN | SS | @v2ray_free_conf #2",
         "🇻🇳 VN | SS | @v2raych #1",
         "🇮🇷 IR | SS | @v2raymelliii #1",
         "🇫🇷 FR | SS | @v2rayng3 #1",
         "🇫🇷 FR | SS | @v2rayopen #1",
-        "🇹🇷 TR | SS | @vpn_ioss #1",
+        "🇫🇷 FR | SS | @vpn_ioss #1",
         "🇵🇪 PE | SS | @NamiraConfigs #1",
         "🇭🇰 HK | SS | @mftizi #1",
-        "🇬🇧 GB | SS | @outlinereleasedkey #1",
-        "🇺🇸 US | SS | @proxy_confiingir #1",
-        "🇬🇧 GB | SS | @vpn_ioss #1"
+        "🇺🇸 US | SS | @proxy_confiingir #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -115,17 +115,17 @@
         "🇺🇸 US | SS | @key_outline #1",
         "🇺🇸 US | SS | @key_outline #2",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
+        "🇵🇱 PL | SS | @outlinereleasedkey #1",
         "🇻🇳 VN | SS | @v2ray_free_conf #1",
+        "🇻🇳 VN | SS | @v2ray_free_conf #2",
         "🇻🇳 VN | SS | @v2raych #1",
         "🇮🇷 IR | SS | @v2raymelliii #1",
         "🇫🇷 FR | SS | @v2rayng3 #1",
         "🇫🇷 FR | SS | @v2rayopen #1",
-        "🇹🇷 TR | SS | @vpn_ioss #1",
+        "🇫🇷 FR | SS | @vpn_ioss #1",
         "🇵🇪 PE | SS | @NamiraConfigs #1",
         "🇭🇰 HK | SS | @mftizi #1",
-        "🇬🇧 GB | SS | @outlinereleasedkey #1",
-        "🇺🇸 US | SS | @proxy_confiingir #1",
-        "🇬🇧 GB | SS | @vpn_ioss #1"
+        "🇺🇸 US | SS | @proxy_confiingir #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -269,9 +269,25 @@
       "password": null
     },
     {
+      "tag": "🇵🇱 PL | SS | @outlinereleasedkey #1",
+      "type": "shadowsocks",
+      "server": "217.30.10.18",
+      "server_port": 9011,
+      "method": "YWVzLTI1Ni1jZmI6TTN0MlpFUWNNR1JXQmpSYQ==",
+      "password": null
+    },
+    {
       "tag": "🇻🇳 VN | SS | @v2ray_free_conf #1",
       "type": "shadowsocks",
-      "server": "103.186.154.221",
+      "server": "103.186.154.36",
+      "server_port": 38388,
+      "method": "YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW",
+      "password": null
+    },
+    {
+      "tag": "🇻🇳 VN | SS | @v2ray_free_conf #2",
+      "type": "shadowsocks",
+      "server": "103.186.154.231",
       "server_port": 38388,
       "method": "YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW",
       "password": null
@@ -309,11 +325,11 @@
       "password": null
     },
     {
-      "tag": "🇹🇷 TR | SS | @vpn_ioss #1",
+      "tag": "🇫🇷 FR | SS | @vpn_ioss #1",
       "type": "shadowsocks",
-      "server": "62.133.63.167",
-      "server_port": 61377,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpFMTJ5WkJQQzd5OFNubWtTWWpmMFds",
+      "server": "162.19.208.118",
+      "server_port": 50285,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YW5HdG91ODZ2R0I3cjFsT201bjhn",
       "password": null
     },
     {
@@ -333,27 +349,11 @@
       "password": null
     },
     {
-      "tag": "🇬🇧 GB | SS | @outlinereleasedkey #1",
-      "type": "shadowsocks",
-      "server": "media.mothyleela.cfd",
-      "server_port": 40521,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyV2tSR2g2dEF2OFVtc0hoNGkzRjZ6b3NqMmR6QTZzQ3pYYndxNFRkWHRlenRNZnlBNWFaY0x5NWpZNVo3RlozUVFNY1RWd003VHZpYmR2ellpcmNDN2lEWmFmcDJVNno=",
-      "password": null
-    },
-    {
       "tag": "🇺🇸 US | SS | @proxy_confiingir #1",
       "type": "shadowsocks",
       "server": "ak1857.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj",
-      "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @vpn_ioss #1",
-      "type": "shadowsocks",
-      "server": "series-a2.samanehha.co",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
       "password": null
     }
   ],
