@@ -78,6 +78,7 @@
         "auto",
         "direct",
         "🇹🇷 TR | VLESS | @v2raych #1",
+        "🇹🇷 TR | VMESS | @v2rayngconfig #1",
         "🇹🇷 TR | VLESS | @vmesc #1",
         "🇹🇷 TR | SS | @vpn_ioss #1"
       ],
@@ -88,6 +89,7 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VLESS | @v2raych #1",
+        "🇹🇷 TR | VMESS | @v2rayngconfig #1",
         "🇹🇷 TR | VLESS | @vmesc #1",
         "🇹🇷 TR | SS | @vpn_ioss #1"
       ],
@@ -123,6 +125,22 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VMESS | @v2rayngconfig #1",
+      "type": "vmess",
+      "server": "tr1-smart.adelping.com",
+      "server_port": 80,
+      "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
         }
       }
     },
