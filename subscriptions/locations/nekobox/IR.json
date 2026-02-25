@@ -98,13 +98,11 @@
         "🇮🇷 IR | VLESS | @mimitdl #3",
         "🇮🇷 IR | VLESS | @mpproxy #1",
         "🇮🇷 IR | VLESS | @netfreedom0 #1",
-        "🇮🇷 IR | VLESS | @netmellianti #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #1",
-        "🇮🇷 IR | VLESS | @v2raych #1",
-        "🇮🇷 IR | TROJAN | @v2raych #1",
         "🇮🇷 IR | SS | @v2raymelliii #1",
+        "🇮🇷 IR | VLESS | @vpnplusee_free #1",
         "🇮🇷 IR | VLESS | @xsv2ray #1"
       ],
       "tag": "proxy",
@@ -134,13 +132,11 @@
         "🇮🇷 IR | VLESS | @mimitdl #3",
         "🇮🇷 IR | VLESS | @mpproxy #1",
         "🇮🇷 IR | VLESS | @netfreedom0 #1",
-        "🇮🇷 IR | VLESS | @netmellianti #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #1",
-        "🇮🇷 IR | VLESS | @v2raych #1",
-        "🇮🇷 IR | TROJAN | @v2raych #1",
         "🇮🇷 IR | SS | @v2raymelliii #1",
+        "🇮🇷 IR | VLESS | @vpnplusee_free #1",
         "🇮🇷 IR | VLESS | @xsv2ray #1"
       ],
       "tag": "auto",
@@ -389,28 +385,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @netmellianti #1",
-      "type": "vless",
-      "server": "94.184.13.2",
-      "server_port": 5369,
-      "uuid": "c63f2a64-23f1-4273-9a0b-bd5953dae616",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇮🇷 IR | VLESS | @realvpnmaster #1",
       "type": "vless",
       "server": "zula.ir",
@@ -444,36 +418,20 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "92.114.50.68",
-      "server_port": 8080,
-      "uuid": "3f5503ad-8823-476a-86dd-6130f9e1d58b",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | TROJAN | @v2raych #1",
-      "type": "trojan",
-      "server": "dl1.milkywayservice.ir",
-      "server_port": 49035,
-      "password": "55e5772f-d6f6-5df9-b101-2db7b2b58824",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇮🇷 IR | SS | @v2raymelliii #1",
       "type": "shadowsocks",
       "server": "46.38.143.236",
       "server_port": 60633,
       "method": "YXV0bzo=",
       "password": null
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "188.212.97.195",
+      "server_port": 2010,
+      "uuid": "3c54640f-3194-40ee-a885-1e231c17bdc2",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @xsv2ray #1",

@@ -23,10 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇯🇵 JP | VLESS | @config_proxy #1", "server": "jpfast-3.up-pay.xyz", "port": 53676, "type": "vless", "skip-cert-verify": true, "uuid": "c72c8380-2dda-4e79-a8e9-5b106d398839", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇯🇵 JP | VLESS | @config_proxy #2", "server": "jpfast-3.up-pay.xyz", "port": 53676, "type": "vless", "skip-cert-verify": true, "uuid": "c72c8380-2dda-4e79-a8e9-5b106d398839", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇯🇵 JP | VLESS | @config_proxy #3", "server": "jpfast-3.up-pay.xyz", "port": 53676, "type": "vless", "skip-cert-verify": true, "uuid": "c72c8380-2dda-4e79-a8e9-5b106d398839", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇯🇵 JP | VLESS | @config_proxy #4", "server": "jpfast-3.up-pay.xyz", "port": 53676, "type": "vless", "skip-cert-verify": true, "uuid": "c72c8380-2dda-4e79-a8e9-5b106d398839", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇱🇺 LU | VLESS | @config_proxy #1", "server": "188.42.89.4", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,10 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇯🇵 JP | VLESS | @config_proxy #1'
-      - '🇯🇵 JP | VLESS | @config_proxy #2'
-      - '🇯🇵 JP | VLESS | @config_proxy #3'
-      - '🇯🇵 JP | VLESS | @config_proxy #4'
+      - '🇱🇺 LU | VLESS | @config_proxy #1'
 
   - name: 🌍 Global Media
     type: select

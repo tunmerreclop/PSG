@@ -95,13 +95,15 @@
         "KingRezaPahlavi",
         "🇸🇨 SC | VLESS | @bored_vpn #2",
         "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+        "🇺🇸 US | VLESS | @flyv2ray #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇺🇸 US | VLESS | @nofiltering2 #3",
         "🇽🇽 XX | VLESS | @nofiltering2 #1",
         "🇽🇽 XX | VLESS | @orange_vpns #1",
-        "🇸🇨 SC | VLESS | @outline_ir #1",
-        "🇽🇽 XX | VLESS | @outline_ir #2",
+        "🇺🇸 US | VLESS | @prrofile_purple #1",
+        "🇽🇽 XX | VLESS | @red2ray #1",
+        "🇽🇽 XX | VLESS | @red2ray #2",
         "🇮🇹 IT | VLESS | @v2ray_youtube #1",
         "🇺🇸 US | VLESS | @v2rayngconfig #1",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1"
@@ -117,13 +119,15 @@
         "KingRezaPahlavi",
         "🇸🇨 SC | VLESS | @bored_vpn #2",
         "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+        "🇺🇸 US | VLESS | @flyv2ray #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇺🇸 US | VLESS | @nofiltering2 #3",
         "🇽🇽 XX | VLESS | @nofiltering2 #1",
         "🇽🇽 XX | VLESS | @orange_vpns #1",
-        "🇸🇨 SC | VLESS | @outline_ir #1",
-        "🇽🇽 XX | VLESS | @outline_ir #2",
+        "🇺🇸 US | VLESS | @prrofile_purple #1",
+        "🇽🇽 XX | VLESS | @red2ray #1",
+        "🇽🇽 XX | VLESS | @red2ray #2",
         "🇮🇹 IT | VLESS | @v2ray_youtube #1",
         "🇺🇸 US | VLESS | @v2rayngconfig #1",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1"
@@ -226,6 +230,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇺🇸 US | VLESS | @flyv2ray #1",
+      "type": "vless",
+      "server": "w.smarteracloud.com",
+      "server_port": 2096,
+      "uuid": "337bf72e-bb79-4d5f-be3f-7822eb77100c",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @kafing_2 #1",
       "type": "vless",
       "server": "python.org",
@@ -266,17 +278,34 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @outline_ir #1",
+      "tag": "🇺🇸 US | VLESS | @prrofile_purple #1",
       "type": "vless",
-      "server": "a.pabloping.cloud",
+      "server": "itly1.azangooo.ir",
+      "server_port": 443,
+      "uuid": "3432abbc-85da-42fe-8997-4d9041d4c923",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "c.pabloping.cloud",
       "server_port": 2052,
       "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @outline_ir #2",
+      "tag": "🇽🇽 XX | VLESS | @red2ray #2",
       "type": "vless",
-      "server": "b.pabloping.cloud",
+      "server": "c.pabloping.cloud",
       "server_port": 2052,
       "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
       "packet_encoding": "xudp"
