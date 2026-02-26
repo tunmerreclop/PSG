@@ -77,8 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇱🇺 LU | VLESS | @config_proxy #1",
-        "🇱🇺 LU | SS | @v2ray_free_conf #1"
+        "🇫🇮 FI | VLESS | @prrofile_purple #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇱🇺 LU | VLESS | @config_proxy #1",
-        "🇱🇺 LU | SS | @v2ray_free_conf #1"
+        "🇫🇮 FI | VLESS | @prrofile_purple #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,11 +101,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇱🇺 LU | VLESS | @config_proxy #1",
+      "tag": "🇫🇮 FI | VLESS | @prrofile_purple #1",
       "type": "vless",
-      "server": "188.42.89.4",
-      "server_port": 443,
-      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "server": "my.kiomars.shop",
+      "server_port": 6664,
+      "uuid": "3432abbc-85da-42fe-8997-4d9041d4c923",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -116,16 +114,13 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇱🇺 LU | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "45.12.144.18",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMUXlBVUl0YWZVbW1PM0VaWng5VWJpWDZJR3lkU0JnTA==",
-      "password": null
     }
   ],
   "route": {

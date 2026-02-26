@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇱🇺 LU | VLESS | @config_proxy #1", "server": "188.42.89.4", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇫🇮 FI | VLESS | @prrofile_purple #1", "server": "my.kiomars.shop", "port": 6664, "type": "vless", "skip-cert-verify": true, "uuid": "3432abbc-85da-42fe-8997-4d9041d4c923", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇱🇺 LU | VLESS | @config_proxy #1'
+      - '🇫🇮 FI | VLESS | @prrofile_purple #1'
 
   - name: 🌍 Global Media
     type: select

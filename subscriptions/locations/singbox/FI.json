@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQVQ=
+//profile-title: base64:UFNHIHwgRkk=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇹 AT | VLESS | @vmesc #1"
+        "🇫🇮 FI | VLESS | @prrofile_purple #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇹 AT | VLESS | @vmesc #1"
+        "🇫🇮 FI | VLESS | @prrofile_purple #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,26 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇹 AT | VLESS | @vmesc #1",
+      "tag": "🇫🇮 FI | VLESS | @prrofile_purple #1",
       "type": "vless",
-      "server": "152.53.49.144",
-      "server_port": 22955,
-      "uuid": "63f92f3c-447c-4283-80b9-0af8e164cdad",
-      "packet_encoding": "xudp"
+      "server": "my.kiomars.shop",
+      "server_port": 6664,
+      "uuid": "3432abbc-85da-42fe-8997-4d9041d4c923",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {
