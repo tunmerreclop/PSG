@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgSVQ=
+//profile-title: base64:UFNHIHwgQUU=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇹 IT | VLESS | @v2ray_youtube #1"
+        "🇦🇪 AE | VLESS | @config_proxy #1",
+        "🇦🇪 AE | VLESS | @flyv2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇹 IT | VLESS | @v2ray_youtube #1"
+        "🇦🇪 AE | VLESS | @config_proxy #1",
+        "🇦🇪 AE | VLESS | @flyv2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,21 +112,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇹 IT | VLESS | @v2ray_youtube #1",
+      "tag": "🇦🇪 AE | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "ss.mrrnasr.ir",
-      "server_port": 443,
-      "uuid": "51c27910-f70a-4dac-b8f1-88ac6f1cbdf5",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "ips.gcore.mobileemdad.top",
+      "server_port": 42539,
+      "uuid": "118abc77-5e80-427d-a83e-90471d76c82f",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @flyv2ray #1",
+      "type": "vless",
+      "server": "109.61.42.199",
+      "server_port": 3156,
+      "uuid": "f8c9be97-7af6-4c21-af64-2caeb780a79f",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

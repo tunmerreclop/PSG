@@ -136,6 +136,7 @@
         "🇽🇽 XX | VLESS | @hope_net #3",
         "🇽🇽 XX | VLESS | @hope_net #4",
         "🇽🇽 XX | VLESS | @hope_net #5",
+        "🇽🇽 XX | VLESS | @hope_net #6",
         "🇽🇽 XX | VLESS | @imhdiyvp #1",
         "🇽🇽 XX | VLESS | @imhdiyvp #2",
         "🇽🇽 XX | VLESS | @imhdiyvp #3",
@@ -272,6 +273,10 @@
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2raych #1",
+        "🇽🇽 XX | VLESS | @v2raych #2",
+        "🇽🇽 XX | VLESS | @v2raych #3",
+        "🇽🇽 XX | VLESS | @v2raych #4",
+        "🇽🇽 XX | VLESS | @v2raych #5",
         "🇽🇽 XX | VLESS | @v2raying #1",
         "🇽🇽 XX | VLESS | @v2raying #2",
         "🇽🇽 XX | VLESS | @v2rayng3 #1",
@@ -388,6 +393,7 @@
         "🇽🇽 XX | VLESS | @hope_net #3",
         "🇽🇽 XX | VLESS | @hope_net #4",
         "🇽🇽 XX | VLESS | @hope_net #5",
+        "🇽🇽 XX | VLESS | @hope_net #6",
         "🇽🇽 XX | VLESS | @imhdiyvp #1",
         "🇽🇽 XX | VLESS | @imhdiyvp #2",
         "🇽🇽 XX | VLESS | @imhdiyvp #3",
@@ -524,6 +530,10 @@
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2raych #1",
+        "🇽🇽 XX | VLESS | @v2raych #2",
+        "🇽🇽 XX | VLESS | @v2raych #3",
+        "🇽🇽 XX | VLESS | @v2raych #4",
+        "🇽🇽 XX | VLESS | @v2raych #5",
         "🇽🇽 XX | VLESS | @v2raying #1",
         "🇽🇽 XX | VLESS | @v2raying #2",
         "🇽🇽 XX | VLESS | @v2rayng3 #1",
@@ -706,18 +716,36 @@
     {
       "tag": "🇽🇽 XX | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "v2.dabache.top",
-      "server_port": 2053,
-      "uuid": "e5f8a9f6-f164-479b-b3b5-b90f213c7145",
-      "packet_encoding": "xudp"
+      "server": "cis.visa.com",
+      "server_port": 443,
+      "uuid": "2196f28b-8217-4631-a28e-1d34112aa947",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @config_proxy #2",
       "type": "vless",
-      "server": "v1.dabache.top",
-      "server_port": 2096,
-      "uuid": "686c62d9-17a7-43c9-a40a-f6747df60a9f",
-      "packet_encoding": "xudp"
+      "server": "172.67.74.191",
+      "server_port": 443,
+      "uuid": "aaaaaabb-4ddd-4eee-9fff-ffffffffffff",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @configv2rayforfree #1",
@@ -1227,9 +1255,48 @@
     {
       "tag": "🇽🇽 XX | VLESS | @hope_net #1",
       "type": "vless",
-      "server": "104.16.80.247",
-      "server_port": 443,
-      "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+      "server": "172.64.155.152",
+      "server_port": 80,
+      "uuid": "435bda4c-fe5e-42c9-a3ad-15334943b38a",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @hope_net #2",
+      "type": "vless",
+      "server": "104.17.255.66",
+      "server_port": 80,
+      "uuid": "435bda4c-fe5e-42c9-a3ad-15334943b38a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @hope_net #3",
+      "type": "vless",
+      "server": "104.17.54.21",
+      "server_port": 80,
+      "uuid": "435bda4c-fe5e-42c9-a3ad-15334943b38a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @hope_net #4",
+      "type": "vless",
+      "server": "104.16.244.162",
+      "server_port": 80,
+      "uuid": "435bda4c-fe5e-42c9-a3ad-15334943b38a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @hope_net #5",
+      "type": "vless",
+      "server": "104.16.0.15",
+      "server_port": 2096,
+      "uuid": "b67dd3f7-8a02-4321-b7a7-bcbc38930e10",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -1242,35 +1309,11 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @hope_net #2",
+      "tag": "🇽🇽 XX | VLESS | @hope_net #6",
       "type": "vless",
-      "server": "104.21.70.105",
+      "server": "104.17.119.137",
       "server_port": 80,
       "uuid": "435bda4c-fe5e-42c9-a3ad-15334943b38a",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @hope_net #3",
-      "type": "vless",
-      "server": "104.17.63.214",
-      "server_port": 80,
-      "uuid": "435bda4c-fe5e-42c9-a3ad-15334943b38a",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @hope_net #4",
-      "type": "vless",
-      "server": "162.159.137.232",
-      "server_port": 2095,
-      "uuid": "29df53c6-e121-4e4d-968e-0a337c8bba09",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @hope_net #5",
-      "type": "vless",
-      "server": "104.16.67.38",
-      "server_port": 2086,
-      "uuid": "43e00e4c-2316-4dc9-8262-cef31886dc56",
       "packet_encoding": "xudp"
     },
     {
@@ -2927,9 +2970,9 @@
     {
       "tag": "🇽🇽 XX | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "104.18.92.0",
+      "server": "104.17.59.61",
       "server_port": 80,
-      "uuid": "435bda4c-fe5e-42c9-a3ad-15334943b38a",
+      "uuid": "7d96f544-c496-41cf-dd61-337f0aff062a",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
@@ -2938,6 +2981,47 @@
           "Host": ""
         }
       }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "www.speedtest.net",
+      "server_port": 443,
+      "uuid": "eae6ef58-d20c-4adf-b55f-dad3fef1a0e4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2raych #3",
+      "type": "vless",
+      "server": "f1.springpaatogh8.store",
+      "server_port": 2053,
+      "uuid": "c843ed62-34da-44be-87b8-8b4ad34f6deb",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2raych #4",
+      "type": "vless",
+      "server": "104.18.32.47",
+      "server_port": 80,
+      "uuid": "e31085f9-7f55-4a7d-b00e-ce94149477cb",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2raych #5",
+      "type": "vless",
+      "server": "cdn.halazzon.ir",
+      "server_port": 2053,
+      "uuid": "c659ce22-0a02-4d75-8c89-58d99916b846",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2raying #1",
