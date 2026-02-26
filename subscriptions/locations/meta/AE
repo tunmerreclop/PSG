@@ -23,8 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇦🇪 AE | VLESS | @config_proxy #1", "server": "ips.gcore.mobileemdad.top", "port": 42539, "type": "vless", "skip-cert-verify": true, "uuid": "118abc77-5e80-427d-a83e-90471d76c82f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇦🇪 AE | VLESS | @flyv2ray #1", "server": "109.61.42.199", "port": 3156, "type": "vless", "skip-cert-verify": true, "uuid": "f8c9be97-7af6-4c21-af64-2caeb780a79f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇪 AE | VLESS | @vpnplusee_free #1", "server": "s4.nettool.ovh", "port": 34221, "type": "vless", "skip-cert-verify": true, "uuid": "287c459f-43d0-43c6-95ee-07afe75faa59", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇦🇪 AE | VLESS | @config_proxy #1'
       - '🇦🇪 AE | VLESS | @flyv2ray #1'
+      - '🇦🇪 AE | VLESS | @vpnplusee_free #1'
 
   - name: 🌍 Global Media
     type: select
