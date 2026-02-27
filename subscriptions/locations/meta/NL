@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇳🇱 NL | VLESS | @config_proxy #1", "server": "nl1.vpnreal.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "717ad7ec-7e9c-4ec4-aaaf-489a0a3ff3d6", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @kafing_2 #1", "server": "151.101.206.133", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "1cc40572-43d1-44a7-ad26-312fa7206997", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1", "server": "45.66.163.125", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "f1f3d114-a1a8-4bd1-a719-82433c9c9efe", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇳🇱 NL | VLESS | @netfreedom0 #1", "server": "51.158.206.87", "port": 23576, "type": "vless", "skip-cert-verify": true, "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -35,6 +36,7 @@ proxies:
   - {"name": "🇳🇱 NL | VLESS | @v2rayngconfiig #1", "server": "fi.podpiska.vip", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "fc363de7-5d11-42e0-b9c0-79d59274882a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇳🇱 NL | VLESS | @vmesskhodam #1", "server": "185.70.184.53", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "7a31d541-e885-43d4-81f2-62ac29ecd387", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
   - {"name": "🇳🇱 NL | VLESS | @vpn_ioss #1", "server": "51.158.206.98", "port": 23576, "type": "vless", "skip-cert-verify": true, "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇳🇱 NL | VLESS | @vpnplusee_free #1", "server": "45.136.126.16", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "203b0744-f943-4bba-a8d2-cab635467c46", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -48,6 +50,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇳🇱 NL | VLESS | @config_proxy #1'
       - '🇳🇱 NL | VLESS | @kafing_2 #1'
       - '🇳🇱 NL | VLESS | @mtproxy22_v2ray #1'
       - '🇳🇱 NL | VLESS | @netfreedom0 #1'
@@ -60,6 +63,7 @@ proxy-groups:
       - '🇳🇱 NL | VLESS | @v2rayngconfiig #1'
       - '🇳🇱 NL | VLESS | @vmesskhodam #1'
       - '🇳🇱 NL | VLESS | @vpn_ioss #1'
+      - '🇳🇱 NL | VLESS | @vpnplusee_free #1'
 
   - name: 🌍 Global Media
     type: select

@@ -77,9 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @flyv2ray #1",
-        "🇹🇷 TR | SS | @red2ray #1",
+        "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
         "🇹🇷 TR | VMESS | @v2rayngconfig #1",
+        "🇹🇷 TR | SS | @v2rayopen #1",
         "🇹🇷 TR | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
@@ -88,9 +88,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @flyv2ray #1",
-        "🇹🇷 TR | SS | @red2ray #1",
+        "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
         "🇹🇷 TR | VMESS | @v2rayngconfig #1",
+        "🇹🇷 TR | SS | @v2rayopen #1",
         "🇹🇷 TR | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
@@ -107,34 +107,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @flyv2ray #1",
-      "type": "vless",
-      "server": "103.231.75.185",
-      "server_port": 443,
-      "uuid": "c4e055e5-c9dd-44ae-8daf-2f0f344dcbdb",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
+      "tag": "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "tr1-smart.adelping.com",
+      "server_port": 80,
+      "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
         }
       }
-    },
-    {
-      "tag": "🇹🇷 TR | SS | @red2ray #1",
-      "type": "shadowsocks",
-      "server": "62.60.233.220",
-      "server_port": 18685,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppeGZYQnE2ZGZNUVFGaUV6NlBCY1R5",
-      "password": null
     },
     {
       "tag": "🇹🇷 TR | VMESS | @v2rayngconfig #1",
@@ -151,6 +137,14 @@
           "Host": ""
         }
       }
+    },
+    {
+      "tag": "🇹🇷 TR | SS | @v2rayopen #1",
+      "type": "shadowsocks",
+      "server": "62.60.233.220",
+      "server_port": 18685,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppeGZYQnE2ZGZNUVFGaUV6NlBCY1R5",
+      "password": null
     },
     {
       "tag": "🇹🇷 TR | VLESS | @vpn_ioss #1",
