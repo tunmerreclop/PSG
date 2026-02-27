@@ -82,10 +82,11 @@
         "KingRezaPahlavi",
         "🇽🇽 XX | VLESS | @bored_vpn #1",
         "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
+        "🇺🇸 US | VLESS | @flyv2ray #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇽🇽 XX | VLESS | @orange_vpns #1",
-        "🇮🇹 IT | VLESS | @v2ray_youtube #1",
-        "🇺🇸 US | VLESS | @v2rayngconfiig #1"
+        "🇩🇰 DK | VLESS | @v2ray_youtube #1",
+        "🇩🇪 DE | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,10 +99,11 @@
         "KingRezaPahlavi",
         "🇽🇽 XX | VLESS | @bored_vpn #1",
         "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
+        "🇺🇸 US | VLESS | @flyv2ray #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇽🇽 XX | VLESS | @orange_vpns #1",
-        "🇮🇹 IT | VLESS | @v2ray_youtube #1",
-        "🇺🇸 US | VLESS | @v2rayngconfiig #1"
+        "🇩🇰 DK | VLESS | @v2ray_youtube #1",
+        "🇩🇪 DE | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -205,6 +207,23 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇺🇸 US | VLESS | @flyv2ray #1",
+      "type": "vless",
+      "server": "670w.smarteracloud.com",
+      "server_port": 443,
+      "uuid": "ffb6d3c1-103d-4168-9b75-e1cb5b7212b9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇬🇧 GB | VLESS | @komail315 #1",
       "type": "vless",
       "server": "cr7.zx-shop.ir",
@@ -221,7 +240,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇹 IT | VLESS | @v2ray_youtube #1",
+      "tag": "🇩🇰 DK | VLESS | @v2ray_youtube #1",
       "type": "vless",
       "server": "ss.mrrnasr.ir",
       "server_port": 443,
@@ -238,7 +257,7 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #1",
+      "tag": "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
       "type": "vless",
       "server": "test.fast.hosting-ip.com",
       "server_port": 80,

@@ -82,17 +82,20 @@
         "KingRezaPahlavi",
         "🇽🇽 XX | VLESS | @bored_vpn #1",
         "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
+        "🇺🇸 US | VLESS | @flyv2ray #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇽🇽 XX | VLESS | @orange_vpns #1",
-        "🇮🇹 IT | VLESS | @v2ray_youtube #1",
-        "🇺🇸 US | VLESS | @v2rayngconfiig #1",
+        "🇩🇰 DK | VLESS | @v2ray_youtube #1",
+        "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇸🇨 SC | VLESS | @ehsawn8 #1",
         "🇺🇸 US | VLESS | @kurdistan_vpn_perfectt #1",
         "🇺🇸 US | VLESS | @nofiltering2 #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇺🇸 US | VLESS | @qeshmserver #1",
-        "🇽🇽 XX | VLESS | @turboo_server #1"
+        "🇳🇱 NL | VLESS | @red2ray #1",
+        "🇽🇽 XX | VLESS | @turboo_server #1",
+        "🇺🇸 US | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -105,17 +108,20 @@
         "KingRezaPahlavi",
         "🇽🇽 XX | VLESS | @bored_vpn #1",
         "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
+        "🇺🇸 US | VLESS | @flyv2ray #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇽🇽 XX | VLESS | @orange_vpns #1",
-        "🇮🇹 IT | VLESS | @v2ray_youtube #1",
-        "🇺🇸 US | VLESS | @v2rayngconfiig #1",
+        "🇩🇰 DK | VLESS | @v2ray_youtube #1",
+        "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇸🇨 SC | VLESS | @ehsawn8 #1",
         "🇺🇸 US | VLESS | @kurdistan_vpn_perfectt #1",
         "🇺🇸 US | VLESS | @nofiltering2 #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇺🇸 US | VLESS | @qeshmserver #1",
-        "🇽🇽 XX | VLESS | @turboo_server #1"
+        "🇳🇱 NL | VLESS | @red2ray #1",
+        "🇽🇽 XX | VLESS | @turboo_server #1",
+        "🇺🇸 US | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -219,6 +225,23 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇺🇸 US | VLESS | @flyv2ray #1",
+      "type": "vless",
+      "server": "670w.smarteracloud.com",
+      "server_port": 443,
+      "uuid": "ffb6d3c1-103d-4168-9b75-e1cb5b7212b9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇬🇧 GB | VLESS | @komail315 #1",
       "type": "vless",
       "server": "cr7.zx-shop.ir",
@@ -235,7 +258,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇹 IT | VLESS | @v2ray_youtube #1",
+      "tag": "🇩🇰 DK | VLESS | @v2ray_youtube #1",
       "type": "vless",
       "server": "ss.mrrnasr.ir",
       "server_port": 443,
@@ -252,7 +275,7 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #1",
+      "tag": "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
       "type": "vless",
       "server": "test.fast.hosting-ip.com",
       "server_port": 80,
@@ -344,6 +367,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇳🇱 NL | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "195.26.224.112",
+      "server_port": 8443,
+      "uuid": "db444bee-8212-5ff5-be40-47e1a7509eb8",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @turboo_server #1",
       "type": "vless",
       "server": "188.114.97.3",
@@ -359,6 +390,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #1",
+      "type": "vless",
+      "server": "151.101.3.8",
+      "server_port": 80,
+      "uuid": "1260fbdc-57b6-4e2c-a76f-c6f748d26917",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

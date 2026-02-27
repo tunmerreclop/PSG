@@ -77,9 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @flyv2ray #1",
+        "🇵🇱 PL | SS | @netfreedom0 #1",
         "🇵🇱 PL | SS | @outlinereleasedkey #1",
-        "🇵🇱 PL | VLESS | @red2ray #1"
+        "🇵🇱 PL | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @flyv2ray #1",
+        "🇵🇱 PL | SS | @netfreedom0 #1",
         "🇵🇱 PL | SS | @outlinereleasedkey #1",
-        "🇵🇱 PL | VLESS | @red2ray #1"
+        "🇵🇱 PL | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -105,26 +105,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @flyv2ray #1",
-      "type": "vless",
-      "server": "poland.tconnect.services",
-      "server_port": 443,
-      "uuid": "ea9ba1ec-bfe7-407b-bd21-aeebc86da741",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "tag": "🇵🇱 PL | SS | @netfreedom0 #1",
+      "type": "shadowsocks",
+      "server": "217.30.10.70",
+      "server_port": 9000,
+      "method": "YWVzLTI1Ni1jZmI6YTNHRll0MzZTbTgyVnlzOQ==",
+      "password": null
     },
     {
       "tag": "🇵🇱 PL | SS | @outlinereleasedkey #1",
@@ -135,7 +121,7 @@
       "password": null
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @red2ray #1",
+      "tag": "🇵🇱 PL | VLESS | @vpn_ioss #1",
       "type": "vless",
       "server": "3.cdnconn.com",
       "server_port": 23335,
