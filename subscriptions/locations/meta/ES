@@ -23,9 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇸🇬 SG | VLESS | @config_proxy #1", "server": "209.17.118.131", "port": 26403, "type": "vless", "skip-cert-verify": true, "uuid": "2ab6258a-6670-4875-ab65-60999b764f87", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇸🇬 SG | VLESS | @config_proxy #2", "server": "a.monohob.eu.org", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "4f4a8022-0a8e-4f55-9883-777b6830802e", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "/", "headers": {"Host": "a.monohob.eu.org"}}}
-  - {"name": "🇸🇬 SG | VMESS | @config_proxy #1", "server": "mzoom.bypassvpn.site", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "8e5673e0-1979-4ee1-a8c1-5a257d2cbf48", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/vmess", "headers": {"Host": "mzoom.bypassvpn.site"}}}
+  - {"name": "🇪🇸 ES | VLESS | @vpnplusee_free #1", "server": "4.cdnconn.com", "port": 23335, "type": "vless", "skip-cert-verify": true, "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇸🇬 SG | VLESS | @config_proxy #1'
-      - '🇸🇬 SG | VLESS | @config_proxy #2'
-      - '🇸🇬 SG | VMESS | @config_proxy #1'
+      - '🇪🇸 ES | VLESS | @vpnplusee_free #1'
 
   - name: 🌍 Global Media
     type: select

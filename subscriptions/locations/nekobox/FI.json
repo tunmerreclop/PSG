@@ -77,9 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇬 SG | VLESS | @config_proxy #1",
-        "🇸🇬 SG | VLESS | @config_proxy #2",
-        "🇸🇬 SG | VMESS | @config_proxy #1"
+        "🇫🇮 FI | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇬 SG | VLESS | @config_proxy #1",
-        "🇸🇬 SG | VLESS | @config_proxy #2",
-        "🇸🇬 SG | VMESS | @config_proxy #1"
+        "🇫🇮 FI | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -105,19 +101,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇸🇬 SG | VLESS | @config_proxy #1",
+      "tag": "🇫🇮 FI | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "209.17.118.131",
-      "server_port": 26403,
-      "uuid": "2ab6258a-6670-4875-ab65-60999b764f87",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇬 SG | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "a.monohob.eu.org",
-      "server_port": 443,
-      "uuid": "4f4a8022-0a8e-4f55-9883-777b6830802e",
+      "server": "my.kiomars.shop",
+      "server_port": 6620,
+      "uuid": "af5100bf-ffe6-43de-bee5-b16cf5a3528e",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -126,38 +114,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 SG | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "mzoom.bypassvpn.site",
-      "server_port": 443,
-      "uuid": "8e5673e0-1979-4ee1-a8c1-5a257d2cbf48",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "mzoom.bypassvpn.site",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vmess",
-        "headers": {
-          "Host": "mzoom.bypassvpn.site"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }
