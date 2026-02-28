@@ -96,6 +96,8 @@
         "🇸🇨 SC | VLESS | @bored_vpn #2",
         "🇸🇨 SC | VLESS | @config_proxy #1",
         "🇸🇨 SC | VLESS | @ehsawn8 #1",
+        "🇸🇨 SC | VLESS | @mpproxy #1",
+        "🇸🇨 SC | VLESS | @mpproxy #2",
         "🇸🇨 SC | VLESS | @prrofile_purple #1",
         "🇸🇨 SC | VLESS | @v2raying #1",
         "🇸🇨 SC | VLESS | @v2raymelliii #1",
@@ -115,6 +117,8 @@
         "🇸🇨 SC | VLESS | @bored_vpn #2",
         "🇸🇨 SC | VLESS | @config_proxy #1",
         "🇸🇨 SC | VLESS | @ehsawn8 #1",
+        "🇸🇨 SC | VLESS | @mpproxy #1",
+        "🇸🇨 SC | VLESS | @mpproxy #2",
         "🇸🇨 SC | VLESS | @prrofile_purple #1",
         "🇸🇨 SC | VLESS | @v2raying #1",
         "🇸🇨 SC | VLESS | @v2raymelliii #1",
@@ -195,6 +199,31 @@
       "server": "45.130.125.160",
       "server_port": 443,
       "uuid": "a36e3773-cad9-4da8-a2d6-4708f3d7754f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @mpproxy #1",
+      "type": "vless",
+      "server": "srv1.khatibirepair.ir",
+      "server_port": 2096,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @mpproxy #2",
+      "type": "vless",
+      "server": "srv1.khatibirepair.ir",
+      "server_port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

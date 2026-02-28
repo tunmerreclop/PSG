@@ -96,7 +96,6 @@
         "🇺🇸 US | VLESS | @connectshu #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
-        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇺🇸 US | VLESS | @flyv2ray #1",
         "🇺🇸 US | VLESS | @flyv2ray #2",
@@ -106,6 +105,7 @@
         "🇺🇸 US | VLESS | @frev2rayng #2",
         "🇺🇸 US | VLESS | @frev2rayng #3",
         "🇺🇸 US | SS | @godv2rang #1",
+        "🇺🇸 US | VLESS | @hope_net #1",
         "🇺🇸 US | VMESS | @ir_netproxy #1",
         "🇺🇸 US | VLESS | @iranvipnet #1",
         "🇺🇸 US | VLESS | @iranvipnet #2",
@@ -149,8 +149,6 @@
         "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | SS | @v2raych #1",
-        "🇺🇸 US | VMESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2raying #1",
         "🇺🇸 US | VLESS | @v2rayngconfig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
@@ -160,7 +158,6 @@
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2",
-        "🇺🇸 US | VLESS | @vpnowl #1",
         "🇺🇸 US | VLESS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
@@ -175,7 +172,6 @@
         "🇺🇸 US | VLESS | @connectshu #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
-        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇺🇸 US | VLESS | @flyv2ray #1",
         "🇺🇸 US | VLESS | @flyv2ray #2",
@@ -185,6 +181,7 @@
         "🇺🇸 US | VLESS | @frev2rayng #2",
         "🇺🇸 US | VLESS | @frev2rayng #3",
         "🇺🇸 US | SS | @godv2rang #1",
+        "🇺🇸 US | VLESS | @hope_net #1",
         "🇺🇸 US | VMESS | @ir_netproxy #1",
         "🇺🇸 US | VLESS | @iranvipnet #1",
         "🇺🇸 US | VLESS | @iranvipnet #2",
@@ -228,8 +225,6 @@
         "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | SS | @v2raych #1",
-        "🇺🇸 US | VMESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2raying #1",
         "🇺🇸 US | VLESS | @v2rayngconfig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
@@ -239,7 +234,6 @@
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2",
-        "🇺🇸 US | VLESS | @vpnowl #1",
         "🇺🇸 US | VLESS | @NamiraConfigs #1"
       ],
       "tag": "auto",
@@ -322,14 +316,6 @@
       "server": "clfconnect.pishipishi.pro",
       "server_port": 8880,
       "uuid": "vpn_connects",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @eliteproxyv2 #1",
-      "type": "vless",
-      "server": "germany.fast.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
       "packet_encoding": "xudp"
     },
     {
@@ -454,6 +440,23 @@
       "server_port": 443,
       "method": "YXV0bzo=",
       "password": null
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @hope_net #1",
+      "type": "vless",
+      "server": "160.79.104.191",
+      "server_port": 443,
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | VMESS | @ir_netproxy #1",
@@ -1036,23 +1039,6 @@
       }
     },
     {
-      "tag": "🇺🇸 US | SS | @v2raych #1",
-      "type": "shadowsocks",
-      "server": "yxv0bzp7e353nnt",
-      "server_port": null,
-      "method": null,
-      "password": null
-    },
-    {
-      "tag": "🇺🇸 US | VMESS | @v2raych #1",
-      "type": "vmess",
-      "server": "172.233.229.91",
-      "server_port": 14102,
-      "uuid": "27ba87fc-583f-4763-9060-83cf0b9264db",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @v2raying #1",
       "type": "vless",
       "server": "fastly3.hamrahflow.ir",
@@ -1190,23 +1176,6 @@
         "path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm",
         "headers": {
           "Host": "cold-dawn-9246.fly.dev"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @vpnowl #1",
-      "type": "vless",
-      "server": "dash.getasa.ir",
-      "server_port": 443,
-      "uuid": "dd0cfef0-fda9-47ec-8a65-49d7bc004f82",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     },

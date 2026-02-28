@@ -92,7 +92,7 @@
         "direct",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇭🇰 HK | SS | @mftizi #1",
-        "🇭🇰 HK | TROJAN | @v2raych #1"
+        "🇭🇰 HK | VMESS | @mpproxy #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,7 +102,7 @@
       "outbounds": [
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇭🇰 HK | SS | @mftizi #1",
-        "🇭🇰 HK | TROJAN | @v2raych #1"
+        "🇭🇰 HK | VMESS | @mpproxy #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -147,11 +147,20 @@
       "password": null
     },
     {
-      "tag": "🇭🇰 HK | TROJAN | @v2raych #1",
-      "type": "trojan",
-      "server": "16.163.102.116",
-      "server_port": 52951,
-      "password": "BxceQaOe"
+      "tag": "🇭🇰 HK | VMESS | @mpproxy #1",
+      "type": "vmess",
+      "server": "47.244.120.197",
+      "server_port": 44867,
+      "uuid": "845e6b08-2919-4290-ade0-5dc7dcea59ca",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/arki?ed=2048",
+        "headers": {
+          "Host": ""
+        }
+      }
     }
   ],
   "route": {
