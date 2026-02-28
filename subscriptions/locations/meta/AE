@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇱🇻 LV | VLESS | @vpnplusee_free #1", "server": "83.222.20.64", "port": 17910, "type": "vless", "skip-cert-verify": true, "uuid": "079c1b04-7ef9-4c49-8a7a-849a18ba7b9b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇦🇪 AE | VLESS | @netmellianti #1", "server": "94.140.0.0", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "f02a08c2-f157-42c9-bdd6-74f6e2e5e8ef", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇪 AE | VLESS | @vpnplusee_free #1", "server": "ae.cdn.stun.su", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "eb071647-72a6-46be-8e89-ff3d228d52f6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇱🇻 LV | VLESS | @vpnplusee_free #1'
+      - '🇦🇪 AE | VLESS | @netmellianti #1'
+      - '🇦🇪 AE | VLESS | @vpnplusee_free #1'
 
   - name: 🌍 Global Media
     type: select
