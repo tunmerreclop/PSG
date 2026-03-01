@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇹🇷 TR | VLESS | @config_proxy #1", "server": "213.142.149.156", "port": 14519, "type": "vless", "skip-cert-verify": true, "uuid": "695df8a2-e948-4906-83ab-18e680ef130b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇭🇷 HR | VLESS | @config_proxy #1", "server": "5.181.2.78", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "e06ecfcf6c73431c8d2a1fa03b210c7f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇹🇷 TR | VLESS | @config_proxy #1'
+      - '🇭🇷 HR | VLESS | @config_proxy #1'
 
   - name: 🌍 Global Media
     type: select

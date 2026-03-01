@@ -77,8 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇯🇵 JP | TROJAN | @config_proxy #1",
-        "🇯🇵 JP | SS | @outlinereleasedkey #1"
+        "🇯🇵 JP | SS | @outlinereleasedkey #1",
+        "🇯🇵 JP | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇯🇵 JP | TROJAN | @config_proxy #1",
-        "🇯🇵 JP | SS | @outlinereleasedkey #1"
+        "🇯🇵 JP | SS | @outlinereleasedkey #1",
+        "🇯🇵 JP | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,11 +103,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇯🇵 JP | TROJAN | @config_proxy #1",
-      "type": "trojan",
-      "server": "153.121.65.107",
-      "server_port": 4920,
-      "password": "262f1d150049457ac1d6e66b020fa980",
+      "tag": "🇯🇵 JP | SS | @outlinereleasedkey #1",
+      "type": "shadowsocks",
+      "server": "149.22.87.240",
+      "server_port": 443,
+      "method": "YWVzLTEyOC1nY206c2hhZG93c29ja3M=",
+      "password": null
+    },
+    {
+      "tag": "🇯🇵 JP | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "jp.cdn.stun.su",
+      "server_port": 443,
+      "uuid": "eb071647-72a6-46be-8e89-ff3d228d52f6",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -115,16 +124,13 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇯🇵 JP | SS | @outlinereleasedkey #1",
-      "type": "shadowsocks",
-      "server": "149.22.87.240",
-      "server_port": 443,
-      "method": "YWVzLTEyOC1nY206c2hhZG93c29ja3M=",
-      "password": null
     }
   ],
   "route": {
