@@ -131,12 +131,11 @@
         "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | SS | @v2ray_youtube #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2rayngconfig #1",
         "🇺🇸 US | VLESS | @v2rayngconfig #2",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
-        "🇺🇸 US | VLESS | @v2rayngconfiig #3",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2",
         "🇺🇸 US | VLESS | @vpnowl #1",
@@ -202,12 +201,11 @@
         "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | SS | @v2ray_youtube #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2rayngconfig #1",
         "🇺🇸 US | VLESS | @v2rayngconfig #2",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
-        "🇺🇸 US | VLESS | @v2rayngconfiig #3",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2",
         "🇺🇸 US | VLESS | @vpnowl #1",
@@ -229,9 +227,9 @@
     {
       "tag": "🇺🇸 US | VLESS | @Fr33C0nfig #1",
       "type": "vless",
-      "server": "167.82.92.159",
-      "server_port": 80,
-      "uuid": "0569f3ce-447b-4ac5-aae3-b47ae55351f7",
+      "server": "159.89.87.21",
+      "server_port": 28190,
+      "uuid": "14c80e0e-f7ce-4991-94fc-99a1db4a9b1e",
       "packet_encoding": "xudp"
     },
     {
@@ -935,12 +933,21 @@
       }
     },
     {
-      "tag": "🇺🇸 US | SS | @v2ray_youtube #1",
-      "type": "shadowsocks",
-      "server": "154.17.31.189",
-      "server_port": 18829,
-      "method": "YWVzLTEyOC1nY206ZmE1OTM0MTQtN2E3Ni00OTc1LTkwOWItN2E3YzQ2YmUxMjNi",
-      "password": null
+      "tag": "🇺🇸 US | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "w8013.smarteracloud.com",
+      "server_port": 443,
+      "uuid": "ffb6d3c1-103d-4168-9b75-e1cb5b7212b9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @v2rayngconfig #1",
@@ -977,14 +984,6 @@
     },
     {
       "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #2",
-      "type": "vless",
-      "server": "test.fast.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "TELEGRAM-CONFiGLiNE-29",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #3",
       "type": "vless",
       "server": "fastly1.hamrahflow.ir",
       "server_port": 443,

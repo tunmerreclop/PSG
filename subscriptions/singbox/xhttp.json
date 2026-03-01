@@ -100,9 +100,12 @@
         "🇺🇸 US | VLESS | @nofiltering2 #3",
         "🇽🇽 XX | VLESS | @nofiltering2 #1",
         "🇽🇽 XX | VLESS | @orange_vpns #1",
+        "🇽🇽 XX | VLESS | @prrofile_purple #1",
+        "🇽🇽 XX | VLESS | @prrofile_purple #2",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2rayngconfig #1",
         "🇽🇽 XX | VLESS | @v2rayngconfig #4",
-        "🇺🇸 US | VLESS | @v2rayngconfiig #2",
+        "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇽🇽 XX | VLESS | @vmesc #1",
         "🇸🇨 SC | VLESS | @vpnplusee_free #2",
         "🇺🇸 US | VLESS | @bored_vpn #1",
@@ -117,9 +120,9 @@
         "🇽🇽 XX | VLESS | @proxie #4",
         "🇽🇽 XX | VLESS | @proxie #5",
         "🇽🇽 XX | VLESS | @proxie #6",
-        "🇸🇨 SC | VLESS | @prrofile_purple #2",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇽🇽 XX | VLESS | @turboo_server #1",
+        "🇳🇱 NL | VLESS | @v2ray_youtube #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇽🇽 XX | VLESS | @vpnowl #3",
         "🇸🇨 SC | VLESS | @vpnplusee_free #1"
@@ -140,9 +143,12 @@
         "🇺🇸 US | VLESS | @nofiltering2 #3",
         "🇽🇽 XX | VLESS | @nofiltering2 #1",
         "🇽🇽 XX | VLESS | @orange_vpns #1",
+        "🇽🇽 XX | VLESS | @prrofile_purple #1",
+        "🇽🇽 XX | VLESS | @prrofile_purple #2",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2rayngconfig #1",
         "🇽🇽 XX | VLESS | @v2rayngconfig #4",
-        "🇺🇸 US | VLESS | @v2rayngconfiig #2",
+        "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇽🇽 XX | VLESS | @vmesc #1",
         "🇸🇨 SC | VLESS | @vpnplusee_free #2",
         "🇺🇸 US | VLESS | @bored_vpn #1",
@@ -157,9 +163,9 @@
         "🇽🇽 XX | VLESS | @proxie #4",
         "🇽🇽 XX | VLESS | @proxie #5",
         "🇽🇽 XX | VLESS | @proxie #6",
-        "🇸🇨 SC | VLESS | @prrofile_purple #2",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇽🇽 XX | VLESS | @turboo_server #1",
+        "🇳🇱 NL | VLESS | @v2ray_youtube #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇽🇽 XX | VLESS | @vpnowl #3",
         "🇸🇨 SC | VLESS | @vpnplusee_free #1"
@@ -302,6 +308,39 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇽🇽 XX | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "b.pabloping.cloud",
+      "server_port": 2052,
+      "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @prrofile_purple #2",
+      "type": "vless",
+      "server": "b.pabloping.cloud",
+      "server_port": 2052,
+      "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "w8013.smarteracloud.com",
+      "server_port": 443,
+      "uuid": "ffb6d3c1-103d-4168-9b75-e1cb5b7212b9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @v2rayngconfig #1",
       "type": "vless",
       "server": "nytimes.com",
@@ -318,7 +357,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #2",
+      "tag": "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
       "type": "vless",
       "server": "test.fast.hosting-ip.com",
       "server_port": 80,
@@ -510,14 +549,6 @@
       }
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @prrofile_purple #2",
-      "type": "vless",
-      "server": "45.130.125.160",
-      "server_port": 2052,
-      "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @qeshmserver #1",
       "type": "vless",
       "server": "151.101.3.8",
@@ -541,6 +572,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2ray_youtube #1",
+      "type": "vless",
+      "server": "45.131.6.203",
+      "server_port": 2096,
+      "uuid": "a5323cba-7ba7-4e10-87f5-a49fd2c4f4c0",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #1",

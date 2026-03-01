@@ -80,9 +80,9 @@
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | SS | @imhdiyvp #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
+        "🇬🇧 GB | VLESS | @miov2ray #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | VLESS | @netfreedom0 #1",
-        "🇬🇧 GB | SS | @outline_ir #1",
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
         "🇬🇧 GB | SS | @torang_vpn #1",
@@ -97,9 +97,9 @@
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | SS | @imhdiyvp #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
+        "🇬🇧 GB | VLESS | @miov2ray #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | VLESS | @netfreedom0 #1",
-        "🇬🇧 GB | SS | @outline_ir #1",
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
         "🇬🇧 GB | SS | @torang_vpn #1",
@@ -143,6 +143,23 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇬🇧 GB | VLESS | @miov2ray #1",
+      "type": "vless",
+      "server": "parspack.com",
+      "server_port": 443,
+      "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇬🇧 GB | SS | @netfreedom0 #1",
       "type": "shadowsocks",
       "server": "141.98.101.182",
@@ -157,14 +174,6 @@
       "server_port": 2345,
       "uuid": "0331b690-79fc-49d5-85f0-54faa4eff89f",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @outline_ir #1",
-      "type": "shadowsocks",
-      "server": "admin.c2.havij.co",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprYVFIM2hHZGNQODBYRURJ",
-      "password": null
     },
     {
       "tag": "🇬🇧 GB | SS | @outlinereleasedkey #1",

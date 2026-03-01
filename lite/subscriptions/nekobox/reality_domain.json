@@ -80,10 +80,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇷🇺 RU | VLESS | @Fr33C0nfig #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @mpproxy #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #1",
+        "🇪🇸 ES | VLESS | @vpn_ioss #1",
         "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
@@ -95,10 +97,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇷🇺 RU | VLESS | @Fr33C0nfig #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @mpproxy #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #1",
+        "🇪🇸 ES | VLESS | @vpn_ioss #1",
         "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
@@ -187,6 +191,14 @@
       }
     },
     {
+      "tag": "🇷🇺 RU | VLESS | @Fr33C0nfig #1",
+      "type": "vless",
+      "server": "netherland.boot-lee.ru",
+      "server_port": 8443,
+      "uuid": "05dc09d5-5c56-454b-a34e-6ef743d91e1a",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @configasli #1",
       "type": "vless",
       "server": "s1.aparat-movies-download.ir",
@@ -253,6 +265,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇪🇸 ES | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "4.cdnconn.com",
+      "server_port": 23335,
+      "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
