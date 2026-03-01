@@ -90,7 +90,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇷 IR | VMESS | @config_proxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
@@ -102,7 +101,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇷 IR | VMESS | @config_proxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
@@ -116,24 +114,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇮🇷 IR | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "tr1.iranishops.com",
-      "server_port": 443,
-      "uuid": "ccd4fb25-87d3-5f0a-3bbe-d1067f2c8c9e",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "myket.ir",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇮🇷 IR | VMESS | @khoneproxy #1",

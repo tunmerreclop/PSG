@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇨🇦 CA | VLESS | @config_proxy #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
         "🇨🇦 CA | VMESS | @v_2rayng0 #1",
@@ -101,6 +102,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇨🇦 CA | VLESS | @config_proxy #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
         "🇨🇦 CA | VMESS | @v_2rayng0 #1",
@@ -114,6 +116,23 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇨🇦 CA | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "23.227.39.222",
+      "server_port": 2083,
+      "uuid": "c4000cda-6237-4702-ac6a-024444978b8e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇨🇦 CA | VLESS | @jokerv2ray #1",
