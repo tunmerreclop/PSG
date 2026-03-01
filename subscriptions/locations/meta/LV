@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇯🇵 JP | TROJAN | @mpproxy #1", "server": "160.16.68.250", "port": 1281, "type": "trojan", "skip-cert-verify": false, "password": "262f1d150049457ac1d6e66b020fa980"}
+  - {"name": "🇱🇻 LV | VLESS | @v2ray_youtube #1", "server": "83.222.20.64", "port": 17910, "type": "vless", "skip-cert-verify": true, "uuid": "079c1b04-7ef9-4c49-8a7a-849a18ba7b9b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇯🇵 JP | TROJAN | @mpproxy #1'
+      - '🇱🇻 LV | VLESS | @v2ray_youtube #1'
 
   - name: 🌍 Global Media
     type: select
