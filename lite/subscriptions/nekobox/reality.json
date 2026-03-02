@@ -83,6 +83,7 @@
         "🇳🇱 NL | VLESS | @Fr33C0nfig #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
+        "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇳🇱 NL | VLESS | @mpproxy #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #1",
         "🇪🇸 ES | VLESS | @vpn_ioss #1",
@@ -95,6 +96,7 @@
         "🇨🇭 CH | VLESS | @proxyfn #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
+        "🇷🇺 RU | VLESS | @v2raych #1",
         "🇨🇭 CH | VLESS | @v_2rayng0 #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇩🇪 DE | VLESS | @vmesc #1"
@@ -111,6 +113,7 @@
         "🇳🇱 NL | VLESS | @Fr33C0nfig #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
+        "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇳🇱 NL | VLESS | @mpproxy #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #1",
         "🇪🇸 ES | VLESS | @vpn_ioss #1",
@@ -123,6 +126,7 @@
         "🇨🇭 CH | VLESS | @proxyfn #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
+        "🇷🇺 RU | VLESS | @v2raych #1",
         "🇨🇭 CH | VLESS | @v_2rayng0 #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇩🇪 DE | VLESS | @vmesc #1"
@@ -235,6 +239,28 @@
       "server": "eng14.netliberated.org",
       "server_port": 443,
       "uuid": "0bb6dff2-0029-4b81-8c81-4fc70fae1ed9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @megavpn_link #1",
+      "type": "vless",
+      "server": "all32-vip.f-sub.com",
+      "server_port": 2434,
+      "uuid": "84e919b0-2a5d-4fad-8614-df01dd210b8e",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -483,6 +509,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "185.40.152.116",
+      "server_port": 443,
+      "uuid": "2dd1a15d-1426-413a-a3b8-a645788bc844",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
