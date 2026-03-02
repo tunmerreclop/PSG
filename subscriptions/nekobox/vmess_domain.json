@@ -80,7 +80,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VMESS | @config_proxy #1",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
@@ -95,6 +94,7 @@
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
+        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2"
       ],
@@ -107,7 +107,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VMESS | @config_proxy #1",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
@@ -122,6 +121,7 @@
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
+        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2"
       ],
@@ -209,15 +209,6 @@
           "Host": ""
         }
       }
-    },
-    {
-      "tag": "🇩🇪 DE | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "bug.topspeedarash.com",
-      "server_port": 4362,
-      "uuid": "022af8a2-f2a0-4c19-9962-edc116ab8cd0",
-      "security": "auto",
-      "alter_id": 0
     },
     {
       "tag": "🇦🇺 AU | VMESS | @dailyv2ray #1",
@@ -525,6 +516,31 @@
         "path": "/linkvws",
         "headers": {
           "Host": "kellie.makeup"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "cg1c04.waimaojd.com",
+      "server_port": 443,
+      "uuid": "be8e3136-b874-4085-bd23-ec3699300490",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "cg1c04.waimaojd.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/api/v1/graphql",
+        "headers": {
+          "Host": "cg1c04.waimaojd.com"
         }
       }
     },
