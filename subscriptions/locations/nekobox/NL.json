@@ -77,9 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇳🇱 NL | VLESS | @config_proxy #1",
-        "🇳🇱 NL | VLESS | @config_proxy #2",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
+        "🇳🇱 NL | VLESS | @hope_net #1",
         "🇳🇱 NL | VLESS | @mpproxy #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
         "🇳🇱 NL | VLESS | @outline_ir #1",
@@ -95,9 +94,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇳🇱 NL | VLESS | @config_proxy #1",
-        "🇳🇱 NL | VLESS | @config_proxy #2",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
+        "🇳🇱 NL | VLESS | @hope_net #1",
         "🇳🇱 NL | VLESS | @mpproxy #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
         "🇳🇱 NL | VLESS | @outline_ir #1",
@@ -121,28 +119,29 @@
       "type": "direct"
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "51.158.206.86",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "free2.spectrum.vu",
-      "server_port": 7443,
-      "uuid": "4bc7d558-1943-44de-bd82-56920bc9383e",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇳🇱 NL | SS | @easy_free_vpn #1",
       "type": "shadowsocks",
       "server": "193.29.139.151",
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
       "password": null
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @hope_net #1",
+      "type": "vless",
+      "server": "199.212.90.22",
+      "server_port": 443,
+      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | VLESS | @mpproxy #1",

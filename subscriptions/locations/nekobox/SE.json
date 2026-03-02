@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇪 SE | VLESS | @config_proxy #1",
         "🇸🇪 SE | VLESS | @deli_servers #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
@@ -94,6 +93,7 @@
         "🇸🇪 SE | VLESS | @meli_v2rayng #4",
         "🇸🇪 SE | VLESS | @minovpnch #1",
         "🇸🇪 SE | VLESS | @proxyfn #1",
+        "🇸🇪 SE | VLESS | @prrofile_purple #1",
         "🇸🇪 SE | VLESS | @realvpnmaster #1",
         "🇸🇪 SE | VLESS | @realvpnmaster #2",
         "🇸🇪 SE | VLESS | @realvpnmaster #3",
@@ -115,7 +115,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇪 SE | VLESS | @config_proxy #1",
         "🇸🇪 SE | VLESS | @deli_servers #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
@@ -132,6 +131,7 @@
         "🇸🇪 SE | VLESS | @meli_v2rayng #4",
         "🇸🇪 SE | VLESS | @minovpnch #1",
         "🇸🇪 SE | VLESS | @proxyfn #1",
+        "🇸🇪 SE | VLESS | @prrofile_purple #1",
         "🇸🇪 SE | VLESS | @realvpnmaster #1",
         "🇸🇪 SE | VLESS | @realvpnmaster #2",
         "🇸🇪 SE | VLESS | @realvpnmaster #3",
@@ -159,14 +159,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "dd.openaccessnode.com",
-      "server_port": 50,
-      "uuid": "75193bef-8d8f-e823-41e0-2dd083dc1399",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇸🇪 SE | VLESS | @deli_servers #1",
@@ -372,6 +364,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "199.232.173.212",
+      "server_port": 80,
+      "uuid": "3d142a41-8e57-47d7-a579-f52c6eae79f7",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇸🇪 SE | VLESS | @realvpnmaster #1",
