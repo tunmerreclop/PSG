@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇰🇷 KR | VLESS | @config_proxy #1",
         "🇰🇷 KR | VLESS | @mtproxy22_v2ray #1",
         "🇰🇷 KR | SS | @netfreedom0 #1"
       ],
@@ -99,6 +100,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇰🇷 KR | VLESS | @config_proxy #1",
         "🇰🇷 KR | VLESS | @mtproxy22_v2ray #1",
         "🇰🇷 KR | SS | @netfreedom0 #1"
       ],
@@ -110,6 +112,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇰🇷 KR | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "218.152.107.124",
+      "server_port": 12262,
+      "uuid": "5ac6e21d-be89-2f3b-6f88-c7f89ea12ec1",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇰🇷 KR | VLESS | @mtproxy22_v2ray #1",
