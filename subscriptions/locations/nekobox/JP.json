@@ -77,8 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇯🇵 JP | SS | @outlinereleasedkey #1",
-        "🇯🇵 JP | VLESS | @vpn_ioss #1"
+        "🇯🇵 JP | VLESS | @config_proxy #1",
+        "🇯🇵 JP | SS | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇯🇵 JP | SS | @outlinereleasedkey #1",
-        "🇯🇵 JP | VLESS | @vpn_ioss #1"
+        "🇯🇵 JP | VLESS | @config_proxy #1",
+        "🇯🇵 JP | SS | @outlinereleasedkey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,19 +103,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇯🇵 JP | SS | @outlinereleasedkey #1",
-      "type": "shadowsocks",
-      "server": "149.22.87.240",
-      "server_port": 443,
-      "method": "YWVzLTEyOC1nY206c2hhZG93c29ja3M=",
-      "password": null
-    },
-    {
-      "tag": "🇯🇵 JP | VLESS | @vpn_ioss #1",
+      "tag": "🇯🇵 JP | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "jp.cdn.stun.su",
+      "server": "188.253.118.197",
       "server_port": 443,
-      "uuid": "eb071647-72a6-46be-8e89-ff3d228d52f6",
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -124,13 +116,16 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇯🇵 JP | SS | @outlinereleasedkey #1",
+      "type": "shadowsocks",
+      "server": "149.22.87.240",
+      "server_port": 443,
+      "method": "YWVzLTEyOC1nY206c2hhZG93c29ja3M=",
+      "password": null
     }
   ],
   "route": {
