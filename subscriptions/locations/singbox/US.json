@@ -93,6 +93,8 @@
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | SS | @config_proxy #1",
+        "🇺🇸 US | VLESS | @config_proxy #1",
+        "🇺🇸 US | VLESS | @config_proxy #2",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
@@ -122,7 +124,6 @@
         "🇺🇸 US | SS | @key_outline #6",
         "🇺🇸 US | VLESS | @kurdistan_vpn_perfectt #1",
         "🇺🇸 US | VLESS | @kurdistan_vpn_perfectt #2",
-        "🇺🇸 US | VLESS | @kurdistan_vpn_perfectt #3",
         "🇺🇸 US | SS | @kurdistan_vpn_perfectt #1",
         "🇺🇸 US | VMESS | @manstervpn #1",
         "🇺🇸 US | VLESS | @manstervpn #1",
@@ -147,7 +148,8 @@
         "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+        "🇺🇸 US | SS | @v2raych #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇺🇸 US | VMESS | @vpngate_config #1",
@@ -164,6 +166,8 @@
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | SS | @config_proxy #1",
+        "🇺🇸 US | VLESS | @config_proxy #1",
+        "🇺🇸 US | VLESS | @config_proxy #2",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
@@ -193,7 +197,6 @@
         "🇺🇸 US | SS | @key_outline #6",
         "🇺🇸 US | VLESS | @kurdistan_vpn_perfectt #1",
         "🇺🇸 US | VLESS | @kurdistan_vpn_perfectt #2",
-        "🇺🇸 US | VLESS | @kurdistan_vpn_perfectt #3",
         "🇺🇸 US | SS | @kurdistan_vpn_perfectt #1",
         "🇺🇸 US | VMESS | @manstervpn #1",
         "🇺🇸 US | VLESS | @manstervpn #1",
@@ -218,7 +221,8 @@
         "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+        "🇺🇸 US | SS | @v2raych #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇺🇸 US | VMESS | @vpngate_config #1",
@@ -274,6 +278,31 @@
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoYkdycGZ2TnJKc1VtS21QYlIzaVky",
       "password": null
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "216.205.52.238",
+      "server_port": 2096,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "63.141.128.204",
+      "server_port": 443,
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @deli_servers #1",
@@ -582,23 +611,6 @@
       "type": "vless",
       "server": "151.101.34.36",
       "server_port": 443,
-      "uuid": "9a5de33b-b878-45da-bc3c-4511f6aa9a0b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @kurdistan_vpn_perfectt #2",
-      "type": "vless",
-      "server": "151.101.34.36",
-      "server_port": 443,
       "uuid": "ed0f05d9-79db-46fd-9d11-077b84ac4054",
       "packet_encoding": "xudp",
       "tls": {
@@ -612,7 +624,7 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @kurdistan_vpn_perfectt #3",
+      "tag": "🇺🇸 US | VLESS | @kurdistan_vpn_perfectt #2",
       "type": "vless",
       "server": "66.81.247.155",
       "server_port": 443,
@@ -968,27 +980,27 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "v2ray.codefyinc.com",
+      "tag": "🇺🇸 US | SS | @v2raych #1",
+      "type": "shadowsocks",
+      "server": "154.38.176.7",
+      "server_port": 80,
+      "method": "YXV0bzo=",
+      "password": null
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "fast.linuxbase.ir",
       "server_port": 443,
-      "uuid": "2c981164-9b93-4bca-94ff-b78d3f8498d7",
-      "security": "auto",
-      "alter_id": 0,
+      "uuid": "4a3e4a0b-262a-4feb-a29f-a7764fe3eae8",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "v2ray.codefyinc.com",
+        "server_name": "",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vmessws",
-        "headers": {
-          "Host": "v2ray.codefyinc.com"
         }
       }
     },
