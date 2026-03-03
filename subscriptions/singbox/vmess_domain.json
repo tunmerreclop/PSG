@@ -93,6 +93,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇽🇽 XX | VMESS | @config_proxy #1",
+        "🇮🇩 ID | VMESS | @config_proxy #1",
+        "🇮🇩 ID | VMESS | @config_proxy #2",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇽🇽 XX | VMESS | @father_vpn #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
@@ -108,9 +111,8 @@
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
-        "🇺🇸 US | VMESS | @v2raych #1",
-        "🇺🇸 US | VMESS | @vpngate_config #1"
+        "🇺🇸 US | VMESS | @vpngate_config #1",
+        "🇺🇸 US | VMESS | @vpngate_config #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -121,6 +123,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇽🇽 XX | VMESS | @config_proxy #1",
+        "🇮🇩 ID | VMESS | @config_proxy #1",
+        "🇮🇩 ID | VMESS | @config_proxy #2",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇽🇽 XX | VMESS | @father_vpn #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
@@ -136,9 +141,8 @@
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
-        "🇺🇸 US | VMESS | @v2raych #1",
-        "🇺🇸 US | VMESS | @vpngate_config #1"
+        "🇺🇸 US | VMESS | @vpngate_config #1",
+        "🇺🇸 US | VMESS | @vpngate_config #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -218,6 +222,81 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "vvvffgty.1xa.ccwu.cc",
+      "server_port": 443,
+      "uuid": "2bfded8d-6a7c-4c18-aaa5-fc65b955d50c",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "vvvffgty.1xa.ccwu.cc",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/tV7lLkdyUphJ3dX414bl",
+        "headers": {
+          "Host": "vvvffgty.1xa.ccwu.cc"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇩 ID | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "43.156.6.226",
+      "server_port": 443,
+      "uuid": "462d9694-62b5-4781-a287-61a422b920e8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "mn1ray.jagoanvip.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vvip",
+        "headers": {
+          "Host": "mn1ray.jagoanvip.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇩 ID | VMESS | @config_proxy #2",
+      "type": "vmess",
+      "server": "83.229.121.113",
+      "server_port": 443,
+      "uuid": "462d9694-62b5-4781-a287-61a422b920e8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "mn1ray.jagoanvip.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vvip",
+        "headers": {
+          "Host": "mn1ray.jagoanvip.xyz"
         }
       }
     },
@@ -556,41 +635,16 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
+      "tag": "🇺🇸 US | VMESS | @vpngate_config #1",
       "type": "vmess",
-      "server": "nmjy.0m0.ccwu.cc",
-      "server_port": 443,
-      "uuid": "0617025a-660d-40e3-9108-74611138dde5",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "nmjy.0m0.ccwu.cc",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vd2I8EQzt8xbgTRzxuv6d8",
-        "headers": {
-          "Host": "nmjy.0m0.ccwu.cc"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VMESS | @v2raych #1",
-      "type": "vmess",
-      "server": "15.204.64.211",
+      "server": "104.18.212.12",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "kampong.org",
+        "server_name": "sub.yifenjichang.top",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -599,14 +653,14 @@
       },
       "transport": {
         "type": "ws",
-        "path": "linkvws",
+        "path": "/oliv.beauty:443/linkvws",
         "headers": {
-          "Host": "kampong.org"
+          "Host": "sub.yifenjichang.top"
         }
       }
     },
     {
-      "tag": "🇺🇸 US | VMESS | @vpngate_config #1",
+      "tag": "🇺🇸 US | VMESS | @vpngate_config #2",
       "type": "vmess",
       "server": "cold-dawn-9246.fly.dev",
       "server_port": 443,

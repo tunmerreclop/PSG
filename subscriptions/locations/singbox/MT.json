@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgU0E=
+//profile-title: base64:UFNHIHwgTVQ=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇦 SA | SS | @v_2rayng0 #1"
+        "🇲🇹 MT | VLESS | @hope_net #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇦 SA | SS | @v_2rayng0 #1"
+        "🇲🇹 MT | VLESS | @hope_net #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,21 @@
       "type": "direct"
     },
     {
-      "tag": "🇸🇦 SA | SS | @v_2rayng0 #1",
-      "type": "shadowsocks",
-      "server": "154.205.134.155",
-      "server_port": 24851,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyOTE2MTUwZWZlZGQyZDE3",
-      "password": null
+      "tag": "🇲🇹 MT | VLESS | @hope_net #1",
+      "type": "vless",
+      "server": "193.227.99.109",
+      "server_port": 443,
+      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
