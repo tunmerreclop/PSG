@@ -90,15 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇺 RU | VLESS | @config_proxy #1",
-        "🇷🇺 RU | VLESS | @config_proxy #2",
-        "🇷🇺 RU | VLESS | @config_proxy #3",
-        "🇷🇺 RU | VLESS | @config_proxy #4",
-        "🇷🇺 RU | VLESS | @config_proxy #5",
         "🇷🇺 RU | VLESS | @hope_net #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇷🇺 RU | SS | @v2ray_free_conf #1",
-        "🇷🇺 RU | VLESS | @v2raych #1",
         "🇷🇺 RU | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
@@ -107,15 +100,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇺 RU | VLESS | @config_proxy #1",
-        "🇷🇺 RU | VLESS | @config_proxy #2",
-        "🇷🇺 RU | VLESS | @config_proxy #3",
-        "🇷🇺 RU | VLESS | @config_proxy #4",
-        "🇷🇺 RU | VLESS | @config_proxy #5",
         "🇷🇺 RU | VLESS | @hope_net #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
-        "🇷🇺 RU | SS | @v2ray_free_conf #1",
-        "🇷🇺 RU | VLESS | @v2raych #1",
         "🇷🇺 RU | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
@@ -126,116 +112,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "146.185.242.246",
-      "server_port": 51006,
-      "uuid": "4292f5ab-8963-1770-8052-3615895ce4f1",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "37.139.33.187",
-      "server_port": 52006,
-      "uuid": "4292f5ab-8963-044c-8052-3615895ce4f1",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy #3",
-      "type": "vless",
-      "server": "37.139.33.187",
-      "server_port": 52006,
-      "uuid": "4292f5ab-8963-012c-8052-3615895ce4f1",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy #4",
-      "type": "vless",
-      "server": "5.188.140.244",
-      "server_port": 443,
-      "uuid": "080556c0-0117-0bb8-b1d9-3708fa8ab8c4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy #5",
-      "type": "vless",
-      "server": "109.120.188.156",
-      "server_port": 443,
-      "uuid": "17c4e377-ea15-0bb8-98b2-3e348c9ff5d9",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇷🇺 RU | VLESS | @hope_net #1",
@@ -278,22 +154,6 @@
           "Host": "77.v2ray1.xyz"
         }
       }
-    },
-    {
-      "tag": "🇷🇺 RU | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "45.144.31.24",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3SFE4dzFZV01kTmpxNjhiWnQxdE5mcERITEZBMUJQQQ==",
-      "password": null
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "rus62.ruslucker.org",
-      "server_port": 444,
-      "uuid": "a28cfe60-b6f6-4737-9082-b2df62f59229",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VLESS | @vpnplusee_free #1",
