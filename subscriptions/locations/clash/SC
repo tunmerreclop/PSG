@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇯🇵 JP | VMESS | @config_proxy #1", "server": "8.211.169.247", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "7ace1873-9822-46af-9920-bd64f725212c", "alterId": 0, "cipher": null, "network": "ws", "tls": true, "ws-opts": {"path": "/", "headers": {"Host": "n1751468092.lie5d.cyou"}}}
+  - {"name": "🇸🇨 SC | TROJAN | @mpproxy #1", "server": "srv1.khatibirepair.ir", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "842b5f9dd11e458d8613c907c4cc5723"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇯🇵 JP | VMESS | @config_proxy #1'
+      - '🇸🇨 SC | TROJAN | @mpproxy #1'
 
   - name: 🌍 Global Media
     type: select

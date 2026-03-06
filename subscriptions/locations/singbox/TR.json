@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgSFU=
+//profile-title: base64:UFNHIHwgVFI=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,8 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇺 HU | VLESS | @config_proxy #1",
-        "🇭🇺 HU | VLESS | @config_proxy #2"
+        "🇹🇷 TR | VLESS | @config_proxy #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇺 HU | VLESS | @config_proxy #1",
-        "🇭🇺 HU | VLESS | @config_proxy #2"
+        "🇹🇷 TR | VLESS | @config_proxy #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,22 +110,26 @@
       "type": "direct"
     },
     {
-      "tag": "🇭🇺 HU | VLESS | @config_proxy #1",
+      "tag": "🇹🇷 TR | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "217.13.105.1",
-      "server_port": 5443,
-      "uuid": "928beba1-eef6-478a-b06f-db6bc020e078",
+      "server": "tr.dashping6.ir",
+      "server_port": 8601,
+      "uuid": "e6028dbc-61f4-468c-8b89-2cac7f4dc2e0",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "tag": "🇭🇺 HU | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "217.13.104.112",
-      "server_port": 3443,
-      "uuid": "928beba1-eef6-478a-b06f-db6bc020e078",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {
