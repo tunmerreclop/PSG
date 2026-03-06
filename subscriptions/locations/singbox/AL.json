@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgU0c=
+//profile-title: base64:UFNHIHwgQUw=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,8 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇬 SG | VLESS | @config_proxy #1",
-        "🇸🇬 SG | VLESS | @config_proxy #2"
+        "🇦🇱 AL | VLESS | @vip_vpn_2022 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇬 SG | VLESS | @config_proxy #1",
-        "🇸🇬 SG | VLESS | @config_proxy #2"
+        "🇦🇱 AL | VLESS | @vip_vpn_2022 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,38 +110,13 @@
       "type": "direct"
     },
     {
-      "tag": "🇸🇬 SG | VLESS | @config_proxy #1",
+      "tag": "🇦🇱 AL | VLESS | @vip_vpn_2022 #1",
       "type": "vless",
-      "server": "165.22.99.110",
-      "server_port": 443,
-      "uuid": "e3713ba4-a8fc-44ec-b401-3b736e67718d",
+      "server": "45.15.170.222",
+      "server_port": 8443,
+      "uuid": "9f9f5d92-c61f-45f2-a017-babd28b91888",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 SG | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "139.162.51.191",
-      "server_port": 443,
-      "uuid": "e3713ba4-a8fc-44ec-b401-3b736e67718d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "flow": "xtls-rprx-vision"
     }
   ],
   "route": {

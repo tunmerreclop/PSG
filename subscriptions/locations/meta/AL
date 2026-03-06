@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇸🇬 SG | VLESS | @config_proxy #1", "server": "165.22.99.110", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "e3713ba4-a8fc-44ec-b401-3b736e67718d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇸🇬 SG | VLESS | @config_proxy #2", "server": "139.162.51.191", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "e3713ba4-a8fc-44ec-b401-3b736e67718d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇱 AL | VLESS | @vip_vpn_2022 #1", "server": "45.15.170.222", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "9f9f5d92-c61f-45f2-a017-babd28b91888", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇸🇬 SG | VLESS | @config_proxy #1'
-      - '🇸🇬 SG | VLESS | @config_proxy #2'
+      - '🇦🇱 AL | VLESS | @vip_vpn_2022 #1'
 
   - name: 🌍 Global Media
     type: select
