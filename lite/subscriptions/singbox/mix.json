@@ -213,7 +213,7 @@
         "🇽🇽 XX | VLESS | @outline_ir #1",
         "🇸🇨 SC | VLESS | @outline_ir #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
-        "🇵🇱 PL | SS | @outlinereleasedkey #1",
+        "🇬🇧 GB | SS | @outlinereleasedkey #1",
         "🇫🇷 FR | TROJAN | @privatevpns #1",
         "🇩🇪 DE | TROJAN | @privatevpns #1",
         "🇽🇽 XX | VLESS | @pro_chaneel #1",
@@ -274,7 +274,7 @@
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
-        "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
+        "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #2",
         "🇽🇽 XX | VLESS | @v2rayprotocol #1",
@@ -300,7 +300,7 @@
         "🇫🇷 FR | VLESS | @vlessconfig #1",
         "🇩🇪 DE | VLESS | @vlessconfig #1",
         "🇬🇧 GB | VLESS | @vmesc #1",
-        "🇩🇪 DE | VLESS | @vmesc #1",
+        "🇽🇽 XX | TROJAN | @vmesc #1",
         "🇽🇽 XX | TROJAN | @vpn_ioss #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
         "🇽🇽 XX | VLESS | @vpn_ocean #1",
@@ -445,7 +445,7 @@
         "🇽🇽 XX | VLESS | @outline_ir #1",
         "🇸🇨 SC | VLESS | @outline_ir #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
-        "🇵🇱 PL | SS | @outlinereleasedkey #1",
+        "🇬🇧 GB | SS | @outlinereleasedkey #1",
         "🇫🇷 FR | TROJAN | @privatevpns #1",
         "🇩🇪 DE | TROJAN | @privatevpns #1",
         "🇽🇽 XX | VLESS | @pro_chaneel #1",
@@ -506,7 +506,7 @@
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
-        "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
+        "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #2",
         "🇽🇽 XX | VLESS | @v2rayprotocol #1",
@@ -532,7 +532,7 @@
         "🇫🇷 FR | VLESS | @vlessconfig #1",
         "🇩🇪 DE | VLESS | @vlessconfig #1",
         "🇬🇧 GB | VLESS | @vmesc #1",
-        "🇩🇪 DE | VLESS | @vmesc #1",
+        "🇽🇽 XX | TROJAN | @vmesc #1",
         "🇽🇽 XX | TROJAN | @vpn_ioss #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
         "🇽🇽 XX | VLESS | @vpn_ocean #1",
@@ -2171,11 +2171,11 @@
       "password": null
     },
     {
-      "tag": "🇵🇱 PL | SS | @outlinereleasedkey #1",
+      "tag": "🇬🇧 GB | SS | @outlinereleasedkey #1",
       "type": "shadowsocks",
-      "server": "217.30.10.18",
-      "server_port": 9011,
-      "method": "YWVzLTI1Ni1jZmI6TTN0MlpFUWNNR1JXQmpSYQ==",
+      "server": "media.mothyleela.cfd",
+      "server_port": 40521,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyV2tSR2g2dEF2OFVtc0hoNGkzRjZ6b3NqMmR6QTZzQ3pYYndxNFRkWHRlenRNZnlBNWFaY0x5NWpZNVo3RlozUVFNY1RWd003VHZpYmR2ellpcmNDN2lEWmFmcDJVNno=",
       "password": null
     },
     {
@@ -2958,7 +2958,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
+      "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #2",
       "type": "vless",
       "server": "test.fast.hosting-ip.com",
       "server_port": 80,
@@ -3339,12 +3339,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @vmesc #1",
-      "type": "vless",
-      "server": "185.254.98.164",
+      "tag": "🇽🇽 XX | TROJAN | @vmesc #1",
+      "type": "trojan",
+      "server": "172.64.152.23",
       "server_port": 443,
-      "uuid": "eb071647-72a6-46be-8e89-ff3d228d52f6",
-      "packet_encoding": "xudp",
+      "password": "humanity",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -3352,11 +3351,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
