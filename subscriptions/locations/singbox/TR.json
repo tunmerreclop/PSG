@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQ08=
+//profile-title: base64:UFNHIHwgVFI=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇴 CO | SS | @netfreedom0 #1"
+        "🇹🇷 TR | VLESS | @config_proxy #1",
+        "🇹🇷 TR | VLESS | @config_proxy #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇴 CO | SS | @netfreedom0 #1"
+        "🇹🇷 TR | VLESS | @config_proxy #1",
+        "🇹🇷 TR | VLESS | @config_proxy #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +112,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇨🇴 CO | SS | @netfreedom0 #1",
-      "type": "shadowsocks",
-      "server": "154.223.16.212",
-      "server_port": 989,
-      "method": "YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==",
-      "password": null
+      "tag": "🇹🇷 TR | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "tr2.vpnjantit.com",
+      "server_port": 10002,
+      "uuid": "77ea8d6c-1a96-11f1-be1f-1744d2a6f511",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "tr2.vpnjantit.com",
+      "server_port": 10004,
+      "uuid": "77ea8d6c-1a96-11f1-be1f-1744d2a6f511",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

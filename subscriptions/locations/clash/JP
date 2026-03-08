@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇱🇻 LV | VLESS | @config_proxy #1", "server": "lv01.abvpn.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "588f094b-431b-422c-b80b-007945037072", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇯🇵 JP | VMESS | @config_proxy #1", "server": "47.245.42.92", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "4f23eb7c-ef2f-43b0-90dd-f2b8a75954a5", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/", "headers": {"Host": "n1753598452.wpg27.xyz"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇱🇻 LV | VLESS | @config_proxy #1'
+      - '🇯🇵 JP | VMESS | @config_proxy #1'
 
   - name: 🌍 Global Media
     type: select
