@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVkc=
+//profile-title: base64:UFNHIHwgSFU=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇻🇬 VG | VLESS | @dailyv2ray #1"
+        "🇭🇺 HU | VLESS | @config_proxy #1",
+        "🇭🇺 HU | VLESS | @config_proxy #2",
+        "🇭🇺 HU | VLESS | @config_proxy #3"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇻🇬 VG | VLESS | @dailyv2ray #1"
+        "🇭🇺 HU | VLESS | @config_proxy #1",
+        "🇭🇺 HU | VLESS | @config_proxy #2",
+        "🇭🇺 HU | VLESS | @config_proxy #3"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +114,31 @@
       "type": "direct"
     },
     {
-      "tag": "🇻🇬 VG | VLESS | @dailyv2ray #1",
+      "tag": "🇭🇺 HU | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "mtn.ircf.space",
-      "server_port": 2096,
-      "uuid": "7f64eeb1-b5f1-40a0-d80e-e6c718f6bd6a",
-      "packet_encoding": "xudp"
+      "server": "217.13.104.112",
+      "server_port": 7443,
+      "uuid": "fe0f8774-4064-4d2c-a523-dcd7bf8809bf",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "tag": "🇭🇺 HU | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "217.13.104.112",
+      "server_port": 5443,
+      "uuid": "fe0f8774-4064-4d2c-a523-dcd7bf8809bf",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "tag": "🇭🇺 HU | VLESS | @config_proxy #3",
+      "type": "vless",
+      "server": "217.13.105.19",
+      "server_port": 5443,
+      "uuid": "928beba1-eef6-478a-b06f-db6bc020e078",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision"
     }
   ],
   "route": {
