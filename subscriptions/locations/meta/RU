@@ -23,9 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇷🇺 RU | VLESS | @config_proxy #1", "server": "51.250.16.92", "port": 8444, "type": "vless", "skip-cert-verify": true, "uuid": "12b11774-b58b-434b-91be-ba876df9ef5d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇷🇺 RU | VLESS | @config_proxy #2", "server": "84.201.134.211", "port": 8442, "type": "vless", "skip-cert-verify": true, "uuid": "3f2b92d7-3358-4a3e-ab95-6083ad7dfecf", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
-  - {"name": "🇷🇺 RU | VLESS | @config_proxy #3", "server": "217.199.253.15", "port": 8454, "type": "vless", "skip-cert-verify": true, "uuid": "13dc0204-e9c3-482f-ac9f-47ade804f584", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
   - {"name": "🇷🇺 RU | VMESS | @prooxyk #1", "server": "77.v2ray1.xyz", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/A2DJOPFT", "headers": {"Host": "77.v2ray1.xyz"}}}
 
 proxy-groups:
@@ -40,9 +37,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇷🇺 RU | VLESS | @config_proxy #1'
-      - '🇷🇺 RU | VLESS | @config_proxy #2'
-      - '🇷🇺 RU | VLESS | @config_proxy #3'
       - '🇷🇺 RU | VMESS | @prooxyk #1'
 
   - name: 🌍 Global Media
