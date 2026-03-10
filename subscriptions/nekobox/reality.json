@@ -80,14 +80,15 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇮🇶 IQ | VLESS | @config_proxy #1",
+        "🇰🇿 KZ | VLESS | @config_proxy #1",
+        "🇺🇸 US | VLESS | @config_proxy #1",
+        "🇪🇪 EE | VLESS | @config_proxy #3",
         "🇸🇮 SI | VLESS | @filterk0sh #1",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @kafing_2 #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
         "🇸🇪 SE | VLESS | @proxyfn #1",
         "🇨🇭 CH | VLESS | @proxyfn #1",
-        "🇮🇷 IR | VLESS | @prrofile_purple #2",
         "🇺🇸 US | VLESS | @prrofile_purple #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇰🇿 KZ | VLESS | @red2ray #1",
@@ -96,6 +97,7 @@
         "🇮🇳 IN | VLESS | @v2raytg #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇪🇸 ES | VLESS | @vpnplusee_free #1",
+        "🇪🇪 EE | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @mpproxy #1",
         "🇫🇷 FR | VLESS | @v2raych #1",
@@ -116,14 +118,15 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇮🇶 IQ | VLESS | @config_proxy #1",
+        "🇰🇿 KZ | VLESS | @config_proxy #1",
+        "🇺🇸 US | VLESS | @config_proxy #1",
+        "🇪🇪 EE | VLESS | @config_proxy #3",
         "🇸🇮 SI | VLESS | @filterk0sh #1",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @kafing_2 #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
         "🇸🇪 SE | VLESS | @proxyfn #1",
         "🇨🇭 CH | VLESS | @proxyfn #1",
-        "🇮🇷 IR | VLESS | @prrofile_purple #2",
         "🇺🇸 US | VLESS | @prrofile_purple #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇰🇿 KZ | VLESS | @red2ray #1",
@@ -132,6 +135,7 @@
         "🇮🇳 IN | VLESS | @v2raytg #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇪🇸 ES | VLESS | @vpnplusee_free #1",
+        "🇪🇪 EE | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @mpproxy #1",
         "🇫🇷 FR | VLESS | @v2raych #1",
@@ -229,12 +233,48 @@
       }
     },
     {
-      "tag": "🇮🇶 IQ | VLESS | @config_proxy #1",
+      "tag": "🇰🇿 KZ | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "81.90.29.39",
-      "server_port": 2443,
-      "uuid": "44dc6ac1-6126-4627-b889-9792a8188012",
-      "packet_encoding": "xudp"
+      "server": "185.98.7.134",
+      "server_port": 443,
+      "uuid": "3f30096f-f421-4608-a2c3-a076b3ee1d95",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "216.144.231.92",
+      "server_port": 8443,
+      "uuid": "a62bcf06-2f45-4d41-a419-0240ec672a0e",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @config_proxy #3",
+      "type": "vless",
+      "server": "93.123.39.211",
+      "server_port": 443,
+      "uuid": "3130fccb-e72e-468d-b2ce-0721bb3058c8",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇸🇮 SI | VLESS | @filterk0sh #1",
@@ -346,28 +386,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @prrofile_purple #2",
-      "type": "vless",
-      "server": "62.60.212.199",
-      "server_port": 443,
-      "uuid": "870f0165-8308-4e53-b81f-8b54eaf03bd2",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
@@ -539,6 +557,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "talinn-news.life",
+      "server_port": 443,
+      "uuid": "3f30096f-f421-4608-a2c3-a076b3ee1d95",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },

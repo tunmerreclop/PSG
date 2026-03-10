@@ -96,6 +96,7 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇸🇨 SC | VLESS | @bored_vpn #1",
+        "🇪🇪 EE | VLESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇽🇽 XX | VLESS | @diamondproxytm #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
@@ -136,7 +137,7 @@
         "🇽🇽 XX | VLESS | @kurd_v2ray #3",
         "🇽🇽 XX | VLESS | @kurdvpn1 #1",
         "🇽🇽 XX | VLESS | @kurdvpn1 #2",
-        "🇺🇸 US | VLESS | @lax_vpn #1",
+        "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇽🇽 XX | VLESS | @lemonshopvpn #1",
         "🇽🇽 XX | VLESS | @lockey_vpn #1",
         "🇽🇽 XX | VLESS | @lockey_vpn #2",
@@ -164,6 +165,7 @@
         "🇽🇽 XX | VLESS | @proxy48 #1",
         "🇽🇽 XX | VLESS | @proxy48 #2",
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
+        "🇧🇪 BE | VLESS | @prrofile_purple #2",
         "🇺🇸 US | VLESS | @public504 #1",
         "🇽🇽 XX | VLESS | @red2ray #2",
         "🇽🇽 XX | VLESS | @red2ray #3",
@@ -240,6 +242,7 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇸🇨 SC | VLESS | @bored_vpn #1",
+        "🇪🇪 EE | VLESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇽🇽 XX | VLESS | @diamondproxytm #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
@@ -280,7 +283,7 @@
         "🇽🇽 XX | VLESS | @kurd_v2ray #3",
         "🇽🇽 XX | VLESS | @kurdvpn1 #1",
         "🇽🇽 XX | VLESS | @kurdvpn1 #2",
-        "🇺🇸 US | VLESS | @lax_vpn #1",
+        "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇽🇽 XX | VLESS | @lemonshopvpn #1",
         "🇽🇽 XX | VLESS | @lockey_vpn #1",
         "🇽🇽 XX | VLESS | @lockey_vpn #2",
@@ -308,6 +311,7 @@
         "🇽🇽 XX | VLESS | @proxy48 #1",
         "🇽🇽 XX | VLESS | @proxy48 #2",
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
+        "🇧🇪 BE | VLESS | @prrofile_purple #2",
         "🇺🇸 US | VLESS | @public504 #1",
         "🇽🇽 XX | VLESS | @red2ray #2",
         "🇽🇽 XX | VLESS | @red2ray #3",
@@ -476,6 +480,23 @@
       "server_port": 2053,
       "uuid": "ee9b0614-50ec-41b6-951b-e1d5d755fa4b",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "talinn-news.life",
+      "server_port": 443,
+      "uuid": "3f30096f-f421-4608-a2c3-a076b3ee1d95",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @deli_servers #1",
@@ -1005,7 +1026,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @lax_vpn #1",
+      "tag": "🇮🇷 IR | VLESS | @lax_vpn #1",
       "type": "vless",
       "server": "s19.speedyconnect.pro",
       "server_port": 443,
@@ -1295,6 +1316,23 @@
       "server_port": 8880,
       "uuid": "312b0699-a47a-496e-97b6-cb3af1654d35",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇧🇪 BE | VLESS | @prrofile_purple #2",
+      "type": "vless",
+      "server": "fs.cedriklorenz.ir",
+      "server_port": 443,
+      "uuid": "6ff581e0-4622-4af2-9b57-37dbcd6dee1e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @public504 #1",

@@ -79,6 +79,7 @@
         "direct",
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
+        "🇺🇸 US | VMESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
@@ -108,7 +109,6 @@
         "🇺🇸 US | SS | @key_outline #4",
         "🇺🇸 US | SS | @key_outline #5",
         "🇺🇸 US | SS | @key_outline #6",
-        "🇺🇸 US | VLESS | @lax_vpn #1",
         "🇺🇸 US | VMESS | @manstervpn #1",
         "🇺🇸 US | VLESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
@@ -148,6 +148,7 @@
       "outbounds": [
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
+        "🇺🇸 US | VMESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
@@ -177,7 +178,6 @@
         "🇺🇸 US | SS | @key_outline #4",
         "🇺🇸 US | SS | @key_outline #5",
         "🇺🇸 US | SS | @key_outline #6",
-        "🇺🇸 US | VLESS | @lax_vpn #1",
         "🇺🇸 US | VMESS | @manstervpn #1",
         "🇺🇸 US | VLESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
@@ -255,21 +255,22 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "snapp.ir.bmi.ir.mobato-mobile.com",
+      "server_port": 80,
+      "uuid": "820a9e42-e18d-43e4-859f-d1c2f6b8600a",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "199.107.164.217",
-      "server_port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "server": "216.144.231.92",
+      "server_port": 8443,
+      "uuid": "a62bcf06-2f45-4d41-a419-0240ec672a0e",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "flow": "xtls-rprx-vision"
     },
     {
       "tag": "🇺🇸 US | VLESS | @deli_servers #1",
@@ -545,21 +546,13 @@
     {
       "tag": "🇺🇸 US | SS | @key_outline #1",
       "type": "shadowsocks",
-      "server": "216.105.168.18",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLRVdrMzJ2c09IMlI2Qkd5U3pmcVlJ",
-      "password": null
-    },
-    {
-      "tag": "🇺🇸 US | SS | @key_outline #2",
-      "type": "shadowsocks",
       "server": "104.192.227.162",
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5enU0dDFCbXhva1NHRlAxTHBubkdl",
       "password": null
     },
     {
-      "tag": "🇺🇸 US | SS | @key_outline #3",
+      "tag": "🇺🇸 US | SS | @key_outline #2",
       "type": "shadowsocks",
       "server": "216.105.168.18",
       "server_port": 443,
@@ -567,7 +560,7 @@
       "password": null
     },
     {
-      "tag": "🇺🇸 US | SS | @key_outline #4",
+      "tag": "🇺🇸 US | SS | @key_outline #3",
       "type": "shadowsocks",
       "server": "104.192.227.162",
       "server_port": 443,
@@ -575,15 +568,7 @@
       "password": null
     },
     {
-      "tag": "🇺🇸 US | SS | @key_outline #5",
-      "type": "shadowsocks",
-      "server": "216.105.168.18",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpIVVJLZllvMzdZS1QwS3J3elFUVDNa",
-      "password": null
-    },
-    {
-      "tag": "🇺🇸 US | SS | @key_outline #6",
+      "tag": "🇺🇸 US | SS | @key_outline #4",
       "type": "shadowsocks",
       "server": "104.192.227.162",
       "server_port": 443,
@@ -591,21 +576,20 @@
       "password": null
     },
     {
-      "tag": "🇺🇸 US | VLESS | @lax_vpn #1",
-      "type": "vless",
-      "server": "s19.speedyconnect.pro",
+      "tag": "🇺🇸 US | SS | @key_outline #5",
+      "type": "shadowsocks",
+      "server": "216.105.168.18",
       "server_port": 443,
-      "uuid": "97dce074-7db1-4d59-99ca-0ef8311e2425",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp2WVF6dnpYZE5pU1p5U2pYWW12OGhE",
+      "password": null
+    },
+    {
+      "tag": "🇺🇸 US | SS | @key_outline #6",
+      "type": "shadowsocks",
+      "server": "104.192.227.162",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPT1cyR3NydzVqODhXNkZBTGhVNU9i",
+      "password": null
     },
     {
       "tag": "🇺🇸 US | VMESS | @manstervpn #1",
