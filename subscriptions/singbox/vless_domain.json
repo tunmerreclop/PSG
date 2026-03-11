@@ -96,10 +96,6 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇸🇨 SC | VLESS | @bored_vpn #1",
-        "🇫🇮 FI | VLESS | @config_proxy #1",
-        "🇺🇸 US | VLESS | @config_proxy #1",
-        "🇱🇦 LA | VLESS | @config_proxy #1",
-        "🇦🇹 AT | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇽🇽 XX | VLESS | @diamondproxytm #1",
@@ -117,7 +113,7 @@
         "🇺🇸 US | VLESS | @frev2rayng #3",
         "🇽🇽 XX | VLESS | @garnet_free #2",
         "🇽🇽 XX | VLESS | @garnet_free #3",
-        "🇺🇸 US | VLESS | @ghalagyann #1",
+        "🇲🇩 MD | VLESS | @ghalagyann #1",
         "🇽🇽 XX | VLESS | @goldenshiinevpn #3",
         "🇽🇽 XX | VLESS | @iran_access #6",
         "🇽🇽 XX | VLESS | @iranproxypro #1",
@@ -169,7 +165,7 @@
         "🇽🇽 XX | VLESS | @proxy48 #1",
         "🇽🇽 XX | VLESS | @proxy48 #2",
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
-        "🇳🇱 NL | VLESS | @prrofile_purple #1",
+        "🇧🇪 BE | VLESS | @prrofile_purple #2",
         "🇹🇷 TR | VLESS | @prrofile_purple #1",
         "🇪🇪 EE | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @public504 #1",
@@ -250,10 +246,6 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇸🇨 SC | VLESS | @bored_vpn #1",
-        "🇫🇮 FI | VLESS | @config_proxy #1",
-        "🇺🇸 US | VLESS | @config_proxy #1",
-        "🇱🇦 LA | VLESS | @config_proxy #1",
-        "🇦🇹 AT | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇽🇽 XX | VLESS | @diamondproxytm #1",
@@ -271,7 +263,7 @@
         "🇺🇸 US | VLESS | @frev2rayng #3",
         "🇽🇽 XX | VLESS | @garnet_free #2",
         "🇽🇽 XX | VLESS | @garnet_free #3",
-        "🇺🇸 US | VLESS | @ghalagyann #1",
+        "🇲🇩 MD | VLESS | @ghalagyann #1",
         "🇽🇽 XX | VLESS | @goldenshiinevpn #3",
         "🇽🇽 XX | VLESS | @iran_access #6",
         "🇽🇽 XX | VLESS | @iranproxypro #1",
@@ -323,7 +315,7 @@
         "🇽🇽 XX | VLESS | @proxy48 #1",
         "🇽🇽 XX | VLESS | @proxy48 #2",
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
-        "🇳🇱 NL | VLESS | @prrofile_purple #1",
+        "🇧🇪 BE | VLESS | @prrofile_purple #2",
         "🇹🇷 TR | VLESS | @prrofile_purple #1",
         "🇪🇪 EE | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @public504 #1",
@@ -496,65 +488,6 @@
       "server_port": 2053,
       "uuid": "ee9b0614-50ec-41b6-951b-e1d5d755fa4b",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "finland.mobileemdad.top",
-      "server_port": 42542,
-      "uuid": "537e9adf-03f7-4187-b749-3f2742dcd0b7",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "lvcdn1.suio.me",
-      "server_port": 443,
-      "uuid": "6ca2c654-53b3-4ac1-a2ef-c4b4ee88727a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇱🇦 LA | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "lv.chillplex.top",
-      "server_port": 10443,
-      "uuid": "426fb7a0-3b7a-4aa5-870e-f61190ad2a15",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "grpc",
-        "service_name": ""
-      }
-    },
-    {
-      "tag": "🇦🇹 AT | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "node1.telegavpn.org",
-      "server_port": 443,
-      "uuid": "27e0d8ba-28e0-4fbd-8bfc-3ef49d6333ba",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @configasli #1",
@@ -751,7 +684,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @ghalagyann #1",
+      "tag": "🇲🇩 MD | VLESS | @ghalagyann #1",
       "type": "vless",
       "server": "kzcdn1.suio.me",
       "server_port": 443,
@@ -1385,7 +1318,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @prrofile_purple #1",
+      "tag": "🇧🇪 BE | VLESS | @prrofile_purple #2",
       "type": "vless",
       "server": "fs.cedriklorenz.ir",
       "server_port": 443,
