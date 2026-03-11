@@ -80,7 +80,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇺🇸 US | VMESS | @config_proxy #1",
+        "🇹🇼 TW | VMESS | @config_proxy #1",
+        "🇽🇽 XX | VMESS | @config_proxy #1",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
@@ -109,7 +110,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇺🇸 US | VMESS | @config_proxy #1",
+        "🇹🇼 TW | VMESS | @config_proxy #1",
+        "🇽🇽 XX | VMESS | @config_proxy #1",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
@@ -215,13 +217,38 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VMESS | @config_proxy #1",
+      "tag": "🇹🇼 TW | VMESS | @config_proxy #1",
       "type": "vmess",
-      "server": "snapp.ir.bmi.ir.mobato-mobile.com",
-      "server_port": 80,
-      "uuid": "820a9e42-e18d-43e4-859f-d1c2f6b8600a",
+      "server": "sd78sf2kdpx5s.e7mbqhx.com",
+      "server_port": 42102,
+      "uuid": "468adffb-301b-3df5-8a12-69dbb4ec750e",
       "security": "auto",
       "alter_id": 0
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "cxsfvn.uhomdex.shop",
+      "server_port": 443,
+      "uuid": "bb6e260e-b80d-4365-b252-9fbe466f1f34",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "cxsfvn.uhomdex.shop",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "cxsfvn.uhomdex.shop"
+        }
+      }
     },
     {
       "tag": "🇦🇺 AU | VMESS | @dailyv2ray #1",
