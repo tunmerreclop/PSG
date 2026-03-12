@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇧🇪 BE | VLESS | @prrofile_purple #1", "server": "151.101.10.79", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "6ff581e0-4622-4af2-9b57-37dbcd6dee1e", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇧🇪 BE | VLESS | @prrofile_purple #2", "server": "fs.cedriklorenz.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "6ff581e0-4622-4af2-9b57-37dbcd6dee1e", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇯🇵 JP | VLESS | @config_proxy #1", "server": "168.138.46.67", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇧🇪 BE | VLESS | @prrofile_purple #1'
-      - '🇧🇪 BE | VLESS | @prrofile_purple #2'
+      - '🇯🇵 JP | VLESS | @config_proxy #1'
 
   - name: 🌍 Global Media
     type: select
