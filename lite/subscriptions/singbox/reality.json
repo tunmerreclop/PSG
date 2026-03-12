@@ -93,7 +93,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @mpproxy #1",
         "🇫🇷 FR | VLESS | @v2raych #1",
@@ -105,6 +104,7 @@
         "🇩🇪 DE | VLESS | @prrofile_purple #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
+        "🇸🇪 SE | VLESS | @v2ray_youtube #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1"
       ],
       "tag": "proxy",
@@ -116,7 +116,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @mpproxy #1",
         "🇫🇷 FR | VLESS | @v2raych #1",
@@ -128,6 +127,7 @@
         "🇩🇪 DE | VLESS | @prrofile_purple #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
+        "🇸🇪 SE | VLESS | @v2ray_youtube #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1"
       ],
       "tag": "auto",
@@ -210,15 +210,6 @@
           "Host": ""
         }
       }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @configasli #1",
-      "type": "vless",
-      "server": "s1.aparat-movies-download.ir",
-      "server_port": 4450,
-      "uuid": "a19f4213-fcb8-4384-9c85-cb51cae8ab8b",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
     },
     {
       "tag": "🇩🇪 DE | VLESS | @filterk0sh #1",
@@ -449,6 +440,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @v2ray_youtube #1",
+      "type": "vless",
+      "server": "78.40.116.242",
+      "server_port": 443,
+      "uuid": "256c5f48-4908-4255-83d1-c86cb58f22b4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
