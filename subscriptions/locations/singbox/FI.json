@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | SS | @prrofile_purple #1",
+        "🇫🇮 FI | VLESS | @config_proxy #1",
         "🇫🇮 FI | VLESS | @vip_vpn_2022 #1",
         "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
@@ -100,7 +100,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | SS | @prrofile_purple #1",
+        "🇫🇮 FI | VLESS | @config_proxy #1",
         "🇫🇮 FI | VLESS | @vip_vpn_2022 #1",
         "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
@@ -114,12 +114,21 @@
       "type": "direct"
     },
     {
-      "tag": "🇫🇮 FI | SS | @prrofile_purple #1",
-      "type": "shadowsocks",
-      "server": "95.216.238.249",
-      "server_port": 37337,
-      "method": "MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206Ly9MeURZbTh2akFFcmcxcE1SWldXcXVSODdpekpTRGxoaGNtRUtjTHpZbz06d3hhMlBLYkYwLzFVclJpQm9lV056YUxWRnEzNjZIRzc1SVlTK0ZqVTdPYz0=",
-      "password": null
+      "tag": "🇫🇮 FI | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "62.60.237.240",
+      "server_port": 443,
+      "uuid": "d4de1f64-bf3c-4d97-9663-0091f8c07359",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇫🇮 FI | VLESS | @vip_vpn_2022 #1",

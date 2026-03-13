@@ -80,7 +80,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇺🇸 US | VMESS | @config_proxy #1",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
@@ -98,16 +97,15 @@
         "🇺🇸 US | VMESS | @prrofile_purple #2",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
+        "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2",
-        "🇺🇸 US | VMESS | @config_proxy #2",
-        "🇱🇺 LU | VMESS | @config_proxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
-        "🇫🇷 FR | VMESS | @v2raytg #1"
+        "🇫🇷 FR | VMESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -118,7 +116,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇺🇸 US | VMESS | @config_proxy #1",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
@@ -136,16 +133,15 @@
         "🇺🇸 US | VMESS | @prrofile_purple #2",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
+        "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2",
-        "🇺🇸 US | VMESS | @config_proxy #2",
-        "🇱🇺 LU | VMESS | @config_proxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
-        "🇫🇷 FR | VMESS | @v2raytg #1"
+        "🇫🇷 FR | VMESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -229,31 +225,6 @@
         "path": "",
         "headers": {
           "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "502.outline-vpn.cloud",
-      "server_port": 443,
-      "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "glweidf.sbs",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/linkws",
-        "headers": {
-          "Host": "glweidf.sbs"
         }
       }
     },
@@ -626,6 +597,22 @@
       }
     },
     {
+      "tag": "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "188.114.96.145",
+      "server_port": 80,
+      "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1",
+        "headers": {
+          "Host": "tr1-smart.adelping.com"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @vpngate_config #1",
       "type": "vmess",
       "server": "104.18.212.12",
@@ -672,31 +659,6 @@
         "path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm",
         "headers": {
           "Host": "cold-dawn-9246.fly.dev"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VMESS | @config_proxy #2",
-      "type": "vmess",
-      "server": "107.175.134.148",
-      "server_port": 10414,
-      "uuid": "f91c1cc2-05fe-4efd-ba09-86cb6bec19e3",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "tag": "🇱🇺 LU | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "107.189.7.176",
-      "server_port": 34972,
-      "uuid": "4814b7d2-b478-4482-a1ab-6cea34b6581b",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": ""
         }
       }
     },
@@ -800,7 +762,7 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | VMESS | @v2raytg #1",
+      "tag": "🇫🇷 FR | VMESS | @v2ray_free_conf #1",
       "type": "vmess",
       "server": "162.19.248.238",
       "server_port": 550,
