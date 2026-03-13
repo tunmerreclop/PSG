@@ -80,6 +80,9 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
+        "🇽🇽 XX | VLESS | @config_proxy #1",
+        "🇽🇽 XX | VLESS | @config_proxy #2",
+        "🇽🇽 XX | VLESS | @config_proxy #3",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -275,6 +278,7 @@
         "🇽🇽 XX | VLESS | @vmesskhodam #1",
         "🇽🇽 XX | TROJAN | @vpn_ioss #1",
         "🇽🇽 XX | TROJAN | @vpn_ioss #2",
+        "🇽🇽 XX | VLESS | @vpn_ioss #1",
         "🇽🇽 XX | VLESS | @vpn_ocean #1",
         "🇽🇽 XX | VLESS | @vpnowl #1",
         "🇽🇽 XX | VLESS | @vpnowl #2",
@@ -298,6 +302,9 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
+        "🇽🇽 XX | VLESS | @config_proxy #1",
+        "🇽🇽 XX | VLESS | @config_proxy #2",
+        "🇽🇽 XX | VLESS | @config_proxy #3",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -493,6 +500,7 @@
         "🇽🇽 XX | VLESS | @vmesskhodam #1",
         "🇽🇽 XX | TROJAN | @vpn_ioss #1",
         "🇽🇽 XX | TROJAN | @vpn_ioss #2",
+        "🇽🇽 XX | VLESS | @vpn_ioss #1",
         "🇽🇽 XX | VLESS | @vpn_ocean #1",
         "🇽🇽 XX | VLESS | @vpnowl #1",
         "🇽🇽 XX | VLESS | @vpnowl #2",
@@ -559,6 +567,46 @@
           "Host": ""
         }
       }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "104.16.71.33",
+      "server_port": 443,
+      "uuid": "26524cce-d514-4014-a426-365fb266a14d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "v2.dabache.top",
+      "server_port": 2096,
+      "uuid": "3f0f36f5-f091-45c5-88c9-4bcc545b922c",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @config_proxy #3",
+      "type": "vless",
+      "server": "104.21.60.175",
+      "server_port": 80,
+      "uuid": "8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @customizev2ray #1",
@@ -2940,6 +2988,23 @@
       "server": "172.64.152.23",
       "server_port": 443,
       "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "freedom.gov",
+      "server_port": 443,
+      "uuid": "98aec3c3-d957-4363-9933-018e533c7c06",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
