@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇪🇸 ES | VLESS | @config_proxy #1",
         "🇪🇸 ES | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
@@ -85,6 +86,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇪🇸 ES | VLESS | @config_proxy #1",
         "🇪🇸 ES | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
@@ -99,6 +101,28 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇪🇸 ES | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "esp.darknet.run",
+      "server_port": 443,
+      "uuid": "c0907fb2-4e45-4219-b713-67a6a6687371",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇪🇸 ES | VLESS | @vpnplusee_free #1",
