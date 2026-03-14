@@ -93,8 +93,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇰🇿 KZ | VLESS | @config_proxy #1",
+        "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
+        "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇮🇷 IR | VLESS | @prrofile_purple #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
@@ -112,8 +113,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇰🇿 KZ | VLESS | @config_proxy #1",
+        "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
+        "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇮🇷 IR | VLESS | @prrofile_purple #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
@@ -204,11 +206,20 @@
       }
     },
     {
-      "tag": "🇰🇿 KZ | VLESS | @config_proxy #1",
+      "tag": "🇩🇪 DE | VLESS | @configasli #1",
       "type": "vless",
-      "server": "kazachok.ookcdn.ru",
+      "server": "s1.aparat-movies-download.ir",
+      "server_port": 4450,
+      "uuid": "a19f4213-fcb8-4384-9c85-cb51cae8ab8b",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @filterk0sh #1",
+      "type": "vless",
+      "server": "eng14.netliberated.org",
       "server_port": 443,
-      "uuid": "69addc17-13de-4493-a7c3-876090ee5af5",
+      "uuid": "0bb6dff2-0029-4b81-8c81-4fc70fae1ed9",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -217,19 +228,20 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": ""
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @filterk0sh #1",
+      "tag": "🇩🇪 DE | VLESS | @megavpn_link #1",
       "type": "vless",
-      "server": "eng14.netliberated.org",
-      "server_port": 443,
-      "uuid": "0bb6dff2-0029-4b81-8c81-4fc70fae1ed9",
+      "server": "all32-vip.f-sub.com",
+      "server_port": 2434,
+      "uuid": "84e919b0-2a5d-4fad-8614-df01dd210b8e",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
