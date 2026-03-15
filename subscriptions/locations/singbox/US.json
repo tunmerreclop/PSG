@@ -92,6 +92,7 @@
         "direct",
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
+        "🇺🇸 US | VLESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
@@ -158,6 +159,7 @@
       "outbounds": [
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
+        "🇺🇸 US | VLESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
@@ -254,6 +256,23 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "66.228.39.72",
+      "server_port": 443,
+      "uuid": "e032123c-e7ef-4bd5-aeb2-7db40cac27c3",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -522,21 +541,13 @@
     {
       "tag": "🇺🇸 US | SS | @key_outline #1",
       "type": "shadowsocks",
-      "server": "216.105.168.18",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpIcURkRUtlMUNiY0hZSXRMV1R0bzd0",
-      "password": null
-    },
-    {
-      "tag": "🇺🇸 US | SS | @key_outline #2",
-      "type": "shadowsocks",
       "server": "104.192.227.162",
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpFMlg5VmtpOGJGTHQ1enJKRDJjVENO",
       "password": null
     },
     {
-      "tag": "🇺🇸 US | SS | @key_outline #3",
+      "tag": "🇺🇸 US | SS | @key_outline #2",
       "type": "shadowsocks",
       "server": "216.105.168.18",
       "server_port": 443,
@@ -544,11 +555,19 @@
       "password": null
     },
     {
-      "tag": "🇺🇸 US | SS | @key_outline #4",
+      "tag": "🇺🇸 US | SS | @key_outline #3",
       "type": "shadowsocks",
       "server": "104.192.227.162",
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3MkVUcnN3eDhZYXVqakVUQkluMlJ1",
+      "password": null
+    },
+    {
+      "tag": "🇺🇸 US | SS | @key_outline #4",
+      "type": "shadowsocks",
+      "server": "216.105.168.18",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiS3lGclp3bUxhV0NNV20wcWhLZHNG",
       "password": null
     },
     {

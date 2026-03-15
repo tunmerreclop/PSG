@@ -78,9 +78,6 @@
         "auto",
         "direct",
         "🇷🇺 RU | VLESS | @config_proxy #1",
-        "🇷🇺 RU | VLESS | @config_proxy #2",
-        "🇷🇺 RU | VLESS | @config_proxy #3",
-        "🇷🇺 RU | VLESS | @config_proxy #4",
         "🇷🇺 RU | VMESS | @prooxyk #1"
       ],
       "tag": "proxy",
@@ -90,9 +87,6 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇺 RU | VLESS | @config_proxy #1",
-        "🇷🇺 RU | VLESS | @config_proxy #2",
-        "🇷🇺 RU | VLESS | @config_proxy #3",
-        "🇷🇺 RU | VLESS | @config_proxy #4",
         "🇷🇺 RU | VMESS | @prooxyk #1"
       ],
       "tag": "auto",
@@ -111,64 +105,11 @@
     {
       "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "146.185.241.202",
-      "server_port": 5443,
-      "uuid": "20acd005-8b8d-406d-8419-66c8fb001d2a",
+      "server": "51.250.75.192",
+      "server_port": 7445,
+      "uuid": "7f58e11f-bddc-4848-80a7-d94b18ce0c17",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "146.185.240.139",
-      "server_port": 443,
-      "uuid": "47d149e3-8ba6-01f4-b91f-3dd9771fa7cc",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy #3",
-      "type": "vless",
-      "server": "5.188.141.138",
-      "server_port": 443,
-      "uuid": "961011c9-1244-414e-ba25-75479b35b553",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy #4",
-      "type": "vless",
-      "server": "146.185.240.139",
-      "server_port": 443,
-      "uuid": "47d149e3-8ba6-03e8-b91f-3dd9771fa7cc",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇷🇺 RU | VMESS | @prooxyk #1",
