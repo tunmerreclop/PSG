@@ -80,8 +80,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇽🇽 XX | VMESS | @config_proxy #1",
-        "🇽🇽 XX | VMESS | @config_proxy #2",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
@@ -94,6 +92,7 @@
         "🇽🇽 XX | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
+        "🇭🇰 HK | VMESS | @mtproxy22_v2ray #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
@@ -116,8 +115,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇽🇽 XX | VMESS | @config_proxy #1",
-        "🇽🇽 XX | VMESS | @config_proxy #2",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
@@ -130,6 +127,7 @@
         "🇽🇽 XX | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
+        "🇭🇰 HK | VMESS | @mtproxy22_v2ray #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
@@ -225,56 +223,6 @@
         "path": "",
         "headers": {
           "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "zzrt.uhomdex.shop",
-      "server_port": 8443,
-      "uuid": "edb3e961-0b28-4e52-8446-399f3ef03c08",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "zzrt.uhomdex.shop",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "zzrt.uhomdex.shop"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @config_proxy #2",
-      "type": "vmess",
-      "server": "zdqbk.cmvvb.online",
-      "server_port": 8443,
-      "uuid": "ef46b74c-b3ef-4633-9818-0af6226c4060",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "zdqbk.cmvvb.online",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "zdqbk.cmvvb.online"
         }
       }
     },
@@ -534,6 +482,31 @@
         "path": "/linkws",
         "headers": {
           "Host": "glweidf.sbs"
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 HK | VMESS | @mtproxy22_v2ray #1",
+      "type": "vmess",
+      "server": "n1761296877.lie5d.cyou",
+      "server_port": 443,
+      "uuid": "1ebfdffa-1a37-4336-8494-f85b36cdf087",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "n1761296877.lie5d.cyou",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "n1761296877.lie5d.cyou"
         }
       }
     },

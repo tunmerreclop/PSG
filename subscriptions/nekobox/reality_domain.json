@@ -80,7 +80,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇨🇾 CY | VLESS | @config_proxy #1",
+        "🇩🇪 DE | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇩🇪 DE | VLESS | @megavpn_link #1",
@@ -101,7 +101,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇨🇾 CY | VLESS | @config_proxy #1",
+        "🇩🇪 DE | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇩🇪 DE | VLESS | @megavpn_link #1",
@@ -199,12 +199,22 @@
       }
     },
     {
-      "tag": "🇨🇾 CY | VLESS | @config_proxy #1",
+      "tag": "🇩🇪 DE | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "hong-kong.sbrf-cdn342.ru",
-      "server_port": 4241,
-      "uuid": "15b3ebe9-9b85-4274-b79a-4e4d39dec9c9",
-      "packet_encoding": "xudp"
+      "server": "der.jojack.ru",
+      "server_port": 443,
+      "uuid": "c67f81df-34e8-4cb3-ab43-599585775fa9",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @configasli #1",

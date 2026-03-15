@@ -95,14 +95,14 @@
         "KingRezaPahlavi",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
-        "🇨🇾 CY | VLESS | @config_proxy #1",
+        "🇩🇪 DE | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇽🇽 XX | VLESS | @dailyv2ray #2",
         "🇻🇬 VG | VLESS | @dailyv2ray #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇽🇽 XX | VLESS | @diamondproxytm #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
-        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇽🇽 XX | VLESS | @f_nirevil #1",
         "🇽🇽 XX | VLESS | @f_nirevil #2",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
@@ -188,6 +188,7 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #3",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #4",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
+        "🇮🇷 IR | VLESS | @v2ray_vmes #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayng3 #1",
@@ -238,14 +239,14 @@
         "KingRezaPahlavi",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
-        "🇨🇾 CY | VLESS | @config_proxy #1",
+        "🇩🇪 DE | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇽🇽 XX | VLESS | @dailyv2ray #2",
         "🇻🇬 VG | VLESS | @dailyv2ray #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇽🇽 XX | VLESS | @diamondproxytm #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
-        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇽🇽 XX | VLESS | @f_nirevil #1",
         "🇽🇽 XX | VLESS | @f_nirevil #2",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
@@ -331,6 +332,7 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #3",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #4",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
+        "🇮🇷 IR | VLESS | @v2ray_vmes #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayng3 #1",
@@ -468,12 +470,22 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇨🇾 CY | VLESS | @config_proxy #1",
+      "tag": "🇩🇪 DE | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "hong-kong.sbrf-cdn342.ru",
-      "server_port": 4241,
-      "uuid": "15b3ebe9-9b85-4274-b79a-4e4d39dec9c9",
-      "packet_encoding": "xudp"
+      "server": "der.jojack.ru",
+      "server_port": 443,
+      "uuid": "c67f81df-34e8-4cb3-ab43-599585775fa9",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @configasli #1",
@@ -525,7 +537,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+      "tag": "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
       "type": "vless",
       "server": "germany.fast.hosting-ip.com",
       "server_port": 80,
@@ -1550,6 +1562,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_vmes #1",
+      "type": "vless",
+      "server": "nett112.servernettt.shop",
+      "server_port": 58372,
+      "uuid": "6671da8e-95b4-4904-85de-ede5bf830f5e",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2raybe #1",
