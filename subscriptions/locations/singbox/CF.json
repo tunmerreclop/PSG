@@ -93,7 +93,10 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
+        "🇽🇽 XX | VLESS | @config_proxy #1",
         "🇽🇽 XX | VMESS | @config_proxy #1",
+        "🇽🇽 XX | VLESS | @config_proxy #2",
+        "🇽🇽 XX | VLESS | @config_proxy #3",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -318,7 +321,10 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
+        "🇽🇽 XX | VLESS | @config_proxy #1",
         "🇽🇽 XX | VMESS | @config_proxy #1",
+        "🇽🇽 XX | VLESS | @config_proxy #2",
+        "🇽🇽 XX | VLESS | @config_proxy #3",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -584,29 +590,62 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "hwtqcp.uhomdex.shop",
-      "server_port": 8443,
-      "uuid": "b6182347-f6df-47e3-9ac8-d40a792f319e",
-      "security": "auto",
-      "alter_id": 0,
+      "tag": "🇽🇽 XX | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "nhj.1jj.ccwu.cc",
+      "server_port": 443,
+      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "hwtqcp.uhomdex.shop",
+        "server_name": "",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         }
-      },
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "gbnh.0nn.ccwu.cc",
+      "server_port": 80,
+      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
+      "security": "auto",
+      "alter_id": 0,
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/iSRWSKUJKNuXvVzsYHmsMrnO",
         "headers": {
-          "Host": "hwtqcp.uhomdex.shop"
+          "Host": null
         }
       }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "poe.com",
+      "server_port": 443,
+      "uuid": "081efe27-f6b8-4f60-aedb-3c9effe9c67d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @config_proxy #3",
+      "type": "vless",
+      "server": "172.64.155.209",
+      "server_port": 2052,
+      "uuid": "12d75b7d-8fdf-4785-8d62-d836854e7e63",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @customizev2ray #1",
