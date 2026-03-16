@@ -93,7 +93,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇸🇪 SE | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @config_proxy #1",
         "🇸🇮 SI | VLESS | @filterk0sh #1",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
@@ -119,7 +118,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇸🇪 SE | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @config_proxy #1",
         "🇸🇮 SI | VLESS | @filterk0sh #1",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
@@ -218,20 +216,26 @@
       }
     },
     {
-      "tag": "🇸🇪 SE | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "62.182.195.42",
-      "server_port": 2012,
-      "uuid": "a1f1933f-6152-4bf4-8cb1-742cade818c8",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇩🇪 DE | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "144.31.217.93",
-      "server_port": 10121,
-      "uuid": "d1209ffb-c159-48d5-b40d-542ce11fc768",
-      "packet_encoding": "xudp"
+      "server": "144.31.12.171",
+      "server_port": 443,
+      "uuid": "471cbb0c-89a7-4e4f-a34f-bf0ac3eb75ea",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇸🇮 SI | VLESS | @filterk0sh #1",
