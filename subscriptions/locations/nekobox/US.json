@@ -79,9 +79,10 @@
         "direct",
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
-        "🇺🇸 US | VLESS | @config_proxy #1",
+        "🇺🇸 US | VMESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
+        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇺🇸 US | SS | @free4allvpn #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
@@ -118,6 +119,7 @@
         "🇺🇸 US | VLESS | @nofiltering2 #1",
         "🇺🇸 US | VLESS | @nofiltering2 #2",
         "🇺🇸 US | SS | @proxy_confiingir #1",
+        "🇺🇸 US | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @public504 #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇺🇸 US | VLESS | @rez1vpn #1",
@@ -146,9 +148,10 @@
       "outbounds": [
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
-        "🇺🇸 US | VLESS | @config_proxy #1",
+        "🇺🇸 US | VMESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
+        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇺🇸 US | SS | @free4allvpn #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
@@ -185,6 +188,7 @@
         "🇺🇸 US | VLESS | @nofiltering2 #1",
         "🇺🇸 US | VLESS | @nofiltering2 #2",
         "🇺🇸 US | SS | @proxy_confiingir #1",
+        "🇺🇸 US | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @public504 #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇺🇸 US | VLESS | @rez1vpn #1",
@@ -251,21 +255,13 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "144.31.242.14",
-      "server_port": 443,
-      "uuid": "b73855fb-2ec9-4039-935a-a206dda339f8",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "tag": "🇺🇸 US | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "cn02.365cloud5878.com",
+      "server_port": 6033,
+      "uuid": "9f1ecfca-13a9-488d-ac84-aaeb73a8d574",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇺🇸 US | VLESS | @deli_servers #1",
@@ -281,6 +277,14 @@
       "server": "clfconnect.pishipishi.pro",
       "server_port": 8880,
       "uuid": "vpn_connects",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+      "type": "vless",
+      "server": "germany.fast.hosting-ip.com",
+      "server_port": 80,
+      "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
       "packet_encoding": "xudp"
     },
     {
@@ -708,6 +712,23 @@
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj",
       "password": null
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "fastly3.hamrahflow.ir",
+      "server_port": 443,
+      "uuid": "be2557f7-a0df-4393-b71b-28013847059f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @public504 #1",

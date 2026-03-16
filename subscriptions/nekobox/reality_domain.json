@@ -80,10 +80,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇳🇱 NL | VLESS | @config_proxy #1",
+        "🇷🇺 RU | VLESS | @config_proxy #1",
+        "🇵🇱 PL | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @prrofile_purple #1",
+        "🇳🇴 NO | VLESS | @prrofile_purple #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #2",
@@ -100,10 +102,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇳🇱 NL | VLESS | @config_proxy #1",
+        "🇷🇺 RU | VLESS | @config_proxy #1",
+        "🇵🇱 PL | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @prrofile_purple #1",
+        "🇳🇴 NO | VLESS | @prrofile_purple #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #2",
@@ -197,11 +201,33 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @config_proxy #1",
+      "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "nl.grizzlyvpn.work",
+      "server": "us.nitroo-tech.ru",
       "server_port": 443,
-      "uuid": "5952ea01-0669-4f5e-8010-61f8abee3600",
+      "uuid": "f31f5fe0-0a42-436a-be94-437330801388",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "uk1.santexnika24.com",
+      "server_port": 443,
+      "uuid": "096d2cea-e1d5-4b68-ada3-6349a272ecad",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -250,6 +276,28 @@
       "server": "cache2.datapull.cc",
       "server_port": 8443,
       "uuid": "742d2dcb-ab26-4b10-b0a3-2efed2c154fa",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇳🇴 NO | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "nr-01.opsvpnvless.ru",
+      "server_port": 443,
+      "uuid": "1218c022-dca8-49e5-b7d4-a04f3023db81",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

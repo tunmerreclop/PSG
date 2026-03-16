@@ -91,8 +91,7 @@
         "auto",
         "direct",
         "🇵🇱 PL | VLESS | @config_proxy #1",
-        "🇵🇱 PL | SS | @netfreedom0 #1",
-        "🇵🇱 PL | SS | @outlinereleasedkey #1"
+        "🇵🇱 PL | SS | @netfreedom0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,8 +100,7 @@
       "interval": "10m",
       "outbounds": [
         "🇵🇱 PL | VLESS | @config_proxy #1",
-        "🇵🇱 PL | SS | @netfreedom0 #1",
-        "🇵🇱 PL | SS | @outlinereleasedkey #1"
+        "🇵🇱 PL | SS | @netfreedom0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -116,10 +114,19 @@
     {
       "tag": "🇵🇱 PL | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "pl.riotvpn.eu",
-      "server_port": 80,
-      "uuid": "1d8120a6-15de-4001-92ad-eeaf8ba63699",
-      "packet_encoding": "xudp"
+      "server": "uk1.santexnika24.com",
+      "server_port": 443,
+      "uuid": "096d2cea-e1d5-4b68-ada3-6349a272ecad",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇵🇱 PL | SS | @netfreedom0 #1",
@@ -127,14 +134,6 @@
       "server": "217.30.10.70",
       "server_port": 9000,
       "method": "YWVzLTI1Ni1jZmI6YTNHRll0MzZTbTgyVnlzOQ==",
-      "password": null
-    },
-    {
-      "tag": "🇵🇱 PL | SS | @outlinereleasedkey #1",
-      "type": "shadowsocks",
-      "server": "217.30.10.18",
-      "server_port": 9011,
-      "method": "YWVzLTI1Ni1jZmI6TTN0MlpFUWNNR1JXQmpSYQ==",
       "password": null
     }
   ],
