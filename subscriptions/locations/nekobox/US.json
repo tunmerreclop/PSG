@@ -79,6 +79,7 @@
         "direct",
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
+        "🇺🇸 US | VLESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
         "🇺🇸 US | VLESS | @eliteproxyv2 #1",
@@ -133,7 +134,6 @@
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇺🇸 US | VLESS | @v2rayngconfiig #3",
-        "🇺🇸 US | VLESS | @v2raytg #1",
         "🇺🇸 US | SS | @vip_vpn_2022 #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2",
@@ -147,6 +147,7 @@
       "outbounds": [
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
+        "🇺🇸 US | VLESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
         "🇺🇸 US | VLESS | @eliteproxyv2 #1",
@@ -201,7 +202,6 @@
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇺🇸 US | VLESS | @v2rayngconfiig #3",
-        "🇺🇸 US | VLESS | @v2raytg #1",
         "🇺🇸 US | SS | @vip_vpn_2022 #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2",
@@ -251,6 +251,14 @@
           "Host": ""
         }
       }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "151.101.194.219",
+      "server_port": 80,
+      "uuid": "6a7383fe-dcc1-491d-89b1-c902e4be8eb1",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇺🇸 US | VLESS | @deli_servers #1",
@@ -525,9 +533,9 @@
     {
       "tag": "🇺🇸 US | SS | @key_outline #1",
       "type": "shadowsocks",
-      "server": "104.192.227.162",
+      "server": "216.105.168.18",
       "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUWEJQd0pxOE4xNGxZaldhZDkyNWhJ",
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiTkcxR3VJUnd5MVRoZ2tzWUxaVERi",
       "password": null
     },
     {
@@ -541,9 +549,9 @@
     {
       "tag": "🇺🇸 US | SS | @key_outline #3",
       "type": "shadowsocks",
-      "server": "104.192.227.162",
+      "server": "216.105.168.18",
       "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsOVBpN3I0bThQSFFIclViQ1hFS3lG",
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpreThVaXhZWWxoM1VEaDEwV01kUFF0",
       "password": null
     },
     {
@@ -551,7 +559,7 @@
       "type": "shadowsocks",
       "server": "104.192.227.162",
       "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDMEozeHFwT3pYc01oS29NUlRWcGN3",
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsOVBpN3I0bThQSFFIclViQ1hFS3lG",
       "password": null
     },
     {
@@ -559,7 +567,7 @@
       "type": "shadowsocks",
       "server": "104.192.227.162",
       "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowOTZFb3RCUHJDMFU4VnBoeThjS0Vi",
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDMEozeHFwT3pYc01oS29NUlRWcGN3",
       "password": null
     },
     {
@@ -567,7 +575,7 @@
       "type": "shadowsocks",
       "server": "104.192.227.162",
       "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVWG11a25HUXFpSm9JdG1RVFhqY0Yy",
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowOTZFb3RCUHJDMFU4VnBoeThjS0Vi",
       "password": null
     },
     {
@@ -934,14 +942,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @v2raytg #1",
-      "type": "vless",
-      "server": "208.103.161.33",
-      "server_port": 2053,
-      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇺🇸 US | SS | @vip_vpn_2022 #1",

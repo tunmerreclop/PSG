@@ -82,7 +82,6 @@
         "KingRezaPahlavi",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
-        "🇹🇷 TR | VLESS | @config_proxy #2",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇽🇽 XX | VLESS | @dailyv2ray #2",
         "🇻🇬 VG | VLESS | @dailyv2ray #1",
@@ -138,7 +137,7 @@
         "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇽🇽 XX | VLESS | @mester_v2ray #6",
         "🇮🇷 IR | VLESS | @miov2ray #1",
-        "🇸🇨 SC | VLESS | @mpproxy #1",
+        "🇩🇪 DE | VLESS | @mpproxy #1",
         "🇽🇽 XX | VLESS | @mt_proxy #2",
         "🇨🇾 CY | VLESS | @mt_proxy #1",
         "🇽🇽 XX | VLESS | @mtpv2ray #1",
@@ -151,8 +150,10 @@
         "🇽🇽 XX | VLESS | @proxy48 #1",
         "🇽🇽 XX | VLESS | @proxy48 #2",
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
-        "🇳🇴 NO | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @prrofile_purple #1",
+        "🇽🇽 XX | VLESS | @prrofile_purple #2",
+        "🇮🇷 IR | VLESS | @prrofile_purple #1",
+        "🇽🇽 XX | VLESS | @prrofile_purple #3",
         "🇺🇸 US | VLESS | @public504 #1",
         "🇽🇽 XX | VLESS | @red2ray #2",
         "🇽🇽 XX | VLESS | @red2ray #3",
@@ -225,7 +226,6 @@
         "KingRezaPahlavi",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
-        "🇹🇷 TR | VLESS | @config_proxy #2",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇽🇽 XX | VLESS | @dailyv2ray #2",
         "🇻🇬 VG | VLESS | @dailyv2ray #1",
@@ -281,7 +281,7 @@
         "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇽🇽 XX | VLESS | @mester_v2ray #6",
         "🇮🇷 IR | VLESS | @miov2ray #1",
-        "🇸🇨 SC | VLESS | @mpproxy #1",
+        "🇩🇪 DE | VLESS | @mpproxy #1",
         "🇽🇽 XX | VLESS | @mt_proxy #2",
         "🇨🇾 CY | VLESS | @mt_proxy #1",
         "🇽🇽 XX | VLESS | @mtpv2ray #1",
@@ -294,8 +294,10 @@
         "🇽🇽 XX | VLESS | @proxy48 #1",
         "🇽🇽 XX | VLESS | @proxy48 #2",
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
-        "🇳🇴 NO | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @prrofile_purple #1",
+        "🇽🇽 XX | VLESS | @prrofile_purple #2",
+        "🇮🇷 IR | VLESS | @prrofile_purple #1",
+        "🇽🇽 XX | VLESS | @prrofile_purple #3",
         "🇺🇸 US | VLESS | @public504 #1",
         "🇽🇽 XX | VLESS | @red2ray #2",
         "🇽🇽 XX | VLESS | @red2ray #3",
@@ -457,23 +459,6 @@
       "server_port": 80,
       "uuid": "6db4a91c-838d-419a-af83-bc5bd211ffc6",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "8adeefa1-96b4-42d4-b163-1e0bf13bae5d.quadzero.online",
-      "server_port": 443,
-      "uuid": "b2f99930-7d48-4a22-8d67-539c440b6a7a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @configasli #1",
@@ -1156,7 +1141,7 @@
       }
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @mpproxy #1",
+      "tag": "🇩🇪 DE | VLESS | @mpproxy #1",
       "type": "vless",
       "server": "srv1.khatibirepair.ir",
       "server_port": 2086,
@@ -1278,11 +1263,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇳🇴 NO | VLESS | @prrofile_purple #1",
+      "tag": "🇺🇸 US | VLESS | @prrofile_purple #1",
       "type": "vless",
-      "server": "nr-01.opsvpnvless.ru",
+      "server": "fastly3.hamrahflow.ir",
       "server_port": 443,
-      "uuid": "1218c022-dca8-49e5-b7d4-a04f3023db81",
+      "uuid": "be2557f7-a0df-4393-b71b-28013847059f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -1291,20 +1276,31 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @prrofile_purple #1",
+      "tag": "🇽🇽 XX | VLESS | @prrofile_purple #2",
       "type": "vless",
-      "server": "fastly3.hamrahflow.ir",
+      "server": "f2.hamrahconf.ir",
+      "server_port": 8443,
+      "uuid": "5558156d-3a2c-4843-9eb9-06e69ac3a2bf",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "my.protag.ir",
+      "server_port": 80,
+      "uuid": "3075155b-439e-4f60-9041-e92ff75136fc",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @prrofile_purple #3",
+      "type": "vless",
+      "server": "broad-sky-9360.k7uztejf9ief.workers.dev",
       "server_port": 443,
-      "uuid": "be2557f7-a0df-4393-b71b-28013847059f",
+      "uuid": "bf710ad2-4a43-4379-aa73-e684f00b6240",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
