@@ -82,6 +82,8 @@
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
         "🇽🇽 XX | VLESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @config_proxy #2",
+        "🇽🇽 XX | VLESS | @config_proxy #3",
+        "🇽🇽 XX | VLESS | @config_proxy #4",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -235,6 +237,7 @@
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | VLESS | @v2ray_vmes #1",
         "🇽🇽 XX | TROJAN | @v2ray_vmes #1",
+        "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayng3 #1",
@@ -303,6 +306,8 @@
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
         "🇽🇽 XX | VLESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @config_proxy #2",
+        "🇽🇽 XX | VLESS | @config_proxy #3",
+        "🇽🇽 XX | VLESS | @config_proxy #4",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -456,6 +461,7 @@
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | VLESS | @v2ray_vmes #1",
         "🇽🇽 XX | TROJAN | @v2ray_vmes #1",
+        "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayng3 #1",
@@ -569,17 +575,51 @@
     {
       "tag": "🇽🇽 XX | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "104.16.60.79",
-      "server_port": 2052,
-      "uuid": "636b1684-b26c-4a9c-bc6e-8e1197a36d74",
+      "server": "104.18.33.134",
+      "server_port": 8443,
+      "uuid": "055e3bd2-10f8-4d9c-8f7d-70b9f659e476",
       "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @config_proxy #2",
       "type": "vless",
-      "server": "www.speedtest.net",
-      "server_port": 2053,
-      "uuid": "8bbaf2bd-6c06-4827-965d-e28d993a2652",
+      "server": "108.162.194.96",
+      "server_port": 443,
+      "uuid": "055e3bd2-10f8-4d9c-8f7d-70b9f659e476",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @config_proxy #3",
+      "type": "vless",
+      "server": "162.159.33.118",
+      "server_port": 443,
+      "uuid": "055e3bd2-10f8-4d9c-8f7d-70b9f659e476",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @config_proxy #4",
+      "type": "vless",
+      "server": "172.64.53.96",
+      "server_port": 8443,
+      "uuid": "055e3bd2-10f8-4d9c-8f7d-70b9f659e476",
       "packet_encoding": "xudp"
     },
     {
@@ -2404,6 +2444,14 @@
       "server": "mfa.gov.ua",
       "server_port": 2096,
       "password": "22367c45-f6c4-4ca8-8d52-d9787d7bbe91"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_youtube #1",
+      "type": "vless",
+      "server": "www.speedtest.net",
+      "server_port": 2053,
+      "uuid": "8bbaf2bd-6c06-4827-965d-e28d993a2652",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2raybe #1",
