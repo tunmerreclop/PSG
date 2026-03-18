@@ -28,6 +28,9 @@ proxies:
   - {"name": "KingRezaPahlavi", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
   - {"name": "🇽🇽 XX | VLESS | @artemis_vpn_free #1", "server": "artemis.sbs", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "6ae833da-e51f-48b4-a870-1f1aafe17378", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VLESS | @artemis_vpn_free #2", "server": "artemis.sbs", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "6db4a91c-838d-419a-af83-bc5bd211ffc6", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇩🇪 DE | VLESS | @config_proxy #1", "server": "de.katanavpn.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "7018878c-7b26-4eec-8feb-3137f9b74394", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇺🇦 UA | VLESS | @config_proxy #1", "server": "md-kiv-2.blook.network", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "aa167bb9-4882-417e-a9d1-676250111f70", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇩🇪 DE | VLESS | @configasli #1", "server": "s1.aparat-movies-download.ir", "port": 4450, "type": "vless", "skip-cert-verify": true, "uuid": "a19f4213-fcb8-4384-9c85-cb51cae8ab8b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
   - {"name": "🇽🇽 XX | VLESS | @dailyv2ray #2", "server": "mci.ircf.space", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "7f64eeb1-b5f1-40a0-d80e-e6c718f6bd6a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇻🇬 VG | VLESS | @dailyv2ray #1", "server": "mtn.ircf.space", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "7f64eeb1-b5f1-40a0-d80e-e6c718f6bd6a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇺🇸 US | VLESS | @deli_servers #1", "server": "www.gcore.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "2dc4a552-50e8-4200-95ee-f79b9a8b40c3", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -177,6 +180,9 @@ proxy-groups:
       - 'KingRezaPahlavi'
       - '🇽🇽 XX | VLESS | @artemis_vpn_free #1'
       - '🇽🇽 XX | VLESS | @artemis_vpn_free #2'
+      - '🇩🇪 DE | VLESS | @config_proxy #1'
+      - '🇺🇦 UA | VLESS | @config_proxy #1'
+      - '🇩🇪 DE | VLESS | @configasli #1'
       - '🇽🇽 XX | VLESS | @dailyv2ray #2'
       - '🇻🇬 VG | VLESS | @dailyv2ray #1'
       - '🇺🇸 US | VLESS | @deli_servers #1'
