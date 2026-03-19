@@ -135,7 +135,6 @@
         "🇽🇽 XX | VLESS | @lockey_vpn #5",
         "🇽🇽 XX | VLESS | @lockey_vpn #6",
         "🇽🇽 XX | VLESS | @manstervpn #1",
-        "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇽🇽 XX | VLESS | @mester_v2ray #6",
         "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇸🇨 SC | VLESS | @mpproxy #1",
@@ -175,6 +174,7 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #3",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #4",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
@@ -280,7 +280,6 @@
         "🇽🇽 XX | VLESS | @lockey_vpn #5",
         "🇽🇽 XX | VLESS | @lockey_vpn #6",
         "🇽🇽 XX | VLESS | @manstervpn #1",
-        "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇽🇽 XX | VLESS | @mester_v2ray #6",
         "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇸🇨 SC | VLESS | @mpproxy #1",
@@ -320,6 +319,7 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #3",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #4",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
@@ -1095,28 +1095,6 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @megavpn_link #1",
-      "type": "vless",
-      "server": "all32-vip.f-sub.com",
-      "server_port": 2434,
-      "uuid": "84e919b0-2a5d-4fad-8614-df01dd210b8e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @mester_v2ray #6",
       "type": "vless",
       "server": "www.speedtest.net",
@@ -1540,6 +1518,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "snapp.ir",
+      "server_port": 8880,
+      "uuid": "89495d73-259e-4f84-9763-6c669a819c6a",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_youtube #1",
