@@ -90,7 +90,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇪 SE | VLESS | @config_proxy #1",
         "🇸🇪 SE | VLESS | @deli_servers #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
@@ -128,7 +127,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇪 SE | VLESS | @config_proxy #1",
         "🇸🇪 SE | VLESS | @deli_servers #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
@@ -168,28 +166,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "se.connectv.net",
-      "server_port": 443,
-      "uuid": "8b70357d-b654-4a29-85de-e5fef1afefbd",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇸🇪 SE | VLESS | @deli_servers #1",
