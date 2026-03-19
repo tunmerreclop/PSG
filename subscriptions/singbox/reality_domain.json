@@ -93,8 +93,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇷🇺 RU | VLESS | @config_proxy #2",
-        "🇩🇪 DE | VLESS | @configasli #1",
+        "🇸🇪 SE | VLESS | @config_proxy #1",
+        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
@@ -113,8 +113,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇷🇺 RU | VLESS | @config_proxy #2",
-        "🇩🇪 DE | VLESS | @configasli #1",
+        "🇸🇪 SE | VLESS | @config_proxy #1",
+        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
@@ -206,11 +206,11 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy #2",
+      "tag": "🇸🇪 SE | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "most-pl.harknmav.fun",
+      "server": "se.connectv.net",
       "server_port": 443,
-      "uuid": "a0a70922-a539-4188-9273-ceef2131af36",
+      "uuid": "8b70357d-b654-4a29-85de-e5fef1afefbd",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -219,17 +219,35 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @configasli #1",
+      "tag": "🇳🇱 NL | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "s1.aparat-movies-download.ir",
-      "server_port": 4450,
-      "uuid": "a19f4213-fcb8-4384-9c85-cb51cae8ab8b",
+      "server": "nltw1.fastdbn.com",
+      "server_port": 5001,
+      "uuid": "997bc475-4621-4612-8337-cc55a0cb68ab",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @filterk0sh #1",
