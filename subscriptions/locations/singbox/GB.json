@@ -90,6 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇬🇧 GB | VLESS | @config_proxy #1",
+        "🇬🇧 GB | VLESS | @config_proxy #2",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
@@ -105,6 +107,8 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇬🇧 GB | VLESS | @config_proxy #1",
+        "🇬🇧 GB | VLESS | @config_proxy #2",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
@@ -122,6 +126,31 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "178.62.38.224",
+      "server_port": 2087,
+      "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "178.128.42.47",
+      "server_port": 8443,
+      "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇬🇧 GB | SS | @free4allvpn #1",
