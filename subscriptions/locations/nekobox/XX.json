@@ -80,7 +80,6 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
-        "🇽🇽 XX | VMESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -245,7 +244,6 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | VLESS | @v2ray_vmes #1",
         "🇽🇽 XX | TROJAN | @v2ray_vmes #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
@@ -319,7 +317,6 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
-        "🇽🇽 XX | VMESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -484,7 +481,6 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | VLESS | @v2ray_vmes #1",
         "🇽🇽 XX | TROJAN | @v2ray_vmes #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
@@ -599,31 +595,6 @@
         "path": "",
         "headers": {
           "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "cg1d05.waimaojd.com",
-      "server_port": 443,
-      "uuid": "6abe3ac8-e1f8-4b24-bb67-191bc23b5fab",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "cg1d05.waimaojd.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/api/v1/graphql",
-        "headers": {
-          "Host": "cg1d05.waimaojd.com"
         }
       }
     },
@@ -2568,17 +2539,9 @@
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "104.19.173.68",
-      "server_port": 2053,
-      "uuid": "d37a75db-76b6-4db8-b213-0d5b044d138d",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
-      "type": "vless",
-      "server": "104.26.15.21",
-      "server_port": 443,
-      "uuid": "d9a83363-40a6-4a21-9dbe-cb2b7d287048",
+      "server": "ip-data.turkserver.ir",
+      "server_port": 2087,
+      "uuid": "c805b05e-339d-40e0-8787-432d97a27345",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQkc=
+//profile-title: base64:UFNHIHwgVFI=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,11 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇧🇬 BG | VMESS | @v2ray_free_conf #1"
+        "🇹🇷 TR | VLESS | @config_proxy #1",
+        "🇹🇷 TR | VLESS | @config_proxy #2",
+        "🇹🇷 TR | VLESS | @config_proxy #3",
+        "🇹🇷 TR | VLESS | @config_proxy #4",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +102,11 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇧🇬 BG | VMESS | @v2ray_free_conf #1"
+        "🇹🇷 TR | VLESS | @config_proxy #1",
+        "🇹🇷 TR | VLESS | @config_proxy #2",
+        "🇹🇷 TR | VLESS | @config_proxy #3",
+        "🇹🇷 TR | VLESS | @config_proxy #4",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,13 +118,71 @@
       "type": "direct"
     },
     {
-      "tag": "🇧🇬 BG | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "45.39.241.51",
-      "server_port": 38543,
-      "uuid": "f54778cc-ce26-4f8d-923f-f8e62b090cde",
-      "security": "auto",
-      "alter_id": 0
+      "tag": "🇹🇷 TR | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "82.26.198.178",
+      "server_port": 8443,
+      "uuid": "562483f8-f7ca-42a9-8b3a-6aa2d6518ccc",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "185.39.204.27",
+      "server_port": 443,
+      "uuid": "2943d006-352f-45a2-8cba-4801c193a82a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @config_proxy #3",
+      "type": "vless",
+      "server": "212.87.198.66",
+      "server_port": 443,
+      "uuid": "b2f99930-7d48-4a22-8d67-539c440b6a7a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @config_proxy #4",
+      "type": "vless",
+      "server": "node159.cdn-global.pro",
+      "server_port": 58888,
+      "uuid": "8e2ebe63-0ca3-4468-8469-fbc7974b2b48",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "77.83.245.135",
+      "server_port": 34205,
+      "uuid": "2c287558-4d75-4430-a828-988f94b6d8f5",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
