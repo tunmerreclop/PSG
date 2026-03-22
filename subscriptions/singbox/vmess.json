@@ -93,6 +93,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇽🇽 XX | VMESS | @config_proxy #1",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
@@ -109,7 +110,6 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
-        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
@@ -117,6 +117,7 @@
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
+        "🇧🇬 BG | VMESS | @v2ray_free_conf #1",
         "🇫🇷 FR | VMESS | @v2raytg #1"
       ],
       "tag": "proxy",
@@ -128,6 +129,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇽🇽 XX | VMESS | @config_proxy #1",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
@@ -144,7 +146,6 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
-        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
@@ -152,6 +153,7 @@
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
+        "🇧🇬 BG | VMESS | @v2ray_free_conf #1",
         "🇫🇷 FR | VMESS | @v2raytg #1"
       ],
       "tag": "auto",
@@ -232,6 +234,31 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "cg1d05.waimaojd.com",
+      "server_port": 443,
+      "uuid": "6abe3ac8-e1f8-4b24-bb67-191bc23b5fab",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "cg1d05.waimaojd.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/api/v1/graphql",
+        "headers": {
+          "Host": "cg1d05.waimaojd.com"
         }
       }
     },
@@ -595,15 +622,6 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "snapp.ir.bmi.ir.mobato-mobile.com",
-      "server_port": 80,
-      "uuid": "820a9e42-e18d-43e4-859f-d1c2f6b8600a",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
       "tag": "🇺🇸 US | VMESS | @vpngate_config #1",
       "type": "vmess",
       "server": "104.18.212.12",
@@ -751,6 +769,15 @@
           "Host": "209.126.84.189"
         }
       }
+    },
+    {
+      "tag": "🇧🇬 BG | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "45.39.241.51",
+      "server_port": 38543,
+      "uuid": "f54778cc-ce26-4f8d-923f-f8e62b090cde",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇫🇷 FR | VMESS | @v2raytg #1",
