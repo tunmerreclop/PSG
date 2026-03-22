@@ -77,11 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @config_proxy #1",
-        "🇹🇷 TR | VLESS | @config_proxy #2",
-        "🇹🇷 TR | VLESS | @config_proxy #3",
-        "🇹🇷 TR | VLESS | @config_proxy #4",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
+        "🇧🇪 BE | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -89,11 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @config_proxy #1",
-        "🇹🇷 TR | VLESS | @config_proxy #2",
-        "🇹🇷 TR | VLESS | @config_proxy #3",
-        "🇹🇷 TR | VLESS | @config_proxy #4",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
+        "🇧🇪 BE | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -109,45 +101,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @config_proxy #1",
+      "tag": "🇧🇪 BE | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "82.26.198.178",
-      "server_port": 8443,
-      "uuid": "562483f8-f7ca-42a9-8b3a-6aa2d6518ccc",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "grpc",
-        "service_name": ""
-      }
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "185.39.204.27",
+      "server": "fs.cedriklorenz.ir",
       "server_port": 443,
-      "uuid": "2943d006-352f-45a2-8cba-4801c193a82a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @config_proxy #3",
-      "type": "vless",
-      "server": "212.87.198.66",
-      "server_port": 443,
-      "uuid": "b2f99930-7d48-4a22-8d67-539c440b6a7a",
+      "uuid": "fecdbda8-69b2-449a-b8d5-e798ff1c1e6d",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -158,22 +116,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @config_proxy #4",
-      "type": "vless",
-      "server": "node159.cdn-global.pro",
-      "server_port": 58888,
-      "uuid": "8e2ebe63-0ca3-4468-8469-fbc7974b2b48",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "77.83.245.135",
-      "server_port": 34205,
-      "uuid": "2c287558-4d75-4430-a828-988f94b6d8f5",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {
