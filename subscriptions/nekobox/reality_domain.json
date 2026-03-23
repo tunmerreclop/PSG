@@ -80,9 +80,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇪🇪 EE | VLESS | @config_proxy #2",
-        "🇪🇪 EE | VLESS | @config_proxy #3",
+        "🇬🇧 GB | VLESS | @config_proxy #1",
+        "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #2",
@@ -99,9 +100,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇪🇪 EE | VLESS | @config_proxy #2",
-        "🇪🇪 EE | VLESS | @config_proxy #3",
+        "🇬🇧 GB | VLESS | @config_proxy #1",
+        "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #2",
@@ -195,19 +197,11 @@
       }
     },
     {
-      "tag": "🇪🇪 EE | VLESS | @config_proxy #2",
+      "tag": "🇬🇧 GB | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "ee2.zqwerty.ru",
-      "server_port": 2053,
-      "uuid": "110d7bad-5e17-4ce3-afd0-2cf2ebc71787",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇪🇪 EE | VLESS | @config_proxy #3",
-      "type": "vless",
-      "server": "ee.techdatacloud.org",
+      "server": "backup.eerieperet.top",
       "server_port": 443,
-      "uuid": "050a78fb-d829-42fc-9aba-1295e8ddfa17",
+      "uuid": "8de66c3a-6d1c-40b3-b99b-d4c0a773a2e9",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -218,6 +212,15 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @configasli #1",
+      "type": "vless",
+      "server": "s1.aparat-movies-download.ir",
+      "server_port": 4450,
+      "uuid": "a19f4213-fcb8-4384-9c85-cb51cae8ab8b",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision"
     },
     {
       "tag": "🇩🇪 DE | VLESS | @filterk0sh #1",
@@ -238,6 +241,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "pl-waw-1.blook.network",
+      "server_port": 443,
+      "uuid": "f3689c7c-d233-4fdb-b5ee-1bc8a65a637e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },

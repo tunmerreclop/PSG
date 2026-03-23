@@ -114,10 +114,19 @@
     {
       "tag": "🇰🇷 KR | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "146.56.146.21",
-      "server_port": 27587,
+      "server": "146.56.99.22",
+      "server_port": 20443,
       "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b",
-      "packet_encoding": "xudp"
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇰🇷 KR | SS | @netfreedom0 #1",
