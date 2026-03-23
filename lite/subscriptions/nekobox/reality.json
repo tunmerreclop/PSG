@@ -80,8 +80,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @config_proxy #1",
+        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇸🇮 SI | VLESS | @filterk0sh #1",
+        "🇸🇮 SI | VLESS | @ghalagyann #1",
         "🇸🇪 SE | VLESS | @proxyfn #1",
         "🇨🇭 CH | VLESS | @proxyfn #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
@@ -91,7 +92,6 @@
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
-        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
         "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
@@ -104,8 +104,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @config_proxy #1",
+        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇸🇮 SI | VLESS | @filterk0sh #1",
+        "🇸🇮 SI | VLESS | @ghalagyann #1",
         "🇸🇪 SE | VLESS | @proxyfn #1",
         "🇨🇭 CH | VLESS | @proxyfn #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
@@ -115,7 +116,6 @@
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
-        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
         "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
@@ -205,11 +205,19 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @config_proxy #1",
+      "tag": "🇳🇱 NL | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "64.188.106.39",
+      "server": "144.31.233.146",
+      "server_port": 43361,
+      "uuid": "bf432795-1383-46e5-8823-d638b956cabe",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇮 SI | VLESS | @filterk0sh #1",
+      "type": "vless",
+      "server": "92.60.78.221",
       "server_port": 443,
-      "uuid": "e1c3b1b5-5d8f-4bce-a999-b442762dc245",
+      "uuid": "6897c181-24b1-4880-8660-e6c5c7ee13c7",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -218,11 +226,16 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
     {
-      "tag": "🇸🇮 SI | VLESS | @filterk0sh #1",
+      "tag": "🇸🇮 SI | VLESS | @ghalagyann #1",
       "type": "vless",
       "server": "92.60.78.221",
       "server_port": 443,
@@ -410,23 +423,6 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "pl-waw-1.blook.network",
-      "server_port": 443,
-      "uuid": "f3689c7c-d233-4fdb-b5ee-1bc8a65a637e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     },
