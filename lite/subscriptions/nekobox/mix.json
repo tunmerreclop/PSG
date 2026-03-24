@@ -88,8 +88,9 @@
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
-        "🇹🇷 TR | VLESS | @config_proxy #1",
-        "🇮🇷 IR | VLESS | @config_proxy #1",
+        "🇭🇰 HK | VLESS | @config_proxy #1",
+        "🇺🇸 US | VLESS | @config_proxy #1",
+        "🇩🇪 DE | VLESS | @configasli #1",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @dailyv2ray #1",
@@ -173,8 +174,8 @@
         "🇺🇸 US | VLESS | @minovpnch #1",
         "🇽🇽 XX | VLESS | @miov2ray #1",
         "🇽🇽 XX | VLESS | @miov2ray #2",
-        "🇸🇨 SC | TROJAN | @mpproxy #1",
-        "🇸🇨 SC | VLESS | @mpproxy #1",
+        "🇩🇪 DE | TROJAN | @mpproxy #1",
+        "🇩🇪 DE | VLESS | @mpproxy #1",
         "🇺🇸 US | VLESS | @msv2raynp #1",
         "🇺🇸 US | VLESS | @msv2raynp #2",
         "🇽🇽 XX | VLESS | @mt_proxy #1",
@@ -246,8 +247,8 @@
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
-        "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+        "🇫🇮 FI | SS | @v2ray_free_conf #1",
+        "🇷🇴 RO | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇿🇦 ZA | VLESS | @v2ray_vmes #1",
         "🇦🇺 AU | VLESS | @v2ray_vmes #1",
@@ -320,8 +321,9 @@
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
-        "🇹🇷 TR | VLESS | @config_proxy #1",
-        "🇮🇷 IR | VLESS | @config_proxy #1",
+        "🇭🇰 HK | VLESS | @config_proxy #1",
+        "🇺🇸 US | VLESS | @config_proxy #1",
+        "🇩🇪 DE | VLESS | @configasli #1",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @dailyv2ray #1",
@@ -405,8 +407,8 @@
         "🇺🇸 US | VLESS | @minovpnch #1",
         "🇽🇽 XX | VLESS | @miov2ray #1",
         "🇽🇽 XX | VLESS | @miov2ray #2",
-        "🇸🇨 SC | TROJAN | @mpproxy #1",
-        "🇸🇨 SC | VLESS | @mpproxy #1",
+        "🇩🇪 DE | TROJAN | @mpproxy #1",
+        "🇩🇪 DE | VLESS | @mpproxy #1",
         "🇺🇸 US | VLESS | @msv2raynp #1",
         "🇺🇸 US | VLESS | @msv2raynp #2",
         "🇽🇽 XX | VLESS | @mt_proxy #1",
@@ -478,8 +480,8 @@
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
-        "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+        "🇫🇮 FI | SS | @v2ray_free_conf #1",
+        "🇷🇴 RO | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇿🇦 ZA | VLESS | @v2ray_vmes #1",
         "🇦🇺 AU | VLESS | @v2ray_vmes #1",
@@ -735,19 +737,11 @@
       }
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @config_proxy #1",
+      "tag": "🇭🇰 HK | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "77.83.245.135",
-      "server_port": 34205,
-      "uuid": "fa798d01-9e12-4872-8311-625f43294849",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "anten.ir",
+      "server": "8.218.226.31",
       "server_port": 443,
-      "uuid": "430399ca-d329-44c3-949c-0f74e3eb3b09",
+      "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -757,7 +751,41 @@
           "enabled": true,
           "fingerprint": "chrome"
         }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
       }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "2.27.54.145",
+      "server_port": 443,
+      "uuid": "3fe48a33-aac8-41cd-b2db-fdeeafced0aa",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @configasli #1",
+      "type": "vless",
+      "server": "s1.aparat-movies-download.ir",
+      "server_port": 4450,
+      "uuid": "a19f4213-fcb8-4384-9c85-cb51cae8ab8b",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @customizev2ray #1",
@@ -1894,7 +1922,7 @@
       }
     },
     {
-      "tag": "🇸🇨 SC | TROJAN | @mpproxy #1",
+      "tag": "🇩🇪 DE | TROJAN | @mpproxy #1",
       "type": "trojan",
       "server": "srv1.khatibirepair.ir",
       "server_port": 443,
@@ -1910,7 +1938,7 @@
       }
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @mpproxy #1",
+      "tag": "🇩🇪 DE | VLESS | @mpproxy #1",
       "type": "vless",
       "server": "srv1.khatibirepair.ir",
       "server_port": 2086,
@@ -2782,20 +2810,19 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "snapp.ir.bmi.ir.mobato-mobile.com",
-      "server_port": 80,
-      "uuid": "820a9e42-e18d-43e4-859f-d1c2f6b8600a",
-      "security": "auto",
-      "alter_id": 0
+      "tag": "🇫🇮 FI | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "95.216.238.249",
+      "server_port": 37337,
+      "method": "MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206Ly9MeURZbTh2akFFcmcxcE1SWldXcXVSODdpekpTRGxoaGNtRUtjTHpZbz06d3hhMlBLYkYwLzFVclJpQm9lV056YUxWRnEzNjZIRzc1SVlTK0ZqVTdPYz0=",
+      "password": null
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+      "tag": "🇷🇴 RO | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "dlbazi2.ketakhan.sbs",
-      "server_port": 8443,
-      "uuid": "75851373-9166-4413-bcb4-e995135ca3ce",
+      "server": "dqf21.sdssd1.sadqwdw1.carvan1.mimkiscx.ir",
+      "server_port": 443,
+      "uuid": "d230f0f7-6826-4f8e-8dbb-69ee2c837358",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
