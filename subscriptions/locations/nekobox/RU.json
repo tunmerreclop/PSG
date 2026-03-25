@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇷🇺 RU | VLESS | @ghalagyann #1",
         "🇷🇺 RU | VLESS | @ghalagyann #2",
         "🇷🇺 RU | VMESS | @prooxyk #1",
@@ -89,6 +90,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇷🇺 RU | VLESS | @ghalagyann #1",
         "🇷🇺 RU | VLESS | @ghalagyann #2",
         "🇷🇺 RU | VMESS | @prooxyk #1",
@@ -107,6 +109,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "193.233.250.167",
+      "server_port": 7443,
+      "uuid": "c88eb03a-5837-499a-aec1-24174a7d3805",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VLESS | @ghalagyann #1",

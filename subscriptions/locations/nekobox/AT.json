@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇹 AT | VLESS | @config_proxy #1",
         "🇦🇹 AT | SS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
@@ -86,7 +85,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇹 AT | VLESS | @config_proxy #1",
         "🇦🇹 AT | SS | @NamiraConfigs #1"
       ],
       "tag": "auto",
@@ -101,28 +99,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇦🇹 AT | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "node1.telegavpn.org",
-      "server_port": 443,
-      "uuid": "4358a465-91cf-4814-b137-0acc1b69062c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇦🇹 AT | SS | @NamiraConfigs #1",
