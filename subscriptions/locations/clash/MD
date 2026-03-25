@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇩🇰 DK | VLESS | @config_proxy #1", "server": "dan.xtrustnet.sbs", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "9cdfecbf-f470-4928-981c-44d9cc21df3c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇩🇰 DK | VLESS | @v2ray_free_conf #1", "server": "45.148.31.0", "port": 15855, "type": "vless", "skip-cert-verify": true, "uuid": "e4fc4761-154f-490e-bbaa-b4fa193f1073", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇲🇩 MD | VMESS | @config_proxy #1", "server": "94.232.247.164", "port": 44030, "type": "vmess", "skip-cert-verify": true, "uuid": "22c396a3-95da-4be8-beef-834d17d75784", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇩🇰 DK | VLESS | @config_proxy #1'
-      - '🇩🇰 DK | VLESS | @v2ray_free_conf #1'
+      - '🇲🇩 MD | VMESS | @config_proxy #1'
 
   - name: 🌍 Global Media
     type: select
