@@ -23,11 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇵🇱 PL | VLESS | @config_proxy #1", "server": "as-pl.agveit.pro", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2402d74e-dbad-4ce3-9c0b-9202714715dc", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇵🇱 PL | VLESS | @config_proxy #2", "server": "195.3.222.170", "port": 465, "type": "vless", "skip-cert-verify": true, "uuid": "d08a63e7-dbea-4a36-a239-9f0b37a46b40", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇵🇱 PL | VLESS | @config_proxy #3", "server": "195.3.222.170", "port": 465, "type": "vless", "skip-cert-verify": true, "uuid": "916de9ac-1fe3-4c93-887a-ce4285d0bb9b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇵🇱 PL | VLESS | @config_proxy #4", "server": "5.181.188.224", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "c08d880e-106f-4366-9d00-cc9355d99abc", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇵🇱 PL | TROJAN | @v2ray_free_conf #1", "server": "funky-platypus.rooster465.autos", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "WF42809561"}
+  - {"name": "🇦🇹 AT | VLESS | @config_proxy #1", "server": "node1.telegavpn.org", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1041e05d-ecb9-4fe1-bde2-429abff13e8f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇦🇹 AT | VLESS | @config_proxy #2", "server": "87.251.69.48", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "98d8cefc-499a-4969-9a59-f03e947adf78", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -41,11 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇵🇱 PL | VLESS | @config_proxy #1'
-      - '🇵🇱 PL | VLESS | @config_proxy #2'
-      - '🇵🇱 PL | VLESS | @config_proxy #3'
-      - '🇵🇱 PL | VLESS | @config_proxy #4'
-      - '🇵🇱 PL | TROJAN | @v2ray_free_conf #1'
+      - '🇦🇹 AT | VLESS | @config_proxy #1'
+      - '🇦🇹 AT | VLESS | @config_proxy #2'
 
   - name: 🌍 Global Media
     type: select
