@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇹🇷 TR | VLESS | @config_proxy #1", "server": "185.39.204.27", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ff1c6588-b23b-406e-a633-beb327110aa4", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇹🇼 TW | VLESS | @config_proxy #1", "server": "api.livecut.cc", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ac421bf3-470d-4e21-a56d-c8d622f6df2f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇹🇷 TR | VLESS | @config_proxy #1'
+      - '🇹🇼 TW | VLESS | @config_proxy #1'
 
   - name: 🌍 Global Media
     type: select

@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVUE=
+//profile-title: base64:UFNHIHwgVFc=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇺🇦 UA | VLESS | @config_proxy #1"
+        "🇹🇼 TW | VLESS | @config_proxy #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇺🇦 UA | VLESS | @config_proxy #1"
+        "🇹🇼 TW | VLESS | @config_proxy #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,21 @@
       "type": "direct"
     },
     {
-      "tag": "🇺🇦 UA | VLESS | @config_proxy #1",
+      "tag": "🇹🇼 TW | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "node-ua2.cdn-global.pro",
-      "server_port": 58888,
-      "uuid": "4fb684c9-977f-4a7c-82a5-1f70fc141510",
-      "packet_encoding": "xudp"
+      "server": "api.livecut.cc",
+      "server_port": 443,
+      "uuid": "ac421bf3-470d-4e21-a56d-c8d622f6df2f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
