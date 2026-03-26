@@ -80,6 +80,7 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
+        "🇽🇽 XX | VLESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -186,7 +187,6 @@
         "🇽🇽 XX | VLESS | @novinology #3",
         "🇽🇽 XX | VLESS | @novinology #4",
         "🇽🇽 XX | VLESS | @novinology #6",
-        "🇽🇽 XX | VLESS | @outline_ir #1",
         "🇽🇽 XX | TROJAN | @outline_ir #1",
         "🇽🇽 XX | VLESS | @pro_chaneel #1",
         "🇽🇽 XX | VLESS | @prooxyk #1",
@@ -225,6 +225,7 @@
         "🇽🇽 XX | VLESS | @torang_vpn #1",
         "🇽🇽 XX | VLESS | @torang_vpn #2",
         "🇽🇽 XX | VLESS | @torang_vpn #3",
+        "🇽🇽 XX | VLESS | @torang_vpn #4",
         "🇽🇽 XX | VLESS | @turboo_server #1",
         "🇽🇽 XX | VLESS | @v2logy #1",
         "🇽🇽 XX | VLESS | @v2logy #2",
@@ -236,11 +237,10 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | VLESS | @v2ray_vmes #1",
         "🇽🇽 XX | TROJAN | @v2ray_vmes #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
+        "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayng3 #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
@@ -306,6 +306,7 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
+        "🇽🇽 XX | VLESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -412,7 +413,6 @@
         "🇽🇽 XX | VLESS | @novinology #3",
         "🇽🇽 XX | VLESS | @novinology #4",
         "🇽🇽 XX | VLESS | @novinology #6",
-        "🇽🇽 XX | VLESS | @outline_ir #1",
         "🇽🇽 XX | TROJAN | @outline_ir #1",
         "🇽🇽 XX | VLESS | @pro_chaneel #1",
         "🇽🇽 XX | VLESS | @prooxyk #1",
@@ -451,6 +451,7 @@
         "🇽🇽 XX | VLESS | @torang_vpn #1",
         "🇽🇽 XX | VLESS | @torang_vpn #2",
         "🇽🇽 XX | VLESS | @torang_vpn #3",
+        "🇽🇽 XX | VLESS | @torang_vpn #4",
         "🇽🇽 XX | VLESS | @turboo_server #1",
         "🇽🇽 XX | VLESS | @v2logy #1",
         "🇽🇽 XX | VLESS | @v2logy #2",
@@ -462,11 +463,10 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | VLESS | @v2ray_vmes #1",
         "🇽🇽 XX | TROJAN | @v2ray_vmes #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
+        "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayng3 #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
@@ -558,6 +558,30 @@
       "server": "188.114.97.0",
       "server_port": 443,
       "uuid": "884f9b2c-f0c5-44dd-a68e-3e39ce93bb39",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "104.19.50.148",
+      "server_port": 443,
+      "uuid": "4d6fa520-b8c1-4811-93f6-a91fd6f87b59",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -1847,14 +1871,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @outline_ir #1",
-      "type": "vless",
-      "server": "104.18.12.149",
-      "server_port": 2052,
-      "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇽🇽 XX | TROJAN | @outline_ir #1",
       "type": "trojan",
       "server": "irancell.buzzmuzzpanel.online",
@@ -2323,6 +2339,14 @@
     {
       "tag": "🇽🇽 XX | VLESS | @torang_vpn #2",
       "type": "vless",
+      "server": "www.parsvds.ir",
+      "server_port": 8080,
+      "uuid": "--VPNCUSTOMIZE--",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @torang_vpn #3",
+      "type": "vless",
       "server": "www.visa.com",
       "server_port": 443,
       "uuid": "c1978266-958c-4aa3-ba34-7eacac75aca1",
@@ -2338,7 +2362,7 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @torang_vpn #3",
+      "tag": "🇽🇽 XX | VLESS | @torang_vpn #4",
       "type": "vless",
       "server": "104.17.147.22",
       "server_port": 80,
@@ -2461,31 +2485,6 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "104.18.32.47",
-      "server_port": 2052,
-      "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
-      "type": "vless",
-      "server": "ip-data.turkserver.ir",
-      "server_port": 2087,
-      "uuid": "ad8a28d6-a327-4ccc-9335-41fdd9738437",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @v2ray_vmes #1",
       "type": "vless",
       "server": "104.21.3.219",
@@ -2505,6 +2504,14 @@
       "type": "vless",
       "server": "berovps.masoodbiranvand-230.workers.dev",
       "server_port": 2053,
+      "uuid": "266169d9-665f-4fed-b1a8-da29794ee3cd",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2raybe #2",
+      "type": "vless",
+      "server": "berovps.masoodbiranvand-230.workers.dev",
+      "server_port": 2083,
       "uuid": "266169d9-665f-4fed-b1a8-da29794ee3cd",
       "packet_encoding": "xudp"
     },

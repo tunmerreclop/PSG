@@ -23,8 +23,11 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇷🇴 RO | VLESS | @v2ray_free_conf #1", "server": "dqf21.sdssd1.sadqwdw1.carvan1.mimkiscx.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "d230f0f7-6826-4f8e-8dbb-69ee2c837358", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇷🇴 RO | VLESS | @v2ray_free_conf #2", "server": "dqf21.sdssd1.sadqwdw1.carvan1.mimkiscx.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "983da2df-bc52-4226-84c1-bbfef0704427", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇵🇱 PL | VLESS | @config_proxy #1", "server": "as-pl.agveit.pro", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2402d74e-dbad-4ce3-9c0b-9202714715dc", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇵🇱 PL | VLESS | @config_proxy #2", "server": "195.3.222.170", "port": 465, "type": "vless", "skip-cert-verify": true, "uuid": "d08a63e7-dbea-4a36-a239-9f0b37a46b40", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇵🇱 PL | VLESS | @config_proxy #3", "server": "195.3.222.170", "port": 465, "type": "vless", "skip-cert-verify": true, "uuid": "916de9ac-1fe3-4c93-887a-ce4285d0bb9b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇵🇱 PL | VLESS | @config_proxy #4", "server": "5.181.188.224", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "c08d880e-106f-4366-9d00-cc9355d99abc", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇵🇱 PL | TROJAN | @v2ray_free_conf #1", "server": "funky-platypus.rooster465.autos", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "WF42809561"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +41,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇷🇴 RO | VLESS | @v2ray_free_conf #1'
-      - '🇷🇴 RO | VLESS | @v2ray_free_conf #2'
+      - '🇵🇱 PL | VLESS | @config_proxy #1'
+      - '🇵🇱 PL | VLESS | @config_proxy #2'
+      - '🇵🇱 PL | VLESS | @config_proxy #3'
+      - '🇵🇱 PL | VLESS | @config_proxy #4'
+      - '🇵🇱 PL | TROJAN | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

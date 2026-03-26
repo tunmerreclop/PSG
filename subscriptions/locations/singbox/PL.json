@@ -90,8 +90,12 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | SS | @netfreedom0 #1",
-        "🇵🇱 PL | SS | @outlinereleasedkey #1"
+        "🇵🇱 PL | VLESS | @config_proxy #1",
+        "🇵🇱 PL | VLESS | @config_proxy #2",
+        "🇵🇱 PL | VLESS | @config_proxy #3",
+        "🇵🇱 PL | VLESS | @config_proxy #4",
+        "🇵🇱 PL | SS | @outlinereleasedkey #1",
+        "🇵🇱 PL | TROJAN | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +103,12 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | SS | @netfreedom0 #1",
-        "🇵🇱 PL | SS | @outlinereleasedkey #1"
+        "🇵🇱 PL | VLESS | @config_proxy #1",
+        "🇵🇱 PL | VLESS | @config_proxy #2",
+        "🇵🇱 PL | VLESS | @config_proxy #3",
+        "🇵🇱 PL | VLESS | @config_proxy #4",
+        "🇵🇱 PL | SS | @outlinereleasedkey #1",
+        "🇵🇱 PL | TROJAN | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,12 +120,59 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | SS | @netfreedom0 #1",
-      "type": "shadowsocks",
-      "server": "217.30.10.70",
-      "server_port": 9000,
-      "method": "YWVzLTI1Ni1jZmI6YTNHRll0MzZTbTgyVnlzOQ==",
-      "password": null
+      "tag": "🇵🇱 PL | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "as-pl.agveit.pro",
+      "server_port": 443,
+      "uuid": "2402d74e-dbad-4ce3-9c0b-9202714715dc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "195.3.222.170",
+      "server_port": 465,
+      "uuid": "d08a63e7-dbea-4a36-a239-9f0b37a46b40",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @config_proxy #3",
+      "type": "vless",
+      "server": "195.3.222.170",
+      "server_port": 465,
+      "uuid": "916de9ac-1fe3-4c93-887a-ce4285d0bb9b",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @config_proxy #4",
+      "type": "vless",
+      "server": "5.181.188.224",
+      "server_port": 443,
+      "uuid": "c08d880e-106f-4366-9d00-cc9355d99abc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇵🇱 PL | SS | @outlinereleasedkey #1",
@@ -126,6 +181,22 @@
       "server_port": 9011,
       "method": "YWVzLTI1Ni1jZmI6TTN0MlpFUWNNR1JXQmpSYQ==",
       "password": null
+    },
+    {
+      "tag": "🇵🇱 PL | TROJAN | @v2ray_free_conf #1",
+      "type": "trojan",
+      "server": "funky-platypus.rooster465.autos",
+      "server_port": 443,
+      "password": "WF42809561",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
