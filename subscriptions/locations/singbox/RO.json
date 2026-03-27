@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgRUU=
+//profile-title: base64:UFNHIHwgUk8=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,8 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇪 EE | VLESS | @config_proxy #1",
-        "🇪🇪 EE | VLESS | @config_proxy #2"
+        "🇷🇴 RO | VLESS | @v2ray_free_conf #1",
+        "🇷🇴 RO | VLESS | @v2ray_free_conf #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇪 EE | VLESS | @config_proxy #1",
-        "🇪🇪 EE | VLESS | @config_proxy #2"
+        "🇷🇴 RO | VLESS | @v2ray_free_conf #1",
+        "🇷🇴 RO | VLESS | @v2ray_free_conf #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,11 +112,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇪🇪 EE | VLESS | @config_proxy #1",
+      "tag": "🇷🇴 RO | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "ee.stardevs.top",
+      "server": "dqf21.sdssd1.sadqwdw1.carvan1.mimkiscx.ir",
       "server_port": 443,
-      "uuid": "f00984ef-f57e-41db-9182-b25f7bc3a1e2",
+      "uuid": "4c910b61-5229-4eb7-bdf4-692fcabf0fc1",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -129,11 +129,11 @@
       }
     },
     {
-      "tag": "🇪🇪 EE | VLESS | @config_proxy #2",
+      "tag": "🇷🇴 RO | VLESS | @v2ray_free_conf #2",
       "type": "vless",
-      "server": "144.31.178.192",
+      "server": "dqf21.sdssd1.sadqwdw1.carvan1.mimkiscx.ir",
       "server_port": 443,
-      "uuid": "a5fe029b-ed4d-4caf-b53f-2f8584c1a103",
+      "uuid": "983da2df-bc52-4226-84c1-bbfef0704427",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -143,10 +143,6 @@
           "enabled": true,
           "fingerprint": "chrome"
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": ""
       }
     }
   ],
