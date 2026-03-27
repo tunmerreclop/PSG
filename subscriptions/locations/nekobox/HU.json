@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇺 HU | VLESS | @config_proxy #1"
+        "🇭🇺 HU | VLESS | @config_proxy #1",
+        "🇭🇺 HU | VLESS | @config_proxy #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇺 HU | VLESS | @config_proxy #1"
+        "🇭🇺 HU | VLESS | @config_proxy #1",
+        "🇭🇺 HU | VLESS | @config_proxy #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -104,10 +106,28 @@
       "tag": "🇭🇺 HU | VLESS | @config_proxy #1",
       "type": "vless",
       "server": "217.13.104.133",
-      "server_port": 7443,
+      "server_port": 10443,
       "uuid": "88b15015-386d-4bc1-a5de-56c2042e23cc",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision"
+    },
+    {
+      "tag": "🇭🇺 HU | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "217.13.104.95",
+      "server_port": 443,
+      "uuid": "721842b2-f627-43b6-821e-ef5798a28bfe",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
