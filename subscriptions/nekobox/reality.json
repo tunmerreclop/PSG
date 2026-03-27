@@ -80,13 +80,14 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇺🇸 US | VLESS | @config_proxy #1",
+        "🇪🇪 EE | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #2",
         "🇲🇩 MD | VLESS | @vpn_ioss #3",
         "🇩🇪 DE | VLESS | @vpnv2raytop #1",
+        "🇪🇪 EE | VLESS | @config_proxy #2",
         "🇸🇮 SI | VLESS | @filterk0sh #1",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
@@ -112,13 +113,14 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇺🇸 US | VLESS | @config_proxy #1",
+        "🇪🇪 EE | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #2",
         "🇲🇩 MD | VLESS | @vpn_ioss #3",
         "🇩🇪 DE | VLESS | @vpnv2raytop #1",
+        "🇪🇪 EE | VLESS | @config_proxy #2",
         "🇸🇮 SI | VLESS | @filterk0sh #1",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
@@ -221,11 +223,11 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @config_proxy #1",
+      "tag": "🇪🇪 EE | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "latnn.vpnspacev.com",
+      "server": "ee.stardevs.top",
       "server_port": 443,
-      "uuid": "0b680642-cd58-4bf5-b09d-3d3e89efdef0",
+      "uuid": "f00984ef-f57e-41db-9182-b25f7bc3a1e2",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -367,6 +369,27 @@
           "short_id": "",
           "enabled": true
         }
+      }
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "144.31.178.192",
+      "server_port": 443,
+      "uuid": "a5fe029b-ed4d-4caf-b53f-2f8584c1a103",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
       }
     },
     {

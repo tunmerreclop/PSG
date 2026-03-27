@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQkU=
+//profile-title: base64:UFNHIHwgRUU=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇧🇪 BE | VLESS | @v2ray_free_conf #1"
+        "🇪🇪 EE | VLESS | @config_proxy #1",
+        "🇪🇪 EE | VLESS | @config_proxy #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇧🇪 BE | VLESS | @v2ray_free_conf #1"
+        "🇪🇪 EE | VLESS | @config_proxy #1",
+        "🇪🇪 EE | VLESS | @config_proxy #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,11 +112,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇧🇪 BE | VLESS | @v2ray_free_conf #1",
+      "tag": "🇪🇪 EE | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "fs.cedriklorenz.ir",
+      "server": "ee.stardevs.top",
       "server_port": 443,
-      "uuid": "fecdbda8-69b2-449a-b8d5-e798ff1c1e6d",
+      "uuid": "f00984ef-f57e-41db-9182-b25f7bc3a1e2",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -124,6 +126,27 @@
           "enabled": true,
           "fingerprint": "chrome"
         }
+      }
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "144.31.178.192",
+      "server_port": 443,
+      "uuid": "a5fe029b-ed4d-4caf-b53f-2f8584c1a103",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
       }
     }
   ],
