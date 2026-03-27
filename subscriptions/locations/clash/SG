@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇭🇺 HU | VLESS | @config_proxy #1", "server": "217.13.104.133", "port": 10443, "type": "vless", "skip-cert-verify": true, "uuid": "88b15015-386d-4bc1-a5de-56c2042e23cc", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
-  - {"name": "🇭🇺 HU | VLESS | @config_proxy #2", "server": "217.13.104.95", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "721842b2-f627-43b6-821e-ef5798a28bfe", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
+  - {"name": "🇸🇬 SG | VMESS | @config_proxy #1", "server": "35.240.225.23", "port": 8880, "type": "vmess", "skip-cert-verify": true, "uuid": "c5dd6680-64ad-4f04-9952-49d94984f9eb", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/", "headers": {"Host": "35.240.225.23"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇭🇺 HU | VLESS | @config_proxy #1'
-      - '🇭🇺 HU | VLESS | @config_proxy #2'
+      - '🇸🇬 SG | VMESS | @config_proxy #1'
 
   - name: 🌍 Global Media
     type: select

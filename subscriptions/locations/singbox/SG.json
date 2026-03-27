@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgSFU=
+//profile-title: base64:UFNHIHwgU0c=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,8 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇺 HU | VLESS | @config_proxy #1",
-        "🇭🇺 HU | VLESS | @config_proxy #2"
+        "🇸🇬 SG | VMESS | @config_proxy #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇺 HU | VLESS | @config_proxy #1",
-        "🇭🇺 HU | VLESS | @config_proxy #2"
+        "🇸🇬 SG | VMESS | @config_proxy #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,29 +110,18 @@
       "type": "direct"
     },
     {
-      "tag": "🇭🇺 HU | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "217.13.104.133",
-      "server_port": 10443,
-      "uuid": "88b15015-386d-4bc1-a5de-56c2042e23cc",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "tag": "🇭🇺 HU | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "217.13.104.95",
-      "server_port": 443,
-      "uuid": "721842b2-f627-43b6-821e-ef5798a28bfe",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+      "tag": "🇸🇬 SG | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "35.240.225.23",
+      "server_port": 8880,
+      "uuid": "c5dd6680-64ad-4f04-9952-49d94984f9eb",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
         }
       }
     }
