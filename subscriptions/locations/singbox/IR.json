@@ -91,12 +91,12 @@
         "auto",
         "direct",
         "🇮🇷 IR | VMESS | @config_proxy #1",
-        "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇮🇷 IR | TROJAN | @prrofile_purple #1",
         "🇮🇷 IR | VLESS | @prrofile_purple #1",
+        "🇮🇷 IR | VLESS | @prrofile_purple #2",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @vmesskhodam #1",
         "🇮🇷 IR | VLESS | @vmesskhodam #2"
@@ -108,12 +108,12 @@
       "interval": "10m",
       "outbounds": [
         "🇮🇷 IR | VMESS | @config_proxy #1",
-        "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇮🇷 IR | TROJAN | @prrofile_purple #1",
         "🇮🇷 IR | VLESS | @prrofile_purple #1",
+        "🇮🇷 IR | VLESS | @prrofile_purple #2",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @vmesskhodam #1",
         "🇮🇷 IR | VLESS | @vmesskhodam #2"
@@ -151,14 +151,6 @@
           "Host": "i-love-iran.amlakayuni.ir"
         }
       }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "tsstt.1.globalmymusic2.com",
-      "server_port": 80,
-      "uuid": "5927166d-e1fe-455c-b8f6-f5a8524c0397",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VMESS | @khoneproxy #1",
@@ -225,6 +217,14 @@
       "server": "snapp.doctor",
       "server_port": 80,
       "uuid": "4c003bc1-6e72-40d4-8b9b-0e814e315336",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @prrofile_purple #2",
+      "type": "vless",
+      "server": "snapp.ir",
+      "server_port": 80,
+      "uuid": "7b85b51d-4b64-4931-854c-5130389297ab",
       "packet_encoding": "xudp"
     },
     {
