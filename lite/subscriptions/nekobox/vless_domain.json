@@ -128,13 +128,12 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayng3 #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
-        "🇺🇸 US | VLESS | @v2rayngconfiig #2",
+        "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇽🇽 XX | VLESS | @v2rayprotocol #1",
         "🇽🇽 XX | VLESS | @v2rayprotocol #2",
         "🇽🇽 XX | VLESS | @v2rayy_vpn13 #1",
@@ -209,13 +208,12 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayng3 #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
-        "🇺🇸 US | VLESS | @v2rayngconfiig #2",
+        "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇽🇽 XX | VLESS | @v2rayprotocol #1",
         "🇽🇽 XX | VLESS | @v2rayprotocol #2",
         "🇽🇽 XX | VLESS | @v2rayy_vpn13 #1",
@@ -875,20 +873,21 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "link2x05342_2.temp.veraspeed.ir",
-      "server_port": 80,
-      "uuid": "ec7bed7e-8516-4c72-9d20-ffcef7366ac9",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
-      "type": "vless",
-      "server": "snapp.ir",
-      "server_port": 80,
-      "uuid": "11d6ef4e-f44d-4c72-bde9-369ad117c393",
-      "packet_encoding": "xudp"
+      "server": "proxy.rahmancloud.ir",
+      "server_port": 8443,
+      "uuid": "6b279ab4-10e8-4e66-fb5d-9092c6709a1e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2raybe #1",
@@ -932,7 +931,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #2",
+      "tag": "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
       "type": "vless",
       "server": "test.fast.hosting-ip.com",
       "server_port": 80,
