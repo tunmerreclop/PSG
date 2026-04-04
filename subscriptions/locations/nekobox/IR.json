@@ -281,10 +281,17 @@
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "185.143.234.200",
-      "server_port": 80,
-      "uuid": "345f54c1-d2da-48cb-b2dc-1780f6620da9",
-      "packet_encoding": "xudp"
+      "server": "snapp.ir",
+      "server_port": 8080,
+      "uuid": "9c6e163d-35f0-4309-95ac-d71938c05d7e",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
+        }
+      }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
