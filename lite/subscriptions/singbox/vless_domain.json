@@ -99,7 +99,7 @@
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇽🇽 XX | VLESS | @diamondproxytm #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
-        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
+        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇽🇽 XX | VLESS | @f_nirevil #1",
         "🇽🇽 XX | VLESS | @f_nirevil #2",
         "🇺🇸 US | VLESS | @filterk0sh #1",
@@ -123,7 +123,7 @@
         "🇽🇽 XX | VLESS | @lockey_vpn #1",
         "🇽🇽 XX | VLESS | @lockey_vpn #2",
         "🇽🇽 XX | VLESS | @manstervpn #1",
-        "🇸🇨 SC | VLESS | @mpproxy #1",
+        "🇩🇪 DE | VLESS | @mpproxy #1",
         "🇽🇽 XX | VLESS | @mt_proxy #2",
         "🇽🇽 XX | VLESS | @mtpv2ray #1",
         "🇽🇽 XX | VLESS | @nn_vpn #1",
@@ -140,7 +140,7 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayng3 #1",
@@ -181,7 +181,7 @@
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇽🇽 XX | VLESS | @diamondproxytm #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
-        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
+        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇽🇽 XX | VLESS | @f_nirevil #1",
         "🇽🇽 XX | VLESS | @f_nirevil #2",
         "🇺🇸 US | VLESS | @filterk0sh #1",
@@ -205,7 +205,7 @@
         "🇽🇽 XX | VLESS | @lockey_vpn #1",
         "🇽🇽 XX | VLESS | @lockey_vpn #2",
         "🇽🇽 XX | VLESS | @manstervpn #1",
-        "🇸🇨 SC | VLESS | @mpproxy #1",
+        "🇩🇪 DE | VLESS | @mpproxy #1",
         "🇽🇽 XX | VLESS | @mt_proxy #2",
         "🇽🇽 XX | VLESS | @mtpv2ray #1",
         "🇽🇽 XX | VLESS | @nn_vpn #1",
@@ -222,7 +222,7 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayng3 #1",
@@ -378,7 +378,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
+      "tag": "🇺🇸 US | VLESS | @eliteproxyv2 #1",
       "type": "vless",
       "server": "germany.fast.hosting-ip.com",
       "server_port": 80,
@@ -679,7 +679,7 @@
       }
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @mpproxy #1",
+      "tag": "🇩🇪 DE | VLESS | @mpproxy #1",
       "type": "vless",
       "server": "srv1.khatibirepair.ir",
       "server_port": 2086,
@@ -878,12 +878,21 @@
       }
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "glob.thisiswe.uno",
-      "server_port": 2053,
-      "uuid": "d4f44cf4-cbca-4313-9156-5a8498b20387",
-      "packet_encoding": "xudp"
+      "server": "mv2.amydoodles.com",
+      "server_port": 443,
+      "uuid": "66b2d54e-85ae-4664-88a2-90d70808d624",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2raybe #1",
