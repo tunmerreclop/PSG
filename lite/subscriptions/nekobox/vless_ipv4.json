@@ -157,10 +157,11 @@
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
         "🇱🇹 LT | VLESS | @v2ray_collector #1",
-        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇭🇰 HK | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
+        "🇿🇦 ZA | VLESS | @v2ray_vmes #1",
         "🇦🇺 AU | VLESS | @v2ray_vmes #1",
-        "🇽🇽 XX | VLESS | @v2ray_vmes #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #2",
         "🇩🇪 DE | VLESS | @v2raych #1",
@@ -179,6 +180,7 @@
         "🇽🇽 XX | VLESS | @vboxpanel #1",
         "🇽🇽 XX | VLESS | @vboxpanel #2",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
+        "🇫🇷 FR | VLESS | @vlessconfig #1",
         "🇩🇪 DE | VLESS | @vlessconfig #1",
         "🇽🇽 XX | VLESS | @vpn_ocean #1"
       ],
@@ -268,10 +270,11 @@
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
         "🇱🇹 LT | VLESS | @v2ray_collector #1",
-        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇭🇰 HK | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
+        "🇿🇦 ZA | VLESS | @v2ray_vmes #1",
         "🇦🇺 AU | VLESS | @v2ray_vmes #1",
-        "🇽🇽 XX | VLESS | @v2ray_vmes #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #2",
         "🇩🇪 DE | VLESS | @v2raych #1",
@@ -290,6 +293,7 @@
         "🇽🇽 XX | VLESS | @vboxpanel #1",
         "🇽🇽 XX | VLESS | @vboxpanel #2",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
+        "🇫🇷 FR | VLESS | @vlessconfig #1",
         "🇩🇪 DE | VLESS | @vlessconfig #1",
         "🇽🇽 XX | VLESS | @vpn_ocean #1"
       ],
@@ -1360,11 +1364,35 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+      "tag": "🇭🇰 HK | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "185.93.105.113",
+      "server": "222.167.202.50",
+      "server_port": 7443,
+      "uuid": "06ef598c-1555-4887-b3f9-08214a2f6792",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "104.18.12.229",
+      "server_port": 8880,
+      "uuid": "78c5b6bd-1cb6-463c-bcba-9f17ef70c85b",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
+      "type": "vless",
+      "server": "185.143.233.120",
+      "server_port": 2086,
+      "uuid": "e9e437c2-1ee5-4f0d-ae09-4bfafc835e47",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇿🇦 ZA | VLESS | @v2ray_vmes #1",
+      "type": "vless",
+      "server": "102.37.155.79",
       "server_port": 443,
-      "uuid": "c4f2dee2-14e3-4c02-91e9-31c7917e239c",
+      "uuid": "a2a7636b-25d9-4f83-941c-ba88cef9e2e2",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -1377,27 +1405,11 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
-      "type": "vless",
-      "server": "185.143.233.120",
-      "server_port": 2086,
-      "uuid": "e9e437c2-1ee5-4f0d-ae09-4bfafc835e47",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇦🇺 AU | VLESS | @v2ray_vmes #1",
       "type": "vless",
       "server": "103.73.65.187",
       "server_port": 7000,
       "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @v2ray_vmes #1",
-      "type": "vless",
-      "server": "104.21.3.219",
-      "server_port": 8443,
-      "uuid": "57ba2ab1-a283-42eb-82ee-dc3561a805b8",
       "packet_encoding": "xudp"
     },
     {
@@ -1664,6 +1676,21 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @vlessconfig #1",
+      "type": "vless",
+      "server": "15.237.155.59",
+      "server_port": 22224,
+      "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
         }
       }
     },
