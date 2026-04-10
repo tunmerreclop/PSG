@@ -98,6 +98,7 @@
         "🇸🇪 SE | VLESS | @proxyfn #1",
         "🇨🇭 CH | VLESS | @proxyfn #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
         "🇩🇪 DE | VLESS | @v2raych #2",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇷🇺 RU | VLESS | @vpnplusee_free #1",
@@ -118,6 +119,7 @@
         "🇸🇪 SE | VLESS | @proxyfn #1",
         "🇨🇭 CH | VLESS | @proxyfn #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
         "🇩🇪 DE | VLESS | @v2raych #2",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇷🇺 RU | VLESS | @vpnplusee_free #1",
@@ -280,6 +282,23 @@
       "server": "95.179.138.190",
       "server_port": 443,
       "uuid": "telegram-id-qeshmserver",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "85.192.49.230",
+      "server_port": 443,
+      "uuid": "8de7627c-1995-41f7-93e6-7fd9715514a2",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
