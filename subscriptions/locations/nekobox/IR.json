@@ -324,18 +324,27 @@
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "shopcenter.lumavision.ir",
-      "server_port": 8080,
-      "uuid": "11a6d832-cac8-4ce4-a2f9-f0e87c4b6e35",
+      "server": "snapp.ir",
+      "server_port": 80,
+      "uuid": "e92933f3-a778-4b6d-b2a9-e67a6a5f1fce",
       "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
       "type": "vless",
-      "server": "185.143.234.235",
-      "server_port": 80,
-      "uuid": "b23f471d-5f6b-4593-99fe-1535341c9789",
-      "packet_encoding": "xudp"
+      "server": "camp.nahidapp.com",
+      "server_port": 443,
+      "uuid": "c0aa430a-48d2-495a-914d-c776bdc106f8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
