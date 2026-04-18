@@ -122,6 +122,7 @@
         "🇽🇽 XX | VLESS | @frev2rayng #1",
         "🇽🇽 XX | VLESS | @garnet_free #1",
         "🇽🇽 XX | VLESS | @gervpn #1",
+        "🇽🇽 XX | VLESS | @ghalagyann #1",
         "🇽🇽 XX | VLESS | @goldenshiinevpn #1",
         "🇽🇽 XX | VLESS | @iran_access #1",
         "🇽🇽 XX | VLESS | @iran_access #2",
@@ -188,6 +189,7 @@
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
@@ -208,6 +210,7 @@
         "🇽🇽 XX | VLESS | @vip_vpn_2022 #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇩🇪 DE | VLESS | @vlessconfig #1",
+        "🇫🇷 FR | VLESS | @vlessconfig #1",
         "🇽🇽 XX | VLESS | @vmesc #1",
         "🇽🇽 XX | VLESS | @vmesskhodam #1",
         "🇭🇰 HK | VLESS | @vmesskhodam #1",
@@ -253,6 +256,7 @@
         "🇽🇽 XX | VLESS | @frev2rayng #1",
         "🇽🇽 XX | VLESS | @garnet_free #1",
         "🇽🇽 XX | VLESS | @gervpn #1",
+        "🇽🇽 XX | VLESS | @ghalagyann #1",
         "🇽🇽 XX | VLESS | @goldenshiinevpn #1",
         "🇽🇽 XX | VLESS | @iran_access #1",
         "🇽🇽 XX | VLESS | @iran_access #2",
@@ -319,6 +323,7 @@
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
@@ -339,6 +344,7 @@
         "🇽🇽 XX | VLESS | @vip_vpn_2022 #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇩🇪 DE | VLESS | @vlessconfig #1",
+        "🇫🇷 FR | VLESS | @vlessconfig #1",
         "🇽🇽 XX | VLESS | @vmesc #1",
         "🇽🇽 XX | VLESS | @vmesskhodam #1",
         "🇭🇰 HK | VLESS | @vmesskhodam #1",
@@ -574,8 +580,8 @@
     {
       "tag": "🇽🇽 XX | VLESS | @ehsawn8 #1",
       "type": "vless",
-      "server": "104.18.13.149",
-      "server_port": 2053,
+      "server": "8.6.112.0",
+      "server_port": 2096,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "packet_encoding": "xudp"
     },
@@ -815,6 +821,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @ghalagyann #1",
+      "type": "vless",
+      "server": "8.6.112.0",
+      "server_port": 80,
+      "uuid": "6b6e30a9-da34-40c8-8436-fe9677ec6bb9",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @goldenshiinevpn #1",
@@ -1305,7 +1319,7 @@
     {
       "tag": "🇽🇽 XX | VLESS | @parsashonam #1",
       "type": "vless",
-      "server": "104.17.72.206",
+      "server": "172.64.149.54",
       "server_port": 443,
       "uuid": "Telegram-Parsashonam",
       "packet_encoding": "xudp",
@@ -1322,7 +1336,7 @@
     {
       "tag": "🇽🇽 XX | VLESS | @parsashonam #2",
       "type": "vless",
-      "server": "172.64.149.54",
+      "server": "8.6.112.0",
       "server_port": 443,
       "uuid": "Telegram-Parsashonam",
       "packet_encoding": "xudp",
@@ -1650,6 +1664,23 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "188.114.97.3",
+      "server_port": 443,
+      "uuid": "turboo-server",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
       "type": "vless",
       "server": "185.143.233.120",
@@ -1901,6 +1932,21 @@
       "tag": "🇩🇪 DE | VLESS | @vlessconfig #1",
       "type": "vless",
       "server": "3.65.185.26",
+      "server_port": 22224,
+      "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @vlessconfig #1",
+      "type": "vless",
+      "server": "13.37.187.91",
       "server_port": 22224,
       "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
       "packet_encoding": "xudp",

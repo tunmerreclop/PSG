@@ -90,6 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇺🇸 US | VLESS | @artemis_vpn_free #1",
+        "🇺🇸 US | VLESS | @artemis_vpn_free #2",
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
@@ -129,7 +131,6 @@
         "🇺🇸 US | VLESS | @v2aryng_vpn #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇺🇸 US | VLESS | @v2rayngconfiig #3",
@@ -143,6 +144,8 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇺🇸 US | VLESS | @artemis_vpn_free #1",
+        "🇺🇸 US | VLESS | @artemis_vpn_free #2",
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
@@ -182,7 +185,6 @@
         "🇺🇸 US | VLESS | @v2aryng_vpn #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇺🇸 US | VLESS | @v2rayngconfiig #3",
@@ -198,6 +200,22 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @artemis_vpn_free #1",
+      "type": "vless",
+      "server": "artemis.sbs",
+      "server_port": 80,
+      "uuid": "6ae833da-e51f-48b4-a870-1f1aafe17378",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @artemis_vpn_free #2",
+      "type": "vless",
+      "server": "artemis.sbs",
+      "server_port": 80,
+      "uuid": "6db4a91c-838d-419a-af83-bc5bd211ffc6",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇺🇸 US | VLESS | @bored_vpn #1",
@@ -746,23 +764,6 @@
       "server": "103.133.1.227",
       "server_port": 443,
       "uuid": "401374e6-df77-41fb-f638-dad8184f175b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "fast2.mrsf.ir",
-      "server_port": 443,
-      "uuid": "f02a08c2-f157-42c9-bdd6-74f6e2e5e8ef",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
