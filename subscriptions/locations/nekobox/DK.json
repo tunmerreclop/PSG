@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇴 RO | VLESS | @v2ray_free_conf #1"
+        "🇩🇰 DK | VLESS | @v2ray_free_conf #1",
+        "🇩🇰 DK | VLESS | @v2ray_free_conf #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇴 RO | VLESS | @v2ray_free_conf #1"
+        "🇩🇰 DK | VLESS | @v2ray_free_conf #1",
+        "🇩🇰 DK | VLESS | @v2ray_free_conf #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,11 +103,28 @@
       "type": "direct"
     },
     {
-      "tag": "🇷🇴 RO | VLESS | @v2ray_free_conf #1",
+      "tag": "🇩🇰 DK | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "dqf21.sdssd1.sadqwdw1.carvan1.mimkiscx.ir",
+      "server": "016fab73dd0e5521.freestly.sapienza-mahan.ir",
       "server_port": 443,
       "uuid": "983da2df-bc52-4226-84c1-bbfef0704427",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇰 DK | VLESS | @v2ray_free_conf #2",
+      "type": "vless",
+      "server": "24dc5c91924c5346.freestly.sapienza-mahan.ir",
+      "server_port": 443,
+      "uuid": "d230f0f7-6826-4f8e-8dbb-69ee2c837358",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgUlU=
+//profile-title: base64:UFNHIHwgREs=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇺 RU | VLESS | @vmesskhodam #1"
+        "🇩🇰 DK | VLESS | @v2ray_free_conf #1",
+        "🇩🇰 DK | VLESS | @v2ray_free_conf #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇺 RU | VLESS | @vmesskhodam #1"
+        "🇩🇰 DK | VLESS | @v2ray_free_conf #1",
+        "🇩🇰 DK | VLESS | @v2ray_free_conf #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,11 +112,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @vmesskhodam #1",
+      "tag": "🇩🇰 DK | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "185.253.23.111",
+      "server": "016fab73dd0e5521.freestly.sapienza-mahan.ir",
       "server_port": 443,
-      "uuid": "9d94835e-2a8b-45a2-babc-86037288cd9f",
+      "uuid": "983da2df-bc52-4226-84c1-bbfef0704427",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -123,11 +125,23 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇰 DK | VLESS | @v2ray_free_conf #2",
+      "type": "vless",
+      "server": "24dc5c91924c5346.freestly.sapienza-mahan.ir",
+      "server_port": 443,
+      "uuid": "d230f0f7-6826-4f8e-8dbb-69ee2c837358",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }

@@ -113,6 +113,7 @@
         "🇽🇽 XX | VLESS | @lockey_vpn #2",
         "🇽🇽 XX | VLESS | @manstervpn #1",
         "🇸🇨 SC | VLESS | @mpproxy #1",
+        "🇸🇨 SC | VLESS | @mpproxy #2",
         "🇽🇽 XX | VLESS | @mt_proxy #2",
         "🇽🇽 XX | VLESS | @nn_vpn #1",
         "🇽🇽 XX | VLESS | @prooxyk #1",
@@ -131,7 +132,7 @@
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayng3 #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
-        "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
+        "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇽🇽 XX | VLESS | @v2rayprotocol #1",
         "🇽🇽 XX | VLESS | @v2rayprotocol #2",
         "🇽🇽 XX | VLESS | @v2rayy_vpn13 #1",
@@ -187,6 +188,7 @@
         "🇽🇽 XX | VLESS | @lockey_vpn #2",
         "🇽🇽 XX | VLESS | @manstervpn #1",
         "🇸🇨 SC | VLESS | @mpproxy #1",
+        "🇸🇨 SC | VLESS | @mpproxy #2",
         "🇽🇽 XX | VLESS | @mt_proxy #2",
         "🇽🇽 XX | VLESS | @nn_vpn #1",
         "🇽🇽 XX | VLESS | @prooxyk #1",
@@ -205,7 +207,7 @@
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayng3 #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
-        "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
+        "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇽🇽 XX | VLESS | @v2rayprotocol #1",
         "🇽🇽 XX | VLESS | @v2rayprotocol #2",
         "🇽🇽 XX | VLESS | @v2rayy_vpn13 #1",
@@ -673,8 +675,25 @@
       "tag": "🇸🇨 SC | VLESS | @mpproxy #1",
       "type": "vless",
       "server": "srv1.khatibirepair.ir",
-      "server_port": 80,
-      "uuid": "ffa37367-6313-4cc5-86bd-3d8dc879c24e",
+      "server_port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @mpproxy #2",
+      "type": "vless",
+      "server": "srv1.khatibirepair.ir",
+      "server_port": 8443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "packet_encoding": "xudp"
     },
     {
@@ -829,9 +848,9 @@
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "proxy.rahmancloud.ir",
-      "server_port": 8443,
-      "uuid": "6b279ab4-10e8-4e66-fb5d-9092c6709a1e",
+      "server": "nekopingbot.thisiswe.uno",
+      "server_port": 2053,
+      "uuid": "ee9b0614-50ec-41b6-951b-e1d5d755fa4b",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -885,7 +904,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
+      "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #2",
       "type": "vless",
       "server": "test.fast.hosting-ip.com",
       "server_port": 80,
