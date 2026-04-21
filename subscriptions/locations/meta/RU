@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇷🇺 RU | VLESS | @v2ray_collector #1", "server": "188.225.80.183", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "5475990d-e0ce-46ea-95e5-50f9e4879af9", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @vmesskhodam #1", "server": "185.253.23.111", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "9d94835e-2a8b-45a2-babc-86037288cd9f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇷🇺 RU | VLESS | @v2ray_collector #1'
+      - '🇷🇺 RU | VLESS | @vmesskhodam #1'
 
   - name: 🌍 Global Media
     type: select
