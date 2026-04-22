@@ -90,7 +90,7 @@
         "🇰🇿 KZ | VLESS | @red2ray #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
         "🇷🇺 RU | VLESS | @v2ray_collector #1",
-        "🇬🇷 GR | VLESS | @v2ray_free_conf #1",
+        "🇿🇦 ZA | VLESS | @v2ray_free_conf #1",
         "🇩🇪 DE | VLESS | @v2raych #2",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇹🇷 TR | VLESS | @vmesc #1"
@@ -114,7 +114,7 @@
         "🇰🇿 KZ | VLESS | @red2ray #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
         "🇷🇺 RU | VLESS | @v2ray_collector #1",
-        "🇬🇷 GR | VLESS | @v2ray_free_conf #1",
+        "🇿🇦 ZA | VLESS | @v2ray_free_conf #1",
         "🇩🇪 DE | VLESS | @v2raych #2",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇹🇷 TR | VLESS | @vmesc #1"
@@ -387,12 +387,21 @@
       }
     },
     {
-      "tag": "🇬🇷 GR | VLESS | @v2ray_free_conf #1",
+      "tag": "🇿🇦 ZA | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "94.241.140.25",
-      "server_port": 8443,
-      "uuid": "142e8693-e884-475d-80c8-8cd637b13493",
-      "packet_encoding": "xudp"
+      "server": "102.37.155.79",
+      "server_port": 443,
+      "uuid": "a2a7636b-25d9-4f83-941c-ba88cef9e2e2",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @v2raych #2",
