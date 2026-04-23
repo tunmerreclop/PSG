@@ -83,12 +83,14 @@
         "🇩🇪 DE | VMESS | @freev2rays #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
+        "🇺🇸 US | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VMESS | @iranvpnet #1",
+        "🇦🇺 AU | VMESS | @khoneproxy #1",
         "🇽🇽 XX | VMESS | @manstervpn #1",
+        "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
-        "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1"
       ],
@@ -104,12 +106,14 @@
         "🇩🇪 DE | VMESS | @freev2rays #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
+        "🇺🇸 US | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VMESS | @iranvpnet #1",
+        "🇦🇺 AU | VMESS | @khoneproxy #1",
         "🇽🇽 XX | VMESS | @manstervpn #1",
+        "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
-        "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1"
       ],
@@ -267,6 +271,31 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VMESS | @ir_netproxy #1",
+      "type": "vmess",
+      "server": "172.67.207.114",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 1,
+      "tls": {
+        "enabled": true,
+        "server_name": "ophelia.mom",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "linkvws",
+        "headers": {
+          "Host": "ophelia.mom"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VMESS | @iranvpnet #1",
       "type": "vmess",
       "server": "mute-math-d64e.0e503992ad7026.WOrKERs.deV",
@@ -292,6 +321,31 @@
       }
     },
     {
+      "tag": "🇦🇺 AU | VMESS | @khoneproxy #1",
+      "type": "vmess",
+      "server": "us-2.0rd.net",
+      "server_port": 443,
+      "uuid": "597888c0-a318-11ed-b536-205c6d5f5d78",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/tq98e0yk",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VMESS | @manstervpn #1",
       "type": "vmess",
       "server": "104.16.60.8",
@@ -304,6 +358,31 @@
         "path": "/glweidf.sbs/linkws",
         "headers": {
           "Host": "1c11-muddy-rice-1c11.vetanex501.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @mi_pn_official #1",
+      "type": "vmess",
+      "server": "104.21.15.212",
+      "server_port": 443,
+      "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "glweidf.sbs",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkws",
+        "headers": {
+          "Host": "glweidf.sbs"
         }
       }
     },
@@ -370,24 +449,6 @@
         "path": "/graphql",
         "headers": {
           "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VMESS | @khoneproxy #2",
-      "type": "vmess",
-      "server": "167.235.205.182",
-      "server_port": 443,
-      "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     },
