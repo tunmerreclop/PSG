@@ -102,6 +102,7 @@
         "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇽🇽 XX | VLESS | @f_nirevil #1",
         "🇽🇽 XX | VLESS | @f_nirevil #2",
+        "🇮🇷 IR | VLESS | @father_vpn #1",
         "🇮🇷 IR | VLESS | @father_vpn #2",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
@@ -142,7 +143,8 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayng3 #1",
@@ -185,6 +187,7 @@
         "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇽🇽 XX | VLESS | @f_nirevil #1",
         "🇽🇽 XX | VLESS | @f_nirevil #2",
+        "🇮🇷 IR | VLESS | @father_vpn #1",
         "🇮🇷 IR | VLESS | @father_vpn #2",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
@@ -225,7 +228,8 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayng3 #1",
@@ -404,11 +408,19 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @father_vpn #2",
+      "tag": "🇮🇷 IR | VLESS | @father_vpn #1",
       "type": "vless",
       "server": "snapp.ir",
       "server_port": 2082,
       "uuid": "fa1edd99-86b6-4a6f-9745-c476c59c0568",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @father_vpn #2",
+      "type": "vless",
+      "server": "www.vinatech.ir",
+      "server_port": 8880,
+      "uuid": "405f0726-89dc-6729-5bd6-a1464e61b6ea",
       "packet_encoding": "xudp"
     },
     {
@@ -905,11 +917,28 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "snapp.ir",
-      "server_port": 8080,
-      "uuid": "e08f139a-3746-45a1-b5fb-e032c63252ae",
+      "server": "varzesh3.com",
+      "server_port": 443,
+      "uuid": "c387b0f2-5d9e-4c95-882d-1d5eeb443ce2",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "w.smarteracloud.com",
+      "server_port": 2096,
+      "uuid": "337bf72e-bb79-4d5f-be3f-7822eb77100c",
       "packet_encoding": "xudp"
     },
     {
