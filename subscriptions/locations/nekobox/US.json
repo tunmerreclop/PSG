@@ -79,7 +79,6 @@
         "direct",
         "🇺🇸 US | VLESS | @artemis_vpn_free #1",
         "🇺🇸 US | VLESS | @artemis_vpn_free #2",
-        "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | VLESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @config_proxy #2",
@@ -122,10 +121,8 @@
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
-        "🇺🇸 US | VLESS | @v2rayngconfiig #3",
         "🇺🇸 US | VLESS | @v2raytg #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VLESS | @NamiraConfigs #1"
@@ -138,7 +135,6 @@
       "outbounds": [
         "🇺🇸 US | VLESS | @artemis_vpn_free #1",
         "🇺🇸 US | VLESS | @artemis_vpn_free #2",
-        "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | VLESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @config_proxy #2",
@@ -181,10 +177,8 @@
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
-        "🇺🇸 US | VLESS | @v2rayngconfiig #3",
         "🇺🇸 US | VLESS | @v2raytg #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VLESS | @NamiraConfigs #1"
@@ -219,14 +213,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @bored_vpn #1",
-      "type": "vless",
-      "server": "199.232.79.229",
-      "server_port": 80,
-      "uuid": "3d142a41-8e57-47d7-a579-f52c6eae79f7",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @buffalo_vpn #1",
       "type": "vless",
       "server": "199.232.0.177",
@@ -253,21 +239,13 @@
     {
       "tag": "🇺🇸 US | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "151.101.25.242",
-      "server_port": 80,
-      "uuid": "9d468e0a-01ca-41a2-a89b-73b2756f91ec",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @config_proxy #2",
-      "type": "vless",
       "server": "141.148.153.223",
       "server_port": 36818,
       "uuid": "8d2aeab8-ce98-47a6-84ec-d5b45d060b66",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @config_proxy #3",
+      "tag": "🇺🇸 US | VLESS | @config_proxy #2",
       "type": "vless",
       "server": "173.230.151.159",
       "server_port": 443,
@@ -282,6 +260,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @config_proxy #3",
+      "type": "vless",
+      "server": "23.94.61.157",
+      "server_port": 34237,
+      "uuid": "8d2aeab8-ce98-47a6-84ec-d5b45d060b66",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇺🇸 US | VLESS | @deli_servers #1",
@@ -830,23 +816,6 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "cdn.zoom.us",
-      "server_port": 443,
-      "uuid": "aaaaaabb-4ddd-4eee-9fff-ffffffffffff",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #1",
       "type": "vless",
       "server": "151.101.3.8",
@@ -856,14 +825,6 @@
     },
     {
       "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #2",
-      "type": "vless",
-      "server": "test.fast.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "TELEGRAM-CONFiGLiNE-29",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #3",
       "type": "vless",
       "server": "fastly1.hamrahflow.ir",
       "server_port": 443,
