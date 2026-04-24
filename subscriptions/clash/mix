@@ -24,9 +24,9 @@ dns:
 
 proxies: 
   - {"name": "🇦🇺 AU | VMESS | @dailyv2ray #1", "server": "104.31.16.104", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "12c25b50-f6c7-11ed-b230-205c6d5f5d78", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/qmbdkyzn", "headers": {"Host": "us-4.0rd.net"}}}
-  - {"name": "🇽🇽 XX | TROJAN | @filtershekan_channel #1", "server": "172.64.149.54", "port": 2096, "type": "trojan", "skip-cert-verify": false, "password": "8r%3C%5B9%27l6hAO%238ZQi"}
   - {"name": "🇯🇵 JP | TROJAN | @free4allvpn #1", "server": "kuame.missionsec.us", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D"}
-  - {"name": "🇽🇽 XX | TROJAN | @freeconfigsplus #1", "server": "104.16.80.73", "port": 8443, "type": "trojan", "skip-cert-verify": false, "password": "m4P3RHFI7K"}
+  - {"name": "🇽🇽 XX | TROJAN | @freeconfigsplus #1", "server": "172.64.149.54", "port": 2096, "type": "trojan", "skip-cert-verify": false, "password": "8r%3C%5B9%27l6hAO%238ZQi"}
+  - {"name": "🇽🇽 XX | TROJAN | @freeconfigsplus #2", "server": "104.16.80.73", "port": 8443, "type": "trojan", "skip-cert-verify": false, "password": "m4P3RHFI7K"}
   - {"name": "🇩🇪 DE | VMESS | @freev2rays #1", "server": "u8.huvicloud.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "6796611b-260e-4d63-9016-20c27b12e420", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/6796611b-260e-4d63-9016-20c27b12e420", "headers": {"Host": "u8.huvicloud.com"}}}
   - {"name": "🇭🇰 HK | VMESS | @freev2rays #1", "server": "hk2.lrzdx.uk", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "db69d5bc-d36c-4903-f471-74b98c5cefe5", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/register", "headers": {"Host": "hk2.lrzdx.uk"}}}
   - {"name": "🇺🇸 US | VMESS | @freev2rays #1", "server": "xcf037.facai2024.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "d9863037-0463-4615-e972-36ba9662d1e9", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/d9863037", "headers": {"Host": "xcf037.facai2024.com"}}}
@@ -76,9 +76,9 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇦🇺 AU | VMESS | @dailyv2ray #1'
-      - '🇽🇽 XX | TROJAN | @filtershekan_channel #1'
       - '🇯🇵 JP | TROJAN | @free4allvpn #1'
       - '🇽🇽 XX | TROJAN | @freeconfigsplus #1'
+      - '🇽🇽 XX | TROJAN | @freeconfigsplus #2'
       - '🇩🇪 DE | VMESS | @freev2rays #1'
       - '🇭🇰 HK | VMESS | @freev2rays #1'
       - '🇺🇸 US | VMESS | @freev2rays #1'
