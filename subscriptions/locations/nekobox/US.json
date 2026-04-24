@@ -84,12 +84,10 @@
         "🇺🇸 US | VLESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @config_proxy #2",
         "🇺🇸 US | VLESS | @config_proxy #3",
-        "🇺🇸 US | VLESS | @config_proxy #4",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
         "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
-        "🇺🇸 US | VLESS | @free4allvpn #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇺🇸 US | VLESS | @frev2rayng #1",
         "🇺🇸 US | VLESS | @frev2rayng #2",
@@ -124,8 +122,10 @@
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
+        "🇺🇸 US | VLESS | @v2rayngconfiig #3",
         "🇺🇸 US | VLESS | @v2raytg #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VLESS | @NamiraConfigs #1"
@@ -143,12 +143,10 @@
         "🇺🇸 US | VLESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @config_proxy #2",
         "🇺🇸 US | VLESS | @config_proxy #3",
-        "🇺🇸 US | VLESS | @config_proxy #4",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
         "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
-        "🇺🇸 US | VLESS | @free4allvpn #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇺🇸 US | VLESS | @frev2rayng #1",
         "🇺🇸 US | VLESS | @frev2rayng #2",
@@ -183,8 +181,10 @@
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
+        "🇺🇸 US | VLESS | @v2rayngconfiig #3",
         "🇺🇸 US | VLESS | @v2raytg #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VLESS | @NamiraConfigs #1"
@@ -284,14 +284,6 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @config_proxy #4",
-      "type": "vless",
-      "server": "23.94.61.157",
-      "server_port": 34237,
-      "uuid": "8d2aeab8-ce98-47a6-84ec-d5b45d060b66",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @deli_servers #1",
       "type": "vless",
       "server": "www.gcore.com",
@@ -321,14 +313,6 @@
       "server": "192.0.54.32",
       "server_port": 2096,
       "uuid": "b65f4df7-f6af-42b2-877a-cef33f21675e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @free4allvpn #1",
-      "type": "vless",
-      "server": "151.101.25.242",
-      "server_port": 80,
-      "uuid": "02d87d00-c769-48d8-91cb-bd05e2f62790",
       "packet_encoding": "xudp"
     },
     {
@@ -846,6 +830,23 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "cdn.zoom.us",
+      "server_port": 443,
+      "uuid": "aaaaaabb-4ddd-4eee-9fff-ffffffffffff",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #1",
       "type": "vless",
       "server": "151.101.3.8",
@@ -855,6 +856,14 @@
     },
     {
       "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #2",
+      "type": "vless",
+      "server": "test.fast.hosting-ip.com",
+      "server_port": 80,
+      "uuid": "TELEGRAM-CONFiGLiNE-29",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #3",
       "type": "vless",
       "server": "fastly1.hamrahflow.ir",
       "server_port": 443,

@@ -90,13 +90,13 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @sobi_vpn #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
-        "🇳🇱 NL | SS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "proxy",
@@ -105,13 +105,13 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @sobi_vpn #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
-        "🇳🇱 NL | SS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "auto",
@@ -122,6 +122,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "72.57.78.146",
+      "server_port": 8443,
+      "uuid": "8d2aeab8-ce98-47a6-84ec-d5b45d060b66",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇳🇱 NL | SS | @easy_free_vpn #1",
@@ -193,14 +201,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇳🇱 NL | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "185.117.91.27",
-      "server_port": 21836,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpQRE5jckhiR21iNXU3Nk9nOE5hdGpa",
-      "password": null
     },
     {
       "tag": "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
