@@ -91,6 +91,7 @@
         "auto",
         "direct",
         "🇯🇵 JP | TROJAN | @free4allvpn #1",
+        "🇯🇵 JP | VLESS | @free4allvpn #1",
         "🇯🇵 JP | VLESS | @mpproxy #1",
         "🇯🇵 JP | SS | @outlinereleasedkey #1"
       ],
@@ -101,6 +102,7 @@
       "interval": "10m",
       "outbounds": [
         "🇯🇵 JP | TROJAN | @free4allvpn #1",
+        "🇯🇵 JP | VLESS | @free4allvpn #1",
         "🇯🇵 JP | VLESS | @mpproxy #1",
         "🇯🇵 JP | SS | @outlinereleasedkey #1"
       ],
@@ -126,6 +128,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 JP | VLESS | @free4allvpn #1",
+      "type": "vless",
+      "server": "15.168.173.144",
+      "server_port": 443,
+      "uuid": "e0306a33-9971-4b75-a5e0-a176a5a48a2e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
