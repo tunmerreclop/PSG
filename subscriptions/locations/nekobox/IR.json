@@ -81,6 +81,7 @@
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #2",
         "🇮🇷 IR | VLESS | @config_proxy #3",
+        "🇮🇷 IR | VLESS | @config_proxy #4",
         "🇮🇷 IR | VLESS | @ehsawn8 #1",
         "🇮🇷 IR | VLESS | @ehsawn8 #2",
         "🇮🇷 IR | VLESS | @ehsawn8 #3",
@@ -106,7 +107,6 @@
         "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #3",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #4",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #5",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2rayngvpn_1 #1",
         "🇮🇷 IR | VLESS | @v2rayngvpn_1 #2",
@@ -133,6 +133,7 @@
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #2",
         "🇮🇷 IR | VLESS | @config_proxy #3",
+        "🇮🇷 IR | VLESS | @config_proxy #4",
         "🇮🇷 IR | VLESS | @ehsawn8 #1",
         "🇮🇷 IR | VLESS | @ehsawn8 #2",
         "🇮🇷 IR | VLESS | @ehsawn8 #3",
@@ -158,7 +159,6 @@
         "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #3",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #4",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #5",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2rayngvpn_1 #1",
         "🇮🇷 IR | VLESS | @v2rayngvpn_1 #2",
@@ -206,9 +206,33 @@
     {
       "tag": "🇮🇷 IR | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "185.143.234.120",
+      "server": "test.pixsdo.ir",
+      "server_port": 80,
+      "uuid": "1a4677fe-6fd4-456c-8cfd-d0ee9542c288",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "snapp.ir",
+      "server_port": 80,
+      "uuid": "bbdce8ac-98be-4584-809c-2dc7d8e43e64",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @config_proxy #3",
+      "type": "vless",
+      "server": "tr.tehranionliine.ir",
+      "server_port": 80,
+      "uuid": "3c852590-49d8-d3c3-abbf-a3c64ad89cd2",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @config_proxy #4",
+      "type": "vless",
+      "server": "trex.nahidapp.com",
       "server_port": 443,
-      "uuid": "9da0953c-9ae1-44d9-8482-68d4dac8e6d9",
+      "uuid": "493f02fe-6bb3-4aaa-9170-ab1a81facf50",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -219,22 +243,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "test.pixsdo.ir",
-      "server_port": 80,
-      "uuid": "1a4677fe-6fd4-456c-8cfd-d0ee9542c288",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @config_proxy #3",
-      "type": "vless",
-      "server": "snapp.ir",
-      "server_port": 80,
-      "uuid": "bbdce8ac-98be-4584-809c-2dc7d8e43e64",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @ehsawn8 #1",
@@ -321,9 +329,9 @@
     {
       "tag": "🇮🇷 IR | VLESS | @father_vpn #5",
       "type": "vless",
-      "server": "185.143.233.235",
+      "server": "snapp.ir",
       "server_port": 80,
-      "uuid": "22109ab6-bfdd-4062-ae1c-054c74353e39",
+      "uuid": "ceb70fc0-4886-4462-9651-d53b6367846d",
       "packet_encoding": "xudp"
     },
     {
@@ -462,17 +470,25 @@
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "185.143.233.5",
+      "server": "pishroserv.ir",
       "server_port": 80,
-      "uuid": "6836c246-e9b2-41a2-8702-4d880cbd4938",
+      "uuid": "b0004444-f0c0-4df6-a1f5-d7a0bc962e3b",
       "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
       "type": "vless",
-      "server": "185.143.234.235",
+      "server": "snapp.ir",
+      "server_port": 80,
+      "uuid": "telegram-id-%40netstux",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #3",
+      "type": "vless",
+      "server": "185.143.233.5",
       "server_port": 443,
-      "uuid": "00efd6e7-fa77-4659-bacf-4dca0df54022",
+      "uuid": "59ab21e3-c0cc-42d6-9ff5-fd49abfc0780",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -485,34 +501,11 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #3",
-      "type": "vless",
-      "server": "snapp.ir",
-      "server_port": 8080,
-      "uuid": "7fe66e12-8b1c-47a4-8495-3f2f43297fc2",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #4",
       "type": "vless",
-      "server": "de22.fastplus7.site",
-      "server_port": 2086,
-      "uuid": "0d1c3cee-2952-4a3e-a03e-fbe99d32dc72",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #5",
-      "type": "vless",
-      "server": "new.nexusteam.site",
-      "server_port": 2086,
-      "uuid": "92ad2fea-c522-4652-ab12-b712abfe097a",
+      "server": "meli.masterdadeh.ir",
+      "server_port": 80,
+      "uuid": "732f5cdb-89eb-b74e-b5c0-639a2c72e431",
       "packet_encoding": "xudp"
     },
     {
