@@ -92,7 +92,6 @@
         "direct",
         "🇽🇽 XX | VLESS | @Fr33C0nfig #1",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
-        "🇽🇽 XX | TROJAN | @config_proxy #1",
         "🇽🇽 XX | VLESS | @configv2rayforfree #1",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
@@ -112,8 +111,10 @@
         "🇽🇽 XX | VLESS | @evay_vpn #4",
         "🇽🇽 XX | VLESS | @f_nirevil #1",
         "🇽🇽 XX | VLESS | @f_nirevil #2",
-        "🇽🇽 XX | TROJAN | @father_vpn #1",
         "🇽🇽 XX | VLESS | @father_vpn #1",
+        "🇽🇽 XX | VLESS | @father_vpn #2",
+        "🇽🇽 XX | TROJAN | @father_vpn #1",
+        "🇽🇽 XX | TROJAN | @father_vpn #2",
         "🇽🇽 XX | VLESS | @filterk0sh #1",
         "🇽🇽 XX | VLESS | @free1_vpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
@@ -279,7 +280,6 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayfast_7 #1",
@@ -354,7 +354,6 @@
       "outbounds": [
         "🇽🇽 XX | VLESS | @Fr33C0nfig #1",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
-        "🇽🇽 XX | TROJAN | @config_proxy #1",
         "🇽🇽 XX | VLESS | @configv2rayforfree #1",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
@@ -374,8 +373,10 @@
         "🇽🇽 XX | VLESS | @evay_vpn #4",
         "🇽🇽 XX | VLESS | @f_nirevil #1",
         "🇽🇽 XX | VLESS | @f_nirevil #2",
-        "🇽🇽 XX | TROJAN | @father_vpn #1",
         "🇽🇽 XX | VLESS | @father_vpn #1",
+        "🇽🇽 XX | VLESS | @father_vpn #2",
+        "🇽🇽 XX | TROJAN | @father_vpn #1",
+        "🇽🇽 XX | TROJAN | @father_vpn #2",
         "🇽🇽 XX | VLESS | @filterk0sh #1",
         "🇽🇽 XX | VLESS | @free1_vpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
@@ -541,7 +542,6 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayfast_7 #1",
@@ -646,22 +646,6 @@
         "path": "",
         "headers": {
           "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | TROJAN | @config_proxy #1",
-      "type": "trojan",
-      "server": "104.20.6.134",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     },
@@ -862,19 +846,43 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | TROJAN | @father_vpn #1",
-      "type": "trojan",
-      "server": "172.64.149.54",
-      "server_port": 2096,
-      "password": "8r%3C%5B9%27l6hAO%238ZQi"
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @father_vpn #1",
       "type": "vless",
       "server": "104.20.6.134",
       "server_port": 8443,
       "uuid": "d340e519-6b0f-4a84-84d7-431a72a98440",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @father_vpn #2",
+      "type": "vless",
+      "server": "104.20.6.134",
+      "server_port": 2096,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @father_vpn #1",
+      "type": "trojan",
+      "server": "104.20.6.134",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @father_vpn #2",
+      "type": "trojan",
+      "server": "104.20.6.134",
+      "server_port": 2096,
+      "password": "8r%3C%5B9%27l6hAO%238ZQi"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @filterk0sh #1",
@@ -2919,23 +2927,6 @@
       "server": "www.speedtest.net",
       "server_port": 443,
       "uuid": "9a84e4a2-731d-4dd5-a22d-796c7a345e39",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "104.20.6.134",
-      "server_port": 443,
-      "uuid": "26524cce-d514-4014-a426-365fb266a14d",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
