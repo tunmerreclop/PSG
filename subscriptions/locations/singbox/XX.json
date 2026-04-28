@@ -237,6 +237,8 @@
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
         "🇽🇽 XX | VLESS | @proxyfn #1",
         "🇽🇽 XX | VLESS | @prrofile_purple #1",
+        "🇽🇽 XX | TROJAN | @prrofile_purple #1",
+        "🇽🇽 XX | VLESS | @prrofile_purple #2",
         "🇽🇽 XX | VLESS | @red2ray #1",
         "🇽🇽 XX | VLESS | @red2ray #2",
         "🇽🇽 XX | VLESS | @red2ray #3",
@@ -495,6 +497,8 @@
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
         "🇽🇽 XX | VLESS | @proxyfn #1",
         "🇽🇽 XX | VLESS | @prrofile_purple #1",
+        "🇽🇽 XX | TROJAN | @prrofile_purple #1",
+        "🇽🇽 XX | VLESS | @prrofile_purple #2",
         "🇽🇽 XX | VLESS | @red2ray #1",
         "🇽🇽 XX | VLESS | @red2ray #2",
         "🇽🇽 XX | VLESS | @red2ray #3",
@@ -2455,6 +2459,30 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | TROJAN | @prrofile_purple #1",
+      "type": "trojan",
+      "server": "104.20.6.134",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @prrofile_purple #2",
+      "type": "vless",
+      "server": "104.20.6.134",
+      "server_port": 2096,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @red2ray #1",
       "type": "vless",
       "server": "172.67.153.156",
@@ -3309,30 +3337,13 @@
     {
       "tag": "🇽🇽 XX | VLESS | @vip_vpn_2022 #1",
       "type": "vless",
-      "server": "172.64.149.54",
-      "server_port": 8443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @vip_vpn_2022 #2",
-      "type": "vless",
       "server": "104.18.16.56",
       "server_port": 8080,
       "uuid": "8d5e71e6-1c60-4084-b573-a343879c9380",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @vip_vpn_2022 #3",
+      "tag": "🇽🇽 XX | VLESS | @vip_vpn_2022 #2",
       "type": "vless",
       "server": "172.64.149.54",
       "server_port": 2053,
@@ -3340,11 +3351,19 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @vip_vpn_2022 #4",
+      "tag": "🇽🇽 XX | VLESS | @vip_vpn_2022 #3",
       "type": "vless",
       "server": "172.64.152.23",
       "server_port": 8443,
       "uuid": "b179aef9-46a6-4e21-9a15-d21139c705b9",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @vip_vpn_2022 #4",
+      "type": "vless",
+      "server": "104.18.16.56",
+      "server_port": 80,
+      "uuid": "388a6c57-87e7-420b-afe2-b3eb670fd7da",
       "packet_encoding": "xudp"
     },
     {
@@ -3358,10 +3377,26 @@
     {
       "tag": "🇽🇽 XX | VLESS | @vip_vpn_2022 #6",
       "type": "vless",
-      "server": "104.18.16.56",
-      "server_port": 80,
-      "uuid": "388a6c57-87e7-420b-afe2-b3eb670fd7da",
-      "packet_encoding": "xudp"
+      "server": "172.64.152.23",
+      "server_port": 443,
+      "uuid": "db487de4-7e8f-4b3b-b5e8-1e7337ea7954",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @vipnetmeli #1",
