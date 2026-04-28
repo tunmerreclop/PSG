@@ -92,6 +92,7 @@
         "direct",
         "🇽🇽 XX | VLESS | @Fr33C0nfig #1",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
+        "🇽🇽 XX | TROJAN | @config_proxy #1",
         "🇽🇽 XX | VLESS | @configv2rayforfree #1",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
@@ -134,7 +135,6 @@
         "🇽🇽 XX | VLESS | @garnet_free #2",
         "🇽🇽 XX | VLESS | @garnet_free #3",
         "🇽🇽 XX | VLESS | @gervpn #1",
-        "🇽🇽 XX | VLESS | @ghalagyann #1",
         "🇽🇽 XX | VLESS | @goldenshiinevpn #1",
         "🇽🇽 XX | VLESS | @goldenshiinevpn #2",
         "🇽🇽 XX | VLESS | @goldenshiinevpn #3",
@@ -216,7 +216,6 @@
         "🇽🇽 XX | VLESS | @new_proxy_channel #4",
         "🇽🇽 XX | VLESS | @new_proxy_channel #5",
         "🇽🇽 XX | VLESS | @new_proxy_channel #6",
-        "🇽🇽 XX | VLESS | @nn_vpn #1",
         "🇽🇽 XX | VLESS | @nofilter_v2rayng #1",
         "🇽🇽 XX | VLESS | @nofilter_v2rayng #2",
         "🇽🇽 XX | VLESS | @nofilter_v2rayng #3",
@@ -280,6 +279,7 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayfast_7 #1",
@@ -354,6 +354,7 @@
       "outbounds": [
         "🇽🇽 XX | VLESS | @Fr33C0nfig #1",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
+        "🇽🇽 XX | TROJAN | @config_proxy #1",
         "🇽🇽 XX | VLESS | @configv2rayforfree #1",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
@@ -396,7 +397,6 @@
         "🇽🇽 XX | VLESS | @garnet_free #2",
         "🇽🇽 XX | VLESS | @garnet_free #3",
         "🇽🇽 XX | VLESS | @gervpn #1",
-        "🇽🇽 XX | VLESS | @ghalagyann #1",
         "🇽🇽 XX | VLESS | @goldenshiinevpn #1",
         "🇽🇽 XX | VLESS | @goldenshiinevpn #2",
         "🇽🇽 XX | VLESS | @goldenshiinevpn #3",
@@ -478,7 +478,6 @@
         "🇽🇽 XX | VLESS | @new_proxy_channel #4",
         "🇽🇽 XX | VLESS | @new_proxy_channel #5",
         "🇽🇽 XX | VLESS | @new_proxy_channel #6",
-        "🇽🇽 XX | VLESS | @nn_vpn #1",
         "🇽🇽 XX | VLESS | @nofilter_v2rayng #1",
         "🇽🇽 XX | VLESS | @nofilter_v2rayng #2",
         "🇽🇽 XX | VLESS | @nofilter_v2rayng #3",
@@ -542,6 +541,7 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayfast_7 #1",
@@ -646,6 +646,22 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @config_proxy #1",
+      "type": "trojan",
+      "server": "104.20.6.134",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -1104,23 +1120,6 @@
       "server": "104.18.218.118",
       "server_port": 443,
       "uuid": "a94edb46-0734-4593-a8b5-9cd11ddc57f6",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @ghalagyann #1",
-      "type": "vless",
-      "server": "104.20.6.134",
-      "server_port": 443,
-      "uuid": "06ef598c-1555-4887-b3f9-08214a2f6792",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -2200,23 +2199,6 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @nn_vpn #1",
-      "type": "vless",
-      "server": "allsms.rozfa.com",
-      "server_port": 443,
-      "uuid": "6a89dc04-7781-46fe-b35c-e14a6b6e60b8",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @nofilter_v2rayng #1",
       "type": "vless",
       "server": "104.18.4.130",
@@ -2937,6 +2919,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "172.64.152.23",
+      "server_port": 2052,
+      "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2raybe #1",
