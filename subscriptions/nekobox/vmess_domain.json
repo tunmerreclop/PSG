@@ -92,11 +92,9 @@
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇽🇽 XX | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @manstervpn #1",
-        "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
         "🇺🇸 US | VMESS | @v2ray4win #1",
-        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "proxy",
@@ -120,11 +118,9 @@
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇽🇽 XX | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @manstervpn #1",
-        "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
         "🇺🇸 US | VMESS | @v2ray4win #1",
-        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "auto",
@@ -472,31 +468,6 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VMESS | @mi_pn_official #1",
-      "type": "vmess",
-      "server": "104.21.15.212",
-      "server_port": 443,
-      "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "glweidf.sbs",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/linkws",
-        "headers": {
-          "Host": "glweidf.sbs"
-        }
-      }
-    },
-    {
       "tag": "🇺🇸 US | VMESS | @serverv2ray00 #1",
       "type": "vmess",
       "server": "104.21.4.6",
@@ -568,22 +539,6 @@
         "path": "/api05",
         "headers": {
           "Host": "scherehtzflk01.schere.net"
-        }
-      }
-    },
-    {
-      "tag": "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "snapp.ir",
-      "server_port": 8080,
-      "uuid": "67fe0164-9146-47c7-8247-27ddd3eb8f00",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "rxs.bravo-six.ir"
         }
       }
     },
