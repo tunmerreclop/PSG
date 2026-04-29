@@ -92,6 +92,7 @@
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇽🇽 XX | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @manstervpn #1",
+        "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
         "🇺🇸 US | VMESS | @v2ray4win #1",
@@ -122,6 +123,7 @@
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇽🇽 XX | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @manstervpn #1",
+        "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
         "🇺🇸 US | VMESS | @v2ray4win #1",
@@ -472,6 +474,31 @@
         "path": "/linkws",
         "headers": {
           "Host": "obdii.cfd"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @mi_pn_official #1",
+      "type": "vmess",
+      "server": "104.21.15.212",
+      "server_port": 443,
+      "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "glweidf.sbs",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkws",
+        "headers": {
+          "Host": "glweidf.sbs"
         }
       }
     },

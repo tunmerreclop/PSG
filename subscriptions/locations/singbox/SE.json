@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇸🇪 SE | VLESS | @deli_servers #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
         "🇸🇪 SE | VLESS | @free_vip3 #3",
@@ -125,6 +126,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇸🇪 SE | VLESS | @deli_servers #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
         "🇸🇪 SE | VLESS | @free_vip3 #3",
@@ -162,6 +164,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @deli_servers #1",
+      "type": "vless",
+      "server": "185.146.173.59",
+      "server_port": 80,
+      "uuid": "telegram-deli-servers",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇸🇪 SE | VLESS | @free_vip3 #1",
