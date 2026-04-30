@@ -186,7 +186,7 @@
         "🇺🇸 US | VLESS | @minovpnch #1",
         "🇽🇽 XX | VLESS | @miov2ray #1",
         "🇽🇽 XX | VLESS | @miov2ray #2",
-        "🇩🇪 DE | VLESS | @mpproxy #1",
+        "🇸🇨 SC | VLESS | @mpproxy #1",
         "🇦🇹 AT | TROJAN | @mpproxy #1",
         "🇺🇸 US | VLESS | @msv2raynp #1",
         "🇺🇸 US | VLESS | @msv2raynp #2",
@@ -223,8 +223,8 @@
         "🇺🇸 US | SS | @proxy_confiingir #1",
         "🇸🇪 SE | VLESS | @proxyfn #1",
         "🇨🇭 CH | VLESS | @proxyfn #1",
-        "🇮🇷 IR | VLESS | @prrofile_purple #1",
         "🇽🇽 XX | VLESS | @prrofile_purple #1",
+        "🇮🇷 IR | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @public504 #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
@@ -306,8 +306,8 @@
         "🇽🇽 XX | VLESS | @vpn_ocean #1",
         "🇮🇷 IR | VLESS | @vpnfree85 #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
-        "🇮🇷 IR | VLESS | @vpnowl #1",
         "🇽🇽 XX | VLESS | @vpnowl #1",
+        "🇽🇽 XX | VLESS | @vpnowl #2",
         "🇽🇽 XX | VLESS | @vpnplusee_free #1",
         "🇽🇽 XX | VLESS | @vpnplusee_free #2",
         "🇽🇽 XX | VLESS | @vpnv2raytop #1",
@@ -430,7 +430,7 @@
         "🇺🇸 US | VLESS | @minovpnch #1",
         "🇽🇽 XX | VLESS | @miov2ray #1",
         "🇽🇽 XX | VLESS | @miov2ray #2",
-        "🇩🇪 DE | VLESS | @mpproxy #1",
+        "🇸🇨 SC | VLESS | @mpproxy #1",
         "🇦🇹 AT | TROJAN | @mpproxy #1",
         "🇺🇸 US | VLESS | @msv2raynp #1",
         "🇺🇸 US | VLESS | @msv2raynp #2",
@@ -467,8 +467,8 @@
         "🇺🇸 US | SS | @proxy_confiingir #1",
         "🇸🇪 SE | VLESS | @proxyfn #1",
         "🇨🇭 CH | VLESS | @proxyfn #1",
-        "🇮🇷 IR | VLESS | @prrofile_purple #1",
         "🇽🇽 XX | VLESS | @prrofile_purple #1",
+        "🇮🇷 IR | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @public504 #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
@@ -550,8 +550,8 @@
         "🇽🇽 XX | VLESS | @vpn_ocean #1",
         "🇮🇷 IR | VLESS | @vpnfree85 #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
-        "🇮🇷 IR | VLESS | @vpnowl #1",
         "🇽🇽 XX | VLESS | @vpnowl #1",
+        "🇽🇽 XX | VLESS | @vpnowl #2",
         "🇽🇽 XX | VLESS | @vpnplusee_free #1",
         "🇽🇽 XX | VLESS | @vpnplusee_free #2",
         "🇽🇽 XX | VLESS | @vpnv2raytop #1",
@@ -1277,17 +1277,26 @@
       "tag": "🇮🇷 IR | VLESS | @ghalagyann #1",
       "type": "vless",
       "server": "snapp.ir",
-      "server_port": 2082,
-      "uuid": "ae53b53b-1bbf-4517-b8fc-3df09886a7d2",
+      "server_port": 80,
+      "uuid": "727c83c2-54bf-487f-89e8-70aa9281202f",
       "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @ghalagyann #2",
       "type": "vless",
-      "server": "snapp.ir",
-      "server_port": 80,
-      "uuid": "727c83c2-54bf-487f-89e8-70aa9281202f",
-      "packet_encoding": "xudp"
+      "server": "185.143.233.5",
+      "server_port": 443,
+      "uuid": "00f24ac9-7b34-411d-85b4-4e9501b39277",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @ghalagyann2 #1",
@@ -2040,7 +2049,7 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @mpproxy #1",
+      "tag": "🇸🇨 SC | VLESS | @mpproxy #1",
       "type": "vless",
       "server": "srv1.khatibirepair.ir",
       "server_port": 443,
@@ -2355,7 +2364,7 @@
     {
       "tag": "🇩🇪 DE | TROJAN | @privatevpns #1",
       "type": "trojan",
-      "server": "63.179.8.52",
+      "server": "35.158.91.156",
       "server_port": 22222,
       "password": "telegram-id-privatevpns",
       "tls": {
@@ -2504,23 +2513,6 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @prrofile_purple #1",
-      "type": "vless",
-      "server": "185.143.234.120",
-      "server_port": 443,
-      "uuid": "af812bdd-7190-4c62-84a8-10a9cc96a50d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @prrofile_purple #1",
       "type": "vless",
       "server": "8.6.112.0",
@@ -2536,6 +2528,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "185.143.235.253",
+      "server_port": 80,
+      "uuid": "5eb2b49f-2657-4d90-ac8a-050a384c5547",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇺🇸 US | VLESS | @public504 #1",
@@ -2938,27 +2938,18 @@
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "badboybi2.yeksancloud.ir",
-      "server_port": 80,
-      "uuid": "f20b416b-bf52-4b4e-bddb-41132f24cd62",
+      "server": "blubank.sb24.ir",
+      "server_port": 8080,
+      "uuid": "3ff87a9a-305d-4723-9c9e-88b8a7796d41",
       "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
       "type": "vless",
-      "server": "185.143.233.5",
-      "server_port": 443,
-      "uuid": "0eb47b82-82b6-42a2-83c2-583872981925",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "185.143.233.235",
+      "server_port": 80,
+      "uuid": "ff009f8b-6df6-47e9-b2d8-fed8fcfdef48",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
@@ -3206,7 +3197,7 @@
     {
       "tag": "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1",
       "type": "trojan",
-      "server": "63.179.8.52",
+      "server": "35.158.91.156",
       "server_port": 22223,
       "password": "telegram-id-v2rayvpnchannel",
       "tls": {
@@ -3465,7 +3456,7 @@
     {
       "tag": "🇩🇪 DE | VLESS | @vlessconfig #1",
       "type": "vless",
-      "server": "63.179.8.52",
+      "server": "35.158.91.156",
       "server_port": 22224,
       "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
       "packet_encoding": "xudp",
@@ -3631,14 +3622,6 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @vpnowl #1",
-      "type": "vless",
-      "server": "www.tgju.org",
-      "server_port": 2087,
-      "uuid": "d1b421cc-ebaf-48cf-bf12-e7947af11c53",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @vpnowl #1",
       "type": "vless",
       "server": "jquery.com",
@@ -3654,6 +3637,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @vpnowl #2",
+      "type": "vless",
+      "server": "172.67.175.118",
+      "server_port": 8880,
+      "uuid": "ci49kfwjrc",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @vpnplusee_free #1",
