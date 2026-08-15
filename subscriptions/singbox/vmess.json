@@ -53,10 +53,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇭🇰 HK | VMESS | @outlinereleasedkey #1 [fast]",
         "🇺🇸 US | VMESS | @freev2rays #1 [fast]",
         "🇨🇿 CZ | VMESS | @freev2rays #1 [fast]",
         "🇽🇽 XX | VMESS | @hope_net #1 [fast]",
         "🇽🇽 XX | VMESS | @iranvpnet #1 [fast]",
+        "🇽🇽 XX | VMESS | @NamiraConfigs #1 [fast]",
         "🇮🇷 IR | VMESS | @khoneproxy #2 [fast]",
         "🇺🇸 US | VMESS | @mi_pn_official #1 [fast]",
         "🇺🇸 US | VMESS | @mi_pn_official #2 [fast]",
@@ -68,10 +70,11 @@
         "🇺🇸 US | VMESS | @manstervpn #1 [fast]",
         "🇧🇾 BY | VMESS | @ir_netproxy #1 [fast]",
         "🇺🇸 US | VMESS | @ir_netproxy #1 [fast]",
-        "🇩🇪 DE | VMESS | @khoneproxy #1 [medium]",
+        "🇩🇪 DE | VMESS | @NamiraConfigs #1 [fast]",
+        "🇩🇪 DE | VMESS | @khoneproxy #1 [fast]",
         "🇮🇷 IR | VMESS | @khoneproxy #1 [medium]",
-        "🇩🇪 DE | VMESS | @khoneproxy #2 [medium]",
-        "🇩🇪 DE | VMESS | @khoneproxy #3 [medium]",
+        "🇩🇪 DE | VMESS | @khoneproxy #2 [fast]",
+        "🇩🇪 DE | VMESS | @khoneproxy #3 [fast]",
         "🇽🇽 XX | VMESS | @proxy48 #1 [fast]",
         "🇩🇪 DE | VMESS | @magickey_shop #1 [medium]",
         "direct"
@@ -85,10 +88,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇭🇰 HK | VMESS | @outlinereleasedkey #1 [fast]",
         "🇺🇸 US | VMESS | @freev2rays #1 [fast]",
         "🇨🇿 CZ | VMESS | @freev2rays #1 [fast]",
         "🇽🇽 XX | VMESS | @hope_net #1 [fast]",
         "🇽🇽 XX | VMESS | @iranvpnet #1 [fast]",
+        "🇽🇽 XX | VMESS | @NamiraConfigs #1 [fast]",
         "🇮🇷 IR | VMESS | @khoneproxy #2 [fast]",
         "🇺🇸 US | VMESS | @mi_pn_official #1 [fast]",
         "🇺🇸 US | VMESS | @mi_pn_official #2 [fast]",
@@ -100,10 +105,11 @@
         "🇺🇸 US | VMESS | @manstervpn #1 [fast]",
         "🇧🇾 BY | VMESS | @ir_netproxy #1 [fast]",
         "🇺🇸 US | VMESS | @ir_netproxy #1 [fast]",
-        "🇩🇪 DE | VMESS | @khoneproxy #1 [medium]",
+        "🇩🇪 DE | VMESS | @NamiraConfigs #1 [fast]",
+        "🇩🇪 DE | VMESS | @khoneproxy #1 [fast]",
         "🇮🇷 IR | VMESS | @khoneproxy #1 [medium]",
-        "🇩🇪 DE | VMESS | @khoneproxy #2 [medium]",
-        "🇩🇪 DE | VMESS | @khoneproxy #3 [medium]",
+        "🇩🇪 DE | VMESS | @khoneproxy #2 [fast]",
+        "🇩🇪 DE | VMESS | @khoneproxy #3 [fast]",
         "🇽🇽 XX | VMESS | @proxy48 #1 [fast]",
         "🇩🇪 DE | VMESS | @magickey_shop #1 [medium]"
       ],
@@ -149,6 +155,30 @@
       "transport": {
         "type": "ws",
         "path": "/"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇭🇰 HK | VMESS | @outlinereleasedkey #1 [fast]",
+      "server": "u2frxj0g13vdi0wo.v.3dns.vip",
+      "server_port": 443,
+      "uuid": "f23bb427-c1f9-4373-876c-2f43e9f790f3",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "network": "ws",
+      "packet_encoding": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "U2FRxj0G13vDI0Wo.v.3dns.vip"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws-vmess",
+        "headers": {
+          "Host": "U2FRxj0G13vDI0Wo.v.3dns.vip"
+        }
       }
     },
     {
@@ -242,6 +272,19 @@
           "Host": "mute-math-d64e.0e503992ad7026.woRKERS.DeV"
         }
       }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇽🇽 XX | VMESS | @NamiraConfigs #1 [fast]",
+      "server": "cdn-cloudflare455.korvexe.ir",
+      "server_port": 2095,
+      "uuid": "8000e374-6b7f-4bbf-b45f-2272657ed5f9",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "network": "httpupgrade",
+      "packet_encoding": ""
     },
     {
       "type": "vmess",
@@ -483,7 +526,20 @@
     },
     {
       "type": "vmess",
-      "tag": "🇩🇪 DE | VMESS | @khoneproxy #1 [medium]",
+      "tag": "🇩🇪 DE | VMESS | @NamiraConfigs #1 [fast]",
+      "server": "82.198.246.97",
+      "server_port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "network": "tcp",
+      "packet_encoding": ""
+    },
+    {
+      "type": "vmess",
+      "tag": "🇩🇪 DE | VMESS | @khoneproxy #1 [fast]",
       "server": "142.132.163.200",
       "server_port": 80,
       "uuid": "7f965e3e-b03f-455e-a96e-01b61f72537a",
@@ -517,7 +573,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇩🇪 DE | VMESS | @khoneproxy #2 [medium]",
+      "tag": "🇩🇪 DE | VMESS | @khoneproxy #2 [fast]",
       "server": "5.75.150.23",
       "server_port": 443,
       "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147",
@@ -530,7 +586,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇩🇪 DE | VMESS | @khoneproxy #3 [medium]",
+      "tag": "🇩🇪 DE | VMESS | @khoneproxy #3 [fast]",
       "server": "167.235.205.182",
       "server_port": 443,
       "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147",

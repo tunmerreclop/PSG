@@ -54,9 +54,11 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇹🇷 TR | VLESS | @orange_vpns #1 [medium]",
+        "🇺🇸 US | VLESS | @orange_vpns #1 [slow]",
         "🇫🇷 FR | VLESS | @flyv2ray #1 [fast]",
-        "🇲🇩 MD | VLESS | @outlinereleasedkey #1 [medium]",
-        "🇦🇪 AE | VLESS | @configv2rayforfree #1 [medium]",
+        "🇷🇺 RU | VLESS | @free1_vpn #1 [medium]",
+        "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1 [fast]",
+        "🇦🇪 AE | VLESS | @configv2rayforfree #1 [fast]",
         "🇸🇨 SC | VLESS | @netfreedom0 #2 [medium]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]",
@@ -72,9 +74,11 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇹🇷 TR | VLESS | @orange_vpns #1 [medium]",
+        "🇺🇸 US | VLESS | @orange_vpns #1 [slow]",
         "🇫🇷 FR | VLESS | @flyv2ray #1 [fast]",
-        "🇲🇩 MD | VLESS | @outlinereleasedkey #1 [medium]",
-        "🇦🇪 AE | VLESS | @configv2rayforfree #1 [medium]",
+        "🇷🇺 RU | VLESS | @free1_vpn #1 [medium]",
+        "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1 [fast]",
+        "🇦🇪 AE | VLESS | @configv2rayforfree #1 [fast]",
         "🇸🇨 SC | VLESS | @netfreedom0 #2 [medium]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]"
@@ -147,6 +151,29 @@
     },
     {
       "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @orange_vpns #1 [slow]",
+      "server": "144.31.65.59",
+      "server_port": 443,
+      "uuid": "564082ff-cf3c-48db-9e10-8ad2312847b4",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "node17.mxvpn.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw",
+          "short_id": "bbc68cec8bb8d2e3"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇫🇷 FR | VLESS | @flyv2ray #1 [fast]",
       "server": "31.220.86.213",
       "server_port": 443,
@@ -169,26 +196,53 @@
     },
     {
       "type": "vless",
-      "tag": "🇲🇩 MD | VLESS | @outlinereleasedkey #1 [medium]",
-      "server": "144.31.131.241",
-      "server_port": 8443,
-      "uuid": "b406bc51-9002-474c-beae-b194b02c91da",
+      "tag": "🇷🇺 RU | VLESS | @free1_vpn #1 [medium]",
+      "server": "188.225.83.179",
+      "server_port": 443,
+      "uuid": "ff1b0b50-70dc-4bae-866e-55cff86f4d6d",
       "flow": "xtls-rprx-vision",
       "network": "tcp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "mold.speedload.online",
+        "server_name": "ru.falsemirrov.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
         "reality": {
           "enabled": true,
-          "public_key": "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs",
-          "short_id": "a20d3ed244c76426"
+          "public_key": "sbvKAdRy_0h33iRxgGwHAD1HC62WGwlkWwj0S5ptJEU",
+          "short_id": "9c2378562188c3cb"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇦🇪 AE | VLESS | @configv2rayforfree #1 [medium]",
+      "tag": "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1 [fast]",
+      "server": "169.40.42.232",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇪 AE | VLESS | @configv2rayforfree #1 [fast]",
       "server": "78.17.112.103",
       "server_port": 13868,
       "uuid": "06d44c57-8e1a-41f4-b9c4-65d35869e078",

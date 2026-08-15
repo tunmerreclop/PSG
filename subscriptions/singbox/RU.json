@@ -52,6 +52,7 @@
         "auto",
         "🇷🇺 RU | VLESS | @free1_vpn #1 [medium]",
         "🇷🇺 RU | VLESS | @jiedianf #1 [medium]",
+        "🇷🇺 RU | VLESS | @NamiraConfigs #1 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -61,7 +62,8 @@
       "tag": "auto",
       "outbounds": [
         "🇷🇺 RU | VLESS | @free1_vpn #1 [medium]",
-        "🇷🇺 RU | VLESS | @jiedianf #1 [medium]"
+        "🇷🇺 RU | VLESS | @jiedianf #1 [medium]",
+        "🇷🇺 RU | VLESS | @NamiraConfigs #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -111,6 +113,22 @@
           "enabled": true,
           "public_key": "Loc9rXCMgSkksa4TGr203UCppZh9epDs8tdTVCjiCRw",
           "short_id": "c39843c687af3383"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 RU | VLESS | @NamiraConfigs #1 [medium]",
+      "server": "185.247.16.117",
+      "server_port": 2200,
+      "uuid": "b79c54f3-68e9-4e9d-8b57-22cbbe978730",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/v1",
+        "headers": {
+          "Host": "rzd.ru"
         }
       }
     },
