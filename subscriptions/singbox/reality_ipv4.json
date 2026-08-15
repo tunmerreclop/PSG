@@ -53,21 +53,23 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇹🇷 TR | VLESS | @orange_vpns #1 [medium]",
-        "🇺🇸 US | VLESS | @orange_vpns #1 [slow]",
+        "🇹🇷 TR | VLESS | @orange_vpns #1 [fast]",
+        "🇳🇱 NL | VLESS | @orange_vpns #1 [fast]",
         "🇩🇪 DE | VLESS | @father_vpn #2 [fast]",
         "🇫🇷 FR | VLESS | @flyv2ray #1 [fast]",
         "🇫🇷 FR | VLESS | @outlinereleasedkey #1 [fast]",
-        "🇷🇺 RU | VLESS | @free1_vpn #1 [medium]",
+        "🇷🇺 RU | VLESS | @free1_vpn #1 [fast]",
         "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
         "🇱🇻 LV | VLESS | @free4allvpn #1 [fast]",
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇦🇪 AE | VLESS | @configv2rayforfree #1 [fast]",
-        "🇺🇸 US | VLESS | @red2ray #4 [fast]",
-        "🇸🇨 SC | VLESS | @netfreedom0 #2 [medium]",
-        "🇸🇨 SC | VLESS | @netfreedom0 #3 [medium]",
+        "🇸🇨 SC | VLESS | @red2ray #1 [fast]",
+        "🇳🇱 NL | VLESS | @red2ray #2 [fast]",
+        "🇳🇱 NL | VLESS | @red2ray #4 [fast]",
+        "🇸🇨 SC | VLESS | @netfreedom0 #2 [fast]",
+        "🇸🇨 SC | VLESS | @netfreedom0 #3 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
-        "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]",
+        "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -79,21 +81,23 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇹🇷 TR | VLESS | @orange_vpns #1 [medium]",
-        "🇺🇸 US | VLESS | @orange_vpns #1 [slow]",
+        "🇹🇷 TR | VLESS | @orange_vpns #1 [fast]",
+        "🇳🇱 NL | VLESS | @orange_vpns #1 [fast]",
         "🇩🇪 DE | VLESS | @father_vpn #2 [fast]",
         "🇫🇷 FR | VLESS | @flyv2ray #1 [fast]",
         "🇫🇷 FR | VLESS | @outlinereleasedkey #1 [fast]",
-        "🇷🇺 RU | VLESS | @free1_vpn #1 [medium]",
+        "🇷🇺 RU | VLESS | @free1_vpn #1 [fast]",
         "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
         "🇱🇻 LV | VLESS | @free4allvpn #1 [fast]",
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇦🇪 AE | VLESS | @configv2rayforfree #1 [fast]",
-        "🇺🇸 US | VLESS | @red2ray #4 [fast]",
-        "🇸🇨 SC | VLESS | @netfreedom0 #2 [medium]",
-        "🇸🇨 SC | VLESS | @netfreedom0 #3 [medium]",
+        "🇸🇨 SC | VLESS | @red2ray #1 [fast]",
+        "🇳🇱 NL | VLESS | @red2ray #2 [fast]",
+        "🇳🇱 NL | VLESS | @red2ray #4 [fast]",
+        "🇸🇨 SC | VLESS | @netfreedom0 #2 [fast]",
+        "🇸🇨 SC | VLESS | @netfreedom0 #3 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
-        "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]"
+        "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -141,7 +145,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 TR | VLESS | @orange_vpns #1 [medium]",
+      "tag": "🇹🇷 TR | VLESS | @orange_vpns #1 [fast]",
       "server": "141.98.118.70",
       "server_port": 443,
       "uuid": "de64aaa6-a0ea-48d0-853b-1c3cbc7fb42c",
@@ -163,24 +167,25 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @orange_vpns #1 [slow]",
-      "server": "144.31.65.59",
-      "server_port": 443,
-      "uuid": "564082ff-cf3c-48db-9e10-8ad2312847b4",
+      "tag": "🇳🇱 NL | VLESS | @orange_vpns #1 [fast]",
+      "server": "193.233.126.82",
+      "server_port": 9443,
+      "uuid": "37a098ab-8fec-4352-8ee8-294ae5bca68f",
       "flow": "xtls-rprx-vision",
       "network": "tcp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "node17.mxvpn.dev",
+        "server_name": "www.amd.com",
+        "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw",
-          "short_id": "bbc68cec8bb8d2e3"
+          "public_key": "Te5lrfzw_MytTzQJB92DhWw7fk1qTK3mhzz7Bz41gVc",
+          "short_id": "0240e83f65a25e"
         }
       }
     },
@@ -253,7 +258,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @free1_vpn #1 [medium]",
+      "tag": "🇷🇺 RU | VLESS | @free1_vpn #1 [fast]",
       "server": "188.225.83.179",
       "server_port": 443,
       "uuid": "ff1b0b50-70dc-4bae-866e-55cff86f4d6d",
@@ -364,30 +369,64 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @red2ray #4 [fast]",
-      "server": "66.78.40.202",
+      "tag": "🇸🇨 SC | VLESS | @red2ray #1 [fast]",
+      "server": "45.145.56.163",
       "server_port": 443,
-      "uuid": "302c2e89-6f2d-4500-90ce-26d075c7e84f",
+      "uuid": "76713d07-5a6b-49c2-abd8-bc450a2fa7fc",
       "flow": "xtls-rprx-vision",
       "network": "tcp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "www.samsung.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
+        "server_name": "de2.spectrum.vu",
         "reality": {
           "enabled": true,
-          "public_key": "8zJkTehTmhmgKWUIj-CyJP4gtMjNxLgBxPjHC1wwW3A",
-          "short_id": "61"
+          "public_key": "Vci2ab6lM0ezoLBj2LgE-ynvakjbWOqUUSZmk5vcNjE",
+          "short_id": "44d44d1c625a13aa"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇸🇨 SC | VLESS | @netfreedom0 #2 [medium]",
+      "tag": "🇳🇱 NL | VLESS | @red2ray #2 [fast]",
+      "server": "51.158.206.26",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "fuck.rkn",
+        "reality": {
+          "enabled": true,
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 NL | VLESS | @red2ray #4 [fast]",
+      "server": "51.158.206.98",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "fuck.rkn",
+        "reality": {
+          "enabled": true,
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇨 SC | VLESS | @netfreedom0 #2 [fast]",
       "server": "45.196.201.163",
       "server_port": 443,
       "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
@@ -410,7 +449,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇨 SC | VLESS | @netfreedom0 #3 [medium]",
+      "tag": "🇸🇨 SC | VLESS | @netfreedom0 #3 [fast]",
       "server": "45.196.201.16",
       "server_port": 443,
       "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
@@ -455,7 +494,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]",
+      "tag": "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
       "server": "95.179.138.190",
       "server_port": 443,
       "uuid": "telegram-id-qeshmserver",

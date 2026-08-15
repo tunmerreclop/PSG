@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQVQ=
+//profile-title: base64:UFNHIHwgWkE=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://telegram.me/yebekhe
@@ -50,7 +50,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇹 AT | VLESS | @red2ray #1 [fast]",
+        "🇿🇦 ZA | SS | @free1_vpn #1 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -59,7 +59,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇹 AT | VLESS | @red2ray #1 [fast]"
+        "🇿🇦 ZA | SS | @free1_vpn #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -67,19 +67,15 @@
       "idle_timeout": "30m"
     },
     {
-      "type": "vless",
-      "tag": "🇦🇹 AT | VLESS | @red2ray #1 [fast]",
-      "server": "185.126.236.181",
-      "server_port": 2052,
-      "uuid": "daa34529-5219-4323-d26a-2c395b25a56d",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "www.icloud.com"
-        }
+      "type": "shadowsocks",
+      "tag": "🇿🇦 ZA | SS | @free1_vpn #1 [medium]",
+      "server": "4.168.234.5",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "LY94CL8HouUwEPF3",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
       }
     },
     {

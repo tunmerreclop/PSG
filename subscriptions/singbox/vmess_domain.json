@@ -53,13 +53,13 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇭🇰 HK | VMESS | @outlinereleasedkey #1 [fast]",
         "🇺🇸 US | VMESS | @freev2rays #1 [fast]",
         "🇨🇿 CZ | VMESS | @freev2rays #1 [fast]",
         "🇽🇽 XX | VMESS | @hope_net #1 [fast]",
         "🇽🇽 XX | VMESS | @iranvpnet #1 [fast]",
         "🇽🇽 XX | VMESS | @NamiraConfigs #1 [fast]",
-        "🇮🇷 IR | VMESS | @khoneproxy #2 [fast]",
+        "🇽🇽 XX | VMESS | @NamiraConfigs #2 [fast]",
+        "🇮🇷 IR | VMESS | @khoneproxy #2 [medium]",
         "🇺🇸 US | VMESS | @mi_pn_official #1 [fast]",
         "🇺🇸 US | VMESS | @mi_pn_official #2 [fast]",
         "🇺🇸 US | VMESS | @mi_pn_official #3 [fast]",
@@ -81,13 +81,13 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇭🇰 HK | VMESS | @outlinereleasedkey #1 [fast]",
         "🇺🇸 US | VMESS | @freev2rays #1 [fast]",
         "🇨🇿 CZ | VMESS | @freev2rays #1 [fast]",
         "🇽🇽 XX | VMESS | @hope_net #1 [fast]",
         "🇽🇽 XX | VMESS | @iranvpnet #1 [fast]",
         "🇽🇽 XX | VMESS | @NamiraConfigs #1 [fast]",
-        "🇮🇷 IR | VMESS | @khoneproxy #2 [fast]",
+        "🇽🇽 XX | VMESS | @NamiraConfigs #2 [fast]",
+        "🇮🇷 IR | VMESS | @khoneproxy #2 [medium]",
         "🇺🇸 US | VMESS | @mi_pn_official #1 [fast]",
         "🇺🇸 US | VMESS | @mi_pn_official #2 [fast]",
         "🇺🇸 US | VMESS | @mi_pn_official #3 [fast]",
@@ -141,30 +141,6 @@
       "transport": {
         "type": "ws",
         "path": "/"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇭🇰 HK | VMESS | @outlinereleasedkey #1 [fast]",
-      "server": "u2frxj0g13vdi0wo.v.3dns.vip",
-      "server_port": 443,
-      "uuid": "f23bb427-c1f9-4373-876c-2f43e9f790f3",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "network": "ws",
-      "packet_encoding": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "U2FRxj0G13vDI0Wo.v.3dns.vip"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ws-vmess",
-        "headers": {
-          "Host": "U2FRxj0G13vDI0Wo.v.3dns.vip"
-        }
       }
     },
     {
@@ -274,7 +250,20 @@
     },
     {
       "type": "vmess",
-      "tag": "🇮🇷 IR | VMESS | @khoneproxy #2 [fast]",
+      "tag": "🇽🇽 XX | VMESS | @NamiraConfigs #2 [fast]",
+      "server": "cdn-cloudflare455.korvexe.ir",
+      "server_port": 2095,
+      "uuid": "8000e374-6b7f-4bbf-b45f-2272657ed5f9",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "network": "httpupgrade",
+      "packet_encoding": ""
+    },
+    {
+      "type": "vmess",
+      "tag": "🇮🇷 IR | VMESS | @khoneproxy #2 [medium]",
       "server": "78.47.131.39",
       "server_port": 8443,
       "uuid": "4d598e48-234f-4c60-fdd3-fa90e084770d",
