@@ -61,14 +61,13 @@
         "🇫🇷 FR | VLESS | @flyv2ray #1 [fast]",
         "🇱🇻 LV | VLESS | @free4allvpn #1 [fast]",
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1 [fast]",
-        "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1 [fast]",
+        "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1 [slow]",
         "🇫🇮 FI | VLESS | @configv2rayforfree #1 [fast]",
-        "🇷🇺 RU | VLESS | @red2ray #1 [fast]",
         "🇺🇸 US | VLESS | @outline_ir #2 [fast]",
         "🇹🇷 TR | VLESS | @outline_ir #1 [fast]",
+        "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
         "🇸🇨 SC | VLESS | @netfreedom0 #1 [fast]",
-        "🇸🇨 SC | VLESS | @netfreedom0 #2 [fast]",
-        "🇷🇺 RU | VLESS | @netfreedom0 #1 [medium]",
+        "🇷🇺 RU | VLESS | @netfreedom0 #1 [fast]",
         "🇺🇸 US | VLESS | @netfreedom0 #1 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
@@ -91,14 +90,13 @@
         "🇫🇷 FR | VLESS | @flyv2ray #1 [fast]",
         "🇱🇻 LV | VLESS | @free4allvpn #1 [fast]",
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1 [fast]",
-        "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1 [fast]",
+        "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1 [slow]",
         "🇫🇮 FI | VLESS | @configv2rayforfree #1 [fast]",
-        "🇷🇺 RU | VLESS | @red2ray #1 [fast]",
         "🇺🇸 US | VLESS | @outline_ir #2 [fast]",
         "🇹🇷 TR | VLESS | @outline_ir #1 [fast]",
+        "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
         "🇸🇨 SC | VLESS | @netfreedom0 #1 [fast]",
-        "🇸🇨 SC | VLESS | @netfreedom0 #2 [fast]",
-        "🇷🇺 RU | VLESS | @netfreedom0 #1 [medium]",
+        "🇷🇺 RU | VLESS | @netfreedom0 #1 [fast]",
         "🇺🇸 US | VLESS | @netfreedom0 #1 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]"
@@ -335,7 +333,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1 [fast]",
+      "tag": "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1 [slow]",
       "server": "144.31.237.76",
       "server_port": 443,
       "uuid": "d2aeb078-90db-4f90-b334-623bcbea8d31",
@@ -381,28 +379,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @red2ray #1 [fast]",
-      "server": "95.163.232.183",
-      "server_port": 443,
-      "uuid": "e38a8d62-0c3a-4f6b-b341-0429b7df1f5b",
-      "network": "grpc",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "5post-gate.x5.ru",
-        "reality": {
-          "enabled": true,
-          "public_key": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
-          "short_id": "abcd"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "5post.gate.v1"
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇺🇸 US | VLESS | @outline_ir #2 [fast]",
       "server": "144.31.65.59",
       "server_port": 443,
@@ -444,30 +420,30 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇨 SC | VLESS | @netfreedom0 #1 [fast]",
-      "server": "45.196.201.163",
+      "tag": "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
+      "server": "169.40.42.15",
       "server_port": 443,
-      "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
       "flow": "xtls-rprx-vision",
       "network": "tcp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "storage.yandex.net",
+        "server_name": "yahoo.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04",
-          "short_id": "c6ef72e4635d15a5"
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇸🇨 SC | VLESS | @netfreedom0 #2 [fast]",
+      "tag": "🇸🇨 SC | VLESS | @netfreedom0 #1 [fast]",
       "server": "45.196.201.16",
       "server_port": 443,
       "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
@@ -490,7 +466,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @netfreedom0 #1 [medium]",
+      "tag": "🇷🇺 RU | VLESS | @netfreedom0 #1 [fast]",
       "server": "31.76.34.146",
       "server_port": 443,
       "uuid": "7bc2c010-dffd-4c81-8fa3-25e8f3781dca",
