@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgSFky
+//profile-title: base64:UFNHIHwgSUQ=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://telegram.me/yebekhe
@@ -50,10 +50,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi",
-        "🇮🇹 IT | HY2 | @outlinereleasedkey #1 [fast]",
+        "🇮🇩 ID | VMESS | @nofiltering2 #1 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -62,10 +59,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi",
-        "🇮🇹 IT | HY2 | @outlinereleasedkey #1 [fast]"
+        "🇮🇩 ID | VMESS | @nofiltering2 #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -73,53 +67,20 @@
       "idle_timeout": "30m"
     },
     {
-      "type": "vless",
-      "tag": "همکاری_ملی",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
+      "type": "vmess",
+      "tag": "🇮🇩 ID | VMESS | @nofiltering2 #1 [medium]",
+      "server": "202.47.89.133",
+      "server_port": 53548,
+      "uuid": "3a03613b-bbac-4a22-bee6-2c9a751a2761",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
       "network": "ws",
-      "packet_encoding": "xudp",
+      "packet_encoding": "",
       "transport": {
         "type": "ws",
-        "path": "/"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "جاویدشاه",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "KingRezaPahlavi",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇮🇹 IT | HY2 | @outlinereleasedkey #1 [fast]",
-      "server": "31.76.113.32",
-      "server_port": 443,
-      "password": "71cada65-d23e-418c-88e4-a06188d14689",
-      "tls": {
-        "enabled": true,
-        "server_name": "it-one.quiet-rogue.site"
+        "path": "/dkfjh222"
       }
     },
     {

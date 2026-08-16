@@ -54,13 +54,13 @@
         "🇮🇷 IR | VLESS | @config_proxy #2 [fast]",
         "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @lax_vpn #1 [fast]",
-        "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
         "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
         "🇮🇷 IR | VLESS | @hope_net #1 [fast]",
-        "🇮🇷 IR | VLESS | @mpproxy #1 [medium]",
+        "🇮🇷 IR | VLESS | @mpproxy #1 [fast]",
+        "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
         "🇮🇷 IR | SS | @sobi_vpn #1 [medium]",
         "🇮🇷 IR | VMESS | @khoneproxy #1 [medium]",
-        "🇮🇷 IR | VMESS | @khoneproxy #2 [medium]",
+        "🇮🇷 IR | VMESS | @khoneproxy #2 [fast]",
         "🇮🇷 IR | VLESS | @nn_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @lemonshopvpn #1 [fast]",
         "🇮🇷 IR | VLESS | @realvpnmaster #1 [fast]",
@@ -76,13 +76,13 @@
         "🇮🇷 IR | VLESS | @config_proxy #2 [fast]",
         "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @lax_vpn #1 [fast]",
-        "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
         "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
         "🇮🇷 IR | VLESS | @hope_net #1 [fast]",
-        "🇮🇷 IR | VLESS | @mpproxy #1 [medium]",
+        "🇮🇷 IR | VLESS | @mpproxy #1 [fast]",
+        "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
         "🇮🇷 IR | SS | @sobi_vpn #1 [medium]",
         "🇮🇷 IR | VMESS | @khoneproxy #1 [medium]",
-        "🇮🇷 IR | VMESS | @khoneproxy #2 [medium]",
+        "🇮🇷 IR | VMESS | @khoneproxy #2 [fast]",
         "🇮🇷 IR | VLESS | @nn_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @lemonshopvpn #1 [fast]",
         "🇮🇷 IR | VLESS | @realvpnmaster #1 [fast]"
@@ -148,15 +148,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
-      "server": "tamin.ir",
-      "server_port": 80,
-      "uuid": "aa5e25fc-c7d7-4e6e-b7f7-105a35c0175a",
-      "network": "httpupgrade",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
       "tag": "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
       "server": "parspack.com",
       "server_port": 443,
@@ -201,7 +192,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 IR | VLESS | @mpproxy #1 [medium]",
+      "tag": "🇮🇷 IR | VLESS | @mpproxy #1 [fast]",
       "server": "abr.superip.ir",
       "server_port": 2052,
       "uuid": "061da3a1-0b8a-4abe-a739-8b33ae5519c4",
@@ -214,6 +205,15 @@
           "Host": "library.phill-up.ir"
         }
       }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
+      "server": "tamin.ir",
+      "server_port": 80,
+      "uuid": "aa5e25fc-c7d7-4e6e-b7f7-105a35c0175a",
+      "network": "httpupgrade",
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
@@ -246,7 +246,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇮🇷 IR | VMESS | @khoneproxy #2 [medium]",
+      "tag": "🇮🇷 IR | VMESS | @khoneproxy #2 [fast]",
       "server": "78.47.131.39",
       "server_port": 8443,
       "uuid": "4d598e48-234f-4c60-fdd3-fa90e084770d",

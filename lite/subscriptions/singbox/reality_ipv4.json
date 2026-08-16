@@ -54,11 +54,13 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇹🇷 TR | VLESS | @orange_vpns #1 [fast]",
+        "🇺🇸 US | VLESS | @orange_vpns #1 [fast]",
         "🇫🇷 FR | VLESS | @flyv2ray #1 [fast]",
         "🇷🇺 RU | VLESS | @free1_vpn #1 [fast]",
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇦🇪 AE | VLESS | @configv2rayforfree #1 [fast]",
-        "🇸🇨 SC | VLESS | @red2ray #1 [fast]",
+        "🇺🇸 US | VLESS | @red2ray #1 [fast]",
+        "🇸🇨 SC | VLESS | @netfreedom0 #1 [fast]",
         "🇸🇨 SC | VLESS | @netfreedom0 #2 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
@@ -74,11 +76,13 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇹🇷 TR | VLESS | @orange_vpns #1 [fast]",
+        "🇺🇸 US | VLESS | @orange_vpns #1 [fast]",
         "🇫🇷 FR | VLESS | @flyv2ray #1 [fast]",
         "🇷🇺 RU | VLESS | @free1_vpn #1 [fast]",
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇦🇪 AE | VLESS | @configv2rayforfree #1 [fast]",
-        "🇸🇨 SC | VLESS | @red2ray #1 [fast]",
+        "🇺🇸 US | VLESS | @red2ray #1 [fast]",
+        "🇸🇨 SC | VLESS | @netfreedom0 #1 [fast]",
         "🇸🇨 SC | VLESS | @netfreedom0 #2 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]"
@@ -146,6 +150,29 @@
           "enabled": true,
           "public_key": "LjEQR0FEtsOs5eQoVsZgJX5ZI0yeadUKTCLoGD641RQ",
           "short_id": "44"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @orange_vpns #1 [fast]",
+      "server": "144.31.65.59",
+      "server_port": 443,
+      "uuid": "564082ff-cf3c-48db-9e10-8ad2312847b4",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "node17.mxvpn.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw",
+          "short_id": "bbc68cec8bb8d2e3"
         }
       }
     },
@@ -242,26 +269,30 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇨 SC | VLESS | @red2ray #1 [fast]",
-      "server": "45.145.56.163",
+      "tag": "🇺🇸 US | VLESS | @red2ray #1 [fast]",
+      "server": "66.78.40.202",
       "server_port": 443,
-      "uuid": "76713d07-5a6b-49c2-abd8-bc450a2fa7fc",
+      "uuid": "302c2e89-6f2d-4500-90ce-26d075c7e84f",
       "flow": "xtls-rprx-vision",
       "network": "tcp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "de2.spectrum.vu",
+        "server_name": "www.samsung.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
         "reality": {
           "enabled": true,
-          "public_key": "Vci2ab6lM0ezoLBj2LgE-ynvakjbWOqUUSZmk5vcNjE",
-          "short_id": "44d44d1c625a13aa"
+          "public_key": "8zJkTehTmhmgKWUIj-CyJP4gtMjNxLgBxPjHC1wwW3A",
+          "short_id": "61"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇸🇨 SC | VLESS | @netfreedom0 #2 [fast]",
+      "tag": "🇸🇨 SC | VLESS | @netfreedom0 #1 [fast]",
       "server": "45.196.201.163",
       "server_port": 443,
       "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
@@ -274,6 +305,29 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04",
+          "short_id": "c6ef72e4635d15a5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇨 SC | VLESS | @netfreedom0 #2 [fast]",
+      "server": "45.196.201.16",
+      "server_port": 443,
+      "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "storage.yandex.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
