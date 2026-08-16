@@ -51,7 +51,7 @@
       "outbounds": [
         "auto",
         "🇫🇷 FR | VLESS | @flyv2ray #1 [fast]",
-        "🇫🇷 FR | VLESS | @outlinereleasedkey #1 [fast]",
+        "🇫🇷 FR | VLESS | @red2ray #1 [fast]",
         "🇫🇷 FR | VLESS | @mpproxy #1 [fast]",
         "🇫🇷 FR | VLESS | @minovpnch #1 [fast]",
         "🇫🇷 FR | VLESS | @minovpnch #2 [fast]",
@@ -65,7 +65,7 @@
       "tag": "auto",
       "outbounds": [
         "🇫🇷 FR | VLESS | @flyv2ray #1 [fast]",
-        "🇫🇷 FR | VLESS | @outlinereleasedkey #1 [fast]",
+        "🇫🇷 FR | VLESS | @red2ray #1 [fast]",
         "🇫🇷 FR | VLESS | @mpproxy #1 [fast]",
         "🇫🇷 FR | VLESS | @minovpnch #1 [fast]",
         "🇫🇷 FR | VLESS | @minovpnch #2 [fast]",
@@ -100,23 +100,21 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇷 FR | VLESS | @outlinereleasedkey #1 [fast]",
-      "server": "62.210.24.143",
-      "server_port": 32202,
-      "uuid": "28148be2-61a7-4f36-8adb-030cc9f82bd0",
-      "network": "xhttp",
+      "tag": "🇫🇷 FR | VLESS | @red2ray #1 [fast]",
+      "server": "gr2.levikogjgfdd.ir",
+      "server_port": 443,
+      "uuid": "25f3beef-a4b6-40bc-aa74-17a0f89f683c",
+      "network": "ws",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "www.amazon.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "bGe_-nAtOq6_w_2mv6pcmD8RzJP65Tti-vyMP2hAwDc",
-          "short_id": "f57d8f26"
+        "server_name": "finite-node.rtxconfigz.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "telegram.us"
         }
       }
     },
