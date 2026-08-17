@@ -53,11 +53,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇰🇿 KZ | SS | @configv2rayforfree #1 [medium]",
-        "🇷🇴 RO | SS | @red2ray #1 [medium]",
+        "🇰🇿 KZ | SS | @configv2rayforfree #1 [slow]",
         "🇮🇳 IN | SS | @outline_ir #1 [medium]",
-        "🇳🇱 NL | SS | @easy_free_vpn #1 [medium]",
-        "🇳🇱 NL | SS | @netfreedom0 #1 [medium]",
+        "🇳🇱 NL | SS | @easy_free_vpn #1 [fast]",
+        "🇳🇱 NL | SS | @netfreedom0 #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -69,11 +68,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇰🇿 KZ | SS | @configv2rayforfree #1 [medium]",
-        "🇷🇴 RO | SS | @red2ray #1 [medium]",
+        "🇰🇿 KZ | SS | @configv2rayforfree #1 [slow]",
         "🇮🇳 IN | SS | @outline_ir #1 [medium]",
-        "🇳🇱 NL | SS | @easy_free_vpn #1 [medium]",
-        "🇳🇱 NL | SS | @netfreedom0 #1 [medium]"
+        "🇳🇱 NL | SS | @easy_free_vpn #1 [fast]",
+        "🇳🇱 NL | SS | @netfreedom0 #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -121,23 +119,11 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇰🇿 KZ | SS | @configv2rayforfree #1 [medium]",
+      "tag": "🇰🇿 KZ | SS | @configv2rayforfree #1 [slow]",
       "server": "77.240.38.27",
       "server_port": 8443,
       "method": "chacha20-ietf-poly1305",
       "password": "fkXtvCEQ1ZU1rzF3fIK0fw==",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇷🇴 RO | SS | @red2ray #1 [medium]",
-      "server": "154.46.31.106",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "QFWzCw2uX9B9i6qAYeFBIE",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -157,7 +143,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇳🇱 NL | SS | @easy_free_vpn #1 [medium]",
+      "tag": "🇳🇱 NL | SS | @easy_free_vpn #1 [fast]",
       "server": "193.29.139.151",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
@@ -169,7 +155,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇳🇱 NL | SS | @netfreedom0 #1 [medium]",
+      "tag": "🇳🇱 NL | SS | @netfreedom0 #1 [fast]",
       "server": "193.29.139.230",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
