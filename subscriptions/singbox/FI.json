@@ -50,6 +50,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
+        "🇫🇮 FI | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇫🇮 FI | VLESS | @configv2rayforfree #1 [fast]",
         "direct"
       ],
@@ -59,12 +60,32 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
+        "🇫🇮 FI | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇫🇮 FI | VLESS | @configv2rayforfree #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
       "tolerance": 50,
       "idle_timeout": "30m"
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 FI | VLESS | @mtproxy22_v2ray #1 [fast]",
+      "server": "132.243.223.144",
+      "server_port": 443,
+      "uuid": "2cb6b4d9-0c74-45e2-a4fb-645bb8ac532a",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "fin3.o4ka-internet.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8",
+          "short_id": "5629431325884ff0"
+        }
+      }
     },
     {
       "type": "vless",

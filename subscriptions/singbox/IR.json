@@ -58,8 +58,8 @@
         "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
         "🇮🇷 IR | VLESS | @hope_net #1 [fast]",
         "🇮🇷 IR | VMESS | @mtproxy22_v2ray #1 [fast]",
+        "🇮🇷 IR | VLESS | @red2ray #1 [fast]",
         "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
-        "🇮🇷 IR | SS | @sobi_vpn #1 [slow]",
         "🇮🇷 IR | VMESS | @khoneproxy #1 [medium]",
         "🇮🇷 IR | VMESS | @khoneproxy #2 [fast]",
         "🇮🇷 IR | VLESS | @nn_vpn #1 [fast]",
@@ -81,8 +81,8 @@
         "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
         "🇮🇷 IR | VLESS | @hope_net #1 [fast]",
         "🇮🇷 IR | VMESS | @mtproxy22_v2ray #1 [fast]",
+        "🇮🇷 IR | VLESS | @red2ray #1 [fast]",
         "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
-        "🇮🇷 IR | SS | @sobi_vpn #1 [slow]",
         "🇮🇷 IR | VMESS | @khoneproxy #1 [medium]",
         "🇮🇷 IR | VMESS | @khoneproxy #2 [fast]",
         "🇮🇷 IR | VLESS | @nn_vpn #1 [fast]",
@@ -227,24 +227,21 @@
     },
     {
       "type": "vless",
+      "tag": "🇮🇷 IR | VLESS | @red2ray #1 [fast]",
+      "server": "netherland.zelnora.ir",
+      "server_port": 64584,
+      "uuid": "a19bdc9c-042f-4ee6-a1a7-3dedd2ef337b",
+      "network": "tcp",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
       "tag": "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
       "server": "tamin.ir",
       "server_port": 80,
       "uuid": "aa5e25fc-c7d7-4e6e-b7f7-105a35c0175a",
       "network": "httpupgrade",
       "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇮🇷 IR | SS | @sobi_vpn #1 [slow]",
-      "server": "tt.hsrdnr.ir",
-      "server_port": 2044,
-      "method": "chacha20-ietf-poly1305",
-      "password": "3rfnj11q5xvg72y1",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
     },
     {
       "type": "vmess",
