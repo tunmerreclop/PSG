@@ -70,7 +70,6 @@
         "🇮🇷 IR | VLESS | @lax_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @f_nirevil #1 [fast]",
         "🇽🇽 XX | VLESS | @f_nirevil #2 [fast]",
-        "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1 [fast]",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #2 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
@@ -84,6 +83,8 @@
         "🇺🇸 US | VLESS | @easy_free_vpn #1 [fast]",
         "🇩🇪 DE | VLESS | @netmellianti #1 [fast]",
         "🇲🇹 MT | VLESS | @netmellianti #1 [fast]",
+        "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
+        "🇮🇷 IR | VLESS | @NamiraConfigs #1 [fast]",
         "🇽🇽 XX | VLESS | @prooxyk #1 [fast]",
         "🇽🇽 XX | VLESS | @iranvipnet #1 [fast]",
         "🇺🇸 US | VLESS | @iranvipnet #1 [fast]",
@@ -132,7 +133,6 @@
         "🇮🇷 IR | VLESS | @lax_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @f_nirevil #1 [fast]",
         "🇽🇽 XX | VLESS | @f_nirevil #2 [fast]",
-        "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1 [fast]",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #2 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
@@ -146,6 +146,8 @@
         "🇺🇸 US | VLESS | @easy_free_vpn #1 [fast]",
         "🇩🇪 DE | VLESS | @netmellianti #1 [fast]",
         "🇲🇹 MT | VLESS | @netmellianti #1 [fast]",
+        "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
+        "🇮🇷 IR | VLESS | @NamiraConfigs #1 [fast]",
         "🇽🇽 XX | VLESS | @prooxyk #1 [fast]",
         "🇽🇽 XX | VLESS | @iranvipnet #1 [fast]",
         "🇺🇸 US | VLESS | @iranvipnet #1 [fast]",
@@ -492,23 +494,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
-      "server": "norman.ns.cloudflare.com",
-      "server_port": 443,
-      "uuid": "ee122f13-9b54-49b6-abc5-aa47b464fdb3",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "azizoarjmand.info"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/yhowcws"
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇺🇸 US | VLESS | @nofilter_v2rayng #1 [fast]",
       "server": "djangoproject.com",
       "server_port": 80,
@@ -740,6 +725,48 @@
       "uuid": "6d4cce6a-dbc6-43af-9146-067847483fce",
       "network": "httpupgrade",
       "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
+      "server": "norman.ns.cloudflare.com",
+      "server_port": 443,
+      "uuid": "ee122f13-9b54-49b6-abc5-aa47b464fdb3",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "azizoarjmand.info"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/yhowcws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇷 IR | VLESS | @NamiraConfigs #1 [fast]",
+      "server": "adgof.mgodping12.xyz",
+      "server_port": 2086,
+      "uuid": "257c313c-36fa-4d99-ba06-bb4a02aae70d",
+      "network": "grpc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "alpn": [
+          "h2",
+          "http/1.1",
+          "h3"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc"
+      }
     },
     {
       "type": "vless",
