@@ -51,7 +51,7 @@
       "outbounds": [
         "auto",
         "🇩🇪 DE | VLESS | @prrofile_purple #1 [fast]",
-        "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
+        "🇩🇪 DE | VMESS | @outlinereleasedkey #1 [fast]",
         "🇩🇪 DE | VLESS | @mpproxy #1 [fast]",
         "🇩🇪 DE | VLESS | @ai_duet #1 [fast]",
         "🇩🇪 DE | VLESS | @privatevpns #1 [fast]",
@@ -77,7 +77,7 @@
       "tag": "auto",
       "outbounds": [
         "🇩🇪 DE | VLESS | @prrofile_purple #1 [fast]",
-        "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
+        "🇩🇪 DE | VMESS | @outlinereleasedkey #1 [fast]",
         "🇩🇪 DE | VLESS | @mpproxy #1 [fast]",
         "🇩🇪 DE | VLESS | @ai_duet #1 [fast]",
         "🇩🇪 DE | VLESS | @privatevpns #1 [fast]",
@@ -103,46 +103,51 @@
     {
       "type": "vless",
       "tag": "🇩🇪 DE | VLESS | @prrofile_purple #1 [fast]",
-      "server": "109.163.239.64",
+      "server": "core.noneok.com",
       "server_port": 443,
-      "uuid": "c6a420c7-3bdb-40cd-8a57-f5ce870e9b83",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn4-35.yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw",
-          "short_id": "c252dea48965065b"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
-      "server": "api.noneok.com",
-      "server_port": 443,
-      "uuid": "a8e3155b-ceb1-4fcb-bc0c-2e77ec005401",
+      "uuid": "340e4de3-144b-49c4-ad72-b49b35713728",
       "network": "grpc",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "api.noneok.com",
+        "server_name": "core.noneok.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
         "reality": {
           "enabled": true,
-          "public_key": "S8O8R938N960cpQfIIDXsJTxeGAkbVv6PlIqP0-d30w",
-          "short_id": "1ea59febb8d4fc8e"
+          "public_key": "HAqqALwpxu_tx-IFcYaZWVshVKyKttGGrxoEfuP_Lgs",
+          "short_id": "fde63d9c58210bf9"
         }
       },
       "transport": {
         "type": "grpc",
         "service_name": "api.v1.StreamService"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇩🇪 DE | VMESS | @outlinereleasedkey #1 [fast]",
+      "server": "deapp.jisuyun.top",
+      "server_port": 2053,
+      "uuid": "9a1a05d9-69be-45d3-e326-c6621edf7b31",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "network": "ws",
+      "packet_encoding": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "deapp.jisuyun.top"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/devm",
+        "headers": {
+          "Host": "deapp.jisuyun.top"
+        }
       }
     },
     {
@@ -181,7 +186,7 @@
     {
       "type": "vless",
       "tag": "🇩🇪 DE | VLESS | @privatevpns #1 [fast]",
-      "server": "63.185.246.118",
+      "server": "63.182.189.87",
       "server_port": 22222,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "network": "tcp",
@@ -190,25 +195,11 @@
     {
       "type": "vless",
       "tag": "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
-      "server": "31.76.119.117",
-      "server_port": 443,
-      "uuid": "7d2bac5e-6ff9-45c9-844e-6bfc5a384a42",
-      "flow": "xtls-rprx-vision",
+      "server": "63.182.189.87",
+      "server_port": 22224,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "de.orpheous.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "lHCkAu_DOVFtE-iL2JGrPt44QeTCFijXuRfuGaSni3Q",
-          "short_id": "9e4eced6e98ed4d4"
-        }
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",

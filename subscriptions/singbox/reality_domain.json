@@ -53,10 +53,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
-        "🇮🇹 IT | VLESS | @selinc #1 [slow]",
+        "🇩🇪 DE | VLESS | @prrofile_purple #1 [fast]",
+        "🇮🇹 IT | VLESS | @selinc #1 [fast]",
         "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
-        "🇨🇾 CY | VLESS | @outline_ir #1 [medium]",
+        "🇨🇾 CY | VLESS | @outline_ir #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -68,10 +68,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
-        "🇮🇹 IT | VLESS | @selinc #1 [slow]",
+        "🇩🇪 DE | VLESS | @prrofile_purple #1 [fast]",
+        "🇮🇹 IT | VLESS | @selinc #1 [fast]",
         "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
-        "🇨🇾 CY | VLESS | @outline_ir #1 [medium]"
+        "🇨🇾 CY | VLESS | @outline_ir #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -119,19 +119,23 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
-      "server": "api.noneok.com",
+      "tag": "🇩🇪 DE | VLESS | @prrofile_purple #1 [fast]",
+      "server": "core.noneok.com",
       "server_port": 443,
-      "uuid": "a8e3155b-ceb1-4fcb-bc0c-2e77ec005401",
+      "uuid": "340e4de3-144b-49c4-ad72-b49b35713728",
       "network": "grpc",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "api.noneok.com",
+        "server_name": "core.noneok.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
         "reality": {
           "enabled": true,
-          "public_key": "S8O8R938N960cpQfIIDXsJTxeGAkbVv6PlIqP0-d30w",
-          "short_id": "1ea59febb8d4fc8e"
+          "public_key": "HAqqALwpxu_tx-IFcYaZWVshVKyKttGGrxoEfuP_Lgs",
+          "short_id": "fde63d9c58210bf9"
         }
       },
       "transport": {
@@ -141,7 +145,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇹 IT | VLESS | @selinc #1 [slow]",
+      "tag": "🇮🇹 IT | VLESS | @selinc #1 [fast]",
       "server": "it.feywebsite.ir",
       "server_port": 8008,
       "uuid": "b91abe1a-80ca-417b-998b-2b542661c16f",
@@ -182,7 +186,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇾 CY | VLESS | @outline_ir #1 [medium]",
+      "tag": "🇨🇾 CY | VLESS | @outline_ir #1 [fast]",
       "server": "in1.levikogjgfdd.ir",
       "server_port": 40443,
       "uuid": "511c1563-2cb6-4064-abc6-a59ee49818a8",

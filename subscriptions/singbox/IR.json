@@ -58,6 +58,7 @@
         "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
         "🇮🇷 IR | VLESS | @hope_net #1 [fast]",
         "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
+        "🇮🇷 IR | SS | @sobi_vpn #1 [fast]",
         "🇮🇷 IR | VMESS | @khoneproxy #1 [medium]",
         "🇮🇷 IR | VMESS | @khoneproxy #2 [fast]",
         "🇮🇷 IR | VLESS | @nn_vpn #1 [fast]",
@@ -79,6 +80,7 @@
         "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
         "🇮🇷 IR | VLESS | @hope_net #1 [fast]",
         "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
+        "🇮🇷 IR | SS | @sobi_vpn #1 [fast]",
         "🇮🇷 IR | VMESS | @khoneproxy #1 [medium]",
         "🇮🇷 IR | VMESS | @khoneproxy #2 [fast]",
         "🇮🇷 IR | VLESS | @nn_vpn #1 [fast]",
@@ -212,6 +214,18 @@
       "uuid": "7b81a350-89c3-47da-a3a9-5f2b65313d03",
       "network": "httpupgrade",
       "packet_encoding": "xudp"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇮🇷 IR | SS | @sobi_vpn #1 [fast]",
+      "server": "tt.hsrdnr.ir",
+      "server_port": 2044,
+      "method": "chacha20-ietf-poly1305",
+      "password": "3rfnj11q5xvg72y1",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
     },
     {
       "type": "vmess",

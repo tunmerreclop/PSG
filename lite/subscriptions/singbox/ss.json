@@ -53,13 +53,14 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇷🇺 RU | SS | @outlinereleasedkey #1 [fast]",
+        "🇳🇱 NL | SS | @easy_free_vpn #1 [fast]",
+        "🇳🇱 NL | SS | @outlinereleasedkey #1 [fast]",
         "🇰🇿 KZ | SS | @configv2rayforfree #1 [medium]",
         "🇺🇸 US | SS | @outline_ir #1 [fast]",
-        "🇳🇱 NL | SS | @easy_free_vpn #1 [fast]",
         "🇳🇱 NL | SS | @netfreedom0 #1 [fast]",
         "🇬🇧 GB | SS | @netfreedom0 #1 [fast]",
         "🇦🇺 AU | SS | @outline_ir #1 [fast]",
+        "🇮🇷 IR | SS | @sobi_vpn #1 [fast]",
         "🇩🇪 DE | SS | @sobi_vpn #1 [fast]",
         "🇺🇸 US | SS | @proxy_confiingir #1 [fast]",
         "direct"
@@ -73,13 +74,14 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇷🇺 RU | SS | @outlinereleasedkey #1 [fast]",
+        "🇳🇱 NL | SS | @easy_free_vpn #1 [fast]",
+        "🇳🇱 NL | SS | @outlinereleasedkey #1 [fast]",
         "🇰🇿 KZ | SS | @configv2rayforfree #1 [medium]",
         "🇺🇸 US | SS | @outline_ir #1 [fast]",
-        "🇳🇱 NL | SS | @easy_free_vpn #1 [fast]",
         "🇳🇱 NL | SS | @netfreedom0 #1 [fast]",
         "🇬🇧 GB | SS | @netfreedom0 #1 [fast]",
         "🇦🇺 AU | SS | @outline_ir #1 [fast]",
+        "🇮🇷 IR | SS | @sobi_vpn #1 [fast]",
         "🇩🇪 DE | SS | @sobi_vpn #1 [fast]",
         "🇺🇸 US | SS | @proxy_confiingir #1 [fast]"
       ],
@@ -129,11 +131,23 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇷🇺 RU | SS | @outlinereleasedkey #1 [fast]",
-      "server": "157.22.240.141",
-      "server_port": 57925,
+      "tag": "🇳🇱 NL | SS | @easy_free_vpn #1 [fast]",
+      "server": "193.29.139.151",
+      "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
-      "password": "624THneJeXsxlSl3DPr7KR",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 NL | SS | @outlinereleasedkey #1 [fast]",
+      "server": "193.29.139.235",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -158,18 +172,6 @@
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
       "password": "eDfN7SODQceIOmIAbtJJtK",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 NL | SS | @easy_free_vpn #1 [fast]",
-      "server": "193.29.139.151",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -206,6 +208,18 @@
       "server_port": 27116,
       "method": "chacha20-ietf-poly1305",
       "password": "bIOoi5TuImG2KccxV7-jcA7Cez+vun-c_E",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇮🇷 IR | SS | @sobi_vpn #1 [fast]",
+      "server": "tt.hsrdnr.ir",
+      "server_port": 2044,
+      "method": "chacha20-ietf-poly1305",
+      "password": "3rfnj11q5xvg72y1",
       "network": "tcp",
       "tls": {
         "enabled": true

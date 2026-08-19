@@ -50,8 +50,6 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇷🇺 RU | VLESS | @orange_vpns #1 [fast]",
-        "🇷🇺 RU | SS | @outlinereleasedkey #1 [fast]",
         "🇷🇺 RU | VLESS | @red2ray #1 [fast]",
         "🇷🇺 RU | VLESS | @jiedianf #1 [fast]",
         "🇷🇺 RU | VLESS | @netfreedom0 #1 [fast]",
@@ -63,8 +61,6 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇺 RU | VLESS | @orange_vpns #1 [fast]",
-        "🇷🇺 RU | SS | @outlinereleasedkey #1 [fast]",
         "🇷🇺 RU | VLESS | @red2ray #1 [fast]",
         "🇷🇺 RU | VLESS | @jiedianf #1 [fast]",
         "🇷🇺 RU | VLESS | @netfreedom0 #1 [fast]"
@@ -73,41 +69,6 @@
       "interval": "3m",
       "tolerance": 50,
       "idle_timeout": "30m"
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @orange_vpns #1 [fast]",
-      "server": "80.66.78.227",
-      "server_port": 443,
-      "uuid": "76f6b7fe-5de8-4637-87a0-6ddd33d67b3e",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn-se.alohaapp.uk",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "kRwY2AAdT6SH4FKFQb-UhnJbyddqbdluKy1xaYPatD8",
-          "short_id": "b9f8f9772217538f"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇷🇺 RU | SS | @outlinereleasedkey #1 [fast]",
-      "server": "157.22.240.141",
-      "server_port": 57925,
-      "method": "chacha20-ietf-poly1305",
-      "password": "624THneJeXsxlSl3DPr7KR",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
     },
     {
       "type": "vless",
