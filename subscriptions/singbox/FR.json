@@ -51,6 +51,7 @@
       "outbounds": [
         "auto",
         "🇫🇷 FR | VLESS | @mimitdl #1 [fast]",
+        "🇫🇷 FR | SS | @outlinereleasedkey #1 [fast]",
         "🇫🇷 FR | VLESS | @mpproxy #1 [fast]",
         "🇫🇷 FR | VLESS | @outline_ir #1 [fast]",
         "🇫🇷 FR | VLESS | @minovpnch #1 [fast]",
@@ -65,6 +66,7 @@
       "tag": "auto",
       "outbounds": [
         "🇫🇷 FR | VLESS | @mimitdl #1 [fast]",
+        "🇫🇷 FR | SS | @outlinereleasedkey #1 [fast]",
         "🇫🇷 FR | VLESS | @mpproxy #1 [fast]",
         "🇫🇷 FR | VLESS | @outline_ir #1 [fast]",
         "🇫🇷 FR | VLESS | @minovpnch #1 [fast]",
@@ -90,6 +92,18 @@
         "headers": {
           "Host": "play.google.com"
         }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇫🇷 FR | SS | @outlinereleasedkey #1 [fast]",
+      "server": "fr4.levikogjgfdd.ir",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "zRZNBszYyWo5",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
       }
     },
     {

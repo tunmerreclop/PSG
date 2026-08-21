@@ -55,9 +55,10 @@
         "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @mpproxy #1 [fast]",
         "🇮🇷 IR | VLESS | @lax_vpn #1 [fast]",
+        "🇮🇷 IR | VLESS | @red2ray #1 [fast]",
         "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
         "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
-        "🇮🇷 IR | SS | @sobi_vpn #1 [medium]",
+        "🇮🇷 IR | SS | @sobi_vpn #1 [fast]",
         "🇮🇷 IR | VMESS | @khoneproxy #1 [medium]",
         "🇮🇷 IR | VMESS | @khoneproxy #2 [fast]",
         "🇮🇷 IR | VLESS | @nn_vpn #1 [fast]",
@@ -76,9 +77,10 @@
         "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @mpproxy #1 [fast]",
         "🇮🇷 IR | VLESS | @lax_vpn #1 [fast]",
+        "🇮🇷 IR | VLESS | @red2ray #1 [fast]",
         "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
         "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
-        "🇮🇷 IR | SS | @sobi_vpn #1 [medium]",
+        "🇮🇷 IR | SS | @sobi_vpn #1 [fast]",
         "🇮🇷 IR | VMESS | @khoneproxy #1 [medium]",
         "🇮🇷 IR | VMESS | @khoneproxy #2 [fast]",
         "🇮🇷 IR | VLESS | @nn_vpn #1 [fast]",
@@ -162,6 +164,23 @@
     },
     {
       "type": "vless",
+      "tag": "🇮🇷 IR | VLESS | @red2ray #1 [fast]",
+      "server": "s2.zynetraq.ir",
+      "server_port": 2087,
+      "uuid": "d1375d48-f7aa-412d-ff54-f83b1bef21d2",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "s2.zynetraq.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
       "server": "tamin.ir",
       "server_port": 80,
@@ -199,7 +218,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇮🇷 IR | SS | @sobi_vpn #1 [medium]",
+      "tag": "🇮🇷 IR | SS | @sobi_vpn #1 [fast]",
       "server": "tt.hsrdnr.ir",
       "server_port": 2044,
       "method": "chacha20-ietf-poly1305",
