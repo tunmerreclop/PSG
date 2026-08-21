@@ -69,6 +69,7 @@
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1 [fast]",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #2 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
+        "🇨🇭 CH | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2 [fast]",
         "🇽🇽 XX | VLESS | @jiedianf #1 [fast]",
@@ -123,6 +124,7 @@
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1 [fast]",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #2 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
+        "🇨🇭 CH | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2 [fast]",
         "🇽🇽 XX | VLESS | @jiedianf #1 [fast]",
@@ -423,6 +425,29 @@
         "path": "vless-ws/?ed=2048",
         "headers": {
           "Host": "sub.shadowsokstes.WoRkErs.DeV"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 CH | VLESS | @mtproxy22_v2ray #1 [fast]",
+      "server": "cdn7-02.cdn-vkvideo.com",
+      "server_port": 443,
+      "uuid": "f4f2229e-ca2a-40b1-b4ae-24248c21b645",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn7-02.cdn-vkvideo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "MpuwI3YH2g3YWHKLuQwwgD_qLo-UmUtZe8L1KXOKxhA",
+          "short_id": "b0d8f964b7ac8ac0"
         }
       }
     },

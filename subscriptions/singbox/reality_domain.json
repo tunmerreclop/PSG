@@ -56,9 +56,9 @@
         "🇵🇱 PL | VLESS | @orange_vpns #1 [fast]",
         "🇮🇹 IT | VLESS | @selinc #1 [fast]",
         "🇨🇭 CH | VLESS | @mtproxy22_v2ray #1 [fast]",
+        "🇺🇸 US | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
         "🇫🇷 FR | VLESS | @outline_ir #1 [fast]",
-        "🇹🇷 TR | VLESS | @NamiraConfigs #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -73,9 +73,9 @@
         "🇵🇱 PL | VLESS | @orange_vpns #1 [fast]",
         "🇮🇹 IT | VLESS | @selinc #1 [fast]",
         "🇨🇭 CH | VLESS | @mtproxy22_v2ray #1 [fast]",
+        "🇺🇸 US | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
-        "🇫🇷 FR | VLESS | @outline_ir #1 [fast]",
-        "🇹🇷 TR | VLESS | @NamiraConfigs #1 [fast]"
+        "🇫🇷 FR | VLESS | @outline_ir #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -190,6 +190,25 @@
     },
     {
       "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @mtproxy22_v2ray #1 [fast]",
+      "server": "rssm-1btto92.joxenly.com",
+      "server_port": 443,
+      "uuid": "83c18ff2-0565-4b53-89ad-57357fef153b",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "bHGC7iI4Q50nxoYStP3TjBaRXih6O0bmuemexki0aXY",
+          "short_id": "29ff8963a9fe281c"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
       "server": "ge3.app-sync-data.space",
       "server_port": 443,
@@ -234,28 +253,6 @@
           "enabled": true,
           "public_key": "dhLgVSqPBDrdbhyTS2j60LWZDGEZh-smkcjUNSic-WI",
           "short_id": "e5f67890"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇷 TR | VLESS | @NamiraConfigs #1 [fast]",
-      "server": "sos2.speedit.ir",
-      "server_port": 443,
-      "uuid": "bb65d1fa-f051-4e59-834c-92476bfb5e76",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "cAxXNYa_hg_WJxa5jRWupnQf9J-OfShX0tqXvpWeZVc",
-          "short_id": "203afac07a"
         }
       }
     },

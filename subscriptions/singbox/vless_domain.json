@@ -85,6 +85,7 @@
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #6 [fast]",
         "🇨🇭 CH | VLESS | @mtproxy22_v2ray #1 [fast]",
+        "🇺🇸 US | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2 [fast]",
@@ -94,7 +95,8 @@
         "🇽🇽 XX | VLESS | @novinology #5 [fast]",
         "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
         "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
-        "🇹🇷 TR | VLESS | @NamiraConfigs #1 [fast]",
+        "🇺🇸 US | VLESS | @NamiraConfigs #3 [fast]",
+        "🇺🇸 US | VLESS | @NamiraConfigs #4 [fast]",
         "🇽🇽 XX | VLESS | @prooxyk #1 [fast]",
         "🇽🇽 XX | VLESS | @iranvipnet #1 [fast]",
         "🇺🇸 US | VLESS | @iranvipnet #1 [fast]",
@@ -177,6 +179,7 @@
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #6 [fast]",
         "🇨🇭 CH | VLESS | @mtproxy22_v2ray #1 [fast]",
+        "🇺🇸 US | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2 [fast]",
@@ -186,7 +189,8 @@
         "🇽🇽 XX | VLESS | @novinology #5 [fast]",
         "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
         "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
-        "🇹🇷 TR | VLESS | @NamiraConfigs #1 [fast]",
+        "🇺🇸 US | VLESS | @NamiraConfigs #3 [fast]",
+        "🇺🇸 US | VLESS | @NamiraConfigs #4 [fast]",
         "🇽🇽 XX | VLESS | @prooxyk #1 [fast]",
         "🇽🇽 XX | VLESS | @iranvipnet #1 [fast]",
         "🇺🇸 US | VLESS | @iranvipnet #1 [fast]",
@@ -738,6 +742,25 @@
     },
     {
       "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @mtproxy22_v2ray #1 [fast]",
+      "server": "rssm-1btto92.joxenly.com",
+      "server_port": 443,
+      "uuid": "83c18ff2-0565-4b53-89ad-57357fef153b",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "bHGC7iI4Q50nxoYStP3TjBaRXih6O0bmuemexki0aXY",
+          "short_id": "29ff8963a9fe281c"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
       "server": "ge3.app-sync-data.space",
       "server_port": 443,
@@ -939,23 +962,55 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 TR | VLESS | @NamiraConfigs #1 [fast]",
-      "server": "sos2.speedit.ir",
+      "tag": "🇺🇸 US | VLESS | @NamiraConfigs #3 [fast]",
+      "server": "hphphphph-production.up.railway.app",
       "server_port": 443,
-      "uuid": "bb65d1fa-f051-4e59-834c-92476bfb5e76",
-      "network": "tcp",
+      "uuid": "869a7792-7f60-43fb-bfaf-1510ec7bb719",
+      "network": "ws",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
+        "server_name": "hphphphph-production.up.railway.app",
+        "alpn": [
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws/vless/869a7792-7f60-43fb-bfaf-1510ec7bb719?ed=2048",
+        "headers": {
+          "Host": "hphphphph-production.up.railway.app"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @NamiraConfigs #4 [fast]",
+      "server": "web-production-7bd3d.up.railway.app",
+      "server_port": 443,
+      "uuid": "f5507df1-ba48-4dea-aba1-d3770aac4e1d",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "web-production-7bd3d.up.railway.app",
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
           "enabled": true,
-          "public_key": "cAxXNYa_hg_WJxa5jRWupnQf9J-OfShX0tqXvpWeZVc",
-          "short_id": "203afac07a"
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws/vless/f5507df1-ba48-4dea-aba1-d3770aac4e1d?ed=2048",
+        "headers": {
+          "Host": "web-production-7bd3d.up.railway.app"
         }
       }
     },
