@@ -50,14 +50,12 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇫🇷 FR | VLESS | @prrofile_purple #1 [fast]",
         "🇫🇷 FR | VLESS | @mimitdl #1 [fast]",
-        "🇫🇷 FR | SS | @outlinereleasedkey #1 [fast]",
         "🇫🇷 FR | VLESS | @mpproxy #1 [fast]",
         "🇫🇷 FR | VLESS | @outline_ir #1 [fast]",
         "🇫🇷 FR | VLESS | @minovpnch #1 [fast]",
         "🇫🇷 FR | VLESS | @minovpnch #2 [fast]",
-        "🇫🇷 FR | VLESS | @proxy48 #1 [medium]",
+        "🇫🇷 FR | VLESS | @proxy48 #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -66,43 +64,17 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇫🇷 FR | VLESS | @prrofile_purple #1 [fast]",
         "🇫🇷 FR | VLESS | @mimitdl #1 [fast]",
-        "🇫🇷 FR | SS | @outlinereleasedkey #1 [fast]",
         "🇫🇷 FR | VLESS | @mpproxy #1 [fast]",
         "🇫🇷 FR | VLESS | @outline_ir #1 [fast]",
         "🇫🇷 FR | VLESS | @minovpnch #1 [fast]",
         "🇫🇷 FR | VLESS | @minovpnch #2 [fast]",
-        "🇫🇷 FR | VLESS | @proxy48 #1 [medium]"
+        "🇫🇷 FR | VLESS | @proxy48 #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
       "tolerance": 50,
       "idle_timeout": "30m"
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇷 FR | VLESS | @prrofile_purple #1 [fast]",
-      "server": "pizzashop.dearhossein-taktaz.ir",
-      "server_port": 443,
-      "uuid": "77c9a41e-70bd-47c2-b5e1-bff49df325d9",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "pizzashop.dearhossein-taktaz.ir",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "pizzashop.dearhossein-taktaz.ir"
-        }
-      }
     },
     {
       "type": "vless",
@@ -118,18 +90,6 @@
         "headers": {
           "Host": "play.google.com"
         }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇫🇷 FR | SS | @outlinereleasedkey #1 [fast]",
-      "server": "fr4.levikogjgfdd.ir",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "zRZNBszYyWo5",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
       }
     },
     {
@@ -218,7 +178,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇷 FR | VLESS | @proxy48 #1 [medium]",
+      "tag": "🇫🇷 FR | VLESS | @proxy48 #1 [fast]",
       "server": "51.75.30.8",
       "server_port": 80,
       "uuid": "1949f066-bcb0-49be-88e9-74abd940f80e",

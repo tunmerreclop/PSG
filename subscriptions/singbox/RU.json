@@ -50,12 +50,11 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇷🇺 RU | VLESS | @orange_vpns #1 [fast]",
-        "🇷🇺 RU | VLESS | @orange_vpns #2 [medium]",
-        "🇷🇺 RU | VLESS | @orange_vpns #3 [medium]",
-        "🇷🇺 RU | VLESS | @free1_vpn #1 [medium]",
-        "🇷🇺 RU | VLESS | @jiedianf #1 [medium]",
-        "🇷🇺 RU | VLESS | @NamiraConfigs #1 [medium]",
+        "🇷🇺 RU | VLESS | @orange_vpns #1 [medium]",
+        "🇷🇺 RU | VLESS | @orange_vpns #2 [fast]",
+        "🇷🇺 RU | VLESS | @orange_vpns #3 [fast]",
+        "🇷🇺 RU | VLESS | @free1_vpn #1 [slow]",
+        "🇷🇺 RU | VLESS | @jiedianf #1 [fast]",
         "🇷🇺 RU | VLESS | @netfreedom0 #1 [medium]",
         "direct"
       ],
@@ -65,12 +64,11 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇺 RU | VLESS | @orange_vpns #1 [fast]",
-        "🇷🇺 RU | VLESS | @orange_vpns #2 [medium]",
-        "🇷🇺 RU | VLESS | @orange_vpns #3 [medium]",
-        "🇷🇺 RU | VLESS | @free1_vpn #1 [medium]",
-        "🇷🇺 RU | VLESS | @jiedianf #1 [medium]",
-        "🇷🇺 RU | VLESS | @NamiraConfigs #1 [medium]",
+        "🇷🇺 RU | VLESS | @orange_vpns #1 [medium]",
+        "🇷🇺 RU | VLESS | @orange_vpns #2 [fast]",
+        "🇷🇺 RU | VLESS | @orange_vpns #3 [fast]",
+        "🇷🇺 RU | VLESS | @free1_vpn #1 [slow]",
+        "🇷🇺 RU | VLESS | @jiedianf #1 [fast]",
         "🇷🇺 RU | VLESS | @netfreedom0 #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
@@ -80,7 +78,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @orange_vpns #1 [fast]",
+      "tag": "🇷🇺 RU | VLESS | @orange_vpns #1 [medium]",
       "server": "80.66.78.227",
       "server_port": 443,
       "uuid": "76f6b7fe-5de8-4637-87a0-6ddd33d67b3e",
@@ -103,7 +101,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @orange_vpns #2 [medium]",
+      "tag": "🇷🇺 RU | VLESS | @orange_vpns #2 [fast]",
       "server": "185.147.26.175",
       "server_port": 443,
       "uuid": "7d2bac5e-6ff9-45c9-844e-6bfc5a384a42",
@@ -126,7 +124,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @orange_vpns #3 [medium]",
+      "tag": "🇷🇺 RU | VLESS | @orange_vpns #3 [fast]",
       "server": "5.129.249.118",
       "server_port": 443,
       "uuid": "fe0138b5-ca60-4a67-91aa-b5a49266eeb5",
@@ -149,7 +147,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @free1_vpn #1 [medium]",
+      "tag": "🇷🇺 RU | VLESS | @free1_vpn #1 [slow]",
       "server": "80.66.78.227",
       "server_port": 443,
       "uuid": "76f6b7fe-5de8-4637-87a0-6ddd33d67b3e",
@@ -172,7 +170,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @jiedianf #1 [medium]",
+      "tag": "🇷🇺 RU | VLESS | @jiedianf #1 [fast]",
       "server": "2.26.8.55",
       "server_port": 443,
       "uuid": "10ea33f2-1a66-4dec-99f2-8068a6b56a45",
@@ -191,18 +189,6 @@
           "public_key": "Loc9rXCMgSkksa4TGr203UCppZh9epDs8tdTVCjiCRw",
           "short_id": "c39843c687af3383"
         }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @NamiraConfigs #1 [medium]",
-      "server": "89.19.223.136",
-      "server_port": 443,
-      "uuid": "22419260-5475-49d8-a29c-01905c54d1b8",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true
       }
     },
     {
