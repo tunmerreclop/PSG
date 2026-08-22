@@ -51,9 +51,8 @@
       "outbounds": [
         "auto",
         "🇫🇮 FI | VLESS | @orange_vpns #1 [fast]",
-        "🇫🇮 FI | VLESS | @orange_vpns #2 [fast]",
         "🇫🇮 FI | VLESS | @outlinereleasedkey #1 [medium]",
-        "🇫🇮 FI | VLESS | @outline_ir #1 [fast]",
+        "🇫🇮 FI | VLESS | @outline_ir #1 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -63,9 +62,8 @@
       "tag": "auto",
       "outbounds": [
         "🇫🇮 FI | VLESS | @orange_vpns #1 [fast]",
-        "🇫🇮 FI | VLESS | @orange_vpns #2 [fast]",
         "🇫🇮 FI | VLESS | @outlinereleasedkey #1 [medium]",
-        "🇫🇮 FI | VLESS | @outline_ir #1 [fast]"
+        "🇫🇮 FI | VLESS | @outline_ir #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -75,29 +73,6 @@
     {
       "type": "vless",
       "tag": "🇫🇮 FI | VLESS | @orange_vpns #1 [fast]",
-      "server": "132.243.223.88",
-      "server_port": 443,
-      "uuid": "fbb74aa8-b89a-4f20-9504-6b25aadf6681",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "fin2.freeinternat.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk",
-          "short_id": "ff776ff77be48b88"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 FI | VLESS | @orange_vpns #2 [fast]",
       "server": "85.192.49.151",
       "server_port": 443,
       "uuid": "bb05f9d7-a3d1-4b81-a790-f6dba0301907",
@@ -139,7 +114,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 FI | VLESS | @outline_ir #1 [fast]",
+      "tag": "🇫🇮 FI | VLESS | @outline_ir #1 [medium]",
       "server": "72.35.246.31",
       "server_port": 1244,
       "uuid": "2d96d4d6-a276-4ab5-9f20-8dc5cbf6e902",
