@@ -52,6 +52,7 @@
         "auto",
         "🇨🇿 CZ | VLESS | @outlinereleasedkey #1 [fast]",
         "🇨🇿 CZ | VMESS | @freev2rays #1 [fast]",
+        "🇨🇿 CZ | VLESS | @NamiraConfigs #1 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -61,7 +62,8 @@
       "tag": "auto",
       "outbounds": [
         "🇨🇿 CZ | VLESS | @outlinereleasedkey #1 [fast]",
-        "🇨🇿 CZ | VMESS | @freev2rays #1 [fast]"
+        "🇨🇿 CZ | VMESS | @freev2rays #1 [fast]",
+        "🇨🇿 CZ | VLESS | @NamiraConfigs #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -108,6 +110,26 @@
         "path": "/",
         "headers": {
           "Host": "shs111.kejixiaoqi666.store"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇿 CZ | VLESS | @NamiraConfigs #1 [medium]",
+      "server": "195.133.94.188",
+      "server_port": 2053,
+      "uuid": "c7e9c591-2764-423a-afca-efbd010fd396",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "forfreeuse.rtqa.ru"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed",
+        "headers": {
+          "Host": "forfreeuse.rtqa.ru"
         }
       }
     },

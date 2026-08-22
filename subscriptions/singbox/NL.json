@@ -51,9 +51,11 @@
       "outbounds": [
         "auto",
         "🇳🇱 NL | SS | @easy_free_vpn #1 [fast]",
-        "🇳🇱 NL | SS | @outline_ir #1 [medium]",
-        "🇳🇱 NL | SS | @netfreedom0 #1 [medium]",
-        "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]",
+        "🇳🇱 NL | SS | @outline_ir #1 [fast]",
+        "🇳🇱 NL | VLESS | @NamiraConfigs #1 [fast]",
+        "🇳🇱 NL | VLESS | @NamiraConfigs #2 [fast]",
+        "🇳🇱 NL | SS | @netfreedom0 #1 [fast]",
+        "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -63,9 +65,11 @@
       "tag": "auto",
       "outbounds": [
         "🇳🇱 NL | SS | @easy_free_vpn #1 [fast]",
-        "🇳🇱 NL | SS | @outline_ir #1 [medium]",
-        "🇳🇱 NL | SS | @netfreedom0 #1 [medium]",
-        "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]"
+        "🇳🇱 NL | SS | @outline_ir #1 [fast]",
+        "🇳🇱 NL | VLESS | @NamiraConfigs #1 [fast]",
+        "🇳🇱 NL | VLESS | @NamiraConfigs #2 [fast]",
+        "🇳🇱 NL | SS | @netfreedom0 #1 [fast]",
+        "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -86,7 +90,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇳🇱 NL | SS | @outline_ir #1 [medium]",
+      "tag": "🇳🇱 NL | SS | @outline_ir #1 [fast]",
       "server": "193.29.139.168",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
@@ -97,8 +101,41 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇳🇱 NL | VLESS | @NamiraConfigs #1 [fast]",
+      "server": "177.3.212.127",
+      "server_port": 8443,
+      "uuid": "14da77da-4fb3-4e49-ac4f-7881ea19b267",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "neth6.lckdwn.ru",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 NL | VLESS | @NamiraConfigs #2 [fast]",
+      "server": "neth6.lckdwn.ru",
+      "server_port": 443,
+      "uuid": "14da77da-4fb3-4e49-ac4f-7881ea19b267",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws"
+      }
+    },
+    {
       "type": "shadowsocks",
-      "tag": "🇳🇱 NL | SS | @netfreedom0 #1 [medium]",
+      "tag": "🇳🇱 NL | SS | @netfreedom0 #1 [fast]",
       "server": "193.29.139.230",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
@@ -110,7 +147,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]",
+      "tag": "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
       "server": "95.179.138.190",
       "server_port": 443,
       "uuid": "telegram-id-qeshmserver",
