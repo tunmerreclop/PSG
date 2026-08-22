@@ -50,10 +50,12 @@
       "tag": "select",
       "outbounds": [
         "auto",
+        "🇬🇧 GB | SS | @outlinereleasedkey #1 [medium]",
         "🇬🇧 GB | VLESS | @mtproxy22_v2ray #1 [fast]",
+        "🇬🇧 GB | SS | @mtproxy22_v2ray #1 [fast]",
         "🇬🇧 GB | SS | @free4allvpn #1 [fast]",
         "🇬🇧 GB | SS | @netfreedom0 #1 [fast]",
-        "🇬🇧 GB | SS | @netfreedom0 #2 [fast]",
+        "🇬🇧 GB | SS | @netfreedom0 #2 [medium]",
         "🇬🇧 GB | SS | @proxy48 #1 [fast]",
         "direct"
       ],
@@ -63,16 +65,30 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
+        "🇬🇧 GB | SS | @outlinereleasedkey #1 [medium]",
         "🇬🇧 GB | VLESS | @mtproxy22_v2ray #1 [fast]",
+        "🇬🇧 GB | SS | @mtproxy22_v2ray #1 [fast]",
         "🇬🇧 GB | SS | @free4allvpn #1 [fast]",
         "🇬🇧 GB | SS | @netfreedom0 #1 [fast]",
-        "🇬🇧 GB | SS | @netfreedom0 #2 [fast]",
+        "🇬🇧 GB | SS | @netfreedom0 #2 [medium]",
         "🇬🇧 GB | SS | @proxy48 #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
       "tolerance": 50,
       "idle_timeout": "30m"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇬🇧 GB | SS | @outlinereleasedkey #1 [medium]",
+      "server": "146.70.23.32",
+      "server_port": 8080,
+      "method": "rc4-md5",
+      "password": "14fFPrbezE3HDZzsMOr6",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
     },
     {
       "type": "vless",
@@ -95,6 +111,18 @@
           "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
           "short_id": "fd55b698ee8c3629"
         }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇬🇧 GB | SS | @mtproxy22_v2ray #1 [fast]",
+      "server": "104.249.22.75",
+      "server_port": 43377,
+      "method": "chacha20-ietf-poly1305",
+      "password": "2MaqmLJwWXtdJPvpzXD2MSYiZrXDwneqZbAEXqZUw7RzX7ndd3xFM9C3u9NdRXZPTNgDBenPLn6B6VrwmodCSEQc8RfuxBn8",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
       }
     },
     {
@@ -123,7 +151,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇬🇧 GB | SS | @netfreedom0 #2 [fast]",
+      "tag": "🇬🇧 GB | SS | @netfreedom0 #2 [medium]",
       "server": "146.70.61.37",
       "server_port": 8080,
       "method": "rc4-md5",
