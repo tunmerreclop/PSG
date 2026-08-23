@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgU0c=
+//profile-title: base64:UFNHIHwgSEs=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://telegram.me/yebekhe
@@ -50,7 +50,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇬 SG | VLESS | @mtproxy22_v2ray #1 [medium]",
+        "🇭🇰 HK | VLESS | @free1_vpn #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -59,7 +59,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇬 SG | VLESS | @mtproxy22_v2ray #1 [medium]"
+        "🇭🇰 HK | VLESS | @free1_vpn #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -68,24 +68,20 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇬 SG | VLESS | @mtproxy22_v2ray #1 [medium]",
-      "server": "91.192.81.214",
+      "tag": "🇭🇰 HK | VLESS | @free1_vpn #1 [fast]",
+      "server": "128.1.12.164",
       "server_port": 443,
-      "uuid": "607801ac-dbdd-4938-a167-129015d9978e",
+      "uuid": "e01b5875-0b0b-4056-bbf5-0b0ecdc97937",
       "flow": "xtls-rprx-vision",
       "network": "tcp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
         "reality": {
           "enabled": true,
-          "public_key": "bMcyxNueltQhz5Kuxcf8odDStWHowYfLhKNdCbUweDc",
-          "short_id": "d1742269"
+          "public_key": "Z41OxiwFrf0VAEv7_qXoEMKSmLJPjEPPJzXpP1s6gGk",
+          "short_id": "977a84fa5512be5a"
         }
       }
     },
