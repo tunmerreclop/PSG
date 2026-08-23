@@ -56,7 +56,7 @@
         "🇨🇿 CZ | VLESS | @outlinereleasedkey #1 [fast]",
         "🇮🇹 IT | VLESS | @selinc #1 [fast]",
         "🇵🇱 PL | VLESS | @outline_ir #1 [fast]",
-        "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
+        "🇨🇾 CY | VLESS | @outline_ir #1 [medium]",
         "🇵🇱 PL | VLESS | @orange_vpns #1 [fast]",
         "direct"
       ],
@@ -72,7 +72,7 @@
         "🇨🇿 CZ | VLESS | @outlinereleasedkey #1 [fast]",
         "🇮🇹 IT | VLESS | @selinc #1 [fast]",
         "🇵🇱 PL | VLESS | @outline_ir #1 [fast]",
-        "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
+        "🇨🇾 CY | VLESS | @outline_ir #1 [medium]",
         "🇵🇱 PL | VLESS | @orange_vpns #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
@@ -184,20 +184,24 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
-      "server": "br1.levikogjgfdd.ir",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "tag": "🇨🇾 CY | VLESS | @outline_ir #1 [medium]",
+      "server": "in1.levikogjgfdd.ir",
+      "server_port": 40443,
+      "uuid": "511c1563-2cb6-4064-abc6-a59ee49818a8",
       "flow": "xtls-rprx-vision",
       "network": "tcp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "yahoo.com",
+        "server_name": "deepl.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
         "reality": {
           "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
+          "public_key": "cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0",
+          "short_id": "88b6"
         }
       }
     },
