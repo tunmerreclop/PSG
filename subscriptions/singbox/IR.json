@@ -55,10 +55,11 @@
         "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @mpproxy #1 [fast]",
         "🇮🇷 IR | VLESS | @lax_vpn #1 [fast]",
-        "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
         "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
+        "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
         "🇮🇷 IR | SS | @sobi_vpn #1 [fast]",
-        "🇮🇷 IR | VMESS | @khoneproxy #1 [fast]",
+        "🇮🇷 IR | VMESS | @khoneproxy #1 [medium]",
+        "🇮🇷 IR | VMESS | @khoneproxy #2 [fast]",
         "🇮🇷 IR | VLESS | @nn_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @lemonshopvpn #1 [fast]",
         "🇮🇷 IR | VLESS | @realvpnmaster #1 [fast]",
@@ -75,10 +76,11 @@
         "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @mpproxy #1 [fast]",
         "🇮🇷 IR | VLESS | @lax_vpn #1 [fast]",
-        "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
         "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
+        "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
         "🇮🇷 IR | SS | @sobi_vpn #1 [fast]",
-        "🇮🇷 IR | VMESS | @khoneproxy #1 [fast]",
+        "🇮🇷 IR | VMESS | @khoneproxy #1 [medium]",
+        "🇮🇷 IR | VMESS | @khoneproxy #2 [fast]",
         "🇮🇷 IR | VLESS | @nn_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @lemonshopvpn #1 [fast]",
         "🇮🇷 IR | VLESS | @realvpnmaster #1 [fast]"
@@ -160,15 +162,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
-      "server": "tamin.ir",
-      "server_port": 80,
-      "uuid": "aa5e25fc-c7d7-4e6e-b7f7-105a35c0175a",
-      "network": "httpupgrade",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
       "tag": "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
       "server": "parspack.com",
       "server_port": 443,
@@ -196,6 +189,15 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
+      "server": "tamin.ir",
+      "server_port": 80,
+      "uuid": "aa5e25fc-c7d7-4e6e-b7f7-105a35c0175a",
+      "network": "httpupgrade",
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "shadowsocks",
       "tag": "🇮🇷 IR | SS | @sobi_vpn #1 [fast]",
       "server": "tt.hsrdnr.ir",
@@ -209,7 +211,24 @@
     },
     {
       "type": "vmess",
-      "tag": "🇮🇷 IR | VMESS | @khoneproxy #1 [fast]",
+      "tag": "🇮🇷 IR | VMESS | @khoneproxy #1 [medium]",
+      "server": "37.32.23.122",
+      "server_port": 443,
+      "uuid": "d12bc882-43c7-415e-87c5-2a7fdc8371c0",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "network": "ws",
+      "packet_encoding": "",
+      "transport": {
+        "type": "ws",
+        "path": "/websocket/"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇮🇷 IR | VMESS | @khoneproxy #2 [fast]",
       "server": "78.47.131.39",
       "server_port": 8443,
       "uuid": "4d598e48-234f-4c60-fdd3-fa90e084770d",
