@@ -54,6 +54,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇨🇦 CA | SS | @outline_ir #1 [fast]",
+        "🇮🇷 IR | SS | @sobi_vpn #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -65,7 +66,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇨🇦 CA | SS | @outline_ir #1 [fast]"
+        "🇨🇦 CA | SS | @outline_ir #1 [fast]",
+        "🇮🇷 IR | SS | @sobi_vpn #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -118,6 +120,18 @@
       "server_port": 8388,
       "method": "chacha20-ietf-poly1305",
       "password": "FD3rCuOsxOay",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇮🇷 IR | SS | @sobi_vpn #1 [fast]",
+      "server": "tt.hsrdnr.ir",
+      "server_port": 2044,
+      "method": "chacha20-ietf-poly1305",
+      "password": "3rfnj11q5xvg72y1",
       "network": "tcp",
       "tls": {
         "enabled": true
