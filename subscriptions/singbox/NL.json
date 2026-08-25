@@ -53,8 +53,11 @@
         "🇳🇱 NL | SS | @orange_vpns #1 [fast]",
         "🇳🇱 NL | SS | @easy_free_vpn #1 [fast]",
         "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1 [fast]",
+        "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
         "🇳🇱 NL | SS | @outline_ir #1 [fast]",
         "🇳🇱 NL | VLESS | @NamiraConfigs #1 [fast]",
+        "🇳🇱 NL | VLESS | @NamiraConfigs #2 [fast]",
+        "🇳🇱 NL | SS | @netfreedom0 #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
         "direct"
       ],
@@ -67,8 +70,11 @@
         "🇳🇱 NL | SS | @orange_vpns #1 [fast]",
         "🇳🇱 NL | SS | @easy_free_vpn #1 [fast]",
         "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1 [fast]",
+        "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
         "🇳🇱 NL | SS | @outline_ir #1 [fast]",
         "🇳🇱 NL | VLESS | @NamiraConfigs #1 [fast]",
+        "🇳🇱 NL | VLESS | @NamiraConfigs #2 [fast]",
+        "🇳🇱 NL | SS | @netfreedom0 #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
@@ -124,6 +130,29 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
+      "server": "plot.whit3.net",
+      "server_port": 443,
+      "uuid": "32bf865b-e98c-494d-bcb6-23c3cde2429c",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "plot.whit3.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Hcg9T_s9LuWkVQW14TzIPuyZio32WbA6irp782TUXnM",
+          "short_id": "0138875bd7d8725a"
+        }
+      }
+    },
+    {
       "type": "shadowsocks",
       "tag": "🇳🇱 NL | SS | @outline_ir #1 [fast]",
       "server": "64.188.77.159",
@@ -138,6 +167,18 @@
     {
       "type": "vless",
       "tag": "🇳🇱 NL | VLESS | @NamiraConfigs #1 [fast]",
+      "server": "neth6.lckdwn.ru",
+      "server_port": 443,
+      "uuid": "14da77da-4fb3-4e49-ac4f-7881ea19b267",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 NL | VLESS | @NamiraConfigs #2 [fast]",
       "server": "vip-nl-1.hkd4fwmg.vip",
       "server_port": 31883,
       "uuid": "20593145-d975-46f9-9bad-d9f3c8e2d899",
@@ -152,6 +193,18 @@
           "enabled": true,
           "fingerprint": "chrome"
         }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 NL | SS | @netfreedom0 #1 [fast]",
+      "server": "109.201.152.181",
+      "server_port": 443,
+      "method": "aes-128-cfb",
+      "password": "shadowsocks",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
       }
     },
     {
