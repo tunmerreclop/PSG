@@ -58,8 +58,11 @@
         "🇩🇪 DE | VLESS | @mpproxy #1 [fast]",
         "🇩🇪 DE | VMESS | @beshkan #1 [fast]",
         "🇩🇪 DE | VLESS | @free4allvpn #1 [fast]",
+        "🇩🇪 DE | VLESS | @privatevpns #1 [fast]",
         "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
         "🇩🇪 DE | VLESS | @red2ray #2 [fast]",
+        "🇩🇪 DE | VLESS | @red2ray #3 [fast]",
+        "🇩🇪 DE | VLESS | @red2ray #4 [fast]",
         "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
         "🇩🇪 DE | VLESS | @outline_ir #2 [fast]",
         "🇩🇪 DE | VLESS | @ai_duet #1 [fast]",
@@ -67,7 +70,7 @@
         "🇩🇪 DE | VMESS | @khoneproxy #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #2 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #3 [fast]",
-        "🇩🇪 DE | VMESS | @magickey_shop #1 [fast]",
+        "🇩🇪 DE | VMESS | @magickey_shop #1 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -84,8 +87,11 @@
         "🇩🇪 DE | VLESS | @mpproxy #1 [fast]",
         "🇩🇪 DE | VMESS | @beshkan #1 [fast]",
         "🇩🇪 DE | VLESS | @free4allvpn #1 [fast]",
+        "🇩🇪 DE | VLESS | @privatevpns #1 [fast]",
         "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
         "🇩🇪 DE | VLESS | @red2ray #2 [fast]",
+        "🇩🇪 DE | VLESS | @red2ray #3 [fast]",
+        "🇩🇪 DE | VLESS | @red2ray #4 [fast]",
         "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
         "🇩🇪 DE | VLESS | @outline_ir #2 [fast]",
         "🇩🇪 DE | VLESS | @ai_duet #1 [fast]",
@@ -93,7 +99,7 @@
         "🇩🇪 DE | VMESS | @khoneproxy #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #2 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #3 [fast]",
-        "🇩🇪 DE | VMESS | @magickey_shop #1 [fast]"
+        "🇩🇪 DE | VMESS | @magickey_shop #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -234,7 +240,34 @@
     },
     {
       "type": "vless",
+      "tag": "🇩🇪 DE | VLESS | @privatevpns #1 [fast]",
+      "server": "63.188.101.151",
+      "server_port": 22222,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "network": "tcp",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
       "tag": "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
+      "server": "63.188.101.151",
+      "server_port": 22224,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "network": "tcp",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 DE | VLESS | @red2ray #2 [fast]",
+      "server": "63.188.101.151",
+      "server_port": 22223,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "network": "tcp",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 DE | VLESS | @red2ray #3 [fast]",
       "server": "194.31.223.87",
       "server_port": 3443,
       "uuid": "8fe31772-a4b7-4a70-9fa2-34124c7284ca",
@@ -251,7 +284,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @red2ray #2 [fast]",
+      "tag": "🇩🇪 DE | VLESS | @red2ray #4 [fast]",
       "server": "45.134.38.204",
       "server_port": 8052,
       "uuid": "a88e2744-3555-4a0a-9635-0aae23e038f8",
@@ -387,7 +420,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇩🇪 DE | VMESS | @magickey_shop #1 [fast]",
+      "tag": "🇩🇪 DE | VMESS | @magickey_shop #1 [medium]",
       "server": "168.119.174.229",
       "server_port": 443,
       "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147",

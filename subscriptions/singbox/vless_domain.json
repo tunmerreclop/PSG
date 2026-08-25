@@ -86,7 +86,6 @@
         "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
-        "🇽🇽 XX | VLESS | @hope_net #4 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #6 [fast]",
         "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @jiedianf #1 [fast]",
@@ -98,7 +97,7 @@
         "🇽🇽 XX | VLESS | @novinology #5 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1 [fast]",
         "🇳🇱 NL | VLESS | @NamiraConfigs #1 [fast]",
-        "🇳🇱 NL | VLESS | @NamiraConfigs #2 [fast]",
+        "🇽🇽 XX | VLESS | @NamiraConfigs #1 [fast]",
         "🇽🇽 XX | VLESS | @prooxyk #1 [fast]",
         "🇽🇽 XX | VLESS | @iranvipnet #1 [fast]",
         "🇺🇸 US | VLESS | @iranvipnet #1 [fast]",
@@ -182,7 +181,6 @@
         "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
-        "🇽🇽 XX | VLESS | @hope_net #4 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #6 [fast]",
         "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @jiedianf #1 [fast]",
@@ -194,7 +192,7 @@
         "🇽🇽 XX | VLESS | @novinology #5 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1 [fast]",
         "🇳🇱 NL | VLESS | @NamiraConfigs #1 [fast]",
-        "🇳🇱 NL | VLESS | @NamiraConfigs #2 [fast]",
+        "🇽🇽 XX | VLESS | @NamiraConfigs #1 [fast]",
         "🇽🇽 XX | VLESS | @prooxyk #1 [fast]",
         "🇽🇽 XX | VLESS | @iranvipnet #1 [fast]",
         "🇺🇸 US | VLESS | @iranvipnet #1 [fast]",
@@ -776,22 +774,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇽🇽 XX | VLESS | @hope_net #4 [fast]",
-      "server": "www.speedtest.net",
-      "server_port": 8080,
-      "uuid": "5fdb511a-e1a2-4f4d-8753-ab9a9630c64f",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET?ed",
-        "headers": {
-          "Host": "maznet---_-_---maznet.iMamhussaIn.sbs."
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇽🇽 XX | VLESS | @iran_access #6 [fast]",
       "server": "www.speedtest.net",
       "server_port": 443,
@@ -983,18 +965,6 @@
     {
       "type": "vless",
       "tag": "🇳🇱 NL | VLESS | @NamiraConfigs #1 [fast]",
-      "server": "neth6.lckdwn.ru",
-      "server_port": 443,
-      "uuid": "14da77da-4fb3-4e49-ac4f-7881ea19b267",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 NL | VLESS | @NamiraConfigs #2 [fast]",
       "server": "vip-nl-1.hkd4fwmg.vip",
       "server_port": 31883,
       "uuid": "20593145-d975-46f9-9bad-d9f3c8e2d899",
@@ -1008,6 +978,34 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇽🇽 XX | VLESS | @NamiraConfigs #1 [fast]",
+      "server": "b2n.ir",
+      "server_port": 2083,
+      "uuid": "b8e0eb1a-9967-4753-b278-6ef1226dd195",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "s.dpiccolo.ir",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/hero",
+        "headers": {
+          "Host": "s.dpiccolo.ir"
         }
       }
     },
