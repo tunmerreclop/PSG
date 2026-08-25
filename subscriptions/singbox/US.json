@@ -59,15 +59,9 @@
         "🇺🇸 US | VLESS | @bored_vpn #1 [fast]",
         "🇺🇸 US | VLESS | @bored_vpn #2 [fast]",
         "🇺🇸 US | VLESS | @bored_vpn #3 [fast]",
-        "🇺🇸 US | VLESS | @bored_vpn #4 [fast]",
-        "🇺🇸 US | VMESS | @beshkan #1 [fast]",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1 [fast]",
-        "🇺🇸 US | VLESS | @hope_net #1 [fast]",
-        "🇺🇸 US | VLESS | @hope_net #2 [fast]",
         "🇺🇸 US | VLESS | @msv2raynp #1 [fast]",
         "🇺🇸 US | VLESS | @msv2raynp #2 [fast]",
-        "🇺🇸 US | VLESS | @red2ray #1 [fast]",
-        "🇺🇸 US | SS | @red2ray #1 [fast]",
         "🇺🇸 US | VLESS | @jiedianf #1 [fast]",
         "🇺🇸 US | VLESS | @jokerv2ray #1 [fast]",
         "🇺🇸 US | VLESS | @jokerv2ray #2 [fast]",
@@ -78,7 +72,7 @@
         "🇺🇸 US | VLESS | @iranvipnet #4 [fast]",
         "🇺🇸 US | VLESS | @iranvipnet #5 [fast]",
         "🇺🇸 US | VLESS | @netfreedom0 #1 [fast]",
-        "🇺🇸 US | SS | @netfreedom0 #1 [slow]",
+        "🇺🇸 US | SS | @netfreedom0 #1 [fast]",
         "🇺🇸 US | VLESS | @minovpnch #1 [fast]",
         "🇺🇸 US | VLESS | @minovpnch #2 [fast]",
         "🇺🇸 US | VLESS | @garnet_free #1 [fast]",
@@ -115,15 +109,9 @@
         "🇺🇸 US | VLESS | @bored_vpn #1 [fast]",
         "🇺🇸 US | VLESS | @bored_vpn #2 [fast]",
         "🇺🇸 US | VLESS | @bored_vpn #3 [fast]",
-        "🇺🇸 US | VLESS | @bored_vpn #4 [fast]",
-        "🇺🇸 US | VMESS | @beshkan #1 [fast]",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1 [fast]",
-        "🇺🇸 US | VLESS | @hope_net #1 [fast]",
-        "🇺🇸 US | VLESS | @hope_net #2 [fast]",
         "🇺🇸 US | VLESS | @msv2raynp #1 [fast]",
         "🇺🇸 US | VLESS | @msv2raynp #2 [fast]",
-        "🇺🇸 US | VLESS | @red2ray #1 [fast]",
-        "🇺🇸 US | SS | @red2ray #1 [fast]",
         "🇺🇸 US | VLESS | @jiedianf #1 [fast]",
         "🇺🇸 US | VLESS | @jokerv2ray #1 [fast]",
         "🇺🇸 US | VLESS | @jokerv2ray #2 [fast]",
@@ -134,7 +122,7 @@
         "🇺🇸 US | VLESS | @iranvipnet #4 [fast]",
         "🇺🇸 US | VLESS | @iranvipnet #5 [fast]",
         "🇺🇸 US | VLESS | @netfreedom0 #1 [fast]",
-        "🇺🇸 US | SS | @netfreedom0 #1 [slow]",
+        "🇺🇸 US | SS | @netfreedom0 #1 [fast]",
         "🇺🇸 US | VLESS | @minovpnch #1 [fast]",
         "🇺🇸 US | VLESS | @minovpnch #2 [fast]",
         "🇺🇸 US | VLESS | @garnet_free #1 [fast]",
@@ -301,7 +289,7 @@
       "tag": "🇺🇸 US | VLESS | @bored_vpn #1 [fast]",
       "server": "199.232.78.160",
       "server_port": 443,
-      "uuid": "XpnTeam-11",
+      "uuid": "XpnTeam-13",
       "network": "ws",
       "packet_encoding": "xudp",
       "tls": {
@@ -328,7 +316,7 @@
       "tag": "🇺🇸 US | VLESS | @bored_vpn #2 [fast]",
       "server": "199.232.78.160",
       "server_port": 443,
-      "uuid": "XpnTeam-13",
+      "uuid": "XpnTeam-27",
       "network": "ws",
       "packet_encoding": "xudp",
       "tls": {
@@ -355,33 +343,6 @@
       "tag": "🇺🇸 US | VLESS | @bored_vpn #3 [fast]",
       "server": "199.232.78.160",
       "server_port": 443,
-      "uuid": "XpnTeam-27",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "ssl.fastly.com",
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "Appxdn.global.ssl.fastly.net"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @bored_vpn #4 [fast]",
-      "server": "199.232.78.160",
-      "server_port": 443,
       "uuid": "XpnTeam-35",
       "network": "ws",
       "packet_encoding": "xudp",
@@ -405,19 +366,6 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇺🇸 US | VMESS | @beshkan #1 [fast]",
-      "server": "165.140.216.141",
-      "server_port": 443,
-      "uuid": "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "network": "tcp",
-      "packet_encoding": ""
-    },
-    {
       "type": "vless",
       "tag": "🇺🇸 US | VLESS | @nofilter_v2rayng #1 [fast]",
       "server": "djangoproject.com",
@@ -428,64 +376,6 @@
       "tls": {
         "enabled": true,
         "server_name": "chdhfndufnvinvrgrhth.global.ssl.fastly.ne…</div>"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @hope_net #1 [fast]",
-      "server": "162.159.152.2",
-      "server_port": 443,
-      "uuid": "d7bbfe83-b037-48ae-996c-b98ed0441ba2",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "e10c0e4b.oodaeq2.pages.dev",
-        "alpn": [
-          "h3",
-          "h2",
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/TELEGRAM/?ed=2048",
-        "headers": {
-          "Host": "e10c0e4b.oodaeq2.pages.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @hope_net #2 [fast]",
-      "server": "162.159.153.2",
-      "server_port": 443,
-      "uuid": "d7bbfe83-b037-48ae-996c-b98ed0441ba2",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "e10c0e4b.oodaeq2.pages.dev",
-        "alpn": [
-          "h3",
-          "h2",
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/TELEGRAM/?ed=2048",
-        "headers": {
-          "Host": "e10c0e4b.oodaeq2.pages.dev"
-        }
       }
     },
     {
@@ -508,41 +398,6 @@
       "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
       "network": "tcp",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @red2ray #1 [fast]",
-      "server": "31.76.246.60",
-      "server_port": 443,
-      "uuid": "2ab5d143-d8be-4506-b8ae-039fee32dfa2",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "v.gb-cdn.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "nFJCJ2tvxLdLrc9G-O1laW8KDir5SDnaOTmYndVaOGQ",
-          "short_id": "7a3f9e2b1c8d4f6a"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇺🇸 US | SS | @red2ray #1 [fast]",
-      "server": "31.76.82.131",
-      "server_port": 34260,
-      "method": "chacha20-ietf-poly1305",
-      "password": "cTAObwg4OWWXkZJQs0ZdgC",
-      "network": "tcp",
       "tls": {
         "enabled": true
       }
@@ -780,7 +635,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇺🇸 US | SS | @netfreedom0 #1 [slow]",
+      "tag": "🇺🇸 US | SS | @netfreedom0 #1 [fast]",
       "server": "108.181.0.177",
       "server_port": 8388,
       "method": "chacha20-ietf-poly1305",
