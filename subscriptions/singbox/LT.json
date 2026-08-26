@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgSFky
+//profile-title: base64:UFNHIHwgTFQ=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://telegram.me/yebekhe
@@ -50,10 +50,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi",
-        "🇩🇪 DE | HY2 | @outlinereleasedkey #1 [fast]",
+        "🇱🇹 LT | VLESS | @red2ray #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -62,10 +59,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi",
-        "🇩🇪 DE | HY2 | @outlinereleasedkey #1 [fast]"
+        "🇱🇹 LT | VLESS | @red2ray #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -74,52 +68,18 @@
     },
     {
       "type": "vless",
-      "tag": "همکاری_ملی",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
+      "tag": "🇱🇹 LT | VLESS | @red2ray #1 [fast]",
+      "server": "89.116.161.50",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "network": "ws",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
-        "path": "/"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "جاویدشاه",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "KingRezaPahlavi",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇩🇪 DE | HY2 | @outlinereleasedkey #1 [fast]",
-      "server": "fr194.mechvpn.online",
-      "server_port": 443,
-      "password": "53c76647-14d1-4df5-99cb-be99ad2e6bd9",
-      "tls": {
-        "enabled": true,
-        "server_name": "fr194.mechvpn.online"
+        "path": "/?ed",
+        "headers": {
+          "Host": "vms.lifetime08.workers.dev"
+        }
       }
     },
     {
