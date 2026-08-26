@@ -1,0 +1,19 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: info
+proxies:
+  - {"name": "🇱🇹 LT | VLESS | @hope_net #1 [fast]", "server": "86.38.214.18", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2ad2e13c-8cb1-4666-8bfb-c42b51df2f1d", "network": "grpc", "tls": true, "udp": true, "client-fingerprint": "firefox", "servername": "aLi.PinobiN.iR.", "grpc-opts": {"grpc-service-name": "/custom_config?ed=2048"}}
+proxy-groups:
+  - name: "PROXY"
+    type: select
+    proxies:
+      - '🇱🇹 LT | VLESS | @hope_net #1 [fast]'
+      - DIRECT
+  - name: "Auto"
+    type: url-test
+    proxies:
+      - '🇱🇹 LT | VLESS | @hope_net #1 [fast]'
+rules:
+  - GEOIP,IR,DIRECT
+  - MATCH,PROXY
