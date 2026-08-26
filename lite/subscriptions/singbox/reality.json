@@ -57,14 +57,15 @@
         "🇩🇪 DE | VLESS | @prrofile_purple #1 [fast]",
         "🇧🇬 BG | VLESS | @free1_vpn #1 [fast]",
         "🇮🇹 IT | VLESS | @outlinereleasedkey #1 [fast]",
-        "🇷🇺 RU | VLESS | @free1_vpn #1 [fast]",
+        "🇷🇺 RU | VLESS | @free1_vpn #1 [medium]",
         "🇫🇮 FI | VLESS | @bored_vpn #1 [fast]",
         "🇯🇵 JP | VLESS | @free4allvpn #1 [fast]",
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1 [fast]",
-        "🇷🇺 RU | VLESS | @netfreedom0 #1 [fast]",
+        "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1 [fast]",
+        "🇷🇺 RU | VLESS | @netfreedom0 #1 [medium]",
         "🇺🇸 US | VLESS | @netfreedom0 #1 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
-        "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
+        "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -80,14 +81,15 @@
         "🇩🇪 DE | VLESS | @prrofile_purple #1 [fast]",
         "🇧🇬 BG | VLESS | @free1_vpn #1 [fast]",
         "🇮🇹 IT | VLESS | @outlinereleasedkey #1 [fast]",
-        "🇷🇺 RU | VLESS | @free1_vpn #1 [fast]",
+        "🇷🇺 RU | VLESS | @free1_vpn #1 [medium]",
         "🇫🇮 FI | VLESS | @bored_vpn #1 [fast]",
         "🇯🇵 JP | VLESS | @free4allvpn #1 [fast]",
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1 [fast]",
-        "🇷🇺 RU | VLESS | @netfreedom0 #1 [fast]",
+        "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1 [fast]",
+        "🇷🇺 RU | VLESS | @netfreedom0 #1 [medium]",
         "🇺🇸 US | VLESS | @netfreedom0 #1 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
-        "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]"
+        "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -225,7 +227,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @free1_vpn #1 [fast]",
+      "tag": "🇷🇺 RU | VLESS | @free1_vpn #1 [medium]",
       "server": "185.147.26.175",
       "server_port": 443,
       "uuid": "00ca2ff9-c6a1-48e2-812d-2b15f7b6c3a5",
@@ -315,7 +317,30 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @netfreedom0 #1 [fast]",
+      "tag": "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1 [fast]",
+      "server": "51.158.206.96",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "fuck.rkn",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 RU | VLESS | @netfreedom0 #1 [medium]",
       "server": "31.76.34.146",
       "server_port": 443,
       "uuid": "7bc2c010-dffd-4c81-8fa3-25e8f3781dca",
@@ -383,7 +408,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
+      "tag": "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]",
       "server": "95.179.138.190",
       "server_port": 443,
       "uuid": "telegram-id-qeshmserver",

@@ -52,6 +52,8 @@
         "auto",
         "🇫🇮 FI | VLESS | @bored_vpn #1 [fast]",
         "🇫🇮 FI | VLESS | @red2ray #1 [fast]",
+        "🇫🇮 FI | VMESS | @red2ray #1 [fast]",
+        "🇫🇮 FI | VLESS | @outline_ir #1 [medium]",
         "🇫🇮 FI | VLESS | @NamiraConfigs #1 [fast]",
         "direct"
       ],
@@ -63,6 +65,8 @@
       "outbounds": [
         "🇫🇮 FI | VLESS | @bored_vpn #1 [fast]",
         "🇫🇮 FI | VLESS | @red2ray #1 [fast]",
+        "🇫🇮 FI | VMESS | @red2ray #1 [fast]",
+        "🇫🇮 FI | VLESS | @outline_ir #1 [medium]",
         "🇫🇮 FI | VLESS | @NamiraConfigs #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
@@ -112,6 +116,41 @@
           "enabled": true,
           "public_key": "y2ciDMmaLyu1U7wEG7Wi9buO91wWHnRtWfPLGjSZHC8",
           "short_id": "6633e065744286"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇫🇮 FI | VMESS | @red2ray #1 [fast]",
+      "server": "65.109.211.136",
+      "server_port": 33120,
+      "uuid": "d9c919c2-872e-429d-a680-1e6c6bfe681b",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "network": "tcp",
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 FI | VLESS | @outline_ir #1 [medium]",
+      "server": "31.76.80.69",
+      "server_port": 443,
+      "uuid": "8975546a-375c-4966-8064-19fc0f66f30a",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.amd.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "zq3gOJkXi6laNuxMohL3lr-wFOKi4Z9oG7QuMMiTDAk",
+          "short_id": "5caa2ef81132c306"
         }
       }
     },
