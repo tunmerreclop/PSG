@@ -65,24 +65,26 @@
         "🇸🇨 SC | VLESS | @prrofile_purple #1 [fast]",
         "🇸🇨 SC | VLESS | @prrofile_purple #2 [fast]",
         "🇩🇪 DE | VLESS | @father_vpn #2 [fast]",
+        "🇨🇭 CH | VLESS | @outlinereleasedkey #1 [fast]",
         "🇺🇸 US | VLESS | @free1_vpn #1 [fast]",
         "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
         "🇷🇴 RO | VLESS | @free1_vpn #1 [fast]",
         "🇳🇱 NL | VLESS | @free1_vpn #1 [fast]",
         "🇷🇴 RO | VLESS | @free1_vpn #2 [fast]",
+        "🇫🇮 FI | VLESS | @selinc #1 [medium]",
         "🇸🇨 SC | VLESS | @bored_vpn #1 [fast]",
         "🇳🇱 NL | VLESS | @beshkan #1 [fast]",
         "🇯🇵 JP | VLESS | @free4allvpn #1 [fast]",
         "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇸🇨 SC | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇳🇴 NO | VLESS | @outline_ir #1 [fast]",
-        "🇫🇮 FI | VLESS | @outline_ir #1 [medium]",
+        "🇫🇮 FI | VLESS | @outline_ir #1 [fast]",
         "🇸🇨 SC | VLESS | @outline_ir #1 [fast]",
         "🇷🇺 RU | VLESS | @outline_ir #1 [fast]",
         "🇫🇮 FI | VLESS | @outline_ir #2 [medium]",
-        "🇷🇺 RU | VLESS | @netfreedom0 #1 [fast]",
+        "🇲🇩 MD | VLESS | @outline_ir #1 [medium]",
+        "🇷🇺 RU | VLESS | @netfreedom0 #1 [medium]",
         "🇺🇸 US | VLESS | @netfreedom0 #1 [fast]",
-        "🇷🇺 RU | VLESS | @netfreedom0 #2 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
         "direct"
@@ -108,24 +110,26 @@
         "🇸🇨 SC | VLESS | @prrofile_purple #1 [fast]",
         "🇸🇨 SC | VLESS | @prrofile_purple #2 [fast]",
         "🇩🇪 DE | VLESS | @father_vpn #2 [fast]",
+        "🇨🇭 CH | VLESS | @outlinereleasedkey #1 [fast]",
         "🇺🇸 US | VLESS | @free1_vpn #1 [fast]",
         "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
         "🇷🇴 RO | VLESS | @free1_vpn #1 [fast]",
         "🇳🇱 NL | VLESS | @free1_vpn #1 [fast]",
         "🇷🇴 RO | VLESS | @free1_vpn #2 [fast]",
+        "🇫🇮 FI | VLESS | @selinc #1 [medium]",
         "🇸🇨 SC | VLESS | @bored_vpn #1 [fast]",
         "🇳🇱 NL | VLESS | @beshkan #1 [fast]",
         "🇯🇵 JP | VLESS | @free4allvpn #1 [fast]",
         "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇸🇨 SC | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇳🇴 NO | VLESS | @outline_ir #1 [fast]",
-        "🇫🇮 FI | VLESS | @outline_ir #1 [medium]",
+        "🇫🇮 FI | VLESS | @outline_ir #1 [fast]",
         "🇸🇨 SC | VLESS | @outline_ir #1 [fast]",
         "🇷🇺 RU | VLESS | @outline_ir #1 [fast]",
         "🇫🇮 FI | VLESS | @outline_ir #2 [medium]",
-        "🇷🇺 RU | VLESS | @netfreedom0 #1 [fast]",
+        "🇲🇩 MD | VLESS | @outline_ir #1 [medium]",
+        "🇷🇺 RU | VLESS | @netfreedom0 #1 [medium]",
         "🇺🇸 US | VLESS | @netfreedom0 #1 [fast]",
-        "🇷🇺 RU | VLESS | @netfreedom0 #2 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]"
       ],
@@ -443,6 +447,29 @@
     },
     {
       "type": "vless",
+      "tag": "🇨🇭 CH | VLESS | @outlinereleasedkey #1 [fast]",
+      "server": "31.76.4.103",
+      "server_port": 443,
+      "uuid": "423b1d79-08c4-403f-9d5e-c541f791b55f",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "eu-central.cendora.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI",
+          "short_id": "00bca5982f82d083"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇺🇸 US | VLESS | @free1_vpn #1 [fast]",
       "server": "167.104.223.29",
       "server_port": 443,
@@ -548,6 +575,28 @@
           "enabled": true,
           "public_key": "xp7g5asMyVx4aI7vEwfZZPrpd57izUvnNzAOpBs4mh0",
           "short_id": "b9f8f9772217538f"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 FI | VLESS | @selinc #1 [medium]",
+      "server": "31.76.80.69",
+      "server_port": 2083,
+      "uuid": "8975546a-375c-4966-8064-19fc0f66f30a",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.amd.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "zq3gOJkXi6laNuxMohL3lr-wFOKi4Z9oG7QuMMiTDAk",
+          "short_id": "29b21343ab4d"
         }
       }
     },
@@ -690,7 +739,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 FI | VLESS | @outline_ir #1 [medium]",
+      "tag": "🇫🇮 FI | VLESS | @outline_ir #1 [fast]",
       "server": "31.76.80.69",
       "server_port": 443,
       "uuid": "8975546a-375c-4966-8064-19fc0f66f30a",
@@ -779,7 +828,33 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @netfreedom0 #1 [fast]",
+      "tag": "🇲🇩 MD | VLESS | @outline_ir #1 [medium]",
+      "server": "89.35.14.30",
+      "server_port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "network": "grpc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "md1.univesalsrv.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "xWejOQUn2koOUorUPSrHMLM-lyHlZ441KzxKc9bLmkY",
+          "short_id": "221ba6174224ca5b"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "hub.v1.RelayService"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 RU | VLESS | @netfreedom0 #1 [medium]",
       "server": "31.76.34.146",
       "server_port": 443,
       "uuid": "7bc2c010-dffd-4c81-8fa3-25e8f3781dca",
@@ -821,32 +896,6 @@
           "public_key": "EbXSjwJKAI1cmU2TK3af62qS2k58x8Rnct1525c0m1I",
           "short_id": "e5f60718293a4b5c"
         }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @netfreedom0 #2 [fast]",
-      "server": "193.233.246.82",
-      "server_port": 8443,
-      "uuid": "41da9cd0-b02c-427a-b74e-7e402c610ae4",
-      "network": "grpc",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "ads.x5.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg",
-          "short_id": "844352756c1fabba"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "grpc-yandex"
       }
     },
     {

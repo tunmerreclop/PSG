@@ -54,6 +54,8 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇷🇺 RU | VLESS | @orange_vpns #1 [fast]",
+        "🇺🇸 US | VLESS | @red2ray #1 [fast]",
+        "🇫🇮 FI | VLESS | @red2ray #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -65,7 +67,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇷🇺 RU | VLESS | @orange_vpns #1 [fast]"
+        "🇷🇺 RU | VLESS | @orange_vpns #1 [fast]",
+        "🇺🇸 US | VLESS | @red2ray #1 [fast]",
+        "🇫🇮 FI | VLESS | @red2ray #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -131,6 +135,50 @@
           "enabled": true,
           "public_key": "9rdvkUGJyNbRvsB0Pp06h1URq9AHDPRtH9-wmNB1-j4",
           "short_id": "e4aa362b5f9d07d7"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @red2ray #1 [fast]",
+      "server": "usvip.soundfiy.ir",
+      "server_port": 3389,
+      "uuid": "aaab254f-a9bf-4c57-96a0-50f4269ab784",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "amp-api-edge.apps.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "fJgfoeTonZ3FfIXETWnn65nJeuioFkRcwlqFzwlAlwU",
+          "short_id": "25e1eaeece23a4ca"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 FI | VLESS | @red2ray #1 [fast]",
+      "server": "s1.orangesms.ir",
+      "server_port": 3389,
+      "uuid": "aaab254f-a9bf-4c57-96a0-50f4269ab784",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "amp-api-edge.apps.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "fJgfoeTonZ3FfIXETWnn65nJeuioFkRcwlqFzwlAlwU",
+          "short_id": "25e1eaeece23a4ca"
         }
       }
     },

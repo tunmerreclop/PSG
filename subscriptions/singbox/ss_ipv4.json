@@ -63,11 +63,11 @@
         "🇬🇧 GB | SS | @free4allvpn #1 [fast]",
         "🇳🇱 NL | SS | @mtproxy22_v2ray #1 [fast]",
         "🇰🇿 KZ | SS | @configv2rayforfree #1 [medium]",
-        "🇿🇦 ZA | SS | @outline_ir #1 [medium]",
         "🇬🇧 GB | SS | @NamiraConfigs #1 [fast]",
         "🇰🇷 KR | SS | @NamiraConfigs #1 [medium]",
         "🇬🇧 GB | SS | @netfreedom0 #1 [fast]",
         "🇺🇸 US | SS | @netfreedom0 #1 [fast]",
+        "🇳🇱 NL | SS | @netfreedom0 #1 [fast]",
         "🇦🇪 AE | SS | @manstervpn #1 [medium]",
         "direct"
       ],
@@ -90,11 +90,11 @@
         "🇬🇧 GB | SS | @free4allvpn #1 [fast]",
         "🇳🇱 NL | SS | @mtproxy22_v2ray #1 [fast]",
         "🇰🇿 KZ | SS | @configv2rayforfree #1 [medium]",
-        "🇿🇦 ZA | SS | @outline_ir #1 [medium]",
         "🇬🇧 GB | SS | @NamiraConfigs #1 [fast]",
         "🇰🇷 KR | SS | @NamiraConfigs #1 [medium]",
         "🇬🇧 GB | SS | @netfreedom0 #1 [fast]",
         "🇺🇸 US | SS | @netfreedom0 #1 [fast]",
+        "🇳🇱 NL | SS | @netfreedom0 #1 [fast]",
         "🇦🇪 AE | SS | @manstervpn #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
@@ -263,18 +263,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇿🇦 ZA | SS | @outline_ir #1 [medium]",
-      "server": "20.87.2.40",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "yQ3varyJ3ZhSYTA4",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
-    },
-    {
-      "type": "shadowsocks",
       "tag": "🇬🇧 GB | SS | @NamiraConfigs #1 [fast]",
       "server": "94.156.250.148",
       "server_port": 7001,
@@ -316,6 +304,18 @@
       "server_port": 8388,
       "method": "chacha20-ietf-poly1305",
       "password": "G5p6ww4o67HB",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 NL | SS | @netfreedom0 #1 [fast]",
+      "server": "109.201.152.181",
+      "server_port": 443,
+      "method": "aes-128-cfb",
+      "password": "shadowsocks",
       "network": "tcp",
       "tls": {
         "enabled": true
