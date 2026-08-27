@@ -55,11 +55,11 @@
         "🇸🇨 SC | VLESS | @prrofile_purple #1 [fast]",
         "🇸🇨 SC | VLESS | @prrofile_purple #2 [fast]",
         "🇸🇨 SC | VLESS | @bored_vpn #1 [fast]",
+        "🇸🇨 SC | VLESS | @ai_duet #1 [fast]",
         "🇸🇨 SC | VLESS | @arv2ray #1 [fast]",
         "🇸🇨 SC | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇸🇨 SC | VLESS | @jiedianf #1 [fast]",
         "🇸🇨 SC | VLESS | @outline_ir #1 [fast]",
-        "🇸🇨 SC | VLESS | @ai_duet #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -73,11 +73,11 @@
         "🇸🇨 SC | VLESS | @prrofile_purple #1 [fast]",
         "🇸🇨 SC | VLESS | @prrofile_purple #2 [fast]",
         "🇸🇨 SC | VLESS | @bored_vpn #1 [fast]",
+        "🇸🇨 SC | VLESS | @ai_duet #1 [fast]",
         "🇸🇨 SC | VLESS | @arv2ray #1 [fast]",
         "🇸🇨 SC | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇸🇨 SC | VLESS | @jiedianf #1 [fast]",
-        "🇸🇨 SC | VLESS | @outline_ir #1 [fast]",
-        "🇸🇨 SC | VLESS | @ai_duet #1 [fast]"
+        "🇸🇨 SC | VLESS | @outline_ir #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -202,6 +202,27 @@
     },
     {
       "type": "vless",
+      "tag": "🇸🇨 SC | VLESS | @ai_duet #1 [fast]",
+      "server": "45.130.125.160",
+      "server_port": 443,
+      "uuid": "406d8436-0eb9-4eb2-84fb-960e076ffba6",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "de.lezzatzone.ir",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇸🇨 SC | VLESS | @arv2ray #1 [fast]",
       "server": "156.243.83.167",
       "server_port": 443,
@@ -290,27 +311,6 @@
           "enabled": true,
           "public_key": "7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg",
           "short_id": "f4b4a6365558ea2e"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇨 SC | VLESS | @ai_duet #1 [fast]",
-      "server": "45.130.125.160",
-      "server_port": 443,
-      "uuid": "406d8436-0eb9-4eb2-84fb-960e076ffba6",
-      "network": "xhttp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "de.lezzatzone.ir",
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     },

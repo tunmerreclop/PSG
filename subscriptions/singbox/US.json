@@ -52,16 +52,16 @@
         "auto",
         "🇺🇸 US | VLESS | @mehrosaboran #1 [fast]",
         "🇺🇸 US | VLESS | @mehrosaboran #2 [fast]",
-        "🇺🇸 US | VLESS | @mehrosaboran #3 [fast]",
+        "🇺🇸 US | VLESS | @prrofile_purple #1 [fast]",
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
-        "🇺🇸 US | VLESS | @free1_vpn #1 [fast]",
         "🇺🇸 US | VMESS | @freev2rays #1 [fast]",
         "🇺🇸 US | VLESS | @bored_vpn #1 [fast]",
         "🇺🇸 US | VLESS | @bored_vpn #2 [fast]",
+        "🇺🇸 US | VLESS | @bored_vpn #3 [fast]",
         "🇺🇸 US | VMESS | @beshkan #1 [fast]",
+        "🇺🇸 US | VMESS | @beshkan #2 [fast]",
         "🇺🇸 US | VLESS | @msv2raynp #1 [fast]",
         "🇺🇸 US | VLESS | @msv2raynp #2 [fast]",
-        "🇺🇸 US | VLESS | @red2ray #1 [fast]",
         "🇺🇸 US | VLESS | @jiedianf #1 [fast]",
         "🇺🇸 US | VLESS | @jokerv2ray #1 [fast]",
         "🇺🇸 US | VLESS | @jokerv2ray #2 [fast]",
@@ -101,16 +101,16 @@
       "outbounds": [
         "🇺🇸 US | VLESS | @mehrosaboran #1 [fast]",
         "🇺🇸 US | VLESS | @mehrosaboran #2 [fast]",
-        "🇺🇸 US | VLESS | @mehrosaboran #3 [fast]",
+        "🇺🇸 US | VLESS | @prrofile_purple #1 [fast]",
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
-        "🇺🇸 US | VLESS | @free1_vpn #1 [fast]",
         "🇺🇸 US | VMESS | @freev2rays #1 [fast]",
         "🇺🇸 US | VLESS | @bored_vpn #1 [fast]",
         "🇺🇸 US | VLESS | @bored_vpn #2 [fast]",
+        "🇺🇸 US | VLESS | @bored_vpn #3 [fast]",
         "🇺🇸 US | VMESS | @beshkan #1 [fast]",
+        "🇺🇸 US | VMESS | @beshkan #2 [fast]",
         "🇺🇸 US | VLESS | @msv2raynp #1 [fast]",
         "🇺🇸 US | VLESS | @msv2raynp #2 [fast]",
-        "🇺🇸 US | VLESS | @red2ray #1 [fast]",
         "🇺🇸 US | VLESS | @jiedianf #1 [fast]",
         "🇺🇸 US | VLESS | @jokerv2ray #1 [fast]",
         "🇺🇸 US | VLESS | @jokerv2ray #2 [fast]",
@@ -151,7 +151,7 @@
       "tag": "🇺🇸 US | VLESS | @mehrosaboran #1 [fast]",
       "server": "199.232.78.160",
       "server_port": 443,
-      "uuid": "XpnTeam-29",
+      "uuid": "XpnTeam-31",
       "network": "ws",
       "packet_encoding": "xudp",
       "tls": {
@@ -178,33 +178,6 @@
       "tag": "🇺🇸 US | VLESS | @mehrosaboran #2 [fast]",
       "server": "199.232.78.160",
       "server_port": 443,
-      "uuid": "XpnTeam-31",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "ssl.fastly.com",
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "Appxdn.global.ssl.fastly.net"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @mehrosaboran #3 [fast]",
-      "server": "199.232.78.160",
-      "server_port": 443,
       "uuid": "XpnTeam-33",
       "network": "ws",
       "packet_encoding": "xudp",
@@ -229,35 +202,34 @@
     },
     {
       "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @prrofile_purple #1 [fast]",
+      "server": "194.55.189.249",
+      "server_port": 40443,
+      "uuid": "8212a50b-25bf-4739-bba1-aaffb5ffc84c",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "deepl.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "KCbW84C8h2Ja01LS0Ro8EpLLfzMTjs11t1ldDWLd5zo",
+          "short_id": "aae8"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
       "server": "spd-mynames.global.ssl.fastly.net",
       "server_port": 80,
       "uuid": "8e378a41-d5e1-427a-aaf8-30190d4be0a0",
       "network": "xhttp",
       "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @free1_vpn #1 [fast]",
-      "server": "167.104.223.29",
-      "server_port": 443,
-      "uuid": "419f25c1-bc35-412e-93fb-258efee859b5",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "167.104.223.29.sslip.io",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "qOraT1A2tq0v0HIZlcplEnqXx4Sn-99z_EKNqTEZv1M",
-          "short_id": "6ecabc17bcfb4291"
-        }
-      }
     },
     {
       "type": "vmess",
@@ -315,6 +287,33 @@
       "tag": "🇺🇸 US | VLESS | @bored_vpn #2 [fast]",
       "server": "199.232.78.160",
       "server_port": 443,
+      "uuid": "XpnTeam-29",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "ssl.fastly.com",
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "Appxdn.global.ssl.fastly.net"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @bored_vpn #3 [fast]",
+      "server": "199.232.78.160",
+      "server_port": 443,
       "uuid": "XpnTeam-35",
       "network": "ws",
       "packet_encoding": "xudp",
@@ -351,6 +350,19 @@
       "packet_encoding": ""
     },
     {
+      "type": "vmess",
+      "tag": "🇺🇸 US | VMESS | @beshkan #2 [fast]",
+      "server": "165.140.216.141",
+      "server_port": 443,
+      "uuid": "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "network": "tcp",
+      "packet_encoding": ""
+    },
+    {
       "type": "vless",
       "tag": "🇺🇸 US | VLESS | @msv2raynp #1 [fast]",
       "server": "151.101.64.155",
@@ -372,28 +384,6 @@
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @red2ray #1 [fast]",
-      "server": "usvip.soundfiy.ir",
-      "server_port": 3389,
-      "uuid": "aaab254f-a9bf-4c57-96a0-50f4269ab784",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "amp-api-edge.apps.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "fJgfoeTonZ3FfIXETWnn65nJeuioFkRcwlqFzwlAlwU",
-          "short_id": "25e1eaeece23a4ca"
-        }
       }
     },
     {

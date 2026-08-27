@@ -54,7 +54,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇷🇺 RU | VLESS | @orange_vpns #3 [fast]",
+        "🇷🇺 RU | VLESS | @mehrosaboran #1 [fast]",
         "🇫🇮 FI | VLESS | @selinc #1 [medium]",
+        "🇸🇨 SC | VLESS | @ai_duet #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #2 [fast]",
         "🇽🇽 XX | VLESS | @proxie #3 [fast]",
@@ -64,11 +66,13 @@
         "🇽🇽 XX | VLESS | @evay_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @evay_vpn #2 [fast]",
         "🇷🇺 RU | VLESS | @outline_ir #1 [fast]",
-        "🇫🇮 FI | VLESS | @outline_ir #2 [medium]",
-        "🇸🇨 SC | VLESS | @ai_duet #1 [fast]",
+        "🇫🇮 FI | VLESS | @outline_ir #2 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇺🇸 US | VLESS | @qeshmserver #1 [fast]",
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
+        "🇦🇹 AT | VLESS | @outlinereleasedkey #1 [fast]",
+        "🇮🇹 IT | VLESS | @selinc #1 [fast]",
+        "🇷🇺 RU | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2 [fast]",
         "direct"
       ],
@@ -82,7 +86,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇷🇺 RU | VLESS | @orange_vpns #3 [fast]",
+        "🇷🇺 RU | VLESS | @mehrosaboran #1 [fast]",
         "🇫🇮 FI | VLESS | @selinc #1 [medium]",
+        "🇸🇨 SC | VLESS | @ai_duet #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #2 [fast]",
         "🇽🇽 XX | VLESS | @proxie #3 [fast]",
@@ -92,11 +98,13 @@
         "🇽🇽 XX | VLESS | @evay_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @evay_vpn #2 [fast]",
         "🇷🇺 RU | VLESS | @outline_ir #1 [fast]",
-        "🇫🇮 FI | VLESS | @outline_ir #2 [medium]",
-        "🇸🇨 SC | VLESS | @ai_duet #1 [fast]",
+        "🇫🇮 FI | VLESS | @outline_ir #2 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇺🇸 US | VLESS | @qeshmserver #1 [fast]",
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
+        "🇦🇹 AT | VLESS | @outlinereleasedkey #1 [fast]",
+        "🇮🇹 IT | VLESS | @selinc #1 [fast]",
+        "🇷🇺 RU | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
@@ -167,6 +175,28 @@
     },
     {
       "type": "vless",
+      "tag": "🇷🇺 RU | VLESS | @mehrosaboran #1 [fast]",
+      "server": "84.38.187.134",
+      "server_port": 443,
+      "uuid": "53ffd172-de4c-0037-aa77-1a6830a36cf8",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "git.xpkg.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "QSAIpsE696lDqkumfo7dyBt92XzrVDPTF6KogbeKhGc",
+          "short_id": "2c9431dc7a306018"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇫🇮 FI | VLESS | @selinc #1 [medium]",
       "server": "31.76.80.69",
       "server_port": 2083,
@@ -184,6 +214,27 @@
           "enabled": true,
           "public_key": "zq3gOJkXi6laNuxMohL3lr-wFOKi4Z9oG7QuMMiTDAk",
           "short_id": "29b21343ab4d"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇨 SC | VLESS | @ai_duet #1 [fast]",
+      "server": "45.130.125.160",
+      "server_port": 443,
+      "uuid": "406d8436-0eb9-4eb2-84fb-960e076ffba6",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "de.lezzatzone.ir",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -389,7 +440,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 FI | VLESS | @outline_ir #2 [medium]",
+      "tag": "🇫🇮 FI | VLESS | @outline_ir #2 [fast]",
       "server": "31.76.80.69",
       "server_port": 2083,
       "uuid": "8975546a-375c-4966-8064-19fc0f66f30a",
@@ -406,27 +457,6 @@
           "enabled": true,
           "public_key": "zq3gOJkXi6laNuxMohL3lr-wFOKi4Z9oG7QuMMiTDAk",
           "short_id": "29b21343ab4d"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇨 SC | VLESS | @ai_duet #1 [fast]",
-      "server": "45.130.125.160",
-      "server_port": 443,
-      "uuid": "406d8436-0eb9-4eb2-84fb-960e076ffba6",
-      "network": "xhttp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "de.lezzatzone.ir",
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     },
@@ -469,6 +499,70 @@
       "uuid": "8e378a41-d5e1-427a-aaf8-30190d4be0a0",
       "network": "xhttp",
       "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇹 AT | VLESS | @outlinereleasedkey #1 [fast]",
+      "server": "at.24outlook.space",
+      "server_port": 2053,
+      "uuid": "e50f1e5f-2823-4030-9dd2-6c951b6b83d0",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "at.24outlook.space",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇹 IT | VLESS | @selinc #1 [fast]",
+      "server": "it.feywebsite.ir",
+      "server_port": 8008,
+      "uuid": "b91abe1a-80ca-417b-998b-2b542661c16f",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "yGB6HD9OYiD77YWTH1YxcG9yIYkyeEYOEcHL-WnwQn8",
+          "short_id": "5f9a"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 RU | VLESS | @red2ray #1 [fast]",
+      "server": "page.irhubby.ir",
+      "server_port": 2053,
+      "uuid": "b6894804-ae5d-463c-9e4a-3619776c1098",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vips.irhubby.ir",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "type": "vless",

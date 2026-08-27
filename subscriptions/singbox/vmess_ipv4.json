@@ -54,12 +54,13 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VMESS | @beshkan #1 [fast]",
+        "🇺🇸 US | VMESS | @beshkan #2 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #1 [fast]",
         "🇮🇷 IR | VMESS | @khoneproxy #1 [medium]",
         "🇩🇪 DE | VMESS | @khoneproxy #2 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #3 [fast]",
         "🇽🇽 XX | VMESS | @proxy48 #1 [fast]",
-        "🇩🇪 DE | VMESS | @magickey_shop #1 [medium]",
+        "🇩🇪 DE | VMESS | @magickey_shop #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -72,12 +73,13 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VMESS | @beshkan #1 [fast]",
+        "🇺🇸 US | VMESS | @beshkan #2 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #1 [fast]",
         "🇮🇷 IR | VMESS | @khoneproxy #1 [medium]",
         "🇩🇪 DE | VMESS | @khoneproxy #2 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #3 [fast]",
         "🇽🇽 XX | VMESS | @proxy48 #1 [fast]",
-        "🇩🇪 DE | VMESS | @magickey_shop #1 [medium]"
+        "🇩🇪 DE | VMESS | @magickey_shop #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -129,6 +131,19 @@
       "server": "67.220.95.3",
       "server_port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "network": "tcp",
+      "packet_encoding": ""
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 US | VMESS | @beshkan #2 [fast]",
+      "server": "165.140.216.141",
+      "server_port": 443,
+      "uuid": "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d",
       "security": "auto",
       "alter_id": 0,
       "global_padding": false,
@@ -219,7 +234,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇩🇪 DE | VMESS | @magickey_shop #1 [medium]",
+      "tag": "🇩🇪 DE | VMESS | @magickey_shop #1 [fast]",
       "server": "168.119.174.229",
       "server_port": 443,
       "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147",

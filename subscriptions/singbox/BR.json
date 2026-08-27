@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgU0c=
+//profile-title: base64:UFNHIHwgQlI=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://telegram.me/yebekhe
@@ -50,7 +50,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇬 SG | VLESS | @hope_net #1 [fast]",
+        "🇧🇷 BR | VLESS | @netfreedom0 #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -59,7 +59,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇬 SG | VLESS | @hope_net #1 [fast]"
+        "🇧🇷 BR | VLESS | @netfreedom0 #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -68,19 +68,25 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇬 SG | VLESS | @hope_net #1 [fast]",
-      "server": "206.238.237.151",
+      "tag": "🇧🇷 BR | VLESS | @netfreedom0 #1 [fast]",
+      "server": "23.251.55.216",
       "server_port": 443,
-      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-      "network": "ws",
+      "uuid": "c396fa08-e07a-459b-b894-389456fd6a82",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "hkh.ylks.link"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?proxyip"
+        "server_name": "www.amazon.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "m89wjPa2LxODyi8U5pRVI4E1fwVawIaftC3fLY0ZLw4",
+          "short_id": "9ea177c3c147119b"
+        }
       }
     },
     {
