@@ -50,9 +50,8 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇷 TR | VLESS | @free1_vpn #1 [fast]",
         "🇹🇷 TR | SS | @free1_vpn #1 [fast]",
-        "🇹🇷 TR | VLESS | @red2ray #1 [medium]",
+        "🇹🇷 TR | SS | @free1_vpn #2 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -61,37 +60,13 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @free1_vpn #1 [fast]",
         "🇹🇷 TR | SS | @free1_vpn #1 [fast]",
-        "🇹🇷 TR | VLESS | @red2ray #1 [medium]"
+        "🇹🇷 TR | SS | @free1_vpn #2 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
       "tolerance": 50,
       "idle_timeout": "30m"
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇷 TR | VLESS | @free1_vpn #1 [fast]",
-      "server": "tr.alertyagency.com",
-      "server_port": 443,
-      "uuid": "a704443d-655e-4d9f-8ce6-12eeb17a9a08",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "api-maps.yandex.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "DAdWhCSXRRcho_XopxBKq2-KDupbSY_i2r-FJCy58kY",
-          "short_id": "5a3874f1"
-        }
-      }
     },
     {
       "type": "shadowsocks",
@@ -106,13 +81,16 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇹🇷 TR | VLESS | @red2ray #1 [medium]",
-      "server": "91.228.227.112",
-      "server_port": 110,
-      "uuid": "abc5211d-952e-4c7f-a4f4-045f6be9ba1f",
+      "type": "shadowsocks",
+      "tag": "🇹🇷 TR | SS | @free1_vpn #2 [fast]",
+      "server": "176.53.17.241",
+      "server_port": 1943,
+      "method": "2022-blake3-aes-256-gcm",
+      "password": "f2Nq5YLnyclPaWR8my7/Vdd3ZX8URncXZNly5+HcUSs=:aE6MxBTe+MXHd9HoF2FF/BzKFqGTReMpMevlQhvsu0s=",
       "network": "tcp",
-      "packet_encoding": "xudp"
+      "tls": {
+        "enabled": true
+      }
     },
     {
       "type": "direct",

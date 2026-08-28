@@ -103,16 +103,25 @@
     {
       "type": "vless",
       "tag": "🇸🇪 SE | VLESS | @hope_net #1 [fast]",
-      "server": "185.146.173.38",
-      "server_port": 8880,
-      "uuid": "c1c74df3-8a36-4b13-be15-48ac2e0a3b59",
-      "network": "ws",
+      "server": "185.146.173.237",
+      "server_port": 443,
+      "uuid": "ffb47b3a-bfef-4689-b6ac-0d62ce48f804",
+      "network": "grpc",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "V2ray.B.LAMBOoOghtYooUUYh.ir."
+      "tls": {
+        "enabled": true,
+        "server_name": "xn--mgbql0dza.pinocchio1.ir.",
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc"
       }
     },
     {
