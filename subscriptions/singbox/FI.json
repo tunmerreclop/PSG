@@ -52,8 +52,9 @@
         "auto",
         "🇫🇮 FI | VLESS | @outlinereleasedkey #1 [fast]",
         "🇫🇮 FI | VLESS | @selinc #1 [medium]",
+        "🇫🇮 FI | VLESS | @red2ray #1 [fast]",
         "🇫🇮 FI | VLESS | @outline_ir #1 [fast]",
-        "🇫🇮 FI | VLESS | @outline_ir #2 [fast]",
+        "🇫🇮 FI | VLESS | @outline_ir #2 [medium]",
         "🇫🇮 FI | VLESS | @NamiraConfigs #1 [fast]",
         "direct"
       ],
@@ -65,8 +66,9 @@
       "outbounds": [
         "🇫🇮 FI | VLESS | @outlinereleasedkey #1 [fast]",
         "🇫🇮 FI | VLESS | @selinc #1 [medium]",
+        "🇫🇮 FI | VLESS | @red2ray #1 [fast]",
         "🇫🇮 FI | VLESS | @outline_ir #1 [fast]",
-        "🇫🇮 FI | VLESS | @outline_ir #2 [fast]",
+        "🇫🇮 FI | VLESS | @outline_ir #2 [medium]",
         "🇫🇮 FI | VLESS | @NamiraConfigs #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
@@ -119,6 +121,25 @@
     },
     {
       "type": "vless",
+      "tag": "🇫🇮 FI | VLESS | @red2ray #1 [fast]",
+      "server": "85.192.49.141",
+      "server_port": 443,
+      "uuid": "85cc845e-644c-4148-8288-f0c03c83c1ec",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "fi.quattro-tech.ru",
+        "reality": {
+          "enabled": true,
+          "public_key": "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc",
+          "short_id": "43dcff53849b81e6"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇫🇮 FI | VLESS | @outline_ir #1 [fast]",
       "server": "31.76.80.69",
       "server_port": 443,
@@ -141,7 +162,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 FI | VLESS | @outline_ir #2 [fast]",
+      "tag": "🇫🇮 FI | VLESS | @outline_ir #2 [medium]",
       "server": "31.76.80.69",
       "server_port": 2083,
       "uuid": "8975546a-375c-4966-8064-19fc0f66f30a",

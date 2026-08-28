@@ -52,6 +52,7 @@
         "auto",
         "🇹🇷 TR | VLESS | @free1_vpn #1 [fast]",
         "🇹🇷 TR | SS | @free1_vpn #1 [fast]",
+        "🇹🇷 TR | VLESS | @red2ray #1 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -61,7 +62,8 @@
       "tag": "auto",
       "outbounds": [
         "🇹🇷 TR | VLESS | @free1_vpn #1 [fast]",
-        "🇹🇷 TR | SS | @free1_vpn #1 [fast]"
+        "🇹🇷 TR | SS | @free1_vpn #1 [fast]",
+        "🇹🇷 TR | VLESS | @red2ray #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -102,6 +104,15 @@
       "tls": {
         "enabled": true
       }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇷 TR | VLESS | @red2ray #1 [medium]",
+      "server": "91.228.227.112",
+      "server_port": 110,
+      "uuid": "abc5211d-952e-4c7f-a4f4-045f6be9ba1f",
+      "network": "tcp",
+      "packet_encoding": "xudp"
     },
     {
       "type": "direct",
