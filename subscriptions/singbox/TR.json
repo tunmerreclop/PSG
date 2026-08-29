@@ -50,9 +50,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇷 TR | VLESS | @free1_vpn #1 [fast]",
-        "🇹🇷 TR | SS | @free1_vpn #1 [medium]",
-        "🇹🇷 TR | SS | @free1_vpn #2 [medium]",
+        "🇹🇷 TR | SS | @free1_vpn #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -61,9 +59,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @free1_vpn #1 [fast]",
-        "🇹🇷 TR | SS | @free1_vpn #1 [medium]",
-        "🇹🇷 TR | SS | @free1_vpn #2 [medium]"
+        "🇹🇷 TR | SS | @free1_vpn #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -71,43 +67,8 @@
       "idle_timeout": "30m"
     },
     {
-      "type": "vless",
-      "tag": "🇹🇷 TR | VLESS | @free1_vpn #1 [fast]",
-      "server": "tr.alertyagency.com",
-      "server_port": 443,
-      "uuid": "a704443d-655e-4d9f-8ce6-12eeb17a9a08",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "api-maps.yandex.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "DAdWhCSXRRcho_XopxBKq2-KDupbSY_i2r-FJCy58kY",
-          "short_id": "5a3874f1"
-        }
-      }
-    },
-    {
       "type": "shadowsocks",
-      "tag": "🇹🇷 TR | SS | @free1_vpn #1 [medium]",
-      "server": "212.87.199.63",
-      "server_port": 1080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "JEAkE_lAh0ceqIPr2iv_099anBQFfjbB",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇹🇷 TR | SS | @free1_vpn #2 [medium]",
+      "tag": "🇹🇷 TR | SS | @free1_vpn #1 [fast]",
       "server": "176.53.17.241",
       "server_port": 1943,
       "method": "2022-blake3-aes-256-gcm",

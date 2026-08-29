@@ -53,8 +53,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇳🇱 NL | SS | @orange_vpns #1 [fast]",
         "🇳🇱 NL | SS | @easy_free_vpn #1 [fast]",
-        "🇹🇷 TR | SS | @free1_vpn #1 [medium]",
+        "🇳🇱 NL | SS | @free1_vpn #1 [fast]",
+        "🇳🇱 NL | SS | @free1_vpn #2 [fast]",
         "🇰🇿 KZ | SS | @configv2rayforfree #1 [medium]",
         "🇬🇧 GB | SS | @NamiraConfigs #1 [fast]",
         "direct"
@@ -68,8 +70,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇳🇱 NL | SS | @orange_vpns #1 [fast]",
         "🇳🇱 NL | SS | @easy_free_vpn #1 [fast]",
-        "🇹🇷 TR | SS | @free1_vpn #1 [medium]",
+        "🇳🇱 NL | SS | @free1_vpn #1 [fast]",
+        "🇳🇱 NL | SS | @free1_vpn #2 [fast]",
         "🇰🇿 KZ | SS | @configv2rayforfree #1 [medium]",
         "🇬🇧 GB | SS | @NamiraConfigs #1 [fast]"
       ],
@@ -119,6 +123,18 @@
     },
     {
       "type": "shadowsocks",
+      "tag": "🇳🇱 NL | SS | @orange_vpns #1 [fast]",
+      "server": "158.173.20.208",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "shadowsocks",
       "tag": "🇳🇱 NL | SS | @easy_free_vpn #1 [fast]",
       "server": "193.29.139.151",
       "server_port": 8080,
@@ -131,11 +147,23 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇹🇷 TR | SS | @free1_vpn #1 [medium]",
-      "server": "212.87.199.63",
+      "tag": "🇳🇱 NL | SS | @free1_vpn #1 [fast]",
+      "server": "193.168.199.192",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "YzYwZ",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 NL | SS | @free1_vpn #2 [fast]",
+      "server": "217.23.13.210",
       "server_port": 1080,
       "method": "chacha20-ietf-poly1305",
-      "password": "JEAkE_lAh0ceqIPr2iv_099anBQFfjbB",
+      "password": "Lo1q87FqgIGUJ7k1NFoF1w",
       "network": "tcp",
       "tls": {
         "enabled": true
