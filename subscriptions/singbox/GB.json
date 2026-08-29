@@ -51,10 +51,13 @@
       "outbounds": [
         "auto",
         "🇬🇧 GB | SS | @prrofile_purple #1 [fast]",
-        "🇬🇧 GB | VLESS | @prrofile_purple #1 [fast]",
         "🇬🇧 GB | SS | @beshkan #1 [fast]",
         "🇬🇧 GB | SS | @beshkan #2 [fast]",
         "🇬🇧 GB | SS | @free4allvpn #1 [fast]",
+        "🇬🇧 GB | VLESS | @privatevpns #1 [fast]",
+        "🇬🇧 GB | VLESS | @red2ray #1 [fast]",
+        "🇬🇧 GB | VLESS | @red2ray #2 [fast]",
+        "🇬🇧 GB | VLESS | @red2ray #3 [fast]",
         "🇬🇧 GB | SS | @NamiraConfigs #1 [fast]",
         "🇬🇧 GB | SS | @proxy48 #1 [fast]",
         "direct"
@@ -66,10 +69,13 @@
       "tag": "auto",
       "outbounds": [
         "🇬🇧 GB | SS | @prrofile_purple #1 [fast]",
-        "🇬🇧 GB | VLESS | @prrofile_purple #1 [fast]",
         "🇬🇧 GB | SS | @beshkan #1 [fast]",
         "🇬🇧 GB | SS | @beshkan #2 [fast]",
         "🇬🇧 GB | SS | @free4allvpn #1 [fast]",
+        "🇬🇧 GB | VLESS | @privatevpns #1 [fast]",
+        "🇬🇧 GB | VLESS | @red2ray #1 [fast]",
+        "🇬🇧 GB | VLESS | @red2ray #2 [fast]",
+        "🇬🇧 GB | VLESS | @red2ray #3 [fast]",
         "🇬🇧 GB | SS | @NamiraConfigs #1 [fast]",
         "🇬🇧 GB | SS | @proxy48 #1 [fast]"
       ],
@@ -89,15 +95,6 @@
       "tls": {
         "enabled": true
       }
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 GB | VLESS | @prrofile_purple #1 [fast]",
-      "server": "178.83.157.130",
-      "server_port": 2551,
-      "uuid": "d8b42cd5-a149-4356-9e61-000000000000",
-      "network": "tcp",
-      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",
@@ -134,6 +131,42 @@
       "tls": {
         "enabled": true
       }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 GB | VLESS | @privatevpns #1 [fast]",
+      "server": "18.169.233.193",
+      "server_port": 22222,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "network": "tcp",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 GB | VLESS | @red2ray #1 [fast]",
+      "server": "18.169.233.193",
+      "server_port": 22224,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "network": "tcp",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 GB | VLESS | @red2ray #2 [fast]",
+      "server": "18.169.233.193",
+      "server_port": 22222,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "network": "tcp",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 GB | VLESS | @red2ray #3 [fast]",
+      "server": "18.169.233.193",
+      "server_port": 22223,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "network": "tcp",
+      "packet_encoding": "xudp"
     },
     {
       "type": "shadowsocks",

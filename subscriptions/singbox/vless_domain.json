@@ -62,6 +62,7 @@
         "🇽🇽 XX | VLESS | @nofiltering2 #1 [fast]",
         "🇫🇮 FI | VLESS | @outlinereleasedkey #1 [fast]",
         "🇧🇾 BY | VLESS | @outlinereleasedkey #1 [fast]",
+        "🇹🇷 TR | VLESS | @free1_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @selinc #1 [fast]",
         "🇽🇽 XX | VLESS | @selinc #2 [fast]",
         "🇽🇽 XX | VLESS | @selinc #3 [fast]",
@@ -86,8 +87,8 @@
         "🇽🇽 XX | VLESS | @f_nirevil #2 [fast]",
         "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
         "🇽🇽 XX | VLESS | @novinology #5 [fast]",
-        "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
         "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
+        "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #6 [fast]",
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1 [fast]",
@@ -156,6 +157,7 @@
         "🇽🇽 XX | VLESS | @nofiltering2 #1 [fast]",
         "🇫🇮 FI | VLESS | @outlinereleasedkey #1 [fast]",
         "🇧🇾 BY | VLESS | @outlinereleasedkey #1 [fast]",
+        "🇹🇷 TR | VLESS | @free1_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @selinc #1 [fast]",
         "🇽🇽 XX | VLESS | @selinc #2 [fast]",
         "🇽🇽 XX | VLESS | @selinc #3 [fast]",
@@ -180,8 +182,8 @@
         "🇽🇽 XX | VLESS | @f_nirevil #2 [fast]",
         "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
         "🇽🇽 XX | VLESS | @novinology #5 [fast]",
-        "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
         "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
+        "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #6 [fast]",
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1 [fast]",
@@ -410,6 +412,29 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇷 TR | VLESS | @free1_vpn #1 [fast]",
+      "server": "tr.alertyagency.com",
+      "server_port": 443,
+      "uuid": "a704443d-655e-4d9f-8ce6-12eeb17a9a08",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "api-maps.yandex.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "DAdWhCSXRRcho_XopxBKq2-KDupbSY_i2r-FJCy58kY",
+          "short_id": "5a3874f1"
         }
       }
     },
@@ -740,23 +765,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
-      "server": "norman.ns.cloudflare.com",
-      "server_port": 443,
-      "uuid": "ee122f13-9b54-49b6-abc5-aa47b464fdb3",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "azizoarjmand.info"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/yhowcws"
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
       "server": "parspack.com",
       "server_port": 443,
@@ -781,6 +789,23 @@
         "headers": {
           "Host": "biA.ALlhub.LTD"
         }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
+      "server": "norman.ns.cloudflare.com",
+      "server_port": 443,
+      "uuid": "ee122f13-9b54-49b6-abc5-aa47b464fdb3",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "azizoarjmand.info"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/yhowcws"
       }
     },
     {
