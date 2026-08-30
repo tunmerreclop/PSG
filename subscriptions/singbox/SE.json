@@ -50,7 +50,6 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇪 SE | VLESS | @red2ray #1 [fast]",
         "🇸🇪 SE | VLESS | @minovpnch #1 [fast]",
         "🇸🇪 SE | VLESS | @deli_servers #1 [fast]",
         "🇸🇪 SE | VLESS | @kurd_v2ray #1 [fast]",
@@ -67,7 +66,7 @@
         "🇸🇪 SE | VLESS | @realvpnmaster #2 [fast]",
         "🇸🇪 SE | VLESS | @realvpnmaster #3 [fast]",
         "🇸🇪 SE | VLESS | @realvpnmaster #4 [fast]",
-        "🇸🇪 SE | VLESS | @realvpnmaster #5 [medium]",
+        "🇸🇪 SE | VLESS | @realvpnmaster #5 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -76,7 +75,6 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇪 SE | VLESS | @red2ray #1 [fast]",
         "🇸🇪 SE | VLESS | @minovpnch #1 [fast]",
         "🇸🇪 SE | VLESS | @deli_servers #1 [fast]",
         "🇸🇪 SE | VLESS | @kurd_v2ray #1 [fast]",
@@ -93,41 +91,12 @@
         "🇸🇪 SE | VLESS | @realvpnmaster #2 [fast]",
         "🇸🇪 SE | VLESS | @realvpnmaster #3 [fast]",
         "🇸🇪 SE | VLESS | @realvpnmaster #4 [fast]",
-        "🇸🇪 SE | VLESS | @realvpnmaster #5 [medium]"
+        "🇸🇪 SE | VLESS | @realvpnmaster #5 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
       "tolerance": 50,
       "idle_timeout": "30m"
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇪 SE | VLESS | @red2ray #1 [fast]",
-      "server": "199.232.173.242",
-      "server_port": 443,
-      "uuid": "056d58b7-2577-4f82-b7a8-2473202419c2",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "adheres-scruple.quick-cdn.net",
-        "alpn": [
-          "h3",
-          "h2",
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "adheres-scruple.quick-cdn.net"
-        }
-      }
     },
     {
       "type": "vless",
@@ -390,7 +359,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇪 SE | VLESS | @realvpnmaster #5 [medium]",
+      "tag": "🇸🇪 SE | VLESS | @realvpnmaster #5 [fast]",
       "server": "185.146.173.185",
       "server_port": 2095,
       "uuid": "5c7d90fe-f7d5-40bf-bfca-7726d5e44786",
