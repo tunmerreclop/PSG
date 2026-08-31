@@ -53,9 +53,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇽🇽 XX | VLESS | @prrofile_purple #1 [fast]",
-        "🇽🇽 XX | VLESS | @prrofile_purple #2 [fast]",
-        "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
+        "🇩🇪 DE | VLESS | @prrofile_purple #1 [fast]",
         "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #1 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #2 [fast]",
@@ -72,8 +70,9 @@
         "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
         "🇦🇹 AT | VLESS | @mtproxy22_v2ray #1 [fast]",
-        "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
+        "🇫🇷 FR | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @jiedianf #1 [fast]",
+        "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
         "🇽🇽 XX | VLESS | @prooxyk #1 [fast]",
         "🇽🇽 XX | VLESS | @iranvipnet #1 [fast]",
         "🇺🇸 US | VLESS | @iranvipnet #1 [fast]",
@@ -106,9 +105,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇽🇽 XX | VLESS | @prrofile_purple #1 [fast]",
-        "🇽🇽 XX | VLESS | @prrofile_purple #2 [fast]",
-        "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
+        "🇩🇪 DE | VLESS | @prrofile_purple #1 [fast]",
         "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #1 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #2 [fast]",
@@ -125,8 +122,9 @@
         "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
         "🇦🇹 AT | VLESS | @mtproxy22_v2ray #1 [fast]",
-        "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
+        "🇫🇷 FR | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @jiedianf #1 [fast]",
+        "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
         "🇽🇽 XX | VLESS | @prooxyk #1 [fast]",
         "🇽🇽 XX | VLESS | @iranvipnet #1 [fast]",
         "🇺🇸 US | VLESS | @iranvipnet #1 [fast]",
@@ -195,60 +193,26 @@
     },
     {
       "type": "vless",
-      "tag": "🇽🇽 XX | VLESS | @prrofile_purple #1 [fast]",
-      "server": "one-for-all.levikogjgfdd.ir",
+      "tag": "🇩🇪 DE | VLESS | @prrofile_purple #1 [fast]",
+      "server": "r.telewebion.ir.varzesh3.com.de",
       "server_port": 443,
-      "uuid": "29ca503d-e6b8-4509-b666-48133f450857",
-      "network": "ws",
+      "uuid": "edae0c5c-6979-44ba-b82b-1575cb5804d6",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "learn00.evany.de5.net"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/fdip",
-        "headers": {
-          "Host": "learn00.evany.de5.net"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇽🇽 XX | VLESS | @prrofile_purple #2 [fast]",
-      "server": "one-for-all.levikogjgfdd.ir",
-      "server_port": 2053,
-      "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "po.fastbrokencompony.com",
-        "alpn": [
-          "h3",
-          "h2"
-        ],
+        "server_name": "yahoo.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "po.fastbrokencompony.com"
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JtA0d5K6Jnmg35oWP9SDOsc1ceuqaxOsNg33fiPHJQs",
+          "short_id": "e915"
         }
       }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
-      "server": "spd-mynames.global.ssl.fastly.net",
-      "server_port": 80,
-      "uuid": "8e378a41-d5e1-427a-aaf8-30190d4be0a0",
-      "network": "xhttp",
-      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -499,25 +463,12 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
-      "server": "hadikeikei.ir",
-      "server_port": 2053,
-      "uuid": "f1a22614-ff7a-423c-8cb4-d322c88985ae",
+      "tag": "🇫🇷 FR | VLESS | @red2ray #1 [fast]",
+      "server": "f----r---ench.cd2-ger1.ir",
+      "server_port": 2087,
+      "uuid": "b64a552e-988a-4f45-8c07-dc4ef3416985",
       "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "jPjDwxHaOIVV7mnCccqLoY_t3-Cd0h__EMCp1Yd_KX8",
-          "short_id": "a7f31c9d"
-        }
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -542,6 +493,15 @@
           "Host": "wasmer-earth.jzy88.top"
         }
       }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
+      "server": "spd-mynames.global.ssl.fastly.net",
+      "server_port": 80,
+      "uuid": "8e378a41-d5e1-427a-aaf8-30190d4be0a0",
+      "network": "xhttp",
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
