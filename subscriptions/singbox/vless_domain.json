@@ -65,8 +65,8 @@
         "🇽🇽 XX | VLESS | @kurdvpn1 #1 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #2 [fast]",
         "🇽🇽 XX | VLESS | @nofiltering2 #1 [fast]",
-        "🇲🇩 MD | VLESS | @free1_vpn #1 [fast]",
         "🇷🇸 RS | VLESS | @free1_vpn #1 [fast]",
+        "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @selinc #1 [fast]",
         "🇽🇽 XX | VLESS | @selinc #2 [fast]",
         "🇽🇽 XX | VLESS | @selinc #3 [fast]",
@@ -96,13 +96,10 @@
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #6 [fast]",
         "🇫🇷 FR | VLESS | @mtproxy22_v2ray #1 [fast]",
-        "🇦🇪 AE | VLESS | @red2ray #1 [fast]",
-        "🇷🇴 RO | VLESS | @red2ray #1 [medium]",
         "🇽🇽 XX | VLESS | @jiedianf #1 [fast]",
         "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
         "🇽🇽 XX | VLESS | @NamiraConfigs #1 [fast]",
-        "🇩🇪 DE | VLESS | @NamiraConfigs #1 [medium]",
         "🇹🇷 TR | VLESS | @NamiraConfigs #1 [fast]",
         "🇽🇽 XX | VLESS | @prooxyk #1 [fast]",
         "🇽🇽 XX | VLESS | @iranvipnet #1 [fast]",
@@ -166,8 +163,8 @@
         "🇽🇽 XX | VLESS | @kurdvpn1 #1 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #2 [fast]",
         "🇽🇽 XX | VLESS | @nofiltering2 #1 [fast]",
-        "🇲🇩 MD | VLESS | @free1_vpn #1 [fast]",
         "🇷🇸 RS | VLESS | @free1_vpn #1 [fast]",
+        "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @selinc #1 [fast]",
         "🇽🇽 XX | VLESS | @selinc #2 [fast]",
         "🇽🇽 XX | VLESS | @selinc #3 [fast]",
@@ -197,13 +194,10 @@
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #6 [fast]",
         "🇫🇷 FR | VLESS | @mtproxy22_v2ray #1 [fast]",
-        "🇦🇪 AE | VLESS | @red2ray #1 [fast]",
-        "🇷🇴 RO | VLESS | @red2ray #1 [medium]",
         "🇽🇽 XX | VLESS | @jiedianf #1 [fast]",
         "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
         "🇽🇽 XX | VLESS | @NamiraConfigs #1 [fast]",
-        "🇩🇪 DE | VLESS | @NamiraConfigs #1 [medium]",
         "🇹🇷 TR | VLESS | @NamiraConfigs #1 [fast]",
         "🇽🇽 XX | VLESS | @prooxyk #1 [fast]",
         "🇽🇽 XX | VLESS | @iranvipnet #1 [fast]",
@@ -519,32 +513,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇲🇩 MD | VLESS | @free1_vpn #1 [fast]",
-      "server": "md1.univesalsrv.com",
-      "server_port": 443,
-      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
-      "network": "grpc",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "md1.univesalsrv.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "xWejOQUn2koOUorUPSrHMLM-lyHlZ441KzxKc9bLmkY",
-          "short_id": "221ba6174224ca5b"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "hub.v1.RelayService"
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇷🇸 RS | VLESS | @free1_vpn #1 [fast]",
       "server": "de1.cnyvpn.com",
       "server_port": 2053,
@@ -567,6 +535,29 @@
       "transport": {
         "type": "grpc",
         "service_name": "remnagrpc"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
+      "server": "de2.cnyvpn.com",
+      "server_port": 2096,
+      "uuid": "60e2a548-96aa-4850-a279-1edab743c39b",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "conrad.de",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pVUUDlLKPprJgV_ZcehzuhOFmw44Gk1DlRsny1zyxCI",
+          "short_id": "e3e76808b9fcd591"
+        }
       }
     },
     {
@@ -1015,45 +1006,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇪 AE | VLESS | @red2ray #1 [fast]",
-      "server": "pl5.lckdwn.ru",
-      "server_port": 443,
-      "uuid": "98673856-cd6f-4aa0-b2c9-d2ec90c0f47b",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "pl5.lckdwn.ru"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇴 RO | VLESS | @red2ray #1 [medium]",
-      "server": "mold.freeinternat.com",
-      "server_port": 443,
-      "uuid": "dabb9a19-03ab-4cdf-8963-d3c45eb0f80d",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "mold.freeinternat.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk",
-          "short_id": "ff776ff77be48b88"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇽🇽 XX | VLESS | @jiedianf #1 [fast]",
       "server": "wasmer-earth.jzy88.top",
       "server_port": 443,
@@ -1135,15 +1087,6 @@
           "Host": "s.dpiccolo.ir"
         }
       }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @NamiraConfigs #1 [medium]",
-      "server": "germanndnew.mamadhpbot.ir",
-      "server_port": 50118,
-      "uuid": "93ee032f-b67f-4cac-a239-da1295aec528",
-      "network": "tcp",
-      "packet_encoding": "xudp"
     },
     {
       "type": "vless",

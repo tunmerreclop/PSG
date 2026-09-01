@@ -59,6 +59,7 @@
         "🇽🇽 XX | VLESS | @kurdvpn1 #1 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #2 [fast]",
         "🇽🇽 XX | VLESS | @nofiltering2 #1 [fast]",
+        "🇷🇸 RS | VLESS | @free1_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @selinc #1 [fast]",
         "🇽🇽 XX | VLESS | @lockey_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @lockey_vpn #2 [fast]",
@@ -71,8 +72,8 @@
         "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
         "🇫🇷 FR | VLESS | @mtproxy22_v2ray #1 [fast]",
-        "🇦🇪 AE | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @jiedianf #1 [fast]",
+        "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
         "🇽🇽 XX | VLESS | @prooxyk #1 [fast]",
         "🇽🇽 XX | VLESS | @iranvipnet #1 [fast]",
@@ -112,6 +113,7 @@
         "🇽🇽 XX | VLESS | @kurdvpn1 #1 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #2 [fast]",
         "🇽🇽 XX | VLESS | @nofiltering2 #1 [fast]",
+        "🇷🇸 RS | VLESS | @free1_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @selinc #1 [fast]",
         "🇽🇽 XX | VLESS | @lockey_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @lockey_vpn #2 [fast]",
@@ -124,8 +126,8 @@
         "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
         "🇫🇷 FR | VLESS | @mtproxy22_v2ray #1 [fast]",
-        "🇦🇪 AE | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @jiedianf #1 [fast]",
+        "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
         "🇽🇽 XX | VLESS | @prooxyk #1 [fast]",
         "🇽🇽 XX | VLESS | @iranvipnet #1 [fast]",
@@ -286,6 +288,32 @@
       "tls": {
         "enabled": true,
         "server_name": "learn00.…</div>"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇸 RS | VLESS | @free1_vpn #1 [fast]",
+      "server": "de1.cnyvpn.com",
+      "server_port": 2053,
+      "uuid": "60e2a548-96aa-4850-a279-1edab743c39b",
+      "network": "grpc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "finanzfluss.de",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "5_kjhGPcPUiUNJ0Mt4-YoRjphhDz3Hfvx1YCdbBRUA0",
+          "short_id": "8b71da690c3d5d03"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "remnagrpc"
       }
     },
     {
@@ -485,22 +513,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇪 AE | VLESS | @red2ray #1 [fast]",
-      "server": "pl5.lckdwn.ru",
-      "server_port": 443,
-      "uuid": "98673856-cd6f-4aa0-b2c9-d2ec90c0f47b",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "pl5.lckdwn.ru"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇽🇽 XX | VLESS | @jiedianf #1 [fast]",
       "server": "wasmer-earth.jzy88.top",
       "server_port": 443,
@@ -520,6 +532,29 @@
         "path": "/60156344",
         "headers": {
           "Host": "wasmer-earth.jzy88.top"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
+      "server": "de.alertyagency.com",
+      "server_port": 443,
+      "uuid": "a704443d-655e-4d9f-8ce6-12eeb17a9a08",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "api-maps.yandex.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "wDJibB6Rd20xkiSeIKLLo60DsKqB3il6gtXlpYxITj4",
+          "short_id": "977aa6df"
         }
       }
     },
