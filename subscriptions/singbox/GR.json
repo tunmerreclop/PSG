@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQVQ=
+//profile-title: base64:UFNHIHwgR1I=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://telegram.me/yebekhe
@@ -50,8 +50,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇹 AT | VLESS | @outlinereleasedkey #1 [fast]",
-        "🇦🇹 AT | VLESS | @mtproxy22_v2ray #1 [fast]",
+        "🇬🇷 GR | VLESS | @red2ray #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -60,8 +59,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇹 AT | VLESS | @outlinereleasedkey #1 [fast]",
-        "🇦🇹 AT | VLESS | @mtproxy22_v2ray #1 [fast]"
+        "🇬🇷 GR | VLESS | @red2ray #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -70,47 +68,20 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇹 AT | VLESS | @outlinereleasedkey #1 [fast]",
-      "server": "152.53.114.186",
+      "tag": "🇬🇷 GR | VLESS | @red2ray #1 [fast]",
+      "server": "85.90.197.91",
       "server_port": 443,
-      "uuid": "ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2",
+      "uuid": "dabb9a19-03ab-4cdf-8963-d3c45eb0f80d",
       "flow": "xtls-rprx-vision",
       "network": "tcp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "as.tunnelx.space",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
+        "server_name": "gr.freeinternat.com",
         "reality": {
           "enabled": true,
-          "public_key": "UO3EObgU3xUrhIGEE0gfCn5ZOz8YxNcwwW6ZaYzD3SA",
-          "short_id": "4e9b0c2d1a3f5768"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇹 AT | VLESS | @mtproxy22_v2ray #1 [fast]",
-      "server": "api-as.data-media-social.org",
-      "server_port": 443,
-      "uuid": "ef4f4c3d-0b16-48ad-a8d8-2d22512b3b36",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "api-as.data-media-social.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "D-lJlqG_tR0QSqyKj4KZRImMRfZbhp88loaf8jP0mhc",
-          "short_id": "f3a9d2b1c7d4f608"
+          "public_key": "bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk",
+          "short_id": "ff776ff77be48b88"
         }
       }
     },

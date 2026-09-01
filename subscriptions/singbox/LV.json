@@ -51,7 +51,6 @@
       "outbounds": [
         "auto",
         "🇱🇻 LV | VLESS | @free4allvpn #1 [fast]",
-        "🇱🇻 LV | VLESS | @red2ray #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -60,8 +59,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇻 LV | VLESS | @free4allvpn #1 [fast]",
-        "🇱🇻 LV | VLESS | @red2ray #1 [fast]"
+        "🇱🇻 LV | VLESS | @free4allvpn #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -90,15 +88,6 @@
           "short_id": "4360e536"
         }
       }
-    },
-    {
-      "type": "vless",
-      "tag": "🇱🇻 LV | VLESS | @red2ray #1 [fast]",
-      "server": "vpn.architect-line.ir",
-      "server_port": 8080,
-      "uuid": "30ba1df6-4aa5-4912-9ed9-09f938f3eb18",
-      "network": "xhttp",
-      "packet_encoding": "xudp"
     },
     {
       "type": "direct",

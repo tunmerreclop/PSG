@@ -63,12 +63,11 @@
         "🇫🇮 FI | VLESS | @selinc #1 [fast]",
         "🇸🇨 SC | VLESS | @bored_vpn #1 [fast]",
         "🇺🇸 US | VLESS | @filtershekan_channel #1 [fast]",
-        "🇷🇺 RU | VLESS | @red2ray #1 [fast]",
         "🇸🇨 SC | VLESS | @outline_ir #1 [fast]",
         "🇷🇺 RU | VLESS | @outline_ir #1 [fast]",
         "🇺🇸 US | VLESS | @netfreedom0 #1 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
-        "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
+        "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -90,12 +89,11 @@
         "🇫🇮 FI | VLESS | @selinc #1 [fast]",
         "🇸🇨 SC | VLESS | @bored_vpn #1 [fast]",
         "🇺🇸 US | VLESS | @filtershekan_channel #1 [fast]",
-        "🇷🇺 RU | VLESS | @red2ray #1 [fast]",
         "🇸🇨 SC | VLESS | @outline_ir #1 [fast]",
         "🇷🇺 RU | VLESS | @outline_ir #1 [fast]",
         "🇺🇸 US | VLESS | @netfreedom0 #1 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
-        "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]"
+        "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -365,32 +363,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @red2ray #1 [fast]",
-      "server": "168.222.194.138",
-      "server_port": 9880,
-      "uuid": "76186f1e-3062-4a2b-98c2-fab3c61a9511",
-      "network": "grpc",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "dl.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU",
-          "short_id": "aabbccdd"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "grpc-tunnel"
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇸🇨 SC | VLESS | @outline_ir #1 [fast]",
       "server": "45.195.111.108",
       "server_port": 443,
@@ -481,7 +453,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
+      "tag": "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]",
       "server": "95.179.138.190",
       "server_port": 443,
       "uuid": "telegram-id-qeshmserver",

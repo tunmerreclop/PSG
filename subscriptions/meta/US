@@ -4,7 +4,7 @@ mode: rule
 log-level: info
 proxies:
   - {"name": "🇺🇸 US | VLESS | @prrofile_purple #1 [fast]", "server": "199.232.78.159", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "30a6ad20-2d4c-4c4d-a301-66b74d15f000", "network": "ws", "tls": true, "udp": true, "client-fingerprint": "chrome", "servername": "ssl.fastly.com", "ws-opts": {"path": "", "headers": {"Host": "lsjaoijji.global.ssl.fastly.neT"}}}
-  - {"name": "🇺🇸 US | VLESS | @free1_vpn #1 [medium]", "server": "193.160.32.36", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "255386a8-aec5-4425-bfe7-ca49b7448deb", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "servername": "play.google.com", "reality-opts": {"public-key": "Sh2F8IDDBaFvXPI59IwN-25UR1G0fjXNmuVqwNbTpUk", "short-id": "c87bfa39a28a95b9"}}
+  - {"name": "🇺🇸 US | VLESS | @free1_vpn #1 [fast]", "server": "193.160.32.36", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "255386a8-aec5-4425-bfe7-ca49b7448deb", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "servername": "play.google.com", "reality-opts": {"public-key": "Sh2F8IDDBaFvXPI59IwN-25UR1G0fjXNmuVqwNbTpUk", "short-id": "c87bfa39a28a95b9"}}
   - {"name": "🇺🇸 US | VMESS | @freev2rays #1 [fast]", "server": "xcf037.facai2024.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "d9863037-0463-4615-e972-36ba9662d1e9", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/d9863037", "headers": {"Host": "xcf037.facai2024.com"}}}
   - {"name": "🇺🇸 US | VLESS | @bored_vpn #1 [fast]", "server": "199.232.78.160", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "XpnTeam-35", "network": "ws", "tls": true, "udp": true, "client-fingerprint": "chrome", "servername": "ssl.fastly.com", "ws-opts": {"path": "", "headers": {"Host": "Appxdn.global.ssl.fastly.net"}}}
   - {"name": "🇺🇸 US | VLESS | @free4allvpn #1 [fast]", "server": "151.101.25.242", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "02d87d00-c769-48d8-91cb-bd05e2f62790", "network": "xhttp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -46,7 +46,7 @@ proxy-groups:
     type: select
     proxies:
       - '🇺🇸 US | VLESS | @prrofile_purple #1 [fast]'
-      - '🇺🇸 US | VLESS | @free1_vpn #1 [medium]'
+      - '🇺🇸 US | VLESS | @free1_vpn #1 [fast]'
       - '🇺🇸 US | VMESS | @freev2rays #1 [fast]'
       - '🇺🇸 US | VLESS | @bored_vpn #1 [fast]'
       - '🇺🇸 US | VLESS | @free4allvpn #1 [fast]'
@@ -88,7 +88,7 @@ proxy-groups:
     type: url-test
     proxies:
       - '🇺🇸 US | VLESS | @prrofile_purple #1 [fast]'
-      - '🇺🇸 US | VLESS | @free1_vpn #1 [medium]'
+      - '🇺🇸 US | VLESS | @free1_vpn #1 [fast]'
       - '🇺🇸 US | VMESS | @freev2rays #1 [fast]'
       - '🇺🇸 US | VLESS | @bored_vpn #1 [fast]'
       - '🇺🇸 US | VLESS | @free4allvpn #1 [fast]'
