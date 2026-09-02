@@ -50,11 +50,10 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇫🇷 FR | VLESS | @orange_vpns #1 [fast]",
-        "🇫🇷 FR | VLESS | @mimitdl #1 [fast]",
-        "🇫🇷 FR | VLESS | @mpproxy #1 [fast]",
-        "🇫🇷 FR | VLESS | @mtproxy22_v2ray #1 [fast]",
+        "🇫🇷 FR | VLESS | @orange_vpns #1 [medium]",
+        "🇫🇷 FR | VLESS | @mpproxy #1 [medium]",
         "🇫🇷 FR | SS | @outline_ir #1 [medium]",
+        "🇫🇷 FR | VLESS | @mimitdl #1 [fast]",
         "🇫🇷 FR | SS | @netfreedom0 #1 [medium]",
         "🇫🇷 FR | VLESS | @minovpnch #1 [medium]",
         "🇫🇷 FR | VLESS | @minovpnch #2 [medium]",
@@ -67,11 +66,10 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇫🇷 FR | VLESS | @orange_vpns #1 [fast]",
-        "🇫🇷 FR | VLESS | @mimitdl #1 [fast]",
-        "🇫🇷 FR | VLESS | @mpproxy #1 [fast]",
-        "🇫🇷 FR | VLESS | @mtproxy22_v2ray #1 [fast]",
+        "🇫🇷 FR | VLESS | @orange_vpns #1 [medium]",
+        "🇫🇷 FR | VLESS | @mpproxy #1 [medium]",
         "🇫🇷 FR | SS | @outline_ir #1 [medium]",
+        "🇫🇷 FR | VLESS | @mimitdl #1 [fast]",
         "🇫🇷 FR | SS | @netfreedom0 #1 [medium]",
         "🇫🇷 FR | VLESS | @minovpnch #1 [medium]",
         "🇫🇷 FR | VLESS | @minovpnch #2 [medium]",
@@ -84,7 +82,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇷 FR | VLESS | @orange_vpns #1 [fast]",
+      "tag": "🇫🇷 FR | VLESS | @orange_vpns #1 [medium]",
       "server": "fr2.janusgate.org",
       "server_port": 443,
       "uuid": "df880bf8-2635-4a83-a6bf-91bb36df284b",
@@ -107,23 +105,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇷 FR | VLESS | @mimitdl #1 [fast]",
-      "server": "188.130.207.202",
-      "server_port": 443,
-      "uuid": "_id_telegram_MimiTdi",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=1024",
-        "headers": {
-          "Host": "play.google.com"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇷 FR | VLESS | @mpproxy #1 [fast]",
+      "tag": "🇫🇷 FR | VLESS | @mpproxy #1 [medium]",
       "server": "84.247.129.205",
       "server_port": 4433,
       "uuid": "00000000-0000-4000-8000-000000000000",
@@ -143,24 +125,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇫🇷 FR | VLESS | @mtproxy22_v2ray #1 [fast]",
-      "server": "ww1.levikogjgfdd.ir",
-      "server_port": 443,
-      "uuid": "af348651-1624-4710-b55f-0307a22d891f",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "status.play.google.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "jvJPfOHtnr2sH79qG-rEtJHFbr36_7Ag7ARsUmtSDQo",
-          "short_id": "5030"
-        }
-      }
-    },
-    {
       "type": "shadowsocks",
       "tag": "🇫🇷 FR | SS | @outline_ir #1 [medium]",
       "server": "51.83.192.80",
@@ -170,6 +134,22 @@
       "network": "tcp",
       "tls": {
         "enabled": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇷 FR | VLESS | @mimitdl #1 [fast]",
+      "server": "188.130.207.202",
+      "server_port": 443,
+      "uuid": "_id_telegram_MimiTdi",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=1024",
+        "headers": {
+          "Host": "play.google.com"
+        }
       }
     },
     {

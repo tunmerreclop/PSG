@@ -56,13 +56,13 @@
         "🇩🇪 DE | VLESS | @orange_vpns #1 [fast]",
         "🇸🇨 SC | VLESS | @mehrosaboran #1 [medium]",
         "🇷🇺 RU | VLESS | @mehrosaboran #1 [medium]",
-        "🇬🇧 GB | VLESS | @outlinereleasedkey #1 [fast]",
         "🇺🇸 US | VLESS | @free1_vpn #1 [medium]",
         "🇬🇧 GB | VLESS | @free1_vpn #1 [fast]",
-        "🇫🇮 FI | VLESS | @selinc #1 [medium]",
         "🇸🇨 SC | VLESS | @bored_vpn #1 [medium]",
         "🇺🇸 US | VLESS | @filtershekan_channel #1 [fast]",
-        "🇸🇪 SE | VLESS | @mtproxy22_v2ray #1 [fast]",
+        "🇸🇪 SE | VLESS | @mtproxy22_v2ray #1 [medium]",
+        "🇩🇪 DE | VLESS | @red2ray #1 [medium]",
+        "🇫🇮 FI | VLESS | @selinc #1 [medium]",
         "🇺🇸 US | VLESS | @netfreedom0 #1 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]",
@@ -80,13 +80,13 @@
         "🇩🇪 DE | VLESS | @orange_vpns #1 [fast]",
         "🇸🇨 SC | VLESS | @mehrosaboran #1 [medium]",
         "🇷🇺 RU | VLESS | @mehrosaboran #1 [medium]",
-        "🇬🇧 GB | VLESS | @outlinereleasedkey #1 [fast]",
         "🇺🇸 US | VLESS | @free1_vpn #1 [medium]",
         "🇬🇧 GB | VLESS | @free1_vpn #1 [fast]",
-        "🇫🇮 FI | VLESS | @selinc #1 [medium]",
         "🇸🇨 SC | VLESS | @bored_vpn #1 [medium]",
         "🇺🇸 US | VLESS | @filtershekan_channel #1 [fast]",
-        "🇸🇪 SE | VLESS | @mtproxy22_v2ray #1 [fast]",
+        "🇸🇪 SE | VLESS | @mtproxy22_v2ray #1 [medium]",
+        "🇩🇪 DE | VLESS | @red2ray #1 [medium]",
+        "🇫🇮 FI | VLESS | @selinc #1 [medium]",
         "🇺🇸 US | VLESS | @netfreedom0 #1 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]"
@@ -205,29 +205,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 GB | VLESS | @outlinereleasedkey #1 [fast]",
-      "server": "78.129.150.216",
-      "server_port": 443,
-      "uuid": "7ec31525-7ac3-4597-8f39-a2d4edc46342",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "strapi.io",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
-          "short_id": "fd55b698ee8c3629"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇺🇸 US | VLESS | @free1_vpn #1 [medium]",
       "server": "193.160.32.36",
       "server_port": 2053,
@@ -268,28 +245,6 @@
           "enabled": true,
           "public_key": "o3OWFYnKad6q2C-eo6-rA74OCbjQoZfaUFYZsNqJJz0",
           "short_id": "1e977d0b52eab755"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 FI | VLESS | @selinc #1 [medium]",
-      "server": "31.76.80.69",
-      "server_port": 2083,
-      "uuid": "8975546a-375c-4966-8064-19fc0f66f30a",
-      "network": "xhttp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.amd.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "zq3gOJkXi6laNuxMohL3lr-wFOKi4Z9oG7QuMMiTDAk",
-          "short_id": "29b21343ab4d"
         }
       }
     },
@@ -341,7 +296,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇪 SE | VLESS | @mtproxy22_v2ray #1 [fast]",
+      "tag": "🇸🇪 SE | VLESS | @mtproxy22_v2ray #1 [medium]",
       "server": "70.34.203.254",
       "server_port": 32855,
       "uuid": "8c96a2a4-5fc0-47c9-a2ca-33b179b4acc7",
@@ -358,6 +313,54 @@
           "enabled": true,
           "public_key": "fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10",
           "short_id": "deb7a9e5a6e1d41a"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 DE | VLESS | @red2ray #1 [medium]",
+      "server": "178.105.134.66",
+      "server_port": 101,
+      "uuid": "40c81dcc-bc8a-4690-abdf-75ea8530234b",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "amp-api-edge.apps.apple.com",
+        "alpn": [
+          "h3",
+          "h2"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "VxFkVk2SKEQrRnBnhzvl29UpHlS2i5t6Is__HGPmuRU",
+          "short_id": "03e5ac759d2e7e90"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 FI | VLESS | @selinc #1 [medium]",
+      "server": "31.76.80.69",
+      "server_port": 2083,
+      "uuid": "8975546a-375c-4966-8064-19fc0f66f30a",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.amd.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "zq3gOJkXi6laNuxMohL3lr-wFOKi4Z9oG7QuMMiTDAk",
+          "short_id": "29b21343ab4d"
         }
       }
     },
