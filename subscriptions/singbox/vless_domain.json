@@ -56,7 +56,7 @@
         "🇫🇷 FR | VLESS | @orange_vpns #1 [fast]",
         "🇮🇹 IT | VLESS | @orange_vpns #1 [fast]",
         "🇳🇱 NL | VLESS | @orange_vpns #1 [fast]",
-        "🇩🇪 DE | VLESS | @prrofile_purple #1 [fast]",
+        "🇩🇪 DE | VLESS | @prrofile_purple #1 [medium]",
         "🇽🇽 XX | VLESS | @prrofile_purple #1 [fast]",
         "🇽🇽 XX | VLESS | @prrofile_purple #2 [fast]",
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
@@ -66,6 +66,7 @@
         "🇽🇽 XX | VLESS | @kurdvpn1 #1 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #2 [fast]",
         "🇽🇽 XX | VLESS | @nofiltering2 #1 [fast]",
+        "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @selinc #1 [fast]",
         "🇽🇽 XX | VLESS | @selinc #2 [fast]",
         "🇽🇽 XX | VLESS | @selinc #3 [fast]",
@@ -95,11 +96,10 @@
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #6 [fast]",
         "🇫🇷 FR | VLESS | @mtproxy22_v2ray #1 [fast]",
-        "🇽🇽 XX | VLESS | @red2ray #1 [fast]",
+        "🇸🇨 SC | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @jiedianf #1 [fast]",
         "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
         "🇽🇽 XX | VLESS | @NamiraConfigs #1 [fast]",
-        "🇩🇪 DE | VLESS | @NamiraConfigs #1 [medium]",
         "🇹🇷 TR | VLESS | @NamiraConfigs #1 [fast]",
         "🇽🇽 XX | VLESS | @prooxyk #1 [fast]",
         "🇽🇽 XX | VLESS | @iranvipnet #1 [fast]",
@@ -154,7 +154,7 @@
         "🇫🇷 FR | VLESS | @orange_vpns #1 [fast]",
         "🇮🇹 IT | VLESS | @orange_vpns #1 [fast]",
         "🇳🇱 NL | VLESS | @orange_vpns #1 [fast]",
-        "🇩🇪 DE | VLESS | @prrofile_purple #1 [fast]",
+        "🇩🇪 DE | VLESS | @prrofile_purple #1 [medium]",
         "🇽🇽 XX | VLESS | @prrofile_purple #1 [fast]",
         "🇽🇽 XX | VLESS | @prrofile_purple #2 [fast]",
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
@@ -164,6 +164,7 @@
         "🇽🇽 XX | VLESS | @kurdvpn1 #1 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #2 [fast]",
         "🇽🇽 XX | VLESS | @nofiltering2 #1 [fast]",
+        "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @selinc #1 [fast]",
         "🇽🇽 XX | VLESS | @selinc #2 [fast]",
         "🇽🇽 XX | VLESS | @selinc #3 [fast]",
@@ -193,11 +194,10 @@
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #6 [fast]",
         "🇫🇷 FR | VLESS | @mtproxy22_v2ray #1 [fast]",
-        "🇽🇽 XX | VLESS | @red2ray #1 [fast]",
+        "🇸🇨 SC | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @jiedianf #1 [fast]",
         "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
         "🇽🇽 XX | VLESS | @NamiraConfigs #1 [fast]",
-        "🇩🇪 DE | VLESS | @NamiraConfigs #1 [medium]",
         "🇹🇷 TR | VLESS | @NamiraConfigs #1 [fast]",
         "🇽🇽 XX | VLESS | @prooxyk #1 [fast]",
         "🇽🇽 XX | VLESS | @iranvipnet #1 [fast]",
@@ -352,7 +352,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @prrofile_purple #1 [fast]",
+      "tag": "🇩🇪 DE | VLESS | @prrofile_purple #1 [medium]",
       "server": "r.telewebion.ir.varzesh3.com.de",
       "server_port": 443,
       "uuid": "edae0c5c-6979-44ba-b82b-1575cb5804d6",
@@ -515,6 +515,29 @@
       "tls": {
         "enabled": true,
         "server_name": "learn00.…</div>"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
+      "server": "de2.cnyvpn.com",
+      "server_port": 2096,
+      "uuid": "60e2a548-96aa-4850-a279-1edab743c39b",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "conrad.de",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pVUUDlLKPprJgV_ZcehzuhOFmw44Gk1DlRsny1zyxCI",
+          "short_id": "e3e76808b9fcd591"
+        }
       }
     },
     {
@@ -963,15 +986,15 @@
     },
     {
       "type": "vless",
-      "tag": "🇽🇽 XX | VLESS | @red2ray #1 [fast]",
-      "server": "ez-1bc8ab.sekiro-c18.workers.dev",
+      "tag": "🇸🇨 SC | VLESS | @red2ray #1 [fast]",
+      "server": "cf-mci.coixconqwe1.ir",
       "server_port": 443,
-      "uuid": "7da33b25-cdd6-e481-afcf-c5d532361a70",
+      "uuid": "cf7f287d-101a-2c04-348f-8b2300000000",
       "network": "ws",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "ez-1bc8ab.sekiro-c18.workers.dev",
+        "server_name": "v25ppi-zvm2x7-gfnz7h.gottasubdvipui.workers.dev",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -979,7 +1002,10 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/"
+        "path": "/sync",
+        "headers": {
+          "Host": "v25ppi-zvm2x7-gfnz7h.gottasubdvipui.workers.dev"
+        }
       }
     },
     {
@@ -1056,15 +1082,6 @@
           "Host": "s.dpiccolo.ir"
         }
       }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @NamiraConfigs #1 [medium]",
-      "server": "germanndnew.mamadhpbot.ir",
-      "server_port": 50118,
-      "uuid": "93ee032f-b67f-4cac-a239-da1295aec528",
-      "network": "tcp",
-      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
