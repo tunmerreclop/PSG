@@ -72,11 +72,10 @@
         "🇽🇽 XX | VLESS | @f_nirevil #2 [fast]",
         "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
-        "🇮🇷 IR | VLESS | @red2ray #1 [fast]",
+        "🇺🇸 US | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @jiedianf #1 [fast]",
         "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
         "🇽🇽 XX | VLESS | @selinc #1 [fast]",
-        "🇽🇽 XX | VLESS | @selinc #2 [fast]",
         "🇽🇽 XX | VLESS | @prooxyk #1 [fast]",
         "🇽🇽 XX | VLESS | @iranvipnet #1 [fast]",
         "🇺🇸 US | VLESS | @iranvipnet #1 [fast]",
@@ -90,7 +89,7 @@
         "🇽🇽 XX | VLESS | @proxy_confiingir #1 [fast]",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2 [fast]",
         "🇺🇸 US | VLESS | @mrvpn1403 #1 [fast]",
-        "🇺🇸 US | VLESS | @mrvpn1403 #2 [slow]",
+        "🇺🇸 US | VLESS | @mrvpn1403 #2 [fast]",
         "🇽🇽 XX | VLESS | @freev2flyng #2 [fast]",
         "🇽🇽 XX | VLESS | @kopltall_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @kopltall_vpn #2 [fast]",
@@ -128,11 +127,10 @@
         "🇽🇽 XX | VLESS | @f_nirevil #2 [fast]",
         "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
-        "🇮🇷 IR | VLESS | @red2ray #1 [fast]",
+        "🇺🇸 US | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @jiedianf #1 [fast]",
         "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
         "🇽🇽 XX | VLESS | @selinc #1 [fast]",
-        "🇽🇽 XX | VLESS | @selinc #2 [fast]",
         "🇽🇽 XX | VLESS | @prooxyk #1 [fast]",
         "🇽🇽 XX | VLESS | @iranvipnet #1 [fast]",
         "🇺🇸 US | VLESS | @iranvipnet #1 [fast]",
@@ -146,7 +144,7 @@
         "🇽🇽 XX | VLESS | @proxy_confiingir #1 [fast]",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2 [fast]",
         "🇺🇸 US | VLESS | @mrvpn1403 #1 [fast]",
-        "🇺🇸 US | VLESS | @mrvpn1403 #2 [slow]",
+        "🇺🇸 US | VLESS | @mrvpn1403 #2 [fast]",
         "🇽🇽 XX | VLESS | @freev2flyng #2 [fast]",
         "🇽🇽 XX | VLESS | @kopltall_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @kopltall_vpn #2 [fast]",
@@ -507,14 +505,15 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 IR | VLESS | @red2ray #1 [fast]",
-      "server": "v5p.sabermusic.ir",
-      "server_port": 443,
-      "uuid": "eaeb9077-b90c-45e3-a52c-da847f5f86d7",
-      "network": "tcp",
+      "tag": "🇺🇸 US | VLESS | @red2ray #1 [fast]",
+      "server": "trolley.proxy.rlwy.net",
+      "server_port": 17116,
+      "uuid": "c9806e98-f664-438c-a239-773b5b5afc8d",
+      "network": "ws",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true
+      "transport": {
+        "type": "ws",
+        "path": "/"
       }
     },
     {
@@ -581,26 +580,6 @@
         "path": "download",
         "headers": {
           "Host": "eco-de.v2shop.xyz"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇽🇽 XX | VLESS | @selinc #2 [fast]",
-      "server": "go.lumen.com",
-      "server_port": 2052,
-      "uuid": "0c5e5c45-b5b9-4b62-b852-d39404c77c26",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "fin.v2shop.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "fin.v2shop.xyz"
         }
       }
     },
@@ -848,7 +827,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @mrvpn1403 #2 [slow]",
+      "tag": "🇺🇸 US | VLESS | @mrvpn1403 #2 [fast]",
       "server": "mtn001.chaghooosazi.shop",
       "server_port": 443,
       "uuid": "bb2af53a-8a2a-4466-bcf4-7e7de11b8381",

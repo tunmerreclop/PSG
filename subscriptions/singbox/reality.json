@@ -66,7 +66,6 @@
         "🇳🇱 NL | VLESS | @mehrosaboran #1 [fast]",
         "🇩🇪 DE | VLESS | @mehrosaboran #1 [fast]",
         "🇿🇦 ZA | VLESS | @mehrosaboran #1 [fast]",
-        "🇩🇪 DE | VLESS | @mehrosaboran #2 [fast]",
         "🇩🇪 DE | VLESS | @prrofile_purple #1 [fast]",
         "🇩🇪 DE | VLESS | @prrofile_purple #2 [fast]",
         "🇩🇪 DE | VLESS | @father_vpn #2 [fast]",
@@ -75,9 +74,11 @@
         "🇳🇱 NL | VLESS | @beshkan #1 [fast]",
         "🇱🇻 LV | VLESS | @free4allvpn #1 [fast]",
         "🇺🇸 US | VLESS | @filtershekan_channel #1 [fast]",
-        "🇸🇪 SE | VLESS | @mtproxy22_v2ray #1 [fast]",
+        "🇲🇩 MD | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇵🇱 PL | VLESS | @outline_ir #1 [fast]",
-        "🇺🇸 US | VLESS | @netfreedom0 #1 [fast]",
+        "🇫🇷 FR | VLESS | @outline_ir #1 [fast]",
+        "🇫🇮 FI | VLESS | @selinc #1 [fast]",
+        "🇧🇷 BR | VLESS | @netfreedom0 #1 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
         "direct"
@@ -104,7 +105,6 @@
         "🇳🇱 NL | VLESS | @mehrosaboran #1 [fast]",
         "🇩🇪 DE | VLESS | @mehrosaboran #1 [fast]",
         "🇿🇦 ZA | VLESS | @mehrosaboran #1 [fast]",
-        "🇩🇪 DE | VLESS | @mehrosaboran #2 [fast]",
         "🇩🇪 DE | VLESS | @prrofile_purple #1 [fast]",
         "🇩🇪 DE | VLESS | @prrofile_purple #2 [fast]",
         "🇩🇪 DE | VLESS | @father_vpn #2 [fast]",
@@ -113,9 +113,11 @@
         "🇳🇱 NL | VLESS | @beshkan #1 [fast]",
         "🇱🇻 LV | VLESS | @free4allvpn #1 [fast]",
         "🇺🇸 US | VLESS | @filtershekan_channel #1 [fast]",
-        "🇸🇪 SE | VLESS | @mtproxy22_v2ray #1 [fast]",
+        "🇲🇩 MD | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇵🇱 PL | VLESS | @outline_ir #1 [fast]",
-        "🇺🇸 US | VLESS | @netfreedom0 #1 [fast]",
+        "🇫🇷 FR | VLESS | @outline_ir #1 [fast]",
+        "🇫🇮 FI | VLESS | @selinc #1 [fast]",
+        "🇧🇷 BR | VLESS | @netfreedom0 #1 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]"
       ],
@@ -456,29 +458,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @mehrosaboran #2 [fast]",
-      "server": "91.99.81.222",
-      "server_port": 443,
-      "uuid": "01c2b190-58df-4fa7-96e8-0e7a3a2148f1",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "amp-api-edge.apps.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "dYsy51W78tzZf26ql7Fh0Db65VlRSjGp6EH9nsAIRgo",
-          "short_id": "16d9cabe"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇩🇪 DE | VLESS | @prrofile_purple #1 [fast]",
       "server": "192.142.12.175",
       "server_port": 443,
@@ -666,24 +645,28 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇪 SE | VLESS | @mtproxy22_v2ray #1 [fast]",
-      "server": "70.34.203.254",
-      "server_port": 32855,
-      "uuid": "8c96a2a4-5fc0-47c9-a2ca-33b179b4acc7",
-      "network": "tcp",
+      "tag": "🇲🇩 MD | VLESS | @mtproxy22_v2ray #1 [fast]",
+      "server": "89.35.14.32",
+      "server_port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "network": "grpc",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "amp-api-edge.apps.apple.com",
+        "server_name": "md3.univesalsrv.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10",
-          "short_id": "deb7a9e5a6e1d41a"
+          "public_key": "q38CddDj2g-XNDc0uW1m6S6b8iGY_Bne2RwX7C_FYCQ",
+          "short_id": "9a72d40f1ff882b3"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "stats.v2.PushService"
       }
     },
     {
@@ -710,24 +693,68 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @netfreedom0 #1 [fast]",
-      "server": "77.110.115.95",
-      "server_port": 40443,
-      "uuid": "641baa2f-6f74-4ecf-b948-032d19ba0142",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
+      "tag": "🇫🇷 FR | VLESS | @outline_ir #1 [fast]",
+      "server": "213.130.137.150",
+      "server_port": 443,
+      "uuid": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
+      "network": "xhttp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "deepl.com",
+        "server_name": "panel.freesavesafe.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "EbXSjwJKAI1cmU2TK3af62qS2k58x8Rnct1525c0m1I",
-          "short_id": "e5f60718293a4b5c"
+          "public_key": "BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8",
+          "short_id": "812609fa663c57fb"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 FI | VLESS | @selinc #1 [fast]",
+      "server": "31.76.80.69",
+      "server_port": 2083,
+      "uuid": "8975546a-375c-4966-8064-19fc0f66f30a",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.amd.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "zq3gOJkXi6laNuxMohL3lr-wFOKi4Z9oG7QuMMiTDAk",
+          "short_id": "29b21343ab4d"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇷 BR | VLESS | @netfreedom0 #1 [fast]",
+      "server": "23.251.55.216",
+      "server_port": 443,
+      "uuid": "c396fa08-e07a-459b-b894-389456fd6a82",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.amazon.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "m89wjPa2LxODyi8U5pRVI4E1fwVawIaftC3fLY0ZLw4",
+          "short_id": "9ea177c3c147119b"
         }
       }
     },
