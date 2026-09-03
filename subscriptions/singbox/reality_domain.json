@@ -58,6 +58,8 @@
         "🇳🇱 NL | VLESS | @orange_vpns #1 [fast]",
         "🇪🇸 ES | VLESS | @prrofile_purple #1 [fast]",
         "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
+        "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
+        "🇺🇸 US | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
         "direct"
       ],
@@ -75,6 +77,8 @@
         "🇳🇱 NL | VLESS | @orange_vpns #1 [fast]",
         "🇪🇸 ES | VLESS | @prrofile_purple #1 [fast]",
         "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
+        "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
+        "🇺🇸 US | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇩🇪 DE | VLESS | @outline_ir #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
@@ -230,6 +234,51 @@
           "enabled": true,
           "public_key": "8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU",
           "short_id": "88d9dc52ef39c8bd"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
+      "server": "de2.cnyvpn.com",
+      "server_port": 2096,
+      "uuid": "60e2a548-96aa-4850-a279-1edab743c39b",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "conrad.de",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pVUUDlLKPprJgV_ZcehzuhOFmw44Gk1DlRsny1zyxCI",
+          "short_id": "e3e76808b9fcd591"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @mtproxy22_v2ray #1 [fast]",
+      "server": "nddjsiowowooeoeieijd.vahidzhv.ir",
+      "server_port": 52970,
+      "uuid": "5ac40f9b-2c41-4173-8589-4a69d0914390",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "amp-api-edge.apps.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "GUFegdYriD2BtuhNH9d_rVaR_bFxExagRB_rB09zMAY",
+          "short_id": "ea09ec0ab22a1d24"
         }
       }
     },

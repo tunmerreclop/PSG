@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgRkk=
+//profile-title: base64:UFNHIHwgQUw=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://telegram.me/yebekhe
@@ -50,8 +50,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇫🇮 FI | VLESS | @selinc #1 [fast]",
-        "🇫🇮 FI | VLESS | @NamiraConfigs #1 [fast]",
+        "🇦🇱 AL | VLESS | @free1_vpn #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -60,8 +59,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @selinc #1 [fast]",
-        "🇫🇮 FI | VLESS | @NamiraConfigs #1 [fast]"
+        "🇦🇱 AL | VLESS | @free1_vpn #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -70,34 +68,26 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 FI | VLESS | @selinc #1 [fast]",
-      "server": "31.76.80.69",
-      "server_port": 2083,
-      "uuid": "8975546a-375c-4966-8064-19fc0f66f30a",
-      "network": "xhttp",
+      "tag": "🇦🇱 AL | VLESS | @free1_vpn #1 [fast]",
+      "server": "45.82.13.150",
+      "server_port": 8443,
+      "uuid": "51231507-67c3-4141-ab08-a69eb121c716",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "www.amd.com",
+        "server_name": "tradingview.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "zq3gOJkXi6laNuxMohL3lr-wFOKi4Z9oG7QuMMiTDAk",
-          "short_id": "29b21343ab4d"
+          "public_key": "B0S7A-ceRt0c3aRqbeQG69FVSkK-si6NWLBEM_QuC3U",
+          "short_id": "1688"
         }
       }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 FI | VLESS | @NamiraConfigs #1 [fast]",
-      "server": "81.27.110.79",
-      "server_port": 8080,
-      "uuid": "cde8e374-bf71-4a1f-9386-db050bc46190",
-      "network": "tcp",
-      "packet_encoding": "xudp"
     },
     {
       "type": "direct",
