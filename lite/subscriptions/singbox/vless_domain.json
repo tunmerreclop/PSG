@@ -71,9 +71,9 @@
         "🇽🇽 XX | VLESS | @f_nirevil #2 [fast]",
         "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
+        "🇺🇸 US | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇺🇸 US | VLESS | @red2ray #1 [fast]",
-        "🇽🇽 XX | VLESS | @jiedianf #1 [fast]",
-        "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
+        "🇽🇽 XX | VLESS | @jiedianf #1 [slow]",
         "🇽🇽 XX | VLESS | @selinc #1 [fast]",
         "🇽🇽 XX | VLESS | @prooxyk #1 [fast]",
         "🇽🇽 XX | VLESS | @iranvipnet #1 [fast]",
@@ -125,9 +125,9 @@
         "🇽🇽 XX | VLESS | @f_nirevil #2 [fast]",
         "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
+        "🇺🇸 US | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇺🇸 US | VLESS | @red2ray #1 [fast]",
-        "🇽🇽 XX | VLESS | @jiedianf #1 [fast]",
-        "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
+        "🇽🇽 XX | VLESS | @jiedianf #1 [slow]",
         "🇽🇽 XX | VLESS | @selinc #1 [fast]",
         "🇽🇽 XX | VLESS | @prooxyk #1 [fast]",
         "🇽🇽 XX | VLESS | @iranvipnet #1 [fast]",
@@ -474,16 +474,56 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @red2ray #1 [fast]",
-      "server": "zmaoz.faculty.ucdavis.edu",
-      "server_port": 80,
-      "uuid": "caf0d393-101a-4ac6-81e4-172fd8f87f5b",
-      "network": "xhttp",
-      "packet_encoding": "xudp"
+      "tag": "🇺🇸 US | VLESS | @mtproxy22_v2ray #1 [fast]",
+      "server": "nddjsiowowooeoeieijd.vahidzhv.ir",
+      "server_port": 52970,
+      "uuid": "5ac40f9b-2c41-4173-8589-4a69d0914390",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "amp-api-edge.apps.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "GUFegdYriD2BtuhNH9d_rVaR_bFxExagRB_rB09zMAY",
+          "short_id": "ea09ec0ab22a1d24"
+        }
+      }
     },
     {
       "type": "vless",
-      "tag": "🇽🇽 XX | VLESS | @jiedianf #1 [fast]",
+      "tag": "🇺🇸 US | VLESS | @red2ray #1 [fast]",
+      "server": "minimize-evenness.cdn-content.com",
+      "server_port": 443,
+      "uuid": "e836302b-2ab2-4286-b584-c1dcf2c2e6a0",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "minimize-evenness.cdn-content.com",
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {
+          "Host": "minimize-evenness.cdn-content.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇽🇽 XX | VLESS | @jiedianf #1 [slow]",
       "server": "wasmer-earth.jzy88.top",
       "server_port": 443,
       "uuid": "60156344-dbc3-4614-8177-fd337539a473",
@@ -502,29 +542,6 @@
         "path": "/60156344",
         "headers": {
           "Host": "wasmer-earth.jzy88.top"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
-      "server": "de.alertyagency.com",
-      "server_port": 443,
-      "uuid": "a704443d-655e-4d9f-8ce6-12eeb17a9a08",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "api-maps.yandex.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "wDJibB6Rd20xkiSeIKLLo60DsKqB3il6gtXlpYxITj4",
-          "short_id": "977aa6df"
         }
       }
     },

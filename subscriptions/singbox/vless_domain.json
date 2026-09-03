@@ -88,11 +88,12 @@
         "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #6 [fast]",
+        "🇺🇸 US | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇺🇸 US | VLESS | @red2ray #1 [fast]",
-        "🇺🇸 US | VLESS | @red2ray #3 [fast]",
-        "🇺🇸 US | VLESS | @red2ray #4 [fast]",
-        "🇽🇽 XX | VLESS | @jiedianf #1 [fast]",
-        "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
+        "🇪🇪 EE | VLESS | @red2ray #1 [fast]",
+        "🇧🇬 BG | VLESS | @red2ray #1 [fast]",
+        "🇽🇽 XX | VLESS | @jiedianf #1 [slow]",
+        "🇺🇸 US | VLESS | @jiedianf #2 [fast]",
         "🇽🇽 XX | VLESS | @mester_v2ray #6 [fast]",
         "🇽🇽 XX | VLESS | @selinc #1 [fast]",
         "🇽🇽 XX | VLESS | @selinc #2 [fast]",
@@ -186,11 +187,12 @@
         "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #6 [fast]",
+        "🇺🇸 US | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇺🇸 US | VLESS | @red2ray #1 [fast]",
-        "🇺🇸 US | VLESS | @red2ray #3 [fast]",
-        "🇺🇸 US | VLESS | @red2ray #4 [fast]",
-        "🇽🇽 XX | VLESS | @jiedianf #1 [fast]",
-        "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
+        "🇪🇪 EE | VLESS | @red2ray #1 [fast]",
+        "🇧🇬 BG | VLESS | @red2ray #1 [fast]",
+        "🇽🇽 XX | VLESS | @jiedianf #1 [slow]",
+        "🇺🇸 US | VLESS | @jiedianf #2 [fast]",
         "🇽🇽 XX | VLESS | @mester_v2ray #6 [fast]",
         "🇽🇽 XX | VLESS | @selinc #1 [fast]",
         "🇽🇽 XX | VLESS | @selinc #2 [fast]",
@@ -808,43 +810,29 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @red2ray #1 [fast]",
-      "server": "zmaoz.faculty.ucdavis.edu",
-      "server_port": 80,
-      "uuid": "caf0d393-101a-4ac6-81e4-172fd8f87f5b",
-      "network": "xhttp",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @red2ray #3 [fast]",
-      "server": "k2.cloud--vpn.site",
-      "server_port": 443,
-      "uuid": "d60e2537-13e8-41db-bdad-cd5c054a0ec7",
-      "network": "ws",
+      "tag": "🇺🇸 US | VLESS | @mtproxy22_v2ray #1 [fast]",
+      "server": "nddjsiowowooeoeieijd.vahidzhv.ir",
+      "server_port": 52970,
+      "uuid": "5ac40f9b-2c41-4173-8589-4a69d0914390",
+      "network": "tcp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "ssl.fastly.com",
-        "alpn": [
-          "h2"
-        ],
+        "server_name": "amp-api-edge.apps.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "c12.com"
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "GUFegdYriD2BtuhNH9d_rVaR_bFxExagRB_rB09zMAY",
+          "short_id": "ea09ec0ab22a1d24"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @red2ray #4 [fast]",
+      "tag": "🇺🇸 US | VLESS | @red2ray #1 [fast]",
       "server": "minimize-evenness.cdn-content.com",
       "server_port": 443,
       "uuid": "e836302b-2ab2-4286-b584-c1dcf2c2e6a0",
@@ -871,7 +859,25 @@
     },
     {
       "type": "vless",
-      "tag": "🇽🇽 XX | VLESS | @jiedianf #1 [fast]",
+      "tag": "🇪🇪 EE | VLESS | @red2ray #1 [fast]",
+      "server": "s---t---o.cd2-ger1.ir",
+      "server_port": 2087,
+      "uuid": "2b9581e5-dc45-4ed6-90b2-6ec817f7dab5",
+      "network": "tcp",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇬 BG | VLESS | @red2ray #1 [fast]",
+      "server": "b---u----l.cd2-ger1.ir",
+      "server_port": 2087,
+      "uuid": "2b9581e5-dc45-4ed6-90b2-6ec817f7dab5",
+      "network": "tcp",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇽🇽 XX | VLESS | @jiedianf #1 [slow]",
       "server": "wasmer-earth.jzy88.top",
       "server_port": 443,
       "uuid": "60156344-dbc3-4614-8177-fd337539a473",
@@ -895,24 +901,21 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
-      "server": "de.alertyagency.com",
-      "server_port": 443,
-      "uuid": "a704443d-655e-4d9f-8ce6-12eeb17a9a08",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
+      "tag": "🇺🇸 US | VLESS | @jiedianf #2 [fast]",
+      "server": "www.true.th",
+      "server_port": 80,
+      "uuid": "ff485c50-b364-4b4f-90be-ea576b949dd3",
+      "network": "ws",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "api-maps.yandex.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "wDJibB6Rd20xkiSeIKLLo60DsKqB3il6gtXlpYxITj4",
-          "short_id": "977aa6df"
+        "server_name": "d3gxy6d0a9fs18.cloudfront.net"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/fnetvpn2026",
+        "headers": {
+          "Host": "d3gxy6d0a9fs18.cloudfront.net"
         }
       }
     },
@@ -1071,7 +1074,7 @@
     {
       "type": "vless",
       "tag": "🇹🇷 TR | VLESS | @NamiraConfigs #1 [fast]",
-      "server": "turk.mamadhpbot.ir",
+      "server": "germanndnew.mamadhpbot.ir",
       "server_port": 50118,
       "uuid": "93ee032f-b67f-4cac-a239-da1295aec528",
       "network": "tcp",
