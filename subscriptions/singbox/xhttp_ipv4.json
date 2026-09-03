@@ -57,6 +57,7 @@
         "🇷🇺 RU | VLESS | @mehrosaboran #1 [fast]",
         "🇸🇨 SC | VLESS | @ai_duet #1 [fast]",
         "🇺🇸 US | VLESS | @free4allvpn #1 [fast]",
+        "🇮🇷 IR | VLESS | @red2ray #1 [medium]",
         "🇽🇽 XX | VLESS | @proxie #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #2 [fast]",
         "🇽🇽 XX | VLESS | @proxie #3 [fast]",
@@ -84,6 +85,7 @@
         "🇷🇺 RU | VLESS | @mehrosaboran #1 [fast]",
         "🇸🇨 SC | VLESS | @ai_duet #1 [fast]",
         "🇺🇸 US | VLESS | @free4allvpn #1 [fast]",
+        "🇮🇷 IR | VLESS | @red2ray #1 [medium]",
         "🇽🇽 XX | VLESS | @proxie #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #2 [fast]",
         "🇽🇽 XX | VLESS | @proxie #3 [fast]",
@@ -214,6 +216,27 @@
       "uuid": "02d87d00-c769-48d8-91cb-bd05e2f62790",
       "network": "xhttp",
       "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇷 IR | VLESS | @red2ray #1 [medium]",
+      "server": "185.215.228.254",
+      "server_port": 2086,
+      "uuid": "675ee872-adb2-4c66-8358-bd360259311f",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "england1.navigatoer.ir",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "type": "vless",

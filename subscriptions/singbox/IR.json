@@ -57,6 +57,8 @@
         "🇮🇷 IR | VLESS | @lax_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
         "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
+        "🇮🇷 IR | SS | @red2ray #1 [medium]",
+        "🇮🇷 IR | VLESS | @red2ray #1 [medium]",
         "🇮🇷 IR | SS | @sobi_vpn #1 [fast]",
         "🇮🇷 IR | VMESS | @khoneproxy #1 [fast]",
         "🇮🇷 IR | VLESS | @nn_vpn #1 [fast]",
@@ -77,6 +79,8 @@
         "🇮🇷 IR | VLESS | @lax_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
         "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
+        "🇮🇷 IR | SS | @red2ray #1 [medium]",
+        "🇮🇷 IR | VLESS | @red2ray #1 [medium]",
         "🇮🇷 IR | SS | @sobi_vpn #1 [fast]",
         "🇮🇷 IR | VMESS | @khoneproxy #1 [fast]",
         "🇮🇷 IR | VLESS | @nn_vpn #1 [fast]",
@@ -192,6 +196,39 @@
         "path": "/",
         "headers": {
           "Host": "biA.ALlhub.LTD"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇮🇷 IR | SS | @red2ray #1 [medium]",
+      "server": "server.7.x2link.online",
+      "server_port": 1001,
+      "method": "2022-blake3-aes-256-gcm",
+      "password": "GG2dQrqRlw0VXo/jFYP+E0vBYD+2ZF2Lps7miGdU6WY=:pgXrLxLucqNSSrFwQDwHKoPMnQ3GemOhK3kpsWgREGw=",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇷 IR | VLESS | @red2ray #1 [medium]",
+      "server": "185.215.228.254",
+      "server_port": 2086,
+      "uuid": "675ee872-adb2-4c66-8358-bd360259311f",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "england1.navigatoer.ir",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
