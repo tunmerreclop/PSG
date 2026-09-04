@@ -52,6 +52,7 @@
         "auto",
         "🇷🇺 RU | VLESS | @orange_vpns #1 [fast]",
         "🇷🇺 RU | VLESS | @mehrosaboran #1 [fast]",
+        "🇷🇺 RU | SS | @red2ray #1 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -61,7 +62,8 @@
       "tag": "auto",
       "outbounds": [
         "🇷🇺 RU | VLESS | @orange_vpns #1 [fast]",
-        "🇷🇺 RU | VLESS | @mehrosaboran #1 [fast]"
+        "🇷🇺 RU | VLESS | @mehrosaboran #1 [fast]",
+        "🇷🇺 RU | SS | @red2ray #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -111,6 +113,18 @@
           "public_key": "QSAIpsE696lDqkumfo7dyBt92XzrVDPTF6KogbeKhGc",
           "short_id": "2c9431dc7a306018"
         }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇷🇺 RU | SS | @red2ray #1 [medium]",
+      "server": "130.49.189.158",
+      "server_port": 43558,
+      "method": "chacha20-ietf-poly1305",
+      "password": "nEefHwLLpCcvZliayaa1+t/VHJgVt8nP7TxiPOJM6IE=",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
       }
     },
     {
