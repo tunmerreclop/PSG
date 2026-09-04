@@ -51,6 +51,7 @@
       "outbounds": [
         "auto",
         "🇨🇦 CA | VLESS | @novinology #1 [fast]",
+        "🇨🇦 CA | VLESS | @hope_net #1 [fast]",
         "🇨🇦 CA | VLESS | @jokerv2ray #1 [fast]",
         "🇨🇦 CA | VLESS | @jokerv2ray #2 [fast]",
         "🇨🇦 CA | VLESS | @jokerv2ray #3 [fast]",
@@ -67,6 +68,7 @@
       "tag": "auto",
       "outbounds": [
         "🇨🇦 CA | VLESS | @novinology #1 [fast]",
+        "🇨🇦 CA | VLESS | @hope_net #1 [fast]",
         "🇨🇦 CA | VLESS | @jokerv2ray #1 [fast]",
         "🇨🇦 CA | VLESS | @jokerv2ray #2 [fast]",
         "🇨🇦 CA | VLESS | @jokerv2ray #3 [fast]",
@@ -93,6 +95,26 @@
         "path": "/?ed=2048",
         "headers": {
           "Host": "de1.vlessx.xyz"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 CA | VLESS | @hope_net #1 [fast]",
+      "server": "104.31.16.65",
+      "server_port": 2053,
+      "uuid": "d73ac457-4c02-47ff-ae00-4e909892a462",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "tm.RxV2ray.cfd"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tm.RxV2ray.cfd"
         }
       }
     },

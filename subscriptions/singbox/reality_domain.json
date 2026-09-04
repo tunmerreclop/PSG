@@ -56,7 +56,8 @@
         "🇷🇺 RU | VLESS | @orange_vpns #1 [fast]",
         "🇪🇸 ES | VLESS | @prrofile_purple #1 [fast]",
         "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
-        "🇧🇬 BG | VLESS | @free1_vpn #1 [medium]",
+        "🇧🇬 BG | VLESS | @free1_vpn #1 [fast]",
+        "🇷🇸 RS | VLESS | @free1_vpn #2 [fast]",
         "🇩🇪 DE | VLESS | @bored_vpn #1 [fast]",
         "🇫🇷 FR | VLESS | @red2ray #1 [fast]",
         "🇹🇷 TR | VLESS | @red2ray #1 [fast]",
@@ -74,7 +75,8 @@
         "🇷🇺 RU | VLESS | @orange_vpns #1 [fast]",
         "🇪🇸 ES | VLESS | @prrofile_purple #1 [fast]",
         "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
-        "🇧🇬 BG | VLESS | @free1_vpn #1 [medium]",
+        "🇧🇬 BG | VLESS | @free1_vpn #1 [fast]",
+        "🇷🇸 RS | VLESS | @free1_vpn #2 [fast]",
         "🇩🇪 DE | VLESS | @bored_vpn #1 [fast]",
         "🇫🇷 FR | VLESS | @red2ray #1 [fast]",
         "🇹🇷 TR | VLESS | @red2ray #1 [fast]"
@@ -193,7 +195,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇧🇬 BG | VLESS | @free1_vpn #1 [medium]",
+      "tag": "🇧🇬 BG | VLESS | @free1_vpn #1 [fast]",
       "server": "bg4.univesalsrv.com",
       "server_port": 443,
       "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
@@ -214,6 +216,32 @@
       "transport": {
         "type": "grpc",
         "service_name": "cloud.v1.RelayService"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇸 RS | VLESS | @free1_vpn #2 [fast]",
+      "server": "rs1.univesalsrv.com",
+      "server_port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "network": "grpc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "rs1.univesalsrv.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "upIzyaSbVz2ZK6KfGtXmPl_-sCwn8XLDyFDH5CsL9iY",
+          "short_id": "ed0cd5cc2e26e6e7"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "node.v2.ObjectService"
       }
     },
     {
