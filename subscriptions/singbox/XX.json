@@ -103,6 +103,7 @@
         "🇽🇽 XX | VLESS | @hope_net #2 [fast]",
         "🇽🇽 XX | VLESS | @hope_net #3 [fast]",
         "🇽🇽 XX | VLESS | @hope_net #4 [fast]",
+        "🇽🇽 XX | VLESS | @hope_net #5 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #1 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #2 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #3 [fast]",
@@ -127,7 +128,6 @@
         "🇽🇽 XX | VLESS | @selinc #4 [fast]",
         "🇽🇽 XX | VLESS | @selinc #5 [fast]",
         "🇽🇽 XX | VLESS | @NamiraConfigs #1 [fast]",
-        "🇽🇽 XX | VLESS | @NamiraConfigs #2 [fast]",
         "🇽🇽 XX | VLESS | @prooxyk #1 [fast]",
         "🇽🇽 XX | VLESS | @customizev2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @customizev2ray #2 [fast]",
@@ -254,6 +254,7 @@
         "🇽🇽 XX | VLESS | @hope_net #2 [fast]",
         "🇽🇽 XX | VLESS | @hope_net #3 [fast]",
         "🇽🇽 XX | VLESS | @hope_net #4 [fast]",
+        "🇽🇽 XX | VLESS | @hope_net #5 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #1 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #2 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #3 [fast]",
@@ -278,7 +279,6 @@
         "🇽🇽 XX | VLESS | @selinc #4 [fast]",
         "🇽🇽 XX | VLESS | @selinc #5 [fast]",
         "🇽🇽 XX | VLESS | @NamiraConfigs #1 [fast]",
-        "🇽🇽 XX | VLESS | @NamiraConfigs #2 [fast]",
         "🇽🇽 XX | VLESS | @prooxyk #1 [fast]",
         "🇽🇽 XX | VLESS | @customizev2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @customizev2ray #2 [fast]",
@@ -1224,34 +1224,23 @@
     {
       "type": "vless",
       "tag": "🇽🇽 XX | VLESS | @hope_net #1 [fast]",
-      "server": "104.21.66.44",
-      "server_port": 2096,
-      "uuid": "95ca2c9b-d135-48cf-94d1-6c710f062188",
+      "server": "104.16.218.146",
+      "server_port": 80,
+      "uuid": "435bda4c-fe5e-42c9-a3ad-15334943b38a",
       "network": "ws",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "crolinde.raidenshogun.cloudns.org",
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "randomized"
-        }
-      },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "crolinde.raidenshogun.cloudns.org"
+          "Host": "us3.rtacg.com"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇽🇽 XX | VLESS | @hope_net #2 [fast]",
-      "server": "104.17.101.184",
+      "server": "104.17.121.10",
       "server_port": 80,
       "uuid": "435bda4c-fe5e-42c9-a3ad-15334943b38a",
       "network": "ws",
@@ -1267,7 +1256,7 @@
     {
       "type": "vless",
       "tag": "🇽🇽 XX | VLESS | @hope_net #3 [fast]",
-      "server": "104.17.71.250",
+      "server": "104.17.152.164",
       "server_port": 80,
       "uuid": "435bda4c-fe5e-42c9-a3ad-15334943b38a",
       "network": "ws",
@@ -1283,7 +1272,23 @@
     {
       "type": "vless",
       "tag": "🇽🇽 XX | VLESS | @hope_net #4 [fast]",
-      "server": "104.18.151.158",
+      "server": "104.17.16.191",
+      "server_port": 80,
+      "uuid": "435bda4c-fe5e-42c9-a3ad-15334943b38a",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "us3.rtacg.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇽🇽 XX | VLESS | @hope_net #5 [fast]",
+      "server": "104.16.253.222",
       "server_port": 80,
       "uuid": "435bda4c-fe5e-42c9-a3ad-15334943b38a",
       "network": "ws",
@@ -1818,22 +1823,6 @@
         "path": "/hero",
         "headers": {
           "Host": "s.dpiccolo.ir"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇽🇽 XX | VLESS | @NamiraConfigs #2 [fast]",
-      "server": "172.64.150.28",
-      "server_port": 2082,
-      "uuid": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/fp",
-        "headers": {
-          "Host": "hhlfy.twiladaphne.ndjp.net"
         }
       }
     },
