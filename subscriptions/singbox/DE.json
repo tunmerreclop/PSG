@@ -56,18 +56,17 @@
         "🇩🇪 DE | VLESS | @father_vpn #2 [fast]",
         "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
         "🇩🇪 DE | VLESS | @outlinereleasedkey #2 [fast]",
-        "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
         "🇩🇪 DE | VLESS | @netmellianti #1 [fast]",
         "🇩🇪 DE | VLESS | @bored_vpn #1 [fast]",
         "🇩🇪 DE | VLESS | @bored_vpn #2 [fast]",
         "🇩🇪 DE | VLESS | @mpproxy #1 [fast]",
+        "🇩🇪 DE | VMESS | @beshkan #1 [fast]",
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1 [fast]",
-        "🇩🇪 DE | VLESS | @mtproxy22_v2ray #2 [fast]",
-        "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
+        "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
         "🇩🇪 DE | VLESS | @minovpnch #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #2 [fast]",
-        "🇩🇪 DE | VMESS | @khoneproxy #3 [fast]",
+        "🇩🇪 DE | VMESS | @khoneproxy #3 [medium]",
         "🇩🇪 DE | VMESS | @magickey_shop #1 [medium]",
         "direct"
       ],
@@ -83,18 +82,17 @@
         "🇩🇪 DE | VLESS | @father_vpn #2 [fast]",
         "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
         "🇩🇪 DE | VLESS | @outlinereleasedkey #2 [fast]",
-        "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
         "🇩🇪 DE | VLESS | @netmellianti #1 [fast]",
         "🇩🇪 DE | VLESS | @bored_vpn #1 [fast]",
         "🇩🇪 DE | VLESS | @bored_vpn #2 [fast]",
         "🇩🇪 DE | VLESS | @mpproxy #1 [fast]",
+        "🇩🇪 DE | VMESS | @beshkan #1 [fast]",
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1 [fast]",
-        "🇩🇪 DE | VLESS | @mtproxy22_v2ray #2 [fast]",
-        "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
+        "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
         "🇩🇪 DE | VLESS | @minovpnch #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #2 [fast]",
-        "🇩🇪 DE | VMESS | @khoneproxy #3 [fast]",
+        "🇩🇪 DE | VMESS | @khoneproxy #3 [medium]",
         "🇩🇪 DE | VMESS | @magickey_shop #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
@@ -234,29 +232,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
-      "server": "185.194.177.120",
-      "server_port": 2096,
-      "uuid": "60e2a548-96aa-4850-a279-1edab743c39b",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "conrad.de",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "pVUUDlLKPprJgV_ZcehzuhOFmw44Gk1DlRsny1zyxCI",
-          "short_id": "e3e76808b9fcd591"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇩🇪 DE | VLESS | @netmellianti #1 [fast]",
       "server": "datisde2.datgame.ir",
       "server_port": 30305,
@@ -329,30 +304,21 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1 [fast]",
-      "server": "almaa.orangesms.ir",
-      "server_port": 1824,
-      "uuid": "c66d3204-7046-4fe3-84e1-22a815fdc1a6",
+      "type": "vmess",
+      "tag": "🇩🇪 DE | VMESS | @beshkan #1 [fast]",
+      "server": "82.198.246.37",
+      "server_port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
       "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "amp-api-edge.apps.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JIv_D-Lpo1cosiCUgu-qzGSJwOCGciyXSZ8ucNn6aBo",
-          "short_id": "8390ee7a5996648b"
-        }
-      }
+      "packet_encoding": ""
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @mtproxy22_v2ray #2 [fast]",
+      "tag": "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1 [fast]",
       "server": "shop.jarorobo.ir",
       "server_port": 8443,
       "uuid": "e62396b2-0f6b-4029-ae2c-d7c142081757",
@@ -374,23 +340,24 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
-      "server": "rgb.awextr.ir",
-      "server_port": 2082,
-      "uuid": "b6606cb0-e15d-4813-94af-985028c4b9f3",
-      "network": "xhttp",
+      "tag": "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
+      "server": "207.241.172.254",
+      "server_port": 4777,
+      "uuid": "142fe18b-4073-47b9-8c3a-1b7515611991",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "www.zelnora.ir",
+        "server_name": "amp-api-edge.apps.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "BXPU9XO_TPK-mgva2dROYKB7b3LwtBEOVcqbKJLB7HM",
-          "short_id": "08"
+          "public_key": "8ZL2JgDP9gHkgGTbGF-uK8omfWkFplZnCH0N2_U18Uo",
+          "short_id": "01115788253bc845"
         }
       }
     },
@@ -450,7 +417,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇩🇪 DE | VMESS | @khoneproxy #3 [fast]",
+      "tag": "🇩🇪 DE | VMESS | @khoneproxy #3 [medium]",
       "server": "167.235.205.182",
       "server_port": 443,
       "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147",

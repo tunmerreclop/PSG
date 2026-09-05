@@ -51,7 +51,6 @@
       "outbounds": [
         "auto",
         "🇵🇱 PL | HY2 | @outlinereleasedkey #1 [fast]",
-        "🇵🇱 PL | SS | @outline_ir #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -60,8 +59,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇱 PL | HY2 | @outlinereleasedkey #1 [fast]",
-        "🇵🇱 PL | SS | @outline_ir #1 [fast]"
+        "🇵🇱 PL | HY2 | @outlinereleasedkey #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -78,18 +76,6 @@
         "enabled": true,
         "server_name": "admin.wwwinternetvideo.click",
         "insecure": true
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 PL | SS | @outline_ir #1 [fast]",
-      "server": "194.61.121.93",
-      "server_port": 7538,
-      "method": "chacha20-ietf-poly1305",
-      "password": "U9YAoqBgg5VyGBc6vQv1sN",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
       }
     },
     {
