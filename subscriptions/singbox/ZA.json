@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVFc=
+//profile-title: base64:UFNHIHwgWkE=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://telegram.me/yebekhe
@@ -50,8 +50,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇼 TW | VMESS | @red2ray #1 [medium]",
-        "🇹🇼 TW | SS | @outline_ir #1 [fast]",
+        "🇿🇦 ZA | SS | @beshkan #1 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -60,8 +59,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇼 TW | VMESS | @red2ray #1 [medium]",
-        "🇹🇼 TW | SS | @outline_ir #1 [fast]"
+        "🇿🇦 ZA | SS | @beshkan #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -69,25 +67,12 @@
       "idle_timeout": "30m"
     },
     {
-      "type": "vmess",
-      "tag": "🇹🇼 TW | VMESS | @red2ray #1 [medium]",
-      "server": "165.154.195.38",
-      "server_port": 35034,
-      "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "network": "tcp",
-      "packet_encoding": ""
-    },
-    {
       "type": "shadowsocks",
-      "tag": "🇹🇼 TW | SS | @outline_ir #1 [fast]",
-      "server": "r3mrcg001286ek2.cybervena.com",
-      "server_port": 50099,
+      "tag": "🇿🇦 ZA | SS | @beshkan #1 [medium]",
+      "server": "102.37.156.224",
+      "server_port": 443,
       "method": "chacha20-ietf-poly1305",
-      "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4",
+      "password": "aduB9HGxQHjA2SBMRjkHX6",
       "network": "tcp",
       "tls": {
         "enabled": true
