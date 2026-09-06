@@ -50,6 +50,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
+        "🇹🇼 TW | VMESS | @red2ray #1 [medium]",
         "🇹🇼 TW | SS | @outline_ir #1 [fast]",
         "direct"
       ],
@@ -59,12 +60,26 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
+        "🇹🇼 TW | VMESS | @red2ray #1 [medium]",
         "🇹🇼 TW | SS | @outline_ir #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
       "tolerance": 50,
       "idle_timeout": "30m"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇹🇼 TW | VMESS | @red2ray #1 [medium]",
+      "server": "165.154.195.38",
+      "server_port": 35034,
+      "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "network": "tcp",
+      "packet_encoding": ""
     },
     {
       "type": "shadowsocks",
