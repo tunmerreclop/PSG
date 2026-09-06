@@ -53,8 +53,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇫🇷 FR | SS | @outlinereleasedkey #1 [fast]",
         "🇹🇼 TW | SS | @outline_ir #1 [fast]",
-        "🇮🇷 IR | SS | @sobi_vpn #1 [medium]",
+        "🇮🇷 IR | SS | @sobi_vpn #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -66,8 +67,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇫🇷 FR | SS | @outlinereleasedkey #1 [fast]",
         "🇹🇼 TW | SS | @outline_ir #1 [fast]",
-        "🇮🇷 IR | SS | @sobi_vpn #1 [medium]"
+        "🇮🇷 IR | SS | @sobi_vpn #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -115,6 +117,18 @@
     },
     {
       "type": "shadowsocks",
+      "tag": "🇫🇷 FR | SS | @outlinereleasedkey #1 [fast]",
+      "server": "pl140.vpnbook.com",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ytw2awn",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "shadowsocks",
       "tag": "🇹🇼 TW | SS | @outline_ir #1 [fast]",
       "server": "r3mrcg001286ek2.cybervena.com",
       "server_port": 50099,
@@ -127,7 +141,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇮🇷 IR | SS | @sobi_vpn #1 [medium]",
+      "tag": "🇮🇷 IR | SS | @sobi_vpn #1 [fast]",
       "server": "tt.hsrdnr.ir",
       "server_port": 2044,
       "method": "chacha20-ietf-poly1305",
