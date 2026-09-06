@@ -51,6 +51,7 @@
       "outbounds": [
         "auto",
         "🇫🇮 FI | VLESS | @ehsawn8 #1 [fast]",
+        "🇫🇮 FI | VLESS | @outline_ir #1 [fast]",
         "🇫🇮 FI | VLESS | @selinc #1 [fast]",
         "🇫🇮 FI | VLESS | @NamiraConfigs #1 [fast]",
         "direct"
@@ -62,6 +63,7 @@
       "tag": "auto",
       "outbounds": [
         "🇫🇮 FI | VLESS | @ehsawn8 #1 [fast]",
+        "🇫🇮 FI | VLESS | @outline_ir #1 [fast]",
         "🇫🇮 FI | VLESS | @selinc #1 [fast]",
         "🇫🇮 FI | VLESS | @NamiraConfigs #1 [fast]"
       ],
@@ -89,6 +91,22 @@
       "transport": {
         "type": "grpc",
         "service_name": "fi-grpc-test"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 FI | VLESS | @outline_ir #1 [fast]",
+      "server": "65.109.238.140",
+      "server_port": 443,
+      "uuid": "05bfcbaa-cba0-4bce-9103-09fe3f5f0667",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "hel1.nordlinkcloud.com",
+        "alpn": [
+          "h2"
+        ]
       }
     },
     {
