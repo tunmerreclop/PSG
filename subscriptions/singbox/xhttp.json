@@ -55,10 +55,11 @@
         "KingRezaPahlavi",
         "🇽🇽 XX | VLESS | @mehrosaboran #1 [fast]",
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
-        "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
+        "🇩🇪 DE | VLESS | @free1_vpn #1 [medium]",
         "🇳🇱 NL | VLESS | @orange_vpns #1 [fast]",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2 [fast]",
         "🇫🇮 FI | VLESS | @outlinereleasedkey #1 [medium]",
+        "🇫🇮 FI | VLESS | @selinc #1 [medium]",
         "🇸🇨 SC | VLESS | @ai_duet #1 [fast]",
         "🇺🇸 US | VLESS | @free4allvpn #1 [fast]",
         "🇺🇸 US | VLESS | @red2ray #1 [fast]",
@@ -71,7 +72,6 @@
         "🇽🇽 XX | VLESS | @evay_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @evay_vpn #2 [fast]",
         "🇫🇮 FI | VLESS | @outline_ir #1 [medium]",
-        "🇫🇮 FI | VLESS | @selinc #1 [medium]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇺🇸 US | VLESS | @qeshmserver #1 [fast]",
         "direct"
@@ -87,10 +87,11 @@
         "KingRezaPahlavi",
         "🇽🇽 XX | VLESS | @mehrosaboran #1 [fast]",
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
-        "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
+        "🇩🇪 DE | VLESS | @free1_vpn #1 [medium]",
         "🇳🇱 NL | VLESS | @orange_vpns #1 [fast]",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2 [fast]",
         "🇫🇮 FI | VLESS | @outlinereleasedkey #1 [medium]",
+        "🇫🇮 FI | VLESS | @selinc #1 [medium]",
         "🇸🇨 SC | VLESS | @ai_duet #1 [fast]",
         "🇺🇸 US | VLESS | @free4allvpn #1 [fast]",
         "🇺🇸 US | VLESS | @red2ray #1 [fast]",
@@ -103,7 +104,6 @@
         "🇽🇽 XX | VLESS | @evay_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @evay_vpn #2 [fast]",
         "🇫🇮 FI | VLESS | @outline_ir #1 [medium]",
-        "🇫🇮 FI | VLESS | @selinc #1 [medium]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇺🇸 US | VLESS | @qeshmserver #1 [fast]"
       ],
@@ -180,7 +180,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
+      "tag": "🇩🇪 DE | VLESS | @free1_vpn #1 [medium]",
       "server": "front.onlydreams.ir",
       "server_port": 8443,
       "uuid": "2279f738-e427-467f-9cd6-501943cf583c",
@@ -258,6 +258,28 @@
           "enabled": true,
           "public_key": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
           "short_id": "635a76c25a4b1820"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 FI | VLESS | @selinc #1 [medium]",
+      "server": "31.76.80.69",
+      "server_port": 2083,
+      "uuid": "8975546a-375c-4966-8064-19fc0f66f30a",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.amd.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "zq3gOJkXi6laNuxMohL3lr-wFOKi4Z9oG7QuMMiTDAk",
+          "short_id": "29b21343ab4d"
         }
       }
     },
@@ -505,28 +527,6 @@
         "alpn": [
           "h2"
         ]
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 FI | VLESS | @selinc #1 [medium]",
-      "server": "31.76.80.69",
-      "server_port": 2083,
-      "uuid": "8975546a-375c-4966-8064-19fc0f66f30a",
-      "network": "xhttp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.amd.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "zq3gOJkXi6laNuxMohL3lr-wFOKi4Z9oG7QuMMiTDAk",
-          "short_id": "29b21343ab4d"
-        }
       }
     },
     {

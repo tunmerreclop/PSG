@@ -56,6 +56,7 @@
         "🇺🇸 US | VLESS | @mehrosaboran #4 [fast]",
         "🇺🇸 US | VLESS | @ehsawn8 #1 [fast]",
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
+        "🇺🇸 US | SS | @outlinereleasedkey #1 [fast]",
         "🇺🇸 US | VMESS | @freev2rays #1 [fast]",
         "🇺🇸 US | VLESS | @bored_vpn #1 [fast]",
         "🇺🇸 US | VLESS | @bored_vpn #2 [fast]",
@@ -77,7 +78,7 @@
         "🇺🇸 US | VLESS | @iranvipnet #4 [fast]",
         "🇺🇸 US | VLESS | @iranvipnet #5 [fast]",
         "🇺🇸 US | SS | @netfreedom0 #1 [fast]",
-        "🇺🇸 US | HY2 | @netfreedom0 #1 [fast]",
+        "🇺🇸 US | HY2 | @netfreedom0 #1 [medium]",
         "🇺🇸 US | VLESS | @minovpnch #1 [fast]",
         "🇺🇸 US | VLESS | @minovpnch #2 [fast]",
         "🇺🇸 US | VLESS | @garnet_free #1 [fast]",
@@ -111,6 +112,7 @@
         "🇺🇸 US | VLESS | @mehrosaboran #4 [fast]",
         "🇺🇸 US | VLESS | @ehsawn8 #1 [fast]",
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
+        "🇺🇸 US | SS | @outlinereleasedkey #1 [fast]",
         "🇺🇸 US | VMESS | @freev2rays #1 [fast]",
         "🇺🇸 US | VLESS | @bored_vpn #1 [fast]",
         "🇺🇸 US | VLESS | @bored_vpn #2 [fast]",
@@ -132,7 +134,7 @@
         "🇺🇸 US | VLESS | @iranvipnet #4 [fast]",
         "🇺🇸 US | VLESS | @iranvipnet #5 [fast]",
         "🇺🇸 US | SS | @netfreedom0 #1 [fast]",
-        "🇺🇸 US | HY2 | @netfreedom0 #1 [fast]",
+        "🇺🇸 US | HY2 | @netfreedom0 #1 [medium]",
         "🇺🇸 US | VLESS | @minovpnch #1 [fast]",
         "🇺🇸 US | VLESS | @minovpnch #2 [fast]",
         "🇺🇸 US | VLESS | @garnet_free #1 [fast]",
@@ -292,6 +294,18 @@
       "packet_encoding": "xudp"
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 US | SS | @outlinereleasedkey #1 [fast]",
+      "server": "31.76.82.131",
+      "server_port": 34260,
+      "method": "chacha20-ietf-poly1305",
+      "password": "cTAObwg4OWWXkZJQs0ZdgC",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
       "type": "vmess",
       "tag": "🇺🇸 US | VMESS | @freev2rays #1 [fast]",
       "server": "xcf037.facai2024.com",
@@ -408,28 +422,17 @@
     {
       "type": "vless",
       "tag": "🇺🇸 US | VLESS | @hope_net #1 [fast]",
-      "server": "151.101.42.154",
+      "server": "eagle.hafezdivan.online.",
       "server_port": 443,
-      "uuid": "c6c2ffe5-f762-4b5d-b637-26e2fe889349",
+      "uuid": "c416be20-32b3-467f-83c2-735e04d639f7",
       "network": "ws",
       "packet_encoding": "xudp",
       "tls": {
-        "enabled": true,
-        "server_name": "google.com",
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "randomized"
-        }
+        "enabled": true
       },
       "transport": {
         "type": "ws",
-        "path": "/5mDjILdUDmBqo0zg6V4b",
-        "headers": {
-          "Host": "violine.com.global.prod.fastly.net"
-        }
+        "path": "/"
       }
     },
     {
@@ -729,7 +732,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇺🇸 US | HY2 | @netfreedom0 #1 [fast]",
+      "tag": "🇺🇸 US | HY2 | @netfreedom0 #1 [medium]",
       "server": "2.27.249.79",
       "server_port": 443,
       "password": "cd74c0a406664a5bc0bac098220a2468",
