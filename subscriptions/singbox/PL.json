@@ -50,8 +50,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇵🇱 PL | VLESS | @prrofile_purple #1 [fast]",
-        "🇵🇱 PL | VLESS | @red2ray #1 [medium]",
+        "🇵🇱 PL | VLESS | @red2ray #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -60,8 +59,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @prrofile_purple #1 [fast]",
-        "🇵🇱 PL | VLESS | @red2ray #1 [medium]"
+        "🇵🇱 PL | VLESS | @red2ray #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -70,46 +68,22 @@
     },
     {
       "type": "vless",
-      "tag": "🇵🇱 PL | VLESS | @prrofile_purple #1 [fast]",
-      "server": "83.168.71.216",
+      "tag": "🇵🇱 PL | VLESS | @red2ray #1 [fast]",
+      "server": "144.31.2.33",
       "server_port": 443,
-      "uuid": "a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "ads.x5.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho",
-          "short_id": "2f49bccf11150ef2"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 PL | VLESS | @red2ray #1 [medium]",
-      "server": "185.32.6.75",
-      "server_port": 443,
-      "uuid": "0ce122a3-1c91-4cf5-a2cc-67f25e8cb56f",
+      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
       "flow": "xtls-rprx-vision",
       "network": "tcp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "dropbox.com",
+        "server_name": "pl3.moritech.net",
+        "alpn": [
+          "h2"
+        ],
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "xy8AHr_xZCNqFOuLq_t2fe4oLlrv5iu38uCQ1hUJ40w",
-          "short_id": "954c99065465428d"
         }
       }
     },
