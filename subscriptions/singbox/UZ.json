@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgRUU=
+//profile-title: base64:UFNHIHwgVVo=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://telegram.me/yebekhe
@@ -50,7 +50,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇪🇪 EE | VLESS | @outlinereleasedkey #1 [fast]",
+        "🇺🇿 UZ | VLESS | @red2ray #1 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -59,7 +59,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇪🇪 EE | VLESS | @outlinereleasedkey #1 [fast]"
+        "🇺🇿 UZ | VLESS | @red2ray #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -68,14 +68,15 @@
     },
     {
       "type": "vless",
-      "tag": "🇪🇪 EE | VLESS | @outlinereleasedkey #1 [fast]",
-      "server": "estproxy4.lockdwn.com",
-      "server_port": 8443,
-      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
-      "network": "tcp",
+      "tag": "🇺🇿 UZ | VLESS | @red2ray #1 [medium]",
+      "server": "189.74.97.47",
+      "server_port": 2087,
+      "uuid": "894fe9f0-b998-49c0-8003-a5007de921e1",
+      "network": "ws",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true
+      "transport": {
+        "type": "ws",
+        "path": "/755276b33b6f"
       }
     },
     {

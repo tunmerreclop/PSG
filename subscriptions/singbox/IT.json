@@ -50,6 +50,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
+        "🇮🇹 IT | SS | @outlinereleasedkey #1 [medium]",
         "🇮🇹 IT | SS | @netfreedom0 #1 [medium]",
         "direct"
       ],
@@ -59,6 +60,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
+        "🇮🇹 IT | SS | @outlinereleasedkey #1 [medium]",
         "🇮🇹 IT | SS | @netfreedom0 #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
@@ -68,11 +70,23 @@
     },
     {
       "type": "shadowsocks",
+      "tag": "🇮🇹 IT | SS | @outlinereleasedkey #1 [medium]",
+      "server": "57.131.48.45",
+      "server_port": 8388,
+      "method": "aes-256-gcm",
+      "password": "itzvpn@321",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "shadowsocks",
       "tag": "🇮🇹 IT | SS | @netfreedom0 #1 [medium]",
       "server": "91.201.65.122",
-      "server_port": 9092,
+      "server_port": 9059,
       "method": "aes-256-cfb",
-      "password": "TyNkGmp9hs6eGpDK",
+      "password": "9XwYyZsK8SNzQDtY",
       "network": "tcp",
       "tls": {
         "enabled": true
