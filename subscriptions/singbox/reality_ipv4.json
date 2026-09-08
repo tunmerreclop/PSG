@@ -61,12 +61,12 @@
         "🇲🇩 MD | VLESS | @nofiltering2 #1 [fast]",
         "🇳🇱 NL | VLESS | @outlinereleasedkey #1 [fast]",
         "🇷🇸 RS | VLESS | @free1_vpn #1 [fast]",
+        "🇺🇸 US | VLESS | @free1_vpn #1 [fast]",
         "🇫🇮 FI | VLESS | @selinc #1 [fast]",
         "🇱🇻 LV | VLESS | @free4allvpn #1 [fast]",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
         "🇳🇱 NL | VLESS | @outline_ir #1 [fast]",
         "🇳🇴 NO | VLESS | @outline_ir #1 [fast]",
-        "🇦🇪 AE | VLESS | @outline_ir #1 [fast]",
         "🇧🇷 BR | VLESS | @netfreedom0 #1 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
@@ -89,12 +89,12 @@
         "🇲🇩 MD | VLESS | @nofiltering2 #1 [fast]",
         "🇳🇱 NL | VLESS | @outlinereleasedkey #1 [fast]",
         "🇷🇸 RS | VLESS | @free1_vpn #1 [fast]",
+        "🇺🇸 US | VLESS | @free1_vpn #1 [fast]",
         "🇫🇮 FI | VLESS | @selinc #1 [fast]",
         "🇱🇻 LV | VLESS | @free4allvpn #1 [fast]",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
         "🇳🇱 NL | VLESS | @outline_ir #1 [fast]",
         "🇳🇴 NO | VLESS | @outline_ir #1 [fast]",
-        "🇦🇪 AE | VLESS | @outline_ir #1 [fast]",
         "🇧🇷 BR | VLESS | @netfreedom0 #1 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]"
@@ -338,6 +338,28 @@
     },
     {
       "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @free1_vpn #1 [fast]",
+      "server": "91.201.203.233",
+      "server_port": 8443,
+      "uuid": "c9cff9f3-2396-4675-bb70-b5e45c89f38f",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SnJ6sWnRRYTVivhWo9q-wfGVmAIfnX1vzKgNlFUW_Gk",
+          "short_id": "1c3a0316"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇫🇮 FI | VLESS | @selinc #1 [fast]",
       "server": "31.76.80.69",
       "server_port": 2083,
@@ -446,29 +468,6 @@
           "enabled": true,
           "public_key": "mWzXDVWUhjGcuizZHA-rEnRpxv2wgeSZUIuHmQdteiA",
           "short_id": "f576da5e05a1d4d2"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 AE | VLESS | @outline_ir #1 [fast]",
-      "server": "31.56.189.224",
-      "server_port": 3443,
-      "uuid": "92089155-6602-4122-86d4-fe6de20e8c4d",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "special.aeternavpn.space",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "-6SjfnZXAYm69euKQ3XNhq0nC7No7YE4qfdc2qx0Xwo",
-          "short_id": "a1b2c3d4"
         }
       }
     },

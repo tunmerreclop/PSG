@@ -53,13 +53,13 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇳🇱 NL | VLESS | @orange_vpns #2 [fast]",
         "🇲🇩 MD | VLESS | @mehrosaboran #1 [fast]",
         "🇩🇪 DE | VLESS | @prrofile_purple #1 [fast]",
         "🇩🇪 DE | VLESS | @prrofile_purple #2 [fast]",
         "🇫🇮 FI | VLESS | @selinc #1 [fast]",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
         "🇳🇱 NL | VLESS | @outline_ir #1 [fast]",
-        "🇳🇴 NO | VLESS | @outline_ir #1 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
         "direct"
@@ -73,13 +73,13 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇳🇱 NL | VLESS | @orange_vpns #2 [fast]",
         "🇲🇩 MD | VLESS | @mehrosaboran #1 [fast]",
         "🇩🇪 DE | VLESS | @prrofile_purple #1 [fast]",
         "🇩🇪 DE | VLESS | @prrofile_purple #2 [fast]",
         "🇫🇮 FI | VLESS | @selinc #1 [fast]",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
         "🇳🇱 NL | VLESS | @outline_ir #1 [fast]",
-        "🇳🇴 NO | VLESS | @outline_ir #1 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]"
       ],
@@ -125,6 +125,29 @@
       "transport": {
         "type": "ws",
         "path": "/"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 NL | VLESS | @orange_vpns #2 [fast]",
+      "server": "72.56.92.177",
+      "server_port": 40443,
+      "uuid": "4480161e-2c59-4d37-8736-675c9af32bf1",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "deepl.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "fWzCKXwvMXaacsl1DdFb1vKQ9l9cTK1G7udqmaYHL0Y",
+          "short_id": "01d1bf2d4755d40c"
+        }
       }
     },
     {
@@ -264,29 +287,6 @@
       "transport": {
         "type": "grpc",
         "service_name": "gun"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇴 NO | VLESS | @outline_ir #1 [fast]",
-      "server": "194.110.207.59",
-      "server_port": 443,
-      "uuid": "676e31b1-da5a-49ae-86d5-803031549189",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "kibi-institut.de",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "mWzXDVWUhjGcuizZHA-rEnRpxv2wgeSZUIuHmQdteiA",
-          "short_id": "f576da5e05a1d4d2"
-        }
       }
     },
     {
