@@ -52,11 +52,11 @@
         "auto",
         "🇬🇧 GB | SS | @father_vpn #1 [fast]",
         "🇬🇧 GB | SS | @outlinereleasedkey #1 [fast]",
+        "🇬🇧 GB | SS | @outlinereleasedkey #2 [medium]",
         "🇬🇧 GB | SS | @free4allvpn #1 [fast]",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
         "🇬🇧 GB | SS | @mtproxy22_v2ray #1 [fast]",
         "🇬🇧 GB | VLESS | @red2ray #1 [fast]",
-        "🇬🇧 GB | VLESS | @red2ray #2 [fast]",
         "🇬🇧 GB | SS | @NamiraConfigs #1 [fast]",
         "🇬🇧 GB | SS | @proxy48 #1 [fast]",
         "direct"
@@ -69,11 +69,11 @@
       "outbounds": [
         "🇬🇧 GB | SS | @father_vpn #1 [fast]",
         "🇬🇧 GB | SS | @outlinereleasedkey #1 [fast]",
+        "🇬🇧 GB | SS | @outlinereleasedkey #2 [medium]",
         "🇬🇧 GB | SS | @free4allvpn #1 [fast]",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
         "🇬🇧 GB | SS | @mtproxy22_v2ray #1 [fast]",
         "🇬🇧 GB | VLESS | @red2ray #1 [fast]",
-        "🇬🇧 GB | VLESS | @red2ray #2 [fast]",
         "🇬🇧 GB | SS | @NamiraConfigs #1 [fast]",
         "🇬🇧 GB | SS | @proxy48 #1 [fast]"
       ],
@@ -101,6 +101,18 @@
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
       "password": "k1dBOmOB4oqi7Ump37a1bQ",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇬🇧 GB | SS | @outlinereleasedkey #2 [medium]",
+      "server": "149.102.149.207",
+      "server_port": 80,
+      "method": "aes-256-gcm",
+      "password": "LXchLsIwtCeUAUgu",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -156,44 +168,23 @@
     {
       "type": "vless",
       "tag": "🇬🇧 GB | VLESS | @red2ray #1 [fast]",
-      "server": "104.194.144.106",
-      "server_port": 9990,
-      "uuid": "81686214-6ce3-4345-ae4d-cf848c97160a",
+      "server": "5.152.223.193",
+      "server_port": 443,
+      "uuid": "9e6b8db1-da80-494f-bad7-7a0451f801a1",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "dealersource.electronics.sony.com",
+        "server_name": "strapi.io",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "bThKArw7XzgGi3dw6mXUtSMKeTDa8vhwGoK1YEzUaWk",
-          "short_id": "f7"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 GB | VLESS | @red2ray #2 [fast]",
-      "server": "104.194.144.106",
-      "server_port": 8880,
-      "uuid": "81686214-6ce3-4345-ae4d-cf848c97160a",
-      "network": "xhttp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "dealersource.electronics.sony.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "s2JoYpJo8tDvwDO0EOsvhICzzPb_GQZYCdoUesgU4h0",
-          "short_id": "27c69b4eb383ae"
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
         }
       }
     },

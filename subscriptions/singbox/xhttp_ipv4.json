@@ -56,9 +56,6 @@
         "🇫🇮 FI | VLESS | @selinc #1 [fast]",
         "🇸🇨 SC | VLESS | @ai_duet #1 [fast]",
         "🇺🇸 US | VLESS | @free4allvpn #1 [fast]",
-        "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
-        "🇺🇸 US | VLESS | @red2ray #1 [fast]",
-        "🇬🇧 GB | VLESS | @red2ray #2 [fast]",
         "🇽🇽 XX | VLESS | @proxie #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #2 [fast]",
         "🇽🇽 XX | VLESS | @proxie #3 [fast]",
@@ -83,9 +80,6 @@
         "🇫🇮 FI | VLESS | @selinc #1 [fast]",
         "🇸🇨 SC | VLESS | @ai_duet #1 [fast]",
         "🇺🇸 US | VLESS | @free4allvpn #1 [fast]",
-        "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
-        "🇺🇸 US | VLESS | @red2ray #1 [fast]",
-        "🇬🇧 GB | VLESS | @red2ray #2 [fast]",
         "🇽🇽 XX | VLESS | @proxie #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #2 [fast]",
         "🇽🇽 XX | VLESS | @proxie #3 [fast]",
@@ -192,71 +186,6 @@
       "uuid": "02d87d00-c769-48d8-91cb-bd05e2f62790",
       "network": "xhttp",
       "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
-      "server": "94.228.214.87",
-      "server_port": 8443,
-      "uuid": "4fb82973-a7f1-4fc2-9958-cb21f5162f06",
-      "network": "xhttp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "s3.netavex.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Gu_QdtOX6E8pZcYvDWgHKA5dxcit7hrpU27sizCEWXg",
-          "short_id": "e0"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @red2ray #1 [fast]",
-      "server": "199.33.231.87",
-      "server_port": 443,
-      "uuid": "73a65dd6-92d6-43ac-8c68-52abcfe6202d",
-      "network": "xhttp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "outland.manufacturingcity.ir",
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 GB | VLESS | @red2ray #2 [fast]",
-      "server": "104.194.144.106",
-      "server_port": 8880,
-      "uuid": "81686214-6ce3-4345-ae4d-cf848c97160a",
-      "network": "xhttp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "dealersource.electronics.sony.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "s2JoYpJo8tDvwDO0EOsvhICzzPb_GQZYCdoUesgU4h0",
-          "short_id": "27c69b4eb383ae"
-        }
-      }
     },
     {
       "type": "vless",
