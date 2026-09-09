@@ -50,7 +50,9 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇷🇺 RU | VLESS | @mehrosaboran #1 [fast]",
+        "🇷🇺 RU | VLESS | @orange_vpns #1 [fast]",
+        "🇷🇺 RU | VLESS | @mehrosaboran #1 [medium]",
+        "🇷🇺 RU | VLESS | @prrofile_purple #1 [fast]",
         "🇷🇺 RU | VLESS | @nofiltering2 #1 [fast]",
         "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1 [fast]",
         "direct"
@@ -61,7 +63,9 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇺 RU | VLESS | @mehrosaboran #1 [fast]",
+        "🇷🇺 RU | VLESS | @orange_vpns #1 [fast]",
+        "🇷🇺 RU | VLESS | @mehrosaboran #1 [medium]",
+        "🇷🇺 RU | VLESS | @prrofile_purple #1 [fast]",
         "🇷🇺 RU | VLESS | @nofiltering2 #1 [fast]",
         "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1 [fast]"
       ],
@@ -72,7 +76,30 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @mehrosaboran #1 [fast]",
+      "tag": "🇷🇺 RU | VLESS | @orange_vpns #1 [fast]",
+      "server": "yt.orpheous.ru",
+      "server_port": 443,
+      "uuid": "55ed97fc-77d1-4802-baf3-acef70776331",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "yt.orpheous.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "9rdvkUGJyNbRvsB0Pp06h1URq9AHDPRtH9-wmNB1-j4",
+          "short_id": "e4aa362b5f9d07d7"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 RU | VLESS | @mehrosaboran #1 [medium]",
       "server": "188.130.209.185",
       "server_port": 443,
       "uuid": "eaf8abff-0fbf-4b64-8d8f-18c1757c75df",
@@ -90,6 +117,26 @@
           "enabled": true,
           "public_key": "vrtWpW_N3rBs9WEoV1Yz4uOYsci3Kpe7HitaYr4oQGc",
           "short_id": "fbe42a5d4788bacc"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #1 [fast]",
+      "server": "92.42.96.240",
+      "server_port": 443,
+      "uuid": "mahanvpn-mahanvpn",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "mAhaNrEaliteAm.MaHkHan.iR"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "mAhaNrEaliteAm.MaHkHan.iR"
         }
       }
     },
