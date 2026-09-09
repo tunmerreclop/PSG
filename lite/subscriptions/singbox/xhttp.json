@@ -56,8 +56,9 @@
         "🇽🇽 XX | VLESS | @mehrosaboran #1 [fast]",
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2 [fast]",
-        "🇫🇮 FI | VLESS | @selinc #1 [medium]",
+        "🇫🇮 FI | VLESS | @selinc #1 [fast]",
         "🇸🇨 SC | VLESS | @ai_duet #1 [fast]",
+        "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #2 [fast]",
         "🇽🇽 XX | VLESS | @evay_vpn #1 [fast]",
@@ -78,8 +79,9 @@
         "🇽🇽 XX | VLESS | @mehrosaboran #1 [fast]",
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2 [fast]",
-        "🇫🇮 FI | VLESS | @selinc #1 [medium]",
+        "🇫🇮 FI | VLESS | @selinc #1 [fast]",
         "🇸🇨 SC | VLESS | @ai_duet #1 [fast]",
+        "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #2 [fast]",
         "🇽🇽 XX | VLESS | @evay_vpn #1 [fast]",
@@ -181,7 +183,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 FI | VLESS | @selinc #1 [medium]",
+      "tag": "🇫🇮 FI | VLESS | @selinc #1 [fast]",
       "server": "31.76.80.69",
       "server_port": 2083,
       "uuid": "8975546a-375c-4966-8064-19fc0f66f30a",
@@ -220,6 +222,22 @@
           "enabled": true,
           "fingerprint": "chrome"
         }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
+      "server": "167.233.219.201",
+      "server_port": 443,
+      "uuid": "05bfcbaa-cba0-4bce-9103-09fe3f5f0667",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "fsn1.nordlinkcloud.com",
+        "alpn": [
+          "h2"
+        ]
       }
     },
     {

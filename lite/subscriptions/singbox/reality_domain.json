@@ -54,8 +54,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇷🇺 RU | VLESS | @orange_vpns #1 [fast]",
-        "🇩🇪 DE | VLESS | @orange_vpns #1 [medium]",
-        "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
+        "🇩🇪 DE | VLESS | @orange_vpns #1 [fast]",
+        "🇲🇩 MD | VLESS | @free1_vpn #1 [fast]",
+        "🇧🇬 BG | VLESS | @free1_vpn #1 [slow]",
         "direct"
       ],
       "default": "auto"
@@ -68,8 +69,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇷🇺 RU | VLESS | @orange_vpns #1 [fast]",
-        "🇩🇪 DE | VLESS | @orange_vpns #1 [medium]",
-        "🇳🇱 NL | VLESS | @red2ray #1 [fast]"
+        "🇩🇪 DE | VLESS | @orange_vpns #1 [fast]",
+        "🇲🇩 MD | VLESS | @free1_vpn #1 [fast]",
+        "🇧🇬 BG | VLESS | @free1_vpn #1 [slow]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -140,7 +142,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @orange_vpns #1 [medium]",
+      "tag": "🇩🇪 DE | VLESS | @orange_vpns #1 [fast]",
       "server": "play-u1.soft9.ir",
       "server_port": 12345,
       "uuid": "986d9870-d16a-424f-91ca-d17bf2d18092",
@@ -168,24 +170,54 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
-      "server": "nl6.mobileemdad.top",
+      "tag": "🇲🇩 MD | VLESS | @free1_vpn #1 [fast]",
+      "server": "md3.univesalsrv.com",
       "server_port": 443,
-      "uuid": "b560fbd2-b33d-43ae-930c-ed479758c518",
-      "network": "tcp",
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "network": "grpc",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "delivery.mp.microsoft.com",
+        "server_name": "md3.univesalsrv.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ",
-          "short_id": "e8f4426268c05621"
+          "public_key": "q38CddDj2g-XNDc0uW1m6S6b8iGY_Bne2RwX7C_FYCQ",
+          "short_id": "9a72d40f1ff882b3"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "stats.v2.PushService"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇬 BG | VLESS | @free1_vpn #1 [slow]",
+      "server": "bg3.univesalsrv.com",
+      "server_port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "network": "grpc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "bg3.univesalsrv.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "XBfCioniAKXgKYBUVnvBXu80AIaIa4SpAB3w8qeF7Gk",
+          "short_id": "1be1bd931c98c84a"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "home.v1.ApiService"
       }
     },
     {
