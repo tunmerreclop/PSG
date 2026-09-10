@@ -50,8 +50,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇪 SE | VLESS | @hope_net #1 [fast]",
-        "🇸🇪 SE | VLESS | @NamiraConfigs #1 [fast]",
+        "🇸🇪 SE | VLESS | @red2ray #1 [medium]",
         "🇸🇪 SE | VLESS | @minovpnch #1 [fast]",
         "🇸🇪 SE | VLESS | @deli_servers #1 [fast]",
         "🇸🇪 SE | VLESS | @kurd_v2ray #1 [fast]",
@@ -77,8 +76,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇪 SE | VLESS | @hope_net #1 [fast]",
-        "🇸🇪 SE | VLESS | @NamiraConfigs #1 [fast]",
+        "🇸🇪 SE | VLESS | @red2ray #1 [medium]",
         "🇸🇪 SE | VLESS | @minovpnch #1 [fast]",
         "🇸🇪 SE | VLESS | @deli_servers #1 [fast]",
         "🇸🇪 SE | VLESS | @kurd_v2ray #1 [fast]",
@@ -104,38 +102,25 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇪 SE | VLESS | @hope_net #1 [fast]",
-      "server": "185.146.173.185",
-      "server_port": 80,
-      "uuid": "de6fe7e1-0afb-4841-a82a-6b8156367a30",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048",
-        "headers": {
-          "Host": "4.V.v.V.v.V.v.v.V.v-_-_-v2ray-_-_-v.v.v.v.它傳奇之伺服器所以也你是.Vipnufilter.Online."
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇪 SE | VLESS | @NamiraConfigs #1 [fast]",
-      "server": "62.182.192.195",
-      "server_port": 443,
-      "uuid": "9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6",
-      "network": "ws",
+      "tag": "🇸🇪 SE | VLESS | @red2ray #1 [medium]",
+      "server": "172.232.139.153",
+      "server_port": 51629,
+      "uuid": "60339d95-eacb-428d-88e4-caedaddf5159",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr",
+        "server_name": "play-apps-features.googleusercontent.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "edge"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "k89H-2EgOKgvOaLGXtLEbWI5YRjzoIfoDeRVXawIIBM",
+          "short_id": "398cd7a9beed4aa2"
         }
-      },
-      "transport": {
-        "type": "ws"
       }
     },
     {
