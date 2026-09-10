@@ -53,12 +53,14 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇫🇮 FI | VLESS | @selinc #1 [fast]",
-        "🇺🇸 US | VLESS | @beshkan #1 [fast]",
+        "🇫🇮 FI | VLESS | @selinc #1 [medium]",
+        "🇺🇸 US | VLESS | @beshkan #1 [medium]",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
         "🇨🇾 CY | VLESS | @mtproxy22_v2ray #1 [medium]",
+        "🇺🇸 US | VLESS | @red2ray #1 [fast]",
+        "🇺🇸 US | VLESS | @free1_vpn #1 [medium]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
-        "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
+        "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -70,12 +72,14 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇫🇮 FI | VLESS | @selinc #1 [fast]",
-        "🇺🇸 US | VLESS | @beshkan #1 [fast]",
+        "🇫🇮 FI | VLESS | @selinc #1 [medium]",
+        "🇺🇸 US | VLESS | @beshkan #1 [medium]",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
         "🇨🇾 CY | VLESS | @mtproxy22_v2ray #1 [medium]",
+        "🇺🇸 US | VLESS | @red2ray #1 [fast]",
+        "🇺🇸 US | VLESS | @free1_vpn #1 [medium]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
-        "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]"
+        "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -123,7 +127,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 FI | VLESS | @selinc #1 [fast]",
+      "tag": "🇫🇮 FI | VLESS | @selinc #1 [medium]",
       "server": "31.76.80.69",
       "server_port": 2083,
       "uuid": "8975546a-375c-4966-8064-19fc0f66f30a",
@@ -145,7 +149,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @beshkan #1 [fast]",
+      "tag": "🇺🇸 US | VLESS | @beshkan #1 [medium]",
       "server": "150.241.101.80",
       "server_port": 8443,
       "uuid": "47d9b534-8a0a-4bd2-90f1-1d6ade14427e",
@@ -214,6 +218,52 @@
     },
     {
       "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @red2ray #1 [fast]",
+      "server": "188.137.242.143",
+      "server_port": 443,
+      "uuid": "d9d0f208-d582-41d5-bb7b-742671402810",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "us-main-1.hanvpn.biz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "RY0VjR_1hwb6oO9FvhRvFOjf4iLfYC95xagmDdk2fCA",
+          "short_id": "54b5a7681806bc97"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @free1_vpn #1 [medium]",
+      "server": "31.76.66.173",
+      "server_port": 8443,
+      "uuid": "70e46815-9cae-46e5-8224-d35f6bd7897d",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.sciencedirect.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "cNWgfJHerzIEb0RXxncP8R9Ex8-FkALOtbhneEIHpR0",
+          "short_id": "a1b2c4d4a1b2c5d5"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
       "server": "147.182.183.207",
       "server_port": 443,
@@ -236,7 +286,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
+      "tag": "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]",
       "server": "95.179.138.190",
       "server_port": 443,
       "uuid": "telegram-id-qeshmserver",

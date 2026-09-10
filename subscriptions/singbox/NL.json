@@ -50,11 +50,11 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇳🇱 NL | SS | @orange_vpns #1 [fast]",
+        "🇳🇱 NL | SS | @orange_vpns #1 [medium]",
         "🇳🇱 NL | VLESS | @beshkan #1 [fast]",
-        "🇳🇱 NL | SS | @easy_free_vpn #1 [fast]",
+        "🇳🇱 NL | SS | @easy_free_vpn #1 [medium]",
         "🇳🇱 NL | SS | @netfreedom0 #1 [fast]",
-        "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
+        "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -63,11 +63,11 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇳🇱 NL | SS | @orange_vpns #1 [fast]",
+        "🇳🇱 NL | SS | @orange_vpns #1 [medium]",
         "🇳🇱 NL | VLESS | @beshkan #1 [fast]",
-        "🇳🇱 NL | SS | @easy_free_vpn #1 [fast]",
+        "🇳🇱 NL | SS | @easy_free_vpn #1 [medium]",
         "🇳🇱 NL | SS | @netfreedom0 #1 [fast]",
-        "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]"
+        "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -76,7 +76,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇳🇱 NL | SS | @orange_vpns #1 [fast]",
+      "tag": "🇳🇱 NL | SS | @orange_vpns #1 [medium]",
       "server": "switcher-nick-croquet.freesocks.work",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -111,7 +111,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇳🇱 NL | SS | @easy_free_vpn #1 [fast]",
+      "tag": "🇳🇱 NL | SS | @easy_free_vpn #1 [medium]",
       "server": "193.29.139.151",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
@@ -135,7 +135,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
+      "tag": "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]",
       "server": "95.179.138.190",
       "server_port": 443,
       "uuid": "telegram-id-qeshmserver",
