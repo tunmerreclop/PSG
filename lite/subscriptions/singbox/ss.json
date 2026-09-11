@@ -53,8 +53,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇳🇱 NL | SS | @orange_vpns #1 [medium]",
+        "🇳🇱 NL | SS | @orange_vpns #1 [fast]",
         "🇮🇷 IR | SS | @sobi_vpn #1 [medium]",
+        "🇮🇪 IE | SS | @prrofile_purple #1 [medium]",
         "🇬🇧 GB | SS | @father_vpn #1 [fast]",
         "🇬🇧 GB | SS | @beshkan #1 [fast]",
         "🇰🇿 KZ | SS | @configv2rayforfree #1 [medium]",
@@ -73,8 +74,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇳🇱 NL | SS | @orange_vpns #1 [medium]",
+        "🇳🇱 NL | SS | @orange_vpns #1 [fast]",
         "🇮🇷 IR | SS | @sobi_vpn #1 [medium]",
+        "🇮🇪 IE | SS | @prrofile_purple #1 [medium]",
         "🇬🇧 GB | SS | @father_vpn #1 [fast]",
         "🇬🇧 GB | SS | @beshkan #1 [fast]",
         "🇰🇿 KZ | SS | @configv2rayforfree #1 [medium]",
@@ -129,7 +131,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇳🇱 NL | SS | @orange_vpns #1 [medium]",
+      "tag": "🇳🇱 NL | SS | @orange_vpns #1 [fast]",
       "server": "switcher-nick-croquet.freesocks.work",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -146,6 +148,18 @@
       "server_port": 2044,
       "method": "chacha20-ietf-poly1305",
       "password": "3rfnj11q5xvg72y1",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇮🇪 IE | SS | @prrofile_purple #1 [medium]",
+      "server": "20.123.9.48",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "bX297As31bQMRsLP",
       "network": "tcp",
       "tls": {
         "enabled": true

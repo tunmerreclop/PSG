@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgU0c=
+//profile-title: base64:UFNHIHwgVFc=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://telegram.me/yebekhe
@@ -50,7 +50,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇬 SG | VLESS | @orange_vpns #1 [fast]",
+        "🇹🇼 TW | VMESS | @NamiraConfigs #1 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -59,7 +59,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇬 SG | VLESS | @orange_vpns #1 [fast]"
+        "🇹🇼 TW | VMESS | @NamiraConfigs #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -67,28 +67,17 @@
       "idle_timeout": "30m"
     },
     {
-      "type": "vless",
-      "tag": "🇸🇬 SG | VLESS | @orange_vpns #1 [fast]",
-      "server": "lovesykun.cn",
-      "server_port": 443,
-      "uuid": "00f8cbcc-bf10-418b-a842-35519f460c7f",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "lovesykun.cn",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/15753/socket",
-        "headers": {
-          "Host": "dews.irandoc.info"
-        }
-      }
+      "type": "vmess",
+      "tag": "🇹🇼 TW | VMESS | @NamiraConfigs #1 [medium]",
+      "server": "165.154.195.38",
+      "server_port": 35034,
+      "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "network": "tcp",
+      "packet_encoding": ""
     },
     {
       "type": "direct",
