@@ -50,7 +50,8 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇫🇮 FI | VLESS | @orange_vpns #1 [medium]",
+        "🇫🇮 FI | VLESS | @orange_vpns #1 [fast]",
+        "🇫🇮 FI | VLESS | @mimitdl #1 [fast]",
         "🇫🇮 FI | VLESS | @selinc #1 [medium]",
         "🇫🇮 FI | VLESS | @ehsawn8 #1 [medium]",
         "direct"
@@ -61,7 +62,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @orange_vpns #1 [medium]",
+        "🇫🇮 FI | VLESS | @orange_vpns #1 [fast]",
+        "🇫🇮 FI | VLESS | @mimitdl #1 [fast]",
         "🇫🇮 FI | VLESS | @selinc #1 [medium]",
         "🇫🇮 FI | VLESS | @ehsawn8 #1 [medium]"
       ],
@@ -72,7 +74,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 FI | VLESS | @orange_vpns #1 [medium]",
+      "tag": "🇫🇮 FI | VLESS | @orange_vpns #1 [fast]",
       "server": "65.109.181.138",
       "server_port": 443,
       "uuid": "52f3a0cb-b0e6-4602-9692-6e328ade89a6",
@@ -95,6 +97,22 @@
           "enabled": true,
           "public_key": "9IfmFNL1K2E7LIJ6nn8osBFu5SnUDJOFmvPIlZu55xg",
           "short_id": "a90a60655f61fa37"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 FI | VLESS | @mimitdl #1 [fast]",
+      "server": "65.109.212.53",
+      "server_port": 80,
+      "uuid": "MIMITDL",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=1024",
+        "headers": {
+          "Host": "play.google.com"
         }
       }
     },

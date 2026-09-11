@@ -4,9 +4,9 @@ skip-proxy = 127.0.0.1, localhost, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 19
 dns-server = 8.8.8.8, 8.8.4.4
 [Proxy]
 🇭🇰 HK | VMESS | @NamiraConfigs #1 [medium] = vmess, 47.244.120.197, 44867, username = 845e6b08-2919-4290-ade0-5dc7dcea59ca, ws = true, tls = false, ws-path = /arki?ed=2048, ws-headers = Host:"47.244.120.197"
-🇭🇰 HK | VMESS | @NamiraConfigs #2 [slow] = vmess, 47.244.120.197, 23026, username = b9de1bc9-baa7-41ac-86f7-ccd59695cb21, ws = true, tls = false, ws-path = /arki, ws-headers = Host:"47.244.120.197"
+🇭🇰 HK | VMESS | @NamiraConfigs #2 [medium] = vmess, 47.244.120.197, 23026, username = b9de1bc9-baa7-41ac-86f7-ccd59695cb21, ws = true, tls = false, ws-path = /arki, ws-headers = Host:"47.244.120.197"
 [Proxy Group]
-PROXY = select, 🇭🇰 HK | VMESS | @NamiraConfigs #1 [medium], 🇭🇰 HK | VMESS | @NamiraConfigs #2 [slow]
+PROXY = select, 🇭🇰 HK | VMESS | @NamiraConfigs #1 [medium], 🇭🇰 HK | VMESS | @NamiraConfigs #2 [medium]
 [Rule]
 GEOSITE,category-ads-all,REJECT
 GEOIP,LAN,DIRECT

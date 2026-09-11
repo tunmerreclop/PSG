@@ -54,6 +54,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇭🇰 HK | VMESS | @NamiraConfigs #1 [medium]",
+        "🇭🇰 HK | VMESS | @NamiraConfigs #2 [medium]",
         "🇩🇪 DE | VMESS | @khoneproxy #1 [medium]",
         "🇩🇪 DE | VMESS | @khoneproxy #2 [medium]",
         "🇩🇪 DE | VMESS | @magickey_shop #1 [medium]",
@@ -69,6 +70,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇭🇰 HK | VMESS | @NamiraConfigs #1 [medium]",
+        "🇭🇰 HK | VMESS | @NamiraConfigs #2 [medium]",
         "🇩🇪 DE | VMESS | @khoneproxy #1 [medium]",
         "🇩🇪 DE | VMESS | @khoneproxy #2 [medium]",
         "🇩🇪 DE | VMESS | @magickey_shop #1 [medium]"
@@ -132,6 +134,23 @@
       "transport": {
         "type": "ws",
         "path": "/arki?ed=2048"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇭🇰 HK | VMESS | @NamiraConfigs #2 [medium]",
+      "server": "47.244.120.197",
+      "server_port": 23026,
+      "uuid": "b9de1bc9-baa7-41ac-86f7-ccd59695cb21",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "network": "ws",
+      "packet_encoding": "",
+      "transport": {
+        "type": "ws",
+        "path": "/arki"
       }
     },
     {
