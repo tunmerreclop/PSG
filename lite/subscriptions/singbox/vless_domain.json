@@ -55,6 +55,7 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @orange_vpns #1 [fast]",
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
+        "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #1 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #2 [fast]",
         "🇽🇽 XX | VLESS | @nofiltering2 #1 [fast]",
@@ -72,9 +73,10 @@
         "🇽🇽 XX | VLESS | @f_nirevil #2 [fast]",
         "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
-        "🇽🇽 XX | VLESS | @hope_net #1 [fast]",
+        "🇺🇸 US | VLESS | @hope_net #1 [fast]",
         "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1 [fast]",
-        "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
+        "🇹🇷 TR | VLESS | @red2ray #1 [fast]",
+        "🇺🇸 US | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @luckyvpn #1 [fast]",
         "🇩🇪 DE | VLESS | @luckyvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @prooxyk #1 [fast]",
@@ -111,6 +113,7 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @orange_vpns #1 [fast]",
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
+        "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #1 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #2 [fast]",
         "🇽🇽 XX | VLESS | @nofiltering2 #1 [fast]",
@@ -128,9 +131,10 @@
         "🇽🇽 XX | VLESS | @f_nirevil #2 [fast]",
         "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
-        "🇽🇽 XX | VLESS | @hope_net #1 [fast]",
+        "🇺🇸 US | VLESS | @hope_net #1 [fast]",
         "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1 [fast]",
-        "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
+        "🇹🇷 TR | VLESS | @red2ray #1 [fast]",
+        "🇺🇸 US | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @luckyvpn #1 [fast]",
         "🇩🇪 DE | VLESS | @luckyvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @prooxyk #1 [fast]",
@@ -234,6 +238,15 @@
       "server_port": 80,
       "uuid": "8e378a41-d5e1-427a-aaf8-30190d4be0a0",
       "network": "xhttp",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
+      "server": "snapp.ir",
+      "server_port": 2052,
+      "uuid": "7b81a350-89c3-47da-a3a9-5f2b65313d03",
+      "network": "httpupgrade",
       "packet_encoding": "xudp"
     },
     {
@@ -514,17 +527,17 @@
     },
     {
       "type": "vless",
-      "tag": "🇽🇽 XX | VLESS | @hope_net #1 [fast]",
-      "server": "skk.moe",
-      "server_port": 80,
-      "uuid": "c7bc8d93-5ab1-4964-8298-863f73c25032",
+      "tag": "🇺🇸 US | VLESS | @hope_net #1 [fast]",
+      "server": "cdn.discordapp.com",
+      "server_port": 8880,
+      "uuid": "82fdc77c-5def-4930-89a6-afb5cc609d4b",
       "network": "ws",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
-        "path": "/vless-ws/?ed",
+        "path": "/VPN_PROXY66.VPN_PROXY66",
         "headers": {
-          "Host": "worker-wispy-haze-55f8.arminpiladii.workers.DEV"
+          "Host": "github-_-_-_-_-_-vpn_proxy66_marg_bar_khamenei.proxy66.shop."
         }
       }
     },
@@ -556,12 +569,50 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
-      "server": "snapp.ir",
-      "server_port": 2052,
-      "uuid": "7b81a350-89c3-47da-a3a9-5f2b65313d03",
-      "network": "httpupgrade",
-      "packet_encoding": "xudp"
+      "tag": "🇹🇷 TR | VLESS | @red2ray #1 [fast]",
+      "server": "connect3.nyxserver.ir",
+      "server_port": 8444,
+      "uuid": "0b39a009-2a2a-4035-ba87-cc82894f8e21",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @red2ray #1 [fast]",
+      "server": "service-4be6b1-f7ea97-production.up.railway.app",
+      "server_port": 443,
+      "uuid": "7f5a00d4-ce29-5e67-b39c-5fcbcb17c907",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "service-4be6b1-f7ea97-production.up.railway.app",
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws/Ubdvdhdh",
+        "headers": {
+          "Host": "service-4be6b1-f7ea97-production.up.railway.app"
+        }
+      }
     },
     {
       "type": "vless",
