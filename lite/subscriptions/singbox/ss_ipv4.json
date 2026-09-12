@@ -53,12 +53,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇮🇪 IE | SS | @prrofile_purple #1 [medium]",
         "🇬🇧 GB | SS | @father_vpn #1 [fast]",
         "🇬🇧 GB | SS | @beshkan #1 [fast]",
         "🇰🇿 KZ | SS | @configv2rayforfree #1 [medium]",
         "🇩🇪 DE | SS | @outline_ir #1 [fast]",
         "🇳🇱 NL | SS | @easy_free_vpn #1 [fast]",
+        "🇱🇻 LV | SS | @outlinereleasedkey #1 [fast]",
         "🇺🇸 US | SS | @netfreedom0 #1 [fast]",
         "🇳🇱 NL | SS | @netfreedom0 #1 [fast]",
         "direct"
@@ -72,12 +72,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇮🇪 IE | SS | @prrofile_purple #1 [medium]",
         "🇬🇧 GB | SS | @father_vpn #1 [fast]",
         "🇬🇧 GB | SS | @beshkan #1 [fast]",
         "🇰🇿 KZ | SS | @configv2rayforfree #1 [medium]",
         "🇩🇪 DE | SS | @outline_ir #1 [fast]",
         "🇳🇱 NL | SS | @easy_free_vpn #1 [fast]",
+        "🇱🇻 LV | SS | @outlinereleasedkey #1 [fast]",
         "🇺🇸 US | SS | @netfreedom0 #1 [fast]",
         "🇳🇱 NL | SS | @netfreedom0 #1 [fast]"
       ],
@@ -123,18 +123,6 @@
       "transport": {
         "type": "ws",
         "path": "/"
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇮🇪 IE | SS | @prrofile_purple #1 [medium]",
-      "server": "20.123.9.48",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "bX297As31bQMRsLP",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
       }
     },
     {
@@ -192,6 +180,18 @@
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
       "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇱🇻 LV | SS | @outlinereleasedkey #1 [fast]",
+      "server": "185.135.86.175",
+      "server_port": 9017,
+      "method": "aes-256-cfb",
+      "password": "HAVAdE3nXhqA5nHp",
       "network": "tcp",
       "tls": {
         "enabled": true
