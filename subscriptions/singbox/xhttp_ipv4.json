@@ -54,7 +54,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇷🇴 RO | VLESS | @orange_vpns #1 [fast]",
-        "🇫🇮 FI | VLESS | @selinc #1 [fast]",
+        "🇫🇮 FI | VLESS | @selinc #1 [slow]",
         "🇸🇨 SC | VLESS | @ai_duet #1 [fast]",
         "🇺🇸 US | VLESS | @free4allvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #1 [fast]",
@@ -65,6 +65,9 @@
         "🇽🇽 XX | VLESS | @proxie #6 [fast]",
         "🇽🇽 XX | VLESS | @evay_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @evay_vpn #2 [fast]",
+        "🇽🇽 XX | VLESS | @flyv2ray #1 [fast]",
+        "🇽🇽 XX | VLESS | @flyv2ray #2 [fast]",
+        "🇽🇽 XX | VLESS | @flyv2ray #3 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇺🇸 US | VLESS | @qeshmserver #1 [fast]",
         "direct"
@@ -79,7 +82,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇷🇴 RO | VLESS | @orange_vpns #1 [fast]",
-        "🇫🇮 FI | VLESS | @selinc #1 [fast]",
+        "🇫🇮 FI | VLESS | @selinc #1 [slow]",
         "🇸🇨 SC | VLESS | @ai_duet #1 [fast]",
         "🇺🇸 US | VLESS | @free4allvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #1 [fast]",
@@ -90,6 +93,9 @@
         "🇽🇽 XX | VLESS | @proxie #6 [fast]",
         "🇽🇽 XX | VLESS | @evay_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @evay_vpn #2 [fast]",
+        "🇽🇽 XX | VLESS | @flyv2ray #1 [fast]",
+        "🇽🇽 XX | VLESS | @flyv2ray #2 [fast]",
+        "🇽🇽 XX | VLESS | @flyv2ray #3 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇺🇸 US | VLESS | @qeshmserver #1 [fast]"
       ],
@@ -161,7 +167,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 FI | VLESS | @selinc #1 [fast]",
+      "tag": "🇫🇮 FI | VLESS | @selinc #1 [slow]",
       "server": "31.76.80.69",
       "server_port": 2083,
       "uuid": "8975546a-375c-4966-8064-19fc0f66f30a",
@@ -386,6 +392,72 @@
         "utls": {
           "enabled": true,
           "fingerprint": "random"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇽🇽 XX | VLESS | @flyv2ray #1 [fast]",
+      "server": "104.21.61.2",
+      "server_port": 443,
+      "uuid": "357669c2-e067-4be1-b213-2c0c647c90a7",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "1.ksaoeoqoeowo929.dpdns.org",
+        "alpn": [
+          "h3",
+          "h2",
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇽🇽 XX | VLESS | @flyv2ray #2 [fast]",
+      "server": "104.20.19.131",
+      "server_port": 443,
+      "uuid": "357669c2-e067-4be1-b213-2c0c647c90a7",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "1.ksaoeoqoeowo929.dpdns.org",
+        "alpn": [
+          "h3",
+          "h2",
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇽🇽 XX | VLESS | @flyv2ray #3 [fast]",
+      "server": "104.21.117.209",
+      "server_port": 443,
+      "uuid": "357669c2-e067-4be1-b213-2c0c647c90a7",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "1.ksaoeoqoeowo929.dpdns.org",
+        "alpn": [
+          "h3",
+          "h2",
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
