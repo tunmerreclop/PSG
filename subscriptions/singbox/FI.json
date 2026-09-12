@@ -51,10 +51,8 @@
       "outbounds": [
         "auto",
         "🇫🇮 FI | VLESS | @orange_vpns #1 [fast]",
-        "🇫🇮 FI | VLESS | @ehsawn8 #1 [fast]",
-        "🇫🇮 FI | VLESS | @selinc #1 [slow]",
+        "🇫🇮 FI | VLESS | @ehsawn8 #1 [medium]",
         "🇫🇮 FI | VLESS | @mimitdl #1 [fast]",
-        "🇫🇮 FI | VMESS | @NamiraConfigs #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -64,10 +62,8 @@
       "tag": "auto",
       "outbounds": [
         "🇫🇮 FI | VLESS | @orange_vpns #1 [fast]",
-        "🇫🇮 FI | VLESS | @ehsawn8 #1 [fast]",
-        "🇫🇮 FI | VLESS | @selinc #1 [slow]",
-        "🇫🇮 FI | VLESS | @mimitdl #1 [fast]",
-        "🇫🇮 FI | VMESS | @NamiraConfigs #1 [fast]"
+        "🇫🇮 FI | VLESS | @ehsawn8 #1 [medium]",
+        "🇫🇮 FI | VLESS | @mimitdl #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -104,7 +100,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 FI | VLESS | @ehsawn8 #1 [fast]",
+      "tag": "🇫🇮 FI | VLESS | @ehsawn8 #1 [medium]",
       "server": "132.243.223.227",
       "server_port": 2101,
       "uuid": "2edfd299-fd54-4056-9d79-3c99f19bdae1",
@@ -125,28 +121,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 FI | VLESS | @selinc #1 [slow]",
-      "server": "31.76.80.69",
-      "server_port": 2083,
-      "uuid": "8975546a-375c-4966-8064-19fc0f66f30a",
-      "network": "xhttp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.amd.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "zq3gOJkXi6laNuxMohL3lr-wFOKi4Z9oG7QuMMiTDAk",
-          "short_id": "29b21343ab4d"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇫🇮 FI | VLESS | @mimitdl #1 [fast]",
       "server": "65.109.212.53",
       "server_port": 80,
@@ -160,19 +134,6 @@
           "Host": "play.google.com"
         }
       }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇫🇮 FI | VMESS | @NamiraConfigs #1 [fast]",
-      "server": "65.109.189.128",
-      "server_port": 2086,
-      "uuid": "f6361af8-bb8f-4609-bf5d-3fc0f688f47b",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "network": "tcp",
-      "packet_encoding": ""
     },
     {
       "type": "direct",
