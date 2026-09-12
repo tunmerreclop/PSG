@@ -69,15 +69,15 @@
         "🇽🇽 XX | VMESS | @manstervpn #2 [fast]",
         "🇧🇾 BY | VMESS | @ir_netproxy #1 [fast]",
         "🇽🇽 XX | VMESS | @ir_netproxy #1 [fast]",
-        "🇭🇰 HK | VMESS | @NamiraConfigs #1 [medium]",
         "🇬🇧 GB | VMESS | @NamiraConfigs #1 [fast]",
         "🇺🇸 US | VMESS | @NamiraConfigs #1 [fast]",
         "🇹🇼 TW | VMESS | @NamiraConfigs #1 [medium]",
+        "🇰🇷 KR | VMESS | @NamiraConfigs #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #1 [fast]",
-        "🇩🇪 DE | VMESS | @khoneproxy #2 [fast]",
-        "🇩🇪 DE | VMESS | @khoneproxy #3 [fast]",
+        "🇩🇪 DE | VMESS | @khoneproxy #2 [medium]",
+        "🇩🇪 DE | VMESS | @khoneproxy #3 [medium]",
         "🇽🇽 XX | VMESS | @proxy48 #1 [fast]",
-        "🇩🇪 DE | VMESS | @magickey_shop #1 [fast]",
+        "🇩🇪 DE | VMESS | @magickey_shop #1 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -105,15 +105,15 @@
         "🇽🇽 XX | VMESS | @manstervpn #2 [fast]",
         "🇧🇾 BY | VMESS | @ir_netproxy #1 [fast]",
         "🇽🇽 XX | VMESS | @ir_netproxy #1 [fast]",
-        "🇭🇰 HK | VMESS | @NamiraConfigs #1 [medium]",
         "🇬🇧 GB | VMESS | @NamiraConfigs #1 [fast]",
         "🇺🇸 US | VMESS | @NamiraConfigs #1 [fast]",
         "🇹🇼 TW | VMESS | @NamiraConfigs #1 [medium]",
+        "🇰🇷 KR | VMESS | @NamiraConfigs #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #1 [fast]",
-        "🇩🇪 DE | VMESS | @khoneproxy #2 [fast]",
-        "🇩🇪 DE | VMESS | @khoneproxy #3 [fast]",
+        "🇩🇪 DE | VMESS | @khoneproxy #2 [medium]",
+        "🇩🇪 DE | VMESS | @khoneproxy #3 [medium]",
         "🇽🇽 XX | VMESS | @proxy48 #1 [fast]",
-        "🇩🇪 DE | VMESS | @magickey_shop #1 [fast]"
+        "🇩🇪 DE | VMESS | @magickey_shop #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -516,23 +516,6 @@
     },
     {
       "type": "vmess",
-      "tag": "🇭🇰 HK | VMESS | @NamiraConfigs #1 [medium]",
-      "server": "47.244.120.197",
-      "server_port": 23026,
-      "uuid": "b9de1bc9-baa7-41ac-86f7-ccd59695cb21",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "network": "ws",
-      "packet_encoding": "",
-      "transport": {
-        "type": "ws",
-        "path": "/arki"
-      }
-    },
-    {
-      "type": "vmess",
       "tag": "🇬🇧 GB | VMESS | @NamiraConfigs #1 [fast]",
       "server": "66.163.117.58",
       "server_port": 22324,
@@ -572,6 +555,19 @@
     },
     {
       "type": "vmess",
+      "tag": "🇰🇷 KR | VMESS | @NamiraConfigs #1 [fast]",
+      "server": "217.142.138.61",
+      "server_port": 80,
+      "uuid": "ac1b933d-afff-4487-93ef-f57130a55dff",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "network": "tcp",
+      "packet_encoding": ""
+    },
+    {
+      "type": "vmess",
       "tag": "🇩🇪 DE | VMESS | @khoneproxy #1 [fast]",
       "server": "142.132.163.200",
       "server_port": 80,
@@ -589,7 +585,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇩🇪 DE | VMESS | @khoneproxy #2 [fast]",
+      "tag": "🇩🇪 DE | VMESS | @khoneproxy #2 [medium]",
       "server": "5.75.150.23",
       "server_port": 443,
       "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147",
@@ -602,7 +598,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇩🇪 DE | VMESS | @khoneproxy #3 [fast]",
+      "tag": "🇩🇪 DE | VMESS | @khoneproxy #3 [medium]",
       "server": "167.235.205.182",
       "server_port": 443,
       "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147",
@@ -636,7 +632,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇩🇪 DE | VMESS | @magickey_shop #1 [fast]",
+      "tag": "🇩🇪 DE | VMESS | @magickey_shop #1 [medium]",
       "server": "168.119.174.229",
       "server_port": 443,
       "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147",

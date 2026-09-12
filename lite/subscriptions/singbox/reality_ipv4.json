@@ -54,14 +54,13 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇫🇮 FI | VLESS | @selinc #1 [fast]",
-        "🇲🇩 MD | VLESS | @bored_vpn #1 [fast]",
         "🇳🇱 NL | VLESS | @beshkan #1 [fast]",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1 [fast]",
         "🇨🇾 CY | VLESS | @mtproxy22_v2ray #1 [medium]",
         "🇺🇸 US | VLESS | @free1_vpn #1 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
-        "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
+        "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -74,14 +73,13 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇫🇮 FI | VLESS | @selinc #1 [fast]",
-        "🇲🇩 MD | VLESS | @bored_vpn #1 [fast]",
         "🇳🇱 NL | VLESS | @beshkan #1 [fast]",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1 [fast]",
         "🇨🇾 CY | VLESS | @mtproxy22_v2ray #1 [medium]",
         "🇺🇸 US | VLESS | @free1_vpn #1 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
-        "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]"
+        "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -147,32 +145,6 @@
           "public_key": "zq3gOJkXi6laNuxMohL3lr-wFOKi4Z9oG7QuMMiTDAk",
           "short_id": "29b21343ab4d"
         }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇲🇩 MD | VLESS | @bored_vpn #1 [fast]",
-      "server": "89.35.14.33",
-      "server_port": 443,
-      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
-      "network": "grpc",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "md4.univesalsrv.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "TZVMqglhHzteJ6t34mtku75LKzXNq0CB6glKYMAH6zg",
-          "short_id": "8e07337954f9823f"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "hub.v1.ApiService"
       }
     },
     {
@@ -314,7 +286,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
+      "tag": "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]",
       "server": "95.179.138.190",
       "server_port": 443,
       "uuid": "telegram-id-qeshmserver",
