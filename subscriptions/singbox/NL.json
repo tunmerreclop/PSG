@@ -55,10 +55,8 @@
         "🇳🇱 NL | VLESS | @beshkan #1 [fast]",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1 [fast]",
         "🇳🇱 NL | VLESS | @outlinereleasedkey #1 [fast]",
-        "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
-        "🇳🇱 NL | VLESS | @red2ray #2 [fast]",
         "🇳🇱 NL | SS | @netfreedom0 #1 [fast]",
-        "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]",
+        "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -72,10 +70,8 @@
         "🇳🇱 NL | VLESS | @beshkan #1 [fast]",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1 [fast]",
         "🇳🇱 NL | VLESS | @outlinereleasedkey #1 [fast]",
-        "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
-        "🇳🇱 NL | VLESS | @red2ray #2 [fast]",
         "🇳🇱 NL | SS | @netfreedom0 #1 [fast]",
-        "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]"
+        "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -172,49 +168,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
-      "server": "f096aca5fa345cbb.ainl.reknaro.ir",
-      "server_port": 53966,
-      "uuid": "d0f7d34c-9c00-4b2f-ab1d-25fbae5cc746",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "tl3.tavqila.ir"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "tl3.tavqila.ir"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 NL | VLESS | @red2ray #2 [fast]",
-      "server": "144.124.252.13",
-      "server_port": 443,
-      "uuid": "827a0eb0-21bf-4bce-96ef-0a7bac5d68f5",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "nid3.pinkmoon.pro",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk",
-          "short_id": "8ffa160e608bf539"
-        }
-      }
-    },
-    {
       "type": "shadowsocks",
       "tag": "🇳🇱 NL | SS | @netfreedom0 #1 [fast]",
       "server": "109.201.152.181",
@@ -228,7 +181,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]",
+      "tag": "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
       "server": "95.179.138.190",
       "server_port": 443,
       "uuid": "telegram-id-qeshmserver",
