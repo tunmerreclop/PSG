@@ -51,8 +51,8 @@
       "outbounds": [
         "auto",
         "🇵🇱 PL | VLESS | @outline_ir #1 [fast]",
-        "🇵🇱 PL | VLESS | @outlinereleasedkey #1 [fast]",
         "🇵🇱 PL | SS | @outlinereleasedkey #1 [fast]",
+        "🇵🇱 PL | VLESS | @outlinereleasedkey #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -62,8 +62,8 @@
       "tag": "auto",
       "outbounds": [
         "🇵🇱 PL | VLESS | @outline_ir #1 [fast]",
-        "🇵🇱 PL | VLESS | @outlinereleasedkey #1 [fast]",
-        "🇵🇱 PL | SS | @outlinereleasedkey #1 [fast]"
+        "🇵🇱 PL | SS | @outlinereleasedkey #1 [fast]",
+        "🇵🇱 PL | VLESS | @outlinereleasedkey #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -93,22 +93,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇵🇱 PL | VLESS | @outlinereleasedkey #1 [fast]",
-      "server": "94.183.209.58",
-      "server_port": 443,
-      "uuid": "78791f9e-fe09-4d4f-88ec-895764bae0d6",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "pl2.lckdwn.ru"
-        }
-      }
-    },
-    {
       "type": "shadowsocks",
       "tag": "🇵🇱 PL | SS | @outlinereleasedkey #1 [fast]",
       "server": "217.30.10.44",
@@ -118,6 +102,27 @@
       "network": "tcp",
       "tls": {
         "enabled": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱 PL | VLESS | @outlinereleasedkey #1 [fast]",
+      "server": "144.31.5.64",
+      "server_port": 443,
+      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl6.moritech.net",
+        "alpn": [
+          "h2"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
       }
     },
     {

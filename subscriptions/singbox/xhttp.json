@@ -56,6 +56,7 @@
         "🇷🇴 RO | VLESS | @orange_vpns #1 [fast]",
         "🇸🇨 SC | VLESS | @ai_duet #1 [fast]",
         "🇺🇸 US | VLESS | @free4allvpn #1 [fast]",
+        "🇽🇽 XX | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #2 [fast]",
         "🇽🇽 XX | VLESS | @proxie #3 [fast]",
@@ -74,7 +75,7 @@
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇺🇸 US | VLESS | @qeshmserver #1 [fast]",
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
-        "🇽🇽 XX | VLESS | @red2ray #1 [fast]",
+        "🇺🇸 US | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2 [fast]",
         "direct"
       ],
@@ -90,6 +91,7 @@
         "🇷🇴 RO | VLESS | @orange_vpns #1 [fast]",
         "🇸🇨 SC | VLESS | @ai_duet #1 [fast]",
         "🇺🇸 US | VLESS | @free4allvpn #1 [fast]",
+        "🇽🇽 XX | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #2 [fast]",
         "🇽🇽 XX | VLESS | @proxie #3 [fast]",
@@ -108,7 +110,7 @@
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇺🇸 US | VLESS | @qeshmserver #1 [fast]",
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
-        "🇽🇽 XX | VLESS | @red2ray #1 [fast]",
+        "🇺🇸 US | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
@@ -206,6 +208,23 @@
       "uuid": "02d87d00-c769-48d8-91cb-bd05e2f62790",
       "network": "xhttp",
       "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇽🇽 XX | VLESS | @red2ray #1 [fast]",
+      "server": "104.18.139.67",
+      "server_port": 2083,
+      "uuid": "1a67126c-b9c4-4e78-b96e-eabd4002ab0c",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "de4.novexgroup.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "type": "vless",
@@ -581,23 +600,12 @@
     },
     {
       "type": "vless",
-      "tag": "🇽🇽 XX | VLESS | @red2ray #1 [fast]",
-      "server": "daredevil.manufacturingcity.ir",
-      "server_port": 443,
-      "uuid": "cdd7320e-ea0f-4574-ab8e-d979bb5bdbaf",
+      "tag": "🇺🇸 US | VLESS | @red2ray #1 [fast]",
+      "server": "speedtest.net",
+      "server_port": 80,
+      "uuid": "5a829c25-3056-4717-9ecd-a00a4bae823a",
       "network": "xhttp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "daredevil.manufacturingcity.ir",
-        "alpn": [
-          "h2"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
