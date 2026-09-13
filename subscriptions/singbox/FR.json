@@ -53,9 +53,11 @@
         "🇫🇷 FR | VLESS | @mimitdl #1 [fast]",
         "🇫🇷 FR | VLESS | @mpproxy #1 [fast]",
         "🇫🇷 FR | VLESS | @privatevpns #1 [fast]",
+        "🇫🇷 FR | VLESS | @privatevpns #2 [fast]",
         "🇫🇷 FR | VLESS | @minovpnch #1 [fast]",
         "🇫🇷 FR | VLESS | @minovpnch #2 [fast]",
         "🇫🇷 FR | VLESS | @proxy48 #1 [medium]",
+        "🇫🇷 FR | VLESS | @mainmat #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -67,9 +69,11 @@
         "🇫🇷 FR | VLESS | @mimitdl #1 [fast]",
         "🇫🇷 FR | VLESS | @mpproxy #1 [fast]",
         "🇫🇷 FR | VLESS | @privatevpns #1 [fast]",
+        "🇫🇷 FR | VLESS | @privatevpns #2 [fast]",
         "🇫🇷 FR | VLESS | @minovpnch #1 [fast]",
         "🇫🇷 FR | VLESS | @minovpnch #2 [fast]",
-        "🇫🇷 FR | VLESS | @proxy48 #1 [medium]"
+        "🇫🇷 FR | VLESS | @proxy48 #1 [medium]",
+        "🇫🇷 FR | VLESS | @mainmat #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -116,7 +120,16 @@
     {
       "type": "vless",
       "tag": "🇫🇷 FR | VLESS | @privatevpns #1 [fast]",
-      "server": "35.181.146.129",
+      "server": "15.188.183.186",
+      "server_port": 22222,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "network": "tcp",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇷 FR | VLESS | @privatevpns #2 [fast]",
+      "server": "15.236.112.22",
       "server_port": 22222,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "network": "tcp",
@@ -173,6 +186,30 @@
       "transport": {
         "type": "ws",
         "path": "/http"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇷 FR | VLESS | @mainmat #1 [fast]",
+      "server": "cf2.serikadeh.ir",
+      "server_port": 443,
+      "uuid": "26a271cd-9d3b-4620-8897-b4addd05b8a9",
+      "network": "grpc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cf2.serikadeh.ir",
+        "alpn": [
+          "h2"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "Abwej4jM02M9eAJlL3G"
       }
     },
     {
