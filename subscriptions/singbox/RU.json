@@ -57,6 +57,7 @@
         "🇷🇺 RU | VLESS | @red2ray #1 [fast]",
         "🇷🇺 RU | VLESS | @red2ray #2 [fast]",
         "🇷🇺 RU | VLESS | @red2ray #3 [medium]",
+        "🇷🇺 RU | VLESS | @red2ray #4 [medium]",
         "🇷🇺 RU | VLESS | @NamiraConfigs #1 [medium]",
         "direct"
       ],
@@ -73,6 +74,7 @@
         "🇷🇺 RU | VLESS | @red2ray #1 [fast]",
         "🇷🇺 RU | VLESS | @red2ray #2 [fast]",
         "🇷🇺 RU | VLESS | @red2ray #3 [medium]",
+        "🇷🇺 RU | VLESS | @red2ray #4 [medium]",
         "🇷🇺 RU | VLESS | @NamiraConfigs #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
@@ -232,6 +234,23 @@
           "public_key": "NuS0Su5ozBXBDDBEeBHc2AaeL4qRxK-w9SN4t0VP8Bs",
           "short_id": "d74a5340e604148e"
         }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 RU | VLESS | @red2ray #4 [medium]",
+      "server": "158.160.143.169",
+      "server_port": 443,
+      "uuid": "4cee7bf3-b928-4cd3-a230-3cef07a9468b",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "static.vhubtest.ru"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/websocket?ed=2560"
       }
     },
     {

@@ -59,6 +59,7 @@
         "🇷🇺 RU | VLESS | @mehrosaboran #1 [medium]",
         "🇩🇪 DE | VLESS | @father_vpn #2 [fast]",
         "🇲🇩 MD | VLESS | @nofiltering2 #1 [medium]",
+        "🇺🇸 US | VLESS | @free1_vpn #1 [fast]",
         "🇳🇱 NL | VLESS | @beshkan #1 [fast]",
         "🇱🇻 LV | VLESS | @free4allvpn #1 [fast]",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
@@ -66,7 +67,7 @@
         "🇨🇾 CY | VLESS | @mtproxy22_v2ray #1 [medium]",
         "🇲🇩 MD | VLESS | @mtproxy22_v2ray #1 [medium]",
         "🇨🇾 CY | VLESS | @mtproxy22_v2ray #2 [fast]",
-        "🇲🇩 MD | VLESS | @outline_ir #1 [medium]",
+        "🇲🇩 MD | VLESS | @outline_ir #1 [slow]",
         "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
         "🇷🇺 RU | VLESS | @outline_ir #1 [medium]",
         "🇳🇱 NL | VLESS | @outlinereleasedkey #1 [fast]",
@@ -74,7 +75,7 @@
         "🇺🇸 US | VLESS | @netmellianti #2 [fast]",
         "🇷🇺 RU | VLESS | @red2ray #2 [fast]",
         "🇷🇺 RU | VLESS | @red2ray #3 [medium]",
-        "🇩🇪 DE | VLESS | @red2ray #2 [fast]",
+        "🇳🇱 NL | VLESS | @red2ray #2 [fast]",
         "🇧🇷 BR | VLESS | @netfreedom0 #1 [medium]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]",
@@ -95,6 +96,7 @@
         "🇷🇺 RU | VLESS | @mehrosaboran #1 [medium]",
         "🇩🇪 DE | VLESS | @father_vpn #2 [fast]",
         "🇲🇩 MD | VLESS | @nofiltering2 #1 [medium]",
+        "🇺🇸 US | VLESS | @free1_vpn #1 [fast]",
         "🇳🇱 NL | VLESS | @beshkan #1 [fast]",
         "🇱🇻 LV | VLESS | @free4allvpn #1 [fast]",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
@@ -102,7 +104,7 @@
         "🇨🇾 CY | VLESS | @mtproxy22_v2ray #1 [medium]",
         "🇲🇩 MD | VLESS | @mtproxy22_v2ray #1 [medium]",
         "🇨🇾 CY | VLESS | @mtproxy22_v2ray #2 [fast]",
-        "🇲🇩 MD | VLESS | @outline_ir #1 [medium]",
+        "🇲🇩 MD | VLESS | @outline_ir #1 [slow]",
         "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
         "🇷🇺 RU | VLESS | @outline_ir #1 [medium]",
         "🇳🇱 NL | VLESS | @outlinereleasedkey #1 [fast]",
@@ -110,7 +112,7 @@
         "🇺🇸 US | VLESS | @netmellianti #2 [fast]",
         "🇷🇺 RU | VLESS | @red2ray #2 [fast]",
         "🇷🇺 RU | VLESS | @red2ray #3 [medium]",
-        "🇩🇪 DE | VLESS | @red2ray #2 [fast]",
+        "🇳🇱 NL | VLESS | @red2ray #2 [fast]",
         "🇧🇷 BR | VLESS | @netfreedom0 #1 [medium]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]"
@@ -306,6 +308,29 @@
     },
     {
       "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @free1_vpn #1 [fast]",
+      "server": "31.76.66.173",
+      "server_port": 8443,
+      "uuid": "70e46815-9cae-46e5-8224-d35f6bd7897d",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.sciencedirect.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "cNWgfJHerzIEb0RXxncP8R9Ex8-FkALOtbhneEIHpR0",
+          "short_id": "a1b2c4d4a1b2c5d5"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇳🇱 NL | VLESS | @beshkan #1 [fast]",
       "server": "51.158.206.34",
       "server_port": 23576,
@@ -470,7 +495,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇲🇩 MD | VLESS | @outline_ir #1 [medium]",
+      "tag": "🇲🇩 MD | VLESS | @outline_ir #1 [slow]",
       "server": "89.35.14.30",
       "server_port": 443,
       "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
@@ -643,23 +668,24 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @red2ray #2 [fast]",
-      "server": "188.137.232.57",
-      "server_port": 46519,
-      "uuid": "33ece698-85ea-49c4-bbd2-f54bceb9d701",
+      "tag": "🇳🇱 NL | VLESS | @red2ray #2 [fast]",
+      "server": "144.124.252.13",
+      "server_port": 443,
+      "uuid": "827a0eb0-21bf-4bce-96ef-0a7bac5d68f5",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "play-apps-features.googleusercontent.com",
+        "server_name": "nid3.pinkmoon.pro",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "AdgOmPJcyKw1bSrYXMmA-Clfvk4JrrdmrDEEuF42Z2w",
-          "short_id": "bb"
+          "public_key": "DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk",
+          "short_id": "8ffa160e608bf539"
         }
       }
     },

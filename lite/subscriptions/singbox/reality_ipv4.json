@@ -54,12 +54,14 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇷🇺 RU | VLESS | @mehrosaboran #1 [medium]",
+        "🇺🇸 US | VLESS | @free1_vpn #1 [fast]",
         "🇳🇱 NL | VLESS | @beshkan #1 [fast]",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1 [fast]",
         "🇨🇾 CY | VLESS | @mtproxy22_v2ray #1 [medium]",
         "🇲🇩 MD | VLESS | @mtproxy22_v2ray #1 [medium]",
-        "🇲🇩 MD | VLESS | @outline_ir #1 [medium]",
+        "🇲🇩 MD | VLESS | @outline_ir #1 [slow]",
+        "🇷🇺 RU | VLESS | @red2ray #2 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]",
         "direct"
@@ -74,12 +76,14 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇷🇺 RU | VLESS | @mehrosaboran #1 [medium]",
+        "🇺🇸 US | VLESS | @free1_vpn #1 [fast]",
         "🇳🇱 NL | VLESS | @beshkan #1 [fast]",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1 [fast]",
         "🇨🇾 CY | VLESS | @mtproxy22_v2ray #1 [medium]",
         "🇲🇩 MD | VLESS | @mtproxy22_v2ray #1 [medium]",
-        "🇲🇩 MD | VLESS | @outline_ir #1 [medium]",
+        "🇲🇩 MD | VLESS | @outline_ir #1 [slow]",
+        "🇷🇺 RU | VLESS | @red2ray #2 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]"
       ],
@@ -147,6 +151,29 @@
           "enabled": true,
           "public_key": "vrtWpW_N3rBs9WEoV1Yz4uOYsci3Kpe7HitaYr4oQGc",
           "short_id": "fbe42a5d4788bacc"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @free1_vpn #1 [fast]",
+      "server": "31.76.66.173",
+      "server_port": 8443,
+      "uuid": "70e46815-9cae-46e5-8224-d35f6bd7897d",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.sciencedirect.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "cNWgfJHerzIEb0RXxncP8R9Ex8-FkALOtbhneEIHpR0",
+          "short_id": "a1b2c4d4a1b2c5d5"
         }
       }
     },
@@ -270,7 +297,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇲🇩 MD | VLESS | @outline_ir #1 [medium]",
+      "tag": "🇲🇩 MD | VLESS | @outline_ir #1 [slow]",
       "server": "89.35.14.30",
       "server_port": 443,
       "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
@@ -292,6 +319,29 @@
       "transport": {
         "type": "grpc",
         "service_name": "hub.v1.RelayService"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 RU | VLESS | @red2ray #2 [fast]",
+      "server": "193.233.217.212",
+      "server_port": 443,
+      "uuid": "d73e3cdc-a80b-4e73-a11b-cc467d7a84f8",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl.sdssv-vid.online",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "NuS0Su5ozBXBDDBEeBHc2AaeL4qRxK-w9SN4t0VP8Bs",
+          "short_id": "d74a5340e604148e"
+        }
       }
     },
     {

@@ -50,9 +50,10 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇵🇱 PL | VLESS | @outlinereleasedkey #1 [fast]",
+        "🇵🇱 PL | VLESS | @outline_ir #1 [fast]",
         "🇵🇱 PL | SS | @outlinereleasedkey #1 [fast]",
         "🇵🇱 PL | HY2 | @outlinereleasedkey #1 [fast]",
+        "🇵🇱 PL | VLESS | @outlinereleasedkey #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -61,9 +62,10 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @outlinereleasedkey #1 [fast]",
+        "🇵🇱 PL | VLESS | @outline_ir #1 [fast]",
         "🇵🇱 PL | SS | @outlinereleasedkey #1 [fast]",
-        "🇵🇱 PL | HY2 | @outlinereleasedkey #1 [fast]"
+        "🇵🇱 PL | HY2 | @outlinereleasedkey #1 [fast]",
+        "🇵🇱 PL | VLESS | @outlinereleasedkey #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -72,15 +74,24 @@
     },
     {
       "type": "vless",
-      "tag": "🇵🇱 PL | VLESS | @outlinereleasedkey #1 [fast]",
-      "server": "94.183.209.59",
-      "server_port": 443,
-      "uuid": "d23cb516-40db-4aa4-8142-6b45ff882f90",
-      "network": "ws",
+      "tag": "🇵🇱 PL | VLESS | @outline_ir #1 [fast]",
+      "server": "poland-sgood.wopd.butnorwa.butter.silicore.ir",
+      "server_port": 9000,
+      "uuid": "b33e4571-de3f-4249-b246-b2acf3db2f36",
+      "network": "tcp",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/"
+      "tls": {
+        "enabled": true,
+        "server_name": "sheets.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Du5pk4KuMNA1sRcSpmuoLuC0HmxDBmFljFNfUzqxKiM",
+          "short_id": "cd0a1986719e44c8"
+        }
       }
     },
     {
@@ -104,6 +115,22 @@
       "tls": {
         "enabled": true,
         "server_name": "admin.wwwinternetvideo.click"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱 PL | VLESS | @outlinereleasedkey #1 [fast]",
+      "server": "94.183.209.58",
+      "server_port": 443,
+      "uuid": "78791f9e-fe09-4d4f-88ec-895764bae0d6",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "pl2.lckdwn.ru"
+        }
       }
     },
     {
