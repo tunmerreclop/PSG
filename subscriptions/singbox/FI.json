@@ -51,8 +51,9 @@
       "outbounds": [
         "auto",
         "🇫🇮 FI | VLESS | @orange_vpns #1 [fast]",
-        "🇫🇮 FI | VLESS | @ehsawn8 #1 [fast]",
+        "🇫🇮 FI | VLESS | @ehsawn8 #1 [medium]",
         "🇫🇮 FI | VLESS | @mimitdl #1 [fast]",
+        "🇫🇮 FI | VLESS | @red2ray #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -62,8 +63,9 @@
       "tag": "auto",
       "outbounds": [
         "🇫🇮 FI | VLESS | @orange_vpns #1 [fast]",
-        "🇫🇮 FI | VLESS | @ehsawn8 #1 [fast]",
-        "🇫🇮 FI | VLESS | @mimitdl #1 [fast]"
+        "🇫🇮 FI | VLESS | @ehsawn8 #1 [medium]",
+        "🇫🇮 FI | VLESS | @mimitdl #1 [fast]",
+        "🇫🇮 FI | VLESS | @red2ray #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -100,7 +102,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 FI | VLESS | @ehsawn8 #1 [fast]",
+      "tag": "🇫🇮 FI | VLESS | @ehsawn8 #1 [medium]",
       "server": "132.243.223.227",
       "server_port": 2101,
       "uuid": "2edfd299-fd54-4056-9d79-3c99f19bdae1",
@@ -133,6 +135,32 @@
         "headers": {
           "Host": "play.google.com"
         }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 FI | VLESS | @red2ray #1 [fast]",
+      "server": "freeman.cvbesty.ir",
+      "server_port": 10210,
+      "uuid": "80c17f6f-4fbb-4055-b2b5-9f46ce00dd80",
+      "network": "grpc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "doctor-yab.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "twRm8a1BBdz2Q5jTuNbXxA7ZdtDPAyQNEycDYkW9DFc",
+          "short_id": "13121b7150ad7fc6"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc"
       }
     },
     {
