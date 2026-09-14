@@ -50,7 +50,6 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇷 BR | VLESS | @hope_net #1 [fast]",
         "🇧🇷 BR | VLESS | @netfreedom0 #1 [medium]",
         "direct"
       ],
@@ -60,30 +59,12 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇷 BR | VLESS | @hope_net #1 [fast]",
         "🇧🇷 BR | VLESS | @netfreedom0 #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
       "tolerance": 50,
       "idle_timeout": "30m"
-    },
-    {
-      "type": "vless",
-      "tag": "🇧🇷 BR | VLESS | @hope_net #1 [fast]",
-      "server": "185.133.35.36",
-      "server_port": 443,
-      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "kkd.ylks.link"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      }
     },
     {
       "type": "vless",
