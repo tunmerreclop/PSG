@@ -57,7 +57,7 @@
         "🇮🇷 IR | VLESS | @lax_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
         "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
-        "🇮🇷 IR | VLESS | @red2ray #1 [fast]",
+        "🇮🇷 IR | VLESS | @red2ray #1 [medium]",
         "🇮🇷 IR | VLESS | @netmellianti #1 [fast]",
         "🇮🇷 IR | VMESS | @NamiraConfigs #1 [medium]",
         "🇮🇷 IR | VLESS | @NamiraConfigs #1 [fast]",
@@ -81,7 +81,7 @@
         "🇮🇷 IR | VLESS | @lax_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
         "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
-        "🇮🇷 IR | VLESS | @red2ray #1 [fast]",
+        "🇮🇷 IR | VLESS | @red2ray #1 [medium]",
         "🇮🇷 IR | VLESS | @netmellianti #1 [fast]",
         "🇮🇷 IR | VMESS | @NamiraConfigs #1 [medium]",
         "🇮🇷 IR | VLESS | @NamiraConfigs #1 [fast]",
@@ -205,17 +205,23 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 IR | VLESS | @red2ray #1 [fast]",
-      "server": "snapp.ir",
-      "server_port": 8080,
-      "uuid": "a93ac77b-72a2-4549-a23d-57da06867633",
-      "network": "ws",
+      "tag": "🇮🇷 IR | VLESS | @red2ray #1 [medium]",
+      "server": "g1.haxat.bestvbest.ir",
+      "server_port": 20610,
+      "uuid": "80c17f6f-4fbb-4055-b2b5-9f46ce00dd80",
+      "network": "tcp",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "ga.v-duravex.ir"
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn-apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "lcXIrYi2o8yXrYHR321qQ--5lqVT8a6TKbaGpYTq4CI",
+          "short_id": "1d1a8f9fefeff5e6"
         }
       }
     },
