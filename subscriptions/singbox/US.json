@@ -52,6 +52,7 @@
         "auto",
         "🇺🇸 US | VLESS | @prrofile_purple #1 [fast]",
         "🇺🇸 US | VLESS | @prrofile_purple #2 [fast]",
+        "🇺🇸 US | VLESS | @prrofile_purple #3 [fast]",
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
         "🇺🇸 US | VMESS | @freev2rays #1 [fast]",
         "🇺🇸 US | VLESS | @bored_vpn #1 [fast]",
@@ -62,6 +63,7 @@
         "🇺🇸 US | VLESS | @bored_vpn #6 [fast]",
         "🇺🇸 US | VLESS | @free4allvpn #1 [fast]",
         "🇺🇸 US | SS | @mtproxy22_v2ray #1 [fast]",
+        "🇺🇸 US | VLESS | @red2ray #1 [fast]",
         "🇺🇸 US | VLESS | @jiedianf #1 [fast]",
         "🇺🇸 US | VLESS | @jiedianf #2 [fast]",
         "🇺🇸 US | VLESS | @jokerv2ray #1 [fast]",
@@ -80,7 +82,7 @@
         "🇺🇸 US | VLESS | @iranvipnet #4 [fast]",
         "🇺🇸 US | VLESS | @iranvipnet #5 [fast]",
         "🇺🇸 US | SS | @netfreedom0 #1 [fast]",
-        "🇺🇸 US | HY2 | @netfreedom0 #1 [medium]",
+        "🇺🇸 US | HY2 | @netfreedom0 #1 [fast]",
         "🇺🇸 US | VLESS | @minovpnch #1 [fast]",
         "🇺🇸 US | VLESS | @minovpnch #2 [fast]",
         "🇺🇸 US | VLESS | @garnet_free #1 [fast]",
@@ -110,6 +112,7 @@
       "outbounds": [
         "🇺🇸 US | VLESS | @prrofile_purple #1 [fast]",
         "🇺🇸 US | VLESS | @prrofile_purple #2 [fast]",
+        "🇺🇸 US | VLESS | @prrofile_purple #3 [fast]",
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
         "🇺🇸 US | VMESS | @freev2rays #1 [fast]",
         "🇺🇸 US | VLESS | @bored_vpn #1 [fast]",
@@ -120,6 +123,7 @@
         "🇺🇸 US | VLESS | @bored_vpn #6 [fast]",
         "🇺🇸 US | VLESS | @free4allvpn #1 [fast]",
         "🇺🇸 US | SS | @mtproxy22_v2ray #1 [fast]",
+        "🇺🇸 US | VLESS | @red2ray #1 [fast]",
         "🇺🇸 US | VLESS | @jiedianf #1 [fast]",
         "🇺🇸 US | VLESS | @jiedianf #2 [fast]",
         "🇺🇸 US | VLESS | @jokerv2ray #1 [fast]",
@@ -138,7 +142,7 @@
         "🇺🇸 US | VLESS | @iranvipnet #4 [fast]",
         "🇺🇸 US | VLESS | @iranvipnet #5 [fast]",
         "🇺🇸 US | SS | @netfreedom0 #1 [fast]",
-        "🇺🇸 US | HY2 | @netfreedom0 #1 [medium]",
+        "🇺🇸 US | HY2 | @netfreedom0 #1 [fast]",
         "🇺🇸 US | VLESS | @minovpnch #1 [fast]",
         "🇺🇸 US | VLESS | @minovpnch #2 [fast]",
         "🇺🇸 US | VLESS | @garnet_free #1 [fast]",
@@ -167,6 +171,33 @@
     {
       "type": "vless",
       "tag": "🇺🇸 US | VLESS | @prrofile_purple #1 [fast]",
+      "server": "69.46.46.30",
+      "server_port": 443,
+      "uuid": "930cfa02-05f0-4a38-3f6b-cdbe2fa59e78",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "rvg-production-4a7f.up.railway.app",
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws/930cfa02-05f0-4a38-3f6b-cdbe2fa59e78",
+        "headers": {
+          "Host": "rvg-production-4a7f.up.railway.app"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @prrofile_purple #2 [fast]",
       "server": "199.232.78.159",
       "server_port": 443,
       "uuid": "06f99c33-f12e-4249-8da6-d0fb00609afd",
@@ -186,7 +217,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @prrofile_purple #2 [fast]",
+      "tag": "🇺🇸 US | VLESS | @prrofile_purple #3 [fast]",
       "server": "69.46.46.20",
       "server_port": 443,
       "uuid": "5f505e1f-3dd7-a1f1-94d2-c1bee24cb28d",
@@ -425,6 +456,22 @@
       "network": "tcp",
       "tls": {
         "enabled": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @red2ray #1 [fast]",
+      "server": "199.232.78.159",
+      "server_port": 80,
+      "uuid": "1eccf0b8-b7a6-4169-88f8-c83a89fec448",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "BlackGod.global.ssl.fastly.net"
+        }
       }
     },
     {
@@ -780,7 +827,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇺🇸 US | HY2 | @netfreedom0 #1 [medium]",
+      "tag": "🇺🇸 US | HY2 | @netfreedom0 #1 [fast]",
       "server": "2.27.249.79",
       "server_port": 443,
       "password": "cd74c0a406664a5bc0bac098220a2468",
