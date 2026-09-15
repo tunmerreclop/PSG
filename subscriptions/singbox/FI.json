@@ -52,7 +52,6 @@
         "auto",
         "🇫🇮 FI | VLESS | @ehsawn8 #1 [fast]",
         "🇫🇮 FI | VLESS | @mimitdl #1 [fast]",
-        "🇫🇮 FI | VLESS | @red2ray #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -62,8 +61,7 @@
       "tag": "auto",
       "outbounds": [
         "🇫🇮 FI | VLESS | @ehsawn8 #1 [fast]",
-        "🇫🇮 FI | VLESS | @mimitdl #1 [fast]",
-        "🇫🇮 FI | VLESS | @red2ray #1 [fast]"
+        "🇫🇮 FI | VLESS | @mimitdl #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -104,29 +102,6 @@
         "path": "/?ed=1024",
         "headers": {
           "Host": "play.google.com"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 FI | VLESS | @red2ray #1 [fast]",
-      "server": "64.188.80.82",
-      "server_port": 443,
-      "uuid": "d6b59299-2f48-4e9b-9130-b9e9cb5d0a51",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "fi1.hat.onl",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "V3uMWEfDQAPFP6o5ED8Jtk0rJBPs7IlOLf_Wh8w_jXc",
-          "short_id": "76132b3b39704c44"
         }
       }
     },

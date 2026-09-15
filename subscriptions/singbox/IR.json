@@ -63,11 +63,12 @@
         "🇮🇷 IR | VLESS | @netmellianti #4 [fast]",
         "🇮🇷 IR | VMESS | @NamiraConfigs #1 [fast]",
         "🇮🇷 IR | VLESS | @NamiraConfigs #1 [fast]",
+        "🇮🇷 IR | VLESS | @NamiraConfigs #2 [medium]",
         "🇮🇷 IR | SS | @sobi_vpn #1 [fast]",
         "🇮🇷 IR | VMESS | @khoneproxy #1 [fast]",
         "🇮🇷 IR | VLESS | @nn_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @lemonshopvpn #1 [fast]",
-        "🇮🇷 IR | VLESS | @realvpnmaster #1 [fast]",
+        "🇮🇷 IR | VLESS | @realvpnmaster #1 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -89,11 +90,12 @@
         "🇮🇷 IR | VLESS | @netmellianti #4 [fast]",
         "🇮🇷 IR | VMESS | @NamiraConfigs #1 [fast]",
         "🇮🇷 IR | VLESS | @NamiraConfigs #1 [fast]",
+        "🇮🇷 IR | VLESS | @NamiraConfigs #2 [medium]",
         "🇮🇷 IR | SS | @sobi_vpn #1 [fast]",
         "🇮🇷 IR | VMESS | @khoneproxy #1 [fast]",
         "🇮🇷 IR | VLESS | @nn_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @lemonshopvpn #1 [fast]",
-        "🇮🇷 IR | VLESS | @realvpnmaster #1 [fast]"
+        "🇮🇷 IR | VLESS | @realvpnmaster #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -309,6 +311,20 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇮🇷 IR | VLESS | @NamiraConfigs #2 [medium]",
+      "server": "a.samrayan.ir",
+      "server_port": 443,
+      "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.samrayan.ir"
+      }
+    },
+    {
       "type": "shadowsocks",
       "tag": "🇮🇷 IR | SS | @sobi_vpn #1 [fast]",
       "server": "tt.hsrdnr.ir",
@@ -383,7 +399,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 IR | VLESS | @realvpnmaster #1 [fast]",
+      "tag": "🇮🇷 IR | VLESS | @realvpnmaster #1 [medium]",
       "server": "zula.ir",
       "server_port": 80,
       "uuid": "19f935c2-4c92-4b8a-b024-3e378f396255",
