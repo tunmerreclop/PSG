@@ -55,12 +55,13 @@
         "KingRezaPahlavi",
         "🇳🇴 NO | VLESS | @orange_vpns #1 [fast]",
         "🇳🇱 NL | VLESS | @orange_vpns #1 [fast]",
-        "🇪🇪 EE | VLESS | @netmellianti #1 [fast]",
+        "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
+        "🇮🇷 IR | VLESS | @netmellianti #1 [medium]",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
-        "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
-        "🇩🇪 DE | VLESS | @nepo_v2ray #1 [fast]",
+        "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]",
+        "🇩🇪 DE | VLESS | @nepo_v2ray #1 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -74,12 +75,13 @@
         "KingRezaPahlavi",
         "🇳🇴 NO | VLESS | @orange_vpns #1 [fast]",
         "🇳🇱 NL | VLESS | @orange_vpns #1 [fast]",
-        "🇪🇪 EE | VLESS | @netmellianti #1 [fast]",
+        "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
+        "🇮🇷 IR | VLESS | @netmellianti #1 [medium]",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
-        "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
-        "🇩🇪 DE | VLESS | @nepo_v2ray #1 [fast]"
+        "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]",
+        "🇩🇪 DE | VLESS | @nepo_v2ray #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -169,24 +171,46 @@
     },
     {
       "type": "vless",
-      "tag": "🇪🇪 EE | VLESS | @netmellianti #1 [fast]",
-      "server": "185.155.55.10",
-      "server_port": 8443,
-      "uuid": "42d932cb-8768-41de-b57b-299252a493d2",
+      "tag": "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
+      "server": "179.254.115.225",
+      "server_port": 443,
+      "uuid": "becd3b04-62a8-4b74-be67-be746008b4c2",
       "flow": "xtls-rprx-vision",
       "network": "tcp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "ee-nf.reddotcorp.org",
+        "server_name": "de-astra.grani-gaming.shop",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,
-          "public_key": "ApMfbcEyBOve6DxXoBNVu3bCCzQ7XCEYB4ummsDtTBE",
-          "short_id": "661766b2bcef440a"
+          "public_key": "BjBzyn84HIjjpV94XxyY9pcvYtEhD-aGnOI7mnzgpD4",
+          "short_id": "f1c3e7a9d4b06285"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇷 IR | VLESS | @netmellianti #1 [medium]",
+      "server": "94.183.210.20",
+      "server_port": 2087,
+      "uuid": "ae80f2ed-7ec9-4b44-94e3-68745d6b0b9e",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "varzesh3.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "u6EUTgU4vTMmeki0jPNIwXOoURwAQS9RoV6i9-xxXmc",
+          "short_id": "8655c06d530b1fd3"
         }
       }
     },
@@ -260,7 +284,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
+      "tag": "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]",
       "server": "95.179.138.190",
       "server_port": 443,
       "uuid": "telegram-id-qeshmserver",
@@ -282,7 +306,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @nepo_v2ray #1 [fast]",
+      "tag": "🇩🇪 DE | VLESS | @nepo_v2ray #1 [medium]",
       "server": "49.13.27.100",
       "server_port": 443,
       "uuid": "5f8c9ef2-d6a5-4ef2-bc68-eeef97f6b6af",
