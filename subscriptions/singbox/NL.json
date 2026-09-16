@@ -53,10 +53,12 @@
         "🇳🇱 NL | VLESS | @orange_vpns #1 [fast]",
         "🇳🇱 NL | VLESS | @orange_vpns #2 [fast]",
         "🇳🇱 NL | SS | @easy_free_vpn #1 [fast]",
-        "🇳🇱 NL | VLESS | @prrofile_purple #1 [fast]",
+        "🇳🇱 NL | VLESS | @prrofile_purple #1 [slow]",
         "🇳🇱 NL | VLESS | @outline_ir #1 [fast]",
+        "🇳🇱 NL | VLESS | @outline_ir #2 [fast]",
         "🇳🇱 NL | VLESS | @outlinereleasedkey #2 [fast]",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1 [fast]",
+        "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
         "🇳🇱 NL | SS | @netfreedom0 #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
         "direct"
@@ -70,10 +72,12 @@
         "🇳🇱 NL | VLESS | @orange_vpns #1 [fast]",
         "🇳🇱 NL | VLESS | @orange_vpns #2 [fast]",
         "🇳🇱 NL | SS | @easy_free_vpn #1 [fast]",
-        "🇳🇱 NL | VLESS | @prrofile_purple #1 [fast]",
+        "🇳🇱 NL | VLESS | @prrofile_purple #1 [slow]",
         "🇳🇱 NL | VLESS | @outline_ir #1 [fast]",
+        "🇳🇱 NL | VLESS | @outline_ir #2 [fast]",
         "🇳🇱 NL | VLESS | @outlinereleasedkey #2 [fast]",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1 [fast]",
+        "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
         "🇳🇱 NL | SS | @netfreedom0 #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]"
       ],
@@ -141,7 +145,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 NL | VLESS | @prrofile_purple #1 [fast]",
+      "tag": "🇳🇱 NL | VLESS | @prrofile_purple #1 [slow]",
       "server": "dey.lnmarketplace.net",
       "server_port": 443,
       "uuid": "3536e1fa-0850-44d1-b123-925ce12476cf",
@@ -184,6 +188,29 @@
     },
     {
       "type": "vless",
+      "tag": "🇳🇱 NL | VLESS | @outline_ir #2 [fast]",
+      "server": "84.32.186.112",
+      "server_port": 443,
+      "uuid": "01a21e01-6098-4c3b-a6fd-1a04d64d0c7f",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "api37.betust.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "naFxXMoZGp3dHSEMiupvt7FsYtnxONkSN90c2JLWl38",
+          "short_id": "974acf45"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇳🇱 NL | VLESS | @outlinereleasedkey #2 [fast]",
       "server": "193.57.9.120",
       "server_port": 443,
@@ -221,6 +248,29 @@
           "enabled": true,
           "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
           "short_id": "01"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
+      "server": "89.124.94.83",
+      "server_port": 40443,
+      "uuid": "0eea2d4c-9bde-40a7-bf57-3d5a9a8caeab",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "deepl.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "i63mOV0i35u-2VR7mpaVC0XML1dS7s6XmzAlff50Eic",
+          "short_id": "ec70d3b2b6298ba1"
         }
       }
     },
