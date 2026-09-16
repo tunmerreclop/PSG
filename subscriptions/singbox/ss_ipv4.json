@@ -55,6 +55,8 @@
         "KingRezaPahlavi",
         "🇳🇱 NL | SS | @easy_free_vpn #1 [fast]",
         "🇬🇧 GB | SS | @father_vpn #1 [fast]",
+        "🇨🇦 CA | SS | @outlinereleasedkey #1 [fast]",
+        "🇵🇱 PL | SS | @outlinereleasedkey #1 [medium]",
         "🇬🇧 GB | SS | @beshkan #1 [fast]",
         "🇬🇧 GB | SS | @beshkan #2 [fast]",
         "🇬🇧 GB | SS | @beshkan #3 [fast]",
@@ -64,12 +66,9 @@
         "🇬🇧 GB | SS | @mtproxy22_v2ray #1 [fast]",
         "🇺🇸 US | SS | @mtproxy22_v2ray #1 [fast]",
         "🇰🇿 KZ | SS | @configv2rayforfree #1 [medium]",
-        "🇺🇸 US | SS | @outline_ir #1 [fast]",
-        "🇨🇦 CA | SS | @outlinereleasedkey #1 [fast]",
-        "🇵🇱 PL | SS | @outlinereleasedkey #1 [fast]",
         "🇺🇸 US | SS | @netfreedom0 #1 [fast]",
         "🇳🇱 NL | SS | @netfreedom0 #1 [fast]",
-        "🇱🇹 LT | SS | @netfreedom0 #1 [fast]",
+        "🇱🇹 LT | SS | @netfreedom0 #1 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -83,6 +82,8 @@
         "KingRezaPahlavi",
         "🇳🇱 NL | SS | @easy_free_vpn #1 [fast]",
         "🇬🇧 GB | SS | @father_vpn #1 [fast]",
+        "🇨🇦 CA | SS | @outlinereleasedkey #1 [fast]",
+        "🇵🇱 PL | SS | @outlinereleasedkey #1 [medium]",
         "🇬🇧 GB | SS | @beshkan #1 [fast]",
         "🇬🇧 GB | SS | @beshkan #2 [fast]",
         "🇬🇧 GB | SS | @beshkan #3 [fast]",
@@ -92,12 +93,9 @@
         "🇬🇧 GB | SS | @mtproxy22_v2ray #1 [fast]",
         "🇺🇸 US | SS | @mtproxy22_v2ray #1 [fast]",
         "🇰🇿 KZ | SS | @configv2rayforfree #1 [medium]",
-        "🇺🇸 US | SS | @outline_ir #1 [fast]",
-        "🇨🇦 CA | SS | @outlinereleasedkey #1 [fast]",
-        "🇵🇱 PL | SS | @outlinereleasedkey #1 [fast]",
         "🇺🇸 US | SS | @netfreedom0 #1 [fast]",
         "🇳🇱 NL | SS | @netfreedom0 #1 [fast]",
-        "🇱🇹 LT | SS | @netfreedom0 #1 [fast]"
+        "🇱🇹 LT | SS | @netfreedom0 #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -162,6 +160,30 @@
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
       "password": "k1dBOmOB4oqi7Ump37a1bQ",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇦 CA | SS | @outlinereleasedkey #1 [fast]",
+      "server": "51.222.200.165",
+      "server_port": 5000,
+      "method": "aes-256-gcm",
+      "password": "Y6R9pAtvxxzmGC",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 PL | SS | @outlinereleasedkey #1 [medium]",
+      "server": "217.30.10.44",
+      "server_port": 9076,
+      "method": "aes-256-cfb",
+      "password": "S2zDyyPcmZN2h8EC",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -277,42 +299,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇺🇸 US | SS | @outline_ir #1 [fast]",
-      "server": "15.204.246.107",
-      "server_port": 8888,
-      "method": "aes-256-gcm",
-      "password": "Y6R9pAtvxxzmGC",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 CA | SS | @outlinereleasedkey #1 [fast]",
-      "server": "51.222.200.165",
-      "server_port": 5000,
-      "method": "aes-256-gcm",
-      "password": "Y6R9pAtvxxzmGC",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 PL | SS | @outlinereleasedkey #1 [fast]",
-      "server": "217.30.10.44",
-      "server_port": 9076,
-      "method": "aes-256-cfb",
-      "password": "S2zDyyPcmZN2h8EC",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
-    },
-    {
-      "type": "shadowsocks",
       "tag": "🇺🇸 US | SS | @netfreedom0 #1 [fast]",
       "server": "108.181.0.177",
       "server_port": 8388,
@@ -337,7 +323,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇱🇹 LT | SS | @netfreedom0 #1 [fast]",
+      "tag": "🇱🇹 LT | SS | @netfreedom0 #1 [medium]",
       "server": "195.238.126.20",
       "server_port": 9008,
       "method": "aes-256-cfb",
