@@ -54,6 +54,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇧🇬 BG | VLESS | @outline_ir #2 [fast]",
+        "🇲🇩 MD | VLESS | @outline_ir #1 [fast]",
         "🇸🇨 SC | VLESS | @orange_vpns #1 [fast]",
         "🇷🇺 RU | VLESS | @nofiltering2 #1 [fast]",
         "🇫🇮 FI | VLESS | @flyv2ray #1 [fast]",
@@ -69,6 +70,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇧🇬 BG | VLESS | @outline_ir #2 [fast]",
+        "🇲🇩 MD | VLESS | @outline_ir #1 [fast]",
         "🇸🇨 SC | VLESS | @orange_vpns #1 [fast]",
         "🇷🇺 RU | VLESS | @nofiltering2 #1 [fast]",
         "🇫🇮 FI | VLESS | @flyv2ray #1 [fast]"
@@ -140,6 +142,32 @@
       "transport": {
         "type": "grpc",
         "service_name": "gw.v2.RelayService"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇲🇩 MD | VLESS | @outline_ir #1 [fast]",
+      "server": "md1.univesalsrv.com",
+      "server_port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "network": "grpc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "md1.univesalsrv.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "xWejOQUn2koOUorUPSrHMLM-lyHlZ441KzxKc9bLmkY",
+          "short_id": "221ba6174224ca5b"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "hub.v1.RelayService"
       }
     },
     {
