@@ -50,8 +50,8 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇺 AU | VLESS | @hope_net #1 [fast]",
         "🇦🇺 AU | VLESS | @red2ray #1 [fast]",
+        "🇦🇺 AU | VMESS | @serverv2ray00 #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -60,30 +60,13 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇺 AU | VLESS | @hope_net #1 [fast]",
-        "🇦🇺 AU | VLESS | @red2ray #1 [fast]"
+        "🇦🇺 AU | VLESS | @red2ray #1 [fast]",
+        "🇦🇺 AU | VMESS | @serverv2ray00 #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
       "tolerance": 50,
       "idle_timeout": "30m"
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇺 AU | VLESS | @hope_net #1 [fast]",
-      "server": "192.65.217.57",
-      "server_port": 443,
-      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "cfed.tgzdyz2.top"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "tg@zdyz2"
-      }
     },
     {
       "type": "vless",
@@ -105,6 +88,30 @@
           "enabled": true,
           "public_key": "RHLiKldLu3DONcQoX4Kjs7Xmd2K25ndVbw4pwxe45XE",
           "short_id": "e6a5a4a9115456de"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇦🇺 AU | VMESS | @serverv2ray00 #1 [fast]",
+      "server": "162.159.135.79",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "network": "ws",
+      "packet_encoding": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "janett.click"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws",
+        "headers": {
+          "Host": "janett.click"
         }
       }
     },
