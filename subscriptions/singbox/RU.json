@@ -50,10 +50,10 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇷🇺 RU | VLESS | @outline_ir #1 [medium]",
-        "🇷🇺 RU | VLESS | @orange_vpns #1 [medium]",
+        "🇷🇺 RU | VLESS | @orange_vpns #1 [fast]",
         "🇷🇺 RU | VLESS | @nofiltering2 #1 [fast]",
-        "🇷🇺 RU | SS | @flyv2ray #1 [medium]",
+        "🇷🇺 RU | SS | @flyv2ray #1 [fast]",
+        "🇷🇺 RU | VLESS | @red2ray #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -62,10 +62,10 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇺 RU | VLESS | @outline_ir #1 [medium]",
-        "🇷🇺 RU | VLESS | @orange_vpns #1 [medium]",
+        "🇷🇺 RU | VLESS | @orange_vpns #1 [fast]",
         "🇷🇺 RU | VLESS | @nofiltering2 #1 [fast]",
-        "🇷🇺 RU | SS | @flyv2ray #1 [medium]"
+        "🇷🇺 RU | SS | @flyv2ray #1 [fast]",
+        "🇷🇺 RU | VLESS | @red2ray #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -74,30 +74,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @outline_ir #1 [medium]",
-      "server": "tgfree.rush-server.com",
-      "server_port": 443,
-      "uuid": "ebd1c0d6-7ff4-4b9f-8692-237517a27a64",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "anyfile2file.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0",
-          "short_id": "64c1fe36c7846400"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @orange_vpns #1 [medium]",
+      "tag": "🇷🇺 RU | VLESS | @orange_vpns #1 [fast]",
       "server": "31.184.219.147",
       "server_port": 9894,
       "uuid": "5d16ac22-6eea-426f-b778-6f4c2961faef",
@@ -146,7 +123,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇷🇺 RU | SS | @flyv2ray #1 [medium]",
+      "tag": "🇷🇺 RU | SS | @flyv2ray #1 [fast]",
       "server": "130.49.189.158",
       "server_port": 43558,
       "method": "chacha20-ietf-poly1305",
@@ -155,6 +132,15 @@
       "tls": {
         "enabled": true
       }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 RU | VLESS | @red2ray #1 [fast]",
+      "server": "xn--swe-dw33b.netbazshop.ir",
+      "server_port": 33017,
+      "uuid": "361451c5-245e-46d8-b13e-d206c4f0536b",
+      "network": "tcp",
+      "packet_encoding": "xudp"
     },
     {
       "type": "direct",

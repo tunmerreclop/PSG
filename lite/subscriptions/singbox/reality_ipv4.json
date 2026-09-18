@@ -54,14 +54,11 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇳🇱 NL | VLESS | @orange_vpns #1 [fast]",
-        "🇺🇸 US | VLESS | @flyv2ray #1 [fast]",
-        "🇦🇹 AT | VLESS | @outlinereleasedkey #1 [medium]",
-        "🇬🇧 GB | VLESS | @filtershekan_channel #1 [medium]",
+        "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1 [fast]",
-        "🇲🇩 MD | VLESS | @mtproxy22_v2ray #1 [medium]",
-        "🇷🇸 RS | VLESS | @red2ray #1 [medium]",
+        "🇲🇩 MD | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
-        "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]",
+        "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
         "🇩🇪 DE | VLESS | @nepo_v2ray #1 [medium]",
         "direct"
       ],
@@ -75,14 +72,11 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇳🇱 NL | VLESS | @orange_vpns #1 [fast]",
-        "🇺🇸 US | VLESS | @flyv2ray #1 [fast]",
-        "🇦🇹 AT | VLESS | @outlinereleasedkey #1 [medium]",
-        "🇬🇧 GB | VLESS | @filtershekan_channel #1 [medium]",
+        "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1 [fast]",
-        "🇲🇩 MD | VLESS | @mtproxy22_v2ray #1 [medium]",
-        "🇷🇸 RS | VLESS | @red2ray #1 [medium]",
+        "🇲🇩 MD | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
-        "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]",
+        "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
         "🇩🇪 DE | VLESS | @nepo_v2ray #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
@@ -157,50 +151,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @flyv2ray #1 [fast]",
-      "server": "80.91.79.136",
-      "server_port": 443,
-      "uuid": "807cd1e0-f4ce-4785-b7a3-cde0c1614b8d",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.logitech.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "g9uQwtqcqsPvzqQy2hM4rpvTIGXRQSAt-MAgHpz_gCI",
-          "short_id": "0b0bf0590fb9c138"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇹 AT | VLESS | @outlinereleasedkey #1 [medium]",
-      "server": "152.53.1.40",
-      "server_port": 443,
-      "uuid": "edde565e-41f5-400e-84ea-7b87a3e84488",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "at.quattro-tech.ru",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc",
-          "short_id": "43dcff53849b81e6"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 GB | VLESS | @filtershekan_channel #1 [medium]",
+      "tag": "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
       "server": "3.9.135.156",
       "server_port": 51847,
       "uuid": "391a01e9-b664-407b-9158-610fab3f5920",
@@ -246,7 +197,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇲🇩 MD | VLESS | @mtproxy22_v2ray #1 [medium]",
+      "tag": "🇲🇩 MD | VLESS | @mtproxy22_v2ray #1 [fast]",
       "server": "89.35.14.30",
       "server_port": 443,
       "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
@@ -268,32 +219,6 @@
       "transport": {
         "type": "grpc",
         "service_name": "hub.v1.RelayService"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇸 RS | VLESS | @red2ray #1 [medium]",
-      "server": "150.40.126.24",
-      "server_port": 443,
-      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
-      "network": "grpc",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "rs5.univesalsrv.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE",
-          "short_id": "4872856d5489c37d"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "gw.v1.ObjectService"
       }
     },
     {
@@ -320,7 +245,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]",
+      "tag": "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
       "server": "95.179.138.190",
       "server_port": 443,
       "uuid": "telegram-id-qeshmserver",
