@@ -50,10 +50,9 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇩 MD | VLESS | @outline_ir #1 [medium]",
+        "🇲🇩 MD | VLESS | @outline_ir #1 [fast]",
         "🇲🇩 MD | VLESS | @nofiltering2 #1 [medium]",
-        "🇲🇩 MD | VLESS | @free1_vpn #1 [medium]",
-        "🇲🇩 MD | VLESS | @mtproxy22_v2ray #1 [medium]",
+        "🇲🇩 MD | VLESS | @mtproxy22_v2ray #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -62,10 +61,9 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇩 MD | VLESS | @outline_ir #1 [medium]",
+        "🇲🇩 MD | VLESS | @outline_ir #1 [fast]",
         "🇲🇩 MD | VLESS | @nofiltering2 #1 [medium]",
-        "🇲🇩 MD | VLESS | @free1_vpn #1 [medium]",
-        "🇲🇩 MD | VLESS | @mtproxy22_v2ray #1 [medium]"
+        "🇲🇩 MD | VLESS | @mtproxy22_v2ray #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -74,7 +72,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇲🇩 MD | VLESS | @outline_ir #1 [medium]",
+      "tag": "🇲🇩 MD | VLESS | @outline_ir #1 [fast]",
       "server": "md1.univesalsrv.com",
       "server_port": 443,
       "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
@@ -126,30 +124,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇲🇩 MD | VLESS | @free1_vpn #1 [medium]",
-      "server": "94.103.2.251",
-      "server_port": 443,
-      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "io.ozone.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "a8huhMB5qb3Q0zYwG1QzPjSDTrXufkZMlADT-_EMPhc",
-          "short_id": "00000000"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇲🇩 MD | VLESS | @mtproxy22_v2ray #1 [medium]",
+      "tag": "🇲🇩 MD | VLESS | @mtproxy22_v2ray #1 [fast]",
       "server": "89.35.14.30",
       "server_port": 443,
       "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
