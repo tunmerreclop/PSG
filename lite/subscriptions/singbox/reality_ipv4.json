@@ -54,10 +54,12 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
+        "🇷🇺 RU | VLESS | @free1_vpn #1 [fast]",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
-        "🇳🇱 NL | VLESS | @filtershekan_channel #1 [medium]",
+        "🇳🇱 NL | VLESS | @filtershekan_channel #1 [fast]",
         "🇲🇩 MD | VLESS | @mtproxy22_v2ray #1 [medium]",
-        "🇦🇱 AL | VLESS | @orange_vpns #1 [medium]",
+        "🇱🇹 LT | VLESS | @red2ray #1 [fast]",
+        "🇦🇱 AL | VLESS | @orange_vpns #1 [fast]",
         "🇧🇷 BR | VLESS | @netfreedom0 #1 [medium]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]",
@@ -74,10 +76,12 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
+        "🇷🇺 RU | VLESS | @free1_vpn #1 [fast]",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
-        "🇳🇱 NL | VLESS | @filtershekan_channel #1 [medium]",
+        "🇳🇱 NL | VLESS | @filtershekan_channel #1 [fast]",
         "🇲🇩 MD | VLESS | @mtproxy22_v2ray #1 [medium]",
-        "🇦🇱 AL | VLESS | @orange_vpns #1 [medium]",
+        "🇱🇹 LT | VLESS | @red2ray #1 [fast]",
+        "🇦🇱 AL | VLESS | @orange_vpns #1 [fast]",
         "🇧🇷 BR | VLESS | @netfreedom0 #1 [medium]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]",
@@ -152,6 +156,29 @@
     },
     {
       "type": "vless",
+      "tag": "🇷🇺 RU | VLESS | @free1_vpn #1 [fast]",
+      "server": "193.233.91.200",
+      "server_port": 443,
+      "uuid": "f211f0aa-db73-49f2-b2cd-5be20c034f36",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.callibri.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "yCKV2xr725jI0sFhm4KbttKl8b9UZrnQTXxZLN2S4BM",
+          "short_id": "a284"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
       "server": "3.9.135.156",
       "server_port": 51847,
@@ -175,7 +202,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 NL | VLESS | @filtershekan_channel #1 [medium]",
+      "tag": "🇳🇱 NL | VLESS | @filtershekan_channel #1 [fast]",
       "server": "51.158.206.80",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -224,7 +251,30 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 AL | VLESS | @orange_vpns #1 [medium]",
+      "tag": "🇱🇹 LT | VLESS | @red2ray #1 [fast]",
+      "server": "103.139.51.21",
+      "server_port": 443,
+      "uuid": "71b91642-93ed-4923-8cab-877e19bfc2d6",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "auth.figmafound.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "H5CXI4RvEWW0TFPvFrnF1iX-05Y57ZYMMngjmkMfv24",
+          "short_id": "711ad7f475c35e5e"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇱 AL | VLESS | @orange_vpns #1 [fast]",
       "server": "144.31.131.38",
       "server_port": 443,
       "uuid": "adc11f30-e4cb-4985-bf5e-f9ded69c019f",
