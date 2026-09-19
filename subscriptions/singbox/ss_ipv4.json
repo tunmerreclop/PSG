@@ -68,9 +68,9 @@
         "🇬🇧 GB | SS | @free4allvpn #1 [fast]",
         "🇺🇸 US | SS | @mtproxy22_v2ray #1 [fast]",
         "🇰🇿 KZ | SS | @configv2rayforfree #1 [medium]",
-        "🇺🇸 US | SS | @netfreedom0 #1 [fast]",
         "🇳🇱 NL | SS | @netfreedom0 #1 [fast]",
         "🇱🇹 LT | SS | @netfreedom0 #1 [fast]",
+        "🇮🇹 IT | SS | @netfreedom0 #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -97,9 +97,9 @@
         "🇬🇧 GB | SS | @free4allvpn #1 [fast]",
         "🇺🇸 US | SS | @mtproxy22_v2ray #1 [fast]",
         "🇰🇿 KZ | SS | @configv2rayforfree #1 [medium]",
-        "🇺🇸 US | SS | @netfreedom0 #1 [fast]",
         "🇳🇱 NL | SS | @netfreedom0 #1 [fast]",
-        "🇱🇹 LT | SS | @netfreedom0 #1 [fast]"
+        "🇱🇹 LT | SS | @netfreedom0 #1 [fast]",
+        "🇮🇹 IT | SS | @netfreedom0 #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -327,18 +327,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇺🇸 US | SS | @netfreedom0 #1 [fast]",
-      "server": "108.181.0.177",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "G5p6ww4o67HB",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
-    },
-    {
-      "type": "shadowsocks",
       "tag": "🇳🇱 NL | SS | @netfreedom0 #1 [fast]",
       "server": "109.201.152.181",
       "server_port": 443,
@@ -356,6 +344,18 @@
       "server_port": 9008,
       "method": "aes-256-cfb",
       "password": "y9VURyNzJWNRYEGQ",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇮🇹 IT | SS | @netfreedom0 #1 [fast]",
+      "server": "91.201.65.122",
+      "server_port": 9059,
+      "method": "aes-256-cfb",
+      "password": "9XwYyZsK8SNzQDtY",
       "network": "tcp",
       "tls": {
         "enabled": true

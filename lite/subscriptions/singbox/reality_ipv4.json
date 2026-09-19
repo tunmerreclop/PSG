@@ -53,13 +53,14 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇳🇱 NL | VLESS | @orange_vpns #1 [fast]",
+        "🇺🇸 US | VLESS | @flyv2ray #1 [fast]",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1 [fast]",
         "🇲🇩 MD | VLESS | @mtproxy22_v2ray #1 [fast]",
+        "🇧🇷 BR | VLESS | @netfreedom0 #1 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
-        "🇩🇪 DE | VLESS | @nepo_v2ray #1 [medium]",
+        "🇩🇪 DE | VLESS | @nepo_v2ray #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -71,13 +72,14 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇳🇱 NL | VLESS | @orange_vpns #1 [fast]",
+        "🇺🇸 US | VLESS | @flyv2ray #1 [fast]",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1 [fast]",
         "🇲🇩 MD | VLESS | @mtproxy22_v2ray #1 [fast]",
+        "🇧🇷 BR | VLESS | @netfreedom0 #1 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
-        "🇩🇪 DE | VLESS | @nepo_v2ray #1 [medium]"
+        "🇩🇪 DE | VLESS | @nepo_v2ray #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -125,28 +127,21 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 NL | VLESS | @orange_vpns #1 [fast]",
-      "server": "31.56.184.132",
-      "server_port": 8443,
-      "uuid": "11f21602-47aa-42e2-9149-69120f2e6df6",
-      "network": "grpc",
+      "tag": "🇺🇸 US | VLESS | @flyv2ray #1 [fast]",
+      "server": "80.91.79.136",
+      "server_port": 443,
+      "uuid": "807cd1e0-f4ce-4785-b7a3-cde0c1614b8d",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
+        "server_name": "www.logitech.com",
         "reality": {
           "enabled": true,
-          "public_key": "bzbe7QdD633ew_Er1_YWEhuCEHWurmDpxpz3fRzXr0A",
-          "short_id": "b4e3b0b55b8dc75b"
+          "public_key": "g9uQwtqcqsPvzqQy2hM4rpvTIGXRQSAt-MAgHpz_gCI",
+          "short_id": "0b0bf0590fb9c138"
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "shiforgrpc"
       }
     },
     {
@@ -223,6 +218,29 @@
     },
     {
       "type": "vless",
+      "tag": "🇧🇷 BR | VLESS | @netfreedom0 #1 [fast]",
+      "server": "23.251.55.216",
+      "server_port": 443,
+      "uuid": "c396fa08-e07a-459b-b894-389456fd6a82",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.amazon.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "m89wjPa2LxODyi8U5pRVI4E1fwVawIaftC3fLY0ZLw4",
+          "short_id": "9ea177c3c147119b"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
       "server": "147.182.183.207",
       "server_port": 443,
@@ -267,7 +285,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @nepo_v2ray #1 [medium]",
+      "tag": "🇩🇪 DE | VLESS | @nepo_v2ray #1 [fast]",
       "server": "49.13.27.100",
       "server_port": 443,
       "uuid": "5f8c9ef2-d6a5-4ef2-bc68-eeef97f6b6af",
