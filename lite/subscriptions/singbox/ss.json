@@ -59,6 +59,7 @@
         "🇷🇺 RU | SS | @flyv2ray #1 [fast]",
         "🇬🇧 GB | SS | @beshkan #1 [fast]",
         "🇬🇧 GB | SS | @beshkan #2 [fast]",
+        "🇺🇸 US | SS | @mtproxy22_v2ray #1 [fast]",
         "🇰🇿 KZ | SS | @configv2rayforfree #1 [medium]",
         "🇳🇱 NL | SS | @netfreedom0 #1 [fast]",
         "🇮🇷 IR | SS | @sobi_vpn #1 [fast]",
@@ -79,6 +80,7 @@
         "🇷🇺 RU | SS | @flyv2ray #1 [fast]",
         "🇬🇧 GB | SS | @beshkan #1 [fast]",
         "🇬🇧 GB | SS | @beshkan #2 [fast]",
+        "🇺🇸 US | SS | @mtproxy22_v2ray #1 [fast]",
         "🇰🇿 KZ | SS | @configv2rayforfree #1 [medium]",
         "🇳🇱 NL | SS | @netfreedom0 #1 [fast]",
         "🇮🇷 IR | SS | @sobi_vpn #1 [fast]"
@@ -194,6 +196,18 @@
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
       "password": "k1dBOmOB4oqi7Ump37a1bQ",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 US | SS | @mtproxy22_v2ray #1 [fast]",
+      "server": "37.19.198.236",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks",
       "network": "tcp",
       "tls": {
         "enabled": true
