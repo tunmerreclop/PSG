@@ -51,7 +51,6 @@
       "outbounds": [
         "auto",
         "🇽🇽 XX | VLESS | @outline_ir #1 [fast]",
-        "🇽🇽 XX | VLESS | @outline_ir #2 [fast]",
         "🇽🇽 XX | VLESS | @prrofile_purple #1 [fast]",
         "🇽🇽 XX | VLESS | @prrofile_purple #2 [fast]",
         "🇽🇽 XX | VLESS | @prrofile_purple #3 [fast]",
@@ -98,6 +97,7 @@
         "🇽🇽 XX | VLESS | @ai_duet #1 [fast]",
         "🇽🇽 XX | VLESS | @ai_duet #2 [fast]",
         "🇽🇽 XX | VLESS | @ai_duet #3 [fast]",
+        "🇽🇽 XX | VLESS | @ai_duet #4 [fast]",
         "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @free4allvpn #2 [fast]",
         "🇽🇽 XX | VLESS | @miov2ray #1 [fast]",
@@ -113,7 +113,6 @@
         "🇽🇽 XX | VLESS | @iran_access #5 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #6 [fast]",
         "🇽🇽 XX | VLESS | @grizzlyvpn #1 [fast]",
-        "🇽🇽 XX | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VMESS | @iranvpnet #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #2 [fast]",
@@ -207,7 +206,6 @@
       "tag": "auto",
       "outbounds": [
         "🇽🇽 XX | VLESS | @outline_ir #1 [fast]",
-        "🇽🇽 XX | VLESS | @outline_ir #2 [fast]",
         "🇽🇽 XX | VLESS | @prrofile_purple #1 [fast]",
         "🇽🇽 XX | VLESS | @prrofile_purple #2 [fast]",
         "🇽🇽 XX | VLESS | @prrofile_purple #3 [fast]",
@@ -254,6 +252,7 @@
         "🇽🇽 XX | VLESS | @ai_duet #1 [fast]",
         "🇽🇽 XX | VLESS | @ai_duet #2 [fast]",
         "🇽🇽 XX | VLESS | @ai_duet #3 [fast]",
+        "🇽🇽 XX | VLESS | @ai_duet #4 [fast]",
         "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @free4allvpn #2 [fast]",
         "🇽🇽 XX | VLESS | @miov2ray #1 [fast]",
@@ -269,7 +268,6 @@
         "🇽🇽 XX | VLESS | @iran_access #5 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #6 [fast]",
         "🇽🇽 XX | VLESS | @grizzlyvpn #1 [fast]",
-        "🇽🇽 XX | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VMESS | @iranvpnet #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #2 [fast]",
@@ -382,19 +380,6 @@
         "headers": {
           "Host": "ger.chalghooz.com"
         }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇽🇽 XX | VLESS | @outline_ir #2 [fast]",
-      "server": "darsadgir.ir",
-      "server_port": 443,
-      "uuid": "b6621c85-2b69-42e0-8067-8823659bdcb5",
-      "network": "xhttp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "map.imisstheoldye.com"
       }
     },
     {
@@ -1290,6 +1275,30 @@
     },
     {
       "type": "vless",
+      "tag": "🇽🇽 XX | VLESS | @ai_duet #4 [fast]",
+      "server": "141.101.115.71",
+      "server_port": 8443,
+      "uuid": "e8c61352-444f-4154-ba34-9d3141154a8d",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "maple.adaspoloandco.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/uploader.php",
+        "headers": {
+          "Host": "maple.adaspoloandco.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
       "server": "norman.ns.cloudflare.com",
       "server_port": 443,
@@ -1590,30 +1599,6 @@
         "path": "/",
         "headers": {
           "Host": "sni.jpmj.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇽🇽 XX | VLESS | @red2ray #1 [fast]",
-      "server": "172.67.140.160",
-      "server_port": 443,
-      "uuid": "1aa96574-c28b-4ee9-855d-ebdbbf1f7e90",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "5-stAtic-ImG-m13.xDC.ccWu.cC",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ED3ZQPu7lqyeDGD58KabZ",
-        "headers": {
-          "Host": "5-StATIc-iMG-M13.xdC.CCwU.Cc"
         }
       }
     },

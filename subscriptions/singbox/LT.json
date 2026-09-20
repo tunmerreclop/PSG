@@ -73,7 +73,7 @@
     {
       "type": "vless",
       "tag": "🇱🇹 LT | VLESS | @red2ray #1 [fast]",
-      "server": "103.139.51.21",
+      "server": "cloud.figmafound.org",
       "server_port": 443,
       "uuid": "71b91642-93ed-4923-8cab-877e19bfc2d6",
       "flow": "xtls-rprx-vision",
@@ -81,10 +81,10 @@
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "auth.figmafound.org",
+        "server_name": "cloud.figmafound.org",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -96,7 +96,7 @@
     {
       "type": "vless",
       "tag": "🇱🇹 LT | VLESS | @red2ray #2 [fast]",
-      "server": "cloud.figmafound.org",
+      "server": "auth.figmafound.org",
       "server_port": 443,
       "uuid": "71b91642-93ed-4923-8cab-877e19bfc2d6",
       "flow": "xtls-rprx-vision",
@@ -104,7 +104,7 @@
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "cloud.figmafound.org",
+        "server_name": "auth.figmafound.org",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
