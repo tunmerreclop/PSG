@@ -51,6 +51,7 @@
       "outbounds": [
         "auto",
         "🇺🇸 US | SS | @outline_ir #1 [fast]",
+        "🇺🇸 US | VLESS | @outline_ir #1 [fast]",
         "🇺🇸 US | VLESS | @orange_vpns #1 [fast]",
         "🇺🇸 US | VLESS | @mehrosaboran #1 [fast]",
         "🇺🇸 US | VLESS | @mehrosaboran #2 [fast]",
@@ -67,6 +68,7 @@
         "🇺🇸 US | VLESS | @netmellianti #1 [fast]",
         "🇺🇸 US | VLESS | @netmellianti #2 [fast]",
         "🇺🇸 US | VLESS | @netmellianti #3 [fast]",
+        "🇺🇸 US | VLESS | @beshkan #1 [fast]",
         "🇺🇸 US | VLESS | @free4allvpn #1 [fast]",
         "🇺🇸 US | SS | @mtproxy22_v2ray #1 [fast]",
         "🇺🇸 US | VLESS | @mtproxy22_v2ray #1 [fast]",
@@ -115,6 +117,7 @@
       "tag": "auto",
       "outbounds": [
         "🇺🇸 US | SS | @outline_ir #1 [fast]",
+        "🇺🇸 US | VLESS | @outline_ir #1 [fast]",
         "🇺🇸 US | VLESS | @orange_vpns #1 [fast]",
         "🇺🇸 US | VLESS | @mehrosaboran #1 [fast]",
         "🇺🇸 US | VLESS | @mehrosaboran #2 [fast]",
@@ -131,6 +134,7 @@
         "🇺🇸 US | VLESS | @netmellianti #1 [fast]",
         "🇺🇸 US | VLESS | @netmellianti #2 [fast]",
         "🇺🇸 US | VLESS | @netmellianti #3 [fast]",
+        "🇺🇸 US | VLESS | @beshkan #1 [fast]",
         "🇺🇸 US | VLESS | @free4allvpn #1 [fast]",
         "🇺🇸 US | SS | @mtproxy22_v2ray #1 [fast]",
         "🇺🇸 US | VLESS | @mtproxy22_v2ray #1 [fast]",
@@ -190,6 +194,28 @@
     },
     {
       "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @outline_ir #1 [fast]",
+      "server": "31.57.46.193",
+      "server_port": 44119,
+      "uuid": "6112679e-7c59-43ca-af39-cdeeb59093a6",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "goo.gl",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "TQFjK_jO3yKVLsYWvDw_6_RZd1Z6Nj5DwT_JlrsA9CI",
+          "short_id": "dfdfecb2ec56bf"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇺🇸 US | VLESS | @orange_vpns #1 [fast]",
       "server": "144.31.242.69",
       "server_port": 443,
@@ -216,33 +242,6 @@
       "tag": "🇺🇸 US | VLESS | @mehrosaboran #1 [fast]",
       "server": "199.232.78.170",
       "server_port": 443,
-      "uuid": "XpnTeam-21",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "ssl.fastly.com",
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "Appxdn.global.ssl.fastly.net"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @mehrosaboran #2 [fast]",
-      "server": "199.232.78.170",
-      "server_port": 443,
       "uuid": "XpnTeam-23",
       "network": "ws",
       "packet_encoding": "xudp",
@@ -267,7 +266,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @mehrosaboran #3 [fast]",
+      "tag": "🇺🇸 US | VLESS | @mehrosaboran #2 [fast]",
       "server": "31.76.101.16",
       "server_port": 443,
       "uuid": "d6b59299-2f48-4e9b-9130-b9e9cb5d0a51",
@@ -290,7 +289,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @mehrosaboran #4 [fast]",
+      "tag": "🇺🇸 US | VLESS | @mehrosaboran #3 [fast]",
       "server": "199.232.78.170",
       "server_port": 443,
       "uuid": "XpnTeam-1",
@@ -317,10 +316,37 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @mehrosaboran #5 [fast]",
+      "tag": "🇺🇸 US | VLESS | @mehrosaboran #4 [fast]",
       "server": "199.232.78.170",
       "server_port": 443,
       "uuid": "XpnTeam-3",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "ssl.fastly.com",
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "Appxdn.global.ssl.fastly.net"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @mehrosaboran #5 [fast]",
+      "server": "199.232.78.170",
+      "server_port": 443,
+      "uuid": "XpnTeam-6",
       "network": "ws",
       "packet_encoding": "xudp",
       "tls": {
@@ -539,6 +565,29 @@
       "uuid": "b742d8e7-ed7d-4f7d-bb16-bf49bdb4cb44",
       "network": "xhttp",
       "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @beshkan #1 [fast]",
+      "server": "de5.edge-9d7c.com",
+      "server_port": 443,
+      "uuid": "ddf09ad0-02dc-485b-9048-1038de5bebf0",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "de5.edge-9d7c.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "qoAuuFJ0eK1lAMHIqTt6LniY6qu1GIobrGthBcRHUXM",
+          "short_id": "9d84de9d9f7b85e9"
+        }
+      }
     },
     {
       "type": "vless",
