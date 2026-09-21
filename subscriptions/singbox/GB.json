@@ -50,9 +50,10 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇬🇧 GB | SS | @father_vpn #1 [medium]",
-        "🇬🇧 GB | SS | @beshkan #1 [medium]",
-        "🇬🇧 GB | VLESS | @filtershekan_channel #1 [medium]",
+        "🇬🇧 GB | SS | @father_vpn #1 [fast]",
+        "🇬🇧 GB | SS | @beshkan #1 [fast]",
+        "🇬🇧 GB | SS | @free4allvpn #1 [fast]",
+        "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -61,9 +62,10 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇬🇧 GB | SS | @father_vpn #1 [medium]",
-        "🇬🇧 GB | SS | @beshkan #1 [medium]",
-        "🇬🇧 GB | VLESS | @filtershekan_channel #1 [medium]"
+        "🇬🇧 GB | SS | @father_vpn #1 [fast]",
+        "🇬🇧 GB | SS | @beshkan #1 [fast]",
+        "🇬🇧 GB | SS | @free4allvpn #1 [fast]",
+        "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -72,7 +74,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇬🇧 GB | SS | @father_vpn #1 [medium]",
+      "tag": "🇬🇧 GB | SS | @father_vpn #1 [fast]",
       "server": "82.38.31.176",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
@@ -84,7 +86,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇬🇧 GB | SS | @beshkan #1 [medium]",
+      "tag": "🇬🇧 GB | SS | @beshkan #1 [fast]",
       "server": "82.38.31.192",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
@@ -95,8 +97,20 @@
       }
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇬🇧 GB | SS | @free4allvpn #1 [fast]",
+      "server": "82.38.31.205",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
       "type": "vless",
-      "tag": "🇬🇧 GB | VLESS | @filtershekan_channel #1 [medium]",
+      "tag": "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
       "server": "3.9.135.156",
       "server_port": 51847,
       "uuid": "391a01e9-b664-407b-9158-610fab3f5920",
