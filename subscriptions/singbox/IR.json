@@ -53,9 +53,8 @@
         "🇮🇷 IR | VLESS | @config_proxy #1 [fast]",
         "🇮🇷 IR | VLESS | @config_proxy #2 [fast]",
         "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
-        "🇮🇷 IR | VLESS | @netmellianti #1 [medium]",
-        "🇮🇷 IR | VLESS | @netmellianti #2 [medium]",
-        "🇮🇷 IR | VLESS | @netmellianti #3 [fast]",
+        "🇮🇷 IR | VLESS | @netmellianti #1 [fast]",
+        "🇮🇷 IR | VLESS | @netmellianti #2 [fast]",
         "🇮🇷 IR | VLESS | @mpproxy #1 [fast]",
         "🇮🇷 IR | VLESS | @lax_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
@@ -79,9 +78,8 @@
         "🇮🇷 IR | VLESS | @config_proxy #1 [fast]",
         "🇮🇷 IR | VLESS | @config_proxy #2 [fast]",
         "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
-        "🇮🇷 IR | VLESS | @netmellianti #1 [medium]",
-        "🇮🇷 IR | VLESS | @netmellianti #2 [medium]",
-        "🇮🇷 IR | VLESS | @netmellianti #3 [fast]",
+        "🇮🇷 IR | VLESS | @netmellianti #1 [fast]",
+        "🇮🇷 IR | VLESS | @netmellianti #2 [fast]",
         "🇮🇷 IR | VLESS | @mpproxy #1 [fast]",
         "🇮🇷 IR | VLESS | @lax_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
@@ -136,42 +134,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 IR | VLESS | @netmellianti #1 [medium]",
-      "server": "81.12.35.185",
-      "server_port": 5003,
-      "uuid": "5fae84b3-9f6f-439f-a25a-26716acdd3a5",
-      "network": "xhttp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "afr-data-16.myket.ir",
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ]
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷 IR | VLESS | @netmellianti #2 [medium]",
-      "server": "185.215.231.58",
-      "server_port": 5001,
-      "uuid": "5fae84b3-9f6f-439f-a25a-26716acdd3a5",
-      "network": "xhttp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "afr-data-16.myket.ir",
-        "alpn": [
-          "h3",
-          "h2",
-          "http/1.1"
-        ]
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷 IR | VLESS | @netmellianti #3 [fast]",
+      "tag": "🇮🇷 IR | VLESS | @netmellianti #1 [fast]",
       "server": "snapp.ir",
       "server_port": 80,
       "uuid": "5b7fbdcd-411d-451f-bd70-ffa93efbddb0",
@@ -182,6 +145,22 @@
         "path": "/",
         "headers": {
           "Host": "www.netmanb1.ir"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇷 IR | VLESS | @netmellianti #2 [fast]",
+      "server": "185.143.234.238",
+      "server_port": 80,
+      "uuid": "0aa8a7cd-eb08-4fa6-a277-c9d95282d4e6",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/pgcfws-r4",
+        "headers": {
+          "Host": "uu.caroptions.ir"
         }
       }
     },
