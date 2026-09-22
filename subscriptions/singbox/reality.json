@@ -53,8 +53,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇹🇷 TR | VLESS | @outline_ir #1 [medium]",
-        "🇺🇸 US | VLESS | @outline_ir #1 [fast]",
+        "🇹🇷 TR | VLESS | @outline_ir #1 [slow]",
+        "🇦🇪 AE | VLESS | @outline_ir #1 [fast]",
         "🇦🇱 AL | VLESS | @orange_vpns #1 [fast]",
         "🇺🇸 US | VLESS | @orange_vpns #1 [fast]",
         "🇵🇱 PL | VLESS | @orange_vpns #1 [fast]",
@@ -70,7 +70,7 @@
         "🇷🇴 RO | VLESS | @outlinereleasedkey #1 [fast]",
         "🇦🇹 AT | VLESS | @outlinereleasedkey #1 [fast]",
         "🇫🇷 FR | VLESS | @outlinereleasedkey #1 [fast]",
-        "🇪🇪 EE | VLESS | @free1_vpn #1 [medium]",
+        "🇪🇪 EE | VLESS | @free1_vpn #1 [fast]",
         "🇩🇪 DE | VLESS | @netmellianti #1 [fast]",
         "🇺🇸 US | VLESS | @netmellianti #3 [fast]",
         "🇩🇪 DE | VLESS | @netmellianti #2 [fast]",
@@ -82,7 +82,6 @@
         "🇺🇸 US | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇲🇩 MD | VLESS | @nofiltering2 #1 [medium]",
         "🇳🇱 NL | VLESS | @bored_vpn #1 [fast]",
-        "🇷🇺 RU | VLESS | @red2ray #1 [medium]",
         "🇧🇷 BR | VLESS | @netfreedom0 #1 [medium]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]",
@@ -100,8 +99,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇹🇷 TR | VLESS | @outline_ir #1 [medium]",
-        "🇺🇸 US | VLESS | @outline_ir #1 [fast]",
+        "🇹🇷 TR | VLESS | @outline_ir #1 [slow]",
+        "🇦🇪 AE | VLESS | @outline_ir #1 [fast]",
         "🇦🇱 AL | VLESS | @orange_vpns #1 [fast]",
         "🇺🇸 US | VLESS | @orange_vpns #1 [fast]",
         "🇵🇱 PL | VLESS | @orange_vpns #1 [fast]",
@@ -117,7 +116,7 @@
         "🇷🇴 RO | VLESS | @outlinereleasedkey #1 [fast]",
         "🇦🇹 AT | VLESS | @outlinereleasedkey #1 [fast]",
         "🇫🇷 FR | VLESS | @outlinereleasedkey #1 [fast]",
-        "🇪🇪 EE | VLESS | @free1_vpn #1 [medium]",
+        "🇪🇪 EE | VLESS | @free1_vpn #1 [fast]",
         "🇩🇪 DE | VLESS | @netmellianti #1 [fast]",
         "🇺🇸 US | VLESS | @netmellianti #3 [fast]",
         "🇩🇪 DE | VLESS | @netmellianti #2 [fast]",
@@ -129,7 +128,6 @@
         "🇺🇸 US | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇲🇩 MD | VLESS | @nofiltering2 #1 [medium]",
         "🇳🇱 NL | VLESS | @bored_vpn #1 [fast]",
-        "🇷🇺 RU | VLESS | @red2ray #1 [medium]",
         "🇧🇷 BR | VLESS | @netfreedom0 #1 [medium]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]",
@@ -183,7 +181,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 TR | VLESS | @outline_ir #1 [medium]",
+      "tag": "🇹🇷 TR | VLESS | @outline_ir #1 [slow]",
       "server": "194.93.63.246",
       "server_port": 443,
       "uuid": "c5694dc5-39fd-4a92-8430-3837baa522a3",
@@ -206,23 +204,24 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @outline_ir #1 [fast]",
-      "server": "31.57.46.193",
-      "server_port": 44119,
-      "uuid": "6112679e-7c59-43ca-af39-cdeeb59093a6",
-      "network": "xhttp",
+      "tag": "🇦🇪 AE | VLESS | @outline_ir #1 [fast]",
+      "server": "31.57.18.56",
+      "server_port": 443,
+      "uuid": "4f8a1d19-4d21-47f5-816e-a8f475fbd3f7",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "goo.gl",
+        "server_name": "srv-waw.kintecolas.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "TQFjK_jO3yKVLsYWvDw_6_RZd1Z6Nj5DwT_JlrsA9CI",
-          "short_id": "dfdfecb2ec56bf"
+          "public_key": "qPgl3LmKAKs5K-KzGNRJyr5KTO0KoRNN5m2PTCMscXU",
+          "short_id": "22f534c530d37170"
         }
       }
     },
@@ -566,7 +565,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇪🇪 EE | VLESS | @free1_vpn #1 [medium]",
+      "tag": "🇪🇪 EE | VLESS | @free1_vpn #1 [fast]",
       "server": "132.243.65.161",
       "server_port": 443,
       "uuid": "4d08aa81-f729-4857-a2e9-06e48b8b9556",
@@ -842,29 +841,6 @@
       "transport": {
         "type": "grpc",
         "service_name": "BookCatalog"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @red2ray #1 [medium]",
-      "server": "159.194.217.26",
-      "server_port": 443,
-      "uuid": "e48e4377-1f29-485b-80d4-85fd4fa27bfa",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.siemens.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "APL7UqMEGSeIQNe4evUy3gdFRnTD_l3UMtgTcIfh2XY",
-          "short_id": "babcbe551bde8268"
-        }
       }
     },
     {
