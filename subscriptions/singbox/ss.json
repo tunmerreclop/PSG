@@ -53,23 +53,23 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇺🇸 US | SS | @outline_ir #1 [fast]",
         "🇨🇦 CA | SS | @outline_ir #1 [fast]",
         "🇳🇱 NL | SS | @easy_free_vpn #1 [fast]",
-        "🇬🇧 GB | SS | @father_vpn #1 [fast]",
-        "🇷🇺 RU | SS | @flyv2ray #1 [fast]",
+        "🇬🇧 GB | SS | @father_vpn #1 [medium]",
         "🇳🇱 NL | SS | @outlinereleasedkey #1 [fast]",
         "🇺🇸 US | SS | @outlinereleasedkey #1 [fast]",
+        "🇬🇧 GB | SS | @outlinereleasedkey #1 [medium]",
         "🇬🇧 GB | SS | @free4allvpn #1 [fast]",
         "🇺🇸 US | SS | @mtproxy22_v2ray #1 [fast]",
-        "🇳🇱 NL | SS | @mtproxy22_v2ray #1 [fast]",
+        "🇳🇱 NL | SS | @mtproxy22_v2ray #1 [medium]",
         "🇰🇿 KZ | SS | @configv2rayforfree #1 [medium]",
-        "🇰🇷 KR | SS | @red2ray #1 [medium]",
+        "🇩🇪 DE | SS | @red2ray #1 [medium]",
         "🇺🇸 US | SS | @netfreedom0 #1 [fast]",
-        "🇳🇱 NL | SS | @netfreedom0 #1 [fast]",
-        "🇱🇹 LT | SS | @netfreedom0 #1 [fast]",
-        "🇮🇹 IT | SS | @netfreedom0 #1 [fast]",
-        "🇩🇪 DE | SS | @orange_vpns #1 [fast]",
-        "🇮🇷 IR | SS | @sobi_vpn #1 [fast]",
+        "🇱🇹 LT | SS | @netfreedom0 #1 [medium]",
+        "🇮🇹 IT | SS | @netfreedom0 #1 [medium]",
+        "🇮🇹 IT | SS | @netfreedom0 #2 [medium]",
+        "🇮🇷 IR | SS | @sobi_vpn #1 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -81,23 +81,23 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇺🇸 US | SS | @outline_ir #1 [fast]",
         "🇨🇦 CA | SS | @outline_ir #1 [fast]",
         "🇳🇱 NL | SS | @easy_free_vpn #1 [fast]",
-        "🇬🇧 GB | SS | @father_vpn #1 [fast]",
-        "🇷🇺 RU | SS | @flyv2ray #1 [fast]",
+        "🇬🇧 GB | SS | @father_vpn #1 [medium]",
         "🇳🇱 NL | SS | @outlinereleasedkey #1 [fast]",
         "🇺🇸 US | SS | @outlinereleasedkey #1 [fast]",
+        "🇬🇧 GB | SS | @outlinereleasedkey #1 [medium]",
         "🇬🇧 GB | SS | @free4allvpn #1 [fast]",
         "🇺🇸 US | SS | @mtproxy22_v2ray #1 [fast]",
-        "🇳🇱 NL | SS | @mtproxy22_v2ray #1 [fast]",
+        "🇳🇱 NL | SS | @mtproxy22_v2ray #1 [medium]",
         "🇰🇿 KZ | SS | @configv2rayforfree #1 [medium]",
-        "🇰🇷 KR | SS | @red2ray #1 [medium]",
+        "🇩🇪 DE | SS | @red2ray #1 [medium]",
         "🇺🇸 US | SS | @netfreedom0 #1 [fast]",
-        "🇳🇱 NL | SS | @netfreedom0 #1 [fast]",
-        "🇱🇹 LT | SS | @netfreedom0 #1 [fast]",
-        "🇮🇹 IT | SS | @netfreedom0 #1 [fast]",
-        "🇩🇪 DE | SS | @orange_vpns #1 [fast]",
-        "🇮🇷 IR | SS | @sobi_vpn #1 [fast]"
+        "🇱🇹 LT | SS | @netfreedom0 #1 [medium]",
+        "🇮🇹 IT | SS | @netfreedom0 #1 [medium]",
+        "🇮🇹 IT | SS | @netfreedom0 #2 [medium]",
+        "🇮🇷 IR | SS | @sobi_vpn #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -145,6 +145,18 @@
     },
     {
       "type": "shadowsocks",
+      "tag": "🇺🇸 US | SS | @outline_ir #1 [fast]",
+      "server": "156.146.38.167",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "shadowsocks",
       "tag": "🇨🇦 CA | SS | @outline_ir #1 [fast]",
       "server": "51.79.85.185",
       "server_port": 8118,
@@ -169,23 +181,11 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇬🇧 GB | SS | @father_vpn #1 [fast]",
+      "tag": "🇬🇧 GB | SS | @father_vpn #1 [medium]",
       "server": "82.38.31.176",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
       "password": "k1dBOmOB4oqi7Ump37a1bQ",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇷🇺 RU | SS | @flyv2ray #1 [fast]",
-      "server": "130.49.189.158",
-      "server_port": 43558,
-      "method": "chacha20-ietf-poly1305",
-      "password": "/QFycb02d87cByC9+5ZRSygI1avHiPXkgYG2yc+TnGA=",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -217,6 +217,18 @@
     },
     {
       "type": "shadowsocks",
+      "tag": "🇬🇧 GB | SS | @outlinereleasedkey #1 [medium]",
+      "server": "82.38.31.175",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "shadowsocks",
       "tag": "🇬🇧 GB | SS | @free4allvpn #1 [fast]",
       "server": "82.38.31.205",
       "server_port": 8080,
@@ -241,7 +253,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇳🇱 NL | SS | @mtproxy22_v2ray #1 [fast]",
+      "tag": "🇳🇱 NL | SS | @mtproxy22_v2ray #1 [medium]",
       "server": "193.29.139.204",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
@@ -265,11 +277,11 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇰🇷 KR | SS | @red2ray #1 [medium]",
-      "server": "141.164.45.187",
-      "server_port": 2376,
-      "method": "aes-256-gcm",
-      "password": "faBAoD54k87UJG7",
+      "tag": "🇩🇪 DE | SS | @red2ray #1 [medium]",
+      "server": "3.121.219.170",
+      "server_port": 489,
+      "method": "chacha20-ietf-poly1305",
+      "password": "9b10c9a65f0b4e77be3998c4a591cf25",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -289,19 +301,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇳🇱 NL | SS | @netfreedom0 #1 [fast]",
-      "server": "109.201.152.181",
-      "server_port": 443,
-      "method": "aes-128-cfb",
-      "password": "shadowsocks",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇱🇹 LT | SS | @netfreedom0 #1 [fast]",
+      "tag": "🇱🇹 LT | SS | @netfreedom0 #1 [medium]",
       "server": "195.238.126.20",
       "server_port": 9008,
       "method": "aes-256-cfb",
@@ -313,7 +313,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇮🇹 IT | SS | @netfreedom0 #1 [fast]",
+      "tag": "🇮🇹 IT | SS | @netfreedom0 #1 [medium]",
       "server": "91.201.65.122",
       "server_port": 9059,
       "method": "aes-256-cfb",
@@ -325,11 +325,11 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇩🇪 DE | SS | @orange_vpns #1 [fast]",
-      "server": "web.turbooserver.net.tr",
-      "server_port": 2087,
-      "method": "2022-blake3-aes-256-gcm",
-      "password": "WAqeGA+dU+HZYSipCio+Jmt7SSVfHjwMH7j8xmsm7/s=:althddZ27iu261I+568pk7HZzBFDCyIx6pvG8H9oXow=",
+      "tag": "🇮🇹 IT | SS | @netfreedom0 #2 [medium]",
+      "server": "91.201.65.122",
+      "server_port": 9092,
+      "method": "aes-256-cfb",
+      "password": "TyNkGmp9hs6eGpDK",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -337,7 +337,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇮🇷 IR | SS | @sobi_vpn #1 [fast]",
+      "tag": "🇮🇷 IR | SS | @sobi_vpn #1 [medium]",
       "server": "tt.hsrdnr.ir",
       "server_port": 2044,
       "method": "chacha20-ietf-poly1305",
