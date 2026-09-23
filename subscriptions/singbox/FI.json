@@ -50,8 +50,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇫🇮 FI | VLESS | @orange_vpns #1 [medium]",
-        "🇫🇮 FI | VLESS | @ehsawn8 #1 [medium]",
+        "🇫🇮 FI | VLESS | @ehsawn8 #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -60,8 +59,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @orange_vpns #1 [medium]",
-        "🇫🇮 FI | VLESS | @ehsawn8 #1 [medium]"
+        "🇫🇮 FI | VLESS | @ehsawn8 #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -70,30 +68,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 FI | VLESS | @orange_vpns #1 [medium]",
-      "server": "95.217.24.119",
-      "server_port": 2087,
-      "uuid": "ddc0bc7e-04c6-4ff9-9adb-c68c71606e8f",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "62.238.103.54",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "_FKzdndiMfCSU5YLVXSBqzk2lIG0W2-DauFpos684Uc",
-          "short_id": "e9fae729e40ae07e"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 FI | VLESS | @ehsawn8 #1 [medium]",
+      "tag": "🇫🇮 FI | VLESS | @ehsawn8 #1 [fast]",
       "server": "132.243.223.227",
       "server_port": 2101,
       "uuid": "2edfd299-fd54-4056-9d79-3c99f19bdae1",
