@@ -54,10 +54,13 @@
         "🇮🇷 IR | VLESS | @config_proxy #2 [fast]",
         "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @netmellianti #1 [fast]",
-        "🇮🇷 IR | VLESS | @mpproxy #1 [slow]",
+        "🇮🇷 IR | VLESS | @mpproxy #1 [fast]",
         "🇮🇷 IR | VLESS | @lax_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
         "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
+        "🇮🇷 IR | SS | @red2ray #1 [fast]",
+        "🇮🇷 IR | SS | @red2ray #2 [medium]",
+        "🇮🇷 IR | SS | @red2ray #3 [fast]",
         "🇮🇷 IR | VMESS | @NamiraConfigs #1 [fast]",
         "🇮🇷 IR | VLESS | @NamiraConfigs #1 [fast]",
         "🇮🇷 IR | VLESS | @NamiraConfigs #2 [fast]",
@@ -78,10 +81,13 @@
         "🇮🇷 IR | VLESS | @config_proxy #2 [fast]",
         "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @netmellianti #1 [fast]",
-        "🇮🇷 IR | VLESS | @mpproxy #1 [slow]",
+        "🇮🇷 IR | VLESS | @mpproxy #1 [fast]",
         "🇮🇷 IR | VLESS | @lax_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
         "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
+        "🇮🇷 IR | SS | @red2ray #1 [fast]",
+        "🇮🇷 IR | SS | @red2ray #2 [medium]",
+        "🇮🇷 IR | SS | @red2ray #3 [fast]",
         "🇮🇷 IR | VMESS | @NamiraConfigs #1 [fast]",
         "🇮🇷 IR | VLESS | @NamiraConfigs #1 [fast]",
         "🇮🇷 IR | VLESS | @NamiraConfigs #2 [fast]",
@@ -148,7 +154,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 IR | VLESS | @mpproxy #1 [slow]",
+      "tag": "🇮🇷 IR | VLESS | @mpproxy #1 [fast]",
       "server": "abr.superip.ir",
       "server_port": 2052,
       "uuid": "061da3a1-0b8a-4abe-a739-8b33ae5519c4",
@@ -217,6 +223,42 @@
         "headers": {
           "Host": "biA.ALlhub.LTD"
         }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇮🇷 IR | SS | @red2ray #1 [fast]",
+      "server": "p1tun3.greewebservices.ir",
+      "server_port": 2070,
+      "method": "chacha20-ietf-poly1305",
+      "password": "LMnotcv4RdaEOBXT-LdtfA",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇮🇷 IR | SS | @red2ray #2 [medium]",
+      "server": "p1tun4.greewebservices.ir",
+      "server_port": 1080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "LMnotcv4RdaEOBXT-LdtfA",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇮🇷 IR | SS | @red2ray #3 [fast]",
+      "server": "p1tun2.greewebservices.ir",
+      "server_port": 2060,
+      "method": "chacha20-ietf-poly1305",
+      "password": "LMnotcv4RdaEOBXT-LdtfA",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
       }
     },
     {

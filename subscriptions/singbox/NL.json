@@ -54,7 +54,6 @@
         "🇳🇱 NL | VLESS | @flyv2ray #1 [fast]",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1 [fast]",
         "🇳🇱 NL | SS | @mtproxy22_v2ray #1 [fast]",
-        "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
         "direct"
       ],
@@ -68,7 +67,6 @@
         "🇳🇱 NL | VLESS | @flyv2ray #1 [fast]",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1 [fast]",
         "🇳🇱 NL | SS | @mtproxy22_v2ray #1 [fast]",
-        "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
@@ -147,30 +145,6 @@
       "network": "tcp",
       "tls": {
         "enabled": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
-      "server": "45.148.62.113",
-      "server_port": 443,
-      "uuid": "c18b978e-1c4e-415c-8bea-07942b563a64",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "shuma.ccwu.cc",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "shuma.ccwu.cc"
-        }
       }
     },
     {

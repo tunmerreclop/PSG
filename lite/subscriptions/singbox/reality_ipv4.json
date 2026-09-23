@@ -57,15 +57,15 @@
         "🇵🇱 PL | VLESS | @orange_vpns #1 [fast]",
         "🇳🇱 NL | VLESS | @flyv2ray #1 [fast]",
         "🇩🇪 DE | VLESS | @flyv2ray #1 [fast]",
-        "🇪🇪 EE | VLESS | @free1_vpn #1 [fast]",
         "🇨🇱 CL | VLESS | @beshkan #1 [fast]",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1 [fast]",
         "🇵🇱 PL | VLESS | @Proxymelimon #1 [fast]",
+        "🇵🇱 PL | VLESS | @red2ray #1 [fast]",
         "🇧🇷 BR | VLESS | @netfreedom0 #1 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
-        "🇩🇪 DE | VLESS | @nepo_v2ray #1 [fast]",
+        "🇩🇪 DE | VLESS | @nepo_v2ray #1 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -81,15 +81,15 @@
         "🇵🇱 PL | VLESS | @orange_vpns #1 [fast]",
         "🇳🇱 NL | VLESS | @flyv2ray #1 [fast]",
         "🇩🇪 DE | VLESS | @flyv2ray #1 [fast]",
-        "🇪🇪 EE | VLESS | @free1_vpn #1 [fast]",
         "🇨🇱 CL | VLESS | @beshkan #1 [fast]",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1 [fast]",
         "🇵🇱 PL | VLESS | @Proxymelimon #1 [fast]",
+        "🇵🇱 PL | VLESS | @red2ray #1 [fast]",
         "🇧🇷 BR | VLESS | @netfreedom0 #1 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
-        "🇩🇪 DE | VLESS | @nepo_v2ray #1 [fast]"
+        "🇩🇪 DE | VLESS | @nepo_v2ray #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -231,29 +231,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇪🇪 EE | VLESS | @free1_vpn #1 [fast]",
-      "server": "132.243.65.161",
-      "server_port": 443,
-      "uuid": "4d08aa81-f729-4857-a2e9-06e48b8b9556",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "ee.global-cdn.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "RO5YMxxtJmZo2w370qG-seJ41toowHPbz6i2uXJ2gG0",
-          "short_id": "7a3f9e2b1c8d4f6a"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇨🇱 CL | VLESS | @beshkan #1 [fast]",
       "server": "34.176.98.128",
       "server_port": 443,
@@ -345,6 +322,28 @@
     },
     {
       "type": "vless",
+      "tag": "🇵🇱 PL | VLESS | @red2ray #1 [fast]",
+      "server": "201.10.90.24",
+      "server_port": 2027,
+      "uuid": "a6b29052-e9ba-4714-a43c-4a660f452c44",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "2gis.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "EApxy12MeXpqt-78odxizwcXT6hX9f8XeAcbMDVRAV0",
+          "short_id": "6ba7b8109dad11d1"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇧🇷 BR | VLESS | @netfreedom0 #1 [fast]",
       "server": "23.251.55.216",
       "server_port": 443,
@@ -412,7 +411,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @nepo_v2ray #1 [fast]",
+      "tag": "🇩🇪 DE | VLESS | @nepo_v2ray #1 [medium]",
       "server": "49.13.27.100",
       "server_port": 443,
       "uuid": "5f8c9ef2-d6a5-4ef2-bc68-eeef97f6b6af",
