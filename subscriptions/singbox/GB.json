@@ -50,15 +50,17 @@
       "tag": "select",
       "outbounds": [
         "auto",
+        "🇬🇧 GB | VLESS | @outline_ir #1 [fast]",
         "🇬🇧 GB | SS | @father_vpn #1 [fast]",
         "🇬🇧 GB | SS | @outlinereleasedkey #1 [fast]",
-        "🇬🇧 GB | SS | @outlinereleasedkey #2 [fast]",
         "🇬🇧 GB | VLESS | @outlinereleasedkey #1 [fast]",
         "🇬🇧 GB | SS | @beshkan #1 [fast]",
         "🇬🇧 GB | SS | @beshkan #2 [fast]",
-        "🇬🇧 GB | SS | @free4allvpn #1 [fast]",
-        "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
-        "🇬🇧 GB | SS | @netfreedom0 #1 [fast]",
+        "🇬🇧 GB | SS | @beshkan #3 [fast]",
+        "🇬🇧 GB | SS | @free4allvpn #1 [medium]",
+        "🇬🇧 GB | VLESS | @filtershekan_channel #1 [medium]",
+        "🇬🇧 GB | VLESS | @red2ray #1 [medium]",
+        "🇬🇧 GB | SS | @netfreedom0 #1 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -67,20 +69,49 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
+        "🇬🇧 GB | VLESS | @outline_ir #1 [fast]",
         "🇬🇧 GB | SS | @father_vpn #1 [fast]",
         "🇬🇧 GB | SS | @outlinereleasedkey #1 [fast]",
-        "🇬🇧 GB | SS | @outlinereleasedkey #2 [fast]",
         "🇬🇧 GB | VLESS | @outlinereleasedkey #1 [fast]",
         "🇬🇧 GB | SS | @beshkan #1 [fast]",
         "🇬🇧 GB | SS | @beshkan #2 [fast]",
-        "🇬🇧 GB | SS | @free4allvpn #1 [fast]",
-        "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
-        "🇬🇧 GB | SS | @netfreedom0 #1 [fast]"
+        "🇬🇧 GB | SS | @beshkan #3 [fast]",
+        "🇬🇧 GB | SS | @free4allvpn #1 [medium]",
+        "🇬🇧 GB | VLESS | @filtershekan_channel #1 [medium]",
+        "🇬🇧 GB | VLESS | @red2ray #1 [medium]",
+        "🇬🇧 GB | SS | @netfreedom0 #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
       "tolerance": 50,
       "idle_timeout": "30m"
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 GB | VLESS | @outline_ir #1 [fast]",
+      "server": "uusd66.th3store.ir",
+      "server_port": 8443,
+      "uuid": "df2086c8-c706-4fe2-af07-cc5eff272a8d",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "jjsajajsjjajsjjasjajsjajsjsaj.com",
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/hjhjsahsa6sa6sa",
+        "headers": {
+          "Host": "uusd66.th3store.ir"
+        }
+      }
     },
     {
       "type": "shadowsocks",
@@ -97,18 +128,6 @@
     {
       "type": "shadowsocks",
       "tag": "🇬🇧 GB | SS | @outlinereleasedkey #1 [fast]",
-      "server": "82.38.31.184",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇬🇧 GB | SS | @outlinereleasedkey #2 [fast]",
       "server": "82.38.31.35",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
@@ -144,7 +163,7 @@
     {
       "type": "shadowsocks",
       "tag": "🇬🇧 GB | SS | @beshkan #1 [fast]",
-      "server": "82.38.31.215",
+      "server": "82.38.31.184",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
       "password": "k1dBOmOB4oqi7Ump37a1bQ",
@@ -156,6 +175,18 @@
     {
       "type": "shadowsocks",
       "tag": "🇬🇧 GB | SS | @beshkan #2 [fast]",
+      "server": "82.38.31.215",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇬🇧 GB | SS | @beshkan #3 [fast]",
       "server": "82.38.31.208",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
@@ -167,7 +198,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇬🇧 GB | SS | @free4allvpn #1 [fast]",
+      "tag": "🇬🇧 GB | SS | @free4allvpn #1 [medium]",
       "server": "82.38.31.205",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
@@ -179,7 +210,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
+      "tag": "🇬🇧 GB | VLESS | @filtershekan_channel #1 [medium]",
       "server": "3.9.135.156",
       "server_port": 51847,
       "uuid": "391a01e9-b664-407b-9158-610fab3f5920",
@@ -201,8 +232,27 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇬🇧 GB | VLESS | @red2ray #1 [medium]",
+      "server": "164.37.100.195",
+      "server_port": 443,
+      "uuid": "4bdeee92-97e8-414d-bef6-ec1d5e2ab73b",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "tomaz1337shellbuy.vvzzkontaktezzvv.garden",
+        "reality": {
+          "enabled": true,
+          "public_key": "s0ypPx0AL3k2KOk74tbm-aE-i7eIR_MYVzfLHZeLaUk",
+          "short_id": "2e124af254a65e7c"
+        }
+      }
+    },
+    {
       "type": "shadowsocks",
-      "tag": "🇬🇧 GB | SS | @netfreedom0 #1 [fast]",
+      "tag": "🇬🇧 GB | SS | @netfreedom0 #1 [medium]",
       "server": "146.70.23.32",
       "server_port": 8080,
       "method": "rc4-md5",
