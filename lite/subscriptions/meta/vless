@@ -23,6 +23,7 @@ proxies:
   - {"name": "🇽🇽 XX | VLESS | @mester_v2ray #2 [fast]", "server": "104.18.5.250", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a64f0cea-ca89-40e6-b316-b3badff1eb90", "network": "ws", "tls": true, "udp": true, "client-fingerprint": "randomized", "servername": "iSaa1.PAGeS.DeV", "ws-opts": {"path": "", "headers": {"Host": "iSAA1.paGEs.DEV"}}}
   - {"name": "🇳🇱 NL | VLESS | @flyv2ray #1 [fast]", "server": "31.56.184.132", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "11f21602-47aa-42e2-9149-69120f2e6df6", "network": "grpc", "tls": true, "udp": true, "client-fingerprint": "firefox", "servername": "cloudflare.com", "grpc-opts": {"grpc-service-name": "shiforgrpc"}, "reality-opts": {"public-key": "bzbe7QdD633ew_Er1_YWEhuCEHWurmDpxpz3fRzXr0A", "short-id": "b4e3b0b55b8dc75b"}}
   - {"name": "🇩🇪 DE | VLESS | @flyv2ray #1 [fast]", "server": "31.56.189.68", "port": 7443, "type": "vless", "skip-cert-verify": true, "uuid": "ffc3fba4-1701-43c1-8c51-31d592cf769e", "network": "xhttp", "tls": true, "udp": true, "client-fingerprint": "safari", "servername": "www.google.com", "reality-opts": {"public-key": "AVxiaQZJQcydbWDweCO7BaRSf9StppuxicgPDgou3GI", "short-id": "71e87186710e710e"}}
+  - {"name": "🇪🇪 EE | VLESS | @free1_vpn #1 [fast]", "server": "132.243.65.161", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "4d08aa81-f729-4857-a2e9-06e48b8b9556", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "safari", "flow": "xtls-rprx-vision", "servername": "ee.global-cdn.org", "reality-opts": {"public-key": "RO5YMxxtJmZo2w370qG-seJ41toowHPbz6i2uXJ2gG0", "short-id": "7a3f9e2b1c8d4f6a"}}
   - {"name": "🇺🇸 US | VLESS | @netmellianti #1 [fast]", "server": "23.235.33.98", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "b742d8e7-ed7d-4f7d-bb16-bf49bdb4cb44", "network": "xhttp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇷 IR | VLESS | @netmellianti #1 [fast]", "server": "185.143.234.238", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "0aa8a7cd-eb08-4fa6-a277-c9d95282d4e6", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "uu.caroptions.ir"}}}
   - {"name": "🇮🇹 IT | VLESS | @freeconfigsplus #1 [fast]", "server": "31.76.113.51", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "dfc0cb9d-f005-41b0-848c-7703bd39d0de", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision", "servername": "it.s3-cloud.xyz", "reality-opts": {"public-key": "zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY", "short-id": "7a3f9e2b1c8d4f6a"}}
@@ -48,12 +49,9 @@ proxies:
   - {"name": "🇽🇽 XX | VLESS | @iran_access #1 [fast]", "server": "172.67.199.19", "port": 2086, "type": "vless", "skip-cert-verify": true, "uuid": "838f5273-5d2d-4630-a0f5-9cc8e4aef4d6", "network": "httpupgrade", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VLESS | @iran_access #2 [fast]", "server": "172.66.44.254", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9", "network": "ws", "tls": true, "udp": true, "client-fingerprint": "randomized", "servername": "cXrOLvPn.PAgEs.dev", "ws-opts": {"path": "", "headers": {"Host": "cXrolvpn.pagEs.DEv"}}}
   - {"name": "🇽🇽 XX | VLESS | @grizzlyvpn #1 [fast]", "server": "104.16.7.70", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d", "network": "ws", "tls": true, "udp": true, "client-fingerprint": "chrome", "servername": "sni.jpmj.dev", "ws-opts": {"path": "", "headers": {"Host": "sni.jpmj.dev"}}}
-  - {"name": "🇫🇷 FR | VLESS | @privatevpns #1 [fast]", "server": "35.181.77.1", "port": 22222, "type": "vless", "skip-cert-verify": true, "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇫🇷 FR | VLESS | @privatevpns #2 [fast]", "server": "13.36.152.170", "port": 22222, "type": "vless", "skip-cert-verify": true, "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇫🇷 FR | VLESS | @privatevpns #1 [fast]", "server": "13.36.152.170", "port": 22222, "type": "vless", "skip-cert-verify": true, "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇺🇸 US | VLESS | @msv2raynp #1 [fast]", "server": "151.101.64.155", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "9c488e6e-932c-44cb-b488-0b27f591b034", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇺🇸 US | VLESS | @msv2raynp #2 [fast]", "server": "147.185.161.229", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇽🇽 XX | VLESS | @red2ray #1 [fast]", "server": "104.21.8.201", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "214bf4c5-045a-4ddb-944b-e2eef9b33338", "network": "ws", "tls": true, "udp": true, "client-fingerprint": "chrome", "servername": "cdn-fr.skyvora.app", "ws-opts": {"path": "", "headers": {"Host": "cdn-fr.skyvora.app"}}}
-  - {"name": "🇵🇱 PL | VLESS | @red2ray #1 [fast]", "server": "201.10.90.24", "port": 2027, "type": "vless", "skip-cert-verify": true, "uuid": "a6b29052-e9ba-4714-a43c-4a660f452c44", "network": "xhttp", "tls": true, "udp": true, "client-fingerprint": "firefox", "servername": "2gis.ru", "reality-opts": {"public-key": "EApxy12MeXpqt-78odxizwcXT6hX9f8XeAcbMDVRAV0", "short-id": "6ba7b8109dad11d1"}}
   - {"name": "🇸🇨 SC | VLESS | @jiedianf #1 [fast]", "server": "45.196.201.62", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "firefox", "flow": "xtls-rprx-vision", "servername": "storage.yandex.net"}
   - {"name": "🇨🇦 CA | VLESS | @jokerv2ray #1 [fast]", "server": "23.227.60.12", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "dd777f39-2996-4269-b88f-0b64436d0274", "network": "ws", "tls": true, "udp": true, "client-fingerprint": "firefox", "servername": "joinchannel.jokerv2ray.store", "ws-opts": {"path": "", "headers": {"Host": "capitalnet.jokerv2ray.store"}}}
   - {"name": "🇨🇦 CA | VLESS | @jokerv2ray #2 [fast]", "server": "23.227.60.12", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "dd777f39-2996-4269-b88f-0b64436d0274", "network": "ws", "tls": true, "udp": true, "client-fingerprint": "firefox", "servername": "joinchannel.sameasyou.sbs", "ws-opts": {"path": "", "headers": {"Host": "capitalnet.sameasyou.sbs"}}}
@@ -70,11 +68,10 @@ proxies:
   - {"name": "🇽🇽 XX | VLESS | @customizev2ray #2 [fast]", "server": "188.114.98.224", "port": 2095, "type": "vless", "skip-cert-verify": true, "uuid": "017c320f-e573-46a9-a86d-edd8f4a8cbbf", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "V2ray-_-_-_-_-_-VPNCUSTOMIZE.keLLekcoLLection.com."}}}
   - {"name": "🇽🇽 XX | VLESS | @renetvpn #1 [fast]", "server": "198.41.202.5", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001", "network": "ws", "tls": true, "udp": true, "client-fingerprint": "chrome", "servername": "3k.pureboy.eu.org", "ws-opts": {"path": "", "headers": {"Host": "3k.pureboy.eu.org"}}}
   - {"name": "🇽🇽 XX | VLESS | @renetvpn #2 [fast]", "server": "172.67.204.84", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "mahi.kosnanatfilterchi.eu.org"}}}
-  - {"name": "🇯🇵 JP | VLESS | @megavpn_link #1 [fast]", "server": "134.122.194.186", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ce069292-c8bf-40dd-a6b1-87818a1e64e9", "network": "ws", "tls": true, "udp": true, "client-fingerprint": "chrome", "servername": "2-ee1.pages.dev", "ws-opts": {"path": "", "headers": {"Host": "2-ee1.pages.dev"}}}
+  - {"name": "🇯🇵 JP | VLESS | @megavpn_link #1 [medium]", "server": "134.122.194.186", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ce069292-c8bf-40dd-a6b1-87818a1e64e9", "network": "ws", "tls": true, "udp": true, "client-fingerprint": "chrome", "servername": "2-ee1.pages.dev", "ws-opts": {"path": "", "headers": {"Host": "2-ee1.pages.dev"}}}
   - {"name": "🇽🇽 XX | VLESS | @kesslervpn #1 [fast]", "server": "188.114.98.0", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "8a30cf48-9fa2-46c5-8815-2822b12852e0", "network": "ws", "tls": true, "udp": true, "client-fingerprint": "chrome", "servername": "xqkxw.ccwu.cc", "ws-opts": {"path": "", "headers": {"Host": "xqkxw.ccwu.cc"}}}
   - {"name": "🇽🇽 XX | VLESS | @kesslervpn #2 [fast]", "server": "104.18.12.149", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0f705100-9799-4e7e-be81-cfcfc6835630", "network": "ws", "tls": true, "udp": true, "client-fingerprint": "chrome", "servername": "c1.iranesf031.ir", "ws-opts": {"path": "", "headers": {"Host": "c1.iranesf031.ir"}}}
   - {"name": "🇧🇷 BR | VLESS | @netfreedom0 #1 [fast]", "server": "23.251.55.216", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "c396fa08-e07a-459b-b894-389456fd6a82", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "firefox", "flow": "xtls-rprx-vision", "servername": "www.amazon.com", "reality-opts": {"public-key": "m89wjPa2LxODyi8U5pRVI4E1fwVawIaftC3fLY0ZLw4", "short-id": "9ea177c3c147119b"}}
-  - {"name": "🇹🇷 TR | VLESS | @netfreedom0 #1 [fast]", "server": "87.120.106.180", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0ed9a248-f693-46c1-ba1b-91d0a6dfa6a5", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "firefox", "servername": "us.demonware.net", "reality-opts": {"public-key": "pfPkmGdr3k9jKAov3mjdc_DXROO9fl4jK1FpBsJqujk", "short-id": "e9518e9cb0754976"}}
   - {"name": "🇩🇪 DE | VLESS | @minovpnch #1 [fast]", "server": "92.223.124.29", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "e1034c59-c944-4a60-bdba-8f9cea0324b1", "network": "ws", "tls": true, "udp": true, "client-fingerprint": "randomized", "servername": "speedtest-fr5.gcore.com", "ws-opts": {"path": "", "headers": {"Host": "zema-brand.ir"}}}
   - {"name": "🇺🇸 US | VLESS | @minovpnch #1 [fast]", "server": "151.101.129.203", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "29af39ed-f8c8-49b8-9a5f-ea24fad97a09", "network": "ws", "tls": true, "udp": true, "client-fingerprint": "firefox", "servername": "video.nordkapp-boats.no", "ws-opts": {"path": "", "headers": {"Host": "fastopra.com"}}}
   - {"name": "🇽🇽 XX | VLESS | @eliteproxyv2 #1 [fast]", "server": "104.16.53.11", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "7c9e3c1d-a360-4429-9189-e45a98de7fde", "network": "ws", "tls": true, "udp": true, "client-fingerprint": "random", "servername": "my.ski1plag.ir", "ws-opts": {"path": "", "headers": {"Host": "my.ski1plag.ir"}}}
@@ -96,7 +93,7 @@ proxies:
   - {"name": "🇺🇸 US | VLESS | @buffalo_vpn #1 [fast]", "server": "199.232.0.177", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9", "network": "ws", "tls": true, "udp": true, "client-fingerprint": "randomized", "servername": "SpEedteST.NET", "ws-opts": {"path": "", "headers": {"Host": "Tahagoogooli.ir"}}}
   - {"name": "🇽🇽 XX | VLESS | @new_proxy_channel #1 [fast]", "server": "188.114.99.99", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "ad8aa9eb-7120-4953-a877-e7206f5a7c3c", "network": "grpc", "tls": true, "udp": true, "client-fingerprint": "chrome", "servername": "tarasvalete.parhamtraberthos.IR.", "grpc-opts": {"grpc-service-name": ""}}
   - {"name": "🇽🇽 XX | VLESS | @new_proxy_channel #2 [fast]", "server": "188.114.99.99", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "3689f110-792e-4156-bb6f-af7441ff1788", "network": "grpc", "tls": true, "udp": true, "client-fingerprint": "chrome", "servername": "tarasvalete.parhamtraberthos.IR.", "grpc-opts": {"grpc-service-name": ""}}
-  - {"name": "🇩🇪 DE | VLESS | @nepo_v2ray #1 [medium]", "server": "49.13.27.100", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "5f8c9ef2-d6a5-4ef2-bc68-eeef97f6b6af", "network": "grpc", "tls": true, "udp": true, "client-fingerprint": "firefox", "servername": "*.gsmarena.com", "grpc-opts": {"grpc-service-name": "@ipV2Ray"}, "reality-opts": {"public-key": "AQ_czQOq5paFHTJMjxD-uLklfIDCammNofaA8QggRjg", "short-id": "1fefa3a0"}}
+  - {"name": "🇩🇪 DE | VLESS | @nepo_v2ray #1 [fast]", "server": "49.13.27.100", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "5f8c9ef2-d6a5-4ef2-bc68-eeef97f6b6af", "network": "grpc", "tls": true, "udp": true, "client-fingerprint": "firefox", "servername": "*.gsmarena.com", "grpc-opts": {"grpc-service-name": "@ipV2Ray"}, "reality-opts": {"public-key": "AQ_czQOq5paFHTJMjxD-uLklfIDCammNofaA8QggRjg", "short-id": "1fefa3a0"}}
   - {"name": "🇽🇽 XX | VLESS | @nepo_v2ray #1 [fast]", "server": "190.93.247.155", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "f54c1c56-d3b2-41b3-9974-78bdd8807939", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "liV2raya.善良的闪电.monster"}}}
   - {"name": "🇽🇽 XX | VLESS | @merdesert #1 [fast]", "server": "104.21.60.171", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "11e5b771-1d4d-4362-b4b5-e39e75981f01", "network": "ws", "tls": true, "udp": true, "client-fingerprint": "chrome", "servername": "3e8B07A5.PUb000bpB.PAGes.Dev", "ws-opts": {"path": "", "headers": {"Host": "3e8B07A5.PUb000bpB.PAGes.Dev"}}}
   - {"name": "🇸🇪 SE | VLESS | @free_vip3 #1 [fast]", "server": "185.146.173.58", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "d9c4d8a1-f6a6-4cb8-b0b5-31d218ec3bce", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "15.v2ray.mihanyas.ir.mbj.farsroid.com.xn--fhq0la447aac5504dea701axr1g.online."}}}
@@ -124,8 +121,8 @@ proxies:
   - {"name": "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]", "server": "norman.ns.cloudflare.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ee122f13-9b54-49b6-abc5-aa47b464fdb3", "network": "ws", "tls": true, "udp": true, "client-fingerprint": "chrome", "servername": "azizoarjmand.info", "ws-opts": {"path": "", "headers": {"Host": "norman.ns.cloudflare.com"}}}
   - {"name": "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]", "server": "sub.shadowsokstes.workers.dev", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "70f5d3b8-7d31-4d7d-9467-e43752d66fca", "network": "ws", "tls": true, "udp": true, "client-fingerprint": "randomized", "servername": "sub.shadowsokstes.WoRkErs.DeV", "ws-opts": {"path": "", "headers": {"Host": "sub.shadowsokstes.WoRkErs.DeV"}}}
   - {"name": "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1 [fast]", "server": "tgfree.rush-server.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ebd1c0d6-7ff4-4b9f-8692-237517a27a64", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision", "servername": "anyfile2file.com", "reality-opts": {"public-key": "mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0", "short-id": "64c1fe36c7846400"}}
-  - {"name": "🇽🇽 XX | VLESS | @artemis_vpn_free #1 [fast]", "server": "de.huge-b.com", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "13011288-2737-489e-adf0-9314cd7dc4bd", "network": "httpupgrade", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇽🇽 XX | VLESS | @artemis_vpn_free #2 [fast]", "server": "ger.huge-b.com", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "c54fe54d-4192-4663-a778-c11db0f7d697", "network": "httpupgrade", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇽🇽 XX | VLESS | @artemis_vpn_free #1 [fast]", "server": "ger.huge-b.com", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "c54fe54d-4192-4663-a778-c11db0f7d697", "network": "httpupgrade", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇽🇽 XX | VLESS | @artemis_vpn_free #2 [fast]", "server": "ger.huge-b.com", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "2b05bba4-4ce8-4820-9f74-449c6758309d", "network": "httpupgrade", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇺🇸 US | VLESS | @jiedianf #1 [fast]", "server": "www.true.th", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "ff485c50-b364-4b4f-90be-ea576b949dd3", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "servername": "d3gxy6d0a9fs18.cloudfront.net", "ws-opts": {"path": "", "headers": {"Host": "d3gxy6d0a9fs18.cloudfront.net"}}}
   - {"name": "🇽🇽 XX | VLESS | @prooxyk #1 [fast]", "server": "avalpardakht.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "392afad2-43e3-4414-a5c3-b529a44df4e3", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "7.arsalanv2.sbs"}}}
   - {"name": "🇽🇽 XX | VLESS | @iranvipnet #1 [fast]", "server": "visa.org", "port": 2052, "type": "vless", "skip-cert-verify": true, "uuid": "dfc1a9ab-6241-4b73-92f7-b299fc6b7751", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "aparat.com.bing.com.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.trepaspeedtest.netrag.com.px.com.s95017.ir.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.h99.ddns-ip.net."}}}
@@ -172,6 +169,7 @@ proxy-groups:
       - '🇽🇽 XX | VLESS | @mester_v2ray #2 [fast]'
       - '🇳🇱 NL | VLESS | @flyv2ray #1 [fast]'
       - '🇩🇪 DE | VLESS | @flyv2ray #1 [fast]'
+      - '🇪🇪 EE | VLESS | @free1_vpn #1 [fast]'
       - '🇺🇸 US | VLESS | @netmellianti #1 [fast]'
       - '🇮🇷 IR | VLESS | @netmellianti #1 [fast]'
       - '🇮🇹 IT | VLESS | @freeconfigsplus #1 [fast]'
@@ -198,11 +196,8 @@ proxy-groups:
       - '🇽🇽 XX | VLESS | @iran_access #2 [fast]'
       - '🇽🇽 XX | VLESS | @grizzlyvpn #1 [fast]'
       - '🇫🇷 FR | VLESS | @privatevpns #1 [fast]'
-      - '🇫🇷 FR | VLESS | @privatevpns #2 [fast]'
       - '🇺🇸 US | VLESS | @msv2raynp #1 [fast]'
       - '🇺🇸 US | VLESS | @msv2raynp #2 [fast]'
-      - '🇽🇽 XX | VLESS | @red2ray #1 [fast]'
-      - '🇵🇱 PL | VLESS | @red2ray #1 [fast]'
       - '🇸🇨 SC | VLESS | @jiedianf #1 [fast]'
       - '🇨🇦 CA | VLESS | @jokerv2ray #1 [fast]'
       - '🇨🇦 CA | VLESS | @jokerv2ray #2 [fast]'
@@ -219,11 +214,10 @@ proxy-groups:
       - '🇽🇽 XX | VLESS | @customizev2ray #2 [fast]'
       - '🇽🇽 XX | VLESS | @renetvpn #1 [fast]'
       - '🇽🇽 XX | VLESS | @renetvpn #2 [fast]'
-      - '🇯🇵 JP | VLESS | @megavpn_link #1 [fast]'
+      - '🇯🇵 JP | VLESS | @megavpn_link #1 [medium]'
       - '🇽🇽 XX | VLESS | @kesslervpn #1 [fast]'
       - '🇽🇽 XX | VLESS | @kesslervpn #2 [fast]'
       - '🇧🇷 BR | VLESS | @netfreedom0 #1 [fast]'
-      - '🇹🇷 TR | VLESS | @netfreedom0 #1 [fast]'
       - '🇩🇪 DE | VLESS | @minovpnch #1 [fast]'
       - '🇺🇸 US | VLESS | @minovpnch #1 [fast]'
       - '🇽🇽 XX | VLESS | @eliteproxyv2 #1 [fast]'
@@ -245,7 +239,7 @@ proxy-groups:
       - '🇺🇸 US | VLESS | @buffalo_vpn #1 [fast]'
       - '🇽🇽 XX | VLESS | @new_proxy_channel #1 [fast]'
       - '🇽🇽 XX | VLESS | @new_proxy_channel #2 [fast]'
-      - '🇩🇪 DE | VLESS | @nepo_v2ray #1 [medium]'
+      - '🇩🇪 DE | VLESS | @nepo_v2ray #1 [fast]'
       - '🇽🇽 XX | VLESS | @nepo_v2ray #1 [fast]'
       - '🇽🇽 XX | VLESS | @merdesert #1 [fast]'
       - '🇸🇪 SE | VLESS | @free_vip3 #1 [fast]'
@@ -321,6 +315,7 @@ proxy-groups:
       - '🇽🇽 XX | VLESS | @mester_v2ray #2 [fast]'
       - '🇳🇱 NL | VLESS | @flyv2ray #1 [fast]'
       - '🇩🇪 DE | VLESS | @flyv2ray #1 [fast]'
+      - '🇪🇪 EE | VLESS | @free1_vpn #1 [fast]'
       - '🇺🇸 US | VLESS | @netmellianti #1 [fast]'
       - '🇮🇷 IR | VLESS | @netmellianti #1 [fast]'
       - '🇮🇹 IT | VLESS | @freeconfigsplus #1 [fast]'
@@ -347,11 +342,8 @@ proxy-groups:
       - '🇽🇽 XX | VLESS | @iran_access #2 [fast]'
       - '🇽🇽 XX | VLESS | @grizzlyvpn #1 [fast]'
       - '🇫🇷 FR | VLESS | @privatevpns #1 [fast]'
-      - '🇫🇷 FR | VLESS | @privatevpns #2 [fast]'
       - '🇺🇸 US | VLESS | @msv2raynp #1 [fast]'
       - '🇺🇸 US | VLESS | @msv2raynp #2 [fast]'
-      - '🇽🇽 XX | VLESS | @red2ray #1 [fast]'
-      - '🇵🇱 PL | VLESS | @red2ray #1 [fast]'
       - '🇸🇨 SC | VLESS | @jiedianf #1 [fast]'
       - '🇨🇦 CA | VLESS | @jokerv2ray #1 [fast]'
       - '🇨🇦 CA | VLESS | @jokerv2ray #2 [fast]'
@@ -368,11 +360,10 @@ proxy-groups:
       - '🇽🇽 XX | VLESS | @customizev2ray #2 [fast]'
       - '🇽🇽 XX | VLESS | @renetvpn #1 [fast]'
       - '🇽🇽 XX | VLESS | @renetvpn #2 [fast]'
-      - '🇯🇵 JP | VLESS | @megavpn_link #1 [fast]'
+      - '🇯🇵 JP | VLESS | @megavpn_link #1 [medium]'
       - '🇽🇽 XX | VLESS | @kesslervpn #1 [fast]'
       - '🇽🇽 XX | VLESS | @kesslervpn #2 [fast]'
       - '🇧🇷 BR | VLESS | @netfreedom0 #1 [fast]'
-      - '🇹🇷 TR | VLESS | @netfreedom0 #1 [fast]'
       - '🇩🇪 DE | VLESS | @minovpnch #1 [fast]'
       - '🇺🇸 US | VLESS | @minovpnch #1 [fast]'
       - '🇽🇽 XX | VLESS | @eliteproxyv2 #1 [fast]'
@@ -394,7 +385,7 @@ proxy-groups:
       - '🇺🇸 US | VLESS | @buffalo_vpn #1 [fast]'
       - '🇽🇽 XX | VLESS | @new_proxy_channel #1 [fast]'
       - '🇽🇽 XX | VLESS | @new_proxy_channel #2 [fast]'
-      - '🇩🇪 DE | VLESS | @nepo_v2ray #1 [medium]'
+      - '🇩🇪 DE | VLESS | @nepo_v2ray #1 [fast]'
       - '🇽🇽 XX | VLESS | @nepo_v2ray #1 [fast]'
       - '🇽🇽 XX | VLESS | @merdesert #1 [fast]'
       - '🇸🇪 SE | VLESS | @free_vip3 #1 [fast]'
