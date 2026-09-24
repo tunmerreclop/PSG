@@ -50,7 +50,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇹 IT | SS | @netfreedom0 #1 [medium]",
+        "🇮🇹 IT | VLESS | @NamiraConfigs #1 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -59,7 +59,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇹 IT | SS | @netfreedom0 #1 [medium]"
+        "🇮🇹 IT | VLESS | @NamiraConfigs #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -67,16 +67,13 @@
       "idle_timeout": "30m"
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇮🇹 IT | SS | @netfreedom0 #1 [medium]",
-      "server": "91.201.65.122",
-      "server_port": 9092,
-      "method": "aes-256-cfb",
-      "password": "TyNkGmp9hs6eGpDK",
+      "type": "vless",
+      "tag": "🇮🇹 IT | VLESS | @NamiraConfigs #1 [medium]",
+      "server": "204.216.216.23",
+      "server_port": 10086,
+      "uuid": "9f0285ee-20ca-4953-bcdb-86a920652923",
       "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "direct",

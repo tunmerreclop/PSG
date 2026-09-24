@@ -52,8 +52,8 @@
         "auto",
         "🇵🇱 PL | VLESS | @orange_vpns #1 [fast]",
         "🇵🇱 PL | VLESS | @Proxymelimon #1 [fast]",
-        "🇵🇱 PL | VLESS | @NamiraConfigs #1 [slow]",
-        "🇵🇱 PL | SS | @netfreedom0 #1 [medium]",
+        "🇵🇱 PL | SS | @netfreedom0 #1 [fast]",
+        "🇵🇱 PL | SS | @netfreedom0 #2 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -64,8 +64,8 @@
       "outbounds": [
         "🇵🇱 PL | VLESS | @orange_vpns #1 [fast]",
         "🇵🇱 PL | VLESS | @Proxymelimon #1 [fast]",
-        "🇵🇱 PL | VLESS | @NamiraConfigs #1 [slow]",
-        "🇵🇱 PL | SS | @netfreedom0 #1 [medium]"
+        "🇵🇱 PL | SS | @netfreedom0 #1 [fast]",
+        "🇵🇱 PL | SS | @netfreedom0 #2 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -119,33 +119,24 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇵🇱 PL | VLESS | @NamiraConfigs #1 [slow]",
-      "server": "pl6.moritech.net",
-      "server_port": 443,
-      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl6.moritech.net",
-        "alpn": [
-          "h2"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      }
-    },
-    {
       "type": "shadowsocks",
-      "tag": "🇵🇱 PL | SS | @netfreedom0 #1 [medium]",
+      "tag": "🇵🇱 PL | SS | @netfreedom0 #1 [fast]",
       "server": "217.30.10.44",
       "server_port": 9076,
       "method": "aes-256-cfb",
       "password": "S2zDyyPcmZN2h8EC",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 PL | SS | @netfreedom0 #2 [fast]",
+      "server": "217.30.10.44",
+      "server_port": 9052,
+      "method": "aes-256-cfb",
+      "password": "jt2ekBNc9HuVtm2a",
       "network": "tcp",
       "tls": {
         "enabled": true
