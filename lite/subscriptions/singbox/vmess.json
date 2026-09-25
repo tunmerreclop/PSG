@@ -56,6 +56,7 @@
         "🇺🇸 US | VMESS | @freev2rays #1 [fast]",
         "🇨🇿 CZ | VMESS | @freev2rays #1 [fast]",
         "🇦🇺 AU | VMESS | @mtproxy22_v2ray #1 [fast]",
+        "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1 [fast]",
         "🇽🇽 XX | VMESS | @iranvpnet #1 [fast]",
         "🇮🇷 IR | VMESS | @NamiraConfigs #1 [fast]",
         "🇺🇸 US | VMESS | @mi_pn_official #1 [fast]",
@@ -66,8 +67,8 @@
         "🇧🇾 BY | VMESS | @ir_netproxy #1 [fast]",
         "🇽🇽 XX | VMESS | @ir_netproxy #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #1 [fast]",
-        "🇩🇪 DE | VMESS | @khoneproxy #2 [medium]",
-        "🇩🇪 DE | VMESS | @magickey_shop #1 [medium]",
+        "🇩🇪 DE | VMESS | @khoneproxy #2 [fast]",
+        "🇩🇪 DE | VMESS | @magickey_shop #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -82,6 +83,7 @@
         "🇺🇸 US | VMESS | @freev2rays #1 [fast]",
         "🇨🇿 CZ | VMESS | @freev2rays #1 [fast]",
         "🇦🇺 AU | VMESS | @mtproxy22_v2ray #1 [fast]",
+        "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1 [fast]",
         "🇽🇽 XX | VMESS | @iranvpnet #1 [fast]",
         "🇮🇷 IR | VMESS | @NamiraConfigs #1 [fast]",
         "🇺🇸 US | VMESS | @mi_pn_official #1 [fast]",
@@ -92,8 +94,8 @@
         "🇧🇾 BY | VMESS | @ir_netproxy #1 [fast]",
         "🇽🇽 XX | VMESS | @ir_netproxy #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #1 [fast]",
-        "🇩🇪 DE | VMESS | @khoneproxy #2 [medium]",
-        "🇩🇪 DE | VMESS | @magickey_shop #1 [medium]"
+        "🇩🇪 DE | VMESS | @khoneproxy #2 [fast]",
+        "🇩🇪 DE | VMESS | @magickey_shop #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -208,6 +210,30 @@
         "path": "/dongtaiwang.com",
         "headers": {
           "Host": "clash6.ssr-free.xyz"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1 [fast]",
+      "server": "workers.dev",
+      "server_port": 443,
+      "uuid": "7a70e0f7-170d-4ab0-82a0-c40554bfb320",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "network": "ws",
+      "packet_encoding": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "workers.dev"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/111111.online",
+        "headers": {
+          "Host": "workers.dev"
         }
       }
     },
@@ -420,7 +446,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇩🇪 DE | VMESS | @khoneproxy #2 [medium]",
+      "tag": "🇩🇪 DE | VMESS | @khoneproxy #2 [fast]",
       "server": "5.75.150.23",
       "server_port": 443,
       "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147",
@@ -433,7 +459,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇩🇪 DE | VMESS | @magickey_shop #1 [medium]",
+      "tag": "🇩🇪 DE | VMESS | @magickey_shop #1 [fast]",
       "server": "168.119.174.229",
       "server_port": 443,
       "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147",

@@ -50,6 +50,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
+        "🇽🇽 XX | VLESS | @outline_ir #1 [fast]",
         "🇽🇽 XX | VLESS | @prrofile_purple #1 [fast]",
         "🇽🇽 XX | VLESS | @prrofile_purple #2 [fast]",
         "🇽🇽 XX | VLESS | @prrofile_purple #3 [fast]",
@@ -82,8 +83,8 @@
         "🇽🇽 XX | VLESS | @luckyvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @luckyvpn #2 [fast]",
         "🇽🇽 XX | VLESS | @Fr33C0nfig #1 [fast]",
-        "🇽🇽 XX | VLESS | @kilid_stor #1 [fast]",
         "🇽🇽 XX | VLESS | @gervpn #1 [fast]",
+        "🇽🇽 XX | VLESS | @kilid_stor #1 [fast]",
         "🇽🇽 XX | VLESS | @f_nirevil #1 [fast]",
         "🇽🇽 XX | VLESS | @f_nirevil #2 [fast]",
         "🇽🇽 XX | VLESS | @novinology #1 [fast]",
@@ -101,7 +102,6 @@
         "🇽🇽 XX | VLESS | @Proxymelimon #1 [fast]",
         "🇽🇽 XX | VLESS | @Proxymelimon #2 [fast]",
         "🇽🇽 XX | VLESS | @Proxymelimon #3 [fast]",
-        "🇽🇽 XX | VLESS | @Proxymelimon #4 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #1 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #2 [fast]",
@@ -202,6 +202,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
+        "🇽🇽 XX | VLESS | @outline_ir #1 [fast]",
         "🇽🇽 XX | VLESS | @prrofile_purple #1 [fast]",
         "🇽🇽 XX | VLESS | @prrofile_purple #2 [fast]",
         "🇽🇽 XX | VLESS | @prrofile_purple #3 [fast]",
@@ -234,8 +235,8 @@
         "🇽🇽 XX | VLESS | @luckyvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @luckyvpn #2 [fast]",
         "🇽🇽 XX | VLESS | @Fr33C0nfig #1 [fast]",
-        "🇽🇽 XX | VLESS | @kilid_stor #1 [fast]",
         "🇽🇽 XX | VLESS | @gervpn #1 [fast]",
+        "🇽🇽 XX | VLESS | @kilid_stor #1 [fast]",
         "🇽🇽 XX | VLESS | @f_nirevil #1 [fast]",
         "🇽🇽 XX | VLESS | @f_nirevil #2 [fast]",
         "🇽🇽 XX | VLESS | @novinology #1 [fast]",
@@ -253,7 +254,6 @@
         "🇽🇽 XX | VLESS | @Proxymelimon #1 [fast]",
         "🇽🇽 XX | VLESS | @Proxymelimon #2 [fast]",
         "🇽🇽 XX | VLESS | @Proxymelimon #3 [fast]",
-        "🇽🇽 XX | VLESS | @Proxymelimon #4 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #1 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #2 [fast]",
@@ -351,6 +351,27 @@
       "interval": "3m",
       "tolerance": 50,
       "idle_timeout": "30m"
+    },
+    {
+      "type": "vless",
+      "tag": "🇽🇽 XX | VLESS | @outline_ir #1 [fast]",
+      "server": "172.67.216.37",
+      "server_port": 8443,
+      "uuid": "b7483fbf-94f6-4d6c-add6-ec3df4fb8015",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "swz.yandex-api.store",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/assets"
+      }
     },
     {
       "type": "vless",
@@ -951,6 +972,26 @@
     },
     {
       "type": "vless",
+      "tag": "🇽🇽 XX | VLESS | @gervpn #1 [fast]",
+      "server": "104.18.218.118",
+      "server_port": 443,
+      "uuid": "a94edb46-0734-4593-a8b5-9cd11ddc57f6",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "5c53ca21.vpn-aryoo.pages.dev"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Telegram-@Azarakhsh_Proxy/?ed=2560",
+        "headers": {
+          "Host": "5c53ca21.vpn-aryoo.pages.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇽🇽 XX | VLESS | @kilid_stor #1 [fast]",
       "server": "codepen.io",
       "server_port": 443,
@@ -974,26 +1015,6 @@
         "path": "/ld?ed=2048",
         "headers": {
           "Host": "ad1.xiqpanelz.com"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇽🇽 XX | VLESS | @gervpn #1 [fast]",
-      "server": "104.18.218.118",
-      "server_port": 443,
-      "uuid": "a94edb46-0734-4593-a8b5-9cd11ddc57f6",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "5c53ca21.vpn-aryoo.pages.dev"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Telegram-@Azarakhsh_Proxy/?ed=2560",
-        "headers": {
-          "Host": "5c53ca21.vpn-aryoo.pages.dev"
         }
       }
     },
@@ -1262,19 +1283,6 @@
     {
       "type": "vless",
       "tag": "🇽🇽 XX | VLESS | @Proxymelimon #1 [fast]",
-      "server": "104.17.108.128",
-      "server_port": 443,
-      "uuid": "XpnTeam-18",
-      "network": "xhttp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "e9abdf3df549b59f-gr2.aliyoStd.sitE."
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇽🇽 XX | VLESS | @Proxymelimon #2 [fast]",
       "server": "104.16.10.233",
       "server_port": 443,
       "uuid": "44eae030-290b-4083-8102-6f8bab05701b",
@@ -1298,7 +1306,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇽🇽 XX | VLESS | @Proxymelimon #3 [fast]",
+      "tag": "🇽🇽 XX | VLESS | @Proxymelimon #2 [fast]",
       "server": "172.67.174.37",
       "server_port": 8880,
       "uuid": "b2c879ed-08a2-4a79-9c57-37c7db614e96",
@@ -1314,7 +1322,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇽🇽 XX | VLESS | @Proxymelimon #4 [fast]",
+      "tag": "🇽🇽 XX | VLESS | @Proxymelimon #3 [fast]",
       "server": "104.18.13.229",
       "server_port": 8880,
       "uuid": "81d55675-8570-4b40-9a77-3125339a0f86",
