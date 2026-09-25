@@ -58,6 +58,7 @@
         "🇸🇨 SC | VLESS | @ai_duet #1 [fast]",
         "🇺🇸 US | VLESS | @free4allvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @Proxymelimon #1 [fast]",
+        "🇦🇪 AE | VLESS | @red2ray #1 [medium]",
         "🇽🇽 XX | VLESS | @proxie #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #2 [fast]",
         "🇽🇽 XX | VLESS | @proxie #3 [fast]",
@@ -84,6 +85,7 @@
         "🇸🇨 SC | VLESS | @ai_duet #1 [fast]",
         "🇺🇸 US | VLESS | @free4allvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @Proxymelimon #1 [fast]",
+        "🇦🇪 AE | VLESS | @red2ray #1 [medium]",
         "🇽🇽 XX | VLESS | @proxie #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #2 [fast]",
         "🇽🇽 XX | VLESS | @proxie #3 [fast]",
@@ -211,6 +213,27 @@
       "tls": {
         "enabled": true,
         "server_name": "e9abdf3df549b59f-gr2.aliyoStd.sitE."
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇪 AE | VLESS | @red2ray #1 [medium]",
+      "server": "188.72.103.4",
+      "server_port": 443,
+      "uuid": "4cf9c712-11c4-47d8-aa31-a1693a1aa4e5",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "edge1.office2v.ru",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
       }
     },
     {

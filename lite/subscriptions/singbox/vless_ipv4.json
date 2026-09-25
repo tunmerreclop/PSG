@@ -94,8 +94,11 @@
         "🇽🇽 XX | VLESS | @iran_access #2 [fast]",
         "🇽🇽 XX | VLESS | @grizzlyvpn #1 [fast]",
         "🇺🇸 US | VLESS | @mtproxy22_v2ray #1 [fast]",
+        "🇫🇷 FR | VLESS | @privatevpns #1 [fast]",
+        "🇬🇧 GB | VLESS | @privatevpns #1 [fast]",
         "🇺🇸 US | VLESS | @msv2raynp #1 [fast]",
         "🇺🇸 US | VLESS | @msv2raynp #2 [fast]",
+        "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
         "🇸🇨 SC | VLESS | @jiedianf #1 [fast]",
         "🇨🇦 CA | VLESS | @jokerv2ray #1 [fast]",
         "🇨🇦 CA | VLESS | @jokerv2ray #2 [fast]",
@@ -198,8 +201,11 @@
         "🇽🇽 XX | VLESS | @iran_access #2 [fast]",
         "🇽🇽 XX | VLESS | @grizzlyvpn #1 [fast]",
         "🇺🇸 US | VLESS | @mtproxy22_v2ray #1 [fast]",
+        "🇫🇷 FR | VLESS | @privatevpns #1 [fast]",
+        "🇬🇧 GB | VLESS | @privatevpns #1 [fast]",
         "🇺🇸 US | VLESS | @msv2raynp #1 [fast]",
         "🇺🇸 US | VLESS | @msv2raynp #2 [fast]",
+        "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
         "🇸🇨 SC | VLESS | @jiedianf #1 [fast]",
         "🇨🇦 CA | VLESS | @jokerv2ray #1 [fast]",
         "🇨🇦 CA | VLESS | @jokerv2ray #2 [fast]",
@@ -1135,6 +1141,24 @@
     },
     {
       "type": "vless",
+      "tag": "🇫🇷 FR | VLESS | @privatevpns #1 [fast]",
+      "server": "15.188.167.181",
+      "server_port": 22222,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "network": "tcp",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 GB | VLESS | @privatevpns #1 [fast]",
+      "server": "18.135.254.77",
+      "server_port": 22222,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "network": "tcp",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
       "tag": "🇺🇸 US | VLESS | @msv2raynp #1 [fast]",
       "server": "151.101.64.155",
       "server_port": 80,
@@ -1155,6 +1179,29 @@
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
+      "server": "212.46.33.5",
+      "server_port": 443,
+      "uuid": "c5694dc5-39fd-4a92-8430-3837baa522a3",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "slowkd.sadiepinki.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "z37XIezsPyfMgmdXyFd9qT4C4maDAs1OcRt-wfyrXVo",
+          "short_id": "9c2378562188c3cb"
+        }
       }
     },
     {

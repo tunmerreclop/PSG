@@ -55,6 +55,7 @@
         "KingRezaPahlavi",
         "🇺🇸 US | VMESS | @freev2rays #1 [fast]",
         "🇨🇿 CZ | VMESS | @freev2rays #1 [fast]",
+        "🇦🇺 AU | VMESS | @mtproxy22_v2ray #1 [fast]",
         "🇽🇽 XX | VMESS | @iranvpnet #1 [fast]",
         "🇮🇷 IR | VMESS | @NamiraConfigs #1 [fast]",
         "🇺🇸 US | VMESS | @mi_pn_official #1 [fast]",
@@ -64,7 +65,7 @@
         "🇩🇪 DE | VMESS | @manstervpn #1 [fast]",
         "🇧🇾 BY | VMESS | @ir_netproxy #1 [fast]",
         "🇽🇽 XX | VMESS | @ir_netproxy #1 [fast]",
-        "🇩🇪 DE | VMESS | @khoneproxy #1 [medium]",
+        "🇩🇪 DE | VMESS | @khoneproxy #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #2 [medium]",
         "🇩🇪 DE | VMESS | @magickey_shop #1 [medium]",
         "direct"
@@ -80,6 +81,7 @@
         "KingRezaPahlavi",
         "🇺🇸 US | VMESS | @freev2rays #1 [fast]",
         "🇨🇿 CZ | VMESS | @freev2rays #1 [fast]",
+        "🇦🇺 AU | VMESS | @mtproxy22_v2ray #1 [fast]",
         "🇽🇽 XX | VMESS | @iranvpnet #1 [fast]",
         "🇮🇷 IR | VMESS | @NamiraConfigs #1 [fast]",
         "🇺🇸 US | VMESS | @mi_pn_official #1 [fast]",
@@ -89,7 +91,7 @@
         "🇩🇪 DE | VMESS | @manstervpn #1 [fast]",
         "🇧🇾 BY | VMESS | @ir_netproxy #1 [fast]",
         "🇽🇽 XX | VMESS | @ir_netproxy #1 [fast]",
-        "🇩🇪 DE | VMESS | @khoneproxy #1 [medium]",
+        "🇩🇪 DE | VMESS | @khoneproxy #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #2 [medium]",
         "🇩🇪 DE | VMESS | @magickey_shop #1 [medium]"
       ],
@@ -182,6 +184,30 @@
         "path": "/",
         "headers": {
           "Host": "shs111.kejixiaoqi666.store"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇦🇺 AU | VMESS | @mtproxy22_v2ray #1 [fast]",
+      "server": "141.101.115.120",
+      "server_port": 443,
+      "uuid": "5f64fa65-7b14-49c5-954d-aa15c6bfcacd",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "network": "ws",
+      "packet_encoding": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "clash6.ssr-free.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/dongtaiwang.com",
+        "headers": {
+          "Host": "clash6.ssr-free.xyz"
         }
       }
     },
@@ -377,7 +403,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇩🇪 DE | VMESS | @khoneproxy #1 [medium]",
+      "tag": "🇩🇪 DE | VMESS | @khoneproxy #1 [fast]",
       "server": "142.132.163.200",
       "server_port": 80,
       "uuid": "7f965e3e-b03f-455e-a96e-01b61f72537a",
