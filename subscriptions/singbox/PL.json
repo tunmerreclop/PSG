@@ -50,10 +50,8 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇵🇱 PL | VLESS | @outline_ir #1 [fast]",
-        "🇵🇱 PL | VLESS | @Proxymelimon #1 [fast]",
-        "🇵🇱 PL | VLESS | @red2ray #1 [fast]",
-        "🇵🇱 PL | VLESS | @NamiraConfigs #1 [fast]",
+        "🇵🇱 PL | VLESS | @outline_ir #1 [slow]",
+        "🇵🇱 PL | VLESS | @Proxymelimon #1 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -62,10 +60,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @outline_ir #1 [fast]",
-        "🇵🇱 PL | VLESS | @Proxymelimon #1 [fast]",
-        "🇵🇱 PL | VLESS | @red2ray #1 [fast]",
-        "🇵🇱 PL | VLESS | @NamiraConfigs #1 [fast]"
+        "🇵🇱 PL | VLESS | @outline_ir #1 [slow]",
+        "🇵🇱 PL | VLESS | @Proxymelimon #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -74,7 +70,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇵🇱 PL | VLESS | @outline_ir #1 [fast]",
+      "tag": "🇵🇱 PL | VLESS | @outline_ir #1 [slow]",
       "server": "144.31.5.64",
       "server_port": 443,
       "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
@@ -95,7 +91,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇵🇱 PL | VLESS | @Proxymelimon #1 [fast]",
+      "tag": "🇵🇱 PL | VLESS | @Proxymelimon #1 [medium]",
       "server": "82.40.62.92",
       "server_port": 443,
       "uuid": "7451a133-ca03-0012-b783-36449767dc13",
@@ -113,50 +109,6 @@
           "enabled": true,
           "public_key": "NBjOloEUgyAHoLqvcGo_t3jTY8Jya77j5dsNB1VJ8Bo",
           "short_id": "0f4dacffd272e65f"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 PL | VLESS | @red2ray #1 [fast]",
-      "server": "83.168.95.145",
-      "server_port": 443,
-      "uuid": "f28e0ce1-ed75-4e90-b069-5215a80dfb4a",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "AcuvO982QLzf76fVydfSuJIiF5520rmj7AxpaxyRwUg",
-          "short_id": "d345ad4657adeef9"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 PL | VLESS | @NamiraConfigs #1 [fast]",
-      "server": "pl6.moritech.net",
-      "server_port": 443,
-      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl6.moritech.net",
-        "alpn": [
-          "h2"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
         }
       }
     },
