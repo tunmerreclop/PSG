@@ -50,8 +50,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇯🇵 JP | SS | @red2ray #1 [fast]",
-        "🇯🇵 JP | VLESS | @megavpn_link #1 [fast]",
+        "🇯🇵 JP | VLESS | @megavpn_link #1 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -60,8 +59,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇯🇵 JP | SS | @red2ray #1 [fast]",
-        "🇯🇵 JP | VLESS | @megavpn_link #1 [fast]"
+        "🇯🇵 JP | VLESS | @megavpn_link #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -69,20 +67,8 @@
       "idle_timeout": "30m"
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇯🇵 JP | SS | @red2ray #1 [fast]",
-      "server": "74.222.12.141",
-      "server_port": 2087,
-      "method": "aes-256-gcm",
-      "password": "665e00335bb2fb5f7ee8243952205e5e",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇯🇵 JP | VLESS | @megavpn_link #1 [fast]",
+      "tag": "🇯🇵 JP | VLESS | @megavpn_link #1 [medium]",
       "server": "134.122.194.186",
       "server_port": 443,
       "uuid": "ce069292-c8bf-40dd-a6b1-87818a1e64e9",
