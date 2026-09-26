@@ -53,6 +53,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇩🇪 DE | VLESS | @orange_vpns #1 [fast]",
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #1 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #2 [fast]",
@@ -69,7 +70,6 @@
         "🇽🇽 XX | VLESS | @f_nirevil #2 [fast]",
         "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
-        "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2 [fast]",
         "🇺🇸 US | VLESS | @jiedianf #1 [fast]",
@@ -105,6 +105,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇩🇪 DE | VLESS | @orange_vpns #1 [fast]",
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #1 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #2 [fast]",
@@ -121,7 +122,6 @@
         "🇽🇽 XX | VLESS | @f_nirevil #2 [fast]",
         "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
-        "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2 [fast]",
         "🇺🇸 US | VLESS | @jiedianf #1 [fast]",
@@ -189,6 +189,28 @@
       "transport": {
         "type": "ws",
         "path": "/"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 DE | VLESS | @orange_vpns #1 [fast]",
+      "server": "p1real1.greewebservices.ir",
+      "server_port": 1230,
+      "uuid": "faff1125-5ff6-4263-b4f4-d0d44b8423a8",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.googleapis.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8",
+          "short_id": "9b60d3"
+        }
       }
     },
     {
@@ -457,22 +479,6 @@
         "path": "vless-ws/?ed=2048",
         "headers": {
           "Host": "sub.shadowsokstes.WoRkErs.DeV"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
-      "server": "hi.bangmyshop.ir",
-      "server_port": 13453,
-      "uuid": "a1b71e32-598c-4a69-9916-aff3787a1c24",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "hi.bangmyshop.ir"
         }
       }
     },

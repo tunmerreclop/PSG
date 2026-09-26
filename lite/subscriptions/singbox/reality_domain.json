@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgSFky
+//profile-title: base64:UFNHIHwgUkVBTElUWV9ET01BSU4=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://telegram.me/yebekhe
@@ -53,7 +53,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | HY2 | @free1_vpn #1 [medium]",
+        "🇩🇪 DE | VLESS | @orange_vpns #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -65,7 +65,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | HY2 | @free1_vpn #1 [medium]"
+        "🇩🇪 DE | VLESS | @orange_vpns #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -112,18 +112,25 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇩🇪 DE | HY2 | @free1_vpn #1 [medium]",
-      "server": "2.27.59.206",
-      "server_port": 443,
-      "password": "cd74c0a406664a5bc0bac098220a2468",
-      "obfs": {
-        "type": "salamander",
-        "password": "salamander"
-      },
+      "type": "vless",
+      "tag": "🇩🇪 DE | VLESS | @orange_vpns #1 [fast]",
+      "server": "p1real1.greewebservices.ir",
+      "server_port": 1230,
+      "uuid": "faff1125-5ff6-4263-b4f4-d0d44b8423a8",
+      "network": "tcp",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "de1.sferavpn.pro"
+        "server_name": "play.googleapis.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8",
+          "short_id": "9b60d3"
+        }
       }
     },
     {
