@@ -50,8 +50,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇷 TR | VMESS | @free1_vpn #1 [fast]",
-        "🇹🇷 TR | VLESS | @red2ray #1 [fast]",
+        "🇹🇷 TR | VMESS | @free1_vpn #1 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -60,8 +59,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇷 TR | VMESS | @free1_vpn #1 [fast]",
-        "🇹🇷 TR | VLESS | @red2ray #1 [fast]"
+        "🇹🇷 TR | VMESS | @free1_vpn #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -70,7 +68,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇹🇷 TR | VMESS | @free1_vpn #1 [fast]",
+      "tag": "🇹🇷 TR | VMESS | @free1_vpn #1 [medium]",
       "server": "103.215.218.158",
       "server_port": 22324,
       "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
@@ -80,22 +78,6 @@
       "authenticated_length": true,
       "network": "tcp",
       "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇷 TR | VLESS | @red2ray #1 [fast]",
-      "server": "45.92.219.170",
-      "server_port": 8080,
-      "uuid": "560ecca1-7e20-4b41-b4d6-781fb3bc179d",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "primevideo.com"
-        }
-      }
     },
     {
       "type": "direct",
