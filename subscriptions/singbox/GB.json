@@ -50,15 +50,13 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇬🇧 GB | SS | @father_vpn #1 [fast]",
-        "🇬🇧 GB | SS | @beshkan #1 [medium]",
+        "🇬🇧 GB | SS | @father_vpn #1 [medium]",
+        "🇬🇧 GB | SS | @beshkan #1 [fast]",
         "🇬🇧 GB | SS | @free4allvpn #1 [medium]",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
         "🇬🇧 GB | VLESS | @privatevpns #1 [fast]",
         "🇬🇧 GB | VLESS | @red2ray #1 [fast]",
-        "🇬🇧 GB | VLESS | @red2ray #2 [fast]",
-        "🇬🇧 GB | VLESS | @red2ray #3 [fast]",
-        "🇬🇧 GB | SS | @netfreedom0 #1 [medium]",
+        "🇬🇧 GB | SS | @netfreedom0 #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -67,15 +65,13 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇬🇧 GB | SS | @father_vpn #1 [fast]",
-        "🇬🇧 GB | SS | @beshkan #1 [medium]",
+        "🇬🇧 GB | SS | @father_vpn #1 [medium]",
+        "🇬🇧 GB | SS | @beshkan #1 [fast]",
         "🇬🇧 GB | SS | @free4allvpn #1 [medium]",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
         "🇬🇧 GB | VLESS | @privatevpns #1 [fast]",
         "🇬🇧 GB | VLESS | @red2ray #1 [fast]",
-        "🇬🇧 GB | VLESS | @red2ray #2 [fast]",
-        "🇬🇧 GB | VLESS | @red2ray #3 [fast]",
-        "🇬🇧 GB | SS | @netfreedom0 #1 [medium]"
+        "🇬🇧 GB | SS | @netfreedom0 #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -84,7 +80,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇬🇧 GB | SS | @father_vpn #1 [fast]",
+      "tag": "🇬🇧 GB | SS | @father_vpn #1 [medium]",
       "server": "82.38.31.176",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
@@ -96,7 +92,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇬🇧 GB | SS | @beshkan #1 [medium]",
+      "tag": "🇬🇧 GB | SS | @beshkan #1 [fast]",
       "server": "82.38.31.192",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
@@ -144,7 +140,7 @@
     {
       "type": "vless",
       "tag": "🇬🇧 GB | VLESS | @privatevpns #1 [fast]",
-      "server": "18.169.206.105",
+      "server": "18.171.3.214",
       "server_port": 22222,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "network": "tcp",
@@ -153,33 +149,29 @@
     {
       "type": "vless",
       "tag": "🇬🇧 GB | VLESS | @red2ray #1 [fast]",
-      "server": "18.169.206.105",
-      "server_port": 22222,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "server": "31.76.39.240",
+      "server_port": 443,
+      "uuid": "127f705c-f0bc-49e2-be27-d9fca7fd5a78",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 GB | VLESS | @red2ray #2 [fast]",
-      "server": "18.169.206.105",
-      "server_port": 22223,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-      "network": "tcp",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 GB | VLESS | @red2ray #3 [fast]",
-      "server": "18.169.206.105",
-      "server_port": 22224,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-      "network": "tcp",
-      "packet_encoding": "xudp"
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "brito.serveroff.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Ean56I1ZAGD67m6VW-qXZ77bXsE5ClwvYLuQNyXRyH8",
+          "short_id": "832d9228ddd3"
+        }
+      }
     },
     {
       "type": "shadowsocks",
-      "tag": "🇬🇧 GB | SS | @netfreedom0 #1 [medium]",
+      "tag": "🇬🇧 GB | SS | @netfreedom0 #1 [fast]",
       "server": "146.70.23.32",
       "server_port": 8080,
       "method": "rc4-md5",
