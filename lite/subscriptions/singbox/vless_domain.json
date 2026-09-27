@@ -63,15 +63,16 @@
         "🇽🇽 XX | VLESS | @selinc #1 [fast]",
         "🇽🇽 XX | VLESS | @lockey_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @lockey_vpn #2 [fast]",
+        "🇮🇷 IR | VLESS | @tanhanet #1 [medium]",
         "🇽🇽 XX | VLESS | @luckyvpn #1 [fast]",
         "🇩🇪 DE | VLESS | @luckyvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @kilid_stor #1 [fast]",
         "🇮🇷 IR | VLESS | @lax_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @f_nirevil #1 [fast]",
         "🇽🇽 XX | VLESS | @f_nirevil #2 [fast]",
+        "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
         "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
-        "🇮🇷 IR | VLESS | @red2ray #1 [medium]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2 [fast]",
         "🇺🇸 US | VLESS | @jiedianf #1 [fast]",
@@ -117,15 +118,16 @@
         "🇽🇽 XX | VLESS | @selinc #1 [fast]",
         "🇽🇽 XX | VLESS | @lockey_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @lockey_vpn #2 [fast]",
+        "🇮🇷 IR | VLESS | @tanhanet #1 [medium]",
         "🇽🇽 XX | VLESS | @luckyvpn #1 [fast]",
         "🇩🇪 DE | VLESS | @luckyvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @kilid_stor #1 [fast]",
         "🇮🇷 IR | VLESS | @lax_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @f_nirevil #1 [fast]",
         "🇽🇽 XX | VLESS | @f_nirevil #2 [fast]",
+        "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
         "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
-        "🇮🇷 IR | VLESS | @red2ray #1 [medium]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2 [fast]",
         "🇺🇸 US | VLESS | @jiedianf #1 [fast]",
@@ -340,6 +342,22 @@
     },
     {
       "type": "vless",
+      "tag": "🇮🇷 IR | VLESS | @tanhanet #1 [medium]",
+      "server": "connect.nyxserver.ir",
+      "server_port": 80,
+      "uuid": "cef2e5c6-23d6-415a-ac38-8d96e10b9053",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/arvan-tuel",
+        "headers": {
+          "Host": "connect.nyxserver.ir"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇽🇽 XX | VLESS | @luckyvpn #1 [fast]",
       "server": "c.rodia.ir",
       "server_port": 2053,
@@ -456,6 +474,15 @@
     },
     {
       "type": "vless",
+      "tag": "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
+      "server": "tamin.ir",
+      "server_port": 80,
+      "uuid": "aa5e25fc-c7d7-4e6e-b7f7-105a35c0175a",
+      "network": "httpupgrade",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
       "tag": "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
       "server": "norman.ns.cloudflare.com",
       "server_port": 443,
@@ -498,15 +525,6 @@
           "Host": "sub.shadowsokstes.WoRkErs.DeV"
         }
       }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷 IR | VLESS | @red2ray #1 [medium]",
-      "server": "pl-warsaw.masterpgd.com",
-      "server_port": 6014,
-      "uuid": "1cc6bd10-e414-4171-9220-09aaba23a6fa",
-      "network": "xhttp",
-      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
