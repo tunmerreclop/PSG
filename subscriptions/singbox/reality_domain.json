@@ -58,6 +58,7 @@
         "🇮🇷 IR | VLESS | @orange_vpns #1 [medium]",
         "🇩🇪 DE | VLESS | @orange_vpns #2 [fast]",
         "🇸🇨 SC | VLESS | @mtproxy22_v2ray #1 [fast]",
+        "🇸🇪 SE | VLESS | @red2ray #1 [fast]",
         "🇷🇺 RU | VLESS | @nofiltering2 #1 [fast]",
         "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]",
         "direct"
@@ -76,6 +77,7 @@
         "🇮🇷 IR | VLESS | @orange_vpns #1 [medium]",
         "🇩🇪 DE | VLESS | @orange_vpns #2 [fast]",
         "🇸🇨 SC | VLESS | @mtproxy22_v2ray #1 [fast]",
+        "🇸🇪 SE | VLESS | @red2ray #1 [fast]",
         "🇷🇺 RU | VLESS | @nofiltering2 #1 [fast]",
         "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]"
       ],
@@ -234,6 +236,29 @@
           "enabled": true,
           "public_key": "rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs",
           "short_id": "4fa44664f6a566d3"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 SE | VLESS | @red2ray #1 [fast]",
+      "server": "sw.bmbrvpn.cc",
+      "server_port": 443,
+      "uuid": "aded9f36-430b-46de-9e66-fdf2d88464c7",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "sw.bmbrvpn.cc",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Vrd6nDZblB3XlNd9q5yF2pXIPZ5gukxd1jn6aYrpmFY",
+          "short_id": "335ef6e104e3"
         }
       }
     },
