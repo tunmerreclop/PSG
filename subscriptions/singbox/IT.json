@@ -50,10 +50,11 @@
       "tag": "select",
       "outbounds": [
         "auto",
+        "🇮🇹 IT | VMESS | @free1_vpn #1 [fast]",
         "🇮🇹 IT | VLESS | @Proxymelimon #1 [fast]",
         "🇮🇹 IT | VLESS | @NamiraConfigs #1 [fast]",
-        "🇮🇹 IT | SS | @netfreedom0 #1 [fast]",
-        "🇮🇹 IT | SS | @netfreedom0 #2 [fast]",
+        "🇮🇹 IT | SS | @netfreedom0 #1 [medium]",
+        "🇮🇹 IT | SS | @netfreedom0 #2 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -62,15 +63,29 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
+        "🇮🇹 IT | VMESS | @free1_vpn #1 [fast]",
         "🇮🇹 IT | VLESS | @Proxymelimon #1 [fast]",
         "🇮🇹 IT | VLESS | @NamiraConfigs #1 [fast]",
-        "🇮🇹 IT | SS | @netfreedom0 #1 [fast]",
-        "🇮🇹 IT | SS | @netfreedom0 #2 [fast]"
+        "🇮🇹 IT | SS | @netfreedom0 #1 [medium]",
+        "🇮🇹 IT | SS | @netfreedom0 #2 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
       "tolerance": 50,
       "idle_timeout": "30m"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇮🇹 IT | VMESS | @free1_vpn #1 [fast]",
+      "server": "89.41.172.85",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "network": "tcp",
+      "packet_encoding": ""
     },
     {
       "type": "vless",
@@ -99,7 +114,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇮🇹 IT | SS | @netfreedom0 #1 [fast]",
+      "tag": "🇮🇹 IT | SS | @netfreedom0 #1 [medium]",
       "server": "91.201.65.122",
       "server_port": 9059,
       "method": "aes-256-cfb",
@@ -111,7 +126,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇮🇹 IT | SS | @netfreedom0 #2 [fast]",
+      "tag": "🇮🇹 IT | SS | @netfreedom0 #2 [medium]",
       "server": "91.201.65.122",
       "server_port": 9092,
       "method": "aes-256-cfb",
