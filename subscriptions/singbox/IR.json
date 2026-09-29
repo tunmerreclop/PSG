@@ -51,19 +51,19 @@
       "outbounds": [
         "auto",
         "🇮🇷 IR | VLESS | @outline_ir #1 [fast]",
+        "🇮🇷 IR | VLESS | @orange_vpns #1 [fast]",
         "🇮🇷 IR | VLESS | @config_proxy #1 [fast]",
         "🇮🇷 IR | VLESS | @config_proxy #2 [fast]",
         "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @netmellianti #1 [fast]",
         "🇮🇷 IR | VLESS | @mpproxy #1 [fast]",
-        "🇮🇷 IR | VLESS | @tanhanet #1 [fast]",
         "🇮🇷 IR | VLESS | @lax_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
         "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
-        "🇮🇷 IR | VMESS | @NamiraConfigs #1 [fast]",
+        "🇮🇷 IR | VLESS | @tanhanet #1 [fast]",
+        "🇮🇷 IR | VMESS | @NamiraConfigs #1 [slow]",
         "🇮🇷 IR | VLESS | @NamiraConfigs #1 [fast]",
         "🇮🇷 IR | VLESS | @NamiraConfigs #2 [fast]",
-        "🇮🇷 IR | SS | @sobi_vpn #1 [fast]",
         "🇮🇷 IR | VMESS | @khoneproxy #1 [fast]",
         "🇮🇷 IR | VLESS | @nn_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @lemonshopvpn #1 [fast]",
@@ -77,19 +77,19 @@
       "tag": "auto",
       "outbounds": [
         "🇮🇷 IR | VLESS | @outline_ir #1 [fast]",
+        "🇮🇷 IR | VLESS | @orange_vpns #1 [fast]",
         "🇮🇷 IR | VLESS | @config_proxy #1 [fast]",
         "🇮🇷 IR | VLESS | @config_proxy #2 [fast]",
         "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @netmellianti #1 [fast]",
         "🇮🇷 IR | VLESS | @mpproxy #1 [fast]",
-        "🇮🇷 IR | VLESS | @tanhanet #1 [fast]",
         "🇮🇷 IR | VLESS | @lax_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
         "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
-        "🇮🇷 IR | VMESS | @NamiraConfigs #1 [fast]",
+        "🇮🇷 IR | VLESS | @tanhanet #1 [fast]",
+        "🇮🇷 IR | VMESS | @NamiraConfigs #1 [slow]",
         "🇮🇷 IR | VLESS | @NamiraConfigs #1 [fast]",
         "🇮🇷 IR | VLESS | @NamiraConfigs #2 [fast]",
-        "🇮🇷 IR | SS | @sobi_vpn #1 [fast]",
         "🇮🇷 IR | VMESS | @khoneproxy #1 [fast]",
         "🇮🇷 IR | VLESS | @nn_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @lemonshopvpn #1 [fast]",
@@ -116,6 +116,28 @@
           "enabled": true,
           "public_key": "iI1pc8k9-mIPHL2Dga-4n4h3KoBT68lN434nglpgm2M",
           "short_id": "f3a9c21e8b6d4571"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇷 IR | VLESS | @orange_vpns #1 [fast]",
+      "server": "psde.ramcalshoping.ir",
+      "server_port": 11706,
+      "uuid": "ef54f383-0fce-4bc2-ab9c-a687bdd106d0",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "incomeapp.tech",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "gW8kYcclDhARUyny0Blxk2DB9Ygi3iNcKQtxkxjrcmU",
+          "short_id": "78"
         }
       }
     },
@@ -187,22 +209,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 IR | VLESS | @tanhanet #1 [fast]",
-      "server": "connect.nyxserver.ir",
-      "server_port": 80,
-      "uuid": "cef2e5c6-23d6-415a-ac38-8d96e10b9053",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/arvan-tuel",
-        "headers": {
-          "Host": "connect.nyxserver.ir"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇮🇷 IR | VLESS | @lax_vpn #1 [fast]",
       "server": "s19.speedyconnect.pro",
       "server_port": 443,
@@ -259,8 +265,24 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇮🇷 IR | VLESS | @tanhanet #1 [fast]",
+      "server": "connect.nyxserver.ir",
+      "server_port": 80,
+      "uuid": "cef2e5c6-23d6-415a-ac38-8d96e10b9053",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/arvan-tuel",
+        "headers": {
+          "Host": "connect.nyxserver.ir"
+        }
+      }
+    },
+    {
       "type": "vmess",
-      "tag": "🇮🇷 IR | VMESS | @NamiraConfigs #1 [fast]",
+      "tag": "🇮🇷 IR | VMESS | @NamiraConfigs #1 [slow]",
       "server": "s1.connect.labex.pro",
       "server_port": 1007,
       "uuid": "d4c556a2-3d61-4b1d-9550-d6d010ff1d3f",
@@ -300,18 +322,6 @@
       "tls": {
         "enabled": true,
         "server_name": "a.samrayan.ir"
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇮🇷 IR | SS | @sobi_vpn #1 [fast]",
-      "server": "tt.hsrdnr.ir",
-      "server_port": 2044,
-      "method": "chacha20-ietf-poly1305",
-      "password": "3rfnj11q5xvg72y1",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
       }
     },
     {
