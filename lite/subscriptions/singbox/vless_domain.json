@@ -57,8 +57,7 @@
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #1 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #2 [fast]",
-        "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
-        "🇽🇽 XX | VLESS | @flyv2ray #1 [fast]",
+        "🇮🇷 IR | VLESS | @father_vpn #1 [slow]",
         "🇽🇽 XX | VLESS | @lockey_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @lockey_vpn #2 [fast]",
         "🇽🇽 XX | VLESS | @luckyvpn #1 [fast]",
@@ -69,7 +68,6 @@
         "🇽🇽 XX | VLESS | @f_nirevil #2 [fast]",
         "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
-        "🇸🇬 SG | VLESS | @red2ray #1 [medium]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2 [fast]",
         "🇺🇸 US | VLESS | @jiedianf #1 [fast]",
@@ -111,8 +109,7 @@
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #1 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #2 [fast]",
-        "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
-        "🇽🇽 XX | VLESS | @flyv2ray #1 [fast]",
+        "🇮🇷 IR | VLESS | @father_vpn #1 [slow]",
         "🇽🇽 XX | VLESS | @lockey_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @lockey_vpn #2 [fast]",
         "🇽🇽 XX | VLESS | @luckyvpn #1 [fast]",
@@ -123,7 +120,6 @@
         "🇽🇽 XX | VLESS | @f_nirevil #2 [fast]",
         "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
-        "🇸🇬 SG | VLESS | @red2ray #1 [medium]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2 [fast]",
         "🇺🇸 US | VLESS | @jiedianf #1 [fast]",
@@ -253,25 +249,12 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
+      "tag": "🇮🇷 IR | VLESS | @father_vpn #1 [slow]",
       "server": "snapp.ir",
       "server_port": 2052,
       "uuid": "7b81a350-89c3-47da-a3a9-5f2b65313d03",
       "network": "httpupgrade",
       "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇽🇽 XX | VLESS | @flyv2ray #1 [fast]",
-      "server": "b2n.ir",
-      "server_port": 443,
-      "uuid": "d5af4dfe-eaf1-460c-87aa-fefe930db0ba",
-      "network": "xhttp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "chopin.paxr.ir"
-      }
     },
     {
       "type": "vless",
@@ -449,25 +432,6 @@
         "path": "vless-ws/?ed=2048",
         "headers": {
           "Host": "sub.shadowsokstes.WoRkErs.DeV"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇬 SG | VLESS | @red2ray #1 [medium]",
-      "server": "sg-1.gsafevpnapi.com",
-      "server_port": 20270,
-      "uuid": "e3a14b3d-8995-4031-a207-32ba5707c1ba",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.yahoo.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "q78tZmuaXQTsrrjZtjjRDtoni6tzN-HhXcAY-iT5zF0",
-          "short_id": "fc13d6208ebbae16"
         }
       }
     },
