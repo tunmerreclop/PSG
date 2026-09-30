@@ -55,18 +55,18 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
         "🇳🇱 NL | VLESS | @orange_vpns #1 [fast]",
-        "🇩🇪 DE | VLESS | @free1_vpn #1 [slow]",
+        "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
         "🇵🇱 PL | VLESS | @bored_vpn #1 [fast]",
         "🇳🇱 NL | VLESS | @beshkan #1 [fast]",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
-        "🇩🇪 DE | VLESS | @Proxymelimon #1 [fast]",
-        "🇹🇷 TR | VLESS | @red2ray #1 [fast]",
+        "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1 [fast]",
+        "🇮🇪 IE | VLESS | @red2ray #1 [fast]",
         "🇲🇩 MD | VLESS | @nofiltering2 #1 [medium]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
-        "🇩🇪 DE | VLESS | @nepo_v2ray #1 [fast]",
+        "🇩🇪 DE | VLESS | @nepo_v2ray #1 [medium]",
         "🇮🇷 IR | VLESS | @orange_vpns #1 [fast]",
-        "🇷🇺 RU | VLESS | @nofiltering2 #1 [medium]",
+        "🇷🇺 RU | VLESS | @nofiltering2 #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -80,18 +80,18 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
         "🇳🇱 NL | VLESS | @orange_vpns #1 [fast]",
-        "🇩🇪 DE | VLESS | @free1_vpn #1 [slow]",
+        "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
         "🇵🇱 PL | VLESS | @bored_vpn #1 [fast]",
         "🇳🇱 NL | VLESS | @beshkan #1 [fast]",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
-        "🇩🇪 DE | VLESS | @Proxymelimon #1 [fast]",
-        "🇹🇷 TR | VLESS | @red2ray #1 [fast]",
+        "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1 [fast]",
+        "🇮🇪 IE | VLESS | @red2ray #1 [fast]",
         "🇲🇩 MD | VLESS | @nofiltering2 #1 [medium]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
-        "🇩🇪 DE | VLESS | @nepo_v2ray #1 [fast]",
+        "🇩🇪 DE | VLESS | @nepo_v2ray #1 [medium]",
         "🇮🇷 IR | VLESS | @orange_vpns #1 [fast]",
-        "🇷🇺 RU | VLESS | @nofiltering2 #1 [medium]"
+        "🇷🇺 RU | VLESS | @nofiltering2 #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -185,7 +185,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @free1_vpn #1 [slow]",
+      "tag": "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
       "server": "169.40.42.223",
       "server_port": 443,
       "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
@@ -273,45 +273,43 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @Proxymelimon #1 [fast]",
-      "server": "88.216.220.88",
+      "tag": "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1 [fast]",
+      "server": "212.46.33.5",
       "server_port": 443,
-      "uuid": "a8e3155b-ceb1-4fcb-bc0c-2e77ec005401",
-      "network": "grpc",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "files.noneok.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "q3kOYHdjmqWLLYj8oikvna1bTjofk45ktegGaJE611g",
-          "short_id": "d3b394558cfe0266"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "api.v1.StreamService"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇷 TR | VLESS | @red2ray #1 [fast]",
-      "server": "93.114.98.247",
-      "server_port": 443,
-      "uuid": "bc4c0c9f-ab46-4f2c-8305-ab8b3d019fd7",
+      "uuid": "71091100-c6ed-41fa-84ac-acf7ff9eeb7f",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "storage-p2.googleapis.com",
+        "server_name": "slowkd.sadiepinki.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "z37XIezsPyfMgmdXyFd9qT4C4maDAs1OcRt-wfyrXVo",
+          "short_id": "9c2378562188c3cb"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇪 IE | VLESS | @red2ray #1 [fast]",
+      "server": "193.24.234.125",
+      "server_port": 443,
+      "uuid": "06d44c57-8e1a-41f4-b9c4-65d35869e078",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "web.code-sandbox.blog",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "pLbqDSeEe7biTe6b-w6SOLl2SiRxIBjHMfqUzuRR3Ew",
-          "short_id": "37d86205006fe1fb"
+          "public_key": "Y0OENG_faNE37KNgR5p6fnuIXmoES6sVuCFnWsbUzUw",
+          "short_id": "d1d479faa1c1d92f"
         }
       }
     },
@@ -387,7 +385,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @nepo_v2ray #1 [fast]",
+      "tag": "🇩🇪 DE | VLESS | @nepo_v2ray #1 [medium]",
       "server": "49.13.27.100",
       "server_port": 443,
       "uuid": "5f8c9ef2-d6a5-4ef2-bc68-eeef97f6b6af",
@@ -438,7 +436,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @nofiltering2 #1 [medium]",
+      "tag": "🇷🇺 RU | VLESS | @nofiltering2 #1 [fast]",
       "server": "tgfree.rush-server.com",
       "server_port": 443,
       "uuid": "ebd1c0d6-7ff4-4b9f-8692-237517a27a64",

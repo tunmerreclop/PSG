@@ -51,7 +51,7 @@
       "outbounds": [
         "auto",
         "🇵🇱 PL | VLESS | @bored_vpn #1 [fast]",
-        "🇵🇱 PL | VLESS | @red2ray #1 [fast]",
+        "🇵🇱 PL | SS | @netfreedom0 #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -61,7 +61,7 @@
       "tag": "auto",
       "outbounds": [
         "🇵🇱 PL | VLESS | @bored_vpn #1 [fast]",
-        "🇵🇱 PL | VLESS | @red2ray #1 [fast]"
+        "🇵🇱 PL | SS | @netfreedom0 #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -92,26 +92,15 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇵🇱 PL | VLESS | @red2ray #1 [fast]",
-      "server": "149.86.227.16",
-      "server_port": 443,
-      "uuid": "733b2a78-9306-4bbc-a3a0-b8bfb55f430a",
-      "flow": "xtls-rprx-vision",
+      "type": "shadowsocks",
+      "tag": "🇵🇱 PL | SS | @netfreedom0 #1 [fast]",
+      "server": "217.30.10.44",
+      "server_port": 9076,
+      "method": "aes-256-cfb",
+      "password": "S2zDyyPcmZN2h8EC",
       "network": "tcp",
-      "packet_encoding": "xudp",
       "tls": {
-        "enabled": true,
-        "server_name": "pmv.raketa-balance.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JaP4bhvIMW-l7T0_RkLra59DeBYI6W9XemKa8MyRPSY",
-          "short_id": "6c6082a2223c1d03"
-        }
+        "enabled": true
       }
     },
     {

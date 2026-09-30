@@ -57,9 +57,9 @@
         "🇩🇪 DE | VLESS | @orange_vpns #1 [fast]",
         "🇩🇪 DE | VLESS | @orange_vpns #2 [fast]",
         "🇩🇪 DE | VLESS | @prrofile_purple #1 [fast]",
-        "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
-        "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
-        "🇷🇺 RU | VLESS | @nofiltering2 #1 [medium]",
+        "🇩🇪 DE | VLESS | @free1_vpn #2 [fast]",
+        "🇩🇪 DE | VLESS | @red2ray #2 [fast]",
+        "🇷🇺 RU | VLESS | @nofiltering2 #1 [fast]",
         "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]",
         "direct"
       ],
@@ -76,9 +76,9 @@
         "🇩🇪 DE | VLESS | @orange_vpns #1 [fast]",
         "🇩🇪 DE | VLESS | @orange_vpns #2 [fast]",
         "🇩🇪 DE | VLESS | @prrofile_purple #1 [fast]",
-        "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
-        "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
-        "🇷🇺 RU | VLESS | @nofiltering2 #1 [medium]",
+        "🇩🇪 DE | VLESS | @free1_vpn #2 [fast]",
+        "🇩🇪 DE | VLESS | @red2ray #2 [fast]",
+        "🇷🇺 RU | VLESS | @nofiltering2 #1 [fast]",
         "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
@@ -220,49 +220,51 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
-      "server": "b16973a3e8cc.welzora.ir",
-      "server_port": 30009,
-      "uuid": "b7a9d994-a3cf-4d83-a2d2-f4083c678d6d",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇩🇪 DE | VLESS | @free1_vpn #2 [fast]",
+      "server": "p2real22.greewebservices.ir",
+      "server_port": 1320,
+      "uuid": "179a88d7-9ddb-4d48-ac6c-0f208cf030bc",
       "network": "tcp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "play.google.com",
+        "server_name": "play.googleapis.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "ios"
         },
         "reality": {
           "enabled": true,
-          "public_key": "hcXjPiiu7Hu-iJ9QmfIac9B9HT_fMzxjm1lyHVw82nc",
-          "short_id": "70c5a8baf5e37017"
+          "public_key": "xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8",
+          "short_id": "9b60d3"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
-      "server": "nlll.gaz-service.shop",
+      "tag": "🇩🇪 DE | VLESS | @red2ray #2 [fast]",
+      "server": "sub.skyshopnet.ir",
       "server_port": 8443,
-      "uuid": "4abdfe42-aec7-4b66-974d-3f891e2e8184",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
+      "uuid": "6ceb10f3-d36a-476b-98f8-03849584bdf3",
+      "network": "xhttp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "nlll.gaz-service.shop",
+        "server_name": "shop.amd.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
         "reality": {
           "enabled": true,
-          "public_key": "j97RCvxVfMu5XWcXuAc4s8TnBTdl8PQrNFrZDQpAkng",
-          "short_id": "b415b8d7a6106ace"
+          "public_key": "akF5SYIOmNrilJNvlKmkEvgjbjpA36-7g0IUQeHxmmY",
+          "short_id": "9cff567e04ac"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @nofiltering2 #1 [medium]",
+      "tag": "🇷🇺 RU | VLESS | @nofiltering2 #1 [fast]",
       "server": "tgfree.rush-server.com",
       "server_port": 443,
       "uuid": "ebd1c0d6-7ff4-4b9f-8692-237517a27a64",

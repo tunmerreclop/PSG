@@ -52,7 +52,6 @@
         "auto",
         "🇬🇧 GB | VLESS | @orange_vpns #1 [fast]",
         "🇬🇧 GB | SS | @father_vpn #1 [fast]",
-        "🇬🇧 GB | VLESS | @outlinereleasedkey #1 [fast]",
         "🇬🇧 GB | SS | @outlinereleasedkey #1 [fast]",
         "🇬🇧 GB | VLESS | @free1_vpn #1 [fast]",
         "🇬🇧 GB | SS | @beshkan #1 [fast]",
@@ -60,7 +59,6 @@
         "🇬🇧 GB | SS | @free4allvpn #1 [fast]",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
         "🇬🇧 GB | VLESS | @privatevpns #1 [fast]",
-        "🇬🇧 GB | VLESS | @privatevpns #2 [fast]",
         "🇬🇧 GB | SS | @netfreedom0 #1 [fast]",
         "direct"
       ],
@@ -72,7 +70,6 @@
       "outbounds": [
         "🇬🇧 GB | VLESS | @orange_vpns #1 [fast]",
         "🇬🇧 GB | SS | @father_vpn #1 [fast]",
-        "🇬🇧 GB | VLESS | @outlinereleasedkey #1 [fast]",
         "🇬🇧 GB | SS | @outlinereleasedkey #1 [fast]",
         "🇬🇧 GB | VLESS | @free1_vpn #1 [fast]",
         "🇬🇧 GB | SS | @beshkan #1 [fast]",
@@ -80,7 +77,6 @@
         "🇬🇧 GB | SS | @free4allvpn #1 [fast]",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
         "🇬🇧 GB | VLESS | @privatevpns #1 [fast]",
-        "🇬🇧 GB | VLESS | @privatevpns #2 [fast]",
         "🇬🇧 GB | SS | @netfreedom0 #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
@@ -121,22 +117,6 @@
       "network": "tcp",
       "tls": {
         "enabled": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 GB | VLESS | @outlinereleasedkey #1 [fast]",
-      "server": "66.90.104.42",
-      "server_port": 2083,
-      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
-      "network": "grpc",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "vless"
       }
     },
     {
@@ -236,15 +216,6 @@
     {
       "type": "vless",
       "tag": "🇬🇧 GB | VLESS | @privatevpns #1 [fast]",
-      "server": "13.43.144.131",
-      "server_port": 22222,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-      "network": "tcp",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 GB | VLESS | @privatevpns #2 [fast]",
       "server": "18.130.8.150",
       "server_port": 22222,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
