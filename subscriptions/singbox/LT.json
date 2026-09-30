@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgSFkyX0lQVjQ=
+//profile-title: base64:UFNHIHwgTFQ=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://telegram.me/yebekhe
@@ -50,10 +50,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi",
-        "🇺🇸 US | HY2 | @outlinereleasedkey #1 [medium]",
+        "🇱🇹 LT | SS | @netfreedom0 #1 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -62,10 +59,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi",
-        "🇺🇸 US | HY2 | @outlinereleasedkey #1 [medium]"
+        "🇱🇹 LT | SS | @netfreedom0 #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -73,54 +67,15 @@
       "idle_timeout": "30m"
     },
     {
-      "type": "vless",
-      "tag": "همکاری_ملی",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "جاویدشاه",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "KingRezaPahlavi",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇺🇸 US | HY2 | @outlinereleasedkey #1 [medium]",
-      "server": "144.31.49.47",
-      "server_port": 443,
-      "password": "YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc",
+      "type": "shadowsocks",
+      "tag": "🇱🇹 LT | SS | @netfreedom0 #1 [medium]",
+      "server": "195.238.126.20",
+      "server_port": 9012,
+      "method": "aes-256-cfb",
+      "password": "xaupMUvhptwxdDUg",
+      "network": "tcp",
       "tls": {
-        "enabled": true,
-        "server_name": "admin.wwwinternetvideo.click",
-        "insecure": true
+        "enabled": true
       }
     },
     {
