@@ -50,9 +50,10 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇷🇺 RU | VLESS | @free1_vpn #1 [medium]",
-        "🇷🇺 RU | VLESS | @bored_vpn #1 [medium]",
-        "🇷🇺 RU | SS | @mtproxy22_v2ray #1 [medium]",
+        "🇷🇺 RU | VLESS | @orange_vpns #1 [fast]",
+        "🇷🇺 RU | VLESS | @free1_vpn #1 [fast]",
+        "🇷🇺 RU | VLESS | @bored_vpn #1 [fast]",
+        "🇷🇺 RU | SS | @mtproxy22_v2ray #1 [fast]",
         "🇷🇺 RU | VLESS | @nofiltering2 #1 [fast]",
         "direct"
       ],
@@ -62,9 +63,10 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇺 RU | VLESS | @free1_vpn #1 [medium]",
-        "🇷🇺 RU | VLESS | @bored_vpn #1 [medium]",
-        "🇷🇺 RU | SS | @mtproxy22_v2ray #1 [medium]",
+        "🇷🇺 RU | VLESS | @orange_vpns #1 [fast]",
+        "🇷🇺 RU | VLESS | @free1_vpn #1 [fast]",
+        "🇷🇺 RU | VLESS | @bored_vpn #1 [fast]",
+        "🇷🇺 RU | SS | @mtproxy22_v2ray #1 [fast]",
         "🇷🇺 RU | VLESS | @nofiltering2 #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
@@ -74,7 +76,30 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @free1_vpn #1 [medium]",
+      "tag": "🇷🇺 RU | VLESS | @orange_vpns #1 [fast]",
+      "server": "45.152.113.206",
+      "server_port": 443,
+      "uuid": "859a537b-09cf-4bce-8da4-ecbb72950e3a",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "1.ru.oncloudnineservicestreang.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Thx57ocixT-wpeK_mdnJaluVW6eAwhlMgglxgjxEmhs",
+          "short_id": "65557338e1cd5605"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 RU | VLESS | @free1_vpn #1 [fast]",
       "server": "195.133.73.65",
       "server_port": 443,
       "uuid": "ebd1c0d6-7ff4-4b9f-8692-237517a27a64",
@@ -97,7 +122,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @bored_vpn #1 [medium]",
+      "tag": "🇷🇺 RU | VLESS | @bored_vpn #1 [fast]",
       "server": "176.109.111.154",
       "server_port": 9881,
       "uuid": "5d16ac22-6eea-426f-b778-6f4c2961faef",
@@ -123,7 +148,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇷🇺 RU | SS | @mtproxy22_v2ray #1 [medium]",
+      "tag": "🇷🇺 RU | SS | @mtproxy22_v2ray #1 [fast]",
       "server": "31.172.67.43",
       "server_port": 443,
       "method": "aes-256-cfb",
