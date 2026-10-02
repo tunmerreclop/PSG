@@ -87,10 +87,9 @@
         "🇽🇽 XX | VLESS | @miov2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @miov2ray #2 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
-        "🇽🇽 XX | VLESS | @Proxymelimon #1 [fast]",
-        "🇽🇽 XX | VLESS | @Proxymelimon #2 [fast]",
         "🇽🇽 XX | VLESS | @grizzlyvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @red2ray #1 [fast]",
+        "🇽🇽 XX | VLESS | @red2ray #2 [fast]",
         "🇽🇽 XX | VMESS | @iranvpnet #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2 [fast]",
@@ -233,10 +232,9 @@
         "🇽🇽 XX | VLESS | @miov2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @miov2ray #2 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
-        "🇽🇽 XX | VLESS | @Proxymelimon #1 [fast]",
-        "🇽🇽 XX | VLESS | @Proxymelimon #2 [fast]",
         "🇽🇽 XX | VLESS | @grizzlyvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @red2ray #1 [fast]",
+        "🇽🇽 XX | VLESS | @red2ray #2 [fast]",
         "🇽🇽 XX | VMESS | @iranvpnet #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2 [fast]",
@@ -1033,48 +1031,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇽🇽 XX | VLESS | @Proxymelimon #1 [fast]",
-      "server": "172.67.216.233",
-      "server_port": 443,
-      "uuid": "23e34376-aa47-4c8d-97ea-02915e01fcca",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "J3Bx1S9MK2syLW66yJ-hSk.TJsJrKk8GbHTS0Q5-0Os.wOrKeRS.DEv",
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vl/uwojyr8LT2gMeHnQJVf2HntOGHsvRH3?ed=2560",
-        "headers": {
-          "Host": "j3bx1s9mk2sylw66yj-hsk.tjsjrkk8gbhts0q5-0os.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇽🇽 XX | VLESS | @Proxymelimon #2 [fast]",
-      "server": "104.18.12.229",
-      "server_port": 8880,
-      "uuid": "35b94b2c-1b46-4209-a04b-32ecf159b632",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "fragrant-tooth-2180.97-cbb.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇽🇽 XX | VLESS | @grizzlyvpn #1 [fast]",
       "server": "104.16.7.70",
       "server_port": 2096,
@@ -1097,16 +1053,36 @@
     {
       "type": "vless",
       "tag": "🇽🇽 XX | VLESS | @red2ray #1 [fast]",
-      "server": "104.20.19.131",
+      "server": "chatgpt.com",
       "server_port": 443,
-      "uuid": "08d77a58-37b6-4984-8455-ab1945c4ce8f",
+      "uuid": "a9a3278d-cdd1-40ac-83bc-adb53ff9be3d",
       "network": "xhttp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "1.ksladoaofkdk.dpdns.org",
+        "server_name": "tyytout-cloudflare.royal-me.site",
         "alpn": [
-          "h3",
+          "h2",
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇽🇽 XX | VLESS | @red2ray #2 [fast]",
+      "server": "cdn10.alihapp.com",
+      "server_port": 443,
+      "uuid": "c4394e27-baeb-422d-8905-a93f8e01126f",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn10.alihapp.com",
+        "alpn": [
           "h2",
           "http/1.1"
         ],
