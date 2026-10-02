@@ -57,11 +57,9 @@
         "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
         "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
         "🇩🇪 DE | VLESS | @free1_vpn #2 [fast]",
-        "🇩🇪 DE | VLESS | @free1_vpn #3 [fast]",
         "🇩🇪 DE | VLESS | @mpproxy #1 [fast]",
         "🇩🇪 DE | VLESS | @luckyvpn #1 [fast]",
-        "🇩🇪 DE | VLESS | @beshkan #1 [fast]",
-        "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
+        "🇩🇪 DE | VLESS | @red2ray #1 [medium]",
         "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]",
         "🇩🇪 DE | VLESS | @nofiltering2 #2 [fast]",
         "🇩🇪 DE | VLESS | @father_vpn #1 [fast]",
@@ -89,11 +87,9 @@
         "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
         "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
         "🇩🇪 DE | VLESS | @free1_vpn #2 [fast]",
-        "🇩🇪 DE | VLESS | @free1_vpn #3 [fast]",
         "🇩🇪 DE | VLESS | @mpproxy #1 [fast]",
         "🇩🇪 DE | VLESS | @luckyvpn #1 [fast]",
-        "🇩🇪 DE | VLESS | @beshkan #1 [fast]",
-        "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
+        "🇩🇪 DE | VLESS | @red2ray #1 [medium]",
         "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]",
         "🇩🇪 DE | VLESS | @nofiltering2 #2 [fast]",
         "🇩🇪 DE | VLESS | @father_vpn #1 [fast]",
@@ -210,7 +206,7 @@
         "server_name": "nvidia.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "safari"
         },
         "reality": {
           "enabled": true,
@@ -222,47 +218,6 @@
     {
       "type": "vless",
       "tag": "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
-      "server": "169.40.42.223",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @free1_vpn #2 [fast]",
-      "server": "p2real22.greewebservices.ir",
-      "server_port": 1320,
-      "uuid": "179a88d7-9ddb-4d48-ac6c-0f208cf030bc",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.googleapis.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8",
-          "short_id": "9b60d3"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @free1_vpn #3 [fast]",
       "server": "88.216.220.87",
       "server_port": 443,
       "uuid": "a8e3155b-ceb1-4fcb-bc0c-2e77ec005401",
@@ -284,6 +239,29 @@
       "transport": {
         "type": "grpc",
         "service_name": "api.v1.StreamService"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 DE | VLESS | @free1_vpn #2 [fast]",
+      "server": "169.40.42.184",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
+        }
       }
     },
     {
@@ -324,46 +302,24 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @beshkan #1 [fast]",
-      "server": "169.40.42.15",
+      "tag": "🇩🇪 DE | VLESS | @red2ray #1 [medium]",
+      "server": "103.27.157.120",
       "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "uuid": "025a80fb-233b-4714-b02d-f4384c653d58",
       "flow": "xtls-rprx-vision",
       "network": "tcp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "yahoo.com",
+        "server_name": "download.amd.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
-      "server": "116.202.2.220",
-      "server_port": 2087,
-      "uuid": "773c840c-e96e-4857-9d2a-0d0ce45cdd14",
-      "network": "xhttp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "WbQjly966etKlWv8mlCLEsOC9YS7MeIX64bwezCWHlI",
-          "short_id": "6cf1ce00d9"
+          "public_key": "k0883nIGfstbzb8hES-dQ1yPcBwbUbnsyg4w-UA5gkA",
+          "short_id": "68aaa5222092bbea"
         }
       }
     },
