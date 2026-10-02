@@ -4,11 +4,11 @@
 
 ### Premium Proxy Subscription Generator
 
-![Updated](https://img.shields.io/badge/Updated-2026-10-01-blue?style=flat-square)
-![Configs](https://img.shields.io/badge/Configs-319-green?style=flat-square)
+![Updated](https://img.shields.io/badge/Updated-2026-10-02-blue?style=flat-square)
+![Configs](https://img.shields.io/badge/Configs-320-green?style=flat-square)
 ![Lite](https://img.shields.io/badge/Lite-158-cyan?style=flat-square)
 ![Channels](https://img.shields.io/badge/Channels-89-orange?style=flat-square)
-![Countries](https://img.shields.io/badge/Countries-30-purple?style=flat-square)
+![Countries](https://img.shields.io/badge/Countries-29-purple?style=flat-square)
 
 [**فارسی**](README.fa.md)
 
@@ -20,17 +20,17 @@
 
 | | |
 |:---|:---|
-| 🔢 **319** configs | 🪶 **158** lite |
-| 📡 **89** channels | 🌍 **30** countries |
-| ☁️ **240** Cloudflare | ⚡ **523** fast |
+| 🔢 **320** configs | 🪶 **158** lite |
+| 📡 **89** channels | 🌍 **29** countries |
+| ☁️ **240** Cloudflare | ⚡ **527** fast |
 
 <details>
 <summary><b>⚡ Protocol Distribution</b></summary>
 
-> 🔒 **VLESS** `███████████████` 391 (122.6%)
+> 🔒 **VLESS** `███████████████` 392 (122.5%)
 > ⚡ **REALITY** `██░░░░░░░░░░░░░` 69 (21.6%)
-> 🔑 **SS** `█░░░░░░░░░░░░░░` 39 (12.2%)
-> 🛡️ **VMESS** `█░░░░░░░░░░░░░░` 30 (9.4%)
+> 🔑 **SS** `█░░░░░░░░░░░░░░` 38 (11.9%)
+> 🛡️ **VMESS** `█░░░░░░░░░░░░░░` 31 (9.7%)
 > 🌊 **HY2** `░░░░░░░░░░░░░░░` 3 (0.9%)
 
 </details>
@@ -39,16 +39,16 @@
 <summary><b>🌍 Country Distribution</b></summary>
 
 > 🇽🇽 **XX** `████████████` 233
-> 🇺🇸 **US** `████░░░░░░░░` 91
+> 🇺🇸 **US** `████░░░░░░░░` 92
 > 🇩🇪 **DE** `█░░░░░░░░░░░` 34
-> 🇸🇪 **SE** `█░░░░░░░░░░░` 30
-> 🇬🇧 **GB** `█░░░░░░░░░░░` 28
+> 🇸🇪 **SE** `█░░░░░░░░░░░` 31
+> 🇬🇧 **GB** `█░░░░░░░░░░░` 29
+> 🇮🇷 **IR** `░░░░░░░░░░░░` 18
 > 🇷🇺 **RU** `░░░░░░░░░░░░` 18
-> 🇮🇷 **IR** `░░░░░░░░░░░░` 17
 > 🇫🇷 **FR** `░░░░░░░░░░░░` 15
-> 🇨🇦 **CA** `░░░░░░░░░░░░` 12
-> 🇳🇱 **NL** `░░░░░░░░░░░░` 8
-> 🇵🇱 **PL** `░░░░░░░░░░░░` 8
+> 🇨🇦 **CA** `░░░░░░░░░░░░` 11
+> 🇳🇱 **NL** `░░░░░░░░░░░░` 7
+> 🇵🇱 **PL** `░░░░░░░░░░░░` 7
 > 🇸🇨 **SC** `░░░░░░░░░░░░` 6
 > 🇫🇮 **FI** `░░░░░░░░░░░░` 5
 > 🇦🇪 **AE** `░░░░░░░░░░░░` 5
@@ -59,9 +59,9 @@
 <details>
 <summary><b>🚀 Speed Distribution</b></summary>
 
-> ⚡ **Fast** — 523 configs (< 200ms)
-> 🟡 **Medium** — 8 configs (200-500ms)
-> 🐢 **Slow** — 1 configs (> 500ms)
+> ⚡ **Fast** — 527 configs (< 200ms)
+> 🟡 **Medium** — 6 configs (200-500ms)
+> 🐢 **Slow** — 0 configs (> 500ms)
 
 </details>
 
@@ -128,15 +128,15 @@
 
 ## 📡 Channels (89)
 
-1. **@prrofile_purple** — 75 configs — سرور - V2rayNG
+1. **@prrofile_purple** — 76 configs — سرور - V2rayNG
 2. **@kafing_2** — 35 configs — کافینگ رایگان
 3. **@outlinereleasedkey** — 26 configs — Free You keys
 4. **@mehrosaboran** — 15 configs — پروکسی و v2rayمهربانی
 5. **@lockey_vpn** — 15 configs — LOCKEY_VPN
 6. **@nepo_v2ray** — 14 configs — Nepo_v2ray
 7. **@manstervpn** — 14 configs — KingVPN
-8. **@red2ray** — 13 configs — Red2Ray V2rayNG کانفیگ رایگان
-9. **@artemis_vpn_free** — 13 configs — Artemis VpnFree
+8. **@artemis_vpn_free** — 13 configs — Artemis VpnFree
+9. **@red2ray** — 12 configs — Red2Ray V2rayNG کانفیگ رایگان
 10. **@proxie** — 12 configs — V2ray Proxies
 11. **@iran_access** — 12 configs — کانفیگ v2rayNG Napsternetv
 12. **@customizev2ray** — 12 configs — CUSTOMIZE V2ray
@@ -152,12 +152,12 @@
 22. **@NamiraConfigs** — 7 configs — NamiraNet
 23. **@iranvipnet** — 7 configs — VIP_V2rayNG
 24. **@free_vip3** — 7 configs — Free Service
-25. **@father_vpn** — 6 configs — Father vpn Proxy V2rayNg
+25. **@free1_vpn** — 6 configs — Free_VPN v2ray NapsternetV cus
 26. **@free4allvpn** — 6 configs — Shadowsocks Outline Vmess Vles
 27. **@nofiltering2** — 6 configs — Nofiltering2 V2rayng رفع فیلتر
-28. **@hope_net** — 6 configs — Hope Net
-29. **@new_proxy_channel** — 6 configs — New Proxy
-30. **@tanhanet** — 5 configs — تنهانت خرید کانفیگ V2rayNG خری
+28. **@father_vpn** — 6 configs — Father vpn Proxy V2rayNg
+29. **@hope_net** — 6 configs — Hope Net
+30. **@new_proxy_channel** — 6 configs — New Proxy
 
 ---
 
