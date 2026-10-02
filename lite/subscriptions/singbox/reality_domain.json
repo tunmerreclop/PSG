@@ -54,8 +54,8 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @orange_vpns #1 [fast]",
-        "🇩🇪 DE | VLESS | @prrofile_purple #1 [fast]",
-        "🇷🇺 RU | VLESS | @nofiltering2 #1 [fast]",
+        "🇷🇺 RU | VLESS | @red2ray #1 [fast]",
+        "🇷🇺 RU | VLESS | @nofiltering2 #1 [slow]",
         "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]",
         "direct"
       ],
@@ -69,8 +69,8 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @orange_vpns #1 [fast]",
-        "🇩🇪 DE | VLESS | @prrofile_purple #1 [fast]",
-        "🇷🇺 RU | VLESS | @nofiltering2 #1 [fast]",
+        "🇷🇺 RU | VLESS | @red2ray #1 [fast]",
+        "🇷🇺 RU | VLESS | @nofiltering2 #1 [slow]",
         "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
@@ -142,29 +142,33 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @prrofile_purple #1 [fast]",
-      "server": "shop.jarorobo.ir",
+      "tag": "🇷🇺 RU | VLESS | @red2ray #1 [fast]",
+      "server": "msk1.animereze.site",
       "server_port": 443,
-      "uuid": "8e7feb36-3ef5-4e70-a306-4362edd37854",
-      "network": "tcp",
+      "uuid": "2463908b-9922-43d1-8186-a9d245790073",
+      "network": "grpc",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "www.samsungebiz.com",
+        "server_name": "www.dell.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "uSoNVrVIdQ5Y0YOpDCRkaYK5VAzYG6tCPtTc4cim7Tw",
-          "short_id": "f4b9e88ba8fe8d"
+          "public_key": "oL0LzTElvD_F8qhoabfvTh6ON_fZv_bM52I9Xqb8CSg",
+          "short_id": "848af9514e811495"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "MetricsSync"
       }
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @nofiltering2 #1 [fast]",
+      "tag": "🇷🇺 RU | VLESS | @nofiltering2 #1 [slow]",
       "server": "tgfree.rush-server.com",
       "server_port": 443,
       "uuid": "ebd1c0d6-7ff4-4b9f-8692-237517a27a64",
