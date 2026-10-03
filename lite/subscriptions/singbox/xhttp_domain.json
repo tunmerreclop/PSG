@@ -54,7 +54,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
-        "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]",
+        "🇽🇽 XX | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2 [fast]",
         "direct"
       ],
@@ -68,7 +68,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
-        "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]",
+        "🇽🇽 XX | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
@@ -126,23 +126,22 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]",
-      "server": "de-2.starsping.com",
+      "tag": "🇽🇽 XX | VLESS | @red2ray #1 [fast]",
+      "server": "cdn10.alihapp.com",
       "server_port": 443,
-      "uuid": "1577b744-8004-4eef-862c-8cae0cd27ab9",
+      "uuid": "c4394e27-baeb-422d-8905-a93f8e01126f",
       "network": "xhttp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "www.icloud.com",
+        "server_name": "cdn10.alihapp.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "ZBv1jOEHziWtQQoThg63_1gm4zIPyk_cfVmNJ1SOZSk",
-          "short_id": "a88550765b9956ee"
+          "fingerprint": "chrome"
         }
       }
     },
