@@ -61,6 +61,8 @@
         "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
         "🇬🇧 GB | SS | @mtproxy22_v2ray #1 [fast]",
         "🇬🇧 GB | VLESS | @privatevpns #1 [fast]",
+        "🇬🇧 GB | VLESS | @privatevpns #2 [fast]",
+        "🇬🇧 GB | VLESS | @red2ray #1 [fast]",
         "🇬🇧 GB | SS | @father_vpn #1 [fast]",
         "direct"
       ],
@@ -81,6 +83,8 @@
         "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
         "🇬🇧 GB | SS | @mtproxy22_v2ray #1 [fast]",
         "🇬🇧 GB | VLESS | @privatevpns #1 [fast]",
+        "🇬🇧 GB | VLESS | @privatevpns #2 [fast]",
+        "🇬🇧 GB | VLESS | @red2ray #1 [fast]",
         "🇬🇧 GB | SS | @father_vpn #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
@@ -259,6 +263,37 @@
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "network": "tcp",
       "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 GB | VLESS | @privatevpns #2 [fast]",
+      "server": "16.60.191.78",
+      "server_port": 22222,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "network": "tcp",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 GB | VLESS | @red2ray #1 [fast]",
+      "server": "51.89.194.151",
+      "server_port": 2053,
+      "uuid": "8e790f25-1d71-4601-9fb0-d503931dcfca",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "xPEBx4wUmwAAv4ikUALNBf5wH6TRhyeQ0Q2pcNELsV0",
+          "short_id": "d051f678212f9d54"
+        }
+      }
     },
     {
       "type": "shadowsocks",

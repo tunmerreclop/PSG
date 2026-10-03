@@ -54,10 +54,11 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
+        "🇩🇪 DE | VLESS | @outline_ir #2 [fast]",
         "🇸🇪 SE | VLESS | @outline_ir #1 [fast]",
-        "🇸🇪 SE | VLESS | @outline_ir #2 [fast]",
         "🇬🇧 GB | VLESS | @orange_vpns #1 [fast]",
         "🇷🇺 RU | VLESS | @orange_vpns #1 [fast]",
+        "🇵🇱 PL | VLESS | @orange_vpns #1 [fast]",
         "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
         "🇫🇷 FR | VLESS | @outlinereleasedkey #2 [fast]",
         "🇬🇧 GB | VLESS | @free1_vpn #1 [fast]",
@@ -65,13 +66,14 @@
         "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
         "🇩🇪 DE | VLESS | @free1_vpn #2 [fast]",
         "🇵🇱 PL | VLESS | @bored_vpn #1 [fast]",
-        "🇷🇺 RU | VLESS | @bored_vpn #1 [fast]",
+        "🇷🇺 RU | VLESS | @bored_vpn #1 [medium]",
         "🇺🇸 US | VLESS | @beshkan #1 [fast]",
         "🇺🇸 US | VLESS | @beshkan #2 [fast]",
         "🇱🇻 LV | VLESS | @free4allvpn #1 [fast]",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1 [fast]",
         "🇩🇪 DE | VLESS | @red2ray #2 [fast]",
+        "🇬🇧 GB | VLESS | @red2ray #1 [fast]",
         "🇩🇪 DE | VLESS | @father_vpn #2 [fast]",
         "🇸🇨 SC | VLESS | @netfreedom0 #1 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
@@ -89,10 +91,11 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
+        "🇩🇪 DE | VLESS | @outline_ir #2 [fast]",
         "🇸🇪 SE | VLESS | @outline_ir #1 [fast]",
-        "🇸🇪 SE | VLESS | @outline_ir #2 [fast]",
         "🇬🇧 GB | VLESS | @orange_vpns #1 [fast]",
         "🇷🇺 RU | VLESS | @orange_vpns #1 [fast]",
+        "🇵🇱 PL | VLESS | @orange_vpns #1 [fast]",
         "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
         "🇫🇷 FR | VLESS | @outlinereleasedkey #2 [fast]",
         "🇬🇧 GB | VLESS | @free1_vpn #1 [fast]",
@@ -100,13 +103,14 @@
         "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
         "🇩🇪 DE | VLESS | @free1_vpn #2 [fast]",
         "🇵🇱 PL | VLESS | @bored_vpn #1 [fast]",
-        "🇷🇺 RU | VLESS | @bored_vpn #1 [fast]",
+        "🇷🇺 RU | VLESS | @bored_vpn #1 [medium]",
         "🇺🇸 US | VLESS | @beshkan #1 [fast]",
         "🇺🇸 US | VLESS | @beshkan #2 [fast]",
         "🇱🇻 LV | VLESS | @free4allvpn #1 [fast]",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1 [fast]",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1 [fast]",
         "🇩🇪 DE | VLESS | @red2ray #2 [fast]",
+        "🇬🇧 GB | VLESS | @red2ray #1 [fast]",
         "🇩🇪 DE | VLESS | @father_vpn #2 [fast]",
         "🇸🇨 SC | VLESS | @netfreedom0 #1 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
@@ -160,6 +164,29 @@
     {
       "type": "vless",
       "tag": "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
+      "server": "169.40.42.75",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 DE | VLESS | @outline_ir #2 [fast]",
       "server": "169.40.42.223",
       "server_port": 443,
       "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
@@ -200,29 +227,6 @@
           "enabled": true,
           "public_key": "x6p656szvu_3CKLsJ4NtkooRvdTVGx7IoPca_p58_jA",
           "short_id": "fb442438e2223836"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇪 SE | VLESS | @outline_ir #2 [fast]",
-      "server": "81.90.21.168",
-      "server_port": 443,
-      "uuid": "30dab345-4de9-4b70-ad9f-8ebd5c66686f",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn.jsdelivr.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "GRxGFwibgoUjG9OL5Dl1OLyK56yw8WaG5BdFP8ifVgQ",
-          "short_id": "26f7082dd0e36ca1"
         }
       }
     },
@@ -269,6 +273,29 @@
           "enabled": true,
           "public_key": "Thx57ocixT-wpeK_mdnJaluVW6eAwhlMgglxgjxEmhs",
           "short_id": "65557338e1cd5605"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱 PL | VLESS | @orange_vpns #1 [fast]",
+      "server": "95.85.227.241",
+      "server_port": 443,
+      "uuid": "f90b7d43-69e2-4b46-a672-8029bc6796a2",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "proxy3d.h1guro.ovh",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "dlX12huNd8CRSGgKGCwi1GiCLFtmRxY9b7ywKCIyWXo",
+          "short_id": "25934afbedc65791"
         }
       }
     },
@@ -441,7 +468,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @bored_vpn #1 [fast]",
+      "tag": "🇷🇺 RU | VLESS | @bored_vpn #1 [medium]",
       "server": "176.109.111.154",
       "server_port": 9881,
       "uuid": "5d16ac22-6eea-426f-b778-6f4c2961faef",
@@ -596,6 +623,28 @@
           "enabled": true,
           "public_key": "HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs",
           "short_id": "7a76f3c4b9dd"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 GB | VLESS | @red2ray #1 [fast]",
+      "server": "51.89.194.151",
+      "server_port": 2053,
+      "uuid": "8e790f25-1d71-4601-9fb0-d503931dcfca",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "xPEBx4wUmwAAv4ikUALNBf5wH6TRhyeQ0Q2pcNELsV0",
+          "short_id": "d051f678212f9d54"
         }
       }
     },
