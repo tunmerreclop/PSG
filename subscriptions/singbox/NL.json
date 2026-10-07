@@ -51,7 +51,7 @@
       "outbounds": [
         "auto",
         "🇳🇱 NL | SS | @easy_free_vpn #1 [fast]",
-        "🇳🇱 NL | SS | @free1_vpn #1 [fast]",
+        "🇳🇱 NL | VLESS | @free1_vpn #1 [slow]",
         "🇳🇱 NL | SS | @beshkan #1 [fast]",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
@@ -64,7 +64,7 @@
       "tag": "auto",
       "outbounds": [
         "🇳🇱 NL | SS | @easy_free_vpn #1 [fast]",
-        "🇳🇱 NL | SS | @free1_vpn #1 [fast]",
+        "🇳🇱 NL | VLESS | @free1_vpn #1 [slow]",
         "🇳🇱 NL | SS | @beshkan #1 [fast]",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]"
@@ -87,15 +87,26 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 NL | SS | @free1_vpn #1 [fast]",
-      "server": "c3.nastuh.link",
+      "type": "vless",
+      "tag": "🇳🇱 NL | VLESS | @free1_vpn #1 [slow]",
+      "server": "185.112.59.210",
       "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "y7KeRTzmH0vXT2kp",
+      "uuid": "ee18d188-14cc-417e-beb1-70e4add6d023",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
+      "packet_encoding": "xudp",
       "tls": {
-        "enabled": true
+        "enabled": true,
+        "server_name": "nl2.nztvpn.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "MTYXgxLIK9PzmQGAjuCmhI1FikCNlvU66NKgQ5g14Bc",
+          "short_id": "0b135481ea1283fc"
+        }
       }
     },
     {
