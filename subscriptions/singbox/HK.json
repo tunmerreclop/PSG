@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgS1o=
+//profile-title: base64:UFNHIHwgSEs=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://telegram.me/yebekhe
@@ -50,7 +50,8 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇿 KZ | SS | @configv2rayforfree #1 [medium]",
+        "🇭🇰 HK | VLESS | @red2ray #1 [medium]",
+        "🇭🇰 HK | VLESS | @red2ray #2 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -59,7 +60,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇿 KZ | SS | @configv2rayforfree #1 [medium]"
+        "🇭🇰 HK | VLESS | @red2ray #1 [medium]",
+        "🇭🇰 HK | VLESS | @red2ray #2 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -67,15 +69,49 @@
       "idle_timeout": "30m"
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇰🇿 KZ | SS | @configv2rayforfree #1 [medium]",
-      "server": "77.240.38.27",
-      "server_port": 8443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "fkXtvCEQ1ZU1rzF3fIK0fw==",
+      "type": "vless",
+      "tag": "🇭🇰 HK | VLESS | @red2ray #1 [medium]",
+      "server": "103.30.76.197",
+      "server_port": 44988,
+      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
+      "packet_encoding": "xudp",
       "tls": {
-        "enabled": true
+        "enabled": true,
+        "server_name": "www.tesla.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "f6Tj8-uvWsLv3V-lGLuPciArp5oKqUImBg-U7-WJ-0A",
+          "short_id": "bb82c8"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 HK | VLESS | @red2ray #2 [medium]",
+      "server": "45.153.130.119",
+      "server_port": 21263,
+      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "us1p1.xn--ghq880n3na965a.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "YinI5MijeZpRatg6QNDvP0qXEif-6VHC6gV5yoji4i4",
+          "short_id": "3d31326f95"
+        }
       }
     },
     {
