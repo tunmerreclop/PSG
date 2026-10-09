@@ -3,17 +3,17 @@ allow-lan: false
 mode: rule
 log-level: info
 proxies:
-  - {"name": "🇷🇺 RU | VLESS | @red2ray #1 [fast]", "server": "185.147.26.207", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2b781b4a-5942-48e0-a7f3-5a07b7b488c1", "network": "grpc", "tls": true, "udp": true, "client-fingerprint": "firefox", "servername": "ru-pro.sworkingvpn.com", "grpc-opts": {"grpc-service-name": "API"}, "reality-opts": {"public-key": "AhLy7ha7FF2EQfu-3SxOFKUwExyHActYPHtyv82KNCI", "short-id": "15bcc0a77c3cacdf"}}
+  - {"name": "🇷🇺 RU | VLESS | @red2ray #1 [medium]", "server": "185.147.26.207", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2b781b4a-5942-48e0-a7f3-5a07b7b488c1", "network": "grpc", "tls": true, "udp": true, "client-fingerprint": "firefox", "servername": "ru-pro.sworkingvpn.com", "grpc-opts": {"grpc-service-name": "API"}, "reality-opts": {"public-key": "AhLy7ha7FF2EQfu-3SxOFKUwExyHActYPHtyv82KNCI", "short-id": "15bcc0a77c3cacdf"}}
 proxy-groups:
   - name: "PROXY"
     type: select
     proxies:
-      - '🇷🇺 RU | VLESS | @red2ray #1 [fast]'
+      - '🇷🇺 RU | VLESS | @red2ray #1 [medium]'
       - DIRECT
   - name: "Auto"
     type: url-test
     proxies:
-      - '🇷🇺 RU | VLESS | @red2ray #1 [fast]'
+      - '🇷🇺 RU | VLESS | @red2ray #1 [medium]'
 rules:
   - GEOIP,IR,DIRECT
   - MATCH,PROXY
