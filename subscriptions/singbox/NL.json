@@ -50,16 +50,15 @@
       "tag": "select",
       "outbounds": [
         "auto",
+        "🇳🇱 NL | SS | @outline_ir #1 [fast]",
         "🇳🇱 NL | VLESS | @orange_vpns #1 [fast]",
         "🇳🇱 NL | SS | @easy_free_vpn #1 [fast]",
-        "🇳🇱 NL | VLESS | @prrofile_purple #1 [fast]",
         "🇳🇱 NL | VLESS | @outlinereleasedkey #1 [fast]",
-        "🇳🇱 NL | SS | @outlinereleasedkey #1 [medium]",
-        "🇳🇱 NL | VLESS | @free1_vpn #1 [fast]",
-        "🇳🇱 NL | SS | @free1_vpn #1 [fast]",
-        "🇳🇱 NL | SS | @beshkan #1 [medium]",
+        "🇳🇱 NL | SS | @outlinereleasedkey #1 [fast]",
+        "🇳🇱 NL | VLESS | @free1_vpn #1 [medium]",
+        "🇳🇱 NL | SS | @beshkan #1 [fast]",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1 [fast]",
-        "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]",
+        "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -68,21 +67,32 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
+        "🇳🇱 NL | SS | @outline_ir #1 [fast]",
         "🇳🇱 NL | VLESS | @orange_vpns #1 [fast]",
         "🇳🇱 NL | SS | @easy_free_vpn #1 [fast]",
-        "🇳🇱 NL | VLESS | @prrofile_purple #1 [fast]",
         "🇳🇱 NL | VLESS | @outlinereleasedkey #1 [fast]",
-        "🇳🇱 NL | SS | @outlinereleasedkey #1 [medium]",
-        "🇳🇱 NL | VLESS | @free1_vpn #1 [fast]",
-        "🇳🇱 NL | SS | @free1_vpn #1 [fast]",
-        "🇳🇱 NL | SS | @beshkan #1 [medium]",
+        "🇳🇱 NL | SS | @outlinereleasedkey #1 [fast]",
+        "🇳🇱 NL | VLESS | @free1_vpn #1 [medium]",
+        "🇳🇱 NL | SS | @beshkan #1 [fast]",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1 [fast]",
-        "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]"
+        "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
       "tolerance": 50,
       "idle_timeout": "30m"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 NL | SS | @outline_ir #1 [fast]",
+      "server": "c3.nastuh.link",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "y7KeRTzmH0vXT2kp",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
     },
     {
       "type": "vless",
@@ -117,29 +127,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 NL | VLESS | @prrofile_purple #1 [fast]",
-      "server": "150.40.117.221",
-      "server_port": 8443,
-      "uuid": "47388561-cf0c-4cfc-91f8-fdfd9fa3d756",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.amazon.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "B5F8h8tpeZ-1ydiT0uFgdc30jJyw8H89Y8e-p_VV6yw",
-          "short_id": "7b"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇳🇱 NL | VLESS | @outlinereleasedkey #1 [fast]",
       "server": "51.158.206.103",
       "server_port": 23576,
@@ -163,7 +150,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇳🇱 NL | SS | @outlinereleasedkey #1 [medium]",
+      "tag": "🇳🇱 NL | SS | @outlinereleasedkey #1 [fast]",
       "server": "193.29.139.198",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
@@ -175,7 +162,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 NL | VLESS | @free1_vpn #1 [fast]",
+      "tag": "🇳🇱 NL | VLESS | @free1_vpn #1 [medium]",
       "server": "185.112.59.210",
       "server_port": 443,
       "uuid": "ee18d188-14cc-417e-beb1-70e4add6d023",
@@ -198,19 +185,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇳🇱 NL | SS | @free1_vpn #1 [fast]",
-      "server": "c3.nastuh.link",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "y7KeRTzmH0vXT2kp",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 NL | SS | @beshkan #1 [medium]",
+      "tag": "🇳🇱 NL | SS | @beshkan #1 [fast]",
       "server": "193.29.139.234",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
@@ -245,7 +220,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]",
+      "tag": "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
       "server": "95.179.138.190",
       "server_port": 443,
       "uuid": "telegram-id-qeshmserver",
