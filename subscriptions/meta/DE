@@ -5,7 +5,7 @@ log-level: info
 proxies:
   - {"name": "🇩🇪 DE | VLESS | @outline_ir #1 [fast]", "server": "31.76.35.27", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "4d852af3-a121-41aa-9aed-4ca40a6f7b4d", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision", "servername": "addons.mozilla.org", "reality-opts": {"public-key": "P-r-oVr8MTTCILgRxk8YuB9OKVojYw3MkH_ERUXzX3s", "short-id": "b76a6309"}}
   - {"name": "🇩🇪 DE | VLESS | @mehrosaboran #1 [fast]", "server": "195.252.179.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "596086c9-3167-0004-97a1-c04311039e06", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision", "servername": "diffoscope.com", "reality-opts": {"public-key": "6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY", "short-id": "1c3e8241a8743df9"}}
-  - {"name": "🇩🇪 DE | VLESS | @nofiltering2 #1 [slow]", "server": "de-2.starsping.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1577b744-8004-4eef-862c-8cae0cd27ab9", "network": "xhttp", "tls": true, "udp": true, "client-fingerprint": "edge", "servername": "www.icloud.com", "reality-opts": {"public-key": "ZBv1jOEHziWtQQoThg63_1gm4zIPyk_cfVmNJ1SOZSk", "short-id": "a88550765b9956ee"}}
+  - {"name": "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]", "server": "de-2.starsping.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1577b744-8004-4eef-862c-8cae0cd27ab9", "network": "xhttp", "tls": true, "udp": true, "client-fingerprint": "edge", "servername": "www.icloud.com", "reality-opts": {"public-key": "ZBv1jOEHziWtQQoThg63_1gm4zIPyk_cfVmNJ1SOZSk", "short-id": "a88550765b9956ee"}}
   - {"name": "🇩🇪 DE | VLESS | @nofiltering2 #2 [fast]", "server": "dl6.sepid-dl.ir", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "b40ddc5e-9d01-43e1-975c-30200fda12c4", "network": "httpupgrade", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇩🇪 DE | VLESS | @father_vpn #1 [fast]", "server": "152.233.35.228", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "394f6981-a782-4779-9a85-e6cf22935d93", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "servername": "de1.fromblancwithlove.com"}
   - {"name": "🇩🇪 DE | VLESS | @father_vpn #2 [fast]", "server": "167.233.59.162", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "e2773031-7418-424e-ae49-99b4b474aeba", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision", "servername": "drive.google.com", "reality-opts": {"public-key": "VwWuZIAZf4msfvsDZQjQHY6hZPK5r0O-s7yStyjOqhk", "short-id": "fc87828b94144d"}}
@@ -32,7 +32,7 @@ proxy-groups:
     proxies:
       - '🇩🇪 DE | VLESS | @outline_ir #1 [fast]'
       - '🇩🇪 DE | VLESS | @mehrosaboran #1 [fast]'
-      - '🇩🇪 DE | VLESS | @nofiltering2 #1 [slow]'
+      - '🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]'
       - '🇩🇪 DE | VLESS | @nofiltering2 #2 [fast]'
       - '🇩🇪 DE | VLESS | @father_vpn #1 [fast]'
       - '🇩🇪 DE | VLESS | @father_vpn #2 [fast]'
@@ -59,7 +59,7 @@ proxy-groups:
     proxies:
       - '🇩🇪 DE | VLESS | @outline_ir #1 [fast]'
       - '🇩🇪 DE | VLESS | @mehrosaboran #1 [fast]'
-      - '🇩🇪 DE | VLESS | @nofiltering2 #1 [slow]'
+      - '🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]'
       - '🇩🇪 DE | VLESS | @nofiltering2 #2 [fast]'
       - '🇩🇪 DE | VLESS | @father_vpn #1 [fast]'
       - '🇩🇪 DE | VLESS | @father_vpn #2 [fast]'

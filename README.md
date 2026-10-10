@@ -4,11 +4,11 @@
 
 ### Premium Proxy Subscription Generator
 
-![Updated](https://img.shields.io/badge/Updated-2026-10-09-blue?style=flat-square)
+![Updated](https://img.shields.io/badge/Updated-2026-10-10-blue?style=flat-square)
 ![Configs](https://img.shields.io/badge/Configs-311-green?style=flat-square)
 ![Lite](https://img.shields.io/badge/Lite-155-cyan?style=flat-square)
 ![Channels](https://img.shields.io/badge/Channels-88-orange?style=flat-square)
-![Countries](https://img.shields.io/badge/Countries-32-purple?style=flat-square)
+![Countries](https://img.shields.io/badge/Countries-33-purple?style=flat-square)
 
 [**فارسی**](README.fa.md)
 
@@ -21,13 +21,13 @@
 | | |
 |:---|:---|
 | 🔢 **311** configs | 🪶 **155** lite |
-| 📡 **88** channels | 🌍 **32** countries |
-| ☁️ **244** Cloudflare | ⚡ **499** fast |
+| 📡 **88** channels | 🌍 **33** countries |
+| ☁️ **244** Cloudflare | ⚡ **482** fast |
 
 <details>
 <summary><b>⚡ Protocol Distribution</b></summary>
 
-> 🔒 **VLESS** `███████████████` 387 (124.4%)
+> 🔒 **VLESS** `███████████████` 386 (124.1%)
 > ⚡ **REALITY** `██░░░░░░░░░░░░░` 60 (19.3%)
 > 🔑 **SS** `█░░░░░░░░░░░░░░` 36 (11.6%)
 > 🛡️ **VMESS** `█░░░░░░░░░░░░░░` 26 (8.4%)
@@ -40,15 +40,15 @@
 
 > 🇽🇽 **XX** `████████████` 237
 > 🇺🇸 **US** `███░░░░░░░░░` 77
-> 🇩🇪 **DE** `█░░░░░░░░░░░` 33
+> 🇩🇪 **DE** `█░░░░░░░░░░░` 32
 > 🇸🇪 **SE** `█░░░░░░░░░░░` 27
 > 🇮🇷 **IR** `█░░░░░░░░░░░` 20
 > 🇬🇧 **GB** `░░░░░░░░░░░░` 18
-> 🇳🇱 **NL** `░░░░░░░░░░░░` 15
 > 🇫🇷 **FR** `░░░░░░░░░░░░` 15
+> 🇳🇱 **NL** `░░░░░░░░░░░░` 14
 > 🇷🇺 **RU** `░░░░░░░░░░░░` 10
+> 🇵🇱 **PL** `░░░░░░░░░░░░` 9
 > 🇨🇦 **CA** `░░░░░░░░░░░░` 9
-> 🇵🇱 **PL** `░░░░░░░░░░░░` 8
 > 🇫🇮 **FI** `░░░░░░░░░░░░` 8
 > 🇸🇨 **SC** `░░░░░░░░░░░░` 6
 > 🇪🇪 **EE** `░░░░░░░░░░░░` 3
@@ -59,9 +59,9 @@
 <details>
 <summary><b>🚀 Speed Distribution</b></summary>
 
-> ⚡ **Fast** — 499 configs (< 200ms)
-> 🟡 **Medium** — 11 configs (200-500ms)
-> 🐢 **Slow** — 5 configs (> 500ms)
+> ⚡ **Fast** — 482 configs (< 200ms)
+> 🟡 **Medium** — 30 configs (200-500ms)
+> 🐢 **Slow** — 2 configs (> 500ms)
 
 </details>
 
@@ -140,8 +140,8 @@
 10. **@proxie** — 12 configs — V2ray Proxies
 11. **@customizev2ray** — 12 configs — CUSTOMIZE V2ray
 12. **@kurd_v2ray** — 12 configs — VPN فیلتر شکن
-13. **@outline_ir** — 11 configs — سرور اوتلاین ا سرور V2ray
-14. **@netfreedom0** — 11 configs — NetFreedom
+13. **@netfreedom0** — 11 configs — NetFreedom
+14. **@outline_ir** — 10 configs — سرور اوتلاین ا سرور V2ray
 15. **@mehrosaboran** — 10 configs — پروکسی و v2rayمهربانی
 16. **@novinology** — 9 configs — Novinology نوینولوژی
 17. **@minovpnch** — 9 configs — کانال MinoVpn
