@@ -50,20 +50,19 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇩🇪 DE | VLESS | @outline_ir #1 [medium]",
+        "🇩🇪 DE | VLESS | @outline_ir #1 [slow]",
         "🇩🇪 DE | VLESS | @mehrosaboran #1 [fast]",
-        "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]",
+        "🇩🇪 DE | VLESS | @nofiltering2 #1 [slow]",
         "🇩🇪 DE | VLESS | @nofiltering2 #2 [fast]",
         "🇩🇪 DE | VLESS | @father_vpn #1 [fast]",
         "🇩🇪 DE | VLESS | @father_vpn #2 [fast]",
-        "🇩🇪 DE | VLESS | @flyv2ray #1 [fast]",
-        "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
-        "🇩🇪 DE | VLESS | @outlinereleasedkey #2 [medium]",
+        "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [medium]",
         "🇩🇪 DE | VLESS | @free1_vpn #1 [medium]",
         "🇩🇪 DE | VLESS | @netmellianti #1 [medium]",
         "🇩🇪 DE | VLESS | @mpproxy #1 [fast]",
         "🇩🇪 DE | VLESS | @beshkan #1 [fast]",
-        "🇩🇪 DE | VLESS | @red2ray #1 [slow]",
+        "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
+        "🇩🇪 DE | VLESS | @red2ray #2 [fast]",
         "🇩🇪 DE | VLESS | @netfreedom0 #1 [medium]",
         "🇩🇪 DE | VLESS | @minovpnch #1 [medium]",
         "🇩🇪 DE | VMESS | @khoneproxy #1 [medium]",
@@ -81,20 +80,19 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇩🇪 DE | VLESS | @outline_ir #1 [medium]",
+        "🇩🇪 DE | VLESS | @outline_ir #1 [slow]",
         "🇩🇪 DE | VLESS | @mehrosaboran #1 [fast]",
-        "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]",
+        "🇩🇪 DE | VLESS | @nofiltering2 #1 [slow]",
         "🇩🇪 DE | VLESS | @nofiltering2 #2 [fast]",
         "🇩🇪 DE | VLESS | @father_vpn #1 [fast]",
         "🇩🇪 DE | VLESS | @father_vpn #2 [fast]",
-        "🇩🇪 DE | VLESS | @flyv2ray #1 [fast]",
-        "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
-        "🇩🇪 DE | VLESS | @outlinereleasedkey #2 [medium]",
+        "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [medium]",
         "🇩🇪 DE | VLESS | @free1_vpn #1 [medium]",
         "🇩🇪 DE | VLESS | @netmellianti #1 [medium]",
         "🇩🇪 DE | VLESS | @mpproxy #1 [fast]",
         "🇩🇪 DE | VLESS | @beshkan #1 [fast]",
-        "🇩🇪 DE | VLESS | @red2ray #1 [slow]",
+        "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
+        "🇩🇪 DE | VLESS | @red2ray #2 [fast]",
         "🇩🇪 DE | VLESS | @netfreedom0 #1 [medium]",
         "🇩🇪 DE | VLESS | @minovpnch #1 [medium]",
         "🇩🇪 DE | VMESS | @khoneproxy #1 [medium]",
@@ -112,24 +110,20 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @outline_ir #1 [medium]",
-      "server": "31.76.35.27",
+      "tag": "🇩🇪 DE | VLESS | @outline_ir #1 [slow]",
+      "server": "de2.srv.vbuste.ru",
       "server_port": 443,
-      "uuid": "4d852af3-a121-41aa-9aed-4ca40a6f7b4d",
+      "uuid": "318c935d-c195-41d3-99ad-9bbcfdab3386",
       "flow": "xtls-rprx-vision",
       "network": "tcp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "addons.mozilla.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
+        "server_name": "de2.srv.vbuste.ru",
         "reality": {
           "enabled": true,
-          "public_key": "P-r-oVr8MTTCILgRxk8YuB9OKVojYw3MkH_ERUXzX3s",
-          "short_id": "b76a6309"
+          "public_key": "0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08",
+          "short_id": "4be4110078ebed4a"
         }
       }
     },
@@ -158,7 +152,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]",
+      "tag": "🇩🇪 DE | VLESS | @nofiltering2 #1 [slow]",
       "server": "de-2.starsping.com",
       "server_port": 443,
       "uuid": "1577b744-8004-4eef-862c-8cae0cd27ab9",
@@ -229,46 +223,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @flyv2ray #1 [fast]",
-      "server": "150.241.79.232",
-      "server_port": 443,
-      "uuid": "318c935d-c195-41d3-99ad-9bbcfdab3386",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "de2.srv.vbuste.ru",
-        "reality": {
-          "enabled": true,
-          "public_key": "0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08",
-          "short_id": "4be4110078ebed4a"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
-      "server": "91.107.247.173",
-      "server_port": 443,
-      "uuid": "9eb6abc0-8423-4ff6-efb3-7603ddfb9636",
-      "network": "xhttp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "kala.fortresshost.ir",
-        "alpn": [
-          "h2"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @outlinereleasedkey #2 [medium]",
+      "tag": "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [medium]",
       "server": "50.7.157.235",
       "server_port": 443,
       "uuid": "b812a4e0-c90a-4864-8ffb-2af71d69d4f4",
@@ -380,12 +335,36 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @red2ray #1 [slow]",
+      "tag": "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
       "server": "91.107.249.108",
       "server_port": 35696,
       "uuid": "89238afb-0166-4ff0-85de-f7bec650a818",
       "network": "tcp",
       "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 DE | VLESS | @red2ray #2 [fast]",
+      "server": "141.98.7.193",
+      "server_port": 8443,
+      "uuid": "e9e60f73-1618-491c-a85b-477bdc959ae6",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "141.98.7.193",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws-cdn1-vless",
+        "headers": {
+          "Host": "de.fastmirror-labs.xyz"
+        }
+      }
     },
     {
       "type": "vless",

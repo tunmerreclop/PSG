@@ -55,7 +55,7 @@
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
         "🇷🇺 RU | VLESS | @nofiltering2 #1 [fast]",
-        "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]",
+        "🇩🇪 DE | VLESS | @nofiltering2 #1 [slow]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #1 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #2 [fast]",
         "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
@@ -68,7 +68,6 @@
         "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
         "🇺🇸 US | VLESS | @red2ray #1 [fast]",
-        "🇽🇽 XX | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2 [fast]",
         "🇽🇽 XX | VLESS | @kilid_stor #1 [fast]",
@@ -107,7 +106,7 @@
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
         "🇷🇺 RU | VLESS | @nofiltering2 #1 [fast]",
-        "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]",
+        "🇩🇪 DE | VLESS | @nofiltering2 #1 [slow]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #1 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #2 [fast]",
         "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
@@ -120,7 +119,6 @@
         "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
         "🇺🇸 US | VLESS | @red2ray #1 [fast]",
-        "🇽🇽 XX | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2 [fast]",
         "🇽🇽 XX | VLESS | @kilid_stor #1 [fast]",
@@ -225,7 +223,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]",
+      "tag": "🇩🇪 DE | VLESS | @nofiltering2 #1 [slow]",
       "server": "de-2.starsping.com",
       "server_port": 443,
       "uuid": "1577b744-8004-4eef-862c-8cae0cd27ab9",
@@ -410,46 +408,11 @@
     {
       "type": "vless",
       "tag": "🇺🇸 US | VLESS | @red2ray #1 [fast]",
-      "server": "editmamad.ddns.ge",
-      "server_port": 443,
-      "uuid": "c2790140-dc7f-486e-8517-d3d05925443c",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "editmamad.ddns.ge",
-        "insecure": true,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ws/2f966597-4fe5-4e8e-a3ef-b27fb0950547?ed=2560",
-        "headers": {
-          "Host": "editmamad.ddns.ge"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇽🇽 XX | VLESS | @red2ray #1 [fast]",
-      "server": "tewktcy0e7mb0wc47ybk30sk7p.huj9yyse8zu72oohdcsvt-z4tuagwvh.workers.dev",
-      "server_port": 2086,
-      "uuid": "bb82fa3c-7577-4f82-af5e-d06d2807841a",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/vl/jDpXgGS8AmFwKNmh3yevSr54?ed=2560",
-        "headers": {
-          "Host": "tewktcy0e7mb0wc47ybk30sk7p.huj9yyse8zu72oohdcsvt-z4tuagwvh.workers.dev"
-        }
-      }
+      "server": "ascx-1a106b7e39b001-task-1a110b26294000-f176543e8c.global.ssl.fastly.net",
+      "server_port": 80,
+      "uuid": "19bc4f42-2502-45f6-a573-b28fc8257f02",
+      "network": "xhttp",
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
