@@ -4,16 +4,19 @@ mode: rule
 log-level: info
 proxies:
   - {"name": "🇵🇱 PL | VLESS | @outline_ir #1 [fast]", "server": "83.168.107.220", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "b1813cbd-831f-4cb3-baf8-5bc0cc8298bc", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "safari", "flow": "xtls-rprx-vision", "servername": "google.com", "reality-opts": {"public-key": "s0lbZ5BO3ctZjE8DzsXkNL0NvLl6FgLG6532NQzXigo", "short-id": "c56d4f1c"}}
+  - {"name": "🇵🇱 PL | VLESS | @red2ray #1 [medium]", "server": "195.133.80.152", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ee18d188-14cc-417e-beb1-70e4add6d023", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "firefox", "flow": "xtls-rprx-vision", "servername": "pl3.nztvpn.com", "reality-opts": {"public-key": "UcFVpzbYTy8Iym6ZnCAtLQK-MeRg6wZuyni4xEOKG18", "short-id": "0da7e14db353e7d0"}}
 proxy-groups:
   - name: "PROXY"
     type: select
     proxies:
       - '🇵🇱 PL | VLESS | @outline_ir #1 [fast]'
+      - '🇵🇱 PL | VLESS | @red2ray #1 [medium]'
       - DIRECT
   - name: "Auto"
     type: url-test
     proxies:
       - '🇵🇱 PL | VLESS | @outline_ir #1 [fast]'
+      - '🇵🇱 PL | VLESS | @red2ray #1 [medium]'
 rules:
   - GEOIP,IR,DIRECT
   - MATCH,PROXY

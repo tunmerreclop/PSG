@@ -51,8 +51,8 @@
       "outbounds": [
         "auto",
         "🇵🇱 PL | VLESS | @outline_ir #1 [fast]",
-        "🇵🇱 PL | SS | @netfreedom0 #1 [fast]",
-        "🇵🇱 PL | SS | @netfreedom0 #2 [fast]",
+        "🇵🇱 PL | VLESS | @red2ray #1 [medium]",
+        "🇵🇱 PL | SS | @netfreedom0 #1 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -62,8 +62,8 @@
       "tag": "auto",
       "outbounds": [
         "🇵🇱 PL | VLESS | @outline_ir #1 [fast]",
-        "🇵🇱 PL | SS | @netfreedom0 #1 [fast]",
-        "🇵🇱 PL | SS | @netfreedom0 #2 [fast]"
+        "🇵🇱 PL | VLESS | @red2ray #1 [medium]",
+        "🇵🇱 PL | SS | @netfreedom0 #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -94,24 +94,35 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 PL | SS | @netfreedom0 #1 [fast]",
-      "server": "217.30.10.44",
-      "server_port": 9076,
-      "method": "aes-256-cfb",
-      "password": "S2zDyyPcmZN2h8EC",
+      "type": "vless",
+      "tag": "🇵🇱 PL | VLESS | @red2ray #1 [medium]",
+      "server": "195.133.80.152",
+      "server_port": 443,
+      "uuid": "ee18d188-14cc-417e-beb1-70e4add6d023",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
+      "packet_encoding": "xudp",
       "tls": {
-        "enabled": true
+        "enabled": true,
+        "server_name": "pl3.nztvpn.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "UcFVpzbYTy8Iym6ZnCAtLQK-MeRg6wZuyni4xEOKG18",
+          "short_id": "0da7e14db353e7d0"
+        }
       }
     },
     {
       "type": "shadowsocks",
-      "tag": "🇵🇱 PL | SS | @netfreedom0 #2 [fast]",
+      "tag": "🇵🇱 PL | SS | @netfreedom0 #1 [medium]",
       "server": "217.30.10.44",
-      "server_port": 9099,
+      "server_port": 9076,
       "method": "aes-256-cfb",
-      "password": "7heRqkPG3hg4UnRm",
+      "password": "S2zDyyPcmZN2h8EC",
       "network": "tcp",
       "tls": {
         "enabled": true
