@@ -50,14 +50,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇳🇱 NL | VLESS | @outline_ir #1 [fast]",
+        "🇳🇱 NL | VLESS | @outline_ir #1 [medium]",
         "🇳🇱 NL | VLESS | @orange_vpns #1 [fast]",
         "🇳🇱 NL | VLESS | @free1_vpn #1 [fast]",
-        "🇳🇱 NL | SS | @beshkan #1 [fast]",
+        "🇳🇱 NL | SS | @beshkan #1 [medium]",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1 [fast]",
-        "🇳🇱 NL | SS | @mtproxy22_v2ray #1 [slow]",
-        "🇳🇱 NL | SS | @easy_free_vpn #1 [fast]",
-        "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
+        "🇳🇱 NL | SS | @mtproxy22_v2ray #1 [medium]",
+        "🇳🇱 NL | SS | @easy_free_vpn #1 [medium]",
+        "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -66,14 +66,14 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇳🇱 NL | VLESS | @outline_ir #1 [fast]",
+        "🇳🇱 NL | VLESS | @outline_ir #1 [medium]",
         "🇳🇱 NL | VLESS | @orange_vpns #1 [fast]",
         "🇳🇱 NL | VLESS | @free1_vpn #1 [fast]",
-        "🇳🇱 NL | SS | @beshkan #1 [fast]",
+        "🇳🇱 NL | SS | @beshkan #1 [medium]",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1 [fast]",
-        "🇳🇱 NL | SS | @mtproxy22_v2ray #1 [slow]",
-        "🇳🇱 NL | SS | @easy_free_vpn #1 [fast]",
-        "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]"
+        "🇳🇱 NL | SS | @mtproxy22_v2ray #1 [medium]",
+        "🇳🇱 NL | SS | @easy_free_vpn #1 [medium]",
+        "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -82,7 +82,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 NL | VLESS | @outline_ir #1 [fast]",
+      "tag": "🇳🇱 NL | VLESS | @outline_ir #1 [medium]",
       "server": "free-amsterdam-node-1.cloudwidecdn.com",
       "server_port": 443,
       "uuid": "44ae52b9-76fc-444d-8e43-186b4384b80a",
@@ -147,7 +147,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇳🇱 NL | SS | @beshkan #1 [fast]",
+      "tag": "🇳🇱 NL | SS | @beshkan #1 [medium]",
       "server": "193.29.139.234",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
@@ -182,7 +182,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇳🇱 NL | SS | @mtproxy22_v2ray #1 [slow]",
+      "tag": "🇳🇱 NL | SS | @mtproxy22_v2ray #1 [medium]",
       "server": "193.29.139.168",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
@@ -194,7 +194,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇳🇱 NL | SS | @easy_free_vpn #1 [fast]",
+      "tag": "🇳🇱 NL | SS | @easy_free_vpn #1 [medium]",
       "server": "193.29.139.151",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
@@ -206,7 +206,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
+      "tag": "🇳🇱 NL | VLESS | @qeshmserver #1 [medium]",
       "server": "95.179.138.190",
       "server_port": 443,
       "uuid": "telegram-id-qeshmserver",
