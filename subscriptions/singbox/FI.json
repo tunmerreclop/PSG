@@ -50,7 +50,6 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇫🇮 FI | HY2 | @prrofile_purple #1 [fast]",
         "🇫🇮 FI | VLESS | @outlinereleasedkey #1 [medium]",
         "direct"
       ],
@@ -60,28 +59,12 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇫🇮 FI | HY2 | @prrofile_purple #1 [fast]",
         "🇫🇮 FI | VLESS | @outlinereleasedkey #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
       "tolerance": 50,
       "idle_timeout": "30m"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇫🇮 FI | HY2 | @prrofile_purple #1 [fast]",
-      "server": "31.76.80.69",
-      "server_port": 443,
-      "password": "6aab8efdf13945829ae3699c342be406",
-      "obfs": {
-        "type": "salamander",
-        "password": "salamander"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fiproxy1.lockdwn.com"
-      }
     },
     {
       "type": "vless",

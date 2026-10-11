@@ -53,16 +53,16 @@
         "🇮🇷 IR | SS | @orange_vpns #1 [medium]",
         "🇮🇷 IR | VLESS | @orange_vpns #1 [medium]",
         "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
-        "🇮🇷 IR | VLESS | @netmellianti #1 [medium]",
+        "🇮🇷 IR | VLESS | @netmellianti #1 [fast]",
         "🇮🇷 IR | VLESS | @mpproxy #1 [fast]",
         "🇮🇷 IR | SS | @tanhanet #1 [medium]",
+        "🇮🇷 IR | VLESS | @lax_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
         "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
-        "🇮🇷 IR | VLESS | @config_proxy #1 [medium]",
-        "🇮🇷 IR | VLESS | @config_proxy #2 [medium]",
-        "🇮🇷 IR | VLESS | @lax_vpn #1 [fast]",
+        "🇮🇷 IR | VLESS | @config_proxy #1 [fast]",
+        "🇮🇷 IR | VLESS | @config_proxy #2 [fast]",
         "🇮🇷 IR | VMESS | @NamiraConfigs #1 [medium]",
-        "🇮🇷 IR | VLESS | @NamiraConfigs #1 [fast]",
+        "🇮🇷 IR | VLESS | @NamiraConfigs #1 [medium]",
         "🇮🇷 IR | VLESS | @NamiraConfigs #2 [medium]",
         "🇮🇷 IR | VMESS | @khoneproxy #1 [fast]",
         "🇮🇷 IR | VLESS | @nn_vpn #1 [medium]",
@@ -79,16 +79,16 @@
         "🇮🇷 IR | SS | @orange_vpns #1 [medium]",
         "🇮🇷 IR | VLESS | @orange_vpns #1 [medium]",
         "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
-        "🇮🇷 IR | VLESS | @netmellianti #1 [medium]",
+        "🇮🇷 IR | VLESS | @netmellianti #1 [fast]",
         "🇮🇷 IR | VLESS | @mpproxy #1 [fast]",
         "🇮🇷 IR | SS | @tanhanet #1 [medium]",
+        "🇮🇷 IR | VLESS | @lax_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
         "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
-        "🇮🇷 IR | VLESS | @config_proxy #1 [medium]",
-        "🇮🇷 IR | VLESS | @config_proxy #2 [medium]",
-        "🇮🇷 IR | VLESS | @lax_vpn #1 [fast]",
+        "🇮🇷 IR | VLESS | @config_proxy #1 [fast]",
+        "🇮🇷 IR | VLESS | @config_proxy #2 [fast]",
         "🇮🇷 IR | VMESS | @NamiraConfigs #1 [medium]",
-        "🇮🇷 IR | VLESS | @NamiraConfigs #1 [fast]",
+        "🇮🇷 IR | VLESS | @NamiraConfigs #1 [medium]",
         "🇮🇷 IR | VLESS | @NamiraConfigs #2 [medium]",
         "🇮🇷 IR | VMESS | @khoneproxy #1 [fast]",
         "🇮🇷 IR | VLESS | @nn_vpn #1 [medium]",
@@ -146,7 +146,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 IR | VLESS | @netmellianti #1 [medium]",
+      "tag": "🇮🇷 IR | VLESS | @netmellianti #1 [fast]",
       "server": "185.143.234.238",
       "server_port": 80,
       "uuid": "0aa8a7cd-eb08-4fa6-a277-c9d95282d4e6",
@@ -190,6 +190,26 @@
     },
     {
       "type": "vless",
+      "tag": "🇮🇷 IR | VLESS | @lax_vpn #1 [fast]",
+      "server": "s19.speedyconnect.pro",
+      "server_port": 443,
+      "uuid": "97dce074-7db1-4d59-99ca-0ef8311e2425",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "s19.speedyconnect.pro"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/downloader/10005?ed=2048",
+        "headers": {
+          "Host": "s19.speedyconnect.pro"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
       "server": "tamin.ir",
       "server_port": 80,
@@ -227,7 +247,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 IR | VLESS | @config_proxy #1 [medium]",
+      "tag": "🇮🇷 IR | VLESS | @config_proxy #1 [fast]",
       "server": "185.143.233.235",
       "server_port": 80,
       "uuid": "22109ab6-bfdd-4062-ae1c-054c74353e39",
@@ -236,7 +256,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 IR | VLESS | @config_proxy #2 [medium]",
+      "tag": "🇮🇷 IR | VLESS | @config_proxy #2 [fast]",
       "server": "185.143.234.235",
       "server_port": 80,
       "uuid": "b8799fac-622a-4142-aab2-2aa862ad35f2",
@@ -247,26 +267,6 @@
         "path": "/",
         "headers": {
           "Host": "vixon.portab.org"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷 IR | VLESS | @lax_vpn #1 [fast]",
-      "server": "s19.speedyconnect.pro",
-      "server_port": 443,
-      "uuid": "97dce074-7db1-4d59-99ca-0ef8311e2425",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "s19.speedyconnect.pro"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/downloader/10005?ed=2048",
-        "headers": {
-          "Host": "s19.speedyconnect.pro"
         }
       }
     },
@@ -285,7 +285,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 IR | VLESS | @NamiraConfigs #1 [fast]",
+      "tag": "🇮🇷 IR | VLESS | @NamiraConfigs #1 [medium]",
       "server": "185.143.234.111",
       "server_port": 443,
       "uuid": "bc4d97ba-d54f-4555-ba71-f7421796d92c",
