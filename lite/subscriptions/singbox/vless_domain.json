@@ -67,6 +67,7 @@
         "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
         "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
+        "🇷🇺 RU | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2 [fast]",
         "🇽🇽 XX | VLESS | @kilid_stor #1 [fast]",
@@ -117,6 +118,7 @@
         "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
         "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
+        "🇷🇺 RU | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2 [fast]",
         "🇽🇽 XX | VLESS | @kilid_stor #1 [fast]",
@@ -387,6 +389,31 @@
         "path": "vless-ws/?ed=2048",
         "headers": {
           "Host": "sub.shadowsokstes.WoRkErs.DeV"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 RU | VLESS | @red2ray #1 [fast]",
+      "server": "drive.korroh.com",
+      "server_port": 443,
+      "uuid": "ec6f8131-7a5d-4117-9627-6fb2b39ae0da",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "drive.korroh.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/remote.php/dav/89f7661a0011ce46",
+        "headers": {
+          "Host": "drive.korroh.com"
         }
       }
     },
