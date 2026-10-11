@@ -52,6 +52,7 @@
         "auto",
         "🇬🇧 GB | SS | @father_vpn #1 [fast]",
         "🇬🇧 GB | VLESS | @outlinereleasedkey #1 [fast]",
+        "🇬🇧 GB | SS | @outlinereleasedkey #1 [fast]",
         "🇬🇧 GB | SS | @beshkan #1 [fast]",
         "🇬🇧 GB | SS | @beshkan #2 [fast]",
         "🇬🇧 GB | SS | @beshkan #3 [fast]",
@@ -70,6 +71,7 @@
       "outbounds": [
         "🇬🇧 GB | SS | @father_vpn #1 [fast]",
         "🇬🇧 GB | VLESS | @outlinereleasedkey #1 [fast]",
+        "🇬🇧 GB | SS | @outlinereleasedkey #1 [fast]",
         "🇬🇧 GB | SS | @beshkan #1 [fast]",
         "🇬🇧 GB | SS | @beshkan #2 [fast]",
         "🇬🇧 GB | SS | @beshkan #3 [fast]",
@@ -108,10 +110,22 @@
       "tls": {
         "enabled": true,
         "server_name": "grok.setlisting.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ]
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇬🇧 GB | SS | @outlinereleasedkey #1 [fast]",
+      "server": "82.38.31.159",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
       }
     },
     {
@@ -189,7 +203,7 @@
     {
       "type": "vless",
       "tag": "🇬🇧 GB | VLESS | @privatevpns #1 [fast]",
-      "server": "51.200.42.237",
+      "server": "3.9.154.127",
       "server_port": 22222,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "network": "tcp",
@@ -198,7 +212,7 @@
     {
       "type": "vless",
       "tag": "🇬🇧 GB | VLESS | @privatevpns #2 [fast]",
-      "server": "51.24.70.246",
+      "server": "13.135.158.229",
       "server_port": 22222,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "network": "tcp",
