@@ -100,7 +100,6 @@
         "🇽🇽 XX | VLESS | @novinology #3 [fast]",
         "🇽🇽 XX | VLESS | @novinology #4 [fast]",
         "🇽🇽 XX | VLESS | @novinology #5 [fast]",
-        "🇽🇽 XX | VLESS | @ai_duet #1 [fast]",
         "🇽🇽 XX | VLESS | @miov2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @miov2ray #2 [fast]",
         "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
@@ -131,6 +130,7 @@
         "🇽🇽 XX | VLESS | @proxie #5 [fast]",
         "🇽🇽 XX | VLESS | @proxie #6 [fast]",
         "🇽🇽 XX | VLESS | @kilid_stor #1 [fast]",
+        "🇽🇽 XX | VLESS | @ai_duet #1 [fast]",
         "🇽🇽 XX | VLESS | @NamiraConfigs #1 [fast]",
         "🇽🇽 XX | VLESS | @prooxyk #1 [fast]",
         "🇽🇽 XX | VLESS | @customizev2ray #1 [fast]",
@@ -253,7 +253,6 @@
         "🇽🇽 XX | VLESS | @novinology #3 [fast]",
         "🇽🇽 XX | VLESS | @novinology #4 [fast]",
         "🇽🇽 XX | VLESS | @novinology #5 [fast]",
-        "🇽🇽 XX | VLESS | @ai_duet #1 [fast]",
         "🇽🇽 XX | VLESS | @miov2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @miov2ray #2 [fast]",
         "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
@@ -284,6 +283,7 @@
         "🇽🇽 XX | VLESS | @proxie #5 [fast]",
         "🇽🇽 XX | VLESS | @proxie #6 [fast]",
         "🇽🇽 XX | VLESS | @kilid_stor #1 [fast]",
+        "🇽🇽 XX | VLESS | @ai_duet #1 [fast]",
         "🇽🇽 XX | VLESS | @NamiraConfigs #1 [fast]",
         "🇽🇽 XX | VLESS | @prooxyk #1 [fast]",
         "🇽🇽 XX | VLESS | @customizev2ray #1 [fast]",
@@ -1364,30 +1364,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇽🇽 XX | VLESS | @ai_duet #1 [fast]",
-      "server": "172.64.155.209",
-      "server_port": 8443,
-      "uuid": "e8c61352-444f-4154-ba34-9d3141154a8d",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "maple.adaspoloandco.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/uploader.php",
-        "headers": {
-          "Host": "maple.adaspoloandco.com"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇽🇽 XX | VLESS | @miov2ray #1 [fast]",
       "server": "104.21.28.62",
       "server_port": 443,
@@ -1958,6 +1934,30 @@
         "path": "/ld?ed=2048",
         "headers": {
           "Host": "ad1.xiqpanelz.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇽🇽 XX | VLESS | @ai_duet #1 [fast]",
+      "server": "172.64.155.209",
+      "server_port": 8443,
+      "uuid": "e8c61352-444f-4154-ba34-9d3141154a8d",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "maple.adaspoloandco.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/uploader.php",
+        "headers": {
+          "Host": "maple.adaspoloandco.com"
         }
       }
     },

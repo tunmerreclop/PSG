@@ -59,6 +59,7 @@
         "🇺🇸 US | VLESS | @orange_vpns #1 [fast]",
         "🇺🇸 US | VLESS | @orange_vpns #2 [fast]",
         "🇩🇪 DE | VLESS | @orange_vpns #1 [fast]",
+        "🇩🇪 DE | VLESS | @orange_vpns #3 [fast]",
         "🇷🇺 RU | VLESS | @prrofile_purple #1 [fast]",
         "🇩🇪 DE | VLESS | @flyv2ray #1 [fast]",
         "🇩🇪 DE | VLESS | @flyv2ray #2 [fast]",
@@ -69,7 +70,7 @@
         "🇳🇱 NL | VLESS | @filtershekan_channel #1 [fast]",
         "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
         "🇱🇹 LT | VLESS | @red2ray #1 [fast]",
-        "🇷🇺 RU | VLESS | @red2ray #1 [medium]",
+        "🇷🇺 RU | VLESS | @red2ray #1 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
         "🇩🇪 DE | VLESS | @nepo_v2ray #1 [fast]",
@@ -90,6 +91,7 @@
         "🇺🇸 US | VLESS | @orange_vpns #1 [fast]",
         "🇺🇸 US | VLESS | @orange_vpns #2 [fast]",
         "🇩🇪 DE | VLESS | @orange_vpns #1 [fast]",
+        "🇩🇪 DE | VLESS | @orange_vpns #3 [fast]",
         "🇷🇺 RU | VLESS | @prrofile_purple #1 [fast]",
         "🇩🇪 DE | VLESS | @flyv2ray #1 [fast]",
         "🇩🇪 DE | VLESS | @flyv2ray #2 [fast]",
@@ -100,7 +102,7 @@
         "🇳🇱 NL | VLESS | @filtershekan_channel #1 [fast]",
         "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
         "🇱🇹 LT | VLESS | @red2ray #1 [fast]",
-        "🇷🇺 RU | VLESS | @red2ray #1 [medium]",
+        "🇷🇺 RU | VLESS | @red2ray #1 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
         "🇩🇪 DE | VLESS | @nepo_v2ray #1 [fast]"
@@ -275,6 +277,29 @@
       "transport": {
         "type": "grpc",
         "service_name": "grpc"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 DE | VLESS | @orange_vpns #3 [fast]",
+      "server": "31.56.18.67",
+      "server_port": 2083,
+      "uuid": "0be0a2bf-aa20-4e52-aa5a-3d59d56b1582",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "dege.underground.company",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "RAsD3YMZiEtRBEQ6hNpsyfVE9ro1M4H2AQ-CKbBjJGU",
+          "short_id": "7878a3f029e04e23"
+        }
       }
     },
     {
@@ -502,7 +527,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @red2ray #1 [medium]",
+      "tag": "🇷🇺 RU | VLESS | @red2ray #1 [fast]",
       "server": "185.22.153.40",
       "server_port": 8443,
       "uuid": "c96f941e-dd8a-006e-89d5-740b79202ed0",
