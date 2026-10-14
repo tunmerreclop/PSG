@@ -50,9 +50,10 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇷🇺 RU | VLESS | @prrofile_purple #1 [medium]",
-        "🇷🇺 RU | VLESS | @prrofile_purple #2 [medium]",
-        "🇷🇺 RU | VLESS | @prrofile_purple #3 [medium]",
+        "🇷🇺 RU | VLESS | @prrofile_purple #1 [fast]",
+        "🇷🇺 RU | VLESS | @prrofile_purple #2 [fast]",
+        "🇷🇺 RU | VLESS | @prrofile_purple #3 [fast]",
+        "🇷🇺 RU | VLESS | @red2ray #1 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -61,9 +62,10 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇺 RU | VLESS | @prrofile_purple #1 [medium]",
-        "🇷🇺 RU | VLESS | @prrofile_purple #2 [medium]",
-        "🇷🇺 RU | VLESS | @prrofile_purple #3 [medium]"
+        "🇷🇺 RU | VLESS | @prrofile_purple #1 [fast]",
+        "🇷🇺 RU | VLESS | @prrofile_purple #2 [fast]",
+        "🇷🇺 RU | VLESS | @prrofile_purple #3 [fast]",
+        "🇷🇺 RU | VLESS | @red2ray #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -72,7 +74,29 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #1 [medium]",
+      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #1 [fast]",
+      "server": "84.38.187.134",
+      "server_port": 443,
+      "uuid": "53ffd172-de4c-002f-aa77-1a6830a36cf8",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "git.xpkg.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "QSAIpsE696lDqkumfo7dyBt92XzrVDPTF6KogbeKhGc",
+          "short_id": "2c9431dc7a306018"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #2 [fast]",
       "server": "84.38.187.134",
       "server_port": 443,
       "uuid": "53ffd172-de4c-0037-aa77-1a6830a36cf8",
@@ -94,7 +118,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #2 [medium]",
+      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #3 [fast]",
       "server": "95.143.188.10",
       "server_port": 443,
       "uuid": "53ffd172-de4c-0037-aa77-1a6830a36cf8",
@@ -116,23 +140,23 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #3 [medium]",
-      "server": "84.38.187.134",
-      "server_port": 443,
-      "uuid": "53ffd172-de4c-002f-aa77-1a6830a36cf8",
-      "network": "xhttp",
+      "tag": "🇷🇺 RU | VLESS | @red2ray #1 [medium]",
+      "server": "109.248.169.195",
+      "server_port": 43000,
+      "uuid": "caed9423-a900-4704-9045-d207a8d4697b",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "git.xpkg.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "QSAIpsE696lDqkumfo7dyBt92XzrVDPTF6KogbeKhGc",
-          "short_id": "2c9431dc7a306018"
+          "public_key": "0cVL3RpP9S7OYgQDyZMoV6n3LtrbDJ7DjjUk_0ZizWc",
+          "short_id": "445b41ed"
         }
       }
     },

@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgSFkyX0lQVjQ=
+//profile-title: base64:UFNHIHwgWkE=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://telegram.me/yebekhe
@@ -50,10 +50,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi",
-        "🇫🇮 FI | HY2 | @prrofile_purple #1 [medium]",
+        "🇿🇦 ZA | SS | @netfreedom0 #1 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -62,10 +59,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi",
-        "🇫🇮 FI | HY2 | @prrofile_purple #1 [medium]"
+        "🇿🇦 ZA | SS | @netfreedom0 #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -73,57 +67,15 @@
       "idle_timeout": "30m"
     },
     {
-      "type": "vless",
-      "tag": "همکاری_ملی",
-      "server": "127.0.0.1",
+      "type": "shadowsocks",
+      "tag": "🇿🇦 ZA | SS | @netfreedom0 #1 [medium]",
+      "server": "102.37.156.224",
       "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "جاویدشاه",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "KingRezaPahlavi",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇫🇮 FI | HY2 | @prrofile_purple #1 [medium]",
-      "server": "31.76.80.69",
-      "server_port": 443,
-      "password": "6aab8efdf13945829ae3699c342be406",
-      "obfs": {
-        "type": "salamander",
-        "password": "salamander"
-      },
+      "method": "chacha20-ietf-poly1305",
+      "password": "aduB9HGxQHjA2SBMRjkHX6",
+      "network": "tcp",
       "tls": {
-        "enabled": true,
-        "server_name": "fiproxy1.lockdwn.com"
+        "enabled": true
       }
     },
     {
