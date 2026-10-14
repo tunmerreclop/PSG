@@ -57,7 +57,7 @@
         "🇬🇧 GB | SS | @beshkan #4 [fast]",
         "🇬🇧 GB | SS | @free4allvpn #1 [fast]",
         "🇬🇧 GB | VLESS | @privatevpns #1 [fast]",
-        "🇬🇧 GB | VLESS | @privatevpns #2 [fast]",
+        "🇬🇧 GB | VLESS | @red2ray #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -73,7 +73,7 @@
         "🇬🇧 GB | SS | @beshkan #4 [fast]",
         "🇬🇧 GB | SS | @free4allvpn #1 [fast]",
         "🇬🇧 GB | VLESS | @privatevpns #1 [fast]",
-        "🇬🇧 GB | VLESS | @privatevpns #2 [fast]"
+        "🇬🇧 GB | VLESS | @red2ray #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -155,7 +155,7 @@
     {
       "type": "vless",
       "tag": "🇬🇧 GB | VLESS | @privatevpns #1 [fast]",
-      "server": "51.201.0.80",
+      "server": "52.56.174.51",
       "server_port": 22222,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "network": "tcp",
@@ -163,12 +163,25 @@
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 GB | VLESS | @privatevpns #2 [fast]",
-      "server": "52.56.174.51",
-      "server_port": 22222,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "tag": "🇬🇧 GB | VLESS | @red2ray #1 [fast]",
+      "server": "178.107.58.80",
+      "server_port": 8443,
+      "uuid": "d0b32482-67aa-426d-8735-ab6c7ceb65bd",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
-      "packet_encoding": "xudp"
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.intercom-home.online",
+        "insecure": true,
+        "alpn": [
+          "h2"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
     },
     {
       "type": "direct",
