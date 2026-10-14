@@ -54,18 +54,17 @@
         "🇩🇪 DE | VLESS | @orange_vpns #1 [fast]",
         "🇩🇪 DE | VLESS | @orange_vpns #2 [fast]",
         "🇩🇪 DE | VLESS | @orange_vpns #3 [fast]",
+        "🇩🇪 DE | VLESS | @orange_vpns #4 [fast]",
         "🇩🇪 DE | VMESS | @orange_vpns #1 [fast]",
         "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]",
         "🇩🇪 DE | VLESS | @nofiltering2 #2 [fast]",
         "🇩🇪 DE | VLESS | @flyv2ray #1 [fast]",
-        "🇩🇪 DE | SS | @outlinereleasedkey #1 [fast]",
+        "🇩🇪 DE | SS | @outlinereleasedkey #1 [medium]",
         "🇩🇪 DE | VLESS | @father_vpn #1 [fast]",
         "🇩🇪 DE | VLESS | @father_vpn #2 [fast]",
         "🇩🇪 DE | SS | @free1_vpn #1 [medium]",
         "🇩🇪 DE | VLESS | @netmellianti #1 [fast]",
         "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
-        "🇩🇪 DE | VMESS | @red2ray #1 [fast]",
-        "🇩🇪 DE | VLESS | @red2ray #2 [fast]",
         "🇩🇪 DE | VLESS | @netfreedom0 #1 [fast]",
         "🇩🇪 DE | VLESS | @minovpnch #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #1 [fast]",
@@ -87,18 +86,17 @@
         "🇩🇪 DE | VLESS | @orange_vpns #1 [fast]",
         "🇩🇪 DE | VLESS | @orange_vpns #2 [fast]",
         "🇩🇪 DE | VLESS | @orange_vpns #3 [fast]",
+        "🇩🇪 DE | VLESS | @orange_vpns #4 [fast]",
         "🇩🇪 DE | VMESS | @orange_vpns #1 [fast]",
         "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]",
         "🇩🇪 DE | VLESS | @nofiltering2 #2 [fast]",
         "🇩🇪 DE | VLESS | @flyv2ray #1 [fast]",
-        "🇩🇪 DE | SS | @outlinereleasedkey #1 [fast]",
+        "🇩🇪 DE | SS | @outlinereleasedkey #1 [medium]",
         "🇩🇪 DE | VLESS | @father_vpn #1 [fast]",
         "🇩🇪 DE | VLESS | @father_vpn #2 [fast]",
         "🇩🇪 DE | SS | @free1_vpn #1 [medium]",
         "🇩🇪 DE | VLESS | @netmellianti #1 [fast]",
         "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
-        "🇩🇪 DE | VMESS | @red2ray #1 [fast]",
-        "🇩🇪 DE | VLESS | @red2ray #2 [fast]",
         "🇩🇪 DE | VLESS | @netfreedom0 #1 [fast]",
         "🇩🇪 DE | VLESS | @minovpnch #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #1 [fast]",
@@ -210,6 +208,29 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇩🇪 DE | VLESS | @orange_vpns #4 [fast]",
+      "server": "169.40.42.182",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
+        }
+      }
+    },
+    {
       "type": "vmess",
       "tag": "🇩🇪 DE | VMESS | @orange_vpns #1 [fast]",
       "server": "31.76.11.83",
@@ -278,7 +299,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇩🇪 DE | SS | @outlinereleasedkey #1 [fast]",
+      "tag": "🇩🇪 DE | SS | @outlinereleasedkey #1 [medium]",
       "server": "213.202.208.199",
       "server_port": 5000,
       "method": "aes-256-gcm",
@@ -365,60 +386,22 @@
     {
       "type": "vless",
       "tag": "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
-      "server": "de20.h1cloud.net",
-      "server_port": 25031,
-      "uuid": "83383473-0d62-4089-ac4d-d7ecb413504a",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
+      "server": "sub.skyshopnet.ir",
+      "server_port": 2082,
+      "uuid": "bdb5e7de-bda8-4a93-89ae-a51035ea4196",
+      "network": "xhttp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "de5.boutique-hotel1108.ru",
+        "server_name": "www.sony-asia.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
         "reality": {
           "enabled": true,
-          "public_key": "wCr1X4Jxl1fAvvaSVG1iMUIpCt-lPn4sc9Ge3oc5pnI",
-          "short_id": "8862b0abe5ce8009"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇩🇪 DE | VMESS | @red2ray #1 [fast]",
-      "server": "88.198.91.100",
-      "server_port": 30561,
-      "uuid": "7e1eb307-c809-4e13-963e-d17b49806683",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "network": "grpc",
-      "packet_encoding": "",
-      "transport": {
-        "type": "grpc",
-        "service_name": "grpc"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @red2ray #2 [fast]",
-      "server": "ops5788tugfuy.localip.ir",
-      "server_port": 2087,
-      "uuid": "a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "ops5788tugfuy.localip.ir",
-        "insecure": true,
-        "alpn": [
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/hokm",
-        "headers": {
-          "Host": "ops5788tugfuy.localip.ir"
+          "public_key": "hpqn8r_F_YEnWuzRgNtRM5uHgUkrIzx99VEwzJH-PTI",
+          "short_id": "42"
         }
       }
     },
